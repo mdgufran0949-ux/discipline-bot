@@ -326,18 +326,17 @@ def generate_canva_post(
 
     if use_canva and template_id:
         try:
-            fields = {
-                "quote_text":   quote,
-                "series_label": series_label,
-                "page_name":    page_name
-            }
-            design_id = _autofill_template(template_id, fields)
-            _export_design(design_id, output_path, format="jpg")
-            return {"file": output_path, "tool": "canva", "design_style": design_style}
+            # Export the Canva template as background image, then overlay text with Pillow
+            canva_bg_path = os.path.join(TMP_DIR, f"canva_bg_{int(time.time())}.jpg")
+            design_id = _create_design_from_template(template_id)
+            _export_design(design_id, canva_bg_path, format="jpg")
+            print(f"  [Canva] Template exported → overlaying text with Pillow...", flush=True)
+            _compose_with_pillow(quote, series_label, page_name, design_style, canva_bg_path, output_path)
+            return {"file": output_path, "tool": "canva+pillow", "design_style": design_style}
         except Exception as e:
-            print(f"  [Canva] failed: {e}. Falling back to Pillow...", flush=True)
+            print(f"  [Canva] failed: {e}. Using AI background...", flush=True)
 
-    # Fallback: Pillow
+    # Fallback: Pillow with AI-generated background
     _compose_with_pillow(quote, series_label, page_name, design_style, bg_image_path, output_path)
     return {"file": output_path, "tool": "pillow", "design_style": design_style}
 
