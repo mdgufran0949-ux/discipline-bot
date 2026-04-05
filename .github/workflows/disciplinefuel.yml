@@ -43,6 +43,7 @@ jobs:
           CANVA_CLIENT_ID=${{ secrets.CANVA_CLIENT_ID }}
           CANVA_CLIENT_SECRET=${{ secrets.CANVA_CLIENT_SECRET }}
           TOGETHER_API_KEY=${{ secrets.TOGETHER_API_KEY }}
+          AIMLAPI_KEY=${{ secrets.AIMLAPI_KEY }}
           EOF
 
       - name: Restore Canva token
@@ -72,10 +73,11 @@ jobs:
         run: |
           git config user.name  "DisciplineFuel Bot"
           git config user.email "bot@disciplinefuel.com"
-          # Stage state files (memory, log, trends, config counters)
+          git fetch origin main
+          git rebase origin/main || git rebase --abort
           git add -f .tmp/disciplinefuel/memory.json       2>/dev/null || true
           git add -f .tmp/disciplinefuel/uploaded_log.json 2>/dev/null || true
           git add -f .tmp/disciplinefuel/trends.json       2>/dev/null || true
           git add    config/accounts/disciplinefuel.json
           git diff --staged --quiet || git commit -m "state: update after pipeline run [skip ci]"
-          git push
+          git push || git push --force-with-lease

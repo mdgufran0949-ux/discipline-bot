@@ -24,7 +24,7 @@ GROQ_API_KEY      = os.getenv("GROQ_API_KEY")
 KIMI_API_KEY      = os.getenv("KIMI_API_KEY")
 
 GEMINI_MODELS     = ["gemini-2.0-flash", "gemini-2.0-flash-lite", "gemini-1.5-flash-latest"]
-OPENROUTER_MODEL  = "meta-llama/llama-3.3-70b-instruct:free"
+OPENROUTER_MODEL  = "anthropic/claude-3-5-haiku"
 GROQ_MODEL        = "llama-3.3-70b-versatile"
 KIMI_MODEL        = "moonshotai/kimi-k2-instruct"
 
@@ -41,7 +41,7 @@ Your audience: 16-30 year olds who secretly know they're slacking. They struggle
 
 VIRAL FRAMEWORK (mandatory for every quote):
 - Structure: Pain → Reality → Solution (discipline always wins over motivation)
-- Make it relatable: name the exact struggle they're hiding
+- Make it relatable: name the EXACT specific struggle they're hiding — not vague, not generic
 - Add scarcity: time is running out, others are moving while they scroll
 - Discipline > Motivation. Always.
 
@@ -66,7 +66,26 @@ TONE:
 - Raw and real. No corporate language. No fluff.
 - Short sentences. Fragments are power. Max 10 words per sentence.
 - Second person only: you / your / you're
-- Sound like a real person who's lived it, not a motivational poster"""
+- Sound like a real person who's lived it, not a motivational poster
+
+NEVER WRITE THESE (banned — too generic, will not stop scroll):
+- "Grind now, rest later."
+- "Are you serious?"
+- "Work hard every day."
+- "Success is a choice."
+- "Keep going, don't stop."
+- "Hustle harder."
+- "You got this."
+- "Be the best version of yourself."
+- Any quote under 20 words that doesn't name a SPECIFIC struggle.
+These are clichés. They get scrolled past. Every quote must feel original, personal, and uncomfortably specific.
+
+EXAMPLE GREAT QUOTES (match this quality and depth):
+- "You said 'I'll start Monday' last Monday. And the Monday before that. The version of you that keeps delaying is winning right now. Stop letting him."
+- "Your phone knows more about you than your gym does. That's not a flex. That's the problem."
+- "Everyone who has what you want woke up when they didn't feel like it. You're still deciding whether to try."
+- "The comfort you're protecting right now is the exact reason you're not where you want to be. Comfort doesn't build anything."
+- "You're not overwhelmed. You're avoiding the one thing that would actually move your life forward. You know what it is.\""""
 
 # ── Quote generation prompt ────────────────────────────────────────────────────
 
@@ -76,7 +95,7 @@ Design style: {design_style}
 Hot keywords to weave in (use 1-2): {hot_keywords}
 Performance hints: {prompt_hints}
 
-Generate 5 quote variations for this topic. Each must be 1-3 sentences, under 25 words total.
+Generate 5 quote variations for this topic. Each must be 2-4 sentences, 30-60 words. Be specific, personal, uncomfortable — name the exact pain. No clichés, no generic phrases.
 
 Variation types (in order):
 1. COMMAND — direct order, imperative, no softening
@@ -212,7 +231,7 @@ def _kimi_call(system: str, prompt: str, temperature: float = 0.88) -> str:
 
 def _call(prompt: str, system: str = None, temperature: float = 0.9, fast: bool = False) -> str:
     """
-    LLM dispatch: Gemini → OpenRouter → Groq → Kimi.
+    LLM dispatch: OpenRouter (Claude Haiku, primary) → Groq → Gemini → Kimi.
     fast=True uses Groq first (cheaper/faster for carousel extra slides).
     """
     sys_prompt = system or SYSTEM_PROMPT
@@ -224,15 +243,10 @@ def _call(prompt: str, system: str = None, temperature: float = 0.9, fast: bool 
         except Exception as e:
             errors.append(f"Groq: {e}")
 
-    if GEMINI_API_KEY:
-        try:
-            return _gemini_call(sys_prompt, prompt, temperature)
-        except Exception as e:
-            errors.append(f"Gemini: {e}")
-            print(f"  [Gemini failed] trying OpenRouter...", flush=True)
-
+    # Primary: OpenRouter with Claude Haiku (paid, best quality)
     if OPENROUTER_API_KEY:
         try:
+            print(f"  [OpenRouter/Claude Haiku]...", flush=True)
             return _openrouter_call(sys_prompt, prompt, temperature)
         except Exception as e:
             errors.append(f"OpenRouter: {e}")
@@ -243,7 +257,14 @@ def _call(prompt: str, system: str = None, temperature: float = 0.9, fast: bool 
             return _groq_call(sys_prompt, prompt, temperature)
         except Exception as e:
             errors.append(f"Groq: {e}")
-            print(f"  [Groq failed] trying Kimi...", flush=True)
+            print(f"  [Groq failed] trying Gemini...", flush=True)
+
+    if GEMINI_API_KEY:
+        try:
+            return _gemini_call(sys_prompt, prompt, temperature)
+        except Exception as e:
+            errors.append(f"Gemini: {e}")
+            print(f"  [Gemini failed] trying Kimi...", flush=True)
 
     if KIMI_API_KEY:
         return _kimi_call(sys_prompt, prompt, temperature)
@@ -314,6 +335,25 @@ def generate_discipline_quote(
 
     selected_quote = quote_data.get("selected_quote", "")
     selected_type  = quote_data.get("selected_type", "contrast")
+
+    # Quality gate — reject generic/short quotes and retry once
+    BANNED_PHRASES = ["grind now", "are you serious", "work hard every day",
+                      "success is a choice", "keep going", "hustle harder",
+                      "you got this", "best version", "never give up"]
+    quote_words = len(selected_quote.split())
+    is_generic  = any(b in selected_quote.lower() for b in BANNED_PHRASES)
+    if quote_words < 20 or is_generic:
+        print(f"  [WARN] Quote too short or generic ({quote_words} words). Retrying...", flush=True)
+        retry_prompt = quote_prompt + "\n\nIMPORTANT: The previous attempt was too short or too generic. Write longer, more specific, more personal quotes — 30-60 words each. Name the exact pain."
+        raw_quote2 = _call(retry_prompt, temperature=0.95)
+        try:
+            quote_data2 = _extract_json(raw_quote2)
+            if len(quote_data2.get("selected_quote", "").split()) >= 20:
+                quote_data    = quote_data2
+                selected_quote = quote_data.get("selected_quote", selected_quote)
+                selected_type  = quote_data.get("selected_type", selected_type)
+        except Exception:
+            pass  # Keep original if retry fails
 
     # Step 2: Generate caption
     print("Generating caption...", flush=True)

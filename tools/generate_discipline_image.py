@@ -22,6 +22,7 @@ load_dotenv()
 
 FAL_API_KEY    = os.getenv("FAL_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+AIMLAPI_KEY    = os.getenv("AIMLAPI_KEY")
 
 TMP_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp", "disciplinefuel", "images"))
 
@@ -48,6 +49,29 @@ def _download(url: str, path: str) -> None:
     resp.raise_for_status()
     with open(path, "wb") as f:
         f.write(resp.content)
+
+
+def _generate_via_aimlapi(prompt: str, out_path: str, size: str = "portrait_9_16") -> None:
+    w, h = SIZE_DIMS.get(size, (1080, 1920))
+    resp = requests.post(
+        "https://api.aimlapi.com/v1/images/generations",
+        headers={"Authorization": f"Bearer {AIMLAPI_KEY}", "Content-Type": "application/json"},
+        json={
+            "model": "flux/dev",
+            "prompt": prompt,
+            "image_size": {"width": w, "height": h},
+            "num_inference_steps": 28,
+            "guidance_scale": 3.5,
+            "num_images": 1,
+            "output_format": "jpeg",
+            "safety_tolerance": "5",
+        },
+        timeout=120
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    img_url = data["images"][0]["url"]
+    _download(img_url, out_path)
 
 
 def _generate_via_fal(prompt: str, out_path: str, size: str = "portrait_9_16") -> None:
@@ -129,7 +153,18 @@ def generate_discipline_image(
 
     errors = []
 
-    # 1st: fal.ai FLUX schnell
+    # 1st: AIMLAPI FLUX dev (paid, high quality)
+    if AIMLAPI_KEY:
+        try:
+            print(f"  [AIMLAPI/flux-dev]...", flush=True)
+            _generate_via_aimlapi(full_prompt, output_path, size)
+            print(f"  [OK] AIMLAPI → {output_path}", flush=True)
+            return {"file": output_path, "provider": "aimlapi", "size": size, "prompt": full_prompt}
+        except Exception as e:
+            errors.append(f"AIMLAPI: {e}")
+            print(f"  [AIMLAPI failed: {str(e)[:80]}] trying fal.ai...", flush=True)
+
+    # 2nd: fal.ai FLUX schnell
     if FAL_API_KEY:
         for attempt in range(1, 3):
             try:
@@ -142,7 +177,7 @@ def generate_discipline_image(
                 errors.append(f"fal.ai: {e}")
                 print(f"  [fal.ai] failed: {err_str[:80]}", flush=True)
                 if "Exhausted balance" in err_str or "locked" in err_str.lower():
-                    print(f"  [fal.ai] balance exhausted — skipping to Pollinations", flush=True)
+                    print(f"  [fal.ai] balance exhausted — skipping", flush=True)
                     break
                 time.sleep(2)
 
