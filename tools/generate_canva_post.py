@@ -210,41 +210,59 @@ def _compose_with_pillow(
 
     draw = ImageDraw.Draw(img)
 
-    # Load fonts (fall back to default if not found)
+    # Load fonts — try Linux paths first, then Windows, then default
     def load_font(size):
-        for font_path in [
+        candidates = [
+            # Linux (GitHub Actions / Ubuntu)
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+            "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+            "/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf",
+            "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf",
+            # Windows
             "C:/Windows/Fonts/arialbd.ttf",
-            "C:/Windows/Fonts/Arial Bold.ttf",
             "C:/Windows/Fonts/calibrib.ttf",
-        ]:
+            "C:/Windows/Fonts/verdanab.ttf",
+        ]
+        for font_path in candidates:
             if os.path.exists(font_path):
                 try:
                     return ImageFont.truetype(font_path, size)
                 except Exception:
                     continue
-        return ImageFont.load_default()
+        return ImageFont.load_default(size=size)
 
-    font_series = load_font(32)
-    font_quote  = load_font(72)
-    font_brand  = load_font(28)
+    font_series = load_font(42)
+    font_quote  = load_font(96)
+    font_brand  = load_font(36)
 
-    # Series label (gold, upper area)
-    series_text = series_label.upper()
-    bbox = draw.textbbox((0, 0), series_text, font=font_series)
-    sw = bbox[2] - bbox[0]
-    draw.text(((1080 - sw) // 2, 200), series_text, font=font_series, fill=cfg["accent_color"])
+    # ── Full dark overlay for text readability ──────────────────────────
+    overlay2 = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    d2 = ImageDraw.Draw(overlay2)
+    d2.rectangle([(0, 600), (1080, 1400)], fill=(0, 0, 0, 140))
+    img = Image.alpha_composite(img.convert("RGBA"), overlay2).convert("RGB")
+    draw = ImageDraw.Draw(img)
 
-    # Divider line
-    draw.line([(340, 250), (740, 250)], fill=cfg["accent_color"], width=2)
+    # ── Series label ─────────────────────────────────────────────────────
+    series_text = series_label.upper() if series_label else ""
+    if series_text:
+        bbox = draw.textbbox((0, 0), series_text, font=font_series)
+        sw = bbox[2] - bbox[0]
+        sx = (1080 - sw) // 2
+        draw.text((sx + 2, 702), series_text, font=font_series, fill=(0, 0, 0))
+        draw.text((sx, 700), series_text, font=font_series, fill=cfg["accent_color"])
 
-    # Quote text (centered, word-wrapped)
+    # ── Divider line ──────────────────────────────────────────────────────
+    draw.line([(300, 760), (780, 760)], fill=cfg["accent_color"], width=3)
+
+    # ── Quote text (word-wrapped, large) ──────────────────────────────────
+    max_width = 960
     words = quote.split()
     lines = []
     current = []
     for word in words:
         test = " ".join(current + [word])
         bbox = draw.textbbox((0, 0), test, font=font_quote)
-        if bbox[2] - bbox[0] > 900:
+        if bbox[2] - bbox[0] > max_width:
             if current:
                 lines.append(" ".join(current))
             current = [word]
@@ -253,23 +271,28 @@ def _compose_with_pillow(
     if current:
         lines.append(" ".join(current))
 
-    total_h  = sum(draw.textbbox((0, 0), l, font=font_quote)[3] + 20 for l in lines)
-    y_start  = (1920 - total_h) // 2
+    line_height = draw.textbbox((0, 0), "A", font=font_quote)[3] + 24
+    total_h = line_height * len(lines)
+    y_start = 800
 
     for line in lines:
         bbox = draw.textbbox((0, 0), line, font=font_quote)
-        lw   = bbox[2] - bbox[0]
-        x    = (1080 - lw) // 2
-        # Shadow
-        draw.text((x + 3, y_start + 3), line, font=font_quote, fill=(0, 0, 0, 180))
+        lw = bbox[2] - bbox[0]
+        x  = (1080 - lw) // 2
+        # Multi-layer shadow for crisp contrast
+        for dx, dy in [(-3, -3), (3, -3), (-3, 3), (3, 3), (0, 4)]:
+            draw.text((x + dx, y_start + dy), line, font=font_quote, fill=(0, 0, 0))
         draw.text((x, y_start), line, font=font_quote, fill=cfg["text_color"])
-        y_start += bbox[3] - bbox[1] + 20
+        y_start += line_height
 
-    # Branding watermark
+    # ── Bottom divider ─────────────────────────────────────────────────────
+    draw.line([(300, y_start + 20), (780, y_start + 20)], fill=cfg["accent_color"], width=2)
+
+    # ── Branding watermark ────────────────────────────────────────────────
     brand_bbox = draw.textbbox((0, 0), page_name, font=font_brand)
     bw = brand_bbox[2] - brand_bbox[0]
-    draw.text((1080 - bw - 30, 1920 - 60), page_name, font=font_brand,
-              fill=(*cfg["accent_color"], 180))
+    draw.text((1080 - bw - 40 + 2, 1920 - 72 + 2), page_name, font=font_brand, fill=(0, 0, 0))
+    draw.text((1080 - bw - 40, 1920 - 72), page_name, font=font_brand, fill=cfg["accent_color"])
 
     img.save(out_path, "JPEG", quality=95)
     return out_path
