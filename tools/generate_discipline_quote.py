@@ -24,7 +24,7 @@ GROQ_API_KEY      = os.getenv("GROQ_API_KEY")
 KIMI_API_KEY      = os.getenv("KIMI_API_KEY")
 
 GEMINI_MODELS     = ["gemini-2.0-flash", "gemini-2.0-flash-lite", "gemini-1.5-flash-latest"]
-OPENROUTER_MODEL  = "anthropic/claude-3.5-haiku"
+OPENROUTER_MODEL  = "openai/gpt-4o-mini"
 GROQ_MODEL        = "llama-3.3-70b-versatile"
 KIMI_MODEL        = "moonshotai/kimi-k2-instruct"
 

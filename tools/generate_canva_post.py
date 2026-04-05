@@ -334,21 +334,24 @@ def generate_canva_post(
     template_id = random.choice(pool) if pool else ""
     page_name   = cfg.get("ig_page_name", "@DisciplineFuel")
 
-    if use_canva and template_id:
-        try:
-            # Export the Canva template directly as background, then overlay text with Pillow
-            canva_bg_path = os.path.join(TMP_DIR, f"canva_bg_{int(time.time())}.jpg")
-            print(f"  Exporting Canva template {template_id}...", flush=True)
-            _export_design(template_id, canva_bg_path, format="jpg")
-            print(f"  [Canva] Template exported → overlaying text...", flush=True)
-            _compose_with_pillow(quote, series_label, page_name, design_style, canva_bg_path, output_path)
-            return {"file": output_path, "tool": "canva+pillow", "design_style": design_style}
-        except Exception as e:
-            print(f"  [Canva] failed: {e}. Using AI background...", flush=True)
+    # Use AI-generated background (bg_image_path from AIMLAPI/Pollinations) + Pillow text overlay
+    # Canva API skipped: template IDs are public templates not owned by the account,
+    # causing indefinite hangs. User can commit pre-exported JPGs to assets/canva_templates/
+    # for future use — pipeline will pick them up automatically.
+    local_pools = cfg.get("canva_local_templates", {})
+    local_pool  = local_pools.get(design_style, [])
+    local_bg    = None
+    if local_pool:
+        import random as _rand
+        candidate = _rand.choice(local_pool)
+        if os.path.exists(candidate):
+            local_bg = candidate
+            print(f"  [Canva] Using local template: {candidate}", flush=True)
 
-    # Fallback: Pillow with AI-generated background
-    _compose_with_pillow(quote, series_label, page_name, design_style, bg_image_path, output_path)
-    return {"file": output_path, "tool": "pillow", "design_style": design_style}
+    bg = local_bg or bg_image_path
+    _compose_with_pillow(quote, series_label, page_name, design_style, bg, output_path)
+    tool = "canva+pillow" if local_bg else "pillow"
+    return {"file": output_path, "tool": tool, "design_style": design_style}
 
 
 def generate_canva_carousel(
