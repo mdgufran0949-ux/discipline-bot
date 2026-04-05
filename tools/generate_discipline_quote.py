@@ -229,7 +229,7 @@ def _call(prompt: str, system: str = None, temperature: float = 0.9, fast: bool 
             return _openrouter_call(sys_prompt, prompt, temperature)
         except Exception as e:
             errors.append(f"OpenRouter: {e}")
-            print(f"  [OpenRouter failed] trying Groq...", flush=True)
+            print(f"  [OpenRouter failed: {str(e)[:80]}] trying Groq...", flush=True)
 
     if GROQ_API_KEY:
         try:

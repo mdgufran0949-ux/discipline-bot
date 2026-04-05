@@ -138,8 +138,12 @@ def generate_discipline_image(
                 print(f"  [OK] fal.ai → {output_path}", flush=True)
                 return {"file": output_path, "provider": "fal.ai", "size": size, "prompt": full_prompt}
             except Exception as e:
+                err_str = str(e)
                 errors.append(f"fal.ai: {e}")
-                print(f"  [fal.ai] failed: {str(e)[:80]}", flush=True)
+                print(f"  [fal.ai] failed: {err_str[:80]}", flush=True)
+                if "Exhausted balance" in err_str or "locked" in err_str.lower():
+                    print(f"  [fal.ai] balance exhausted — skipping to Pollinations", flush=True)
+                    break
                 time.sleep(2)
 
     # 2nd: Pollinations.ai (free, no key)
