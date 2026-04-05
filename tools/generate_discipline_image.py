@@ -59,19 +59,26 @@ def _generate_via_aimlapi(prompt: str, out_path: str, size: str = "portrait_9_16
         json={
             "model": "flux/dev",
             "prompt": prompt,
-            "image_size": {"width": w, "height": h},
-            "num_inference_steps": 28,
-            "guidance_scale": 3.5,
-            "num_images": 1,
-            "output_format": "jpeg",
-            "safety_tolerance": "5",
+            "width": w,
+            "height": h,
+            "steps": 28,
+            "n": 1,
         },
         timeout=120
     )
     resp.raise_for_status()
     data = resp.json()
-    img_url = data["images"][0]["url"]
-    _download(img_url, out_path)
+    # Handle both response formats
+    images = data.get("images") or data.get("data") or []
+    img_url = (images[0].get("url") or images[0].get("b64_json")) if images else None
+    if not img_url:
+        raise RuntimeError(f"No image URL in AIMLAPI response: {data}")
+    if img_url.startswith("http"):
+        _download(img_url, out_path)
+    else:
+        import base64
+        with open(out_path, "wb") as f:
+            f.write(base64.b64decode(img_url))
 
 
 def _generate_via_fal(prompt: str, out_path: str, size: str = "portrait_9_16") -> None:

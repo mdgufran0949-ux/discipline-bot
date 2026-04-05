@@ -149,7 +149,12 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
     # Clean trend topics — strip hashtags/symbols that bleed in from YouTube titles
     def _clean_topic(t: str) -> str:
         import re
-        return re.sub(r'[#@][\w]+', '', t).strip().strip('#').strip()
+        # Cut off at first hashtag or @ symbol
+        t = re.split(r'[#@]', t)[0]
+        # Remove punctuation noise, normalize spaces
+        t = re.sub(r'[^\w\s]', ' ', t).strip()
+        t = re.sub(r'\s+', ' ', t).strip().lower()
+        return t
 
     clean_trend_topics = [_clean_topic(t) for t in trend_topics if _clean_topic(t)]
 
