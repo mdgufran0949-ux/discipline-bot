@@ -20,7 +20,8 @@ import xml.etree.ElementTree as ET
 import random
 from datetime import datetime, timedelta
 
-YTDLP        = r"C:\Users\Admin\AppData\Local\Programs\Python\Python313\Scripts\yt-dlp.exe"
+import shutil
+YTDLP        = shutil.which("yt-dlp") or r"C:\Users\Admin\AppData\Local\Programs\Python\Python313\Scripts\yt-dlp.exe"
 TRENDS_RSS   = "https://trends.google.com/trending/rss?geo=US"
 HEADERS      = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 MAX_DURATION = 90
