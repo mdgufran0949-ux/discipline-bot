@@ -1,0 +1,8 @@
+google-genai
+openai
+fal-client
+requests
+python-dotenv
+cloudinary
+Pillow
+yt-dlp

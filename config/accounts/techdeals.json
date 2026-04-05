@@ -1,0 +1,79 @@
+{
+  "account_name": "techdeals",
+  "channel": "TECHDEALS",
+  "niche": "tech gadgets amazon flipkart under 999 rupees india hinglish",
+  "niche_require": [
+    "gadget",
+    "tech",
+    "amazon",
+    "flipkart",
+    "product",
+    "review",
+    "under 999",
+    "phone accessory",
+    "smart"
+  ],
+  "niche_exclude": [
+    "motivation",
+    "news",
+    "cooking",
+    "gaming",
+    "sports",
+    "celebrity",
+    "astrology",
+    "politics"
+  ],
+  "ig_user_id": "",
+  "ig_access_token": "",
+  "ig_page_name": "@TechDealsIndia",
+  "yt_channel_id": "",
+  "hashtag_pool": [
+    "TechUnder999",
+    "AmazonFinds",
+    "FlipkartDeals",
+    "GadgetReview",
+    "TechIndia",
+    "BudgetTech",
+    "GadgetLover",
+    "TechShorts",
+    "IndianTech",
+    "UsefulGadgets",
+    "MustHaveGadgets",
+    "PhoneAccessories",
+    "SmartGadgets",
+    "TechTips",
+    "TechHindi"
+  ],
+  "caption_template": "Rs.{price} mein yeh gadget? Link in bio! @TechDealsIndia\n\n#TechUnder999 #AmazonFinds #GadgetReview #TechIndia #BudgetTech",
+  "caption_templates": [
+    "Yaar Rs.{price} mein yeh mil raha hai? Seriously! Link in bio 🔗\n\n#TechUnder999 #AmazonFinds #GadgetReview #TechIndia #BudgetTech #IndianTech #GadgetLover",
+    "Agar phone accessories chahiye toh yeh dekho — sirf Rs.{price}! Link bio mein hai.\n\n#TechUnder999 #GadgetReview #AmazonFinds #PhoneAccessories #TechShorts #SmartGadgets",
+    "Rs.{price} ka gadget jo har koi use karta hai. Amazon/Flipkart pe available. Link in bio!\n\n#TechUnder999 #BudgetTech #UsefulGadgets #MustHaveGadgets #TechIndia #IndianTech",
+    "Bhai yeh le lo — Rs.{price} mein itna kuch? Link bio mein hai bhai!\n\n#TechUnder999 #AmazonFinds #FlipkartDeals #GadgetLover #TechHindi #TechShorts",
+    "Ek baar try karo — Rs.{price} waste nahi jaayenge. Link in bio 👆\n\n#TechUnder999 #GadgetReview #SmartGadgets #TechIndia #BudgetTech #UsefulGadgets"
+  ],
+  "reels_per_day": 3,
+  "pipeline": {
+    "fetch": "tools/fetch_product_deals.py",
+    "script": "tools/generate_product_script.py",
+    "tts": "tools/generate_hindi_tts.py",
+    "compose": "tools/compose_product_video.py",
+    "upload_ig": "tools/upload_reel.py",
+    "upload_yt": "tools/upload_youtube_short.py",
+    "orchestrate": "tools/run_product_pipeline.py"
+  },
+  "fetch_config": {
+    "source": "both",
+    "max_price": 999,
+    "count_per_run": 3
+  },
+  "tts_voice": "af_sarah",
+  "language": "english",
+  "target_audience": "18-35 Indian tech enthusiasts, budget-conscious buyers",
+  "posting_time": "08:00 PM IST",
+  "monetization": {
+    "amazon_affiliate": "[AFFILIATE_TAG_HERE]",
+    "flipkart_affiliate": "[AFFILIATE_TRACKING_ID_HERE]",
+    "note": "Replace placeholders after signing up for affiliate programs"
+  }
+}

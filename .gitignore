@@ -1,0 +1,47 @@
+# ── Secrets (NEVER commit) ─────────────────────────────────────────
+.env
+credentials.json
+token.json
+
+# ── Large model files ──────────────────────────────────────────────
+.models/
+*.onnx
+*.bin
+
+# ── Temp files ─────────────────────────────────────────────────────
+.tmp/badge.png
+.tmp/cap_*.png
+.tmp/images/
+.tmp/reels/
+.tmp/*/reels/
+.tmp/disciplinefuel/images/
+.tmp/disciplinefuel/canva/
+.tmp/disciplinefuel/canva_token.json
+.tmp/yt_transcript*
+.tmp/*.mp4
+.tmp/*.mp3
+.tmp/*.jpg
+.tmp/*.png
+*.mp4
+*.mp3
+nouman*
+
+# ── State files KEPT (committed for GitHub Actions persistence) ────
+# .tmp/disciplinefuel/memory.json        ← keep
+# .tmp/disciplinefuel/uploaded_log.json  ← keep
+# .tmp/disciplinefuel/trends.json        ← keep
+
+# ── Other accounts' sensitive config ──────────────────────────────
+# (keep disciplinefuel.json, exclude others with tokens)
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.pkl
+
+# ── Windows ───────────────────────────────────────────────────────
+Thumbs.db
+desktop.ini

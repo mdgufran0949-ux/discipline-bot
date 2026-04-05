@@ -1,0 +1,81 @@
+name: DisciplineFuel Pipeline
+
+on:
+  schedule:
+    - cron: '30 0 * * *'   # 06:00 IST (UTC+5:30)
+    - cron: '30 7 * * *'   # 13:00 IST
+    - cron: '30 14 * * *'  # 20:00 IST
+  workflow_dispatch:        # manual trigger from GitHub UI
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # needed to commit state files back
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore .env from secrets
+        run: |
+          cat > .env << 'EOF'
+          KIMI_API_KEY=${{ secrets.KIMI_API_KEY }}
+          GROQ_API_KEY=${{ secrets.GROQ_API_KEY }}
+          FAL_API_KEY=${{ secrets.FAL_API_KEY }}
+          PEXELS_API_KEY=${{ secrets.PEXELS_API_KEY }}
+          GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}
+          CLOUDINARY_CLOUD_NAME=${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY=${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET=${{ secrets.CLOUDINARY_API_SECRET }}
+          CANVA_CLIENT_ID=${{ secrets.CANVA_CLIENT_ID }}
+          CANVA_CLIENT_SECRET=${{ secrets.CANVA_CLIENT_SECRET }}
+          TOGETHER_API_KEY=${{ secrets.TOGETHER_API_KEY }}
+          EOF
+
+      - name: Restore Canva token
+        run: |
+          mkdir -p .tmp/disciplinefuel
+          echo '${{ secrets.CANVA_TOKEN_JSON }}' > .tmp/disciplinefuel/canva_token.json
+
+      - name: Restore state files
+        run: |
+          mkdir -p .tmp/disciplinefuel
+          # memory.json and uploaded_log.json are committed to repo
+          # so they're already present after checkout
+
+      - name: Run DisciplineFuel pipeline
+        run: python tools/run_discipline_pipeline.py --account disciplinefuel --count 3
+
+      - name: Save updated Canva token as output
+        if: always()
+        id: canva_token
+        run: |
+          if [ -f .tmp/disciplinefuel/canva_token.json ]; then
+            echo "token=$(cat .tmp/disciplinefuel/canva_token.json | tr -d '\n')" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit state files back to repo
+        if: always()
+        run: |
+          git config user.name  "DisciplineFuel Bot"
+          git config user.email "bot@disciplinefuel.com"
+          # Stage state files (memory, log, trends, config counters)
+          git add -f .tmp/disciplinefuel/memory.json       2>/dev/null || true
+          git add -f .tmp/disciplinefuel/uploaded_log.json 2>/dev/null || true
+          git add -f .tmp/disciplinefuel/trends.json       2>/dev/null || true
+          git add    config/accounts/disciplinefuel.json
+          git diff --staged --quiet || git commit -m "state: update after pipeline run [skip ci]"
+          git push

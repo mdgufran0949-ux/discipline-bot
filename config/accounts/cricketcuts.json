@@ -1,0 +1,69 @@
+{
+  "account_name": "cricketcuts",
+  "niche": "cricket IPL highlights wickets sixes T20",
+  "niche_require": [
+    "cricket",
+    "ipl",
+    "wicket",
+    "six",
+    "boundary",
+    "batting",
+    "bowling",
+    "match",
+    "t20",
+    "virat",
+    "dhoni",
+    "rohit",
+    "score",
+    "over"
+  ],
+  "niche_exclude": [
+    "football",
+    "basketball",
+    "tennis",
+    "comedy",
+    "prank",
+    "cooking",
+    "fitness",
+    "tech",
+    "facts"
+  ],
+  "ig_user_id": "17841439223964616",
+  "ig_access_token": "EAAYsz5oAndABRL6eWAoI6htq8JPu1AZCyAdb3Dvs6eRTMl6PCc9nJZCGsq3miLx8npaeKPFoInz5id9WWuSFZAPIm8kauCVBvrMNyMbhGD2RFQKDTISmmx9NWMr9a7WXteYqLFEegk5GTvfN67SOyUAE6RTPytQVY7JxuuuSVuI5qpiX4gL58VAvAMD8vegPKh25RZCTZCdoHmptf",
+  "ig_page_name": "@cre.cketcuts",
+  "hashtag_pool": [
+    "cricket",
+    "cwc19",
+    "kieronpollard",
+    "superover",
+    "catch",
+    "cricketworldcup",
+    "icc",
+    "cricketworldcup2019",
+    "cricketworldcup2019highlights",
+    "jofraarcherbowling",
+    "icccricketworldcup2019",
+    "cricketvideos"
+  ],
+  "hashtag_last_updated": "2026-03-29T23:29:21.286278",
+  "caption_template": "Follow @cre.cketcuts for daily cricket highlights! 🏏\n\n#cricket #ipl2025 #iplhighlights #cricketshorts #t20cricket #viratkohli #msdhoni #rohitsharma #cricketfans #viral",
+  "caption_templates": [
+    "Follow @cre.cketcuts for daily cricket highlights! 🏏\n\n#cricket #ipl2025 #iplhighlights #cricketshorts #t20cricket #viratkohli #msdhoni #rohitsharma #cricketfans #viral",
+    "This moment gave us chills 🏏🔥 Follow @cre.cketcuts!\n\n#cricket #ipl #t20 #cricketlovers #viratkohli #dhoni #rohit #cricketshorts #iplhighlights #viral",
+    "Tag a cricket fan who needs to see this 👇 @cre.cketcuts\n\n#cricket #ipl2025 #t20cricket #cricketfans #iplhighlights #viratkohli #msdhoni #rohitsharma #viral #cricketshorts",
+    "Save the best moments 📌 @cre.cketcuts posts daily!\n\n#cricket #ipl #t20 #cricketshorts #iplhighlights #viratkohli #dhoni #rohitsharma #cricketfans #viral",
+    "What a shot! 🏏 Follow @cre.cketcuts for more!\n\n#cricket #ipl2025 #cricketshorts #t20cricket #viratkohli #msdhoni #rohit #iplhighlights #cricketfans #viral",
+    "Drop a 🏏 if you love cricket! Follow @cre.cketcuts!\n\n#cricket #ipl #t20cricket #cricketlovers #iplhighlights #viratkohli #dhoni #rohitsharma #viral #cricketshorts",
+    "Best cricket highlights posted daily 👀 @cre.cketcuts\n\n#cricket #ipl2025 #t20 #cricketshorts #iplhighlights #viratkohli #msdhoni #rohitsharma #cricketfans #viral"
+  ],
+  "reels_per_day": 10,
+  "min_reel_views": 500000,
+  "content_preferences": {
+    "good_keywords": [],
+    "avoid_keywords": [],
+    "last_analyzed": "2026-03-29T16:37:39.264828",
+    "total_analyzed": 3,
+    "top_avg_score": 0,
+    "bottom_avg_score": 0
+  }
+}

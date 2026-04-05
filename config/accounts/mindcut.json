@@ -1,0 +1,111 @@
+{
+  "account_name": "mindcut",
+  "channel": "MINDCUT",
+  "character": "ALEX",
+  "niche": "english motivation shorts brutal truth mindset",
+  "niche_require": [
+    "motivation",
+    "mindset",
+    "discipline",
+    "success",
+    "self-improvement",
+    "accountability",
+    "focus",
+    "grind",
+    "mental strength",
+    "habits"
+  ],
+  "niche_exclude": [
+    "prank",
+    "comedy",
+    "tech",
+    "news",
+    "cooking",
+    "gaming",
+    "sports",
+    "celebrity gossip"
+  ],
+  "ig_user_id": "",
+  "ig_access_token": "",
+  "ig_page_name": "@MindCutOfficial",
+  "hashtag_pool": [
+    "motivation",
+    "mindset",
+    "discipline",
+    "selfimprovement",
+    "success",
+    "mentalhealth",
+    "accountability",
+    "hardwork",
+    "focus",
+    "growthmindset",
+    "motivationalquotes",
+    "entrepreneurmindset",
+    "hustle",
+    "levelup",
+    "winning"
+  ],
+  "caption_template": "Follow @MindCutOfficial for daily truth. \n\n#motivation #mindset #discipline #selfimprovement #success",
+  "caption_templates": [
+    "This one will hit different. Follow @MindCutOfficial\n\n#motivation #mindset #discipline #selfimprovement #success #mentalhealth #accountability #hardwork #focus #growthmindset",
+    "You already know this is true. @MindCutOfficial\n\n#motivation #discipline #mindset #success #selfimprovement #mentalstrength #accountability #hardwork #focus #winning",
+    "Save this. You'll need it. @MindCutOfficial\n\n#motivation #mindset #selfimprovement #success #discipline #growthmindset #mentalhealth #focus #accountability #levelup",
+    "Tag someone who needs to hear this. @MindCutOfficial\n\n#motivation #mindset #discipline #success #selfimprovement #hardwork #focus #accountability #mentalstrength #winning",
+    "No fluff. Just truth. @MindCutOfficial\n\n#motivation #discipline #mindset #success #growthmindset #selfimprovement #accountability #hardwork #mentalhealth #focus"
+  ],
+  "reels_per_day": 1,
+  "content_plan": {
+    "video_1": {
+      "topic": "Your phone is stealing your future",
+      "status": "done",
+      "file": ".tmp/output_short.mp4"
+    },
+    "video_2": {
+      "topic": "You're not broke, you're just comfortable",
+      "status": "done",
+      "file": ".tmp/output_video2.mp4"
+    },
+    "video_3": {
+      "topic": "Your 9-to-5 is your real comfort zone",
+      "status": "pending"
+    },
+    "video_4": {
+      "topic": "You don't have a time problem",
+      "status": "pending"
+    },
+    "video_5": {
+      "topic": "Your morning routine is lying to you",
+      "status": "pending"
+    },
+    "video_6": {
+      "topic": "The version of you that quit still lives here",
+      "status": "pending"
+    },
+    "video_7": {
+      "topic": "Stop calling it overthinking",
+      "status": "pending"
+    },
+    "video_8": {
+      "topic": "Your circle is keeping you soft",
+      "status": "pending"
+    },
+    "video_9": {
+      "topic": "You've been rehearsing failure",
+      "status": "pending"
+    },
+    "video_10": {
+      "topic": "You don't want it bad enough",
+      "status": "pending"
+    }
+  },
+  "pipeline": {
+    "script": "tools/generate_motivation_script.py",
+    "tts": "tools/generate_kokoro_tts.py",
+    "broll": "tools/fetch_broll_clips.py",
+    "avatar": "tools/generate_latsync_avatar.py",
+    "compose": "tools/compose_motivation_video.py"
+  },
+  "target_audience": "18-35 global English speakers",
+  "posting_time": "07:00 AM EST",
+  "target_rpm_usd": "3-5"
+}

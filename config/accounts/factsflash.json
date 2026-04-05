@@ -1,0 +1,71 @@
+{
+  "account_name": "factsflash",
+  "niche": "amazing general facts did you know",
+  "niche_require": [
+    "fact",
+    "know",
+    "history",
+    "science",
+    "psychology",
+    "animal",
+    "brain",
+    "body",
+    "amazing",
+    "mind",
+    "nature",
+    "human",
+    "world",
+    "earth",
+    "discover"
+  ],
+  "niche_exclude": [
+    "tech",
+    "ai",
+    "robot",
+    "coding",
+    "software",
+    "gadget",
+    "chatgpt",
+    "prank",
+    "comedy",
+    "gaming"
+  ],
+  "ig_user_id": "17841437952462524",
+  "ig_access_token": "EAAYsz5oAndABRLzJh29ivrb7gpZBJn2ZAixvDLmi1PGhqFzDA2U3q6oqdx9ydjZCTshEPpRUnpjcM3yZANGiq0oraCra9Bn5TfYBkQXUkyxyqJHRCrrV4V2lyRcHpSu5pxYxLsDwgZCazFevdiyi4ASbjPswZAALM8GyPCj6RGxFrmijZCsXXzuyS5EIjhZCuqokBDMiNipZAZBwih",
+  "ig_page_name": "@FactsFlash",
+  "hashtag_pool": [
+    "facts",
+    "interestingfacts",
+    "didyouknow",
+    "amazingfacts",
+    "fact",
+    "funfacts",
+    "dailyfacts",
+    "generalknowledge",
+    "didyouknowfacts",
+    "factsoflife",
+    "randomfacts",
+    "animalfacts"
+  ],
+  "caption_template": "Follow @FactsFlash for daily mind-blowing facts! 🤯\n\n#facts #mindblowingfacts #sciencefacts #didyouknow #viral #trending #themoreyouknow #knowledgeispower",
+  "caption_templates": [
+    "Follow @FactsFlash for daily mind-blowing facts! 🤯\n\n#facts #mindblowingfacts #sciencefacts #didyouknow #viral #trending #themoreyouknow #knowledgeispower",
+    "Drop a 🤯 if this blew your mind! Follow @FactsFlash for more!\n\n#amazingfacts #didyouknow #facts #mindblowing #viral #knowledge #learneveryday #interestingfacts",
+    "Tag someone who needs to see this! 👇 @FactsFlash\n\n#factsoflife #funfacts #dailyfacts #didyouknow #facts #viral #mindblowing #trending",
+    "How did you not know this?! Follow @FactsFlash 🔥\n\n#facts #mindblowingfacts #didyouknow #sciencefacts #knowledge #viral #interestingfacts #trending",
+    "Save this for later 📌 @FactsFlash posts daily!\n\n#facts #amazingfacts #didyouknow #mindblowing #viral #knowledge #themoreyouknow #factsoflife",
+    "Follow @FactsFlash — new mind-blowing fact every day! 🧠\n\n#dailyfacts #facts #mindblowing #didyouknow #viral #sciencefacts #interestingfacts #knowledgeispower",
+    "This one actually surprised us 👀 Follow @FactsFlash!\n\n#facts #mindblowingfacts #amazingfacts #didyouknow #viral #trending #knowledge #learneveryday"
+  ],
+  "reels_per_day": 10,
+  "min_reel_views": 500000,
+  "hashtag_last_updated": "2026-03-27T06:54:19.862274",
+  "content_preferences": {
+    "good_keywords": [],
+    "avoid_keywords": [],
+    "last_analyzed": "2026-03-28T05:56:42.223141",
+    "total_analyzed": 10,
+    "top_avg_score": 4,
+    "bottom_avg_score": 0
+  }
+}

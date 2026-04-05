@@ -1,0 +1,182 @@
+{
+  "account_name": "disciplinefuel",
+  "channel": "DISCIPLINEFUEL",
+  "niche": "discipline focus motivation dark aesthetic",
+  "niche_require": [
+    "discipline",
+    "focus",
+    "grind",
+    "sacrifice",
+    "success",
+    "procrastination",
+    "laziness",
+    "accountability",
+    "mental strength",
+    "self-improvement"
+  ],
+  "niche_exclude": [
+    "comedy",
+    "prank",
+    "gaming",
+    "cooking",
+    "news",
+    "celebrity gossip",
+    "sports"
+  ],
+  "ig_user_id": "17841438323579878",
+  "ig_access_token": "EAAYsz5oAndABRHfeP82ZAsNRtyhg1AlryBONEnVFkfoKbW7YlO87CBjGudfWPWlTMG4woSAUHePDHw5abHyYcUNAp0QhZCufMf4xL2oR5t8fPpFYUnHJTvFpNAZARetpKpRlZBq6fPX02QOXsmQJkBoz45MymsHsIQ25zEZCg0C9QFoFpB9UWqdZBUJaywPdIJ6okBK1jZACdw5LTb3y6uU6ftM5zwWRB8GeioPuxZBkzixuALM4KdC8COoZD",
+  "ig_page_name": "@DisciplineFuel",
+  "hashtag_pool": [
+    "discipline",
+    "focus",
+    "grind",
+    "sacrifice",
+    "success",
+    "selfimprovement",
+    "motivation",
+    "hardwork",
+    "mentalstrength",
+    "accountability",
+    "growthmindset",
+    "winning",
+    "levelup",
+    "noexcuses",
+    "hustle"
+  ],
+  "caption_templates": [
+    "Save this. Read it every morning. @DisciplineFuel\n\n#discipline #focus #grind #selfimprovement #success #mentalstrength #accountability #hardwork #growthmindset #noexcuses",
+    "This is the truth nobody told you. @DisciplineFuel\n\n#discipline #sacrifice #success #grind #focus #selfimprovement #accountability #mentalstrength #winning #levelup",
+    "Screenshot this. You need it on your worst days. @DisciplineFuel\n\n#discipline #focus #hardwork #success #grind #selfimprovement #noexcuses #mentalstrength #growthmindset #hustle",
+    "Tag someone who needs to wake up. @DisciplineFuel\n\n#discipline #success #grind #focus #sacrifice #selfimprovement #accountability #hardwork #winning #levelup",
+    "Read this daily. No excuses. @DisciplineFuel\n\n#discipline #focus #mentalstrength #success #grind #selfimprovement #accountability #hardwork #growthmindset #noexcuses",
+    "The uncomfortable truth. @DisciplineFuel\n\n#discipline #sacrifice #focus #success #grind #selfimprovement #accountability #mentalstrength #winning #hustle",
+    "Bookmark this. Come back when you feel weak. @DisciplineFuel\n\n#discipline #focus #hardwork #success #grind #selfimprovement #noexcuses #mentalstrength #growthmindset #levelup"
+  ],
+  "posts_per_day": 9,
+  "content_format_mix": {
+    "image": 0.65,
+    "carousel": 0.35
+  },
+  "design_styles": [
+    "dark",
+    "minimal",
+    "bold",
+    "luxury"
+  ],
+  "design_style_weights": [
+    0.5,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "posting_schedule": [
+    "06:00",
+    "08:00",
+    "10:00",
+    "12:00",
+    "14:00",
+    "16:00",
+    "18:00",
+    "20:00",
+    "22:00"
+  ],
+  "series_counters": {
+    "discipline_rule": 1,
+    "wake_up_call": 0,
+    "day_becoming_better": 0
+  },
+  "series_rotation": [
+    "discipline_rule",
+    "wake_up_call",
+    "day_becoming_better"
+  ],
+  "series_index": 1,
+  "content_topics": [
+    "you keep choosing comfort over growth",
+    "procrastination is self-betrayal",
+    "your laziness has a price",
+    "discipline is the only shortcut",
+    "nobody is coming to save you",
+    "your future self is watching you right now",
+    "stop waiting for motivation to start",
+    "you are not tired you are uninspired",
+    "every delay is a vote against yourself",
+    "the version of you that quit still lives here",
+    "your phone is stealing your future",
+    "you are not busy you are avoiding",
+    "comfort is the enemy of growth",
+    "you already know what you need to do",
+    "stop calling it overthinking",
+    "your circle is keeping you soft",
+    "pain now or regret later",
+    "you have been rehearsing failure",
+    "the clock does not care about your excuses",
+    "discipline is doing it when you do not feel like it",
+    "one more scroll one less chance",
+    "you are one decision away from a different life",
+    "the weak version of you is louder right now",
+    "your dreams cannot survive your habits",
+    "stop romanticizing your struggle",
+    "winners do not wait for the right moment",
+    "you are not unlucky you are undisciplined",
+    "the grind is not optional",
+    "fear is just comfort in disguise",
+    "wake up before your competition does"
+  ],
+  "topic_index": 1,
+  "pipeline": {
+    "trends": "tools/fetch_discipline_trends.py",
+    "memory": "tools/discipline_memory.py",
+    "quote_gen": "tools/generate_discipline_quote.py",
+    "image_gen": "tools/generate_discipline_image.py",
+    "canva": "tools/generate_canva_post.py",
+    "upload_image": "tools/upload_image_post.py"
+  },
+  "canva": {
+    "template_pools": {
+      "dark": [
+        "DAHF-X_KL8U",
+        "DAHF-qt3aSM",
+        "DAHF-nzR3ng"
+      ],
+      "minimal": [
+        "DAHF-lA1BQ4",
+        "DAHF-pont4Y"
+      ],
+      "bold": [
+        "DAHF-vJKsvg",
+        "DAHF-sPVkcc",
+        "DAHF-p3xlsc",
+        "DAHF-qhVi00",
+        "DAHF-s4Rodk"
+      ],
+      "luxury": [
+        "DAHF-nXuGe0",
+        "DAHF-uiz0hg"
+      ]
+    },
+    "carousel_template_pools": {
+      "dark": [
+        "DAHF-uKy3l0",
+        "DAHF-X_KL8U"
+      ],
+      "minimal": [
+        "DAHF-pont4Y",
+        "DAHF-lA1BQ4"
+      ],
+      "bold": [
+        "DAHF-s4Rodk",
+        "DAHF-sPVkcc"
+      ],
+      "luxury": [
+        "DAHF-uiz0hg",
+        "DAHF-nXuGe0"
+      ]
+    },
+    "brand_kit_id": ""
+  },
+  "hashtag_last_updated": "",
+  "content_preferences": {},
+  "target_audience": "16-30 procrastination discipline grind",
+  "performance_log": ".tmp/disciplinefuel/uploaded_log.json"
+}
