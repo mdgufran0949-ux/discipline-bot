@@ -326,11 +326,11 @@ def generate_canva_post(
 
     if use_canva and template_id:
         try:
-            # Export the Canva template as background image, then overlay text with Pillow
+            # Export the Canva template directly as background, then overlay text with Pillow
             canva_bg_path = os.path.join(TMP_DIR, f"canva_bg_{int(time.time())}.jpg")
-            design_id = _create_design_from_template(template_id)
-            _export_design(design_id, canva_bg_path, format="jpg")
-            print(f"  [Canva] Template exported → overlaying text with Pillow...", flush=True)
+            print(f"  Exporting Canva template {template_id}...", flush=True)
+            _export_design(template_id, canva_bg_path, format="jpg")
+            print(f"  [Canva] Template exported → overlaying text...", flush=True)
             _compose_with_pillow(quote, series_label, page_name, design_style, canva_bg_path, output_path)
             return {"file": output_path, "tool": "canva+pillow", "design_style": design_style}
         except Exception as e:

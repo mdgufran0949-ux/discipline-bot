@@ -144,24 +144,37 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
 
     log = _load_log(account)
     results = []
+    used_topics = set()
+
+    # Clean trend topics — strip hashtags/symbols that bleed in from YouTube titles
+    def _clean_topic(t: str) -> str:
+        import re
+        return re.sub(r'[#@][\w]+', '', t).strip().strip('#').strip()
+
+    clean_trend_topics = [_clean_topic(t) for t in trend_topics if _clean_topic(t)]
 
     for i in range(count):
         print(f"\n{'─'*45}", flush=True)
         print(f"POST {i+1}/{count}", flush=True)
         print(f"{'─'*45}", flush=True)
 
-        # ── Step 4: Pick topic
-        # Priority: trending → config queue, skip avoided ones
-        topic = ""
-        topic_pool = trend_topics + cfg.get("content_topics", [])
+        # ── Step 4: Pick topic — rotate, never repeat within same run
         avoid_topics = memory_tool._load()["patterns"]["avoid_topics"]
-
+        topic_pool = clean_trend_topics + cfg.get("content_topics", [])
+        topic = ""
         for t in topic_pool:
-            if t.lower() not in [a.lower() for a in avoid_topics]:
+            if t.lower() not in [a.lower() for a in avoid_topics] and t.lower() not in used_topics:
                 topic = t
                 break
         if not topic:
+            # All topics used — pick least-recently used from config
+            for t in cfg.get("content_topics", []):
+                if t.lower() not in used_topics:
+                    topic = t
+                    break
+        if not topic:
             topic = random.choice(cfg.get("content_topics", ["discipline is the only shortcut"]))
+        used_topics.add(topic.lower())
 
         # ── Step 5: Pick series + design style
         series_rotation = cfg.get("series_rotation", ["discipline_rule", "wake_up_call", "day_becoming_better"])

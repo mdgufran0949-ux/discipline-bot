@@ -159,18 +159,25 @@ def _gemini_call(system: str, prompt: str, temperature: float = 0.9) -> str:
 
 
 def _openrouter_call(system: str, prompt: str, temperature: float = 0.9) -> str:
-    from openai import OpenAI
-    client = OpenAI(api_key=OPENROUTER_API_KEY, base_url=OPENROUTER_BASE)
-    response = client.chat.completions.create(
-        model=OPENROUTER_MODEL,
-        messages=[
+    import requests as _req
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/mdgufran0949-ux/discipline-bot",
+        "X-Title": "DisciplineFuel"
+    }
+    payload = {
+        "model": OPENROUTER_MODEL,
+        "messages": [
             {"role": "system", "content": system},
             {"role": "user",   "content": prompt}
         ],
-        temperature=temperature,
-        max_tokens=1000,
-    )
-    return response.choices[0].message.content.strip()
+        "temperature": temperature,
+        "max_tokens": 1000,
+    }
+    resp = _req.post("https://openrouter.ai/api/v1/chat/completions", json=payload, headers=headers, timeout=30)
+    resp.raise_for_status()
+    return resp.json()["choices"][0]["message"]["content"].strip()
 
 
 def _groq_call(system: str, prompt: str, temperature: float = 0.9) -> str:
