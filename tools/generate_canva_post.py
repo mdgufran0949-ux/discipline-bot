@@ -235,34 +235,15 @@ def _compose_with_pillow(
     font_quote  = load_font(96)
     font_brand  = load_font(36)
 
-    # ── Full dark overlay for text readability ──────────────────────────
-    overlay2 = Image.new("RGBA", img.size, (0, 0, 0, 0))
-    d2 = ImageDraw.Draw(overlay2)
-    d2.rectangle([(0, 600), (1080, 1400)], fill=(0, 0, 0, 140))
-    img = Image.alpha_composite(img.convert("RGBA"), overlay2).convert("RGB")
-    draw = ImageDraw.Draw(img)
-
-    # ── Series label ─────────────────────────────────────────────────────
-    series_text = series_label.upper() if series_label else ""
-    if series_text:
-        bbox = draw.textbbox((0, 0), series_text, font=font_series)
-        sw = bbox[2] - bbox[0]
-        sx = (1080 - sw) // 2
-        draw.text((sx + 2, 702), series_text, font=font_series, fill=(0, 0, 0))
-        draw.text((sx, 700), series_text, font=font_series, fill=cfg["accent_color"])
-
-    # ── Divider line ──────────────────────────────────────────────────────
-    draw.line([(300, 760), (780, 760)], fill=cfg["accent_color"], width=3)
-
-    # ── Quote text (word-wrapped, large) ──────────────────────────────────
-    max_width = 960
+    # ── Word-wrap quote first so we know total height ─────────────────────
+    max_width = 940
     words = quote.split()
     lines = []
     current = []
     for word in words:
         test = " ".join(current + [word])
-        bbox = draw.textbbox((0, 0), test, font=font_quote)
-        if bbox[2] - bbox[0] > max_width:
+        bbox_t = ImageDraw.Draw(img).textbbox((0, 0), test, font=font_quote)
+        if bbox_t[2] - bbox_t[0] > max_width:
             if current:
                 lines.append(" ".join(current))
             current = [word]
@@ -271,22 +252,51 @@ def _compose_with_pillow(
     if current:
         lines.append(" ".join(current))
 
-    line_height = draw.textbbox((0, 0), "A", font=font_quote)[3] + 24
-    total_h = line_height * len(lines)
-    y_start = 800
+    line_height = font_quote.size + 28
+    total_text_h = line_height * len(lines)
 
+    # Position text block in middle of image
+    text_top = (1920 - total_text_h) // 2 - 60
+    text_bottom = text_top + total_text_h + 120
+    box_top = text_top - 80
+    box_bottom = text_bottom + 60
+
+    # ── Solid semi-transparent backdrop behind text (always readable) ─────
+    overlay2 = Image.new("RGBA", img.convert("RGBA").size, (0, 0, 0, 0))
+    d2 = ImageDraw.Draw(overlay2)
+    d2.rectangle([(0, box_top), (1080, box_bottom)], fill=(0, 0, 0, 190))
+    img = Image.alpha_composite(img.convert("RGBA"), overlay2).convert("RGB")
+    draw = ImageDraw.Draw(img)
+
+    # ── Series label ──────────────────────────────────────────────────────
+    series_text = series_label.upper() if series_label else ""
+    if series_text:
+        bbox = draw.textbbox((0, 0), series_text, font=font_series)
+        sw = bbox[2] - bbox[0]
+        sx = (1080 - sw) // 2
+        draw.text((sx + 2, text_top - 48 + 2), series_text, font=font_series, fill=(0, 0, 0))
+        draw.text((sx, text_top - 48), series_text, font=font_series, fill=cfg["accent_color"])
+
+    # ── Divider line ──────────────────────────────────────────────────────
+    draw.line([(280, text_top - 8), (800, text_top - 8)], fill=cfg["accent_color"], width=3)
+
+    # ── Quote text ────────────────────────────────────────────────────────
+    y_start = text_top + 10
     for line in lines:
         bbox = draw.textbbox((0, 0), line, font=font_quote)
         lw = bbox[2] - bbox[0]
         x  = (1080 - lw) // 2
-        # Multi-layer shadow for crisp contrast
-        for dx, dy in [(-3, -3), (3, -3), (-3, 3), (3, 3), (0, 4)]:
+        # Thick shadow for maximum contrast
+        for dx, dy in [(-4, -4), (4, -4), (-4, 4), (4, 4), (0, 5), (5, 0), (-5, 0)]:
             draw.text((x + dx, y_start + dy), line, font=font_quote, fill=(0, 0, 0))
-        draw.text((x, y_start), line, font=font_quote, fill=cfg["text_color"])
+        draw.text((x, y_start), line, font=font_quote, fill=(255, 255, 255))
         y_start += line_height
 
-    # ── Bottom divider ─────────────────────────────────────────────────────
-    draw.line([(300, y_start + 20), (780, y_start + 20)], fill=cfg["accent_color"], width=2)
+    # ── Bottom divider ────────────────────────────────────────────────────
+    draw.line([(280, y_start + 10), (800, y_start + 10)], fill=cfg["accent_color"], width=2)
+
+    # ── Accent line (style-specific color bar) ────────────────────────────
+    draw.rectangle([(0, 0), (12, 1920)], fill=cfg["accent_color"])
 
     # ── Branding watermark ────────────────────────────────────────────────
     brand_bbox = draw.textbbox((0, 0), page_name, font=font_brand)

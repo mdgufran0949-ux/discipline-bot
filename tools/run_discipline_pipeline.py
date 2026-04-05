@@ -212,7 +212,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
 
             selected_quote = payload["selected_quote"]
             fmt            = payload.get("format", fmt)  # LLM may suggest format
-            series_label   = payload["content_series"]
+            series_label   = _series_label(series_type, series_num)  # Always use formatted label, not LLM text
             image_prompt   = payload["image_prompt"]
 
             print(f"  Quote: {selected_quote[:70]}...", flush=True)
