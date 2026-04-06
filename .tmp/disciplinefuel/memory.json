@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": "discipline_rule_1_20260405_155837",
+      "quote_type": "question",
+      "design_style": "minimal",
+      "format": "image",
+      "series": "discipline_rule",
+      "series_number": 1,
+      "topic": "discipline is success # #consistent #hardwork #quotes #grind #goals#discipline",
+      "hook_keyword": "excuses",
+      "selected_quote": "Still making excuses?",
+      "posted_at": "2026-04-05T15:58:37.002471",
+      "ig_media_id": "DRY_1775384917",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    }
+  ],
+  "patterns": {
+    "strong": [],
+    "weak": [],
+    "avoid_topics": [],
+    "avoid_hook_keywords": []
+  },
+  "stats": {
+    "total_posts": 1,
+    "by_quote_type": {
+      "question": 1
+    },
+    "by_design_style": {
+      "minimal": 1
+    },
+    "by_format": {
+      "image": 1
+    },
+    "by_series": {
+      "discipline_rule": 1
+    },
+    "top_performing_series": null
+  },
+  "prompt_hints": {
+    "best_hooks": [],
+    "best_quote_types": [],
+    "avoid_phrases": []
+  },
+  "last_upgraded": "2026-04-05T15:57:30.016720"
+}
