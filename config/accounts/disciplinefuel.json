@@ -54,8 +54,8 @@
   ],
   "posts_per_day": 9,
   "content_format_mix": {
-    "image": 0.65,
-    "carousel": 0.35
+    "image": 0.50,
+    "carousel": 0.50
   },
   "design_styles": [
     "dark",

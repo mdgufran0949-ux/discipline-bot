@@ -30,7 +30,7 @@ CONFIG_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "conf
 TMP_BASE   = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp"))
 
 SCORE_WEIGHTS = {"saves": 4, "shares": 3, "comments": 2, "likes": 1}
-REVIEW_INTERVAL_DAYS = 7
+REVIEW_INTERVAL_DAYS = 1
 
 
 # ── Config helpers ─────────────────────────────────────────────────────────────

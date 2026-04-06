@@ -94,8 +94,9 @@ Series: {series_label}
 Design style: {design_style}
 Hot keywords to weave in (use 1-2): {hot_keywords}
 Performance hints: {prompt_hints}
+Length target: {length_instruction}
 
-Generate 5 quote variations for this topic. Each must be 2-4 sentences, 30-60 words. Be specific, personal, uncomfortable — name the exact pain. No clichés, no generic phrases.
+Generate 6 quote variations for this topic. Follow the LENGTH TARGET above strictly. Be specific, personal, uncomfortable — name the exact pain. No clichés, no generic phrases.
 
 Variation types (in order):
 1. COMMAND — direct order, imperative, no softening
@@ -103,8 +104,9 @@ Variation types (in order):
 3. CONTRAST — juxtaposition (they do X, you do Y / comfort vs discipline)
 4. PAIN_DRIVEN — names the exact hurt, the cost, what they're losing
 5. IDENTITY — attacks or upgrades self-image ("A disciplined person would never...")
+6. PUNCH — ultra-short (5-12 words ONLY), one devastating sentence, like a slap across the face
 
-Then select the single best quote (most likely to stop scrolling + get saved).
+Then select the single best quote (most likely to stop scrolling + get saved). For PUNCH type: short is the goal — under 12 words is perfect.
 
 Return ONLY this JSON (no markdown, no explanation):
 {{
@@ -113,10 +115,11 @@ Return ONLY this JSON (no markdown, no explanation):
     {{"type": "question", "text": "..."}},
     {{"type": "contrast", "text": "..."}},
     {{"type": "pain_driven", "text": "..."}},
-    {{"type": "identity", "text": "..."}}
+    {{"type": "identity", "text": "..."}},
+    {{"type": "punch", "text": "..."}}
   ],
   "selected_quote": "...",
-  "selected_type": "command|question|contrast|pain_driven|identity",
+  "selected_type": "command|question|contrast|pain_driven|identity|punch",
   "hook_keyword": "single word that makes the hook land (e.g. scared, clock, broke)",
   "format": "image or carousel",
   "design_style": "{design_style}",
@@ -315,14 +318,24 @@ def generate_discipline_quote(
     if not hints_str:
         hints_str = "No performance data yet. Experiment freely."
 
-    # Step 1: Generate quote options
+    # Step 1: Pick length distribution — 30% PUNCH, 50% MEDIUM, 20% LONG
+    length_roll = random.random()
+    if length_roll < 0.30:
+        length_instruction = "Write PUNCH quotes: 5-12 words ONLY for the selected quote. Single devastating sentence. Like a slap. No explanation. PUNCH type MUST be under 12 words."
+    elif length_roll < 0.80:
+        length_instruction = "Write MEDIUM quotes: 20-40 words for the selected quote. 2-3 sentences. Specific pain + real consequence. Most variations should be 20-40 words."
+    else:
+        length_instruction = "Write LONG quotes: 40-60 words for the selected quote. 3-5 sentences. Full story arc: expose the pattern → name the cost → what to do instead."
+
+    # Step 2: Generate quote options
     print(f"Generating quotes for: {topic}", flush=True)
     quote_prompt = QUOTE_PROMPT.format(
         topic=topic,
         series_label=series_label,
         design_style=design_style,
         hot_keywords=hot_kw_str,
-        prompt_hints=hints_str
+        prompt_hints=hints_str,
+        length_instruction=length_instruction
     )
 
     raw_quote = _call(quote_prompt)
@@ -336,15 +349,17 @@ def generate_discipline_quote(
     selected_quote = quote_data.get("selected_quote", "")
     selected_type  = quote_data.get("selected_type", "contrast")
 
-    # Quality gate — reject generic/short quotes and retry once
+    # Quality gate — reject generic quotes; allow short PUNCH quotes through
     BANNED_PHRASES = ["grind now", "are you serious", "work hard every day",
                       "success is a choice", "keep going", "hustle harder",
                       "you got this", "best version", "never give up"]
     quote_words = len(selected_quote.split())
     is_generic  = any(b in selected_quote.lower() for b in BANNED_PHRASES)
-    if quote_words < 20 or is_generic:
-        print(f"  [WARN] Quote too short or generic ({quote_words} words). Retrying...", flush=True)
-        retry_prompt = quote_prompt + "\n\nIMPORTANT: The previous attempt was too short or too generic. Write longer, more specific, more personal quotes — 30-60 words each. Name the exact pain."
+    is_punch    = selected_type == "punch" or quote_words <= 12
+    # Allow punch quotes through even if short; reject medium/long quotes under 20 words
+    if (quote_words < 5) or (is_generic) or (not is_punch and quote_words < 20):
+        print(f"  [WARN] Quote too short or generic ({quote_words} words, type={selected_type}). Retrying...", flush=True)
+        retry_prompt = quote_prompt + "\n\nIMPORTANT: The previous attempt was too generic. Write more specific, more personal quotes. Name the exact pain."
         raw_quote2 = _call(retry_prompt, temperature=0.95)
         try:
             quote_data2 = _extract_json(raw_quote2)

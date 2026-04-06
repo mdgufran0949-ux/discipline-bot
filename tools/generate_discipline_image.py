@@ -12,6 +12,7 @@ Output: JSON with file path
 
 import json
 import os
+import random
 import sys
 import time
 import urllib.parse
@@ -35,12 +36,40 @@ SIZE_DIMS = {
     "landscape_16_9": (1920, 1080),
 }
 
-# Design style → image prompt suffix
-STYLE_SUFFIXES = {
-    "dark":    "dark cinematic, deep dramatic shadows, black background, moody atmospheric lighting, high contrast, cinematic film grain",
-    "minimal": "clean minimal composition, white space, simple geometric shapes, high contrast black and white",
-    "bold":    "bold vivid colors, high saturation, strong visual contrast, powerful graphic design aesthetic",
-    "luxury":  "luxury dark aesthetic, deep black marble texture, gold accents, premium editorial photography feel",
+# Design style → cinematic scene pools (6 scenes per style, picked randomly each post)
+SCENE_POOLS = {
+    "dark": [
+        "lone figure standing at edge of rooftop at night, city lights below, cinematic fog, dramatic backlighting, photorealistic",
+        "person sitting alone at a desk in a dark room, single lamp light, shadows on wall, late night, cinematic",
+        "silhouette of athlete running on empty road at 4am, streetlight glow, motion blur, dark sky",
+        "close-up of clenched fist, dark gym background, dramatic side lighting, sweat, high contrast",
+        "empty dark gym at night, single spotlight on bench press, iron plates, cinematic atmosphere",
+        "person staring at reflection in dark window at night, city lights outside, contemplative mood",
+    ],
+    "minimal": [
+        "clean white marble surface with single black coffee cup, morning light, overhead shot, minimal",
+        "empty wooden desk with open notebook, soft natural window light, clean and simple composition",
+        "single silhouette on white background, strong shadow, minimal composition, high contrast",
+        "clean gymnasium floor with single dumbbell, harsh overhead light, minimal shadows",
+        "bare concrete wall with single shaft of light, architectural minimalism, black and white",
+        "person in white room standing at window, simple clean aesthetic, soft daylight",
+    ],
+    "bold": [
+        "explosive athlete mid-sprint, stadium lights, dynamic motion, vibrant contrast, raw energy",
+        "powerful boxer throwing punch, dramatic gym lighting, sweat droplets, raw energy, vivid colors",
+        "person breaking through paper wall, dynamic explosion effect, bold colors, energy",
+        "athlete lifting heavy barbell, veins visible, raw determination, vivid dramatic lighting",
+        "runner crossing finish line, crowd blurred behind, triumph moment, bold warm colors",
+        "person climbing steep mountain, dramatic sky above, powerful composition, vivid colors",
+    ],
+    "luxury": [
+        "luxury penthouse office at night, floor to ceiling windows, city skyline, dark premium aesthetic",
+        "expensive watch on black marble desk, soft gold lighting, premium close-up detail shot",
+        "silhouette in front of private jet at night, runway lights, premium dark aesthetic",
+        "luxury sports car interior at night, dashboard lights, cinematic dark premium feel",
+        "person in tailored suit walking through dark empty corridor, gold accent lighting",
+        "rooftop infinity pool overlooking city at night, dark luxury, atmospheric lighting",
+    ],
 }
 
 
@@ -145,9 +174,10 @@ def generate_discipline_image(
     """
     os.makedirs(TMP_DIR, exist_ok=True)
 
-    # Enhance prompt with design style
-    style_suffix = STYLE_SUFFIXES.get(design_style, STYLE_SUFFIXES["dark"])
-    full_prompt = f"{prompt}, {style_suffix}, no text, no words, photorealistic"
+    # Enhance prompt with a random cinematic scene for this design style
+    scene_pool = SCENE_POOLS.get(design_style, SCENE_POOLS["dark"])
+    scene_base = random.choice(scene_pool)
+    full_prompt = f"{scene_base}, {prompt}, 9:16 vertical composition, no text, no words, ultra high quality, award-winning photography"
 
     if seed is None:
         seed = int(time.time()) % 9999

@@ -210,15 +210,34 @@ def _compose_with_pillow(
 
     draw = ImageDraw.Draw(img)
 
-    # Load fonts — try Linux paths first, then Windows, then default
-    def load_font(size):
-        candidates = [
-            # Linux (GitHub Actions / Ubuntu)
+    # Font variety per design style
+    ASSETS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "assets", "fonts"))
+    STYLE_FONTS = {
+        "dark":    ["BebasNeue-Regular.ttf", "Montserrat-Bold.ttf"],
+        "minimal": ["Oswald-Bold.ttf",       "Montserrat-Bold.ttf"],
+        "bold":    ["BebasNeue-Regular.ttf"],
+        "luxury":  ["PlayfairDisplay-Bold.ttf", "Oswald-Bold.ttf"],
+    }
+    style_font_choices = STYLE_FONTS.get(design_style, ["Montserrat-Bold.ttf"])
+    chosen_font_file   = random.choice(style_font_choices)
+
+    def load_font(size, font_file=None):
+        candidates = []
+        # 1st: try assets/fonts with the chosen design-style font
+        if font_file:
+            candidates.append(os.path.join(ASSETS_DIR, font_file))
+        # Fallback to all assets/fonts fonts in priority order
+        for f in ["Montserrat-Bold.ttf", "BebasNeue-Regular.ttf", "Oswald-Bold.ttf", "PlayfairDisplay-Bold.ttf"]:
+            candidates.append(os.path.join(ASSETS_DIR, f))
+        # Linux system fonts (GitHub Actions / Ubuntu)
+        candidates += [
             "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
             "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
             "/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf",
             "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf",
-            # Windows
+        ]
+        # Windows system fonts
+        candidates += [
             "C:/Windows/Fonts/arialbd.ttf",
             "C:/Windows/Fonts/calibrib.ttf",
             "C:/Windows/Fonts/verdanab.ttf",
@@ -231,9 +250,20 @@ def _compose_with_pillow(
                     continue
         return ImageFont.load_default(size=size)
 
-    font_series = load_font(42)
-    font_quote  = load_font(96)
-    font_brand  = load_font(36)
+    # Dynamic font size based on quote word count
+    word_count = len(quote.split())
+    if word_count <= 10:
+        quote_font_size = 120  # PUNCH — large, impactful
+    elif word_count <= 20:
+        quote_font_size = 100  # SHORT-MEDIUM
+    elif word_count <= 35:
+        quote_font_size = 84   # MEDIUM
+    else:
+        quote_font_size = 68   # LONG
+
+    font_series = load_font(42, chosen_font_file)
+    font_quote  = load_font(quote_font_size, chosen_font_file)
+    font_brand  = load_font(36, chosen_font_file)
 
     # ── Word-wrap quote first so we know total height ─────────────────────
     max_width = 940
