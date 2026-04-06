@@ -29,44 +29,44 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Restore .env from secrets
+        env:
+          KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          FAL_API_KEY: ${{ secrets.FAL_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          CANVA_CLIENT_ID: ${{ secrets.CANVA_CLIENT_ID }}
+          CANVA_CLIENT_SECRET: ${{ secrets.CANVA_CLIENT_SECRET }}
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
+          AIMLAPI_KEY: ${{ secrets.AIMLAPI_KEY }}
         run: |
-          cat > .env << 'EOF'
-          KIMI_API_KEY=${{ secrets.KIMI_API_KEY }}
-          GROQ_API_KEY=${{ secrets.GROQ_API_KEY }}
-          FAL_API_KEY=${{ secrets.FAL_API_KEY }}
-          PEXELS_API_KEY=${{ secrets.PEXELS_API_KEY }}
-          GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
-          OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}
-          CLOUDINARY_CLOUD_NAME=${{ secrets.CLOUDINARY_CLOUD_NAME }}
-          CLOUDINARY_API_KEY=${{ secrets.CLOUDINARY_API_KEY }}
-          CLOUDINARY_API_SECRET=${{ secrets.CLOUDINARY_API_SECRET }}
-          CANVA_CLIENT_ID=${{ secrets.CANVA_CLIENT_ID }}
-          CANVA_CLIENT_SECRET=${{ secrets.CANVA_CLIENT_SECRET }}
-          TOGETHER_API_KEY=${{ secrets.TOGETHER_API_KEY }}
-          AIMLAPI_KEY=${{ secrets.AIMLAPI_KEY }}
-          EOF
+          echo "KIMI_API_KEY=$KIMI_API_KEY" >> .env
+          echo "GROQ_API_KEY=$GROQ_API_KEY" >> .env
+          echo "FAL_API_KEY=$FAL_API_KEY" >> .env
+          echo "PEXELS_API_KEY=$PEXELS_API_KEY" >> .env
+          echo "GEMINI_API_KEY=$GEMINI_API_KEY" >> .env
+          echo "OPENROUTER_API_KEY=$OPENROUTER_API_KEY" >> .env
+          echo "CLOUDINARY_CLOUD_NAME=$CLOUDINARY_CLOUD_NAME" >> .env
+          echo "CLOUDINARY_API_KEY=$CLOUDINARY_API_KEY" >> .env
+          echo "CLOUDINARY_API_SECRET=$CLOUDINARY_API_SECRET" >> .env
+          echo "CANVA_CLIENT_ID=$CANVA_CLIENT_ID" >> .env
+          echo "CANVA_CLIENT_SECRET=$CANVA_CLIENT_SECRET" >> .env
+          echo "TOGETHER_API_KEY=$TOGETHER_API_KEY" >> .env
+          echo "AIMLAPI_KEY=$AIMLAPI_KEY" >> .env
 
       - name: Restore Canva token
+        env:
+          CANVA_TOKEN_JSON: ${{ secrets.CANVA_TOKEN_JSON }}
         run: |
           mkdir -p .tmp/disciplinefuel
-          echo '${{ secrets.CANVA_TOKEN_JSON }}' > .tmp/disciplinefuel/canva_token.json
-
-      - name: Restore state files
-        run: |
-          mkdir -p .tmp/disciplinefuel
-          # memory.json and uploaded_log.json are committed to repo
-          # so they're already present after checkout
+          echo "$CANVA_TOKEN_JSON" > .tmp/disciplinefuel/canva_token.json
 
       - name: Run DisciplineFuel pipeline
         run: python tools/run_discipline_pipeline.py --account disciplinefuel --count 3
-
-      - name: Save updated Canva token as output
-        if: always()
-        id: canva_token
-        run: |
-          if [ -f .tmp/disciplinefuel/canva_token.json ]; then
-            echo "token=$(cat .tmp/disciplinefuel/canva_token.json | tr -d '\n')" >> $GITHUB_OUTPUT
-          fi
 
       - name: Commit state files back to repo
         if: always()
