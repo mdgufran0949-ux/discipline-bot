@@ -74,10 +74,11 @@ jobs:
           git config user.name  "DisciplineFuel Bot"
           git config user.email "bot@disciplinefuel.com"
           git fetch origin main
-          git rebase origin/main || git rebase --abort
+          # Hard-reset to latest remote so we always commit cleanly on top
+          git reset --hard origin/main
           git add -f .tmp/disciplinefuel/memory.json       2>/dev/null || true
           git add -f .tmp/disciplinefuel/uploaded_log.json 2>/dev/null || true
           git add -f .tmp/disciplinefuel/trends.json       2>/dev/null || true
           git add    config/accounts/disciplinefuel.json
           git diff --staged --quiet || git commit -m "state: update after pipeline run [skip ci]"
-          git push || git push --force-with-lease
+          git push origin main
