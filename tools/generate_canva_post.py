@@ -26,7 +26,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 sys.path.insert(0, os.path.dirname(__file__))
-from canva_auth import get_auth_headers
 
 CANVA_API_BASE = "https://api.canva.com/rest/v1"
 TMP_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp", "disciplinefuel", "canva"))
@@ -372,8 +371,7 @@ def generate_canva_post(
     local_pool  = local_pools.get(design_style, [])
     local_bg    = None
     if local_pool:
-        import random as _rand
-        candidate = _rand.choice(local_pool)
+        candidate = random.choice(local_pool)
         if os.path.exists(candidate):
             local_bg = candidate
             print(f"  [Canva] Using local template: {candidate}", flush=True)

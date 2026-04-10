@@ -110,7 +110,7 @@ def get_content_weights() -> dict:
 
     # Default weights
     weights = {
-        "format": {"image": 0.65, "carousel": 0.35},
+        "format": {"image": 0.50, "carousel": 0.50},
         "design_style": {"dark": 0.50, "minimal": 0.20, "bold": 0.20, "luxury": 0.10},
         "quote_type": {
             "contrast":      0.25,

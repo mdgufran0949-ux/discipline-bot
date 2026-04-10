@@ -68,25 +68,45 @@ def _load_log(account: str) -> dict:
 # ── Instagram metrics fetching ─────────────────────────────────────────────────
 
 def _fetch_ig_metrics(ig_media_id: str, ig_access_token: str) -> dict:
-    """Fetch saves, shares, comments, likes for a single post."""
-    metrics_fields = "saved,shares,comments_count,like_count"
-    resp = requests.get(
+    """Fetch saves, shares, comments, likes for a single post.
+    - likes + comments: from media object fields (always available)
+    - saves + shares:   from /insights endpoint (requires Professional account)
+    """
+    # Step 1: Basic metrics (likes, comments)
+    basic_resp = requests.get(
         f"{GRAPH_BASE}/{ig_media_id}",
-        params={
-            "fields":       metrics_fields,
-            "access_token": ig_access_token
-        },
+        params={"fields": "like_count,comments_count", "access_token": ig_access_token},
         timeout=20
     )
-    if not resp.ok:
+    if not basic_resp.ok:
         return {}
-    data = resp.json()
-    return {
-        "saves":    data.get("saved", 0),
-        "shares":   data.get("shares", {}).get("count", 0) if isinstance(data.get("shares"), dict) else data.get("shares", 0),
-        "comments": data.get("comments_count", 0),
-        "likes":    data.get("like_count", 0),
+    basic = basic_resp.json()
+    result = {
+        "saves":    0,
+        "shares":   0,
+        "comments": basic.get("comments_count", 0),
+        "likes":    basic.get("like_count", 0),
     }
+
+    # Step 2: Insights (saves, shares) — requires Instagram Professional Account
+    try:
+        ins_resp = requests.get(
+            f"{GRAPH_BASE}/{ig_media_id}/insights",
+            params={"metric": "saved,shares", "access_token": ig_access_token},
+            timeout=20
+        )
+        if ins_resp.ok:
+            for item in ins_resp.json().get("data", []):
+                name = item.get("name", "")
+                val  = item.get("values", [{}])[0].get("value", 0) if item.get("values") else item.get("value", 0)
+                if name == "saved":
+                    result["saves"] = val
+                elif name == "shares":
+                    result["shares"] = val
+    except Exception:
+        pass  # saves/shares optional — basic metrics still useful
+
+    return result
 
 
 def _compute_score(metrics: dict) -> float:
@@ -96,7 +116,7 @@ def _compute_score(metrics: dict) -> float:
 # ── Review loop ────────────────────────────────────────────────────────────────
 
 def _should_run(account: str) -> bool:
-    """Check if 7 days have passed since last review."""
+    """Check if 1 day has passed since last review."""
     mem_data = mem_module._load()
     last = mem_data.get("last_upgraded")
     if not last:
@@ -124,7 +144,7 @@ def fetch_and_score_posts(account: str, ig_access_token: str, force: bool = Fals
         if not force and fetched_at:
             try:
                 last = datetime.datetime.fromisoformat(fetched_at)
-                if (datetime.datetime.now() - last).hours < 24:
+                if (datetime.datetime.now() - last).total_seconds() < 86400:
                     scored.append(post)
                     continue
             except Exception:

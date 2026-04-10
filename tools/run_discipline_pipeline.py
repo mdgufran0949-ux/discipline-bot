@@ -122,7 +122,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
         print("[ERROR] No IG credentials. Add ig_user_id + ig_access_token to disciplinefuel.json and re-run.", flush=True)
         sys.exit(1)
 
-    # ── Step 1: Weekly review (runs silently if < 7 days since last run)
+    # ── Step 1: Daily review (runs silently if < 1 day since last run)
     print("[1/8] Checking weekly review...", flush=True)
     review_tool.run_review(account, force=False)
 
@@ -190,9 +190,8 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
         design_style = memory_tool.weighted_choice(weights["design_style"])
         fmt          = memory_tool.weighted_choice(weights["format"])
 
-        # Skip duplicate topic+type combo
-        if memory_tool.is_duplicate(topic, weights["quote_type"]):
-            # Try next topic
+        # Skip recently-used topic (check last 30 posts in memory)
+        if memory_tool.should_avoid(topic=topic):
             for t in topic_pool[1:]:
                 if t != topic and t.lower() not in [a.lower() for a in avoid_topics]:
                     topic = t
@@ -242,7 +241,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
 
                 for slide in carousel_slides:
                     img = image_tool.generate_discipline_image(
-                        prompt=image_prompt, size="square_hd",
+                        prompt=image_prompt, size="portrait_9_16",
                         design_style=design_style
                     )
                     bg_image_paths.append(img["file"])
