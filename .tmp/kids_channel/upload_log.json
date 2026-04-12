@@ -1,0 +1,21 @@
+{
+  "uploaded": [
+    {
+      "video_id": "1tmXmr5fX8c",
+      "yt_video_id": "1tmXmr5fX8c",
+      "url": "https://youtube.com/shorts/1tmXmr5fX8c",
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
+      "category": "numbers",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 42.02,
+      "upload_timestamp": "2026-04-12T17:41:36.546737",
+      "title": "Nursery Rhymes Sing-Along for Kids | Biscuit and Zara Learning Song #Shorts"
+    }
+  ],
+  "safety_fails": [],
+  "stats": {
+    "total_uploaded": 1,
+    "total_safety_fails": 0
+  }
+}
