@@ -26,9 +26,21 @@ import shutil as _shutil
 FFMPEG  = _shutil.which("ffmpeg")  or "ffmpeg"
 FFPROBE = _shutil.which("ffprobe") or "ffprobe"
 
-FONT_KIDS   = r"C:\Windows\Fonts\comicbd.ttf"
-FONT_BOLD   = r"C:\Windows\Fonts\arialbd.ttf"
-FONT_PATH   = FONT_KIDS if os.path.exists(FONT_KIDS) else FONT_BOLD
+def _find_font():
+    """Find a bold font that works on both Windows and Linux."""
+    candidates = [
+        r"C:\Windows\Fonts\comicbd.ttf",
+        r"C:\Windows\Fonts\arialbd.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+        "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf",
+        "/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf",
+    ]
+    for c in candidates:
+        if os.path.exists(c):
+            return c
+    return None
+FONT_PATH = _find_font()
 
 W, H        = 1080, 1920
 SCENE_DUR   = 8.0
@@ -164,7 +176,7 @@ def make_intro_png() -> str:
     draw.ellipse([cx-r, cy-r, cx+r, cy+r], fill=(255, 255, 255, 230))
 
     # "B&Z" inside circle
-    font_logo = ImageFont.truetype(FONT_PATH, 160)
+    font_logo = (ImageFont.truetype(FONT_PATH, 160) if FONT_PATH else ImageFont.load_default())
     bz_text   = "B&Z"
     bb = draw.textbbox((0, 0), bz_text, font=font_logo)
     tx = cx - (bb[2]-bb[0])//2
@@ -175,7 +187,7 @@ def make_intro_png() -> str:
     draw.text((tx, ty), bz_text, font=font_logo, fill=(255, 87, 34, 255))
 
     # Channel name
-    font_title = ImageFont.truetype(FONT_PATH, 90)
+    font_title = (ImageFont.truetype(FONT_PATH, 90) if FONT_PATH else ImageFont.load_default())
     title      = "Biscuit & Zara"
     bb2 = draw.textbbox((0, 0), title, font=font_title)
     tx2 = (W - (bb2[2]-bb2[0])) // 2
@@ -184,7 +196,7 @@ def make_intro_png() -> str:
     draw.text((tx2, ty2), title, font=font_title, fill=(255, 255, 255, 255))
 
     # Tagline
-    font_sub = ImageFont.truetype(FONT_PATH, 52)
+    font_sub = (ImageFont.truetype(FONT_PATH, 52) if FONT_PATH else ImageFont.load_default())
     tagline  = "Learning is Fun!"
     bb3 = draw.textbbox((0, 0), tagline, font=font_sub)
     tx3 = (W - (bb3[2]-bb3[0])) // 2
@@ -217,9 +229,9 @@ def make_outro_png() -> str:
         draw_star(draw, sx, sy, size, (255, 255, 255, alpha))
 
     # Main text
-    font_big = ImageFont.truetype(FONT_PATH, 95)
-    font_sub = ImageFont.truetype(FONT_PATH, 62)
-    font_sm  = ImageFont.truetype(FONT_PATH, 48)
+    font_big = (ImageFont.truetype(FONT_PATH, 95) if FONT_PATH else ImageFont.load_default())
+    font_sub = (ImageFont.truetype(FONT_PATH, 62) if FONT_PATH else ImageFont.load_default())
+    font_sm  = (ImageFont.truetype(FONT_PATH, 48) if FONT_PATH else ImageFont.load_default())
 
     lines = [
         ("See You", font_big, (255, 255, 255, 255)),
@@ -375,7 +387,7 @@ def render_caption_png(text: str, idx: int) -> str:
     """
     img    = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     draw   = ImageDraw.Draw(img)
-    font   = ImageFont.truetype(FONT_PATH, 130)
+    font   = (ImageFont.truetype(FONT_PATH, 130) if FONT_PATH else ImageFont.load_default())
 
     # If caption contains a color word, use that color; else rotate
     words_lower = text.lower().split()
@@ -440,7 +452,7 @@ def render_caption_png(text: str, idx: int) -> str:
 def make_kids_badge_png() -> str:
     img  = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype(FONT_PATH, 44)
+    font = (ImageFont.truetype(FONT_PATH, 44) if FONT_PATH else ImageFont.load_default())
     name = "★ Biscuit & Zara"
     bb   = draw.textbbox((0, 0), name, font=font)
     tw   = bb[2] - bb[0]
