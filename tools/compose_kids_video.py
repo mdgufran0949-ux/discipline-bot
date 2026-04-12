@@ -22,9 +22,9 @@ VOICEOVER   = os.path.join(TMP, "kids_voiceover.mp3")
 SRT_FILE    = os.path.join(TMP, "kids_captions.srt")
 BG_MUSIC    = os.path.join(TMP, "kids_bg_music.mp3")   # optional — place your own royalty-free track here
 
-FFMPEG_BIN  = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin"
-FFMPEG      = os.path.join(FFMPEG_BIN, "ffmpeg.exe")
-FFPROBE     = os.path.join(FFMPEG_BIN, "ffprobe.exe")
+import shutil as _shutil
+FFMPEG  = _shutil.which("ffmpeg")  or "ffmpeg"
+FFPROBE = _shutil.which("ffprobe") or "ffprobe"
 
 FONT_KIDS   = r"C:\Windows\Fonts\comicbd.ttf"
 FONT_BOLD   = r"C:\Windows\Fonts\arialbd.ttf"

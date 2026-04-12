@@ -18,7 +18,8 @@ import requests
 import xml.etree.ElementTree as ET
 import random
 
-YTDLP        = r"C:\Users\Admin\AppData\Local\Programs\Python\Python313\Scripts\yt-dlp.exe"
+import shutil as _shutil
+YTDLP = _shutil.which("yt-dlp") or "yt-dlp"
 TRENDS_RSS   = "https://trends.google.com/trending/rss?geo=US"
 HEADERS      = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 MAX_DURATION = 120  # skip videos longer than 2 min

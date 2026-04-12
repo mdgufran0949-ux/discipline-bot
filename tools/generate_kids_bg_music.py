@@ -18,8 +18,9 @@ TMP        = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp
 OUTPUT_WAV = os.path.join(TMP, "kids_bg_music.wav")
 OUTPUT_MP3 = os.path.join(TMP, "kids_bg_music.mp3")
 
-FFMPEG_BIN = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin"
-FFMPEG     = os.path.join(FFMPEG_BIN, "ffmpeg.exe")
+import shutil as _shutil
+FFMPEG  = _shutil.which("ffmpeg")  or "ffmpeg"
+FFPROBE = _shutil.which("ffprobe") or "ffprobe"
 
 SAMPLE_RATE = 44100
 BPM         = 108          # Upbeat tempo for kids

@@ -20,9 +20,9 @@ TMP          = os.path.join(PROJECT_ROOT, ".tmp")
 VOICEOVER    = os.path.join(TMP, "voiceover.mp3")
 SRT_FILE     = os.path.join(TMP, "captions.srt")
 
-FFMPEG_BIN = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin"
-FFMPEG     = os.path.join(FFMPEG_BIN, "ffmpeg.exe")
-FFPROBE    = os.path.join(FFMPEG_BIN, "ffprobe.exe")
+import shutil as _shutil
+FFMPEG  = _shutil.which("ffmpeg")  or "ffmpeg"
+FFPROBE = _shutil.which("ffprobe") or "ffprobe"
 FONT_BOLD  = r"C:\Windows\Fonts\arialbd.ttf"
 
 W, H   = 1080, 1920
