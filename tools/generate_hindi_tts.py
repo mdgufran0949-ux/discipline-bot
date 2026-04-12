@@ -35,7 +35,7 @@ TMP        = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp
 OUTPUT_MP3 = os.path.join(TMP, "voiceover.mp3")
 OUTPUT_SRT = os.path.join(TMP, "captions.srt")
 
-import shutil as _sh2; FFPROBE = _sh2.which("ffprobe") or "ffprobe"\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffprobe.exe"
+import shutil as _sh2; FFPROBE = _sh2.which("ffprobe") or "ffprobe"
 
 
 def srt_time(ms: int) -> str:

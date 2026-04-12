@@ -21,8 +21,7 @@ TMP             = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", 
 SOURCE_VIDEO    = os.path.join(TMP, "celebrity_source.mp4")
 VOICEOVER_MP3   = os.path.join(TMP, "voiceover.mp3")
 OUTPUT_VIDEO    = os.path.join(TMP, "avatar_raw.mp4")
-FFMPEG_BIN      = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin"
-FFPROBE         = os.path.join(FFMPEG_BIN, "ffprobe.exe")
+import shutil as _ss; FFMPEG_BIN = _ss.which("ffmpeg") or "ffmpeg"; FFPROBE = _ss.which("ffprobe") or "ffprobe"
 
 SYNC_API_KEY    = os.getenv("SYNC_API_KEY")
 SYNC_BASE_URL   = "https://api.sync.so/v2"

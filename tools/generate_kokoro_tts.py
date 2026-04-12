@@ -35,8 +35,7 @@ VOICES_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/mode
 WORDS_PER_LINE = 2
 DEFAULT_VOICE  = "am_adam"
 
-FFMPEG_BIN  = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffmpeg.exe"
-FFPROBE_BIN = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffprobe.exe"
+import shutil as _sk; FFMPEG_BIN = _sk.which("ffmpeg") or "ffmpeg"; FFPROBE_BIN = _sk.which("ffprobe") or "ffprobe"
 
 
 def _download_file(url: str, dest: str) -> None:

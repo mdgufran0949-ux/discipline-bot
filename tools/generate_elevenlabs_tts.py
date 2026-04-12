@@ -34,7 +34,7 @@ DEFAULT_VOICE = "pNInz6obpgDQGcFmaJgB"  # Adam
 
 WORDS_PER_LINE = 2  # Caption grouping
 
-FFPROBE_BIN = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffprobe.exe"
+import shutil as _sh; FFPROBE_BIN = _sh.which("ffprobe") or "ffprobe"
 
 
 def srt_time(ms: int) -> str:

@@ -25,7 +25,7 @@ HEADERS = {
 }
 
 MIN_FILE_SIZE = 100 * 1024  # 100 KB
-import shutil as _sy; YTDLP = _sy.which("yt-dlp") or "yt-dlp"\Users\Admin\AppData\Local\Programs\Python\Python313\Scripts\yt-dlp.exe"
+import shutil as _sy; YTDLP = _sy.which("yt-dlp") or "yt-dlp"
 
 
 def _download_ytdlp(post_url: str, reel_id: str, output_path: str) -> dict:

@@ -28,8 +28,13 @@ import numpy as np
 import shutil as _sh
 FFMPEG  = _sh.which("ffmpeg")  or "ffmpeg"
 FFPROBE = _sh.which("ffprobe") or "ffprobe"
-FONT_BOLD  = r"C:\Windows\Fonts\arialbd.ttf"
-YTDLP_BIN  = r"C:\Users\Admin\AppData\Local\Programs\Python\Python313\Scripts\yt-dlp.exe"
+import shutil as _sb; YTDLP_BIN = _sb.which("yt-dlp") or "yt-dlp"
+def _find_font_brand():
+    import os as _o
+    for c in [r"C:\Windows\Fonts\arialbd.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"]:
+        if _o.path.exists(c): return c
+    return None
+FONT_BOLD = _find_font_brand()
 
 
 def _font_path_for_ffmpeg(path: str) -> str:
@@ -279,7 +284,7 @@ def brand_reel(input_path: str, page_name: str, owner_username: str = "",
 
     base      = os.path.splitext(input_path)[0]
     out_path  = f"{base}_branded.mp4"
-    font_esc  = _font_path_for_ffmpeg(FONT_BOLD)
+    font_esc  = _font_path_for_ffmpeg(FONT_BOLD) if FONT_BOLD else ""
     page_esc  = _escape_text(page_name)
 
     print(f"Branding: {os.path.basename(input_path)}", flush=True)

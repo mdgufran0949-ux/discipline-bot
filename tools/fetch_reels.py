@@ -16,7 +16,7 @@ import time
 from langdetect import detect, DetectorFactory, LangDetectException
 DetectorFactory.seed = 0  # deterministic language detection
 
-import shutil as _s; YTDLP = _s.which("yt-dlp") or "yt-dlp"C:\Users\Admin\AppData\Local\Programs\Python\Python313\Scripts\yt-dlp.exe"
+import shutil as _s; YTDLP = _s.which("yt-dlp") or "yt-dlp"
 MAX_DURATION = 90   # seconds — skip anything longer than 90s
 
 

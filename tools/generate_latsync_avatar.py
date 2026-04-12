@@ -40,8 +40,7 @@ BASE_VIDEO    = os.path.join(TMP, "base_video.mp4")
 OUTPUT_VIDEO  = os.path.join(TMP, "avatar_raw.mp4")
 LATSYNC_DIR   = os.path.join(PROJECT_ROOT, "LatentSync")
 
-FFMPEG_BIN  = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffmpeg.exe"
-FFPROBE_BIN = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffprobe.exe"
+import shutil as _sl; FFMPEG_BIN = _sl.which("ffmpeg") or "ffmpeg"; FFPROBE_BIN = _sl.which("ffprobe") or "ffprobe"
 
 FAL_API_KEY = os.getenv("FAL_API_KEY")
 D_ID_API_KEY = os.getenv("D_ID_API_KEY")

@@ -23,7 +23,22 @@ SRT_FILE     = os.path.join(TMP, "captions.srt")
 import shutil as _shutil
 FFMPEG  = _shutil.which("ffmpeg")  or "ffmpeg"
 FFPROBE = _shutil.which("ffprobe") or "ffprobe"
-FONT_BOLD  = r"C:\Windows\Fonts\arialbd.ttf"
+
+def _find_bold_font():
+    candidates = [
+        r"C:\Windows\Fonts\arialbd.ttf",
+        r"C:\Windows\Fonts\comicbd.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+        "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf",
+        "/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf",
+    ]
+    import os as _os
+    for c in candidates:
+        if _os.path.exists(c):
+            return c
+    return None
+FONT_BOLD = _find_bold_font()
 
 W, H   = 1080, 1920
 FPS    = 30
@@ -230,7 +245,7 @@ def render_caption_png(text: str, idx: int, account: str = "") -> str:
     """Render a 2-word caption with pill background and colored accent text."""
     img    = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     draw   = ImageDraw.Draw(img)
-    font   = ImageFont.truetype(FONT_BOLD, 88)
+    font   = (ImageFont.truetype(FONT_BOLD, 88) if FONT_BOLD else ImageFont.load_default())
     colors = NICHE_COLORS.get(account, DEFAULT_ACCENT_COLORS)
     color  = colors[idx % len(colors)]
 
@@ -281,7 +296,7 @@ def render_watermark_png(page_name: str) -> str:
     """Render account page name as watermark at bottom of frame."""
     img  = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype(FONT_BOLD, 46)
+    font = (ImageFont.truetype(FONT_BOLD, 46) if FONT_BOLD else ImageFont.load_default())
 
     bb  = draw.textbbox((0, 0), page_name, font=font)
     tw  = bb[2] - bb[0]

@@ -26,7 +26,7 @@ KIMI_MODEL        = "moonshotai/kimi-k2-instruct"
 TOGETHER_IMG_URL  = "https://api.together.xyz/v1/images/generations"
 TOGETHER_MODEL    = "black-forest-labs/FLUX.1-schnell-Free"
 
-import shutil as _sh; FFMPEG = _sh.which("ffmpeg") or "ffmpeg"\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffmpeg.exe"
+import shutil as _sh; FFMPEG = _sh.which("ffmpeg") or "ffmpeg"
 CLIP_FPS     = 25
 CLIP_SECONDS = 9   # seconds per image clip
 
