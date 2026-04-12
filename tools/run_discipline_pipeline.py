@@ -122,8 +122,8 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
         print("[ERROR] No IG credentials. Add ig_user_id + ig_access_token to disciplinefuel.json and re-run.", flush=True)
         sys.exit(1)
 
-    # ── Step 1: Daily review (runs silently if < 1 day since last run)
-    print("[1/8] Checking weekly review...", flush=True)
+    # ── Step 1: Daily review + competitor intel (runs silently if < 1 day since last run)
+    print("[1/8] Checking daily review + competitor intel...", flush=True)
     review_tool.run_review(account, force=False)
 
     # ── Step 2: Fetch trends (cached 24h)

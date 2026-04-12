@@ -55,6 +55,13 @@ _EMPTY_MEMORY = {
         "best_quote_types":    [],
         "avoid_phrases":       []
     },
+    "competitor_hints": {
+        "top_hooks":            [],
+        "power_words":          [],
+        "winning_structures":   [],
+        "benchmark_engagement": 0,
+        "updated_at":           None
+    },
     "last_upgraded": None
 }
 
@@ -158,9 +165,39 @@ def weighted_choice(weights: dict) -> str:
 
 
 def get_prompt_hints() -> dict:
-    """Returns best hooks + quote types to inject into LLM prompt."""
+    """Returns best hooks + quote types (own + competitor) to inject into LLM prompt."""
     mem = _load()
-    return mem.get("prompt_hints", {})
+    own  = mem.get("prompt_hints", {}) or {}
+    comp = mem.get("competitor_hints", {}) or {}
+    return {
+        "best_hooks":           own.get("best_hooks", []),
+        "best_quote_types":     own.get("best_quote_types", []),
+        "avoid_phrases":        own.get("avoid_phrases", []),
+        "trending_hooks":       (comp.get("top_hooks") or [])[:5],
+        "trending_power_words": (comp.get("power_words") or [])[:10],
+        "trending_structures":  comp.get("winning_structures", []),
+        "niche_benchmark":      comp.get("benchmark_engagement", 0),
+    }
+
+
+def update_competitor_hints(hints: dict) -> None:
+    """Write competitor intel into memory for use by prompt hints."""
+    mem = _load()
+    current = mem.get("competitor_hints") or {}
+    current.update({
+        "top_hooks":            hints.get("top_hooks", current.get("top_hooks", [])),
+        "power_words":          hints.get("power_words", current.get("power_words", [])),
+        "winning_structures":   hints.get("winning_structures", current.get("winning_structures", [])),
+        "benchmark_engagement": hints.get("benchmark_engagement", current.get("benchmark_engagement", 0)),
+        "updated_at":           hints.get("updated_at", datetime.now().isoformat()),
+    })
+    mem["competitor_hints"] = current
+    _save(mem)
+
+
+def get_competitor_hints() -> dict:
+    mem = _load()
+    return mem.get("competitor_hints", {}) or {}
 
 
 # ── Public write functions ─────────────────────────────────────────────────────

@@ -80,6 +80,9 @@ NEVER WRITE THESE (banned — too generic, will not stop scroll):
 - Any quote under 20 words that doesn't name a SPECIFIC struggle.
 These are clichés. They get scrolled past. Every quote must feel original, personal, and uncomfortably specific.
 
+COMPETITIVE EDGE:
+You will be given real hooks from the top-performing discipline posts on Instagram right now. Use them as inspiration for energy, rhythm, and structure — but NEVER copy them verbatim. Your job is to write something that hits harder than those hooks — same punch, fresh words.
+
 EXAMPLE GREAT QUOTES (match this quality and depth):
 - "You said 'I'll start Monday' last Monday. And the Monday before that. The version of you that keeps delaying is winning right now. Stop letting him."
 - "Your phone knows more about you than your gym does. That's not a flex. That's the problem."
@@ -312,11 +315,35 @@ def generate_discipline_quote(
     hints_str     = ""
     if prompt_hints:
         if prompt_hints.get("best_hooks"):
-            hints_str += f"Best performing hooks: {', '.join(prompt_hints['best_hooks'][:3])}. "
+            hints_str += f"Our best performing hooks: {', '.join(prompt_hints['best_hooks'][:3])}. "
         if prompt_hints.get("best_quote_types"):
-            hints_str += f"Best performing types: {', '.join(prompt_hints['best_quote_types'][:2])}."
+            hints_str += f"Our best performing types: {', '.join(prompt_hints['best_quote_types'][:2])}. "
+        trending_hooks = prompt_hints.get("trending_hooks") or []
+        if trending_hooks:
+            hints_str += "\nHOOKS TRENDING IN THE NICHE RIGHT NOW (from top viral discipline posts — match this ENERGY but write something ORIGINAL, do NOT copy):"
+            for h in trending_hooks[:5]:
+                hints_str += f'\n  - "{h[:100]}"'
+        trending_power = prompt_hints.get("trending_power_words") or []
+        if trending_power:
+            hints_str += f"\nHIGH-ENGAGEMENT WORDS from top niche posts (weave 2-3 in naturally): {', '.join(trending_power[:10])}"
+        trending_struct = prompt_hints.get("trending_structures") or []
+        if trending_struct:
+            hints_str += f"\nDOMINANT STRUCTURES in top niche posts this week: {', '.join(trending_struct[:3])} (prefer these)"
     if not hints_str:
         hints_str = "No performance data yet. Experiment freely."
+
+    # Snapshot hints for REPORT.md visibility
+    try:
+        _hints_snapshot_path = os.path.abspath(
+            os.path.join(os.path.dirname(__file__), "..", ".tmp", "disciplinefuel", "last_prompt_hints.txt")
+        )
+        os.makedirs(os.path.dirname(_hints_snapshot_path), exist_ok=True)
+        _tmp_hints = _hints_snapshot_path + ".tmp"
+        with open(_tmp_hints, "w", encoding="utf-8") as _f:
+            _f.write(hints_str)
+        os.replace(_tmp_hints, _hints_snapshot_path)
+    except Exception:
+        pass
 
     # Step 1: Pick length distribution — 30% PUNCH, 50% MEDIUM, 20% LONG
     length_roll = random.random()
