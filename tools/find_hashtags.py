@@ -15,7 +15,7 @@ from collections import Counter
 from langdetect import detect, DetectorFactory, LangDetectException
 DetectorFactory.seed = 0
 
-YTDLP       = r"C:\Users\Admin\AppData\Local\Programs\Python\Python313\Scripts\yt-dlp.exe"
+import shutil as _sy; YTDLP = _sy.which("yt-dlp") or "yt-dlp"\Users\Admin\AppData\Local\Programs\Python\Python313\Scripts\yt-dlp.exe"
 
 
 def _is_english(text: str) -> bool:

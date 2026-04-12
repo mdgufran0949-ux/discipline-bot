@@ -25,9 +25,9 @@ import cv2
 import easyocr
 import numpy as np
 
-FFMPEG_BIN = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin"
-FFMPEG     = os.path.join(FFMPEG_BIN, "ffmpeg.exe")
-FFPROBE    = os.path.join(FFMPEG_BIN, "ffprobe.exe")
+import shutil as _sh
+FFMPEG  = _sh.which("ffmpeg")  or "ffmpeg"
+FFPROBE = _sh.which("ffprobe") or "ffprobe"
 FONT_BOLD  = r"C:\Windows\Fonts\arialbd.ttf"
 YTDLP_BIN  = r"C:\Users\Admin\AppData\Local\Programs\Python\Python313\Scripts\yt-dlp.exe"
 

@@ -36,9 +36,9 @@ AUDIO_FILE   = os.path.join(TMP, "voiceover.mp3")
 SRT_FILE     = os.path.join(TMP, "captions.srt")
 CLIPS_DIR    = os.path.join(TMP, "scene_clips")
 
-FFMPEG_BIN = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin"
-FFMPEG     = os.path.join(FFMPEG_BIN, "ffmpeg.exe")
-FFPROBE    = os.path.join(FFMPEG_BIN, "ffprobe.exe")
+import shutil as _sh
+FFMPEG  = _sh.which("ffmpeg")  or "ffmpeg"
+FFPROBE = _sh.which("ffprobe") or "ffprobe"
 
 # Hindi font with Devanagari support
 FONT_HINDI = r"C:\Windows\Fonts\Nirmala.ttc"

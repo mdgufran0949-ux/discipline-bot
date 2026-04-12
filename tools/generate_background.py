@@ -11,7 +11,7 @@ import os
 import subprocess
 
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", ".tmp", "background.mp4")
-FFMPEG = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffmpeg.exe"
+import shutil as _sh; FFMPEG = _sh.which("ffmpeg") or "ffmpeg"\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffmpeg.exe"
 
 def generate_background(duration: float = 12.0, style: str = "dark_gradient") -> dict:
     os.makedirs(os.path.dirname(os.path.abspath(OUTPUT_PATH)), exist_ok=True)

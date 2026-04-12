@@ -18,7 +18,7 @@ VOICE       = "en-US-GuyNeural"
 RATE        = "-5%"
 OUTPUT_MP3  = os.path.join(os.path.dirname(__file__), "..", ".tmp", "voiceover.mp3")
 OUTPUT_SRT  = os.path.join(os.path.dirname(__file__), "..", ".tmp", "captions.srt")
-FFPROBE     = r"C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffprobe.exe"
+import shutil as _sh2; FFPROBE = _sh2.which("ffprobe") or "ffprobe"\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1-full_build\bin\ffprobe.exe"
 WORDS_PER_LINE = 2
 
 def srt_time(ms: int) -> str:
