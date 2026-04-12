@@ -1,0 +1,42 @@
+{
+  "account_name": "biscuit_zara",
+  "channel": "Biscuit & Zara",
+  "niche": "kids educational rhymes and colors",
+  "platform": "youtube",
+  "ig_user_id": "",
+  "ig_access_token": "",
+  "page_name": "Biscuit & Zara",
+  "hashtag_pool": [
+    "kidslearning",
+    "kidssong",
+    "nurseryrhymes",
+    "learncolors",
+    "toddlerlearning",
+    "kidsvideo",
+    "preschool",
+    "educationalvideo",
+    "kidsfun",
+    "learningfun"
+  ],
+  "caption_template": "Sing along with Biscuit & Zara! 🌈 Subscribe for more learning fun!\n\n#kidslearning #nurseryrhymes #kidssong #learnwithfun #shorts",
+  "content_topics": [
+    "colors of the rainbow",
+    "counting 1 to 10",
+    "animal sounds",
+    "shapes",
+    "alphabet",
+    "days of the week",
+    "body parts",
+    "fruits and vegetables",
+    "weather",
+    "good manners"
+  ],
+  "content_preferences": {
+    "good_keywords": [],
+    "avoid_keywords": [],
+    "best_topics": [],
+    "avoid_topics": [],
+    "hook_weights": {},
+    "last_analyzed": null
+  }
+}

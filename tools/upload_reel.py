@@ -202,9 +202,18 @@ def upload_reel(video_path: str, caption: str, ig_user_id: str = None, ig_access
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python tools/upload_reel.py \".tmp/reels/reel_id_branded.mp4\" \"Caption #hashtag\"")
+        print("Usage: python tools/upload_reel.py \".tmp/reels/reel_id_branded.mp4\" \"Caption #hashtag\" [--out result.json]")
         sys.exit(1)
     video_path = sys.argv[1]
     caption    = sys.argv[2]
-    result     = upload_reel(video_path, caption)
+    out_path   = None
+    if "--out" in sys.argv:
+        idx = sys.argv.index("--out")
+        if idx + 1 < len(sys.argv):
+            out_path = sys.argv[idx + 1]
+    result = upload_reel(video_path, caption)
     print(json.dumps(result, indent=2))
+    if out_path:
+        os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
+        with open(out_path, "w", encoding="utf-8") as _f:
+            json.dump(result, _f, indent=2)

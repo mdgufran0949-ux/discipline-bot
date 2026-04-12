@@ -76,9 +76,12 @@ jobs:
           git fetch origin main
           # Hard-reset to latest remote so we always commit cleanly on top
           git reset --hard origin/main
-          git add -f .tmp/disciplinefuel/memory.json       2>/dev/null || true
-          git add -f .tmp/disciplinefuel/uploaded_log.json 2>/dev/null || true
-          git add -f .tmp/disciplinefuel/trends.json       2>/dev/null || true
+          git add -f .tmp/disciplinefuel/memory.json            2>/dev/null || true
+          git add -f .tmp/disciplinefuel/uploaded_log.json     2>/dev/null || true
+          git add -f .tmp/disciplinefuel/trends.json            2>/dev/null || true
+          git add -f .tmp/disciplinefuel/competitor_intel.json  2>/dev/null || true
+          git add -f .tmp/disciplinefuel/change_history.jsonl   2>/dev/null || true
           git add    config/accounts/disciplinefuel.json
+          git add    REPORT.md                                  2>/dev/null || true
           git diff --staged --quiet || git commit -m "state: update after pipeline run [skip ci]"
           git push origin main

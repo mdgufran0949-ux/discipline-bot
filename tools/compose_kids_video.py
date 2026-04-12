@@ -47,6 +47,24 @@ CAPTION_COLORS = [
     (233,  30,  99),   # pink
 ]
 
+# Color words → their actual color (used when caption text contains a color name)
+COLOR_WORD_MAP = {
+    "red":    (220,  50,  50),
+    "orange": (255, 140,   0),
+    "yellow": (220, 200,   0),
+    "green":  ( 34, 160,  34),
+    "blue":   ( 30, 120, 220),
+    "indigo": ( 75,   0, 130),
+    "violet": (148,   0, 211),
+    "purple": (148,   0, 211),
+    "pink":   (255,  80, 150),
+    "white":  (200, 200, 200),
+    "black":  ( 50,  50,  50),
+    "brown":  (139,  90,  43),
+    "grey":   (130, 130, 130),
+    "gray":   (130, 130, 130),
+}
+
 # Varied xfade transitions (index matches scene index)
 TRANSITIONS = ["fade", "wipeleft", "wiperight", "fade", "circleopen", "fade", "fade"]
 
@@ -358,7 +376,13 @@ def render_caption_png(text: str, idx: int) -> str:
     img    = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     draw   = ImageDraw.Draw(img)
     font   = ImageFont.truetype(FONT_PATH, 130)
-    color  = CAPTION_COLORS[idx % len(CAPTION_COLORS)]
+
+    # If caption contains a color word, use that color; else rotate
+    words_lower = text.lower().split()
+    color = next(
+        (COLOR_WORD_MAP[w] for w in words_lower if w in COLOR_WORD_MAP),
+        CAPTION_COLORS[idx % len(CAPTION_COLORS)]
+    )
 
     bb     = draw.textbbox((0, 0), text, font=font)
     tw     = bb[2] - bb[0]
@@ -514,16 +538,18 @@ def composite_final(bg_video: str, audio: str, srt_entries: list,
     has_music = os.path.exists(BG_MUSIC)
 
     if has_music:
+        # Input 0=video (no audio), Input 1=narration, Input 2=bg music
         audio_inputs = ["-i", audio, "-i", BG_MUSIC]
         audio_filter = (
-            f"[0:a]adelay={delay_ms}|{delay_ms}[narration];"
-            f"[1:a]volume=0.12,aloop=loop=-1:size=2e+09[bg];"
+            f"[1:a]adelay={delay_ms}|{delay_ms}[narration];"
+            f"[2:a]volume=0.12,aloop=loop=-1:size=2e+09[bg];"
             f"[narration][bg]amix=inputs=2:duration=first[final_a]"
         )
         audio_map = "[final_a]"
     else:
+        # Input 0=video (no audio), Input 1=narration
         audio_inputs = ["-i", audio]
-        audio_filter = f"[0:a]adelay={delay_ms}|{delay_ms}[final_a]"
+        audio_filter = f"[1:a]adelay={delay_ms}|{delay_ms}[final_a]"
         audio_map    = "[final_a]"
 
     run([
@@ -556,10 +582,18 @@ def make_landscape_version(shorts_path: str, landscape_path: str) -> str:
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
-def compose_kids_video(_title: str, output_filename: str = "kids_output.mp4") -> dict:
+def compose_kids_video(_title: str, output_filename: str = "kids_output.mp4",
+                       narration_duration: float = None) -> dict:
     os.makedirs(TMP, exist_ok=True)
     output_path    = os.path.join(TMP, output_filename)
     landscape_path = os.path.join(TMP, output_filename.replace(".mp4", "_landscape.mp4"))
+
+    if narration_duration and narration_duration > 0:
+        scene_dur = max(5.0, (narration_duration - INTRO_DUR - OUTRO_DUR) / N_SCENES)
+        scene_dur = round(scene_dur, 2)
+    else:
+        scene_dur = SCENE_DUR
+    print(f"  Scene duration: {scene_dur}s x {N_SCENES} scenes = {INTRO_DUR + scene_dur*N_SCENES + OUTRO_DUR:.1f}s total", flush=True)
 
     print("Step 1/6 -- Rendering intro & outro...", flush=True)
     intro_png  = make_intro_png()
@@ -575,9 +609,9 @@ def compose_kids_video(_title: str, output_filename: str = "kids_output.mp4") ->
         img_path = os.path.join(IMAGES_DIR, f"scene_{i:03d}.png")
         if not os.path.exists(img_path):
             raise FileNotFoundError(f"Missing: {img_path}")
-        clip = make_ken_burns_clip(img_path, i, SCENE_DUR)
+        clip = make_ken_burns_clip(img_path, i, scene_dur)
         clip_paths.append(clip)
-        clip_durations.append(SCENE_DUR)
+        clip_durations.append(scene_dur)
         print(f"  [OK] Scene {i} — pattern {((i-1) % len(KB_PATTERNS)) + 1}", flush=True)
     clip_paths.append(outro_clip)
     clip_durations.append(OUTRO_DUR)
@@ -599,7 +633,7 @@ def compose_kids_video(_title: str, output_filename: str = "kids_output.mp4") ->
     print(f"  [OK] Badge ready — rendering {len(srt_entries)} caption frames...", flush=True)
 
     print("Step 6/6 -- Final composite (audio sync fixed)...", flush=True)
-    total_dur = INTRO_DUR + (N_SCENES * SCENE_DUR) + OUTRO_DUR
+    total_dur = INTRO_DUR + (N_SCENES * scene_dur) + OUTRO_DUR
     has_music = os.path.exists(BG_MUSIC)
     if has_music:
         print(f"  [MUSIC] Mixing background music at 12% volume", flush=True)

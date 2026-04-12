@@ -38,13 +38,23 @@ sys.path.insert(0, os.path.dirname(__file__))
 from dotenv import load_dotenv
 load_dotenv()
 
-from fetch_kids_trends      import fetch_kids_trends
-from generate_kids_script   import generate_kids_script
-from kids_safety_check      import kids_safety_check
-from generate_kids_tts      import generate_kids_tts
-from generate_kids_visuals   import generate_kids_visuals
-from generate_kids_thumbnail import generate_kids_thumbnail
-from compose_kids_video      import compose_kids_video
+from fetch_kids_trends        import fetch_kids_trends
+from generate_kids_script     import generate_kids_script
+from kids_safety_check        import kids_safety_check
+from generate_kids_tts        import generate_kids_tts
+from generate_kids_visuals    import generate_kids_visuals
+from generate_kids_thumbnail  import generate_kids_thumbnail
+from generate_kids_bg_music   import generate_kids_bg_music
+from compose_kids_video       import compose_kids_video
+
+try:
+    from daily_review   import daily_review
+    from account_memory import AccountMemory
+except Exception:
+    daily_review  = None
+    AccountMemory = None
+
+KIDS_ACCOUNT = "biscuit_zara"
 
 TMP      = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp"))
 ROOT     = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -233,6 +243,16 @@ def run_kids_pipeline(count: int = 1, topic: str = None,
     safety_fails  = 0
     videos_done   = 0
 
+    # Step 0: Daily review (self-improvement loop)
+    if daily_review is not None:
+        try:
+            print("[0] Daily review (self-improvement)...", flush=True)
+            daily_review(KIDS_ACCOUNT)
+        except Exception as e:
+            print(f"  [WARN] daily review failed: {e}", flush=True)
+
+    memory = AccountMemory(KIDS_ACCOUNT) if AccountMemory else None
+
     # ── Get topic pool ─────────────────────────────────────────
     if topic:
         topic_pool = [{"topic": topic, "category": "manual", "rank": 1}]
@@ -304,11 +324,15 @@ def run_kids_pipeline(count: int = 1, topic: str = None,
             print(f"  Duration: {tts['duration_seconds']}s", flush=True)
 
             # Step 5: Scene images
-            print("[5] Generating scene images (kie.ai Ideogram V3)...", flush=True)
+            print("[5] Generating scene images (AIMLAPI FLUX Pro)...", flush=True)
             visuals = run_step("Scene images",
                                generate_kids_visuals,
                                SCRIPT_FILE,
                                max_retries=1)
+
+            # Step 5b: Background music
+            print("[5b] Generating background music...", flush=True)
+            run_step("Background music", generate_kids_bg_music, max_retries=1)
 
             # Step 6: Compose video
             print("[6] Composing video...", flush=True)
@@ -317,6 +341,7 @@ def run_kids_pipeline(count: int = 1, topic: str = None,
                              compose_kids_video,
                              script.get("title", current_topic),
                              video_filename,
+                             tts["duration_seconds"],
                              max_retries=1)
 
             # Step 7: Thumbnail
@@ -347,6 +372,7 @@ def run_kids_pipeline(count: int = 1, topic: str = None,
 
                 upload_entry = {
                     "video_id":         up["video_id"],
+                    "yt_video_id":      up["video_id"],
                     "url":              up["url"],
                     "topic":            current_topic,
                     "category":         current_cat,
@@ -360,6 +386,24 @@ def run_kids_pipeline(count: int = 1, topic: str = None,
                 log["stats"]["total_uploaded"] = log["stats"].get("total_uploaded", 0) + 1
                 save_log(log)
                 uploads.append(upload_entry)
+
+                # Log to memory for self-improvement loop
+                if memory:
+                    try:
+                        memory.add_post({
+                            "yt_video_id":  up["video_id"],
+                            "topic":        current_topic,
+                            "hook":         script.get("narration", "")[:60],
+                            "hook_type":    "question" if "?" in script.get("narration", "")[:60] else "fact",
+                            "caption":      script.get("description", ""),
+                            "hashtags":     script.get("hashtags", []),
+                            "scene_prompts":[s.get("image_prompt", "") for s in script.get("scenes", [])],
+                            "series":       current_series,
+                            "format":       "video",
+                            "posted_at":    datetime.datetime.now().isoformat(),
+                        })
+                    except Exception as _me:
+                        print(f"  [WARN] memory log failed: {_me}", flush=True)
 
             # Cleanup temp files between videos
             _cleanup_tmp_files()

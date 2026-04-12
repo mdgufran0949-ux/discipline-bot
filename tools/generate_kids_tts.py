@@ -18,9 +18,9 @@ import argparse
 import edge_tts
 
 VOICE          = "en-US-AnaNeural"   # Child-friendly, warm female voice
-RATE           = "-10%"              # Slightly slower than adult pipeline for comprehension
-PITCH          = "+5Hz"             # Slightly higher pitch for kid appeal
-WORDS_PER_LINE = 3                   # Wider captions — slower pace means kids can read more
+RATE           = "-5%"               # Slightly slower for comprehension, but still musical
+PITCH          = "+15Hz"             # Higher pitch — bright, singing-like kid appeal
+WORDS_PER_LINE = 2                   # 2 words per caption line — punch and rhythm
 
 TMP         = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp"))
 OUTPUT_MP3  = os.path.join(TMP, "kids_voiceover.mp3")

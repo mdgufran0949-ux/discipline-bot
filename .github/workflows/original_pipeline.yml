@@ -1,0 +1,145 @@
+name: Original Content Pipeline (4 accounts)
+
+on:
+  schedule:
+    - cron: '30 3 * * *'   # 09:00 IST — factsflash
+    - cron: '30 5 * * *'   # 11:00 IST — cricketcuts
+    - cron: '30 7 * * *'   # 13:00 IST — coresteelfitness
+    - cron: '30 9 * * *'   # 15:00 IST — techmindblown
+  workflow_dispatch:
+    inputs:
+      account:
+        description: 'Account to run (factsflash / cricketcuts / coresteelfitness / techmindblown / all)'
+        default: 'all'
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore .env from secrets
+        env:
+          GROQ_API_KEY:            ${{ secrets.GROQ_API_KEY }}
+          FAL_API_KEY:             ${{ secrets.FAL_API_KEY }}
+          PEXELS_API_KEY:          ${{ secrets.PEXELS_API_KEY }}
+          GEMINI_API_KEY:          ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY:      ${{ secrets.OPENROUTER_API_KEY }}
+          CLOUDINARY_CLOUD_NAME:   ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY:      ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET:   ${{ secrets.CLOUDINARY_API_SECRET }}
+          TOGETHER_API_KEY:        ${{ secrets.TOGETHER_API_KEY }}
+          AIMLAPI_KEY:             ${{ secrets.AIMLAPI_KEY }}
+          ELEVENLABS_API_KEY:      ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          echo "GROQ_API_KEY=$GROQ_API_KEY"                       >> .env
+          echo "FAL_API_KEY=$FAL_API_KEY"                         >> .env
+          echo "PEXELS_API_KEY=$PEXELS_API_KEY"                   >> .env
+          echo "GEMINI_API_KEY=$GEMINI_API_KEY"                   >> .env
+          echo "OPENROUTER_API_KEY=$OPENROUTER_API_KEY"           >> .env
+          echo "CLOUDINARY_CLOUD_NAME=$CLOUDINARY_CLOUD_NAME"     >> .env
+          echo "CLOUDINARY_API_KEY=$CLOUDINARY_API_KEY"           >> .env
+          echo "CLOUDINARY_API_SECRET=$CLOUDINARY_API_SECRET"     >> .env
+          echo "TOGETHER_API_KEY=$TOGETHER_API_KEY"               >> .env
+          echo "AIMLAPI_KEY=$AIMLAPI_KEY"                         >> .env
+          echo "ELEVENLABS_API_KEY=$ELEVENLABS_API_KEY"           >> .env
+
+      - name: Restore YouTube token
+        env:
+          YOUTUBE_TOKEN_B64: ${{ secrets.YOUTUBE_TOKEN_B64 }}
+        run: |
+          if [ -n "$YOUTUBE_TOKEN_B64" ]; then
+            mkdir -p .tmp
+            echo "$YOUTUBE_TOKEN_B64" | base64 -d > .tmp/youtube_token.pkl
+            echo "YouTube token restored"
+          fi
+
+      - name: Inject IG tokens into account configs
+        env:
+          IG_ACCESS_TOKEN_FACTSFLASH:   ${{ secrets.IG_ACCESS_TOKEN_FACTSFLASH }}
+          IG_ACCESS_TOKEN_CRICKETCUTS:  ${{ secrets.IG_ACCESS_TOKEN_CRICKETCUTS }}
+          IG_ACCESS_TOKEN_CORESTEEL:    ${{ secrets.IG_ACCESS_TOKEN_CORESTEEL }}
+          IG_ACCESS_TOKEN_TECHMINDBLOWN: ${{ secrets.IG_ACCESS_TOKEN_TECHMINDBLOWN }}
+        run: |
+          python - <<'EOF'
+          import json, os
+          tokens = {
+            "factsflash":      os.getenv("IG_ACCESS_TOKEN_FACTSFLASH", ""),
+            "cricketcuts":     os.getenv("IG_ACCESS_TOKEN_CRICKETCUTS", ""),
+            "coresteelfitness":os.getenv("IG_ACCESS_TOKEN_CORESTEEL", ""),
+            "techmindblown":   os.getenv("IG_ACCESS_TOKEN_TECHMINDBLOWN", ""),
+          }
+          for account, token in tokens.items():
+            if not token:
+              continue
+            path = f"config/accounts/{account}.json"
+            if not os.path.exists(path):
+              continue
+            with open(path) as f:
+              cfg = json.load(f)
+            cfg["ig_access_token"] = token
+            with open(path, "w") as f:
+              json.dump(cfg, f, indent=2)
+          print("IG tokens injected")
+          EOF
+
+      - name: Determine target account
+        id: target
+        run: |
+          SCHEDULE="${{ github.event.schedule }}"
+          MANUAL="${{ github.event.inputs.account }}"
+          if [ -n "$MANUAL" ] && [ "$MANUAL" != "all" ]; then
+            echo "account=$MANUAL" >> $GITHUB_OUTPUT
+          elif [ "$SCHEDULE" = "30 3 * * *" ]; then
+            echo "account=factsflash" >> $GITHUB_OUTPUT
+          elif [ "$SCHEDULE" = "30 5 * * *" ]; then
+            echo "account=cricketcuts" >> $GITHUB_OUTPUT
+          elif [ "$SCHEDULE" = "30 7 * * *" ]; then
+            echo "account=coresteelfitness" >> $GITHUB_OUTPUT
+          elif [ "$SCHEDULE" = "30 9 * * *" ]; then
+            echo "account=techmindblown" >> $GITHUB_OUTPUT
+          else
+            echo "account=factsflash" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Restore account memory + logs
+        run: |
+          ACCOUNT="${{ steps.target.outputs.account }}"
+          mkdir -p .tmp/$ACCOUNT
+
+      - name: Run pipeline
+        run: |
+          ACCOUNT="${{ steps.target.outputs.account }}"
+          echo "Running pipeline for: $ACCOUNT"
+          python tools/run_original_pipeline.py --account "$ACCOUNT" --count 1
+
+      - name: Commit state files back to repo
+        if: always()
+        run: |
+          ACCOUNT="${{ steps.target.outputs.account }}"
+          git config user.name  "OriginalPipeline Bot"
+          git config user.email "bot@pipeline.local"
+          git fetch origin main
+          git reset --hard origin/main
+          git add -f .tmp/$ACCOUNT/memory.json         2>/dev/null || true
+          git add -f .tmp/$ACCOUNT/uploaded_log.json   2>/dev/null || true
+          git add -f .tmp/$ACCOUNT/performance.json    2>/dev/null || true
+          git add -f .tmp/$ACCOUNT/strategy_report.json 2>/dev/null || true
+          git add    config/accounts/$ACCOUNT.json      2>/dev/null || true
+          git diff --staged --quiet || git commit -m "state: $ACCOUNT after pipeline run [skip ci]"
+          git push origin main

@@ -29,14 +29,17 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 TOKEN_FILE = os.path.join(TMP, "youtube_token.pkl")
 CREDENTIALS_FILE = os.path.join(ROOT, "credentials.json")
 
-SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+SCOPES = [
+    "https://www.googleapis.com/auth/youtube.upload",
+    "https://www.googleapis.com/auth/yt-analytics.readonly",
+]
 
 
 def _check_deps():
     missing = []
-    for pkg in ("googleapiclient", "google_auth_oauthlib", "google.auth"):
+    for pkg in ("googleapiclient", "google_auth_oauthlib"):
         try:
-            __import__(pkg.replace(".", "_") if "." in pkg else pkg)
+            __import__(pkg)
         except ImportError:
             missing.append(pkg)
     if missing:

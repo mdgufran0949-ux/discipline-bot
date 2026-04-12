@@ -21,6 +21,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+sys.path.insert(0, os.path.dirname(__file__))
+try:
+    from account_memory import AccountMemory
+except Exception:
+    AccountMemory = None
+
+KIDS_ACCOUNT_SLUG = "biscuit_zara"
+
 GROQ_API_KEY  = os.getenv("GROQ_API_KEY")
 KIMI_API_KEY  = os.getenv("KIMI_API_KEY")
 
@@ -52,9 +60,10 @@ You write scripts featuring BISCUIT (a curious yellow bear cub) and ZARA (a smar
 
 Rules:
 - Simple vocabulary, Grade 2 reading level
-- Short sentences, rhythmic and fun
-- Scene 1 MUST start with a fun question or surprising fact (3-second hook)
-- Scene 6 MUST recap the main lesson and say goodbye
+- Narration MUST be musical and rhythmic — like a song or nursery rhyme. Use rhyming couplets, repetition, and a bouncy cadence kids love.
+- Narration MUST be EXACTLY 6 sentences (one per scene). Each sentence: 12-16 words. Total narration: 72-96 words. DO NOT write short sentences.
+- Scene 1 MUST start with a catchy rhyming hook question (e.g. "Do you know why the sun is SO bright and hot today?")
+- Scene 6 MUST recap the lesson with a rhyming goodbye sing-along
 - Always return ONLY valid JSON. No markdown. No explanation outside JSON."""
 
 
@@ -67,7 +76,7 @@ Return ONLY this JSON (no markdown):
   "topic": "{topic}",
   "series": "{series}",
   "title": "Engaging title with emoji, max 60 chars",
-  "narration": "Full voiceover text. Exactly 6 sentences, one per scene. Each sentence must be 10-15 words long. Total: 60-90 words.",
+  "narration": "MUSICAL rhyming voiceover. EXACTLY 6 sentences (one per scene). Each sentence: 12-16 words with rhyme and rhythm. MINIMUM 72 words total.",
   "scenes": [
     {{"id": 1, "speaker": "BISCUIT", "dialogue": "Short excited question 1-2 sentences", "narration": "Opening narrator hook sentence", "scene_desc": "BISCUIT and ZARA at a bright colorful location, scene 1 action"}},
     {{"id": 2, "speaker": "ZARA", "dialogue": "Teaching explanation 1-2 sentences", "narration": "Narrator explains scene 2", "scene_desc": "BISCUIT and ZARA, scene 2 action"}},
@@ -111,12 +120,28 @@ def _inject_image_prompts(result: dict) -> dict:
     return result
 
 
-def _call_llm(client: OpenAI, model: str, prompt: str) -> str:
+def _build_kids_hints_block(hints: dict) -> str:
+    if not hints:
+        return ""
+    parts = []
+    if hints.get("best_topics"):
+        parts.append("Proven strong topics (prefer similar ones):\n  - "
+                     + "\n  - ".join(hints["best_topics"][:5]))
+    if hints.get("best_hooks"):
+        parts.append("Past WINNING opening hooks (match this rhythm):\n  - "
+                     + "\n  - ".join(h[:80] for h in hints["best_hooks"][:3]))
+    if hints.get("avoid_topics"):
+        parts.append("AVOID these topics (performed poorly):\n  - "
+                     + "\n  - ".join(hints["avoid_topics"][:5]))
+    return "\n\n".join(parts)
+
+
+def _call_llm(client: OpenAI, model: str, prompt: str, system: str = SYSTEM_PROMPT) -> str:
     """Call LLM and return raw text."""
     response = client.chat.completions.create(
         model=model,
         messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "system", "content": system},
             {"role": "user",   "content": prompt}
         ],
         temperature=0.75,
@@ -132,6 +157,18 @@ def generate_kids_script(topic: str, series: str = "standalone") -> dict:
 
     prompt = PROMPT_TEMPLATE.format(topic=clean, series=series)
 
+    # Inject memory hints into system prompt if available
+    system_prompt = SYSTEM_PROMPT
+    if AccountMemory is not None:
+        try:
+            hints = AccountMemory(KIDS_ACCOUNT_SLUG).get_prompt_hints()
+            block = _build_kids_hints_block(hints)
+            if block:
+                system_prompt = SYSTEM_PROMPT + "\n\n" + block
+                print(f"  [memory] kids hints injected ({len(hints.get('best_topics', []))} topics)", flush=True)
+        except Exception as e:
+            print(f"  [WARN] kids memory load failed: {e}", flush=True)
+
     # Provider order: Groq first (free), Kimi K2 fallback
     providers = []
     if GROQ_API_KEY:
@@ -146,7 +183,7 @@ def generate_kids_script(topic: str, series: str = "standalone") -> dict:
     for provider_name, client, model in providers:
         for attempt in range(1, 3):
             try:
-                raw = _call_llm(client, model, prompt)
+                raw = _call_llm(client, model, prompt, system=system_prompt)
 
                 # Strip markdown fences if present
                 if "```" in raw:
@@ -160,7 +197,7 @@ def generate_kids_script(topic: str, series: str = "standalone") -> dict:
                 # Validate
                 assert len(result.get("scenes", [])) == 6, "Expected 6 scenes"
                 word_count = len(result.get("narration", "").split())
-                assert word_count >= 40, f"Narration too short: {word_count} words"
+                assert word_count >= 60, f"Narration too short: {word_count} words (need 60+)"
 
                 # Inject image prompts (done here, not in prompt, to save tokens)
                 result = _inject_image_prompts(result)
