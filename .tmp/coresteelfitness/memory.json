@@ -1,0 +1,35 @@
+{
+  "account": "coresteelfitness",
+  "posts": [],
+  "patterns": {
+    "strong": [],
+    "weak": [],
+    "avoid_topics": [],
+    "avoid_hook_keywords": []
+  },
+  "stats": {
+    "total_posts": 0,
+    "by_quote_type": {},
+    "by_hook_type": {},
+    "by_topic": {},
+    "by_format": {},
+    "by_series": {},
+    "top_performing_series": null,
+    "top_performing_topic": null
+  },
+  "prompt_hints": {
+    "best_hooks": [],
+    "best_topics": [],
+    "best_quote_types": [],
+    "avoid_phrases": []
+  },
+  "competitor_hints": {
+    "top_hooks": [],
+    "power_words": [],
+    "winning_structures": [],
+    "benchmark_engagement": 0,
+    "updated_at": null
+  },
+  "last_upgraded": "2026-04-13T11:56:11.470466",
+  "last_reviewed": "2026-04-13T11:56:11.470684"
+}
