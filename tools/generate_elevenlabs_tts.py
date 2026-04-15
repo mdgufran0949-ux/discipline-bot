@@ -1,14 +1,14 @@
 """
 generate_elevenlabs_tts.py
 Converts script text to voiceover using ElevenLabs API.
+Falls back to edge-tts automatically if ElevenLabs is unavailable or returns 401/403.
 Generates synchronized SRT captions by estimating word-level timings.
 Usage: python tools/generate_elevenlabs_tts.py [--voice_id ID] [--text "..."]
        (reads .tmp/script.json by default if --text not provided)
 Output: .tmp/voiceover.mp3 + .tmp/captions.srt + JSON with paths and duration.
-Requires: ELEVENLABS_API_KEY in .env
 """
 
-import argparse, json, os, subprocess, sys
+import argparse, asyncio, json, os, subprocess, sys
 import requests
 from dotenv import load_dotenv
 
@@ -23,18 +23,28 @@ SRT_PATH     = os.path.join(TMP, "captions.srt")
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
 ELEVENLABS_BASE    = "https://api.elevenlabs.io/v1"
 
-# Default voice IDs per account (ElevenLabs pre-made voices, free tier)
+# ElevenLabs voice IDs per account
 ACCOUNT_VOICES = {
-    "factsflash":      "pNInz6obpgDQGcFmaJgB",  # Adam - confident, clear
-    "techmindblown":   "ErXwobaYiN019PkySvjV",  # Antoni - deep, authoritative
-    "coresteelfitness":"VR6AewLTigWG4xSOukaG",  # Arnold - energetic, powerful
-    "cricketcuts":     "TxGEqnHWrfWFTfGW9XjX",  # Josh - sports commentator
+    "factsflash":      "pNInz6obpgDQGcFmaJgB",  # Adam
+    "techmindblown":   "ErXwobaYiN019PkySvjV",  # Antoni
+    "coresteelfitness":"VR6AewLTigWG4xSOukaG",  # Arnold
+    "cricketcuts":     "TxGEqnHWrfWFTfGW9XjX",  # Josh
 }
-DEFAULT_VOICE = "pNInz6obpgDQGcFmaJgB"  # Adam
+DEFAULT_VOICE = "pNInz6obpgDQGcFmaJgB"
 
-WORDS_PER_LINE = 2  # Caption grouping
+# edge-tts fallback voices (same account mapping, free, no API key)
+EDGETTS_VOICES = {
+    "factsflash":      "en-US-GuyNeural",       # confident American male
+    "techmindblown":   "en-US-EricNeural",      # deep, authoritative
+    "coresteelfitness":"en-US-AndrewNeural",    # energetic
+    "cricketcuts":     "en-GB-RyanNeural",      # British sports style
+}
+DEFAULT_EDGE_VOICE = "en-US-GuyNeural"
 
-import shutil as _sh; FFPROBE_BIN = _sh.which("ffprobe") or "ffprobe"
+WORDS_PER_LINE = 2
+
+import shutil as _sh
+FFPROBE_BIN = _sh.which("ffprobe") or "ffprobe"
 
 
 def srt_time(ms: int) -> str:
@@ -83,61 +93,92 @@ def _get_duration_ms(file_path: str) -> int:
     return int(float(json.loads(result.stdout)["format"]["duration"]) * 1000)
 
 
-def generate_elevenlabs_tts(text: str, voice_id: str = DEFAULT_VOICE) -> dict:
-    if not ELEVENLABS_API_KEY:
-        raise ValueError(
-            "ELEVENLABS_API_KEY not set in .env\n"
-            "Get a free key at: https://elevenlabs.io/sign-up\n"
-            "Then add: ELEVENLABS_API_KEY=your_key_here to .env"
-        )
+def _write_srt(text: str, mp3_path: str) -> str:
+    total_ms     = _get_duration_ms(mp3_path)
+    word_timings = _estimate_word_timings(text, total_ms)
+    srt_content  = _words_to_srt(word_timings)
+    with open(SRT_PATH, "w", encoding="utf-8") as f:
+        f.write(srt_content)
+    n_blocks = len([l for l in srt_content.strip().split("\n\n") if l])
+    print(f"  [OK] Captions: {SRT_PATH} ({len(word_timings)} words, {n_blocks} blocks)", flush=True)
+    return SRT_PATH
+
+
+def _edge_tts_fallback(text: str, account: str = "") -> dict:
+    """Generate voiceover using edge-tts (free, no API key needed)."""
+    import edge_tts
+    voice = EDGETTS_VOICES.get(account, DEFAULT_EDGE_VOICE)
+    print(f"  [fallback] Using edge-tts voice: {voice}", flush=True)
 
     os.makedirs(TMP, exist_ok=True)
 
-    print(f"Generating voiceover with ElevenLabs (voice: {voice_id})...", flush=True)
+    async def _speak():
+        comm = edge_tts.Communicate(text, voice)
+        await comm.save(MP3_PATH)
 
-    url = f"{ELEVENLABS_BASE}/text-to-speech/{voice_id}"
-    headers = {
-        "Accept": "audio/mpeg",
-        "Content-Type": "application/json",
-        "xi-api-key": ELEVENLABS_API_KEY,
-    }
-    payload = {
-        "text": text,
-        "model_id": "eleven_turbo_v2_5",
-        "voice_settings": {
-            "stability": 0.50,
-            "similarity_boost": 0.75,
-            "style": 0.0,
-            "use_speaker_boost": True,
-        }
-    }
+    asyncio.run(_speak())
+    size_kb = os.path.getsize(MP3_PATH) // 1024
+    print(f"  [OK] MP3: {MP3_PATH} ({size_kb}KB) via edge-tts", flush=True)
 
-    resp = requests.post(url, json=payload, headers=headers, timeout=60)
-
-    if not resp.ok:
-        raise RuntimeError(f"ElevenLabs API error {resp.status_code}: {resp.text[:400]}")
-
-    with open(MP3_PATH, "wb") as f:
-        f.write(resp.content)
-    print(f"  [OK] MP3: {MP3_PATH} ({len(resp.content)//1024}KB)", flush=True)
-
-    # Estimate word timings + generate SRT
-    total_ms     = _get_duration_ms(MP3_PATH)
-    word_timings = _estimate_word_timings(text, total_ms)
-    srt_content  = _words_to_srt(word_timings)
-
-    with open(SRT_PATH, "w", encoding="utf-8") as f:
-        f.write(srt_content)
-    print(f"  [OK] Captions: {SRT_PATH} ({len(word_timings)} words, "
-          f"{len([l for l in srt_content.strip().split(chr(10)+chr(10)) if l])} blocks)", flush=True)
-
+    srt = _write_srt(text, MP3_PATH)
+    total_ms = _get_duration_ms(MP3_PATH)
     return {
         "file":             MP3_PATH,
-        "srt":              SRT_PATH,
-        "word_count":       len(word_timings),
+        "srt":              srt,
+        "word_count":       len(text.split()),
         "duration_seconds": round(total_ms / 1000, 2),
-        "voice_id":         voice_id,
+        "voice_id":         voice,
+        "tts_engine":       "edge-tts",
     }
+
+
+def generate_elevenlabs_tts(text: str, voice_id: str = DEFAULT_VOICE,
+                             account: str = "") -> dict:
+    os.makedirs(TMP, exist_ok=True)
+
+    # Try ElevenLabs first
+    if ELEVENLABS_API_KEY:
+        print(f"Generating voiceover with ElevenLabs (voice: {voice_id})...", flush=True)
+        url     = f"{ELEVENLABS_BASE}/text-to-speech/{voice_id}"
+        headers = {
+            "Accept": "audio/mpeg",
+            "Content-Type": "application/json",
+            "xi-api-key": ELEVENLABS_API_KEY,
+        }
+        payload = {
+            "text": text,
+            "model_id": "eleven_turbo_v2_5",
+            "voice_settings": {
+                "stability": 0.50,
+                "similarity_boost": 0.75,
+                "style": 0.0,
+                "use_speaker_boost": True,
+            }
+        }
+        resp = requests.post(url, json=payload, headers=headers, timeout=60)
+
+        if resp.ok:
+            with open(MP3_PATH, "wb") as f:
+                f.write(resp.content)
+            print(f"  [OK] MP3: {MP3_PATH} ({len(resp.content)//1024}KB)", flush=True)
+            srt = _write_srt(text, MP3_PATH)
+            total_ms = _get_duration_ms(MP3_PATH)
+            return {
+                "file":             MP3_PATH,
+                "srt":              srt,
+                "word_count":       len(text.split()),
+                "duration_seconds": round(total_ms / 1000, 2),
+                "voice_id":         voice_id,
+                "tts_engine":       "elevenlabs",
+            }
+
+        # 401/403 = key issue → fall through to edge-tts
+        print(f"  [WARN] ElevenLabs error {resp.status_code}: {resp.text[:200]}", flush=True)
+        print(f"  [INFO] Falling back to edge-tts...", flush=True)
+    else:
+        print(f"  [INFO] No ELEVENLABS_API_KEY — using edge-tts fallback...", flush=True)
+
+    return _edge_tts_fallback(text, account)
 
 
 if __name__ == "__main__":
@@ -147,7 +188,6 @@ if __name__ == "__main__":
     parser.add_argument("--account",  default=None,  help="Account name to pick voice automatically")
     args = parser.parse_args()
 
-    # Resolve text
     text = args.text
     if not text:
         if not os.path.exists(SCRIPT_JSON):
@@ -161,7 +201,6 @@ if __name__ == "__main__":
             sys.exit(1)
         print(f"  Text from script.json ({len(text.split())} words)", flush=True)
 
-    # Resolve voice ID
     voice_id = args.voice_id
     if not voice_id and args.account:
         voice_id = ACCOUNT_VOICES.get(args.account, DEFAULT_VOICE)
@@ -169,5 +208,5 @@ if __name__ == "__main__":
     if not voice_id:
         voice_id = DEFAULT_VOICE
 
-    result = generate_elevenlabs_tts(text, voice_id)
+    result = generate_elevenlabs_tts(text, voice_id, account=args.account or "")
     print(json.dumps(result, indent=2))
