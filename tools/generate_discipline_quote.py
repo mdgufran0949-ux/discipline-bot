@@ -388,6 +388,25 @@ def generate_discipline_quote(
         trending_struct = prompt_hints.get("trending_structures") or []
         if trending_struct:
             hints_str += f"\nDOMINANT STRUCTURES in top niche posts this week: {', '.join(trending_struct[:3])} (prefer these)"
+
+        # Creator intelligence — what top creators in the niche consistently do
+        top_creators = prompt_hints.get("top_creators") or []
+        if top_creators:
+            hints_str += "\n\nTOP CREATORS IN THIS NICHE (accounts that consistently land in the top posts — study their patterns):"
+            for c in top_creators[:4]:
+                uname    = c.get("username", "?")
+                avg_eng  = c.get("avg_engagement", 0)
+                struct   = c.get("dominant_structure", "?")
+                length   = c.get("dominant_length", "?")
+                hooks    = c.get("sample_hooks") or []
+                words    = c.get("power_words") or []
+                hints_str += f"\n  @{uname} (~{avg_eng:,} avg engagement): {struct} structure, {length} quotes"
+                if hooks:
+                    hints_str += f'\n    Best hook: "{hooks[0][:90]}"'
+                if words:
+                    hints_str += f"\n    Power words: {', '.join(words[:6])}"
+            hints_str += "\nLearn from their energy and style — write something ORIGINAL that could outperform them."
+
     if not hints_str:
         hints_str = "No performance data yet. Experiment freely."
 

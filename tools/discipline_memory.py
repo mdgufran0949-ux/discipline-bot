@@ -62,6 +62,7 @@ _EMPTY_MEMORY = {
         "benchmark_engagement": 0,
         "updated_at":           None
     },
+    "creator_profiles": [],   # top creators in niche — built from competitor intel
     "last_upgraded": None
 }
 
@@ -168,10 +169,11 @@ def weighted_choice(weights: dict) -> str:
 
 
 def get_prompt_hints() -> dict:
-    """Returns best hooks + quote types (own + competitor) to inject into LLM prompt."""
+    """Returns best hooks + quote types (own + competitor + creator) to inject into LLM prompt."""
     mem = _load()
-    own  = mem.get("prompt_hints", {}) or {}
-    comp = mem.get("competitor_hints", {}) or {}
+    own      = mem.get("prompt_hints", {}) or {}
+    comp     = mem.get("competitor_hints", {}) or {}
+    creators = mem.get("creator_profiles", []) or []
     return {
         "best_hooks":           own.get("best_hooks", []),
         "best_quote_types":     own.get("best_quote_types", []),
@@ -180,6 +182,7 @@ def get_prompt_hints() -> dict:
         "trending_power_words": (comp.get("power_words") or [])[:10],
         "trending_structures":  comp.get("winning_structures", []),
         "niche_benchmark":      comp.get("benchmark_engagement", 0),
+        "top_creators":         creators[:5],   # top 5 creator profiles for prompt injection
     }
 
 
@@ -201,6 +204,64 @@ def update_competitor_hints(hints: dict) -> None:
 def get_competitor_hints() -> dict:
     mem = _load()
     return mem.get("competitor_hints", {}) or {}
+
+
+def update_creator_profiles(profiles: list) -> None:
+    """
+    Merge new creator profiles into memory.
+    Existing profiles are updated (by username); new ones are appended.
+    Sorted by avg_engagement descending, capped at top 20.
+    """
+    if not profiles:
+        return
+    mem = _load()
+    existing = {p["username"]: p for p in (mem.get("creator_profiles") or [])}
+
+    for new_p in profiles:
+        uname = new_p.get("username", "")
+        if not uname:
+            continue
+        if uname in existing:
+            old = existing[uname]
+            # Blend engagement as running average
+            old_count = old.get("appearances", 1)
+            new_count = new_p.get("appearances", 1)
+            total     = old_count + new_count
+            old["avg_engagement"]     = round((old.get("avg_engagement", 0) * old_count +
+                                               new_p.get("avg_engagement", 0) * new_count) / total)
+            old["appearances"]        = total
+            old["top_engagement"]     = max(old.get("top_engagement", 0), new_p.get("top_engagement", 0))
+            old["dominant_structure"] = new_p.get("dominant_structure", old.get("dominant_structure"))
+            old["dominant_length"]    = new_p.get("dominant_length", old.get("dominant_length"))
+            # Merge sample hooks (dedupe, keep newest at front)
+            seen_hooks = set()
+            merged = []
+            for h in (new_p.get("sample_hooks") or []) + (old.get("sample_hooks") or []):
+                key = h.lower().strip()
+                if key and key not in seen_hooks:
+                    seen_hooks.add(key)
+                    merged.append(h)
+            old["sample_hooks"] = merged[:5]
+            # Merge power words (dedupe, keep fresh ones)
+            seen_words = set()
+            merged_words = []
+            for w in (new_p.get("power_words") or []) + (old.get("power_words") or []):
+                if w and w not in seen_words:
+                    seen_words.add(w)
+                    merged_words.append(w)
+            old["power_words"] = merged_words[:10]
+        else:
+            existing[uname] = new_p
+
+    # Sort by avg_engagement, keep top 20
+    sorted_profiles = sorted(existing.values(), key=lambda x: x.get("avg_engagement", 0), reverse=True)
+    mem["creator_profiles"] = sorted_profiles[:20]
+    _save(mem)
+
+
+def get_creator_profiles() -> list:
+    mem = _load()
+    return mem.get("creator_profiles", []) or []
 
 
 # ── Public write functions ─────────────────────────────────────────────────────

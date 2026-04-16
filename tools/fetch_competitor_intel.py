@@ -185,6 +185,79 @@ def _caption_length_bucket(caption: str) -> str:
     return "long"
 
 
+def _extract_username(permalink: str) -> str:
+    """Extract Instagram username from a post permalink URL."""
+    # https://www.instagram.com/{username}/p/{post_id}/
+    m = re.search(r'instagram\.com/([^/?#]+)/p/', permalink or "")
+    return m.group(1).lower() if m else ""
+
+
+def _build_creator_profiles(posts: list, min_appearances: int = 2) -> list:
+    """
+    Group top posts by creator username, build a style profile for each.
+    Only includes creators who appear at least min_appearances times
+    (i.e. consistently land in the top posts — a real signal).
+    Returns list sorted by avg_engagement descending.
+    """
+    from collections import defaultdict
+    creators: dict = defaultdict(list)
+
+    for p in posts:
+        username = _extract_username(p.get("permalink", ""))
+        if not username:
+            continue
+        creators[username].append(p)
+
+    profiles = []
+    for username, creator_posts in creators.items():
+        if len(creator_posts) < min_appearances:
+            continue
+
+        engagements = [p.get("engagement_score", 0) for p in creator_posts]
+        avg_eng     = round(sum(engagements) / len(engagements)) if engagements else 0
+
+        # Dominant structure
+        struct_counts = Counter(
+            p.get("detected_structure") or _classify_quote_structure(p.get("caption", ""))
+            for p in creator_posts
+        )
+        dominant_structure = struct_counts.most_common(1)[0][0] if struct_counts else "statement"
+
+        # Dominant length
+        length_counts = Counter(
+            _caption_length_bucket(p.get("caption", ""))
+            for p in creator_posts
+        )
+        dominant_length = length_counts.most_common(1)[0][0] if length_counts else "medium"
+
+        # Sample hooks (top 3 by engagement)
+        sorted_posts = sorted(creator_posts, key=lambda x: x.get("engagement_score", 0), reverse=True)
+        sample_hooks = [
+            p.get("hook_line") or _extract_hook(p.get("caption", ""))
+            for p in sorted_posts[:3]
+        ]
+        sample_hooks = [h for h in sample_hooks if h and len(h) >= 15][:3]
+
+        # Power words from this creator's captions
+        captions     = [p.get("caption", "") for p in creator_posts]
+        power_words  = _extract_power_words(captions)[:8]
+
+        profiles.append({
+            "username":           username,
+            "appearances":        len(creator_posts),
+            "avg_engagement":     avg_eng,
+            "top_engagement":     max(engagements) if engagements else 0,
+            "dominant_structure": dominant_structure,
+            "dominant_length":    dominant_length,
+            "sample_hooks":       sample_hooks,
+            "power_words":        power_words,
+        })
+
+    # Sort by avg_engagement, cap at top 10
+    profiles.sort(key=lambda x: x["avg_engagement"], reverse=True)
+    return profiles[:10]
+
+
 def analyze_top_posts(posts: list) -> dict:
     if not posts:
         return {}
@@ -228,6 +301,9 @@ def analyze_top_posts(posts: list) -> dict:
     avg_eng = sum(top25) / len(top25)
     median_eng = top25[len(top25) // 2]
 
+    # Build creator profiles from posts that have permalinks
+    creator_profiles = _build_creator_profiles(posts, min_appearances=2)
+
     return {
         "top_hooks":              ranked_hooks,
         "power_words":            _extract_power_words(captions),
@@ -236,6 +312,7 @@ def analyze_top_posts(posts: list) -> dict:
         "top_quote_structures":   _normalize(structures),
         "avg_engagement_top_25":  round(avg_eng, 0),
         "median_engagement_top_25": round(median_eng, 0),
+        "top_creators":           creator_profiles,
     }
 
 

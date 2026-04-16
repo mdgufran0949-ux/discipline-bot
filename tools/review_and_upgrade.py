@@ -517,6 +517,26 @@ def write_human_report(account: str, report: dict) -> None:
             lines.append(f"- Caption length sweet spot: {cl['caption_length_sweet_spot']}")
     lines.append("")
 
+    # ── Top Creator Leaderboard ────────────────────────────────────────────────
+    creators = mem_module.get_creator_profiles()
+    lines.append("## Top Creator Leaderboard (Niche Leaders We're Learning From)")
+    if creators:
+        lines.append("| Creator | Avg Engagement | Appearances | Style | Length | Best Hook |")
+        lines.append("|---------|---------------|-------------|-------|--------|-----------|")
+        for c in creators[:8]:
+            hook = (c.get("sample_hooks") or ["—"])[0][:60]
+            lines.append(
+                f"| @{c.get('username','?')} "
+                f"| {int(c.get('avg_engagement', 0)):,} "
+                f"| {c.get('appearances', 0)} "
+                f"| {c.get('dominant_structure','?')} "
+                f"| {c.get('dominant_length','?')} "
+                f"| \"{hook}\" |"
+            )
+    else:
+        lines.append("_(not yet populated — will appear after first competitor intel scan)_")
+    lines.append("")
+
     # ── Hook Adoption ──────────────────────────────────────────────────────────
     ha = report.get("hook_adoption", {})
     lines.append("## Hook Adoption (Did We Use the Learnings?)")
@@ -778,6 +798,11 @@ def run_review(account: str = "disciplinefuel", force: bool = False) -> dict:
                 "benchmark_engagement": patterns.get("avg_engagement_top_25", 0),
                 "updated_at":           datetime.datetime.now().isoformat(),
             })
+            # Update creator profiles from the same scan
+            creator_profiles = patterns.get("top_creators", [])
+            if creator_profiles:
+                mem_module.update_creator_profiles(creator_profiles)
+                print(f"  [OK] {len(creator_profiles)} creator profiles updated", flush=True)
             print(f"  [OK] {competitor_intel.get('total_posts_analyzed', 0)} posts, benchmark={patterns.get('avg_engagement_top_25', 0):.0f}", flush=True)
     except Exception as e:
         print(f"  [WARN] Competitor intel fetch failed: {e}", flush=True)
