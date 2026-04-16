@@ -135,10 +135,27 @@ jobs:
         if: always()
         run: |
           ACCOUNT="${{ steps.target.outputs.account }}"
+
+          # Save pipeline outputs BEFORE git reset wipes tracked files
+          cp .tmp/$ACCOUNT/memory.json          /tmp/mem.json          2>/dev/null || true
+          cp .tmp/$ACCOUNT/strategy_report.json /tmp/strategy.json     2>/dev/null || true
+          cp .tmp/$ACCOUNT/performance.json     /tmp/perf.json         2>/dev/null || true
+          cp .tmp/$ACCOUNT/uploaded_log.json    /tmp/uploaded_log.json 2>/dev/null || true
+          cp config/accounts/$ACCOUNT.json      /tmp/acct_config.json  2>/dev/null || true
+
           git config user.name  "OriginalPipeline Bot"
           git config user.email "bot@pipeline.local"
           git fetch origin main
           git reset --hard origin/main
+
+          # Restore the freshly generated files
+          mkdir -p .tmp/$ACCOUNT
+          cp /tmp/mem.json          .tmp/$ACCOUNT/memory.json          2>/dev/null || true
+          cp /tmp/strategy.json     .tmp/$ACCOUNT/strategy_report.json 2>/dev/null || true
+          cp /tmp/perf.json         .tmp/$ACCOUNT/performance.json     2>/dev/null || true
+          cp /tmp/uploaded_log.json .tmp/$ACCOUNT/uploaded_log.json    2>/dev/null || true
+          cp /tmp/acct_config.json  config/accounts/$ACCOUNT.json      2>/dev/null || true
+
           git add -f .tmp/$ACCOUNT/memory.json         2>/dev/null || true
           git add -f .tmp/$ACCOUNT/uploaded_log.json   2>/dev/null || true
           git add -f .tmp/$ACCOUNT/performance.json    2>/dev/null || true

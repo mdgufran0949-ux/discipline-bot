@@ -65,10 +65,26 @@ jobs:
       - name: Commit state files back to repo
         if: always()
         run: |
+          # Save pipeline outputs BEFORE git reset wipes tracked files
+          cp .tmp/biscuit_zara/memory.json          /tmp/mem.json         2>/dev/null || true
+          cp .tmp/biscuit_zara/strategy_report.json /tmp/strategy.json    2>/dev/null || true
+          cp .tmp/biscuit_zara/performance.json     /tmp/perf.json        2>/dev/null || true
+          cp .tmp/kids_channel/upload_log.json      /tmp/upload_log.json  2>/dev/null || true
+          cp config/accounts/biscuit_zara.json      /tmp/bz_config.json   2>/dev/null || true
+
           git config user.name  "BiscuitZara Bot"
           git config user.email "bot@biscuitzara.local"
           git fetch origin main
           git reset --hard origin/main
+
+          # Restore the freshly generated files
+          mkdir -p .tmp/biscuit_zara .tmp/kids_channel
+          cp /tmp/mem.json         .tmp/biscuit_zara/memory.json          2>/dev/null || true
+          cp /tmp/strategy.json    .tmp/biscuit_zara/strategy_report.json 2>/dev/null || true
+          cp /tmp/perf.json        .tmp/biscuit_zara/performance.json     2>/dev/null || true
+          cp /tmp/upload_log.json  .tmp/kids_channel/upload_log.json      2>/dev/null || true
+          cp /tmp/bz_config.json   config/accounts/biscuit_zara.json      2>/dev/null || true
+
           git add -f .tmp/biscuit_zara/memory.json        2>/dev/null || true
           git add -f .tmp/kids_channel/upload_log.json    2>/dev/null || true
           git add -f .tmp/biscuit_zara/performance.json   2>/dev/null || true

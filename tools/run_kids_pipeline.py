@@ -260,7 +260,18 @@ def run_kids_pipeline(count: int = 1, topic: str = None,
         print("[1] Fetching trending kids topics...", flush=True)
         trends    = fetch_kids_trends(count=max(count * 3, 10))
         topic_pool = trends.get("topics", [])
-        print(f"  [OK] {len(topic_pool)} topics fetched\n", flush=True)
+        print(f"  [OK] {len(topic_pool)} topics fetched", flush=True)
+
+        # Filter out weak/avoided topics learned by daily_review
+        if memory:
+            hints     = memory.get_prompt_hints()
+            avoid_set = set(t.lower() for t in hints.get("avoid_topics", []))
+            if avoid_set:
+                before = len(topic_pool)
+                topic_pool = [t for t in topic_pool
+                              if not any(a in t["topic"].lower() for a in avoid_set)] or topic_pool
+                print(f"  [memory] Filtered {before - len(topic_pool)} weak topics, {len(topic_pool)} remaining", flush=True)
+        print("", flush=True)
 
     # Lazy YouTube auth (skip if dry run or no-upload)
     youtube = None
@@ -281,6 +292,11 @@ def run_kids_pipeline(count: int = 1, topic: str = None,
         current_topic  = topic_entry["topic"] if isinstance(topic_entry, dict) else topic_entry
         current_series = series or "standalone"
         current_cat    = topic_entry.get("category", "educational") if isinstance(topic_entry, dict) else "educational"
+
+        # Skip recently used topics to avoid repeats
+        if memory and memory.is_duplicate(current_topic):
+            print(f"  [SKIP] Duplicate topic: {current_topic}", flush=True)
+            continue
 
         print(f"\n{'─'*55}", flush=True)
         print(f"  Topic: {current_topic}", flush=True)

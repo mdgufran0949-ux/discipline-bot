@@ -62,8 +62,9 @@ Rules:
 - Simple vocabulary, Grade 2 reading level
 - Narration MUST be musical and rhythmic — like a song or nursery rhyme. Use rhyming couplets, repetition, and a bouncy cadence kids love.
 - Narration MUST be EXACTLY 6 sentences (one per scene). Each sentence: 12-16 words. Total narration: 72-96 words. DO NOT write short sentences.
-- Scene 1 MUST start with a catchy rhyming hook question (e.g. "Do you know why the sun is SO bright and hot today?")
-- Scene 6 MUST recap the lesson with a rhyming goodbye sing-along
+- Scene 1 MUST open with "Did you know...?" — a fun surprising fact about the topic that instantly grabs kids' attention. Make it wow them!
+- Scene 6 MUST recap the lesson with a rhyming goodbye sing-along and invite kids to watch tomorrow
+- Every scene should have ENERGY — use exclamation marks, sound effects ("Wow!", "Ooooh!", "That's AMAZING!"), and call kids by name ("friends", "little ones")
 - Always return ONLY valid JSON. No markdown. No explanation outside JSON."""
 
 
@@ -76,20 +77,20 @@ Return ONLY this JSON (no markdown):
   "topic": "{topic}",
   "series": "{series}",
   "title": "Engaging title with emoji, max 60 chars",
-  "narration": "MUSICAL rhyming voiceover. EXACTLY 6 sentences (one per scene). Each sentence: 12-16 words with rhyme and rhythm. MINIMUM 72 words total.",
+  "narration": "MUSICAL rhyming voiceover. MUST start with 'Did you know...?' surprise fact. EXACTLY 6 sentences (one per scene). Each sentence: 12-16 words with rhyme and rhythm. MINIMUM 72 words total. High energy throughout!",
   "scenes": [
-    {{"id": 1, "speaker": "BISCUIT", "dialogue": "Short excited question 1-2 sentences", "narration": "Opening narrator hook sentence", "scene_desc": "BISCUIT and ZARA at a bright colorful location, scene 1 action"}},
-    {{"id": 2, "speaker": "ZARA", "dialogue": "Teaching explanation 1-2 sentences", "narration": "Narrator explains scene 2", "scene_desc": "BISCUIT and ZARA, scene 2 action"}},
-    {{"id": 3, "speaker": "BISCUIT", "dialogue": "Excited reaction or follow-up question", "narration": "Narrator scene 3", "scene_desc": "BISCUIT and ZARA, scene 3 action"}},
-    {{"id": 4, "speaker": "ZARA", "dialogue": "Key fun fact, simple words", "narration": "Narrator scene 4", "scene_desc": "BISCUIT and ZARA, scene 4 action"}},
-    {{"id": 5, "speaker": "BISCUIT", "dialogue": "Surprised happy reaction", "narration": "Narrator scene 5", "scene_desc": "BISCUIT and ZARA, scene 5 action"}},
-    {{"id": 6, "speaker": "BOTH", "dialogue": "Recap lesson + goodbye to kids", "narration": "Wrap up, invite kids back tomorrow", "scene_desc": "BISCUIT and ZARA waving goodbye, confetti, big smiles"}}
+    {{"id": 1, "speaker": "BISCUIT", "dialogue": "Did you know...? [surprising fun fact about topic, 1-2 sentences]", "narration": "Did you know [surprising fact about topic]? [rhyming continuation]", "scene_desc": "BISCUIT looks amazed and excited, big wide eyes, pointing at something related to the topic, bright colorful scene"}},
+    {{"id": 2, "speaker": "ZARA", "dialogue": "Teaching explanation 1-2 sentences with wow factor", "narration": "Narrator explains scene 2 with excitement and rhythm", "scene_desc": "ZARA explaining enthusiastically, BISCUIT listening with big eyes, scene 2 action"}},
+    {{"id": 3, "speaker": "BISCUIT", "dialogue": "Wow! / That's amazing! + excited follow-up question", "narration": "Narrator scene 3 with rhyme", "scene_desc": "BISCUIT jumping with excitement, ZARA smiling, scene 3 action"}},
+    {{"id": 4, "speaker": "ZARA", "dialogue": "Key fun fact, simple memorable words", "narration": "Narrator scene 4 — the most important learning moment", "scene_desc": "BISCUIT and ZARA, visual demonstration of the key fact"}},
+    {{"id": 5, "speaker": "BISCUIT", "dialogue": "Amazed happy reaction — teaches kids the key takeaway", "narration": "Narrator scene 5 — recap the cool fact in rhyme", "scene_desc": "BISCUIT and ZARA celebrating, bright happy scene"}},
+    {{"id": 6, "speaker": "BOTH", "dialogue": "Recap lesson + goodbye message to little ones at home", "narration": "Sing-along goodbye, invite kids back tomorrow for more fun!", "scene_desc": "BISCUIT and ZARA waving goodbye, confetti, stars, big smiles, colorful background"}}
   ],
-  "thumbnail_concept": "Which character, what expression, what object, what background color",
-  "seo_title": "SEO title under 100 chars with 'for kids', 'learning', or 'preschool'",
+  "thumbnail_concept": "BISCUIT with huge surprised eyes, mouth open in amazement, holding something related to topic, bright pop-art background",
+  "seo_title": "SEO title under 100 chars with 'for kids', 'Did You Know', or 'preschool'",
   "description": "2-3 sentences mentioning Biscuit, Zara, topic, and what kids will learn.",
-  "tags": ["kids learning", "educational", "preschool", "cartoon", "tag5", "tag6", "tag7", "tag8"],
-  "hashtags": ["#kidslearning", "#educationalvideo", "#preschool", "#biscuitandzara", "#Shorts"],
+  "tags": ["kids learning", "educational", "preschool", "cartoon", "did you know", "tag6", "tag7", "tag8"],
+  "hashtags": ["#didyouknow", "#kidslearning", "#educationalvideo", "#preschool", "#biscuitandzara", "#Shorts"],
   "category": "animals or numbers or alphabet or science or stories or colors or nature or songs"
 }}"""
 
