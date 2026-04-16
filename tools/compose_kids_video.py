@@ -5,6 +5,7 @@ Broadcast-quality kids animation Shorts for the Biscuit & Zara channel.
 Features:
   - Animated channel logo intro (PIL-rendered, ffmpeg-animated)
   - 6 unique Ken Burns patterns with subtle character bounce
+  - Real B-roll video clips from Pexels interleaved with AI scenes for motion
   - Glow + shadow captions (Comic Sans Bold 130px, rotating colors, rounded pill)
   - Varied xfade transitions (fade / wipeleft / wiperight / circleopen)
   - Professional animated outro ("See You Tomorrow!")
@@ -13,7 +14,7 @@ Features:
   - Outputs 1080x1920 Shorts + 1920x1080 landscape
 """
 
-import json, sys, os, subprocess, re, math, random
+import json, sys, os, subprocess, re, math, random, glob
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 TMP         = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp"))
@@ -318,6 +319,35 @@ def make_ken_burns_clip(image_path: str, scene_idx: int, duration: float) -> str
     return out
 
 
+# ── B-roll clip processing ───────────────────────────────────────────────────
+
+def make_broll_clip(broll_path: str, idx: int, duration: float) -> str:
+    """Scale, loop, trim and color-grade a B-roll clip for kids video."""
+    out   = os.path.join(TMP, f"kids_broll_seg_{idx}.mp4")
+    src_d = get_duration(broll_path)
+    loops = max(1, int(duration / src_d) + 2)
+    # Brighter, more saturated grading for kids content
+    grade = "eq=brightness=0.02:saturation=1.35:contrast=1.05"
+
+    vf = (
+        f"loop={loops}:size=32767:start=0,"
+        f"scale={W}:{H}:force_original_aspect_ratio=increase,"
+        f"crop={W}:{H},"
+        f"{grade},"
+        f"trim=duration={duration:.3f},"
+        f"format=yuv420p"
+    )
+    run([
+        FFMPEG, "-y",
+        "-i", broll_path,
+        "-vf", vf,
+        "-t", f"{duration:.3f}",
+        "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+        "-an", out
+    ], f"kids_broll_{idx}")
+    return out
+
+
 # ── Concat with varied xfade transitions ──────────────────────────────────────
 
 def concat_with_xfade(clip_paths: list, clip_durations: list,
@@ -600,12 +630,31 @@ def compose_kids_video(_title: str, output_filename: str = "kids_output.mp4",
     output_path    = os.path.join(TMP, output_filename)
     landscape_path = os.path.join(TMP, output_filename.replace(".mp4", "_landscape.mp4"))
 
+    # Detect available B-roll clips
+    broll_paths = sorted(glob.glob(os.path.join(TMP, "kids_broll_*.mp4")))
+    has_broll   = len(broll_paths) > 0
+    if has_broll:
+        print(f"  [B-roll] {len(broll_paths)} video clips found — will interleave with scenes", flush=True)
+
+    # Duration calculation: B-roll clips are ~4s each (half a scene), AI scenes slightly shorter
+    BROLL_DUR = 4.0
     if narration_duration and narration_duration > 0:
-        scene_dur = max(5.0, (narration_duration - INTRO_DUR - OUTRO_DUR) / N_SCENES)
+        total_motion = narration_duration - INTRO_DUR - OUTRO_DUR
+        if has_broll:
+            broll_total = len(broll_paths) * BROLL_DUR
+            scene_dur   = max(4.0, (total_motion - broll_total) / N_SCENES)
+        else:
+            scene_dur   = max(5.0, total_motion / N_SCENES)
         scene_dur = round(scene_dur, 2)
     else:
         scene_dur = SCENE_DUR
-    print(f"  Scene duration: {scene_dur}s x {N_SCENES} scenes = {INTRO_DUR + scene_dur*N_SCENES + OUTRO_DUR:.1f}s total", flush=True)
+
+    if has_broll:
+        total_dur = INTRO_DUR + (N_SCENES * scene_dur) + (len(broll_paths) * BROLL_DUR) + OUTRO_DUR
+        print(f"  Scene dur: {scene_dur}s x {N_SCENES} + {len(broll_paths)} B-roll x {BROLL_DUR}s = {total_dur:.1f}s total", flush=True)
+    else:
+        total_dur = INTRO_DUR + (N_SCENES * scene_dur) + OUTRO_DUR
+        print(f"  Scene duration: {scene_dur}s x {N_SCENES} scenes = {total_dur:.1f}s total", flush=True)
 
     print("Step 1/6 -- Rendering intro & outro...", flush=True)
     intro_png  = make_intro_png()
@@ -614,19 +663,44 @@ def compose_kids_video(_title: str, output_filename: str = "kids_output.mp4",
     outro_clip = make_animated_clip(outro_png, OUTRO_DUR, "kids_outro.mp4", zoom_in=False)
     print("  [OK] Animated intro & outro", flush=True)
 
-    print("Step 2/6 -- Ken Burns effects on scene images...", flush=True)
-    clip_paths     = [intro_clip]
-    clip_durations = [INTRO_DUR]
+    print("Step 2/6 -- Building scene clips (AI images + B-roll)...", flush=True)
+    # Build 6 Ken Burns clips for AI scenes
+    kb_clips = []
     for i in range(1, N_SCENES + 1):
         img_path = os.path.join(IMAGES_DIR, f"scene_{i:03d}.png")
         if not os.path.exists(img_path):
             raise FileNotFoundError(f"Missing: {img_path}")
         clip = make_ken_burns_clip(img_path, i, scene_dur)
-        clip_paths.append(clip)
+        kb_clips.append(clip)
+        print(f"  [OK] Scene {i} (AI image, Ken Burns pattern {((i-1) % len(KB_PATTERNS)) + 1})", flush=True)
+
+    # Process B-roll clips
+    br_clips = []
+    for bi, broll_path in enumerate(broll_paths, start=1):
+        clip = make_broll_clip(broll_path, bi, BROLL_DUR)
+        br_clips.append(clip)
+        print(f"  [OK] B-roll {bi} (real video, {BROLL_DUR}s)", flush=True)
+
+    # Interleave sequence: intro, scene1(AI), broll1, scene2(AI), broll2, scene3(AI),
+    #                       scene4(AI), broll3, scene5(AI), scene6(AI), outro
+    # B-roll inserted after scenes 1, 2, and 4 — spreads motion evenly
+    BROLL_AFTER_SCENES = {1, 2, 4}   # insert B-roll after these scene indices
+    clip_paths     = [intro_clip]
+    clip_durations = [INTRO_DUR]
+    br_idx = 0
+    for i, kb in enumerate(kb_clips, start=1):
+        clip_paths.append(kb)
         clip_durations.append(scene_dur)
-        print(f"  [OK] Scene {i} — pattern {((i-1) % len(KB_PATTERNS)) + 1}", flush=True)
+        if has_broll and i in BROLL_AFTER_SCENES and br_idx < len(br_clips):
+            clip_paths.append(br_clips[br_idx])
+            clip_durations.append(BROLL_DUR)
+            br_idx += 1
     clip_paths.append(outro_clip)
     clip_durations.append(OUTRO_DUR)
+
+    n_ai = len(kb_clips)
+    n_br = br_idx
+    print(f"  Sequence: intro + {n_ai} AI scenes + {n_br} B-roll clips + outro = {len(clip_paths)} segments", flush=True)
 
     print("Step 3/6 -- Concatenating with varied transitions...", flush=True)
     bg_video = concat_with_xfade(clip_paths, clip_durations, fade=FADE_DUR)
@@ -645,11 +719,11 @@ def compose_kids_video(_title: str, output_filename: str = "kids_output.mp4",
     print(f"  [OK] Badge ready — rendering {len(srt_entries)} caption frames...", flush=True)
 
     print("Step 6/6 -- Final composite (audio sync fixed)...", flush=True)
-    total_dur = INTRO_DUR + (N_SCENES * scene_dur) + OUTRO_DUR
+    actual_total = INTRO_DUR + sum(clip_durations[1:-1]) + OUTRO_DUR
     has_music = os.path.exists(BG_MUSIC)
     if has_music:
         print(f"  [MUSIC] Mixing background music at 12% volume", flush=True)
-    composite_final(bg_video, VOICEOVER, srt_entries, badge_png, output_path, total_dur)
+    composite_final(bg_video, VOICEOVER, srt_entries, badge_png, output_path, actual_total)
     print(f"  [OK] Shorts video -> {output_path}", flush=True)
 
     print("Generating landscape version...", flush=True)
@@ -659,9 +733,10 @@ def compose_kids_video(_title: str, output_filename: str = "kids_output.mp4",
     return {
         "file":             output_path,
         "landscape_file":   landscape_path,
-        "duration_seconds": round(total_dur, 2),
+        "duration_seconds": round(actual_total, 2),
         "resolution":       f"{W}x{H}",
         "scenes":           N_SCENES,
+        "broll_clips":      n_br,
         "captions":         len(srt_entries),
         "has_intro":        True,
         "has_outro":        True,

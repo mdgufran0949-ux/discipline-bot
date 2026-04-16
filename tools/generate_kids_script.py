@@ -16,6 +16,7 @@ import sys
 import os
 import re
 import argparse
+import random
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -55,14 +56,67 @@ KIDS_STYLE_PREFIX = (
     "soft rounded shapes, no text in image, safe for children, cheerful warm lighting, "
 )
 
-SYSTEM_PROMPT = """You are a children's educational video scriptwriter for ages 3-10.
+# ── Hook styles — rotate so every video has a different opening ──────────────
+
+HOOK_STYLES = [
+    {
+        "name": "question",
+        "scene1_instruction": "Scene 1 MUST open with a curious question like 'Have you ever wondered why...?' or 'What do YOU think happens when...?' to get kids thinking",
+        "scene1_dialogue": "Have you ever wondered [curious question about topic]? Let's find out together!",
+        "scene1_narration": "Have you ever wondered [question about topic]? [rhyming setup for the adventure]",
+        "scene1_desc": "BISCUIT looks thoughtful and curious, one paw on chin, wondering expression, colorful question marks floating around",
+        "seo_hint": "for kids",
+    },
+    {
+        "name": "challenge",
+        "scene1_instruction": "Scene 1 MUST open with an interactive challenge like 'Can YOU help us count?' or 'Let's see if YOU can guess!' to involve kids directly",
+        "scene1_dialogue": "Can YOU help us learn about [topic] today? Let's count and explore together!",
+        "scene1_narration": "Can you help Biscuit and Zara [challenge related to topic]? [rhyming invitation]",
+        "scene1_desc": "BISCUIT pointing at the viewer with big excited eyes, ZARA beside with a big smile, bright energetic scene",
+        "seo_hint": "preschool",
+    },
+    {
+        "name": "wow_fact",
+        "scene1_instruction": "Scene 1 MUST open with a mind-blowing 'Whoa! Did you know...?' fact that instantly wows kids",
+        "scene1_dialogue": "Whoa! Did you know [amazing surprising fact about topic]? So cool!",
+        "scene1_narration": "Whoa, did you know [amazing fact about topic]? [rhyming wow reaction]",
+        "scene1_desc": "BISCUIT with huge round eyes, mouth open in amazement, sparkles and stars all around, bright pop background",
+        "seo_hint": "Did You Know",
+    },
+    {
+        "name": "adventure",
+        "scene1_instruction": "Scene 1 MUST open with an adventure invitation like 'Come on an adventure!' or 'Let's explore the magical world of...' to spark imagination",
+        "scene1_dialogue": "Come on an adventure with us to learn all about [topic]! Let's GO!",
+        "scene1_narration": "Come on an adventure, let's explore [topic] today! [rhyming journey opening]",
+        "scene1_desc": "BISCUIT and ZARA in explorer outfits, backpacks on, pointing at a colorful magical landscape related to the topic",
+        "seo_hint": "for kids",
+    },
+    {
+        "name": "story",
+        "scene1_instruction": "Scene 1 MUST open with a mini story starter like 'One day, Biscuit discovered...' or 'Once upon a time...' to draw kids into a narrative",
+        "scene1_dialogue": "One day, Biscuit found something amazing — [thing related to topic]! What could it be?",
+        "scene1_narration": "One day Biscuit found [discovery related to topic], oh what a wonderful day! [rhyming story opening]",
+        "scene1_desc": "BISCUIT discovering something related to the topic with wide curious eyes, ZARA peeking from behind, storybook-style warm scene",
+        "seo_hint": "preschool",
+    },
+    {
+        "name": "countdown",
+        "scene1_instruction": "Scene 1 MUST open with an exciting countdown or number hook like '3... 2... 1... Let's GO!' or 'We're about to learn 5 amazing things about...'",
+        "scene1_dialogue": "3... 2... 1... Let's learn all about [topic]! Are you ready, friends?",
+        "scene1_narration": "Three, two, one, let's have some fun and learn about [topic] today! [rhyming countdown]",
+        "scene1_desc": "BISCUIT holding a big number sign, countdown bubbles floating, ZARA cheering with pompoms, bright confetti background",
+        "seo_hint": "for kids",
+    },
+]
+
+SYSTEM_PROMPT_BASE = """You are a children's educational video scriptwriter for ages 3-10.
 You write scripts featuring BISCUIT (a curious yellow bear cub) and ZARA (a smart purple owl).
 
 Rules:
 - Simple vocabulary, Grade 2 reading level
 - Narration MUST be musical and rhythmic — like a song or nursery rhyme. Use rhyming couplets, repetition, and a bouncy cadence kids love.
 - Narration MUST be EXACTLY 6 sentences (one per scene). Each sentence: 12-16 words. Total narration: 72-96 words. DO NOT write short sentences.
-- Scene 1 MUST open with "Did you know...?" — a fun surprising fact about the topic that instantly grabs kids' attention. Make it wow them!
+- {hook_instruction}
 - Scene 6 MUST recap the lesson with a rhyming goodbye sing-along and invite kids to watch tomorrow
 - Every scene should have ENERGY — use exclamation marks, sound effects ("Wow!", "Ooooh!", "That's AMAZING!"), and call kids by name ("friends", "little ones")
 - Always return ONLY valid JSON. No markdown. No explanation outside JSON."""
@@ -77,9 +131,9 @@ Return ONLY this JSON (no markdown):
   "topic": "{topic}",
   "series": "{series}",
   "title": "Engaging title with emoji, max 60 chars",
-  "narration": "MUSICAL rhyming voiceover. MUST start with 'Did you know...?' surprise fact. EXACTLY 6 sentences (one per scene). Each sentence: 12-16 words with rhyme and rhythm. MINIMUM 72 words total. High energy throughout!",
+  "narration": "MUSICAL rhyming voiceover. MUST use the {hook_name} hook style for scene 1. EXACTLY 6 sentences (one per scene). Each sentence: 12-16 words with rhyme and rhythm. MINIMUM 72 words total. High energy throughout!",
   "scenes": [
-    {{"id": 1, "speaker": "BISCUIT", "dialogue": "Did you know...? [surprising fun fact about topic, 1-2 sentences]", "narration": "Did you know [surprising fact about topic]? [rhyming continuation]", "scene_desc": "BISCUIT looks amazed and excited, big wide eyes, pointing at something related to the topic, bright colorful scene"}},
+    {{"id": 1, "speaker": "BISCUIT", "dialogue": "{scene1_dialogue}", "narration": "{scene1_narration}", "scene_desc": "{scene1_desc}"}},
     {{"id": 2, "speaker": "ZARA", "dialogue": "Teaching explanation 1-2 sentences with wow factor", "narration": "Narrator explains scene 2 with excitement and rhythm", "scene_desc": "ZARA explaining enthusiastically, BISCUIT listening with big eyes, scene 2 action"}},
     {{"id": 3, "speaker": "BISCUIT", "dialogue": "Wow! / That's amazing! + excited follow-up question", "narration": "Narrator scene 3 with rhyme", "scene_desc": "BISCUIT jumping with excitement, ZARA smiling, scene 3 action"}},
     {{"id": 4, "speaker": "ZARA", "dialogue": "Key fun fact, simple memorable words", "narration": "Narrator scene 4 — the most important learning moment", "scene_desc": "BISCUIT and ZARA, visual demonstration of the key fact"}},
@@ -87,10 +141,10 @@ Return ONLY this JSON (no markdown):
     {{"id": 6, "speaker": "BOTH", "dialogue": "Recap lesson + goodbye message to little ones at home", "narration": "Sing-along goodbye, invite kids back tomorrow for more fun!", "scene_desc": "BISCUIT and ZARA waving goodbye, confetti, stars, big smiles, colorful background"}}
   ],
   "thumbnail_concept": "BISCUIT with huge surprised eyes, mouth open in amazement, holding something related to topic, bright pop-art background",
-  "seo_title": "SEO title under 100 chars with 'for kids', 'Did You Know', or 'preschool'",
+  "seo_title": "SEO title under 100 chars with '{seo_hint}' or 'cartoon' or 'animation'",
   "description": "2-3 sentences mentioning Biscuit, Zara, topic, and what kids will learn.",
-  "tags": ["kids learning", "educational", "preschool", "cartoon", "did you know", "tag6", "tag7", "tag8"],
-  "hashtags": ["#didyouknow", "#kidslearning", "#educationalvideo", "#preschool", "#biscuitandzara", "#Shorts"],
+  "tags": ["kids learning", "educational", "preschool", "cartoon", "{hook_name}", "tag6", "tag7", "tag8"],
+  "hashtags": ["#{hook_name}", "#kidslearning", "#educationalvideo", "#preschool", "#biscuitandzara", "#Shorts"],
   "category": "animals or numbers or alphabet or science or stories or colors or nature or songs"
 }}"""
 
@@ -137,8 +191,10 @@ def _build_kids_hints_block(hints: dict) -> str:
     return "\n\n".join(parts)
 
 
-def _call_llm(client: OpenAI, model: str, prompt: str, system: str = SYSTEM_PROMPT) -> str:
+def _call_llm(client: OpenAI, model: str, prompt: str, system: str = None) -> str:
     """Call LLM and return raw text."""
+    if system is None:
+        system = SYSTEM_PROMPT_BASE.format(hook_instruction="Scene 1 MUST open with an engaging, surprising hook that instantly grabs kids' attention")
     response = client.chat.completions.create(
         model=model,
         messages=[
@@ -156,7 +212,25 @@ def generate_kids_script(topic: str, series: str = "standalone") -> dict:
     if clean != topic:
         print(f"  [TOPIC] Cleaned: '{clean}'", flush=True)
 
-    prompt = PROMPT_TEMPLATE.format(topic=clean, series=series)
+    # Pick a hook style — deterministic per topic so reruns are consistent
+    topic_seed = sum(ord(c) for c in clean)
+    hook = HOOK_STYLES[topic_seed % len(HOOK_STYLES)]
+    print(f"  [hook] Style: {hook['name']}", flush=True)
+
+    prompt = PROMPT_TEMPLATE.format(
+        topic=clean,
+        series=series,
+        hook_name=hook["name"],
+        scene1_dialogue=hook["scene1_dialogue"],
+        scene1_narration=hook["scene1_narration"],
+        scene1_desc=hook["scene1_desc"],
+        seo_hint=hook["seo_hint"],
+    )
+
+    # Build system prompt with the selected hook instruction
+    SYSTEM_PROMPT = SYSTEM_PROMPT_BASE.format(
+        hook_instruction=hook["scene1_instruction"]
+    )
 
     # Inject memory hints into system prompt if available
     system_prompt = SYSTEM_PROMPT

@@ -207,6 +207,8 @@ def _cleanup_tmp_files():
         os.path.join(TMP, "kids_background_full.mp4"),
         os.path.join(TMP, "kids_intro.mp4"),
         os.path.join(TMP, "kids_outro.mp4"),
+        os.path.join(TMP, "kids_broll_*.mp4"),
+        os.path.join(TMP, "kids_broll_seg_*.mp4"),
     ]
     for pattern in patterns:
         for f in glob.glob(pattern):
@@ -349,6 +351,19 @@ def run_kids_pipeline(count: int = 1, topic: str = None,
             # Step 5b: Background music
             print("[5b] Generating background music...", flush=True)
             run_step("Background music", generate_kids_bg_music, max_retries=1)
+
+            # Step 5c: Fetch B-roll video clips for motion (optional — degrades gracefully)
+            print("[5c] Fetching B-roll video clips...", flush=True)
+            try:
+                from fetch_kids_broll import fetch_kids_broll
+                broll = fetch_kids_broll(
+                    script["narration"],
+                    topic=current_topic,
+                    num_clips=3
+                )
+                print(f"  [OK] {len(broll['clips'])} B-roll clips downloaded", flush=True)
+            except Exception as e:
+                print(f"  [WARN] B-roll fetch failed ({e}) — continuing with images only", flush=True)
 
             # Step 6: Compose video
             print("[6] Composing video...", flush=True)
