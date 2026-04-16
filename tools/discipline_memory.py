@@ -115,16 +115,19 @@ def get_content_weights() -> dict:
     mem = _load()
     strong = mem["patterns"]["strong"]
 
-    # Default weights
+    # Default weights — aligned with what actually wins in the niche
+    # (statement dominates real top posts; pain_driven / command rarely win)
     weights = {
         "format": {"image": 0.50, "carousel": 0.50},
         "design_style": {"dark": 0.50, "minimal": 0.20, "bold": 0.20, "luxury": 0.10},
         "quote_type": {
-            "contrast":      0.25,
-            "pain_driven":   0.25,
-            "identity":      0.20,
-            "command":       0.15,
-            "question":      0.15
+            "statement":   0.40,
+            "contrast":    0.20,
+            "punch":       0.15,
+            "identity":    0.10,
+            "question":    0.08,
+            "command":     0.04,
+            "pain_driven": 0.03
         }
     }
 

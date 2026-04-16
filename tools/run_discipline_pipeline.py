@@ -146,14 +146,25 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
     results = []
     used_topics = set()
 
-    # Clean trend topics — strip hashtags/symbols that bleed in from YouTube titles
+    # Clean trend topics — reject anything polluted. The trends fetcher already
+    # runs _title_to_topic(), but this is a second safety net before we feed the LLM.
     def _clean_topic(t: str) -> str:
         import re
-        # Cut off at first hashtag or @ symbol
-        t = re.split(r'[#@]', t)[0]
-        # Remove punctuation noise, normalize spaces
-        t = re.sub(r'[^\w\s]', ' ', t).strip()
-        t = re.sub(r'\s+', ' ', t).strip().lower()
+        if not t:
+            return ""
+        t = re.sub(r"#\w+", "", t)
+        t = re.sub(r"@\w+", "", t)
+        t = t.split("|")[0]
+        t = re.sub(r"\([^)]*\)", "", t)
+        t = t.encode("ascii", "ignore").decode("ascii")
+        t = re.sub(r"[^\w\s\.\,\!\?\'\"]", " ", t)
+        t = re.sub(r"\s+", " ", t).strip(" -|:.,!?\"'").lower()
+        if len(t) < 10 or len(t) > 80:
+            return ""
+        pollution = ("welcome", "subscribe", "channel", "watch this",
+                     "link in bio", "like and share", "must watch")
+        if any(p in t for p in pollution):
+            return ""
         return t
 
     clean_trend_topics = [_clean_topic(t) for t in trend_topics if _clean_topic(t)]

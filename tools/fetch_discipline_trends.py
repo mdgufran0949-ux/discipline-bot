@@ -40,11 +40,10 @@ DISCIPLINE_HASHTAGS = [
 
 # High-performing keywords for the niche (used for scoring + image prompts)
 HIGH_PERFORMING_KEYWORDS = [
-    "discipline", "focus", "lonely", "success", "grind", "sacrifice",
-    "procrastination", "lazy", "comfort", "weak", "regret", "clock",
-    "broke", "scared", "quit", "mirror", "chosen", "soft", "buried",
-    "accountability", "winning", "routine", "consistent", "delayed",
-    "distraction", "excuses", "fear", "pain", "price", "earn"
+    "discipline", "focus", "growth", "quiet", "time", "consistent",
+    "routine", "built", "success", "real", "patience", "work",
+    "process", "life", "mind", "becoming", "accountability", "still",
+    "progress", "grow"
 ]
 
 DISCIPLINE_KEYWORDS = [
@@ -148,8 +147,30 @@ def _score_title(text: str) -> int:
     return sum(1 for kw in DISCIPLINE_KEYWORDS if kw in text_lower)
 
 
+def _competitor_power_words() -> list[str]:
+    """Read this week's winning power_words from competitor_intel.json if available."""
+    intel_path = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", ".tmp", "disciplinefuel", "competitor_intel.json")
+    )
+    if not os.path.exists(intel_path):
+        return []
+    try:
+        with open(intel_path, "r", encoding="utf-8") as f:
+            intel = json.load(f)
+        words = intel.get("patterns", {}).get("power_words", []) or []
+        return [w for w in words if isinstance(w, str) and len(w) >= 3][:15]
+    except Exception:
+        return []
+
+
 def _extract_hot_keywords(titles: list[str]) -> list[str]:
-    """Find which HIGH_PERFORMING_KEYWORDS appear most in trending titles."""
+    """
+    Prefer competitor power_words (what's actually winning this week on IG).
+    Fall back to HIGH_PERFORMING_KEYWORDS appearing in YouTube trend titles.
+    """
+    comp_words = _competitor_power_words()
+    if comp_words:
+        return comp_words[:10]
     counts = {}
     for kw in HIGH_PERFORMING_KEYWORDS:
         count = sum(1 for t in titles if kw in t.lower())
@@ -159,15 +180,50 @@ def _extract_hot_keywords(titles: list[str]) -> list[str]:
     return [kw for kw, _ in sorted_kw[:10]]
 
 
+_TOPIC_POLLUTION_WORDS = (
+    "welcome", "subscribe", "channel", "watch this", "watch till",
+    "link in bio", "like and share", "like & share", "must watch",
+    "life changing", "life-changing", "full video", "new video",
+    "part 1", "part 2", "part 3", "episode",
+)
+
+
 def _title_to_topic(title: str) -> str:
-    """Convert a YouTube title to a discipline-framed content topic."""
+    """
+    Convert a YouTube title to a clean discipline-framed content topic.
+    Aggressively strips hashtags, pipe suffixes, parentheses, non-ASCII, years.
+    Returns '' if the title is too polluted to salvage.
+    """
+    if not title:
+        return ""
     title = title.strip().lower()
-    # Remove common YouTube fluff
-    for fluff in ["#shorts", "#short", "motivation", "| watch this", "(watch this)",
-                  "watch this", "must watch", "life changing", "2024", "2025", "2026"]:
-        title = title.replace(fluff, "").strip()
-    title = re.sub(r'\s+', ' ', title).strip(" -|:")
-    return title if len(title) > 10 else ""
+    # Drop ALL hashtags (#shorts, #discipline, etc.)
+    title = re.sub(r"#\w+", "", title)
+    # Drop @mentions
+    title = re.sub(r"@\w+", "", title)
+    # Drop years
+    title = re.sub(r"\b20(2[0-9]|3[0-9])\b", "", title)
+    # Cut off at pipe (channel names, CTAs usually live after |)
+    title = title.split("|")[0]
+    # Cut off at em/en dash suffixes with channel branding
+    title = re.split(r"\s[-–—]\s", title)[0]
+    # Drop parenthetical/bracket content
+    title = re.sub(r"\([^)]*\)", "", title)
+    title = re.sub(r"\[[^\]]*\]", "", title)
+    # Strip non-ASCII
+    title = title.encode("ascii", "ignore").decode("ascii")
+    # Strip punctuation noise except basic readable chars
+    title = re.sub(r"[^\w\s\.\,\!\?\'\"]", " ", title)
+    # Collapse whitespace
+    title = re.sub(r"\s+", " ", title).strip(" -|:.,!?\"'")
+    # Reject if too short / too long
+    if len(title) < 10 or len(title) > 80:
+        return ""
+    # Reject if pollution words survive
+    for bad in _TOPIC_POLLUTION_WORDS:
+        if bad in title:
+            return ""
+    return title
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────

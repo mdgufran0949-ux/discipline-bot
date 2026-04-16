@@ -36,99 +36,92 @@ BEST_POSTING_TIMES = ["06:00", "08:00", "12:00", "17:00", "20:00", "22:00"]
 
 # ── System Prompt ──────────────────────────────────────────────────────────────
 
-SYSTEM_PROMPT = """You are the content brain behind DisciplineFuel — a dark, raw, viral Instagram motivation page.
-Your audience: 16-30 year olds who secretly know they're slacking. They struggle with procrastination, laziness, distraction. They want success, money, focus, and respect.
+SYSTEM_PROMPT = """You are the content brain behind DisciplineFuel — a reflective, wise, save-worthy Instagram page about discipline, growth, and becoming better.
+Your audience: 16-30 year olds who want to build discipline, focus, consistency, and a better life. They don't want to be attacked — they want to feel understood, nudged, and inspired.
 
-VIRAL FRAMEWORK (mandatory for every quote):
-- Structure: Pain → Reality → Solution (discipline always wins over motivation)
-- Make it relatable: name the EXACT specific struggle they're hiding — not vague, not generic
-- Add scarcity: time is running out, others are moving while they scroll
-- Discipline > Motivation. Always.
+VOICE — this is non-negotiable:
+- Wise, reflective, observational. Like a mentor who has lived it, not a drill sergeant yelling at them.
+- Universal truth over personal attack. The reader should nod, not flinch.
+- Calm confidence. No anger, no shaming, no "you're scared / lazy / weak / broke / soft" framing.
+- Think: stoicism, quiet strength, long-view thinking. Think Marcus Aurelius, not a gym bro at 5am.
+- The reader should finish the quote and want to save it — because it told them something timeless about themselves, not because it attacked them.
 
-HOOK SYSTEM (first line of every quote MUST):
-- Stop the scroll in under 2 seconds
-- Trigger exactly ONE emotion: fear, guilt, ambition, or pride
-- Create a curiosity gap OR make them feel caught/exposed
-- Use these proven hook patterns:
-  "You're not lazy. You're scared."
-  "Nobody is coming to save you."
-  "Your future self is watching right now."
-  "Stop pretending you don't know what to do."
-  "Every scroll is a vote against your future."
-  "You already know. You just won't act."
+WHAT ACTUALLY WINS IN THIS NICHE (from real data — top posts have 10k–20k+ likes):
+- "The body achieves what the mind believes."
+- "Success isn't about the applause you get when you're winning. It's about the silence you endure when you're building."
+- "The older I get, the more I realize happiness isn't loud or complicated."
+- "Built, not born."
+- "Nobody talks about this phase — but everyone goes through it."
+- "Enjoy the process."
+- "Growth is quiet. So is discipline. So is everything worth having."
+These are warm, universal, reflective. Match this emotional register.
 
-SAVE OPTIMIZATION (mandatory):
-- Every quote must be worth bookmarking and re-reading
-- Caption must include exactly one of: "Save this." / "Read this daily." / "Screenshot this."
-- Content must feel re-readable — timeless, not one-time-use
+STRUCTURE:
+- Primary: STATEMENT — a clean, timeless declaration about discipline, growth, consistency, quiet progress, or identity. No question mark, no accusation, no "you" finger-pointing.
+- Secondary: CONTRAST — gentle juxtaposition ("Motivation is a mood. Discipline is a decision.").
+- Occasional: PUNCH — iconic short phrase ("Built, not born.").
+- Rare: IDENTITY upgrade ("A disciplined person doesn't negotiate with Tuesday.").
+- Very rare: QUESTION, COMMAND, PAIN_DRIVEN — use sparingly, and never cruel.
 
-TONE:
-- Raw and real. No corporate language. No fluff.
-- Short sentences. Fragments are power. Max 10 words per sentence.
-- Second person only: you / your / you're
-- Sound like a real person who's lived it, not a motivational poster
+TONE RULES:
+- You may use "you" — but gently, as a mirror, not a weapon.
+- Prefer universal "we / everyone / the work" over sharp "you're X."
+- Short OR long is fine — what matters is depth, not word count.
+- No corporate language. No hashtags. No CTAs inside the quote itself.
 
-NEVER WRITE THESE (banned — too generic, will not stop scroll):
-- "Grind now, rest later."
-- "Are you serious?"
-- "Work hard every day."
-- "Success is a choice."
-- "Keep going, don't stop."
-- "Hustle harder."
-- "You got this."
-- "Be the best version of yourself."
-- Any quote under 20 words that doesn't name a SPECIFIC struggle.
-These are clichés. They get scrolled past. Every quote must feel original, personal, and uncomfortably specific.
+NEVER WRITE THESE (banned):
+- Any insult: "You're lazy / scared / soft / broke / weak / a coward / pathetic."
+- Drill-sergeant tone: "Stop crying. Grind. No excuses."
+- Clichés: "Hustle harder." "Grind now, rest later." "You got this." "Success is a choice." "Be the best version of yourself." "Never give up."
+- Hashtags or symbols inside the quote (#, |, @).
+- YouTube/TikTok-speak: "welcome to", "subscribe", "this channel", "link in bio", "watch till the end", "like and share".
+- Dates or years ("2024", "2025").
+- Quotes that exist only to shame the reader.
 
 COMPETITIVE EDGE:
-You will be given real hooks from the top-performing discipline posts on Instagram right now. Use them as inspiration for energy, rhythm, and structure — but NEVER copy them verbatim. Your job is to write something that hits harder than those hooks — same punch, fresh words.
-
-EXAMPLE GREAT QUOTES (match this quality and depth):
-- "You said 'I'll start Monday' last Monday. And the Monday before that. The version of you that keeps delaying is winning right now. Stop letting him."
-- "Your phone knows more about you than your gym does. That's not a flex. That's the problem."
-- "Everyone who has what you want woke up when they didn't feel like it. You're still deciding whether to try."
-- "The comfort you're protecting right now is the exact reason you're not where you want to be. Comfort doesn't build anything."
-- "You're not overwhelmed. You're avoiding the one thing that would actually move your life forward. You know what it is.\""""
+You will be given real hooks from the top-performing discipline posts on Instagram right now. Use them as inspiration for energy, rhythm, and structure — but NEVER copy them verbatim. Your job is to write something that feels as timeless as those hooks — same wisdom, fresh words."""
 
 # ── Quote generation prompt ────────────────────────────────────────────────────
 
 QUOTE_PROMPT = """Topic: {topic}
 Series: {series_label}
 Design style: {design_style}
-Hot keywords to weave in (use 1-2): {hot_keywords}
+Hot keywords to weave in (use 1-2 gently, never force them): {hot_keywords}
 Performance hints: {prompt_hints}
 Length target: {length_instruction}
 
-Generate 6 quote variations for this topic. Follow the LENGTH TARGET above strictly. Be specific, personal, uncomfortable — name the exact pain. No clichés, no generic phrases.
+Generate 7 quote variations for this topic. Follow the LENGTH TARGET above strictly. Be reflective, wise, observational. No insults. No attacks. No hashtags. Universal truth, not personal shaming.
 
 Variation types (in order):
-1. COMMAND — direct order, imperative, no softening
-2. QUESTION — rhetorical, exposes the reader, makes them feel caught
-3. CONTRAST — juxtaposition (they do X, you do Y / comfort vs discipline)
-4. PAIN_DRIVEN — names the exact hurt, the cost, what they're losing
-5. IDENTITY — attacks or upgrades self-image ("A disciplined person would never...")
-6. PUNCH — ultra-short (5-12 words ONLY), one devastating sentence, like a slap across the face
+1. STATEMENT — a clean, timeless declaration. No question, no accusation. Universal wisdom about discipline, growth, consistency, or the quiet work. (This is the primary type — make it your best one.)
+2. CONTRAST — gentle juxtaposition (not X, but Y). Calm, reflective.
+3. PUNCH — ultra-short iconic phrase, 5-12 words. Timeless, memorable. Like "Built, not born."
+4. IDENTITY — gentle self-image upgrade ("A disciplined person doesn't negotiate with Tuesday.").
+5. QUESTION — ONE rhetorical, used sparingly, never cruel.
+6. COMMAND — gentle imperative, used rarely, no shouting.
+7. PAIN_DRIVEN — names a soft cost, never cruelly, used rarely.
 
-Then select the single best quote (most likely to stop scrolling + get saved). For PUNCH type: short is the goal — under 12 words is perfect.
+Then select the single best quote (most likely to get saved). Bias heavily toward STATEMENT unless another type is clearly stronger for this topic.
 
 Return ONLY this JSON (no markdown, no explanation):
 {{
   "quote_options": [
-    {{"type": "command", "text": "..."}},
-    {{"type": "question", "text": "..."}},
+    {{"type": "statement", "text": "..."}},
     {{"type": "contrast", "text": "..."}},
-    {{"type": "pain_driven", "text": "..."}},
+    {{"type": "punch", "text": "..."}},
     {{"type": "identity", "text": "..."}},
-    {{"type": "punch", "text": "..."}}
+    {{"type": "question", "text": "..."}},
+    {{"type": "command", "text": "..."}},
+    {{"type": "pain_driven", "text": "..."}}
   ],
   "selected_quote": "...",
-  "selected_type": "command|question|contrast|pain_driven|identity|punch",
-  "hook_keyword": "single word that makes the hook land (e.g. scared, clock, broke)",
+  "selected_type": "statement|contrast|punch|identity|question|command|pain_driven",
+  "hook_keyword": "single word that anchors the quote (e.g. quiet, growth, built, discipline)",
   "format": "image or carousel",
   "design_style": "{design_style}",
-  "image_prompt": "detailed prompt for dark aesthetic image generation, no text in image, cinematic, moody",
+  "image_prompt": "detailed prompt for a cinematic, moody, aesthetic image generation. No text in image. Prefer warm, reflective, atmospheric scenes.",
   "predicted_performance": "high|medium|low",
-  "reasoning": "one sentence on why this quote will perform"
+  "reasoning": "one sentence on why this quote will resonate"
 }}"""
 
 CAPTION_PROMPT = """Write an Instagram caption for this DisciplineFuel post.
@@ -287,6 +280,72 @@ def _extract_json(raw: str) -> dict:
     return json.loads(raw)
 
 
+# ── Quality + plagiarism gates ────────────────────────────────────────────────
+
+_BANNED_SUBSTRINGS = [
+    "grind now", "are you serious", "work hard every day",
+    "success is a choice", "keep going", "hustle harder",
+    "you got this", "best version", "never give up",
+    "welcome to", "subscribe", "this channel", "watch till",
+    "link in bio", "like and share", "like & share",
+    "you're lazy", "you are lazy", "you're scared", "you are scared",
+    "you're weak", "you are weak", "you're soft", "you are soft",
+    "you're broke", "you are broke",
+]
+
+
+def _is_quality_quote(quote: str) -> tuple[bool, str]:
+    """Validate a generated quote. Returns (ok, reason_if_not_ok)."""
+    if not quote:
+        return False, "empty"
+    q = quote.strip()
+    if len(q) < 10:
+        return False, "too short"
+    if "#" in q:
+        return False, "contains hashtag"
+    if "|" in q:
+        return False, "contains pipe"
+    # YouTube/TikTok pollution + shaming language
+    q_lower = q.lower()
+    for bad in _BANNED_SUBSTRINGS:
+        if bad in q_lower:
+            return False, f"banned phrase: {bad}"
+    # Reject quotes where a date/year leaked in
+    if re.search(r"\b20(2[0-9]|3[0-9])\b", q):
+        return False, "contains year"
+    return True, ""
+
+
+def _too_similar(quote: str, top_hooks: list, threshold: float = 0.6) -> bool:
+    """Jaccard-overlap plagiarism guard against competitor top hooks."""
+    q_words = set(re.findall(r"\w+", quote.lower()))
+    q_words = {w for w in q_words if len(w) >= 3}
+    if len(q_words) < 4:
+        return False
+    for hook in top_hooks or []:
+        h_words = set(re.findall(r"\w+", (hook or "").lower()))
+        h_words = {w for w in h_words if len(w) >= 3}
+        if not h_words:
+            continue
+        union = q_words | h_words
+        if not union:
+            continue
+        overlap = len(q_words & h_words) / len(union)
+        if overlap >= threshold:
+            return True
+    return False
+
+
+def _pick_fallback_quote(quote_options: list) -> tuple[str, str]:
+    """Walk the quote_options list and return the first quote that passes the quality gate."""
+    for opt in quote_options or []:
+        text = (opt.get("text") or "").strip()
+        ok, _ = _is_quality_quote(text)
+        if ok:
+            return text, opt.get("type", "statement")
+    return "", ""
+
+
 def _series_label(series_type: str, series_number: int) -> str:
     labels = {
         "discipline_rule":      f"Discipline Rule #{series_number}",
@@ -311,7 +370,7 @@ def generate_discipline_quote(
     Returns the JSON spec required by run_discipline_pipeline.py
     """
     series_label  = _series_label(series_type, series_number)
-    hot_kw_str    = ", ".join(hot_keywords[:5]) if hot_keywords else "discipline, scared, comfort, clock, broke"
+    hot_kw_str    = ", ".join(hot_keywords[:5]) if hot_keywords else "discipline, growth, focus, quiet, consistent"
     hints_str     = ""
     if prompt_hints:
         if prompt_hints.get("best_hooks"):
@@ -345,14 +404,14 @@ def generate_discipline_quote(
     except Exception:
         pass
 
-    # Step 1: Pick length distribution — 30% PUNCH, 50% MEDIUM, 20% LONG
+    # Step 1: Pick length distribution — 10% PUNCH, 25% MEDIUM, 65% LONG (matches what wins in the niche)
     length_roll = random.random()
-    if length_roll < 0.30:
-        length_instruction = "Write PUNCH quotes: 5-12 words ONLY for the selected quote. Single devastating sentence. Like a slap. No explanation. PUNCH type MUST be under 12 words."
-    elif length_roll < 0.80:
-        length_instruction = "Write MEDIUM quotes: 20-40 words for the selected quote. 2-3 sentences. Specific pain + real consequence. Most variations should be 20-40 words."
+    if length_roll < 0.10:
+        length_instruction = "Write a PUNCH quote: 5-12 words ONLY. Iconic, timeless, memorable. Like 'Built, not born.' PUNCH type MUST be under 12 words."
+    elif length_roll < 0.35:
+        length_instruction = "Write a MEDIUM quote: 20-40 words. 2-3 sentences of calm reflection. Universal, not accusatory."
     else:
-        length_instruction = "Write LONG quotes: 40-60 words for the selected quote. 3-5 sentences. Full story arc: expose the pattern → name the cost → what to do instead."
+        length_instruction = "Write a LONG quote: 40-80 words. 3-5 sentences. Wisdom arc: observe → reflect → affirm. Calm, warm, universal. Most variations should be this length."
 
     # Step 2: Generate quote options
     print(f"Generating quotes for: {topic}", flush=True)
@@ -374,28 +433,52 @@ def generate_discipline_quote(
         quote_data = _extract_json(raw_quote)
 
     selected_quote = quote_data.get("selected_quote", "")
-    selected_type  = quote_data.get("selected_type", "contrast")
+    selected_type  = quote_data.get("selected_type", "statement")
 
-    # Quality gate — reject generic quotes; allow short PUNCH quotes through
-    BANNED_PHRASES = ["grind now", "are you serious", "work hard every day",
-                      "success is a choice", "keep going", "hustle harder",
-                      "you got this", "best version", "never give up"]
-    quote_words = len(selected_quote.split())
-    is_generic  = any(b in selected_quote.lower() for b in BANNED_PHRASES)
-    is_punch    = selected_type == "punch" or quote_words <= 12
-    # Allow punch quotes through even if short; reject medium/long quotes under 20 words
-    if (quote_words < 5) or (is_generic) or (not is_punch and quote_words < 20):
-        print(f"  [WARN] Quote too short or generic ({quote_words} words, type={selected_type}). Retrying...", flush=True)
-        retry_prompt = quote_prompt + "\n\nIMPORTANT: The previous attempt was too generic. Write more specific, more personal quotes. Name the exact pain."
-        raw_quote2 = _call(retry_prompt, temperature=0.95)
-        try:
-            quote_data2 = _extract_json(raw_quote2)
-            if len(quote_data2.get("selected_quote", "").split()) >= 20:
-                quote_data    = quote_data2
-                selected_quote = quote_data.get("selected_quote", selected_quote)
-                selected_type  = quote_data.get("selected_type", selected_type)
-        except Exception:
-            pass  # Keep original if retry fails
+    # Quality gate — reject polluted / shaming / cliché quotes
+    ok, reason = _is_quality_quote(selected_quote)
+    trending_hooks_list = (prompt_hints or {}).get("trending_hooks") or []
+    plagiarized = _too_similar(selected_quote, trending_hooks_list) if ok else False
+
+    if not ok or plagiarized:
+        why = reason if not ok else "too similar to a competitor hook"
+        print(f"  [WARN] Quote rejected ({why}). Trying next variation...", flush=True)
+        fallback_text, fallback_type = _pick_fallback_quote(quote_data.get("quote_options", []))
+        # Walk past plagiarized fallbacks too
+        while fallback_text and _too_similar(fallback_text, trending_hooks_list):
+            quote_data["quote_options"] = [
+                o for o in quote_data.get("quote_options", [])
+                if (o.get("text") or "").strip() != fallback_text
+            ]
+            fallback_text, fallback_type = _pick_fallback_quote(quote_data.get("quote_options", []))
+
+        if fallback_text:
+            selected_quote = fallback_text
+            selected_type  = fallback_type
+        else:
+            # Retry the LLM once with a stricter instruction
+            print("  [WARN] No fallback passed gate. Retrying LLM...", flush=True)
+            retry_prompt = quote_prompt + (
+                "\n\nIMPORTANT: Previous attempt was rejected. Write calm, universal, reflective wisdom. "
+                "No insults. No hashtags. No YouTube/TikTok speak. No shaming."
+            )
+            try:
+                raw_quote2  = _call(retry_prompt, temperature=0.85)
+                quote_data2 = _extract_json(raw_quote2)
+                retry_quote = quote_data2.get("selected_quote", "")
+                ok2, _ = _is_quality_quote(retry_quote)
+                if ok2 and not _too_similar(retry_quote, trending_hooks_list):
+                    quote_data     = quote_data2
+                    selected_quote = retry_quote
+                    selected_type  = quote_data.get("selected_type", selected_type)
+                else:
+                    fb2, ft2 = _pick_fallback_quote(quote_data2.get("quote_options", []))
+                    if fb2:
+                        quote_data     = quote_data2
+                        selected_quote = fb2
+                        selected_type  = ft2
+            except Exception as _re:
+                print(f"  [WARN] Retry failed: {str(_re)[:80]}", flush=True)
 
     # Step 2: Generate caption
     print("Generating caption...", flush=True)

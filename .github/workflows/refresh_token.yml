@@ -1,0 +1,47 @@
+name: Refresh Instagram Token
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # Every Monday at 03:00 UTC (08:30 IST) — well within 60-day window
+  workflow_dispatch:        # Manual trigger in case of emergency
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install requests python-dotenv
+
+      - name: Refresh IG token
+        run: python tools/refresh_ig_token.py --account disciplinefuel
+
+      - name: Commit refreshed token back to repo
+        run: |
+          git config user.name  "DisciplineFuel Bot"
+          git config user.email "bot@disciplinefuel.com"
+
+          # Save the updated config before reset
+          cp config/accounts/disciplinefuel.json /tmp/disciplinefuel.json
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          cp /tmp/disciplinefuel.json config/accounts/disciplinefuel.json
+
+          git add config/accounts/disciplinefuel.json
+          git diff --staged --quiet || git commit -m "auth: refresh IG access token [skip ci]"
+          git push origin main

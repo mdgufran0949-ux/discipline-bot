@@ -54,8 +54,8 @@
   ],
   "posts_per_day": 9,
   "content_format_mix": {
-    "image": 0.50,
-    "carousel": 0.50
+    "image": 0.5,
+    "carousel": 0.5
   },
   "design_styles": [
     "dark",
@@ -178,5 +178,6 @@
   "hashtag_last_updated": "",
   "content_preferences": {},
   "target_audience": "16-30 procrastination discipline grind",
-  "performance_log": ".tmp/disciplinefuel/uploaded_log.json"
+  "performance_log": ".tmp/disciplinefuel/uploaded_log.json",
+  "token_refreshed_at": "2026-04-15T07:04:02.327317"
 }
