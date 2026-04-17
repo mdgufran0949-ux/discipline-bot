@@ -198,14 +198,7 @@ def _compose_with_pillow(
     else:
         img = Image.new("RGBA", (1080, 1920), (*cfg["bg_color"], 255))
 
-    # Dark gradient overlay (bottom 60%)
-    overlay = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
-    draw_ov = ImageDraw.Draw(overlay)
-    grad_start = 700
-    for y in range(grad_start, 1920):
-        alpha = int(cfg["overlay_alpha"] * (y - grad_start) / (1920 - grad_start))
-        draw_ov.line([(0, y), (1080, y)], fill=(0, 0, 0, alpha))
-    img = Image.alpha_composite(img, overlay).convert("RGB")
+    img = img.convert("RGB")
 
     draw = ImageDraw.Draw(img)
 
@@ -290,11 +283,6 @@ def _compose_with_pillow(
     box_top = text_top - 80
     box_bottom = text_bottom + 60
 
-    # ── Solid semi-transparent backdrop behind text (always readable) ─────
-    overlay2 = Image.new("RGBA", img.convert("RGBA").size, (0, 0, 0, 0))
-    d2 = ImageDraw.Draw(overlay2)
-    d2.rectangle([(0, box_top), (1080, box_bottom)], fill=(0, 0, 0, 190))
-    img = Image.alpha_composite(img.convert("RGBA"), overlay2).convert("RGB")
     draw = ImageDraw.Draw(img)
 
     # ── Series label ──────────────────────────────────────────────────────
