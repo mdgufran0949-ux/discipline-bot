@@ -1,27 +1,44 @@
 # DisciplineFuel — Review Report
-Generated: 2026-04-16 11:39
+Generated: 2026-04-17 17:13
 
-> ⚠️ **ATTENTION NEEDED:** competitor_fetch, metrics_fetch
+> ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
 ## System Health
-- Last competitor fetch: 2026-04-13T11:57 ⚠️
+- Last competitor fetch: 2026-04-17T17:13 ✅
 - Last IG metrics fetch: never ⚠️
 - IG hashtag quota used (7d): 0 / 30 ✅
-- Consecutive failed competitor fetches: 1
+- Consecutive failed competitor fetches: 2
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
 | 2026-04-13 | 0 | 0 | 0% |
+| 2026-04-16 | 0 | 0 | 0% |
 
 ## What Changed Today
 - No significant changes this run (system is stable)
 
 ## What We Learned From Competitors
-- No competitor data this run (API unavailable or cached)
+- Scanned hashtags: motivationdaily, selfimprovementtips, stoicmindset, discipline, selfdiscipline
+- Posts analyzed: 50
+- Niche benchmark: 7,744 avg engagement | Our avg: 0 | Gap: -100%
+- Top hooks trending in niche:
+  1. "Good fathers don’t raise weak sons — they raise men who can handle real life."
+  2. "Tag your brother."
+  3. "Greatness rarely begins with greatness."
+  4. "Comment 👉 Mindset ✅"
+  5. "Sundays are for slowing down."
+- Hot power words: life, das, leben, ich, discipline, follow, don, every
+- Dominant quote structure: **statement**
+- Dominant media type: **CAROUSEL_ALBUM (54%)**
+- Caption length sweet spot: long
+
+## Top Creator Leaderboard (Niche Leaders We're Learning From)
+_(not yet populated — will appear after first competitor intel scan)_
 
 ## Hook Adoption (Did We Use the Learnings?)
-- No recent posts to check yet
+- 0 / 1 recent posts used trending power-words (0%) ⚠️
+  - ⚠️ "still making excuses?"
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
