@@ -18,7 +18,7 @@
     "kidsfun",
     "learningfun"
   ],
-  "caption_template": "Sing along with Biscuit & Zara! 🌈 Subscribe for more learning fun!\n\n#kidslearning #nurseryrhymes #kidssong #learnwithfun #shorts",
+  "caption_template": "Sing along with Biscuit & Zara! \ud83c\udf08 Subscribe for more learning fun!\n\n#kidslearning #nurseryrhymes #kidssong #learnwithfun #shorts",
   "content_topics": [
     "colors of the rainbow",
     "counting 1 to 10",
@@ -36,7 +36,13 @@
     "avoid_keywords": [],
     "best_topics": [],
     "avoid_topics": [],
-    "hook_weights": {},
-    "last_analyzed": null
+    "hook_weights": {
+      "question": 0.35,
+      "fact": 0.35,
+      "story": 0.15,
+      "imperative": 0.15
+    },
+    "last_analyzed": "2026-04-17T09:05:19.994835",
+    "top_hooks": []
   }
 }
