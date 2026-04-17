@@ -3,7 +3,7 @@ run_discipline_pipeline.py
 Master Orchestrator for DisciplineFuel Instagram Growth Pipeline.
 
 Runs the full content loop N times per execution:
-  Trend Awareness → Memory Check → Quote Engine → Image Gen → Canva Design → Upload → Log → Learn
+  Trend Awareness -> Memory Check -> Quote Engine -> Image Gen -> Canva Design -> Upload -> Log -> Learn
 
 Usage:
   python tools/run_discipline_pipeline.py --count 3
@@ -40,7 +40,7 @@ CONFIG_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "conf
 TMP_BASE   = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp"))
 
 
-# ── Config helpers ─────────────────────────────────────────────────────────────
+# -- Config helpers -------------------------------------------------------------
 
 def _load_config(account: str) -> dict:
     path = os.path.join(CONFIG_DIR, f"{account}.json")
@@ -106,7 +106,7 @@ def _check_token(ig_user_id: str, ig_access_token: str) -> bool:
     return True
 
 
-# ── Main pipeline loop ─────────────────────────────────────────────────────────
+# -- Main pipeline loop ---------------------------------------------------------
 
 def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool = False) -> None:
     print(f"\n{'='*55}", flush=True)
@@ -122,11 +122,11 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
         print("[ERROR] No IG credentials. Add ig_user_id + ig_access_token to disciplinefuel.json and re-run.", flush=True)
         sys.exit(1)
 
-    # ── Step 1: Daily review + competitor intel (runs silently if < 1 day since last run)
+    # -- Step 1: Daily review + competitor intel (runs silently if < 1 day since last run)
     print("[1/8] Checking daily review + competitor intel...", flush=True)
     review_tool.run_review(account, force=False)
 
-    # ── Step 2: Fetch trends (cached 24h)
+    # -- Step 2: Fetch trends (cached 24h)
     print("\n[2/8] Fetching discipline trends...", flush=True)
     try:
         trend_data   = trends_tool.fetch_discipline_trends(count=10)
@@ -137,7 +137,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
         hot_keywords = ["discipline", "scared", "comfort", "clock", "broke"]
         trend_topics = []
 
-    # ── Step 3: Get memory weights (self-improving)
+    # -- Step 3: Get memory weights (self-improving)
     print("\n[3/8] Loading memory + content weights...", flush=True)
     weights      = memory_tool.get_content_weights()
     prompt_hints = memory_tool.get_prompt_hints()
@@ -170,11 +170,11 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
     clean_trend_topics = [_clean_topic(t) for t in trend_topics if _clean_topic(t)]
 
     for i in range(count):
-        print(f"\n{'─'*45}", flush=True)
+        print(f"\n{'-'*45}", flush=True)
         print(f"POST {i+1}/{count}", flush=True)
-        print(f"{'─'*45}", flush=True)
+        print(f"{'-'*45}", flush=True)
 
-        # ── Step 4: Pick topic — rotate, never repeat within same run
+        # -- Step 4: Pick topic — rotate, never repeat within same run
         avoid_topics = memory_tool._load()["patterns"]["avoid_topics"]
         topic_pool = clean_trend_topics + cfg.get("content_topics", [])
         topic = ""
@@ -192,7 +192,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
             topic = random.choice(cfg.get("content_topics", ["discipline is the only shortcut"]))
         used_topics.add(topic.lower())
 
-        # ── Step 5: Pick series + design style
+        # -- Step 5: Pick series + design style
         series_rotation = cfg.get("series_rotation", ["discipline_rule", "wake_up_call", "day_becoming_better"])
         series_idx      = cfg.get("series_index", 0) % len(series_rotation)
         series_type     = series_rotation[series_idx]
@@ -214,7 +214,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
         print(f"  Format:       {fmt}", flush=True)
 
         try:
-            # ── Step 6: Generate quote payload
+            # -- Step 6: Generate quote payload
             print("\n[4/8] Generating quotes...", flush=True)
             payload = quote_tool.generate_discipline_quote(
                 topic=topic,
@@ -232,7 +232,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
 
             print(f"  Quote: {selected_quote[:70]}...", flush=True)
 
-            # ── Step 7: Generate image(s)
+            # -- Step 7: Generate image(s)
             print("\n[5/8] Generating image(s)...", flush=True)
             bg_image_paths = []
             if fmt == "carousel":
@@ -263,7 +263,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 )
                 bg_image_paths = [img["file"]]
 
-            # ── Step 8: Design (Canva + Pillow fallback)
+            # -- Step 8: Design (Canva + Pillow fallback)
             print("\n[6/8] Composing post design...", flush=True)
             if fmt == "carousel":
                 composed = canva_tool.generate_canva_carousel(
@@ -281,11 +281,11 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 )
                 output_files = [composed["file"]]
 
-            # ── Step 9: Build caption
+            # -- Step 9: Build caption
             caption = _pick_caption(cfg, cfg.get("ig_page_name", "@DisciplineFuel"),
                                     payload.get("hashtags", []), payload.get("caption", ""))
 
-            # ── Step 10: Upload (skip in dry run)
+            # -- Step 10: Upload (skip in dry run)
             print("\n[7/8] Uploading to Instagram...", flush=True)
             ig_media_id = ""
             permalink   = ""
@@ -312,7 +312,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 ig_media_id = result["ig_media_id"]
                 permalink   = result["permalink"]
 
-            # ── Step 11: Log to memory + uploaded_log
+            # -- Step 11: Log to memory + uploaded_log
             print("\n[8/8] Logging to memory...", flush=True)
             log_entry = {
                 "id":              f"{series_type}_{series_num}_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
@@ -336,7 +336,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
             log["uploaded"].append(log_entry)
             _save_log(account, log)
 
-            # ── Step 12: Increment counters atomically
+            # -- Step 12: Increment counters atomically
             cfg["series_counters"][series_type] = series_num
             cfg["series_index"] = (series_idx + 1) % len(series_rotation)
             cfg["topic_index"]  = (cfg.get("topic_index", 0) + 1) % len(cfg.get("content_topics", [1]))
@@ -360,19 +360,19 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
             traceback.print_exc()
             results.append({"post": i + 1, "status": "failed", "error": str(e)})
 
-        # ── Rate limit pause between posts
+        # -- Rate limit pause between posts
         if i < count - 1:
             print(f"\nWaiting {SLEEP_BETWEEN_POSTS}s before next post...", flush=True)
             time.sleep(SLEEP_BETWEEN_POSTS)
 
-    # ── Summary
+    # -- Summary
     print(f"\n{'='*55}", flush=True)
     print("PIPELINE COMPLETE", flush=True)
     published = sum(1 for r in results if r["status"] in ("published", "dry_run"))
     failed    = sum(1 for r in results if r["status"] == "failed")
     print(f"  Published: {published}/{count}  |  Failed: {failed}", flush=True)
     for r in results:
-        status = "✓" if r["status"] in ("published", "dry_run") else "✗"
+        status = "OK" if r["status"] in ("published", "dry_run") else "FAIL"
         print(f"  {status} Post {r['post']}: {r.get('quote','')}", flush=True)
     print(f"{'='*55}\n", flush=True)
 
