@@ -3,7 +3,7 @@ generate_discipline_image.py
 Design Engine (Image Generation) for DisciplineFuel.
 Generates dark-aesthetic AI images for quotes/posts.
 
-Provider priority: fal.ai FLUX schnell → Pollinations.ai (free) → Gemini Imagen
+Provider priority: fal.ai FLUX schnell -> Pollinations.ai (free) -> Gemini Imagen
 Sizes: portrait_9_16 (image posts) | square_hd (carousel slides)
 
 Usage: python tools/generate_discipline_image.py "dark cinematic discipline quote background"
@@ -29,14 +29,14 @@ TMP_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp", 
 
 POLLINATIONS_URL = "https://image.pollinations.ai/prompt/{prompt}?width={w}&height={h}&model=flux&nologo=true&seed={seed}"
 
-# fal.ai size → (width, height) for Pollinations fallback
+# fal.ai size ->(width, height) for Pollinations fallback
 SIZE_DIMS = {
     "portrait_9_16": (1080, 1920),
     "square_hd":     (1080, 1080),
     "landscape_16_9": (1920, 1080),
 }
 
-# Design style → cinematic scene pools (6 scenes per style, picked randomly each post)
+# Design style ->cinematic scene pools (6 scenes per style, picked randomly each post)
 SCENE_POOLS = {
     "dark": [
         "lone figure standing at edge of rooftop at night, city lights below, cinematic fog, dramatic backlighting, photorealistic",
@@ -195,7 +195,7 @@ def generate_discipline_image(
         try:
             print(f"  [AIMLAPI/flux-dev]...", flush=True)
             _generate_via_aimlapi(full_prompt, output_path, size)
-            print(f"  [OK] AIMLAPI → {output_path}", flush=True)
+            print(f"  [OK] AIMLAPI ->{output_path}", flush=True)
             return {"file": output_path, "provider": "aimlapi", "size": size, "prompt": full_prompt}
         except Exception as e:
             errors.append(f"AIMLAPI: {e}")
@@ -207,7 +207,7 @@ def generate_discipline_image(
             try:
                 print(f"  [fal.ai] attempt {attempt}...", flush=True)
                 _generate_via_fal(full_prompt, output_path, size)
-                print(f"  [OK] fal.ai → {output_path}", flush=True)
+                print(f"  [OK] fal.ai ->{output_path}", flush=True)
                 return {"file": output_path, "provider": "fal.ai", "size": size, "prompt": full_prompt}
             except Exception as e:
                 err_str = str(e)
@@ -223,7 +223,7 @@ def generate_discipline_image(
         try:
             print(f"  [Pollinations] attempt {attempt}...", flush=True)
             _generate_via_pollinations(full_prompt, output_path, size, seed=seed + attempt)
-            print(f"  [OK] Pollinations → {output_path}", flush=True)
+            print(f"  [OK] Pollinations ->{output_path}", flush=True)
             return {"file": output_path, "provider": "pollinations", "size": size, "prompt": full_prompt}
         except Exception as e:
             errors.append(f"Pollinations: {e}")
@@ -235,7 +235,7 @@ def generate_discipline_image(
         try:
             print("  [Gemini Imagen]...", flush=True)
             _generate_via_gemini(full_prompt, output_path, size)
-            print(f"  [OK] Gemini → {output_path}", flush=True)
+            print(f"  [OK] Gemini ->{output_path}", flush=True)
             return {"file": output_path, "provider": "gemini", "size": size, "prompt": full_prompt}
         except Exception as e:
             errors.append(f"Gemini: {e}")
