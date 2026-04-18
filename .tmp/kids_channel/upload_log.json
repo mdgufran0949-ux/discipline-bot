@@ -23,11 +23,23 @@
       "duration_seconds": 36.8,
       "upload_timestamp": "2026-04-17T09:15:45.597947",
       "title": "Nursery Rhymes for Kids #Shorts"
+    },
+    {
+      "video_id": "SZbKA5uvqGA",
+      "yt_video_id": "SZbKA5uvqGA",
+      "url": "https://youtube.com/shorts/SZbKA5uvqGA",
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs",
+      "category": "numbers",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 43.82,
+      "upload_timestamp": "2026-04-18T07:54:46.917136",
+      "title": "Nursery Rhymes for Kids #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 2,
+    "total_uploaded": 3,
     "total_safety_fails": 0
   }
 }
