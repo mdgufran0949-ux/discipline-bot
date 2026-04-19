@@ -51,6 +51,27 @@ STOPWORDS = {
     "via","get","got","go","goes","going","gonna","wanna","gotta","like","li",
 }
 
+# Non-English function words — block to keep power words focused on English
+NON_ENGLISH_STOPWORDS = {
+    # German
+    "das","dass","der","die","den","dem","des","ein","eine","einen","einem","einer","eines",
+    "und","oder","aber","ich","du","er","sie","es","wir","ihr","sein","ist","bin","bist",
+    "sind","war","waren","haben","hat","hast","hatte","nicht","nein","ja","auch","nur",
+    "mit","von","bei","aus","nach","vor","auf","fur","fuer","uber","ueber","leben","mensch",
+    "menschen","zeit","jahr","tag","mann","frau","kind","welt","leute","wenn","dann","weil",
+    # Spanish
+    "que","con","por","para","pero","como","esto","esta","este","esa","ese","mas","soy",
+    "eres","son","eso","ella","ellos","tambien","tiene","tenemos","vida","tiempo","tengo",
+    "sobre","hacer","hace","nada","todo","todos","muy","bien","gran","porque","cuando",
+    # French
+    "les","des","une","dans","pour","avec","sans","mais","comme","tout","tous","tres",
+    "mais","leur","nous","vous","notre","votre","suis","etes","sont","etait","etre","avoir",
+    "alors","donc","aussi","meme","quand","parce","faire","vie","jour","temps","homme","femme",
+    # Portuguese / Italian common
+    "sua","seu","dela","dele","isso","isto","esse","essa","aqui","ali","entao","porque",
+    "sono","sei","siamo","siete","anche","questo","questa","quella","quello","molto","perche",
+}
+
 
 # ── Cache helpers ──────────────────────────────────────────────────────────────
 
@@ -147,7 +168,7 @@ def _extract_power_words(captions: list) -> list:
         text = re.sub(r'[#@]\S+', ' ', cap.lower())
         words = re.findall(r"[a-z]{3,}", text)
         for w in words:
-            if w in STOPWORDS:
+            if w in STOPWORDS or w in NON_ENGLISH_STOPWORDS:
                 continue
             counts[w] += 1
     return [w for w, _ in counts.most_common(20)]
