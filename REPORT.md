@@ -1,19 +1,20 @@
 # DisciplineFuel — Review Report
-Generated: 2026-04-17 17:13
+Generated: 2026-04-19 03:55
 
 > ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
 ## System Health
 - Last competitor fetch: 2026-04-17T17:13 ✅
 - Last IG metrics fetch: never ⚠️
-- IG hashtag quota used (7d): 0 / 30 ✅
-- Consecutive failed competitor fetches: 2
+- IG hashtag quota used (7d): 5 / 30 ✅
+- Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
 | 2026-04-13 | 0 | 0 | 0% |
 | 2026-04-16 | 0 | 0 | 0% |
+| 2026-04-17 | 0 | 7,744 | 0% |
 
 ## What Changed Today
 - No significant changes this run (system is stable)
