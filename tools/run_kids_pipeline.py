@@ -58,14 +58,15 @@ KIDS_ACCOUNT = "biscuit_zara"
 
 TMP      = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp"))
 ROOT     = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-LOG_DIR  = os.path.join(TMP, "kids_channel")
-LOG_FILE = os.path.join(LOG_DIR, "upload_log.json")
+LOG_DIR  = os.path.join(TMP, KIDS_ACCOUNT)
+LOG_FILE = os.path.join(LOG_DIR, "uploaded_log.json")
 
 SCRIPT_FILE    = os.path.join(TMP, "kids_script.json")
 TOKEN_FILE     = os.path.join(TMP, "youtube_token.pkl")
 CREDENTIALS    = os.path.join(ROOT, "credentials.json")
 SCOPES         = ["https://www.googleapis.com/auth/youtube.upload",
-                  "https://www.googleapis.com/auth/youtube"]
+                  "https://www.googleapis.com/auth/youtube",
+                  "https://www.googleapis.com/auth/yt-analytics.readonly"]
 
 COST_PER_VIDEO_USD = 0.056   # 7 Ideogram images × ~$0.008 avg
 

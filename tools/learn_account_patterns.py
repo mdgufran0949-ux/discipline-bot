@@ -48,11 +48,19 @@ def _load_json(path: str, default):
 
 
 def _load_uploaded_log(account: str) -> list:
-    path = os.path.join(TMP_BASE, account, "uploaded_log.json")
-    data = _load_json(path, None)
+    candidates = [os.path.join(TMP_BASE, account, "uploaded_log.json")]
+    # Kids pipeline writes to a non-standard location; check it when applicable.
+    if account == "biscuit_zara":
+        candidates.insert(0, os.path.join(TMP_BASE, "kids_channel", "upload_log.json"))
+    candidates.append(os.path.join(TMP_BASE, "uploaded_log.json"))
+
+    data = None
+    for path in candidates:
+        data = _load_json(path, None)
+        if data is not None:
+            break
     if data is None:
-        path = os.path.join(TMP_BASE, "uploaded_log.json")
-        data = _load_json(path, [])
+        data = []
     return data.get("uploaded", data) if isinstance(data, dict) else data
 
 

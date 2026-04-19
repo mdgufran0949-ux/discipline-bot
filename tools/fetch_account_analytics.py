@@ -59,10 +59,15 @@ def _load_config(account: str) -> dict:
 
 
 def _load_uploaded_log(account: str) -> list:
-    for candidate in (
+    candidates = [
         os.path.join(TMP_BASE, account, "uploaded_log.json"),
         os.path.join(TMP_BASE, "uploaded_log.json"),
-    ):
+    ]
+    # Kids pipeline writes to a non-standard location; check it when applicable.
+    if account == "biscuit_zara":
+        candidates.insert(0, os.path.join(TMP_BASE, "kids_channel", "upload_log.json"))
+
+    for candidate in candidates:
         if os.path.exists(candidate):
             with open(candidate, "r", encoding="utf-8") as f:
                 data = json.load(f)

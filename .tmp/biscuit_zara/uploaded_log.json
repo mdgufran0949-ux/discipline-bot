@@ -1,0 +1,57 @@
+{
+  "uploaded": [
+    {
+      "video_id": "1tmXmr5fX8c",
+      "yt_video_id": "1tmXmr5fX8c",
+      "url": "https://youtube.com/shorts/1tmXmr5fX8c",
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
+      "category": "numbers",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 42.02,
+      "upload_timestamp": "2026-04-12T17:41:36.546737",
+      "title": "Nursery Rhymes Sing-Along for Kids | Biscuit and Zara Learning Song #Shorts"
+    },
+    {
+      "video_id": "8G7jQP2o6bY",
+      "yt_video_id": "8G7jQP2o6bY",
+      "url": "https://youtube.com/shorts/8G7jQP2o6bY",
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
+      "category": "numbers",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 36.8,
+      "upload_timestamp": "2026-04-17T09:15:45.597947",
+      "title": "Nursery Rhymes for Kids #Shorts"
+    },
+    {
+      "video_id": "SZbKA5uvqGA",
+      "yt_video_id": "SZbKA5uvqGA",
+      "url": "https://youtube.com/shorts/SZbKA5uvqGA",
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs",
+      "category": "numbers",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 43.82,
+      "upload_timestamp": "2026-04-18T07:54:46.917136",
+      "title": "Nursery Rhymes for Kids #Shorts"
+    },
+    {
+      "video_id": "o6f6UmVroSg",
+      "yt_video_id": "o6f6UmVroSg",
+      "url": "https://youtube.com/shorts/o6f6UmVroSg",
+      "topic": "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies",
+      "category": "stories",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 37.64,
+      "upload_timestamp": "2026-04-19T06:02:07.703220",
+      "title": "Nursery Rhymes Countdown Song Cartoon for Kids | Biscuit & Zara #Shorts"
+    }
+  ],
+  "safety_fails": [],
+  "stats": {
+    "total_uploaded": 4,
+    "total_safety_fails": 0
+  }
+}

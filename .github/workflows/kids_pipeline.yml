@@ -57,7 +57,7 @@ jobs:
 
       - name: Restore Kids channel memory
         run: |
-          mkdir -p .tmp/biscuit_zara .tmp/kids_channel
+          mkdir -p .tmp/biscuit_zara
 
       - name: Run Kids pipeline
         run: python tools/run_kids_pipeline.py --count 1
@@ -69,7 +69,7 @@ jobs:
           cp .tmp/biscuit_zara/memory.json          /tmp/mem.json         2>/dev/null || true
           cp .tmp/biscuit_zara/strategy_report.json /tmp/strategy.json    2>/dev/null || true
           cp .tmp/biscuit_zara/performance.json     /tmp/perf.json        2>/dev/null || true
-          cp .tmp/kids_channel/upload_log.json      /tmp/upload_log.json  2>/dev/null || true
+          cp .tmp/biscuit_zara/uploaded_log.json    /tmp/upload_log.json  2>/dev/null || true
           cp config/accounts/biscuit_zara.json      /tmp/bz_config.json   2>/dev/null || true
 
           git config user.name  "BiscuitZara Bot"
@@ -78,17 +78,17 @@ jobs:
           git reset --hard origin/main
 
           # Restore the freshly generated files
-          mkdir -p .tmp/biscuit_zara .tmp/kids_channel
+          mkdir -p .tmp/biscuit_zara
           cp /tmp/mem.json         .tmp/biscuit_zara/memory.json          2>/dev/null || true
           cp /tmp/strategy.json    .tmp/biscuit_zara/strategy_report.json 2>/dev/null || true
           cp /tmp/perf.json        .tmp/biscuit_zara/performance.json     2>/dev/null || true
-          cp /tmp/upload_log.json  .tmp/kids_channel/upload_log.json      2>/dev/null || true
+          cp /tmp/upload_log.json  .tmp/biscuit_zara/uploaded_log.json    2>/dev/null || true
           cp /tmp/bz_config.json   config/accounts/biscuit_zara.json      2>/dev/null || true
 
-          git add -f .tmp/biscuit_zara/memory.json        2>/dev/null || true
-          git add -f .tmp/kids_channel/upload_log.json    2>/dev/null || true
-          git add -f .tmp/biscuit_zara/performance.json   2>/dev/null || true
+          git add -f .tmp/biscuit_zara/memory.json          2>/dev/null || true
+          git add -f .tmp/biscuit_zara/uploaded_log.json    2>/dev/null || true
+          git add -f .tmp/biscuit_zara/performance.json     2>/dev/null || true
           git add -f .tmp/biscuit_zara/strategy_report.json 2>/dev/null || true
-          git add    config/accounts/biscuit_zara.json    2>/dev/null || true
+          git add    config/accounts/biscuit_zara.json      2>/dev/null || true
           git diff --staged --quiet || git commit -m "state: biscuit_zara after pipeline run [skip ci]"
           git push origin main

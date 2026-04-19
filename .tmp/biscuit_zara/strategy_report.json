@@ -1,6 +1,90 @@
 {
   "account": "biscuit_zara",
-  "generated_at": "2026-04-19T05:54:24.334005",
-  "status": "no_scored_posts",
-  "message": "No posts with metrics yet. Wait for first performance data."
+  "generated_at": "2026-04-19T13:01:56.808929",
+  "total_posts_scored": 4,
+  "high_performers": 0,
+  "medium_performers": 0,
+  "low_performers": 4,
+  "avg_score": 0.0,
+  "top_5_posts": [
+    {
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs",
+      "hook": "Three, two, one, let's have fun, learning rhymes for everyon",
+      "format": "video",
+      "score": 0.1,
+      "saves": 0,
+      "shares": 0,
+      "yt_views": 75
+    },
+    {
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
+      "hook": "Three, two, one, fun has just begun, learning rhymes for eve",
+      "format": "video",
+      "score": 0.0,
+      "saves": 0,
+      "shares": 0,
+      "yt_views": 9
+    },
+    {
+      "topic": "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies",
+      "hook": "3-2-1 rhyming rockets zoom, let's sing songs that boom-boom-",
+      "format": "video",
+      "score": 0.0,
+      "saves": 0,
+      "shares": 0,
+      "yt_views": 2
+    },
+    {
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
+      "hook": "",
+      "format": "video",
+      "score": 0.0,
+      "saves": 0,
+      "shares": 0,
+      "yt_views": 4
+    }
+  ],
+  "worst_5_posts": [
+    {
+      "topic": "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies",
+      "hook": "3-2-1 rhyming rockets zoom, let's sing songs that boom-boom-",
+      "score": 0.0
+    },
+    {
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
+      "hook": "",
+      "score": 0.0
+    },
+    {
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
+      "hook": "Three, two, one, fun has just begun, learning rhymes for eve",
+      "score": 0.0
+    },
+    {
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs",
+      "hook": "Three, two, one, let's have fun, learning rhymes for everyon",
+      "score": 0.1
+    }
+  ],
+  "best_combinations": {},
+  "avoid_topics": [],
+  "upgrade_applied": {
+    "good_keywords": [],
+    "avoid_keywords": [],
+    "best_topics": [],
+    "avoid_topics": [],
+    "hook_weights": {
+      "question": 0.35,
+      "fact": 0.35,
+      "story": 0.15,
+      "imperative": 0.15
+    },
+    "last_analyzed": "2026-04-19T13:01:56.805705",
+    "top_hooks": []
+  },
+  "next_strategy": {
+    "double_down": [],
+    "experiment": "20% of posts should test new hook/topic combos",
+    "avoid": []
+  }
 }
