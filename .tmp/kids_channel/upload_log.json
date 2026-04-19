@@ -35,11 +35,23 @@
       "duration_seconds": 43.82,
       "upload_timestamp": "2026-04-18T07:54:46.917136",
       "title": "Nursery Rhymes for Kids #Shorts"
+    },
+    {
+      "video_id": "o6f6UmVroSg",
+      "yt_video_id": "o6f6UmVroSg",
+      "url": "https://youtube.com/shorts/o6f6UmVroSg",
+      "topic": "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies",
+      "category": "stories",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 37.64,
+      "upload_timestamp": "2026-04-19T06:02:07.703220",
+      "title": "Nursery Rhymes Countdown Song Cartoon for Kids | Biscuit & Zara #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 3,
+    "total_uploaded": 4,
     "total_safety_fails": 0
   }
 }
