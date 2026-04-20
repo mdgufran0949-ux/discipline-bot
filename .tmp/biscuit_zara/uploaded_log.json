@@ -47,11 +47,23 @@
       "duration_seconds": 37.64,
       "upload_timestamp": "2026-04-19T06:02:07.703220",
       "title": "Nursery Rhymes Countdown Song Cartoon for Kids | Biscuit & Zara #Shorts"
+    },
+    {
+      "video_id": "0JlFdeh0jS4",
+      "yt_video_id": "0JlFdeh0jS4",
+      "url": "https://youtube.com/shorts/0JlFdeh0jS4",
+      "topic": "Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs",
+      "category": "stories",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 48.62,
+      "upload_timestamp": "2026-04-20T06:21:41.945705",
+      "title": "How Nursery Rhymes Help Kids Learn | Fun Educational Animation #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 4,
+    "total_uploaded": 5,
     "total_safety_fails": 0
   }
 }

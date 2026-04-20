@@ -163,6 +163,50 @@
         "score": 0.0,
         "fetched_at": "2026-04-19T13:01:56.795412"
       }
+    },
+    {
+      "id": "post_1776666101",
+      "ig_media_id": "",
+      "yt_video_id": "0JlFdeh0jS4",
+      "topic": "Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs",
+      "hook": "Have you ever wondered why silly songs stick like honey in y",
+      "hook_type": "fact",
+      "hook_keyword": "",
+      "quote_type": "",
+      "design_style": "",
+      "format": "video",
+      "series": "standalone",
+      "series_number": 0,
+      "selected_quote": "",
+      "caption": "Join Biscuit the curious bear and Zara the wise owl to discover why nursery rhymes make learning easy and fun! Kids will see how music and rhythm boost memory and language skills.",
+      "hashtags": [
+        "#NurseryRhymes",
+        "#KidsLearning",
+        "#EducationalVideo",
+        "#Preschool",
+        "#BiscuitAndZara",
+        "#Shorts"
+      ],
+      "scene_prompts": [
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT looks thoughtful and curious, one paw on chin, wondering expression, colorful question marks floating around",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. ZARA explaining enthusiastically, BISCUIT listening with big eyes, scene 2 action",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT jumping with excitement, ZARA smiling, scene 3 action",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA, visual demonstration of the key fact",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA celebrating, bright happy scene",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA waving goodbye, confetti, stars, big smiles, colorful background"
+      ],
+      "posted_at": "2026-04-20T06:21:41.946164",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "yt_views": 0,
+        "yt_watchtime_min": 0,
+        "yt_ctr": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -213,21 +257,22 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 4,
+    "total_posts": 5,
     "by_quote_type": {},
     "by_hook_type": {
-      "fact": 3
+      "fact": 4
     },
     "by_topic": {
       "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs": 2,
       "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs": 1,
-      "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies": 1
+      "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies": 1,
+      "Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs": 1
     },
     "by_format": {
-      "video": 4
+      "video": 5
     },
     "by_series": {
-      "standalone": 4
+      "standalone": 5
     },
     "top_performing_series": "standalone",
     "top_performing_topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs"
