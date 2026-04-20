@@ -1,10 +1,10 @@
 # DisciplineFuel — Review Report
-Generated: 2026-04-19 03:55
+Generated: 2026-04-20 03:57
 
 > ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
 ## System Health
-- Last competitor fetch: 2026-04-17T17:13 ✅
+- Last competitor fetch: 2026-04-19T12:51 ✅
 - Last IG metrics fetch: never ⚠️
 - IG hashtag quota used (7d): 5 / 30 ✅
 - Consecutive failed competitor fetches: 0
@@ -15,23 +15,24 @@ Generated: 2026-04-19 03:55
 | 2026-04-13 | 0 | 0 | 0% |
 | 2026-04-16 | 0 | 0 | 0% |
 | 2026-04-17 | 0 | 7,744 | 0% |
+| 2026-04-19 | 0 | 7,744 | 0% |
 
 ## What Changed Today
 - No significant changes this run (system is stable)
 
 ## What We Learned From Competitors
-- Scanned hashtags: motivationdaily, selfimprovementtips, stoicmindset, discipline, selfdiscipline
+- Scanned hashtags: stoicmindset, discipline, selfdiscipline, disciplinequotes, mentality
 - Posts analyzed: 50
-- Niche benchmark: 7,744 avg engagement | Our avg: 0 | Gap: -100%
+- Niche benchmark: 13,825 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
-  1. "Good fathers don’t raise weak sons — they raise men who can handle real life."
-  2. "Tag your brother."
-  3. "Greatness rarely begins with greatness."
-  4. "Comment 👉 Mindset ✅"
-  5. "Sundays are for slowing down."
-- Hot power words: life, das, leben, ich, discipline, follow, don, every
+  1. "Save this post as a guide and share it with a friend ✅"
+  2. "We must all suffer from one of two pains:"
+  3. "Bruce Lee’s life was short, but his mindset legacy still hits hard today."
+  4. "Follow 👉 we.think.deeply we.think.deeply we.think.deeply"
+  5. "You will rarely feel completely prepared before taking a step forward."
+- Hot power words: follow, life, discipline, wolveinstinct, people, content, words, need
 - Dominant quote structure: **statement**
-- Dominant media type: **CAROUSEL_ALBUM (54%)**
+- Dominant media type: **IMAGE (56%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
