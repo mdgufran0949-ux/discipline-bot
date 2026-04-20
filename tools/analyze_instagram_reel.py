@@ -52,24 +52,38 @@ def _ytdlp_fetch(url: str) -> dict:
 
 def _oembed_fetch(url: str) -> dict:
     """Fallback: Instagram oEmbed — gives caption + author, no stats."""
-    print("  [fallback] Using oEmbed (no cookies → views/likes unavailable)", flush=True)
-    resp = requests.get(
-        "https://api.instagram.com/oembed/",
-        params={"url": url, "hidecaption": 0},
-        timeout=15
-    )
-    resp.raise_for_status()
-    data = resp.json()
+    print("  [fallback] Trying oEmbed (no cookies → views/likes unavailable)", flush=True)
+    try:
+        resp = requests.get(
+            "https://api.instagram.com/oembed/",
+            params={"url": url, "hidecaption": 0},
+            timeout=15
+        )
+        resp.raise_for_status()
+        if not resp.text.strip():
+            raise ValueError("Empty response")
+        data = resp.json()
+    except Exception:
+        raise RuntimeError(
+            "Instagram requires cookies for any metadata.\n\n"
+            "  HOW TO FIX:\n"
+            "  1. On your PC: open Chrome, go to instagram.com (stay logged in)\n"
+            "  2. Install extension: 'Get cookies.txt LOCALLY'\n"
+            "  3. Click extension on instagram.com → Export → save file\n"
+            "  4. Upload to EC2:\n"
+            "     scp cookies.txt ubuntu@172.31.43.55:~/shorts/.tmp/instagram_cookies.txt\n"
+            "  5. Re-run this script"
+        )
     return {
-        "id":           url.rstrip("/").split("/")[-1],
-        "description":  data.get("title", ""),
-        "uploader":     data.get("author_name", ""),
-        "view_count":   None,
-        "like_count":   None,
+        "id":            url.rstrip("/").split("/")[-1],
+        "description":   data.get("title", ""),
+        "uploader":      data.get("author_name", ""),
+        "view_count":    None,
+        "like_count":    None,
         "comment_count": None,
-        "duration":     None,
-        "timestamp":    None,
-        "_source":      "oembed",
+        "duration":      None,
+        "timestamp":     None,
+        "_source":       "oembed",
     }
 
 
