@@ -206,17 +206,16 @@ def upgrade_config(account: str, scored_posts: list) -> dict:
             media_mix = intel.get("patterns", {}).get("best_media_types", {})
             if media_mix:
                 carousel_pct = media_mix.get("CAROUSEL_ALBUM", 0.0)
-                image_pct    = media_mix.get("IMAGE", 0.0) + media_mix.get("VIDEO", 0.0)
+                image_pct    = media_mix.get("IMAGE", 0.0)
+                video_pct    = media_mix.get("VIDEO", 0.0)  # reels show as VIDEO in competitor data
                 current      = cfg["content_format_mix"]
                 blended = {
-                    "image":    round((current.get("image", 0.5)    + image_pct)    / 2, 3),
-                    "carousel": round((current.get("carousel", 0.5) + carousel_pct) / 2, 3),
+                    "reel":     round((current.get("reel",     0.50) + video_pct)    / 2, 3),
+                    "image":    round((current.get("image",    0.25) + image_pct)    / 2, 3),
+                    "carousel": round((current.get("carousel", 0.25) + carousel_pct) / 2, 3),
                 }
-                tot = blended["image"] + blended["carousel"] or 1
-                cfg["content_format_mix"] = {
-                    "image":    round(blended["image"]    / tot, 3),
-                    "carousel": round(blended["carousel"] / tot, 3),
-                }
+                tot = sum(blended.values()) or 1
+                cfg["content_format_mix"] = {k: round(v / tot, 3) for k, v in blended.items()}
         except Exception as e:
             print(f"  [WARN] Competitor media-type blend failed: {e}", flush=True)
 

@@ -33,6 +33,9 @@ import generate_discipline_quote as quote_tool
 import generate_discipline_image as image_tool
 import generate_canva_post       as canva_tool
 import upload_image_post         as upload_tool
+import upload_reel               as reel_upload_tool
+import compose_discipline_reel   as reel_tool
+import generate_discipline_bgm   as bgm_tool
 import review_and_upgrade        as review_tool
 
 SLEEP_BETWEEN_POSTS = 180   # 3 minutes (same as run_pipeline.py)
@@ -263,7 +266,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 )
                 bg_image_paths = [img["file"]]
 
-            # -- Step 8: Design (Canva + Pillow fallback)
+            # -- Step 8: Design (Canva + Pillow fallback, or reel composer)
             print("\n[6/8] Composing post design...", flush=True)
             if fmt == "carousel":
                 composed = canva_tool.generate_canva_carousel(
@@ -272,6 +275,17 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                     bg_image_paths=bg_image_paths
                 )
                 output_files = composed["files"]
+            elif fmt == "reel":
+                bgm_path = os.path.join(TMP_BASE, account, "bgm.mp3")
+                if not os.path.exists(bgm_path) or (time.time() - os.path.getmtime(bgm_path)) > 7 * 86400:
+                    bgm_tool.generate_bgm(output_path=bgm_path)
+                composed = reel_tool.compose_discipline_reel(
+                    quote=selected_quote,
+                    series_label=series_label,
+                    design_style=design_style,
+                    bg_image_path=bg_image_paths[0]
+                )
+                output_files = [composed["file"]]
             else:
                 composed = canva_tool.generate_canva_post(
                     quote=selected_quote,
@@ -298,6 +312,13 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 if fmt == "carousel":
                     result = upload_tool.upload_carousel_post(
                         image_paths=output_files,
+                        caption=caption,
+                        ig_user_id=ig_user_id,
+                        ig_access_token=ig_access_token
+                    )
+                elif fmt == "reel":
+                    result = reel_upload_tool.upload_reel(
+                        video_path=output_files[0],
                         caption=caption,
                         ig_user_id=ig_user_id,
                         ig_access_token=ig_access_token

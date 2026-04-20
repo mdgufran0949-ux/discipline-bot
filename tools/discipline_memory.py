@@ -119,7 +119,7 @@ def get_content_weights() -> dict:
     # Default weights — aligned with what actually wins in the niche
     # (statement dominates real top posts; pain_driven / command rarely win)
     weights = {
-        "format": {"image": 0.50, "carousel": 0.50},
+        "format": {"reel": 0.50, "image": 0.25, "carousel": 0.25},
         "design_style": {"dark": 0.50, "minimal": 0.20, "bold": 0.20, "luxury": 0.10},
         "quote_type": {
             "statement":   0.40,
@@ -208,22 +208,22 @@ def get_competitor_hints() -> dict:
 
 def update_creator_profiles(profiles: list) -> None:
     """
-    Merge new creator profiles into memory.
-    Existing profiles are updated (by username); new ones are appended.
+    Merge new creator profiles into memory, keyed by display_name.
     Sorted by avg_engagement descending, capped at top 20.
     """
     if not profiles:
         return
     mem = _load()
-    existing = {p["username"]: p for p in (mem.get("creator_profiles") or [])}
+    existing = {p.get("display_name", p.get("username", "")): p
+                for p in (mem.get("creator_profiles") or [])
+                if p.get("display_name") or p.get("username")}
 
     for new_p in profiles:
-        uname = new_p.get("username", "")
-        if not uname:
+        key = new_p.get("display_name") or new_p.get("username", "")
+        if not key:
             continue
-        if uname in existing:
-            old = existing[uname]
-            # Blend engagement as running average
+        if key in existing:
+            old = existing[key]
             old_count = old.get("appearances", 1)
             new_count = new_p.get("appearances", 1)
             total     = old_count + new_count
@@ -233,16 +233,14 @@ def update_creator_profiles(profiles: list) -> None:
             old["top_engagement"]     = max(old.get("top_engagement", 0), new_p.get("top_engagement", 0))
             old["dominant_structure"] = new_p.get("dominant_structure", old.get("dominant_structure"))
             old["dominant_length"]    = new_p.get("dominant_length", old.get("dominant_length"))
-            # Merge sample hooks (dedupe, keep newest at front)
             seen_hooks = set()
             merged = []
             for h in (new_p.get("sample_hooks") or []) + (old.get("sample_hooks") or []):
-                key = h.lower().strip()
-                if key and key not in seen_hooks:
-                    seen_hooks.add(key)
+                k = h.lower().strip()
+                if k and k not in seen_hooks:
+                    seen_hooks.add(k)
                     merged.append(h)
             old["sample_hooks"] = merged[:5]
-            # Merge power words (dedupe, keep fresh ones)
             seen_words = set()
             merged_words = []
             for w in (new_p.get("power_words") or []) + (old.get("power_words") or []):
@@ -251,9 +249,8 @@ def update_creator_profiles(profiles: list) -> None:
                     merged_words.append(w)
             old["power_words"] = merged_words[:10]
         else:
-            existing[uname] = new_p
+            existing[key] = new_p
 
-    # Sort by avg_engagement, keep top 20
     sorted_profiles = sorted(existing.values(), key=lambda x: x.get("avg_engagement", 0), reverse=True)
     mem["creator_profiles"] = sorted_profiles[:20]
     _save(mem)
