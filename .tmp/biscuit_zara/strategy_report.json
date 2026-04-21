@@ -1,6 +1,6 @@
 {
   "account": "biscuit_zara",
-  "generated_at": "2026-04-19T13:01:56.808929",
+  "generated_at": "2026-04-21T05:59:08.796819",
   "total_posts_scored": 4,
   "high_performers": 0,
   "medium_performers": 0,
@@ -14,16 +14,7 @@
       "score": 0.1,
       "saves": 0,
       "shares": 0,
-      "yt_views": 75
-    },
-    {
-      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
-      "hook": "Three, two, one, fun has just begun, learning rhymes for eve",
-      "format": "video",
-      "score": 0.0,
-      "saves": 0,
-      "shares": 0,
-      "yt_views": 9
+      "yt_views": 119
     },
     {
       "topic": "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies",
@@ -32,7 +23,16 @@
       "score": 0.0,
       "saves": 0,
       "shares": 0,
-      "yt_views": 2
+      "yt_views": 35
+    },
+    {
+      "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
+      "hook": "Three, two, one, fun has just begun, learning rhymes for eve",
+      "format": "video",
+      "score": 0.0,
+      "saves": 0,
+      "shares": 0,
+      "yt_views": 15
     },
     {
       "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
@@ -46,11 +46,6 @@
   ],
   "worst_5_posts": [
     {
-      "topic": "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies",
-      "hook": "3-2-1 rhyming rockets zoom, let's sing songs that boom-boom-",
-      "score": 0.0
-    },
-    {
       "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
       "hook": "",
       "score": 0.0
@@ -58,6 +53,11 @@
     {
       "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
       "hook": "Three, two, one, fun has just begun, learning rhymes for eve",
+      "score": 0.0
+    },
+    {
+      "topic": "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies",
+      "hook": "3-2-1 rhyming rockets zoom, let's sing songs that boom-boom-",
       "score": 0.0
     },
     {
@@ -79,7 +79,7 @@
       "story": 0.15,
       "imperative": 0.15
     },
-    "last_analyzed": "2026-04-19T13:01:56.805705",
+    "last_analyzed": "2026-04-21T05:59:08.796188",
     "top_hooks": []
   },
   "next_strategy": {

@@ -39,11 +39,11 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "yt_views": 9,
+        "yt_views": 15,
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.01,
-        "fetched_at": "2026-04-19T13:01:56.795388"
+        "fetched_at": "2026-04-21T05:59:08.794893"
       }
     },
     {
@@ -83,11 +83,11 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "yt_views": 75,
+        "yt_views": 119,
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
-        "score": 0.07,
-        "fetched_at": "2026-04-19T13:01:56.795401"
+        "score": 0.12,
+        "fetched_at": "2026-04-21T05:59:08.794901"
       }
     },
     {
@@ -127,11 +127,11 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "yt_views": 2,
+        "yt_views": 35,
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
-        "score": 0.0,
-        "fetched_at": "2026-04-19T13:01:56.795408"
+        "score": 0.04,
+        "fetched_at": "2026-04-21T05:59:08.794906"
       }
     },
     {
@@ -161,7 +161,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.0,
-        "fetched_at": "2026-04-19T13:01:56.795412"
+        "fetched_at": "2026-04-21T05:59:08.794911"
       }
     },
     {
@@ -207,6 +207,51 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "post_1776751671",
+      "ig_media_id": "",
+      "yt_video_id": "Y_LZKru4VPc",
+      "topic": "Endangered Animals Part-1 #animalshorts #kidsshorts #kidslearning #elephant #animals #kidsfun #funny",
+      "hook": "Three, two, one, fun has just begun, learning about animals,",
+      "hook_type": "fact",
+      "hook_keyword": "",
+      "quote_type": "",
+      "design_style": "",
+      "format": "video",
+      "series": "standalone",
+      "series_number": 0,
+      "selected_quote": "",
+      "caption": "Join Biscuit and Zara as they learn about endangered animals, and what we can do to help them. In this fun and educational video, kids will discover the importance of taking care of our planet and its amazing creatures.",
+      "hashtags": [
+        "#countdown",
+        "#kidslearning",
+        "#educationalvideo",
+        "#preschool",
+        "#biscuitandzara",
+        "#endangeredanimals",
+        "#wildlifeconservation"
+      ],
+      "scene_prompts": [
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT holding a big number sign, countdown bubbles floating, ZARA cheering with pompoms, bright confetti background",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. ZARA explaining enthusiastically, BISCUIT listening with big eyes, scene 2 action",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT jumping with excitement, ZARA smiling, scene 3 action",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA, visual demonstration of the key fact, helping animals, hand in hand",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA celebrating, bright happy scene, confetti and balloons, everywhere",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA waving goodbye, confetti, stars, big smiles, colorful background"
+      ],
+      "posted_at": "2026-04-21T06:07:51.983765",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "yt_views": 0,
+        "yt_watchtime_min": 0,
+        "yt_ctr": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -230,7 +275,7 @@
         "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs",
         "format": "video",
         "series": "standalone",
-        "score": 0.07
+        "score": 0.12
       },
       {
         "quote_type": "",
@@ -240,7 +285,7 @@
         "topic": "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies",
         "format": "video",
         "series": "standalone",
-        "score": 0.0
+        "score": 0.04
       },
       {
         "quote_type": "",
@@ -257,22 +302,23 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 5,
+    "total_posts": 6,
     "by_quote_type": {},
     "by_hook_type": {
-      "fact": 4
+      "fact": 5
     },
     "by_topic": {
       "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs": 2,
       "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs": 1,
       "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies": 1,
-      "Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs": 1
+      "Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs": 1,
+      "Endangered Animals Part-1 #animalshorts #kidsshorts #kidslearning #elephant #animals #kidsfun #funny": 1
     },
     "by_format": {
-      "video": 5
+      "video": 6
     },
     "by_series": {
-      "standalone": 5
+      "standalone": 6
     },
     "top_performing_series": "standalone",
     "top_performing_topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs"
@@ -290,6 +336,6 @@
     "benchmark_engagement": 0,
     "updated_at": null
   },
-  "last_upgraded": "2026-04-19T13:01:56.810993",
-  "last_reviewed": "2026-04-19T13:01:56.818919"
+  "last_upgraded": "2026-04-21T05:59:08.797276",
+  "last_reviewed": "2026-04-21T05:59:08.797834"
 }

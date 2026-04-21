@@ -59,11 +59,23 @@
       "duration_seconds": 48.62,
       "upload_timestamp": "2026-04-20T06:21:41.945705",
       "title": "How Nursery Rhymes Help Kids Learn | Fun Educational Animation #Shorts"
+    },
+    {
+      "video_id": "Y_LZKru4VPc",
+      "yt_video_id": "Y_LZKru4VPc",
+      "url": "https://youtube.com/shorts/Y_LZKru4VPc",
+      "topic": "Endangered Animals Part-1 #animalshorts #kidsshorts #kidslearning #elephant #animals #kidsfun #funny",
+      "category": "animals",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 43.34,
+      "upload_timestamp": "2026-04-21T06:07:51.983347",
+      "title": "Endangered Animals for Kids #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 5,
+    "total_uploaded": 6,
     "total_safety_fails": 0
   }
 }
