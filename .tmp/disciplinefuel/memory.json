@@ -49,7 +49,7 @@
     "best_quote_types": [],
     "avoid_phrases": []
   },
-  "last_upgraded": "2026-04-20T03:57:56.583939",
+  "last_upgraded": "2026-04-21T09:11:14.214591",
   "competitor_hints": {
     "top_hooks": [
       "Save this post as a guide and share it with a friend \u2705",
@@ -94,6 +94,6 @@
       "question"
     ],
     "benchmark_engagement": 13825.0,
-    "updated_at": "2026-04-20T03:57:56.123751"
+    "updated_at": "2026-04-21T09:11:13.710992"
   }
 }
