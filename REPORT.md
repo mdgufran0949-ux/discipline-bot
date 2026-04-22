@@ -1,10 +1,10 @@
 # DisciplineFuel — Review Report
-Generated: 2026-04-21 09:11
+Generated: 2026-04-22 15:50
 
 > ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
 ## System Health
-- Last competitor fetch: 2026-04-19T12:51 ✅
+- Last competitor fetch: 2026-04-22T15:50 ✅
 - Last IG metrics fetch: never ⚠️
 - IG hashtag quota used (7d): 7 / 30 ✅
 - Consecutive failed competitor fetches: 0
@@ -17,23 +17,24 @@ Generated: 2026-04-21 09:11
 | 2026-04-17 | 0 | 7,744 | 0% |
 | 2026-04-19 | 0 | 7,744 | 0% |
 | 2026-04-20 | 0 | 13,825 | 0% |
+| 2026-04-21 | 0 | 13,825 | 0% |
 
 ## What Changed Today
 - No significant changes this run (system is stable)
 
 ## What We Learned From Competitors
-- Scanned hashtags: stoicmindset, discipline, selfdiscipline, disciplinequotes, mentality
+- Scanned hashtags: disciplinequotes, mentality, mindsetmatters, grindmode, hardworkpaysoff
 - Posts analyzed: 50
-- Niche benchmark: 13,825 avg engagement | Our avg: 0 | Gap: -100%
+- Niche benchmark: 14,797 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
   1. "Save this post as a guide and share it with a friend ✅"
   2. "We must all suffer from one of two pains:"
-  3. "Bruce Lee’s life was short, but his mindset legacy still hits hard today."
-  4. "Follow 👉 we.think.deeply we.think.deeply we.think.deeply"
-  5. "You will rarely feel completely prepared before taking a step forward."
-- Hot power words: follow, life, discipline, wolveinstinct, people, content, words, need
+  3. "The body achieves what the mind believes🏋️‍♂️"
+  4. "Success isn’t about the applause you get when you’re winning."
+  5. "Most people will only ever see the final version."
+- Hot power words: life, every, don, keep, post, follow, discipline, signs
 - Dominant quote structure: **statement**
-- Dominant media type: **IMAGE (56%)**
+- Dominant media type: **IMAGE (68%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
