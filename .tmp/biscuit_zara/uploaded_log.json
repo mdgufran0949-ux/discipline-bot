@@ -71,11 +71,23 @@
       "duration_seconds": 43.34,
       "upload_timestamp": "2026-04-21T06:07:51.983347",
       "title": "Endangered Animals for Kids #Shorts"
+    },
+    {
+      "video_id": "xyJH-dQj3Hg",
+      "yt_video_id": "xyJH-dQj3Hg",
+      "url": "https://youtube.com/shorts/xyJH-dQj3Hg",
+      "topic": "Iam a horse  #kidslearning #animal  #horse  #farmanimals",
+      "category": "animals",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 45.92,
+      "upload_timestamp": "2026-04-22T06:06:05.441028",
+      "title": "Preschool Cartoon: Learn Horses Count Hooves Sleep Standing! #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 6,
+    "total_uploaded": 7,
     "total_safety_fails": 0
   }
 }

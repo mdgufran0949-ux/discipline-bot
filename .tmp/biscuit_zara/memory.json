@@ -252,6 +252,50 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "post_1776837965",
+      "ig_media_id": "",
+      "yt_video_id": "xyJH-dQj3Hg",
+      "topic": "Iam a horse  #kidslearning #animal  #horse  #farmanimals",
+      "hook": "Can you help Biscuit and Zara count hooves that clop-clop-cl",
+      "hook_type": "fact",
+      "hook_keyword": "",
+      "quote_type": "",
+      "design_style": "",
+      "format": "video",
+      "series": "standalone",
+      "series_number": 0,
+      "selected_quote": "",
+      "caption": "Join Biscuit the bear and Zara the owl in a bouncy rhyme-filled adventure about horses. Kids count hooves, hear a neigh, and discover horses nap while standing up!",
+      "hashtags": [
+        "#challenge",
+        "#kidslearning",
+        "#educationalvideo",
+        "#preschool",
+        "#biscuitandzara",
+        "#Shorts"
+      ],
+      "scene_prompts": [
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT pointing at the viewer with big excited eyes, ZARA beside with a big smile, bright energetic scene",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. ZARA explaining enthusiastically, BISCUIT listening with big eyes, scene 2 action",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT jumping with excitement, ZARA smiling, scene 3 action",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA, visual demonstration of the key fact",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA celebrating, bright happy scene",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA waving goodbye, confetti, stars, big smiles, colorful background"
+      ],
+      "posted_at": "2026-04-22T06:06:05.441573",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "yt_views": 0,
+        "yt_watchtime_min": 0,
+        "yt_ctr": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -302,23 +346,24 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 6,
+    "total_posts": 7,
     "by_quote_type": {},
     "by_hook_type": {
-      "fact": 5
+      "fact": 6
     },
     "by_topic": {
       "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs": 2,
       "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs": 1,
       "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies": 1,
       "Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs": 1,
-      "Endangered Animals Part-1 #animalshorts #kidsshorts #kidslearning #elephant #animals #kidsfun #funny": 1
+      "Endangered Animals Part-1 #animalshorts #kidsshorts #kidslearning #elephant #animals #kidsfun #funny": 1,
+      "Iam a horse  #kidslearning #animal  #horse  #farmanimals": 1
     },
     "by_format": {
-      "video": 6
+      "video": 7
     },
     "by_series": {
-      "standalone": 6
+      "standalone": 7
     },
     "top_performing_series": "standalone",
     "top_performing_topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs"
