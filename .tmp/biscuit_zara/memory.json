@@ -43,7 +43,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.01,
-        "fetched_at": "2026-04-21T05:59:08.794893"
+        "fetched_at": "2026-04-23T06:01:10.703492"
       }
     },
     {
@@ -82,12 +82,12 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "yt_views": 119,
+        "likes": 1,
+        "yt_views": 121,
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
-        "score": 0.12,
-        "fetched_at": "2026-04-21T05:59:08.794901"
+        "score": 1.12,
+        "fetched_at": "2026-04-23T06:01:10.703500"
       }
     },
     {
@@ -127,11 +127,11 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "yt_views": 35,
+        "yt_views": 59,
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
-        "score": 0.04,
-        "fetched_at": "2026-04-21T05:59:08.794906"
+        "score": 0.06,
+        "fetched_at": "2026-04-23T06:01:10.703505"
       }
     },
     {
@@ -161,7 +161,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.0,
-        "fetched_at": "2026-04-21T05:59:08.794911"
+        "fetched_at": "2026-04-23T06:01:10.703511"
       }
     },
     {
@@ -296,6 +296,51 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "post_1776924458",
+      "ig_media_id": "",
+      "yt_video_id": "DILgswxnv8Q",
+      "topic": "Monster Song | Nursery Rhymes & Kids Songs | Happy Tots #nurseryrhymes #childrensongs",
+      "hook": "Three, two, one, let's have some fun and learn about rhymes ",
+      "hook_type": "fact",
+      "hook_keyword": "",
+      "quote_type": "",
+      "design_style": "",
+      "format": "video",
+      "series": "standalone",
+      "series_number": 0,
+      "selected_quote": "",
+      "caption": "Join BISCUIT and ZARA as they learn about nursery rhymes and have fun singing and dancing along. In this video, kids will learn about the importance of rhymes and how they can help with learning and memory. With catchy tunes and colorful animation, this video is perfect for preschoolers and kids who love to sing and dance.",
+      "hashtags": [
+        "#countdown",
+        "#kidslearning",
+        "#educationalvideo",
+        "#preschool",
+        "#biscuitandzara",
+        "#nurseryrhymes",
+        "#kidssongs"
+      ],
+      "scene_prompts": [
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT holding a big number sign, countdown bubbles floating, ZARA cheering with pompoms, bright confetti background",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. ZARA explaining enthusiastically, BISCUIT listening with big eyes, scene 2 action",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT jumping with excitement, ZARA smiling, scene 3 action",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA, visual demonstration of the key fact",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA celebrating, bright happy scene",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA waving goodbye, confetti, stars, big smiles, colorful background"
+      ],
+      "posted_at": "2026-04-23T06:07:38.943583",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "yt_views": 0,
+        "yt_watchtime_min": 0,
+        "yt_ctr": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -319,7 +364,7 @@
         "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs",
         "format": "video",
         "series": "standalone",
-        "score": 0.12
+        "score": 1.12
       },
       {
         "quote_type": "",
@@ -329,7 +374,7 @@
         "topic": "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies",
         "format": "video",
         "series": "standalone",
-        "score": 0.04
+        "score": 0.06
       },
       {
         "quote_type": "",
@@ -346,10 +391,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 7,
+    "total_posts": 8,
     "by_quote_type": {},
     "by_hook_type": {
-      "fact": 6
+      "fact": 7
     },
     "by_topic": {
       "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs": 2,
@@ -357,13 +402,14 @@
       "Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies": 1,
       "Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs": 1,
       "Endangered Animals Part-1 #animalshorts #kidsshorts #kidslearning #elephant #animals #kidsfun #funny": 1,
-      "Iam a horse  #kidslearning #animal  #horse  #farmanimals": 1
+      "Iam a horse  #kidslearning #animal  #horse  #farmanimals": 1,
+      "Monster Song | Nursery Rhymes & Kids Songs | Happy Tots #nurseryrhymes #childrensongs": 1
     },
     "by_format": {
-      "video": 7
+      "video": 8
     },
     "by_series": {
-      "standalone": 7
+      "standalone": 8
     },
     "top_performing_series": "standalone",
     "top_performing_topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs"
@@ -381,6 +427,6 @@
     "benchmark_engagement": 0,
     "updated_at": null
   },
-  "last_upgraded": "2026-04-21T05:59:08.797276",
-  "last_reviewed": "2026-04-21T05:59:08.797834"
+  "last_upgraded": "2026-04-23T06:01:10.706074",
+  "last_reviewed": "2026-04-23T06:01:10.706710"
 }

@@ -4,7 +4,7 @@
     "likes": 0,
     "comments": 0,
     "score": 0.0,
-    "fetched_at": "2026-04-21T05:59:08.793983",
+    "fetched_at": "2026-04-23T06:01:10.702595",
     "platform": "youtube"
   },
   "8G7jQP2o6bY": {
@@ -12,23 +12,23 @@
     "likes": 0,
     "comments": 0,
     "score": 0.01,
-    "fetched_at": "2026-04-21T05:59:08.794025",
+    "fetched_at": "2026-04-23T06:01:10.702639",
     "platform": "youtube"
   },
   "SZbKA5uvqGA": {
-    "yt_views": 119,
-    "likes": 0,
+    "yt_views": 121,
+    "likes": 1,
     "comments": 0,
-    "score": 0.12,
-    "fetched_at": "2026-04-21T05:59:08.794039",
+    "score": 1.12,
+    "fetched_at": "2026-04-23T06:01:10.702657",
     "platform": "youtube"
   },
   "o6f6UmVroSg": {
-    "yt_views": 35,
+    "yt_views": 59,
     "likes": 0,
     "comments": 0,
-    "score": 0.04,
-    "fetched_at": "2026-04-21T05:59:08.794048",
+    "score": 0.06,
+    "fetched_at": "2026-04-23T06:01:10.702670",
     "platform": "youtube"
   }
 }

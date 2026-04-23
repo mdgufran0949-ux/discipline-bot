@@ -83,11 +83,23 @@
       "duration_seconds": 45.92,
       "upload_timestamp": "2026-04-22T06:06:05.441028",
       "title": "Preschool Cartoon: Learn Horses Count Hooves Sleep Standing! #Shorts"
+    },
+    {
+      "video_id": "DILgswxnv8Q",
+      "yt_video_id": "DILgswxnv8Q",
+      "url": "https://youtube.com/shorts/DILgswxnv8Q",
+      "topic": "Monster Song | Nursery Rhymes & Kids Songs | Happy Tots #nurseryrhymes #childrensongs",
+      "category": "stories",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 35.0,
+      "upload_timestamp": "2026-04-23T06:07:38.943141",
+      "title": "Nursery Rhymes for Kids #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 7,
+    "total_uploaded": 8,
     "total_safety_fails": 0
   }
 }
