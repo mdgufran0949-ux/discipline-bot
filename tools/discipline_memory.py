@@ -119,8 +119,8 @@ def get_content_weights() -> dict:
     # Default weights — aligned with what actually wins in the niche
     # (statement dominates real top posts; pain_driven / command rarely win)
     weights = {
-        "format": {"reel": 0.50, "image": 0.25, "carousel": 0.25},
-        "design_style": {"dark": 0.50, "minimal": 0.20, "bold": 0.20, "luxury": 0.10},
+        "format": {"reel": 1.0, "image": 0.0, "carousel": 0.0},
+        "design_style": {"dark": 0.25, "minimal": 0.25, "bold": 0.25, "luxury": 0.25},
         "quote_type": {
             "statement":   0.40,
             "contrast":    0.20,

@@ -215,7 +215,16 @@ def upgrade_config(account: str, scored_posts: list) -> dict:
                     "carousel": round((current.get("carousel", 0.25) + carousel_pct) / 2, 3),
                 }
                 tot = sum(blended.values()) or 1
-                cfg["content_format_mix"] = {k: round(v / tot, 3) for k, v in blended.items()}
+                blended = {k: round(v / tot, 3) for k, v in blended.items()}
+                # Floor: keep reel >= 0.80 — reel-first is the deliberate strategy
+                if blended.get("reel", 0) < 0.80:
+                    deficit = 0.80 - blended["reel"]
+                    blended["reel"] = 0.40
+                    # Deduct deficit proportionally from image and carousel
+                    non_reel_total = blended.get("image", 0) + blended.get("carousel", 0) or 1
+                    for k in ("image", "carousel"):
+                        blended[k] = round(blended[k] - deficit * blended[k] / non_reel_total, 3)
+                cfg["content_format_mix"] = blended
         except Exception as e:
             print(f"  [WARN] Competitor media-type blend failed: {e}", flush=True)
 
@@ -830,7 +839,7 @@ def run_review(account: str = "disciplinefuel", force: bool = False) -> dict:
     ch  = report.get("changes_applied", {})
     ha  = report.get("hook_adoption", {})
     fmt = ch.get("format_mix_after", {})
-    print(f"\n{'─'*55}", flush=True)
+    print(f"\n{'-'*55}", flush=True)
     img_pct = round(fmt.get("image", 0) * 100)
     car_pct = round(fmt.get("carousel", 0) * 100)
     fmt_delta = ch.get("format_mix_delta", {})
@@ -857,8 +866,8 @@ def run_review(account: str = "disciplinefuel", force: bool = False) -> dict:
     if ha.get("total", 0) > 0:
         print(f"[REPORT] Hook adoption: {ha['adopted']}/{ha['total']} recent posts used trending words ({ha['rate_pct']}%)", flush=True)
 
-    print(f"[REPORT] Full report → REPORT.md", flush=True)
-    print(f"{'─'*55}\n", flush=True)
+    print(f"[REPORT] Full report -> REPORT.md", flush=True)
+    print(f"{'-'*55}\n", flush=True)
 
     return report
 

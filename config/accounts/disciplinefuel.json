@@ -54,9 +54,9 @@
   ],
   "posts_per_day": 9,
   "content_format_mix": {
-    "reel": 0.5,
-    "image": 0.25,
-    "carousel": 0.25
+    "reel": 1.0,
+    "image": 0.0,
+    "carousel": 0.0
   },
   "design_styles": [
     "dark",
@@ -65,10 +65,10 @@
     "luxury"
   ],
   "design_style_weights": [
-    0.5,
-    0.2,
-    0.2,
-    0.1
+    0.25,
+    0.25,
+    0.25,
+    0.25
   ],
   "posting_schedule": [
     "06:00",
@@ -82,16 +82,16 @@
     "22:00"
   ],
   "series_counters": {
-    "discipline_rule": 3,
-    "wake_up_call": 2,
-    "day_becoming_better": 2
+    "discipline_rule": 6,
+    "wake_up_call": 5,
+    "day_becoming_better": 4
   },
   "series_rotation": [
     "discipline_rule",
     "wake_up_call",
     "day_becoming_better"
   ],
-  "series_index": 0,
+  "series_index": 2,
   "content_topics": [
     "you keep choosing comfort over growth",
     "procrastination is self-betrayal",
@@ -124,7 +124,7 @@
     "fear is just comfort in disguise",
     "wake up before your competition does"
   ],
-  "topic_index": 1,
+  "topic_index": 9,
   "pipeline": {
     "trends": "tools/fetch_discipline_trends.py",
     "memory": "tools/discipline_memory.py",
@@ -177,7 +177,14 @@
     "brand_kit_id": ""
   },
   "hashtag_last_updated": "",
-  "content_preferences": {},
+  "content_preferences": {
+    "best_quote_types": [],
+    "best_hooks": [],
+    "avoid_phrases": [
+      "The journey of discipline is o"
+    ],
+    "avoid_topics": []
+  },
   "target_audience": "16-30 procrastination discipline grind",
   "performance_log": ".tmp/disciplinefuel/uploaded_log.json",
   "token_refreshed_at": "2026-04-15T07:04:02.327317"
