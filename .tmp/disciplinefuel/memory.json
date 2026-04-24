@@ -146,6 +146,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_7_20260424_154759",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 7,
+      "topic": "how much does david goggins sleeps",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the bridge between goals and achievements; it thrives in the stillness of the night when others are at rest.",
+      "posted_at": "2026-04-24T15:47:59.635061",
+      "ig_media_id": "17854576947645884",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_9_20260424_155208",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 9,
+      "topic": "never be an option",
+      "hook_keyword": "priority",
+      "selected_quote": "To be anything less than a priority in your own life is to settle for mediocrity. Embrace the discipline it takes to define your worth in every moment.",
+      "posted_at": "2026-04-24T15:52:08.289841",
+      "ig_media_id": "18187254370374445",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_8_20260424_155616",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 8,
+      "topic": "how to develop self discipline",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the quiet commitment to our goals, a steadfast promise to ourselves that shapes the life we desire. Every deliberate choice, made in silence, builds the foundation of who we are becoming.",
+      "posted_at": "2026-04-24T15:56:16.099528",
+      "ig_media_id": "17924369403297917",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -155,25 +218,25 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 7,
+    "total_posts": 10,
     "by_quote_type": {
       "question": 1,
-      "statement": 6
+      "statement": 9
     },
     "by_design_style": {
-      "minimal": 1,
+      "minimal": 2,
       "dark": 1,
-      "luxury": 3,
+      "luxury": 5,
       "bold": 2
     },
     "by_format": {
       "image": 1,
-      "reel": 6
+      "reel": 9
     },
     "by_series": {
-      "discipline_rule": 3,
-      "day_becoming_better": 2,
-      "wake_up_call": 2
+      "discipline_rule": 4,
+      "day_becoming_better": 3,
+      "wake_up_call": 3
     },
     "top_performing_series": null
   },

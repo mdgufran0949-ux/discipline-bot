@@ -118,6 +118,57 @@
       "predicted": "high",
       "posted_at": "2026-04-24T09:26:57.064337",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_7_20260424_154759",
+      "ig_media_id": "17854576947645884",
+      "permalink": "https://www.instagram.com/reel/DXhRzWqCAco/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 7,
+      "content_series": "Day 7 of Becoming Better",
+      "topic": "how much does david goggins sleeps",
+      "selected_quote": "Discipline is the bridge between goals and achievements; it thrives in the stillness of the night when others are at rest.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-24T15:47:59.635061",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_9_20260424_155208",
+      "ig_media_id": "18187254370374445",
+      "permalink": "https://www.instagram.com/reel/DXhSSRakXKO/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 9,
+      "content_series": "Discipline Rule #9",
+      "topic": "never be an option",
+      "selected_quote": "To be anything less than a priority in your own life is to settle for mediocrity. Embrace the discipline it takes to define your worth in every moment.",
+      "quote_type": "statement",
+      "hook_keyword": "priority",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-24T15:52:08.289841",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_8_20260424_155616",
+      "ig_media_id": "17924369403297917",
+      "permalink": "https://www.instagram.com/reel/DXhSwlvjGK3/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 8,
+      "content_series": "Wake Up Call #8",
+      "topic": "how to develop self discipline",
+      "selected_quote": "Discipline is the quiet commitment to our goals, a steadfast promise to ourselves that shapes the life we desire. Every deliberate choice, made in silence, builds the foundation of who we are becoming.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-24T15:56:16.099528",
+      "dry_run": false
     }
   ]
 }
