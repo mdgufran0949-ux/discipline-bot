@@ -95,11 +95,23 @@
       "duration_seconds": 35.0,
       "upload_timestamp": "2026-04-23T06:07:38.943141",
       "title": "Nursery Rhymes for Kids #Shorts"
+    },
+    {
+      "video_id": "N4WI97ps8lI",
+      "yt_video_id": "N4WI97ps8lI",
+      "url": "https://youtube.com/shorts/N4WI97ps8lI",
+      "topic": "Sharing is caring | Nursery Rhymes & Kids Songs | BachaBola #babyshorts #babygirl",
+      "category": "stories",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 38.96,
+      "upload_timestamp": "2026-04-24T06:11:50.713331",
+      "title": "Nursery Rhymes for Kids #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 8,
+    "total_uploaded": 9,
     "total_safety_fails": 0
   }
 }

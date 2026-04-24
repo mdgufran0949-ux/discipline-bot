@@ -43,7 +43,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.01,
-        "fetched_at": "2026-04-23T06:01:10.703492"
+        "fetched_at": "2026-04-24T06:04:04.632763"
       }
     },
     {
@@ -87,7 +87,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 1.12,
-        "fetched_at": "2026-04-23T06:01:10.703500"
+        "fetched_at": "2026-04-24T06:04:04.632771"
       }
     },
     {
@@ -131,7 +131,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.06,
-        "fetched_at": "2026-04-23T06:01:10.703505"
+        "fetched_at": "2026-04-24T06:04:04.632775"
       }
     },
     {
@@ -161,7 +161,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.0,
-        "fetched_at": "2026-04-23T06:01:10.703511"
+        "fetched_at": "2026-04-24T06:04:04.632781"
       }
     },
     {
@@ -341,6 +341,50 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "post_1777011110",
+      "ig_media_id": "",
+      "yt_video_id": "N4WI97ps8lI",
+      "topic": "Sharing is caring | Nursery Rhymes & Kids Songs | BachaBola #babyshorts #babygirl",
+      "hook": "Three, two, one, fun has just begun, learning nursery rhymes",
+      "hook_type": "fact",
+      "hook_keyword": "",
+      "quote_type": "",
+      "design_style": "",
+      "format": "video",
+      "series": "standalone",
+      "series_number": 0,
+      "selected_quote": "",
+      "caption": "Join BISCUIT and ZARA as they learn and sing nursery rhymes, teaching kids the joy of music and rhyme. In this fun and engaging video, little ones will learn Twinkle, Twinkle, Little Star and other classic rhymes. With colorful animation and catchy tunes, this video is perfect for kids who love to sing and dance.",
+      "hashtags": [
+        "#nurseryrhymes",
+        "#kidslearning",
+        "#educationalvideo",
+        "#preschool",
+        "#biscuitandzara",
+        "#musicforkids"
+      ],
+      "scene_prompts": [
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT holding a big number sign, countdown bubbles floating, ZARA cheering with pompoms, bright confetti background",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. ZARA explaining enthusiastically, BISCUIT listening with big eyes, scene 2 action",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT jumping with excitement, ZARA smiling, scene 3 action",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA, visual demonstration of the key fact",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA celebrating, bright happy scene",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA waving goodbye, confetti, stars, big smiles, colorful background"
+      ],
+      "posted_at": "2026-04-24T06:11:50.713856",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "yt_views": 0,
+        "yt_watchtime_min": 0,
+        "yt_ctr": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -391,10 +435,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 8,
+    "total_posts": 9,
     "by_quote_type": {},
     "by_hook_type": {
-      "fact": 7
+      "fact": 8
     },
     "by_topic": {
       "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs": 2,
@@ -403,13 +447,14 @@
       "Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs": 1,
       "Endangered Animals Part-1 #animalshorts #kidsshorts #kidslearning #elephant #animals #kidsfun #funny": 1,
       "Iam a horse  #kidslearning #animal  #horse  #farmanimals": 1,
-      "Monster Song | Nursery Rhymes & Kids Songs | Happy Tots #nurseryrhymes #childrensongs": 1
+      "Monster Song | Nursery Rhymes & Kids Songs | Happy Tots #nurseryrhymes #childrensongs": 1,
+      "Sharing is caring | Nursery Rhymes & Kids Songs | BachaBola #babyshorts #babygirl": 1
     },
     "by_format": {
-      "video": 8
+      "video": 9
     },
     "by_series": {
-      "standalone": 8
+      "standalone": 9
     },
     "top_performing_series": "standalone",
     "top_performing_topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs"
@@ -427,6 +472,6 @@
     "benchmark_engagement": 0,
     "updated_at": null
   },
-  "last_upgraded": "2026-04-23T06:01:10.706074",
-  "last_reviewed": "2026-04-23T06:01:10.706710"
+  "last_upgraded": "2026-04-24T06:04:04.635744",
+  "last_reviewed": "2026-04-24T06:04:04.636503"
 }
