@@ -16,6 +16,57 @@
       "predicted": "high",
       "posted_at": "2026-04-05T15:58:37.002471",
       "dry_run": true
+    },
+    {
+      "id": "day_becoming_better_5_20260424_035957",
+      "ig_media_id": "18587699293008708",
+      "permalink": "https://www.instagram.com/reel/DXgAyBWEQii/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 5,
+      "content_series": "Day 5 of Becoming Better",
+      "topic": "how much does david goggins sleeps",
+      "selected_quote": "In the quiet moments of night, rest becomes more than just sleep; it is a crucial part of the journey. Every discipline thrives on balance, and we must honor both effort and recovery as essential elements of life.",
+      "quote_type": "statement",
+      "hook_keyword": "rest",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-24T03:59:57.193020",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_7_20260424_040407",
+      "ig_media_id": "18099874684974397",
+      "permalink": "https://www.instagram.com/reel/DXgBRG7oB1_/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 7,
+      "content_series": "Discipline Rule #7",
+      "topic": "never be an option",
+      "selected_quote": "To be more than an option in life, we must cultivate the discipline to prioritize our values and actions.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-24T04:04:07.941929",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_6_20260424_040826",
+      "ig_media_id": "18077634908444906",
+      "permalink": "https://www.instagram.com/reel/DXgBxDYDqGh/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 6,
+      "content_series": "Wake Up Call #6",
+      "topic": "how to develop self discipline",
+      "selected_quote": "Discipline is the bridge between dreams and reality, built through every small choice we make each day.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-04-24T04:08:26.107613",
+      "dry_run": false
     }
   ]
 }
