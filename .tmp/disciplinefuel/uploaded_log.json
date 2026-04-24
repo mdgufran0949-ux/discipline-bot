@@ -67,6 +67,57 @@
       "predicted": "high",
       "posted_at": "2026-04-24T04:08:26.107613",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_6_20260424_091825",
+      "ig_media_id": "18579680644055831",
+      "permalink": "https://www.instagram.com/reel/DXglOygCQ_L/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 6,
+      "content_series": "Day 6 of Becoming Better",
+      "topic": "how much does david goggins sleeps",
+      "selected_quote": "In the quiet hours of the night, we create the foundation for our dreams. The life we build reflects the choices we make during our moments of stillness.",
+      "quote_type": "statement",
+      "hook_keyword": "quiet",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-04-24T09:18:25.645073",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_8_20260424_092237",
+      "ig_media_id": "17888313477470894",
+      "permalink": "https://www.instagram.com/reel/DXgltemCJqU/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 8,
+      "content_series": "Discipline Rule #8",
+      "topic": "never be an option",
+      "selected_quote": "In life, we must make a choice: never to be an option for those who do not honor our journey.",
+      "quote_type": "statement",
+      "hook_keyword": "life",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-24T09:22:37.749380",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_7_20260424_092657",
+      "ig_media_id": "18094719752146299",
+      "permalink": "https://www.instagram.com/reel/DXgmMzAoIjn/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 7,
+      "content_series": "Wake Up Call #7",
+      "topic": "how to develop self discipline",
+      "selected_quote": "Discipline is the art of keeping promises to ourselves, transforming every small action into a cornerstone of a better life.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-24T09:26:57.064337",
+      "dry_run": false
     }
   ]
 }

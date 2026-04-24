@@ -83,6 +83,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_6_20260424_091825",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 6,
+      "topic": "how much does david goggins sleeps",
+      "hook_keyword": "quiet",
+      "selected_quote": "In the quiet hours of the night, we create the foundation for our dreams. The life we build reflects the choices we make during our moments of stillness.",
+      "posted_at": "2026-04-24T09:18:25.645073",
+      "ig_media_id": "18579680644055831",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_8_20260424_092237",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 8,
+      "topic": "never be an option",
+      "hook_keyword": "life",
+      "selected_quote": "In life, we must make a choice: never to be an option for those who do not honor our journey.",
+      "posted_at": "2026-04-24T09:22:37.749380",
+      "ig_media_id": "17888313477470894",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_7_20260424_092657",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 7,
+      "topic": "how to develop self discipline",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the art of keeping promises to ourselves, transforming every small action into a cornerstone of a better life.",
+      "posted_at": "2026-04-24T09:26:57.064337",
+      "ig_media_id": "18094719752146299",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -92,25 +155,25 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 4,
+    "total_posts": 7,
     "by_quote_type": {
       "question": 1,
-      "statement": 3
+      "statement": 6
     },
     "by_design_style": {
       "minimal": 1,
       "dark": 1,
-      "luxury": 1,
-      "bold": 1
+      "luxury": 3,
+      "bold": 2
     },
     "by_format": {
       "image": 1,
-      "reel": 3
+      "reel": 6
     },
     "by_series": {
-      "discipline_rule": 2,
-      "day_becoming_better": 1,
-      "wake_up_call": 1
+      "discipline_rule": 3,
+      "day_becoming_better": 2,
+      "wake_up_call": 2
     },
     "top_performing_series": null
   },
