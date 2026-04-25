@@ -38,8 +38,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-25T08:32:27.178586"
       }
     },
     {
@@ -59,8 +59,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-25T08:32:27.963091"
       }
     },
     {
@@ -80,8 +80,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-25T08:32:28.821969"
       }
     },
     {
@@ -101,8 +101,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-25T08:32:29.668014"
       }
     },
     {
@@ -122,8 +122,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-25T08:32:30.474883"
       }
     },
     {
@@ -143,8 +143,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-25T08:32:31.273931"
       }
     },
     {
@@ -163,9 +163,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "likes": 1,
+        "score": 1,
+        "fetched_at": "2026-04-25T08:32:32.072494"
       }
     },
     {
@@ -185,8 +185,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-25T08:32:32.916726"
       }
     },
     {
@@ -206,8 +206,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-25T08:32:33.590713"
       }
     },
     {
@@ -227,8 +227,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-25T08:32:34.371473"
       }
     },
     {
@@ -248,8 +248,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-25T08:32:35.281012"
       }
     },
     {
@@ -269,6 +269,69 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
+        "score": 0,
+        "fetched_at": "2026-04-25T08:32:36.046715"
+      }
+    },
+    {
+      "id": "day_becoming_better_9_20260425_083420",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 9,
+      "topic": "a real man has no hobbies",
+      "hook_keyword": "purpose",
+      "selected_quote": "A real man immerses himself in purpose.",
+      "posted_at": "2026-04-25T08:34:20.137379",
+      "ig_media_id": "18102256195954897",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_11_20260425_083827",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 11,
+      "topic": "it's gonna be alright",
+      "hook_keyword": "calm",
+      "selected_quote": "Every storm eventually passes, revealing the calm beneath. Trust the journey and know that brighter days are ahead.",
+      "posted_at": "2026-04-25T08:38:27.313077",
+      "ig_media_id": "18119938441571145",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_10_20260425_084238",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 10,
+      "topic": "wake up early",
+      "hook_keyword": "discipline",
+      "selected_quote": "Awakening early plants seeds of discipline.",
+      "posted_at": "2026-04-25T08:42:38.516433",
+      "ig_media_id": "18087259763198290",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
         "score": null,
         "fetched_at": null
       }
@@ -276,81 +339,205 @@
   ],
   "patterns": {
     "strong": [],
-    "weak": [],
-    "avoid_topics": [],
+    "weak": [
+      {
+        "quote_type": "statement",
+        "design_style": "dark",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "how much does david goggins sleeps",
+        "hook_keyword": "rest",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "luxury",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "never be an option",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "bold",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "how to develop self discipline",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "bold",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "how much does david goggins sleeps",
+        "hook_keyword": "quiet",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "luxury",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "never be an option",
+        "hook_keyword": "life",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "luxury",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "how to develop self discipline",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "luxury",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "how much does david goggins sleeps",
+        "hook_keyword": "discipline",
+        "score": 1
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "luxury",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "never be an option",
+        "hook_keyword": "priority",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "how to develop self discipline",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "luxury",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "how much does david goggins sleeps",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "never be an option",
+        "hook_keyword": "options",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "how to develop self discipline",
+        "hook_keyword": "discipline",
+        "score": 0
+      }
+    ],
+    "avoid_topics": [
+      "how much does david goggins sleeps",
+      "never be an option",
+      "how to develop self discipline"
+    ],
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 13,
+    "total_posts": 16,
     "by_quote_type": {
       "question": 1,
-      "statement": 12
+      "statement": 15
     },
     "by_design_style": {
       "minimal": 4,
-      "dark": 1,
+      "dark": 2,
       "luxury": 6,
-      "bold": 2
+      "bold": 4
     },
     "by_format": {
       "image": 1,
-      "reel": 12
+      "reel": 15
     },
     "by_series": {
-      "discipline_rule": 5,
-      "day_becoming_better": 4,
-      "wake_up_call": 4
+      "discipline_rule": 6,
+      "day_becoming_better": 5,
+      "wake_up_call": 5
     },
-    "top_performing_series": null
+    "top_performing_series": "day_becoming_better"
   },
   "prompt_hints": {
     "best_hooks": [],
     "best_quote_types": [],
-    "avoid_phrases": []
+    "avoid_phrases": [
+      "In the quiet moments of night,",
+      "To be more than an option in l",
+      "Discipline is the bridge betwe",
+      "In the quiet hours of the nigh",
+      "In life, we must make a choice",
+      "Discipline is the art of keepi",
+      "Discipline is the bridge betwe",
+      "To be anything less than a pri",
+      "Discipline is the quiet commit",
+      "Discipline isn't measured by t"
+    ]
   },
-  "last_upgraded": "2026-04-24T03:58:30.804351",
+  "last_upgraded": "2026-04-25T08:32:36.051496",
   "competitor_hints": {
     "top_hooks": [
-      "Save this post as a guide and share it with a friend \u2705",
-      "We must all suffer from one of two pains:",
       "The body achieves what the mind believes\ud83c\udfcb\ufe0f\u200d\u2642\ufe0f",
       "Success isn\u2019t about the applause you get when you\u2019re winning.",
+      "Visual Weekend Roundup illustrated by me \ud83d\ude0a",
+      "Follow \ud83d\udc49 we.think.deeply we.think.deeply we.think.deeply",
+      "Follow world._.motivation\u00a0 for more _____________",
       "Most people will only ever see the final version.",
-      "If you keep ignoring the signs\u2026",
-      "The older I get, the more I realize happiness isn\u2019t loud or complicated.",
-      "The struggles you\u2019re facing right now aren\u2019t punishments\u2026 they\u2019re lessons.",
-      "Drop two \u2764 if you needed to see this!",
-      "Success isn\u2019t built overnight \u2014 and Virat Kohli proves it better than anyone."
+      "Success isn\u2019t built overnight \u2014 and Virat Kohli proves it better than anyone.",
+      "Comment \u201cSMARTER\u201d to subscribe to my free Visual IDEAs newsletter.",
+      "Thomas Shelby vibes only.",
+      "\u2063No one else has to get your vision because God did not give your vision to anyone else BUT YOU.\u2800"
     ],
     "power_words": [
-      "life",
-      "every",
-      "don",
-      "keep",
-      "post",
       "follow",
-      "discipline",
-      "signs",
-      "never",
       "share",
-      "save",
-      "turn",
-      "notifications",
-      "earning",
-      "tip",
-      "regret",
-      "everything",
-      "stay",
-      "people",
-      "see"
+      "every",
+      "visual",
+      "weekend",
+      "roundup",
+      "illustrated",
+      "favorite",
+      "think",
+      "don",
+      "deeply",
+      "words",
+      "world",
+      "motivation",
+      "life",
+      "men",
+      "success",
+      "moment",
+      "even",
+      "built"
     ],
     "winning_structures": [
-      "command",
-      "pain_driven",
       "statement",
-      "contrast"
+      "contrast",
+      "question",
+      "pain_driven"
     ],
-    "benchmark_engagement": 14797.0,
-    "updated_at": "2026-04-24T03:58:30.567989"
+    "benchmark_engagement": 8579.0,
+    "updated_at": "2026-04-25T08:32:26.353038"
   }
 }

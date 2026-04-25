@@ -220,6 +220,57 @@
       "predicted": "high",
       "posted_at": "2026-04-25T03:50:33.398865",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_9_20260425_083420",
+      "ig_media_id": "18102256195954897",
+      "permalink": "https://www.instagram.com/reel/DXjE_5lkvkj/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 9,
+      "content_series": "Day 9 of Becoming Better",
+      "topic": "a real man has no hobbies",
+      "selected_quote": "A real man immerses himself in purpose.",
+      "quote_type": "statement",
+      "hook_keyword": "purpose",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-04-25T08:34:20.137379",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_11_20260425_083827",
+      "ig_media_id": "18119938441571145",
+      "permalink": "https://www.instagram.com/reel/DXjFc84j_5Z/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 11,
+      "content_series": "Discipline Rule #11",
+      "topic": "it's gonna be alright",
+      "selected_quote": "Every storm eventually passes, revealing the calm beneath. Trust the journey and know that brighter days are ahead.",
+      "quote_type": "statement",
+      "hook_keyword": "calm",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-25T08:38:27.313077",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_10_20260425_084238",
+      "ig_media_id": "18087259763198290",
+      "permalink": "https://www.instagram.com/reel/DXjF7WJDra6/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 10,
+      "content_series": "Wake Up Call #10",
+      "topic": "wake up early",
+      "selected_quote": "Awakening early plants seeds of discipline.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-04-25T08:42:38.516433",
+      "dry_run": false
     }
   ]
 }
