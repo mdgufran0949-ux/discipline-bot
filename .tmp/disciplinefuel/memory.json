@@ -335,6 +335,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_10_20260425_151014",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 10,
+      "topic": "a real man has no hobbies",
+      "hook_keyword": "quiet",
+      "selected_quote": "A real man embraces the quiet work, letting his actions speak louder than any hobby.",
+      "posted_at": "2026-04-25T15:10:14.424435",
+      "ig_media_id": "17959802295116679",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_12_20260425_151421",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 12,
+      "topic": "it's gonna be alright",
+      "hook_keyword": "growth",
+      "selected_quote": "In the quiet moments, when doubt lingers, remember that every challenge is a step towards strength. It's not the chaos that defines us, but the calm resolve we cultivate in its midst.",
+      "posted_at": "2026-04-25T15:14:21.399459",
+      "ig_media_id": "18011236745698831",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_11_20260425_151918",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 11,
+      "topic": "wake up early",
+      "hook_keyword": "growth",
+      "selected_quote": "Every morning brings a new chance to shape our day with intention and purpose. Those who rise early cultivate a quiet strength, laying the foundation for the growth they seek throughout their journey.",
+      "posted_at": "2026-04-25T15:19:18.598802",
+      "ig_media_id": "17886791760512962",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -457,25 +520,25 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 16,
+    "total_posts": 19,
     "by_quote_type": {
       "question": 1,
-      "statement": 15
+      "statement": 18
     },
     "by_design_style": {
-      "minimal": 4,
+      "minimal": 5,
       "dark": 2,
-      "luxury": 6,
+      "luxury": 8,
       "bold": 4
     },
     "by_format": {
       "image": 1,
-      "reel": 15
+      "reel": 18
     },
     "by_series": {
-      "discipline_rule": 6,
-      "day_becoming_better": 5,
-      "wake_up_call": 5
+      "discipline_rule": 7,
+      "day_becoming_better": 6,
+      "wake_up_call": 6
     },
     "top_performing_series": "day_becoming_better"
   },
