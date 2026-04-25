@@ -169,6 +169,57 @@
       "predicted": "high",
       "posted_at": "2026-04-24T15:56:16.099528",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_8_20260425_034144",
+      "ig_media_id": "18431149102137944",
+      "permalink": "https://www.instagram.com/reel/DXijgfuFD26/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 8,
+      "content_series": "Day 8 of Becoming Better",
+      "topic": "how much does david goggins sleeps",
+      "selected_quote": "Discipline isn't measured by the hours of sleep sacrificed, but by the commitment to the journey ahead. Each moment spent in silence builds the foundation for a life of purpose.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-25T03:41:44.061984",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_10_20260425_034553",
+      "ig_media_id": "18114010282764175",
+      "permalink": "https://www.instagram.com/reel/DXij99PAe8f/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 10,
+      "content_series": "Discipline Rule #10",
+      "topic": "never be an option",
+      "selected_quote": "In life, never settle to be an option.",
+      "quote_type": "statement",
+      "hook_keyword": "options",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-25T03:45:53.412022",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_9_20260425_035033",
+      "ig_media_id": "18109818175675517",
+      "permalink": "https://www.instagram.com/reel/DXikg3FAlgz/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 9,
+      "content_series": "Wake Up Call #9",
+      "topic": "how to develop self discipline",
+      "selected_quote": "Discipline is the quiet commitment we make to ourselves, a journey where every small step lays the foundation for a life well-lived.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-25T03:50:33.398865",
+      "dry_run": false
     }
   ]
 }
