@@ -107,11 +107,23 @@
       "duration_seconds": 38.96,
       "upload_timestamp": "2026-04-24T06:11:50.713331",
       "title": "Nursery Rhymes for Kids #Shorts"
+    },
+    {
+      "video_id": "0Cj3z8Ag2is",
+      "yt_video_id": "0Cj3z8Ag2is",
+      "url": "https://youtube.com/shorts/0Cj3z8Ag2is",
+      "topic": "The Animal That Never Blinks!#kidseducationalvideospreschool #animalsforchildren",
+      "category": "animals",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 45.86,
+      "upload_timestamp": "2026-04-25T05:56:35.719924",
+      "title": "Dolphins Never Blink! Fun Ocean Fact Animation for Kids #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 9,
+    "total_uploaded": 10,
     "total_safety_fails": 0
   }
 }

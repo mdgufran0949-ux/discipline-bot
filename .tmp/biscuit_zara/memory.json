@@ -385,6 +385,50 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "post_1777096595",
+      "ig_media_id": "",
+      "yt_video_id": "0Cj3z8Ag2is",
+      "topic": "The Animal That Never Blinks!#kidseducationalvideospreschool #animalsforchildren",
+      "hook": "Come on an ocean adventure, let's meet dolphins that never b",
+      "hook_type": "fact",
+      "hook_keyword": "",
+      "quote_type": "",
+      "design_style": "",
+      "format": "video",
+      "series": "standalone",
+      "series_number": 0,
+      "selected_quote": "",
+      "caption": "Join Biscuit the bear cub and Zara the wise owl as they dive into the ocean and discover why dolphins never blink! Kids will giggle and learn about magical see-through eyelids.",
+      "hashtags": [
+        "#adventure",
+        "#kidslearning",
+        "#educationalvideo",
+        "#preschool",
+        "#biscuitandzara",
+        "#Shorts"
+      ],
+      "scene_prompts": [
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA wearing snorkels and flippers, standing on a rainbow pier above sparkling blue water",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. ZARA pointing to a cartoon dolphin drifting sideways, one eye wide open, BISCUIT clapping in wonder",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT bouncing on the pier, splashing water, eyes sparkling with curiosity while dolphins circle below",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. Close-up of a dolphin eye showing the clear membrane gliding, BISCUIT and ZARA mimicking goggles over eyes",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA high-five under a shower of golden bubbles, dolphins leaping happily behind them",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA waving on the pier, dolphins waving fins, confetti bubbles, sunset rainbow sky"
+      ],
+      "posted_at": "2026-04-25T05:56:35.720467",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "yt_views": 0,
+        "yt_watchtime_min": 0,
+        "yt_ctr": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -435,10 +479,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 9,
+    "total_posts": 10,
     "by_quote_type": {},
     "by_hook_type": {
-      "fact": 8
+      "fact": 9
     },
     "by_topic": {
       "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs": 2,
@@ -448,13 +492,14 @@
       "Endangered Animals Part-1 #animalshorts #kidsshorts #kidslearning #elephant #animals #kidsfun #funny": 1,
       "Iam a horse  #kidslearning #animal  #horse  #farmanimals": 1,
       "Monster Song | Nursery Rhymes & Kids Songs | Happy Tots #nurseryrhymes #childrensongs": 1,
-      "Sharing is caring | Nursery Rhymes & Kids Songs | BachaBola #babyshorts #babygirl": 1
+      "Sharing is caring | Nursery Rhymes & Kids Songs | BachaBola #babyshorts #babygirl": 1,
+      "The Animal That Never Blinks!#kidseducationalvideospreschool #animalsforchildren": 1
     },
     "by_format": {
-      "video": 9
+      "video": 10
     },
     "by_series": {
-      "standalone": 9
+      "standalone": 10
     },
     "top_performing_series": "standalone",
     "top_performing_topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs"
