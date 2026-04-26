@@ -322,6 +322,57 @@
       "predicted": "high",
       "posted_at": "2026-04-25T15:19:18.598802",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_11_20260426_040429",
+      "ig_media_id": "17999789006750809",
+      "permalink": "https://www.instagram.com/reel/DXlK5LWEUMB/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 11,
+      "content_series": "Day 11 of Becoming Better",
+      "topic": "a real man has no hobbies",
+      "selected_quote": "A real man understands that true strength isn\u2019t found in hobbies but in the commitment to growth. Every choice we make is a reflection of our values, shaping the paths we walk.",
+      "quote_type": "statement",
+      "hook_keyword": "growth",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-04-26T04:04:29.436571",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_13_20260426_040834",
+      "ig_media_id": "18078520802429298",
+      "permalink": "https://www.instagram.com/reel/DXlLXKHEw_W/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 13,
+      "content_series": "Discipline Rule #13",
+      "topic": "it's gonna be alright",
+      "selected_quote": "Every challenge is a stepping stone to growth.",
+      "quote_type": "statement",
+      "hook_keyword": "growth",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-04-26T04:08:34.100839",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_12_20260426_041332",
+      "ig_media_id": "18408867754180556",
+      "permalink": "https://www.instagram.com/reel/DXlL8gXCVJ3/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 12,
+      "content_series": "Wake Up Call #12",
+      "topic": "wake up early",
+      "selected_quote": "Every dawn offers a chance to shape our day. Waking early is a gentle reminder of the quiet strength within.",
+      "quote_type": "statement",
+      "hook_keyword": "quiet",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-26T04:13:32.919965",
+      "dry_run": false
     }
   ]
 }

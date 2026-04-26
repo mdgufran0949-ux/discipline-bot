@@ -398,6 +398,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_11_20260426_040429",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 11,
+      "topic": "a real man has no hobbies",
+      "hook_keyword": "growth",
+      "selected_quote": "A real man understands that true strength isn\u2019t found in hobbies but in the commitment to growth. Every choice we make is a reflection of our values, shaping the paths we walk.",
+      "posted_at": "2026-04-26T04:04:29.436571",
+      "ig_media_id": "17999789006750809",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_13_20260426_040834",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 13,
+      "topic": "it's gonna be alright",
+      "hook_keyword": "growth",
+      "selected_quote": "Every challenge is a stepping stone to growth.",
+      "posted_at": "2026-04-26T04:08:34.100839",
+      "ig_media_id": "18078520802429298",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_12_20260426_041332",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 12,
+      "topic": "wake up early",
+      "hook_keyword": "quiet",
+      "selected_quote": "Every dawn offers a chance to shape our day. Waking early is a gentle reminder of the quiet strength within.",
+      "posted_at": "2026-04-26T04:13:32.919965",
+      "ig_media_id": "18408867754180556",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -520,25 +583,25 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 19,
+    "total_posts": 22,
     "by_quote_type": {
       "question": 1,
-      "statement": 18
+      "statement": 21
     },
     "by_design_style": {
       "minimal": 5,
-      "dark": 2,
+      "dark": 3,
       "luxury": 8,
-      "bold": 4
+      "bold": 6
     },
     "by_format": {
       "image": 1,
-      "reel": 18
+      "reel": 21
     },
     "by_series": {
-      "discipline_rule": 7,
-      "day_becoming_better": 6,
-      "wake_up_call": 6
+      "discipline_rule": 8,
+      "day_becoming_better": 7,
+      "wake_up_call": 7
     },
     "top_performing_series": "day_becoming_better"
   },
