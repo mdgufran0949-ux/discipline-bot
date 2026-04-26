@@ -1,5 +1,5 @@
 # DisciplineFuel — Review Report
-Generated: 2026-04-25 08:32
+Generated: 2026-04-26 08:44
 
 > ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
@@ -12,19 +12,22 @@ Generated: 2026-04-25 08:32
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-04-16 | 0 | 0 | 0% |
 | 2026-04-17 | 0 | 7,744 | 0% |
 | 2026-04-19 | 0 | 7,744 | 0% |
 | 2026-04-20 | 0 | 13,825 | 0% |
 | 2026-04-21 | 0 | 13,825 | 0% |
 | 2026-04-22 | 0 | 14,797 | 0% |
 | 2026-04-24 | 0 | 14,797 | 0% |
+| 2026-04-25 | 0 | 8,579 | 9% |
 
 ## What Changed Today
 - Format mix: image 0% → 11%, carousel 0% → 9%
+- Blacklisted topic: "wake up early"
 - Blacklisted topic: "how much does david goggins sleeps"
-- Blacklisted topic: "never be an option"
+- Blacklisted topic: "it's gonna be alright"
 - Blacklisted topic: "how to develop self discipline"
+- Blacklisted topic: "never be an option"
+- Blacklisted topic: "a real man has no hobbies"
 
 ## What We Learned From Competitors
 - Scanned hashtags: grindmode, hardworkpaysoff, motivationdaily, selfimprovementtips, stoicmindset
@@ -45,27 +48,27 @@ Generated: 2026-04-25 08:32
 _(not yet populated — will appear after first competitor intel scan)_
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 6 / 13 recent posts used trending power-words (46%) ⚠️
-  - ✅ "in the quiet moments of night, rest becomes more than just sleep; it i..." (words: every)
+- 11 / 20 recent posts used trending power-words (55%) ✅
   - ✅ "discipline is the bridge between dreams and reality, built through eve..." (words: every)
-  - ⚠️ "still making excuses?"
+  - ✅ "discipline is the art of keeping promises to ourselves, transforming e..." (words: every)
   - ⚠️ "to be more than an option in life, we must cultivate the discipline to..."
+  - ⚠️ "in the quiet hours of the night, we create the foundation for our drea..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (minimal, reel) — "Discipline is the quiet commitment we make to ourselves, a journey where every s"
-2. **statement** (minimal, reel) — "In life, never settle to be an option."
-3. **statement** (luxury, reel) — "Discipline isn't measured by the hours of sleep sacrificed, but by the commitmen"
+1. **statement** (dark, reel) — "Every dawn offers a chance to shape our day. Waking early is a gentle reminder o"
+2. **statement** (bold, reel) — "Every challenge is a stepping stone to growth."
+3. **statement** (bold, reel) — "A real man understands that true strength isn’t found in hobbies but in the comm"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 12     | —          |
-| Avg score        | 0.1   | —          |
+| Posts scored     | 21     | —          |
+| Avg score        | 1.2   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 0   | 8,579      | -100% |
+| Avg engagement   | 1   | 8,579      | -100% |
 
 ## Next Actions (Auto-applied)
 - Quote generator biased toward: **statement, contrast** structures

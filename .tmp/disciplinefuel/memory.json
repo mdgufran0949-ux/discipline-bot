@@ -37,9 +37,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-25T08:32:27.178586"
+        "likes": 1,
+        "score": 1,
+        "fetched_at": "2026-04-26T08:43:43.904264"
       }
     },
     {
@@ -60,7 +60,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-25T08:32:27.963091"
+        "fetched_at": "2026-04-26T08:43:44.655592"
       }
     },
     {
@@ -76,12 +76,12 @@
       "posted_at": "2026-04-24T04:08:26.107613",
       "ig_media_id": "18077634908444906",
       "performance": {
-        "saves": 0,
+        "saves": 1,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-25T08:32:28.821969"
+        "likes": 1,
+        "score": 5,
+        "fetched_at": "2026-04-26T08:43:45.380813"
       }
     },
     {
@@ -102,7 +102,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-25T08:32:29.668014"
+        "fetched_at": "2026-04-26T08:43:46.134675"
       }
     },
     {
@@ -123,7 +123,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-25T08:32:30.474883"
+        "fetched_at": "2026-04-26T08:43:46.905951"
       }
     },
     {
@@ -144,7 +144,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-25T08:32:31.273931"
+        "fetched_at": "2026-04-26T08:43:48.219887"
       }
     },
     {
@@ -163,9 +163,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 1,
-        "score": 1,
-        "fetched_at": "2026-04-25T08:32:32.072494"
+        "likes": 2,
+        "score": 2,
+        "fetched_at": "2026-04-26T08:43:48.915147"
       }
     },
     {
@@ -186,7 +186,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-25T08:32:32.916726"
+        "fetched_at": "2026-04-26T08:43:49.728102"
       }
     },
     {
@@ -207,7 +207,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-25T08:32:33.590713"
+        "fetched_at": "2026-04-26T08:43:50.453602"
       }
     },
     {
@@ -228,7 +228,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-25T08:32:34.371473"
+        "fetched_at": "2026-04-26T08:43:51.171251"
       }
     },
     {
@@ -247,9 +247,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-25T08:32:35.281012"
+        "likes": 1,
+        "score": 1,
+        "fetched_at": "2026-04-26T08:43:51.923919"
       }
     },
     {
@@ -268,9 +268,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-25T08:32:36.046715"
+        "likes": 2,
+        "score": 2,
+        "fetched_at": "2026-04-26T08:43:53.307018"
       }
     },
     {
@@ -286,12 +286,12 @@
       "posted_at": "2026-04-25T08:34:20.137379",
       "ig_media_id": "18102256195954897",
       "performance": {
-        "saves": 0,
+        "saves": 1,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "likes": 3,
+        "score": 7,
+        "fetched_at": "2026-04-26T08:43:53.988350"
       }
     },
     {
@@ -307,12 +307,12 @@
       "posted_at": "2026-04-25T08:38:27.313077",
       "ig_media_id": "18119938441571145",
       "performance": {
-        "saves": 0,
+        "saves": 1,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "likes": 4,
+        "score": 8,
+        "fetched_at": "2026-04-26T08:43:55.408665"
       }
     },
     {
@@ -332,8 +332,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-26T08:43:57.009046"
       }
     },
     {
@@ -353,8 +353,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-26T08:43:57.808382"
       }
     },
     {
@@ -374,8 +374,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-26T08:43:59.963352"
       }
     },
     {
@@ -395,8 +395,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-26T08:44:00.620595"
       }
     },
     {
@@ -416,8 +416,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-26T08:44:03.057315"
       }
     },
     {
@@ -437,8 +437,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-04-26T08:44:03.925753"
       }
     },
     {
@@ -453,6 +453,69 @@
       "selected_quote": "Every dawn offers a chance to shape our day. Waking early is a gentle reminder of the quiet strength within.",
       "posted_at": "2026-04-26T04:13:32.919965",
       "ig_media_id": "18408867754180556",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": 0,
+        "fetched_at": "2026-04-26T08:44:04.825451"
+      }
+    },
+    {
+      "id": "day_becoming_better_12_20260426_084515",
+      "quote_type": "contrast",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 12,
+      "topic": "david goggins on excuses stop being lazy",
+      "hook_keyword": "discipline",
+      "selected_quote": "Excuses may feel comforting in the moment, but discipline offers the enduring power to change our lives. Every small commitment, each consistent action, builds a foundation we can rely on.",
+      "posted_at": "2026-04-26T08:45:15.305826",
+      "ig_media_id": "17895124464305113",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_14_20260426_084919",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 14,
+      "topic": "one day, it will make sense",
+      "hook_keyword": "purpose",
+      "selected_quote": "One day, every challenge will reveal its purpose. The journey we take in silence shapes our understanding, bringing clarity when we least expect it.",
+      "posted_at": "2026-04-26T08:49:19.815743",
+      "ig_media_id": "18081130796116001",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_13_20260426_085325",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 13,
+      "topic": "short motivation 7",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the quiet force that transforms intentions into achievements, nurturing growth even when the path is unseen.",
+      "posted_at": "2026-04-26T08:53:25.540301",
+      "ig_media_id": "18204588649341677",
       "performance": {
         "saves": 0,
         "shares": 0,
@@ -473,7 +536,7 @@
         "series": "day_becoming_better",
         "topic": "how much does david goggins sleeps",
         "hook_keyword": "rest",
-        "score": 0
+        "score": 1
       },
       {
         "quote_type": "statement",
@@ -491,7 +554,7 @@
         "series": "wake_up_call",
         "topic": "how to develop self discipline",
         "hook_keyword": "discipline",
-        "score": 0
+        "score": 5
       },
       {
         "quote_type": "statement",
@@ -527,7 +590,7 @@
         "series": "day_becoming_better",
         "topic": "how much does david goggins sleeps",
         "hook_keyword": "discipline",
-        "score": 1
+        "score": 2
       },
       {
         "quote_type": "statement",
@@ -563,7 +626,7 @@
         "series": "discipline_rule",
         "topic": "never be an option",
         "hook_keyword": "options",
-        "score": 0
+        "score": 1
       },
       {
         "quote_type": "statement",
@@ -572,36 +635,121 @@
         "series": "wake_up_call",
         "topic": "how to develop self discipline",
         "hook_keyword": "discipline",
+        "score": 2
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "bold",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "a real man has no hobbies",
+        "hook_keyword": "purpose",
+        "score": 7
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "dark",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "it's gonna be alright",
+        "hook_keyword": "calm",
+        "score": 8
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "bold",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "wake up early",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "a real man has no hobbies",
+        "hook_keyword": "quiet",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "luxury",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "it's gonna be alright",
+        "hook_keyword": "growth",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "luxury",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "wake up early",
+        "hook_keyword": "growth",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "bold",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "a real man has no hobbies",
+        "hook_keyword": "growth",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "bold",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "it's gonna be alright",
+        "hook_keyword": "growth",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "dark",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "wake up early",
+        "hook_keyword": "quiet",
         "score": 0
       }
     ],
     "avoid_topics": [
+      "wake up early",
       "how much does david goggins sleeps",
+      "it's gonna be alright",
+      "how to develop self discipline",
       "never be an option",
-      "how to develop self discipline"
+      "a real man has no hobbies"
     ],
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 22,
+    "total_posts": 25,
     "by_quote_type": {
       "question": 1,
-      "statement": 21
+      "statement": 23,
+      "contrast": 1
     },
     "by_design_style": {
       "minimal": 5,
-      "dark": 3,
+      "dark": 6,
       "luxury": 8,
       "bold": 6
     },
     "by_format": {
       "image": 1,
-      "reel": 21
+      "reel": 24
     },
     "by_series": {
-      "discipline_rule": 8,
-      "day_becoming_better": 7,
-      "wake_up_call": 7
+      "discipline_rule": 9,
+      "day_becoming_better": 8,
+      "wake_up_call": 8
     },
     "top_performing_series": "day_becoming_better"
   },
@@ -621,7 +769,7 @@
       "Discipline isn't measured by t"
     ]
   },
-  "last_upgraded": "2026-04-25T08:32:36.051496",
+  "last_upgraded": "2026-04-26T08:44:04.831452",
   "competitor_hints": {
     "top_hooks": [
       "The body achieves what the mind believes\ud83c\udfcb\ufe0f\u200d\u2642\ufe0f",
@@ -664,6 +812,6 @@
       "pain_driven"
     ],
     "benchmark_engagement": 8579.0,
-    "updated_at": "2026-04-25T08:32:26.353038"
+    "updated_at": "2026-04-26T08:43:42.443022"
   }
 }

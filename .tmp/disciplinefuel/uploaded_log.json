@@ -373,6 +373,57 @@
       "predicted": "high",
       "posted_at": "2026-04-26T04:13:32.919965",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_12_20260426_084515",
+      "ig_media_id": "17895124464305113",
+      "permalink": "https://www.instagram.com/reel/DXlrDIPjOtl/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 12,
+      "content_series": "Day 12 of Becoming Better",
+      "topic": "david goggins on excuses stop being lazy",
+      "selected_quote": "Excuses may feel comforting in the moment, but discipline offers the enduring power to change our lives. Every small commitment, each consistent action, builds a foundation we can rely on.",
+      "quote_type": "contrast",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-26T08:45:15.305826",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_14_20260426_084919",
+      "ig_media_id": "18081130796116001",
+      "permalink": "https://www.instagram.com/reel/DXlrfdUlE7W/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 14,
+      "content_series": "Discipline Rule #14",
+      "topic": "one day, it will make sense",
+      "selected_quote": "One day, every challenge will reveal its purpose. The journey we take in silence shapes our understanding, bringing clarity when we least expect it.",
+      "quote_type": "statement",
+      "hook_keyword": "purpose",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-26T08:49:19.815743",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_13_20260426_085325",
+      "ig_media_id": "18204588649341677",
+      "permalink": "https://www.instagram.com/reel/DXlr94QEtCF/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 13,
+      "content_series": "Wake Up Call #13",
+      "topic": "short motivation 7",
+      "selected_quote": "Discipline is the quiet force that transforms intentions into achievements, nurturing growth even when the path is unseen.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-26T08:53:25.540301",
+      "dry_run": false
     }
   ]
 }
