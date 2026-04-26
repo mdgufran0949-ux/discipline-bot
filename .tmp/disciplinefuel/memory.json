@@ -524,6 +524,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_13_20260426_150856",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 13,
+      "topic": "david goggins on excuses stop being lazy",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the bridge between goals and achievements, built with every decision made, even when the world is quiet.",
+      "posted_at": "2026-04-26T15:08:56.014158",
+      "ig_media_id": "17909863392205295",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_15_20260426_151346",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 15,
+      "topic": "one day, it will make sense",
+      "hook_keyword": "understanding",
+      "selected_quote": "Every step taken in silence is a step toward understanding. One day, the pieces will align, and the effort will reveal its purpose.",
+      "posted_at": "2026-04-26T15:13:46.731776",
+      "ig_media_id": "18580796917061523",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_14_20260426_151757",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 14,
+      "topic": "short motivation 7",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the gentle art of showing up every day, even when motivation fades. It's the quiet resolve that builds character.",
+      "posted_at": "2026-04-26T15:17:57.087664",
+      "ig_media_id": "17963707185101918",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -730,26 +793,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 25,
+    "total_posts": 28,
     "by_quote_type": {
       "question": 1,
-      "statement": 23,
+      "statement": 26,
       "contrast": 1
     },
     "by_design_style": {
-      "minimal": 5,
+      "minimal": 7,
       "dark": 6,
-      "luxury": 8,
+      "luxury": 9,
       "bold": 6
     },
     "by_format": {
       "image": 1,
-      "reel": 24
+      "reel": 27
     },
     "by_series": {
-      "discipline_rule": 9,
-      "day_becoming_better": 8,
-      "wake_up_call": 8
+      "discipline_rule": 10,
+      "day_becoming_better": 9,
+      "wake_up_call": 9
     },
     "top_performing_series": "day_becoming_better"
   },

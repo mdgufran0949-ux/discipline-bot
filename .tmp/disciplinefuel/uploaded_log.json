@@ -424,6 +424,57 @@
       "predicted": "high",
       "posted_at": "2026-04-26T08:53:25.540301",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_13_20260426_150856",
+      "ig_media_id": "17909863392205295",
+      "permalink": "https://www.instagram.com/reel/DXmW8tOCWNd/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 13,
+      "content_series": "Day 13 of Becoming Better",
+      "topic": "david goggins on excuses stop being lazy",
+      "selected_quote": "Discipline is the bridge between goals and achievements, built with every decision made, even when the world is quiet.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-26T15:08:56.014158",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_15_20260426_151346",
+      "ig_media_id": "18580796917061523",
+      "permalink": "https://www.instagram.com/reel/DXmXfyjlRL4/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 15,
+      "content_series": "Discipline Rule #15",
+      "topic": "one day, it will make sense",
+      "selected_quote": "Every step taken in silence is a step toward understanding. One day, the pieces will align, and the effort will reveal its purpose.",
+      "quote_type": "statement",
+      "hook_keyword": "understanding",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-26T15:13:46.731776",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_14_20260426_151757",
+      "ig_media_id": "17963707185101918",
+      "permalink": "https://www.instagram.com/reel/DXmX9hnjEaS/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 14,
+      "content_series": "Wake Up Call #14",
+      "topic": "short motivation 7",
+      "selected_quote": "Discipline is the gentle art of showing up every day, even when motivation fades. It's the quiet resolve that builds character.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-26T15:17:57.087664",
+      "dry_run": false
     }
   ]
 }
