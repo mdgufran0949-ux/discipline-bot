@@ -119,11 +119,23 @@
       "duration_seconds": 45.86,
       "upload_timestamp": "2026-04-25T05:56:35.719924",
       "title": "Dolphins Never Blink! Fun Ocean Fact Animation for Kids #Shorts"
+    },
+    {
+      "video_id": "oVnx7J_3rGc",
+      "yt_video_id": "oVnx7J_3rGc",
+      "url": "https://youtube.com/shorts/oVnx7J_3rGc",
+      "topic": "Caterpillar Song  #kidssongs #kidsvideo #singalong #children #kids #toddlers #babies #nature",
+      "category": "science",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 55.34,
+      "upload_timestamp": "2026-04-26T06:17:15.225704",
+      "title": "Caterpillar Boogie Cartoon for Kids - Why Do Caterpillars Wiggle? #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 10,
+    "total_uploaded": 11,
     "total_safety_fails": 0
   }
 }
