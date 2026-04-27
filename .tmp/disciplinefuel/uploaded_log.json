@@ -526,6 +526,57 @@
       "predicted": "high",
       "posted_at": "2026-04-27T04:18:13.006080",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_15_20260427_094023",
+      "ig_media_id": "18581192752027990",
+      "permalink": "https://www.instagram.com/reel/DXoWJagkzg4/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 15,
+      "content_series": "Day 15 of Becoming Better",
+      "topic": "there's a saying back in my village",
+      "selected_quote": "In the tapestry of life, discipline weaves the strongest threads, holding together our moments of growth and reflection.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-27T09:40:23.589495",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_17_20260427_094427",
+      "ig_media_id": "18070948631669639",
+      "permalink": "https://www.instagram.com/reel/DXoWnW5gjej/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 17,
+      "content_series": "Discipline Rule #17",
+      "topic": "discipline is remembering what you truly want",
+      "selected_quote": "Discipline is the gentle reminder of what we truly desire in life, guiding us through distractions and fleeting pleasures.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-04-27T09:44:27.021501",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_16_20260427_094839",
+      "ig_media_id": "18161480755376688",
+      "permalink": "https://www.instagram.com/reel/DXoXEwald6w/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 16,
+      "content_series": "Wake Up Call #16",
+      "topic": "cristiano ronaldo talks about discipline",
+      "selected_quote": "Discipline is the bridge that connects our dreams to reality, a silent force guiding every step we take through life.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-04-27T09:48:39.711037",
+      "dry_run": false
     }
   ]
 }
