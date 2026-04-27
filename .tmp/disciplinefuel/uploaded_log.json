@@ -475,6 +475,57 @@
       "predicted": "high",
       "posted_at": "2026-04-26T15:17:57.087664",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_14_20260427_040942",
+      "ig_media_id": "18317082223284897",
+      "permalink": "https://www.instagram.com/reel/DXnwTL2DvtF/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 14,
+      "content_series": "Day 14 of Becoming Better",
+      "topic": "david goggins on excuses stop being lazy",
+      "selected_quote": "Every journey towards growth begins with a single decision to silence the excuses and embrace the effort. It is in this quiet commitment that true strength is forged.",
+      "quote_type": "statement",
+      "hook_keyword": "growth",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-27T04:09:42.080804",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_16_20260427_041357",
+      "ig_media_id": "18152451052480343",
+      "permalink": "https://www.instagram.com/reel/DXnwybVFU__/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 16,
+      "content_series": "Discipline Rule #16",
+      "topic": "one day, it will make sense",
+      "selected_quote": "Every challenge faced is a step toward understanding. In time, the pieces of your journey will align.",
+      "quote_type": "statement",
+      "hook_keyword": "understanding",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-27T04:13:57.098391",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_15_20260427_041813",
+      "ig_media_id": "18109846297849853",
+      "permalink": "https://www.instagram.com/reel/DXnxRVxkvNQ/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 15,
+      "content_series": "Wake Up Call #15",
+      "topic": "short motivation 7",
+      "selected_quote": "Consistency is the quiet force that fuels growth. With every small step, we shape the future we envision.",
+      "quote_type": "statement",
+      "hook_keyword": "consistency",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-27T04:18:13.006080",
+      "dry_run": false
     }
   ]
 }

@@ -587,6 +587,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_14_20260427_040942",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 14,
+      "topic": "david goggins on excuses stop being lazy",
+      "hook_keyword": "growth",
+      "selected_quote": "Every journey towards growth begins with a single decision to silence the excuses and embrace the effort. It is in this quiet commitment that true strength is forged.",
+      "posted_at": "2026-04-27T04:09:42.080804",
+      "ig_media_id": "18317082223284897",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_16_20260427_041357",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 16,
+      "topic": "one day, it will make sense",
+      "hook_keyword": "understanding",
+      "selected_quote": "Every challenge faced is a step toward understanding. In time, the pieces of your journey will align.",
+      "posted_at": "2026-04-27T04:13:57.098391",
+      "ig_media_id": "18152451052480343",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_15_20260427_041813",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 15,
+      "topic": "short motivation 7",
+      "hook_keyword": "consistency",
+      "selected_quote": "Consistency is the quiet force that fuels growth. With every small step, we shape the future we envision.",
+      "posted_at": "2026-04-27T04:18:13.006080",
+      "ig_media_id": "18109846297849853",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -793,26 +856,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 28,
+    "total_posts": 31,
     "by_quote_type": {
       "question": 1,
-      "statement": 26,
+      "statement": 29,
       "contrast": 1
     },
     "by_design_style": {
-      "minimal": 7,
-      "dark": 6,
+      "minimal": 9,
+      "dark": 7,
       "luxury": 9,
       "bold": 6
     },
     "by_format": {
       "image": 1,
-      "reel": 27
+      "reel": 30
     },
     "by_series": {
-      "discipline_rule": 10,
-      "day_becoming_better": 9,
-      "wake_up_call": 9
+      "discipline_rule": 11,
+      "day_becoming_better": 10,
+      "wake_up_call": 10
     },
     "top_performing_series": "day_becoming_better"
   },

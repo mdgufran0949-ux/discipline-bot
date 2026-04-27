@@ -82,9 +82,9 @@
     "22:00"
   ],
   "series_counters": {
-    "discipline_rule": 15,
-    "wake_up_call": 14,
-    "day_becoming_better": 13
+    "discipline_rule": 16,
+    "wake_up_call": 15,
+    "day_becoming_better": 14
   },
   "series_rotation": [
     "discipline_rule",
@@ -124,7 +124,7 @@
     "fear is just comfort in disguise",
     "wake up before your competition does"
   ],
-  "topic_index": 6,
+  "topic_index": 9,
   "pipeline": {
     "trends": "tools/fetch_discipline_trends.py",
     "memory": "tools/discipline_memory.py",
