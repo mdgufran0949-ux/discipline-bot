@@ -131,11 +131,23 @@
       "duration_seconds": 55.34,
       "upload_timestamp": "2026-04-26T06:17:15.225704",
       "title": "Caterpillar Boogie Cartoon for Kids - Why Do Caterpillars Wiggle? #Shorts"
+    },
+    {
+      "video_id": "vj6xooVCs-8",
+      "yt_video_id": "vj6xooVCs-8",
+      "url": "https://youtube.com/shorts/vj6xooVCs-8",
+      "topic": "Animal Learning Game for Toddlers | Animals for Kids #shorts #farmanimals #kktv",
+      "category": "animals",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 51.2,
+      "upload_timestamp": "2026-04-27T06:35:36.125871",
+      "title": "Preschool Animal Sounds Cartoon: Biscuit & Zara Match-Up Game! #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 11,
+    "total_uploaded": 12,
     "total_safety_fails": 0
   }
 }
