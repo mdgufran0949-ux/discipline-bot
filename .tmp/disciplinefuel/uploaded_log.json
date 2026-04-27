@@ -577,6 +577,57 @@
       "predicted": "high",
       "posted_at": "2026-04-27T09:48:39.711037",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_16_20260427_160834",
+      "ig_media_id": "18115481620741336",
+      "permalink": "https://www.instagram.com/reel/DXpCjbfAtUV/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 16,
+      "content_series": "Day 16 of Becoming Better",
+      "topic": "there's a saying back in my village",
+      "selected_quote": "In the quiet moments of our lives, discipline shapes our vision and understanding of growth. It gently pushes us through uncertainty, revealing the beauty in persistence.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-27T16:08:34.273998",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_18_20260427_161244",
+      "ig_media_id": "18169607896413588",
+      "permalink": "https://www.instagram.com/reel/DXpDCm6CQXB/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 18,
+      "content_series": "Discipline Rule #18",
+      "topic": "discipline is remembering what you truly want",
+      "selected_quote": "Discipline is the quiet reminder of what we truly want in life, guiding us through distractions.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-27T16:12:44.481480",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_17_20260427_161655",
+      "ig_media_id": "18118833031645781",
+      "permalink": "https://www.instagram.com/reel/DXpDgPBmJ3V/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 17,
+      "content_series": "Wake Up Call #17",
+      "topic": "cristiano ronaldo talks about discipline",
+      "selected_quote": "Discipline is the steady hand guiding us through the chaos of life, a silent strength that shapes our greatest achievements.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-27T16:16:55.486605",
+      "dry_run": false
     }
   ]
 }

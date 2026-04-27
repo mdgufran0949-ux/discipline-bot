@@ -713,6 +713,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_16_20260427_160834",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 16,
+      "topic": "there's a saying back in my village",
+      "hook_keyword": "discipline",
+      "selected_quote": "In the quiet moments of our lives, discipline shapes our vision and understanding of growth. It gently pushes us through uncertainty, revealing the beauty in persistence.",
+      "posted_at": "2026-04-27T16:08:34.273998",
+      "ig_media_id": "18115481620741336",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_18_20260427_161244",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 18,
+      "topic": "discipline is remembering what you truly want",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the quiet reminder of what we truly want in life, guiding us through distractions.",
+      "posted_at": "2026-04-27T16:12:44.481480",
+      "ig_media_id": "18169607896413588",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_17_20260427_161655",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 17,
+      "topic": "cristiano ronaldo talks about discipline",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the steady hand guiding us through the chaos of life, a silent strength that shapes our greatest achievements.",
+      "posted_at": "2026-04-27T16:16:55.486605",
+      "ig_media_id": "18118833031645781",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -1003,26 +1066,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 34,
+    "total_posts": 37,
     "by_quote_type": {
       "question": 1,
-      "statement": 32,
+      "statement": 35,
       "contrast": 1
     },
     "by_design_style": {
       "minimal": 10,
-      "dark": 7,
-      "luxury": 9,
+      "dark": 8,
+      "luxury": 11,
       "bold": 8
     },
     "by_format": {
       "image": 1,
-      "reel": 33
+      "reel": 36
     },
     "by_series": {
-      "discipline_rule": 12,
-      "day_becoming_better": 11,
-      "wake_up_call": 11
+      "discipline_rule": 13,
+      "day_becoming_better": 12,
+      "wake_up_call": 12
     },
     "top_performing_series": "wake_up_call"
   },
