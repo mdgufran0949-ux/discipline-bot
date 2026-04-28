@@ -902,6 +902,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_19_20260428_162418",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 19,
+      "topic": "if you don't have discipline you are a nobody",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the quiet foundation upon which a meaningful life is built. It whispers strength in the absence of applause, guiding us through the unseen work that shapes our true selves.",
+      "posted_at": "2026-04-28T16:24:18.655912",
+      "ig_media_id": "18468558121096745",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_21_20260428_162837",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 21,
+      "topic": "1 minute a day",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline builds through the smallest actions, often taking just a minute each day. In these fleeting moments, we construct the life we desire, brick by brick.",
+      "posted_at": "2026-04-28T16:28:37.198877",
+      "ig_media_id": "18099275105515098",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_20_20260428_163332",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 20,
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "hook_keyword": "clarity",
+      "selected_quote": "In the quiet moments of stillness, discipline becomes the path through which clarity flows, illuminating the life we seek.",
+      "posted_at": "2026-04-28T16:33:32.001434",
+      "ig_media_id": "18182823019379334",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -1276,26 +1339,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 43,
+    "total_posts": 46,
     "by_quote_type": {
       "question": 1,
-      "statement": 41,
+      "statement": 44,
       "contrast": 1
     },
     "by_design_style": {
-      "minimal": 12,
-      "dark": 9,
+      "minimal": 13,
+      "dark": 10,
       "luxury": 14,
-      "bold": 8
+      "bold": 9
     },
     "by_format": {
       "image": 1,
-      "reel": 42
+      "reel": 45
     },
     "by_series": {
-      "discipline_rule": 15,
-      "day_becoming_better": 14,
-      "wake_up_call": 14
+      "discipline_rule": 16,
+      "day_becoming_better": 15,
+      "wake_up_call": 15
     },
     "top_performing_series": "discipline_rule"
   },

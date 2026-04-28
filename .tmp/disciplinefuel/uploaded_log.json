@@ -730,6 +730,57 @@
       "predicted": "high",
       "posted_at": "2026-04-28T09:53:04.598542",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_19_20260428_162418",
+      "ig_media_id": "18468558121096745",
+      "permalink": "https://www.instagram.com/reel/DXrpKfqACXr/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 19,
+      "content_series": "Day 19 of Becoming Better",
+      "topic": "if you don't have discipline you are a nobody",
+      "selected_quote": "Discipline is the quiet foundation upon which a meaningful life is built. It whispers strength in the absence of applause, guiding us through the unseen work that shapes our true selves.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-28T16:24:18.655912",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_21_20260428_162837",
+      "ig_media_id": "18099275105515098",
+      "permalink": "https://www.instagram.com/reel/DXrppHDDt6k/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 21,
+      "content_series": "Discipline Rule #21",
+      "topic": "1 minute a day",
+      "selected_quote": "Discipline builds through the smallest actions, often taking just a minute each day. In these fleeting moments, we construct the life we desire, brick by brick.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-04-28T16:28:37.198877",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_20_20260428_163332",
+      "ig_media_id": "18182823019379334",
+      "permalink": "https://www.instagram.com/reel/DXrqMuak1Qv/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 20,
+      "content_series": "Wake Up Call #20",
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "selected_quote": "In the quiet moments of stillness, discipline becomes the path through which clarity flows, illuminating the life we seek.",
+      "quote_type": "statement",
+      "hook_keyword": "clarity",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-28T16:33:32.001434",
+      "dry_run": false
     }
   ]
 }
