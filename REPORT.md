@@ -1,5 +1,5 @@
 # DisciplineFuel — Review Report
-Generated: 2026-04-27 09:39
+Generated: 2026-04-28 09:42
 
 > ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
@@ -12,25 +12,28 @@ Generated: 2026-04-27 09:39
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-04-19 | 0 | 7,744 | 0% |
 | 2026-04-20 | 0 | 13,825 | 0% |
 | 2026-04-21 | 0 | 13,825 | 0% |
 | 2026-04-22 | 0 | 14,797 | 0% |
 | 2026-04-24 | 0 | 14,797 | 0% |
 | 2026-04-25 | 0 | 8,579 | 9% |
 | 2026-04-26 | 0 | 8,579 | 9% |
+| 2026-04-27 | 0 | 7,853 | 12% |
 
 ## What Changed Today
 - Format mix: image 0% → 8%, carousel 0% → 12%
-- Blacklisted topic: "how much does david goggins sleeps"
-- Blacklisted topic: "it's gonna be alright"
+- Blacklisted topic: "there's a saying back in my village"
 - Blacklisted topic: "never be an option"
-- Blacklisted topic: "a real man has no hobbies"
-- Blacklisted topic: "how to develop self discipline"
 - Blacklisted topic: "short motivation 7"
-- Blacklisted topic: "david goggins on excuses stop being lazy"
-- Blacklisted topic: "one day, it will make sense"
+- Blacklisted topic: "a real man has no hobbies"
 - Blacklisted topic: "wake up early"
+- Blacklisted topic: "one day, it will make sense"
+- Blacklisted topic: "discipline is remembering what you truly want"
+- Blacklisted topic: "cristiano ronaldo talks about discipline"
+- Blacklisted topic: "it's gonna be alright"
+- Blacklisted topic: "david goggins on excuses stop being lazy"
+- Blacklisted topic: "how much does david goggins sleeps"
+- Blacklisted topic: "how to develop self discipline"
 
 ## What We Learned From Competitors
 - Scanned hashtags: motivationdaily, selfimprovementtips, stoicmindset, discipline, selfdiscipline
@@ -51,27 +54,27 @@ Generated: 2026-04-27 09:39
 _(not yet populated — will appear after first competitor intel scan)_
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 9 / 20 recent posts used trending power-words (45%) ⚠️
-  - ✅ "in life, never settle to be an option." (words: life)
-  - ✅ "discipline is the quiet commitment we make to ourselves, a journey whe..." (words: life, discipline)
-  - ⚠️ "every storm eventually passes, revealing the calm beneath. trust the j..."
-  - ⚠️ "a real man embraces the quiet work, letting his actions speak louder t..."
+- 13 / 20 recent posts used trending power-words (65%) ✅
+  - ✅ "excuses may feel comforting in the moment, but discipline offers the e..." (words: discipline)
+  - ✅ "discipline is the quiet force that transforms intentions into achievem..." (words: discipline)
+  - ⚠️ "every challenge is a stepping stone to growth."
+  - ⚠️ "every dawn offers a chance to shape our day. waking early is a gentle ..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (minimal, reel) — "Consistency is the quiet force that fuels growth. With every small step, we shap"
-2. **statement** (dark, reel) — "Every challenge faced is a step toward understanding. In time, the pieces of you"
-3. **statement** (minimal, reel) — "Every journey towards growth begins with a single decision to silence the excuse"
+1. **statement** (minimal, reel) — "Discipline is the quiet architect of our lives, shaping dreams into reality thro"
+2. **statement** (luxury, reel) — "Discipline is the art of remembering what we truly want, weaving our favorite vi"
+3. **statement** (dark, reel) — "In the quiet moments of life, discipline shapes our path, guiding us through unc"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 30     | —          |
-| Avg score        | 1.0   | —          |
+| Posts scored     | 39     | —          |
+| Avg score        | 0.9   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 7,853      | -100% |
+| Avg engagement   | 0   | 7,853      | -100% |
 
 ## Next Actions (Auto-applied)
 - Quote generator biased toward: **statement, contrast** structures

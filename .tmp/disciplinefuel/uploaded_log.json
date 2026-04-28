@@ -679,6 +679,57 @@
       "predicted": "high",
       "posted_at": "2026-04-28T04:22:46.929383",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_18_20260428_094412",
+      "ig_media_id": "18085355225613208",
+      "permalink": "https://www.instagram.com/reel/DXq7Xy7ja__/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 18,
+      "content_series": "Day 18 of Becoming Better",
+      "topic": "if you don't have discipline you are a nobody",
+      "selected_quote": "Discipline is not a badge of honor; it\u2019s the quiet force that shapes a life of substance and purpose.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-28T09:44:12.633963",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_20_20260428_094853",
+      "ig_media_id": "18093660007918757",
+      "permalink": "https://www.instagram.com/reel/DXq76exjNMW/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 20,
+      "content_series": "Discipline Rule #20",
+      "topic": "1 minute a day",
+      "selected_quote": "One minute each day can transform the landscape of our lives. It\u2019s not about grand gestures, but the quiet consistency of our efforts.",
+      "quote_type": "statement",
+      "hook_keyword": "transformation",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-28T09:48:53.483366",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_19_20260428_095304",
+      "ig_media_id": "18066803135667454",
+      "permalink": "https://www.instagram.com/reel/DXq8YiFCq9S/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 19,
+      "content_series": "Wake Up Call #19",
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "selected_quote": "In the stillness of a focused mind, discipline unfolds like a visual symphony, guiding us through the currents of life towards deeper understanding.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-28T09:53:04.598542",
+      "dry_run": false
     }
   ]
 }
