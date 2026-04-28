@@ -143,11 +143,23 @@
       "duration_seconds": 51.2,
       "upload_timestamp": "2026-04-27T06:35:36.125871",
       "title": "Preschool Animal Sounds Cartoon: Biscuit & Zara Match-Up Game! #Shorts"
+    },
+    {
+      "video_id": "Fw8aTqKCxYs",
+      "yt_video_id": "Fw8aTqKCxYs",
+      "url": "https://youtube.com/shorts/Fw8aTqKCxYs",
+      "topic": "Animals With their Names Educational Nursery Rhyme For Kids",
+      "category": "animals",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 35.0,
+      "upload_timestamp": "2026-04-28T06:31:55.913855",
+      "title": "Animals For Kids #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 12,
+    "total_uploaded": 13,
     "total_safety_fails": 0
   }
 }
