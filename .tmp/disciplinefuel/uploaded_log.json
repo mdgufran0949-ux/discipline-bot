@@ -628,6 +628,57 @@
       "predicted": "high",
       "posted_at": "2026-04-27T16:16:55.486605",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_17_20260428_041429",
+      "ig_media_id": "18149053381482758",
+      "permalink": "https://www.instagram.com/reel/DXqVn3WjXKv/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 17,
+      "content_series": "Day 17 of Becoming Better",
+      "topic": "there's a saying back in my village",
+      "selected_quote": "In the quiet moments of life, discipline shapes our path, guiding us through uncertainty with steadfast resolve.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-28T04:14:29.577370",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_19_20260428_041843",
+      "ig_media_id": "18079198217553917",
+      "permalink": "https://www.instagram.com/reel/DXqWG8_DaMM/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 19,
+      "content_series": "Discipline Rule #19",
+      "topic": "discipline is remembering what you truly want",
+      "selected_quote": "Discipline is the art of remembering what we truly want, weaving our favorite visions into the fabric of daily life.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-28T04:18:43.561377",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_18_20260428_042246",
+      "ig_media_id": "18091402642955869",
+      "permalink": "https://www.instagram.com/reel/DXqWlo6keVr/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 18,
+      "content_series": "Wake Up Call #18",
+      "topic": "cristiano ronaldo talks about discipline",
+      "selected_quote": "Discipline is the quiet architect of our lives, shaping dreams into reality through unwavering focus and commitment.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-28T04:22:46.929383",
+      "dry_run": false
     }
   ]
 }
