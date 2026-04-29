@@ -1,10 +1,10 @@
 # DisciplineFuel — Review Report
-Generated: 2026-04-28 09:42
+Generated: 2026-04-29 16:14
 
 > ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
 ## System Health
-- Last competitor fetch: 2026-04-27T09:38 ✅
+- Last competitor fetch: 2026-04-29T16:13 ✅
 - Last IG metrics fetch: never ⚠️
 - IG hashtag quota used (7d): 10 / 30 ✅
 - Consecutive failed competitor fetches: 0
@@ -12,72 +12,74 @@ Generated: 2026-04-28 09:42
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-04-20 | 0 | 13,825 | 0% |
 | 2026-04-21 | 0 | 13,825 | 0% |
 | 2026-04-22 | 0 | 14,797 | 0% |
 | 2026-04-24 | 0 | 14,797 | 0% |
 | 2026-04-25 | 0 | 8,579 | 9% |
 | 2026-04-26 | 0 | 8,579 | 9% |
 | 2026-04-27 | 0 | 7,853 | 12% |
+| 2026-04-28 | 0 | 7,853 | 12% |
 
 ## What Changed Today
 - Format mix: image 0% → 8%, carousel 0% → 12%
-- Blacklisted topic: "there's a saying back in my village"
-- Blacklisted topic: "never be an option"
-- Blacklisted topic: "short motivation 7"
+- Blacklisted topic: "discipline is remembering what you truly want"
+- Blacklisted topic: "it's gonna be alright"
+- Blacklisted topic: "how much does david goggins sleeps"
+- Blacklisted topic: "david goggins on excuses stop being lazy"
 - Blacklisted topic: "a real man has no hobbies"
+- Blacklisted topic: "there's a saying back in my village"
+- Blacklisted topic: "short motivation 7"
 - Blacklisted topic: "wake up early"
 - Blacklisted topic: "one day, it will make sense"
-- Blacklisted topic: "discipline is remembering what you truly want"
+- Blacklisted topic: "if you don't have discipline you are a nobody"
 - Blacklisted topic: "cristiano ronaldo talks about discipline"
-- Blacklisted topic: "it's gonna be alright"
-- Blacklisted topic: "david goggins on excuses stop being lazy"
-- Blacklisted topic: "how much does david goggins sleeps"
+- Blacklisted topic: "1 minute a day"
+- Blacklisted topic: "400 hz 410 hz binaural beats for deep theta state meditation focus"
+- Blacklisted topic: "never be an option"
 - Blacklisted topic: "how to develop self discipline"
 
 ## What We Learned From Competitors
-- Scanned hashtags: motivationdaily, selfimprovementtips, stoicmindset, discipline, selfdiscipline
+- Scanned hashtags: stoicmindset, discipline, selfdiscipline, disciplinequotes, mentality
 - Posts analyzed: 50
-- Niche benchmark: 7,853 avg engagement | Our avg: 0 | Gap: -100%
+- Niche benchmark: 10,913 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
-  1. "F𝙖𝙡𝙩𝙖 𝙜𝙚𝙣𝙩𝙚 𝙗𝙪𝙚𝙣𝙖 𝙙𝙞𝙨𝙥𝙪𝙚𝙨𝙩𝙖 𝙖 𝙥𝙚𝙡𝙚𝙖𝙧."
-  2. "Visual Weekend Roundup illustrated by me 😊"
-  3. "Let me tell you something, boy."
-  4. "Comment “SMARTER” to subscribe to my free Visual IDEAs newsletter."
-  5. "The easiest way to break a man, give him the worldly pleasures."
-- Hot power words: life, discipline, visual, through, favorite, weekend, roundup, illustrated
+  1. "Improve not prove ❌"
+  2. "Follow selfelevatepro for daily discipline"
+  3. "Average Natural 🇮🇳 Aesthetics 🧬 🦍"
+  4. "Save this post as a guide and share it with a friend ✅"
+  5. "Thomas Shelby vibes only."
+- Hot power words: follow, discipline, life, post, share, every, let, know
 - Dominant quote structure: **statement**
-- Dominant media type: **CAROUSEL_ALBUM (58%)**
+- Dominant media type: **CAROUSEL_ALBUM (60%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
 _(not yet populated — will appear after first competitor intel scan)_
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 13 / 20 recent posts used trending power-words (65%) ✅
-  - ✅ "excuses may feel comforting in the moment, but discipline offers the e..." (words: discipline)
-  - ✅ "discipline is the quiet force that transforms intentions into achievem..." (words: discipline)
-  - ⚠️ "every challenge is a stepping stone to growth."
-  - ⚠️ "every dawn offers a chance to shape our day. waking early is a gentle ..."
+- 19 / 20 recent posts used trending power-words (95%) ✅
+  - ✅ "discipline is the gentle reminder of what we truly desire in life, gui..." (words: discipline, life)
+  - ✅ "discipline is the bridge that connects our dreams to reality, a silent..." (words: discipline, life, every)
+  - ⚠️ "one minute each day can transform the landscape of our lives. it’s not..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (minimal, reel) — "Discipline is the quiet architect of our lives, shaping dreams into reality thro"
-2. **statement** (luxury, reel) — "Discipline is the art of remembering what we truly want, weaving our favorite vi"
-3. **statement** (dark, reel) — "In the quiet moments of life, discipline shapes our path, guiding us through unc"
+1. **statement** (luxury, reel) — "In the silence of focused intention, we find the clarity to shape our lives. Dis"
+2. **statement** (dark, reel) — "One minute a day shapes a life."
+3. **statement** (bold, reel) — "Discipline is the foundation upon which a meaningful life is built. It is the qu"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 39     | —          |
+| Posts scored     | 51     | —          |
 | Avg score        | 0.9   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 0   | 7,853      | -100% |
+| Avg engagement   | 0   | 10,913      | -100% |
 
 ## Next Actions (Auto-applied)
-- Quote generator biased toward: **statement, contrast** structures
+- Quote generator biased toward: **statement, command** structures
 - Carousel ratio set to 12%
 - 5 trending hooks injected into next LLM prompts
 

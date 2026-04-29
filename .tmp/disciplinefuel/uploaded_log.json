@@ -883,6 +883,57 @@
       "predicted": "high",
       "posted_at": "2026-04-29T09:43:59.712890",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_22_20260429_161523",
+      "ig_media_id": "18020393696662950",
+      "permalink": "https://www.instagram.com/reel/DXuM8tHDTkK/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 22,
+      "content_series": "Day 22 of Becoming Better",
+      "topic": "akshay kumars powerful time management advice",
+      "selected_quote": "Discipline is the art of managing time wisely, allowing life to unfold without chaos. In every moment of stillness, we find clarity and purpose.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-29T16:15:23.242232",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_24_20260429_161940",
+      "ig_media_id": "18099636353073940",
+      "permalink": "https://www.instagram.com/reel/DXuNa2kgJf4/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 24,
+      "content_series": "Discipline Rule #24",
+      "topic": "sometime they need to focus",
+      "selected_quote": "Discipline is the quiet force that shapes our lives. It is in the moments we focus our energy, when our potential can unfold. Every step taken in stillness builds the path to our future.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-29T16:19:40.623346",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_23_20260429_162346",
+      "ig_media_id": "18115172158688908",
+      "permalink": "https://www.instagram.com/reel/DXuN4vSgqhQ/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 23,
+      "content_series": "Wake Up Call #23",
+      "topic": "you keep choosing comfort over growth",
+      "selected_quote": "Growth requires stepping outside of comfort, where true discipline is forged in the quiet moments. Each choice shapes the life ahead.",
+      "quote_type": "statement",
+      "hook_keyword": "growth",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-29T16:23:46.993739",
+      "dry_run": false
     }
   ]
 }
