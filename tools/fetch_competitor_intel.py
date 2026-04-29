@@ -207,51 +207,105 @@ def _caption_length_bucket(caption: str) -> str:
 
 
 def _extract_username(permalink: str) -> str:
-    """Extract Instagram username from a post permalink URL."""
-    # https://www.instagram.com/{username}/p/{post_id}/
+    """Extract Instagram username from a post permalink URL (legacy — no longer works)."""
     m = re.search(r'instagram\.com/([^/?#]+)/p/', permalink or "")
-    return m.group(1).lower() if m else ""
+    if not m:
+        return ""
+    candidate = m.group(1).lower()
+    if candidate in {"p", "reel", "reels", "tv", "stories", "explore"}:
+        return ""
+    return candidate
+
+
+# Cache for permalink -> creator_name lookups (session-local, avoids re-fetching)
+_CREATOR_NAME_CACHE: dict[str, str] = {}
+
+
+def _fetch_creator_name(permalink: str, timeout: int = 8) -> str:
+    """
+    Fetch the Instagram post page and extract the creator's display name
+    from the og:title meta tag. Instagram blocks real usernames in public HTML,
+    but display names are served to search crawlers in og:title like:
+        "{Display Name} on Instagram: \"{caption}\""
+    Returns a lowercase display name, or empty string on failure.
+    Uses Googlebot UA because Instagram serves different HTML to crawlers.
+    """
+    if not permalink:
+        return ""
+    if permalink in _CREATOR_NAME_CACHE:
+        return _CREATOR_NAME_CACHE[permalink]
+
+    try:
+        resp = requests.get(
+            permalink,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"},
+            timeout=timeout,
+            allow_redirects=True,
+        )
+        if resp.status_code != 200:
+            _CREATOR_NAME_CACHE[permalink] = ""
+            return ""
+        m = re.search(r'<meta property="og:title" content="([^"]+?) on Instagram:', resp.text)
+        if not m:
+            _CREATOR_NAME_CACHE[permalink] = ""
+            return ""
+        name = m.group(1).strip()
+        # HTML-decode common entities
+        name = (name.replace("&amp;", "&").replace("&quot;", '"')
+                    .replace("&#x27;", "'").replace("&#39;", "'"))
+        # Collapse whitespace, lowercase for dedupe
+        name = re.sub(r"\s+", " ", name).strip().lower()
+        # Reject obviously generic names
+        if len(name) < 3 or len(name) > 80:
+            _CREATOR_NAME_CACHE[permalink] = ""
+            return ""
+        _CREATOR_NAME_CACHE[permalink] = name
+        return name
+    except Exception:
+        _CREATOR_NAME_CACHE[permalink] = ""
+        return ""
 
 
 def _build_creator_profiles(posts: list, min_appearances: int = 2) -> list:
     """
-    Group top posts by creator username, build a style profile for each.
-    Only includes creators who appear at least min_appearances times
-    (i.e. consistently land in the top posts — a real signal).
+    Group top posts by creator display name (fetched from og:title of each
+    permalink). Only includes creators appearing >= min_appearances times.
     Returns list sorted by avg_engagement descending.
     """
     from collections import defaultdict
     creators: dict = defaultdict(list)
 
+    print(f"  [Creators] Fetching display names for {len(posts)} posts...", flush=True)
     for p in posts:
-        username = _extract_username(p.get("permalink", ""))
-        if not username:
+        permalink = p.get("permalink", "")
+        creator_name = _fetch_creator_name(permalink)
+        if not creator_name:
             continue
-        creators[username].append(p)
+        creators[creator_name].append(p)
 
     profiles = []
-    for username, creator_posts in creators.items():
+    found = sum(1 for posts_list in creators.values() if len(posts_list) >= min_appearances)
+    print(f"  [Creators] {len(creators)} unique creators found, {found} with {min_appearances}+ posts", flush=True)
+
+    for creator_name, creator_posts in creators.items():
         if len(creator_posts) < min_appearances:
             continue
 
         engagements = [p.get("engagement_score", 0) for p in creator_posts]
         avg_eng     = round(sum(engagements) / len(engagements)) if engagements else 0
 
-        # Dominant structure
         struct_counts = Counter(
             p.get("detected_structure") or _classify_quote_structure(p.get("caption", ""))
             for p in creator_posts
         )
         dominant_structure = struct_counts.most_common(1)[0][0] if struct_counts else "statement"
 
-        # Dominant length
         length_counts = Counter(
             _caption_length_bucket(p.get("caption", ""))
             for p in creator_posts
         )
         dominant_length = length_counts.most_common(1)[0][0] if length_counts else "medium"
 
-        # Sample hooks (top 3 by engagement)
         sorted_posts = sorted(creator_posts, key=lambda x: x.get("engagement_score", 0), reverse=True)
         sample_hooks = [
             p.get("hook_line") or _extract_hook(p.get("caption", ""))
@@ -259,12 +313,11 @@ def _build_creator_profiles(posts: list, min_appearances: int = 2) -> list:
         ]
         sample_hooks = [h for h in sample_hooks if h and len(h) >= 15][:3]
 
-        # Power words from this creator's captions
-        captions     = [p.get("caption", "") for p in creator_posts]
-        power_words  = _extract_power_words(captions)[:8]
+        captions    = [p.get("caption", "") for p in creator_posts]
+        power_words = _extract_power_words(captions)[:8]
 
         profiles.append({
-            "username":           username,
+            "display_name":       creator_name,
             "appearances":        len(creator_posts),
             "avg_engagement":     avg_eng,
             "top_engagement":     max(engagements) if engagements else 0,

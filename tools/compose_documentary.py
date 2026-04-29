@@ -31,6 +31,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 TMP          = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp"))
 IMAGES_DIR   = os.path.join(TMP, "images")
+VIDEOS_DIR   = os.path.join(TMP, "videos")
 SCRIPT_FILE  = os.path.join(TMP, "documentary_script.json")
 AUDIO_FILE   = os.path.join(TMP, "voiceover.mp3")
 SRT_FILE     = os.path.join(TMP, "captions.srt")
@@ -143,6 +144,39 @@ def make_scene_clip(image_path: str, duration: float, output_path: str,
         output_path
     ]
     run(cmd, f"scene_{os.path.basename(output_path)}")
+
+
+def make_clip_from_video(video_path: str, duration: float, output_path: str) -> None:
+    """Scale a pre-generated 9:16 video to 1080x1920 and trim or loop to match scene duration."""
+    r = subprocess.run(
+        [FFPROBE, "-v", "quiet", "-print_format", "json", "-show_format", video_path],
+        capture_output=True, text=True
+    )
+    vid_dur = float(json.loads(r.stdout)["format"]["duration"])
+
+    scale_crop = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}"
+
+    if vid_dur >= duration:
+        cmd = [
+            FFMPEG, "-y", "-i", video_path,
+            "-vf", scale_crop,
+            "-t", str(duration),
+            "-c:v", "libx264", "-preset", "fast", "-crf", "20",
+            "-pix_fmt", "yuv420p", "-r", str(FPS), "-an",
+            output_path,
+        ]
+    else:
+        loops = int(duration / vid_dur) + 2
+        cmd = [
+            FFMPEG, "-y",
+            "-stream_loop", str(loops), "-i", video_path,
+            "-vf", scale_crop,
+            "-t", str(duration),
+            "-c:v", "libx264", "-preset", "fast", "-crf", "20",
+            "-pix_fmt", "yuv420p", "-r", str(FPS), "-an",
+            output_path,
+        ]
+    run(cmd, f"video_clip_{os.path.basename(output_path)}")
 
 
 def concat_clips(clip_paths: list, output_path: str) -> None:
@@ -355,18 +389,26 @@ def compose_documentary(channel_name: str,
     clip_paths = []
 
     for i, (scene, dur) in enumerate(zip(scenes, durations)):
-        n          = scene["scene_num"]
-        img_path   = os.path.join(IMAGES_DIR, f"scene_{n:03d}.jpg")
-        clip_path  = os.path.join(CLIPS_DIR, f"clip_{n:03d}.mp4")
-        pan        = scene.get("pan", "zoom_in")
-
-        if not os.path.exists(img_path):
-            print(f"  [WARN] Missing image scene_{n:03d}.jpg — skipping scene", flush=True)
-            continue
+        n         = scene["scene_num"]
+        vid_path  = os.path.join(VIDEOS_DIR, f"scene_{n:03d}.mp4")
+        img_path  = (
+            os.path.join(IMAGES_DIR, f"scene_{n:03d}.jpg")
+            if os.path.exists(os.path.join(IMAGES_DIR, f"scene_{n:03d}.jpg"))
+            else os.path.join(IMAGES_DIR, f"scene_{n:03d}.png")
+        )
+        clip_path = os.path.join(CLIPS_DIR, f"clip_{n:03d}.mp4")
+        pan       = scene.get("pan", "zoom_in")
 
         if not os.path.exists(clip_path):
-            print(f"  Scene {n}/{len(scenes)} ({dur:.1f}s, {pan})...", flush=True)
-            make_scene_clip(img_path, dur, clip_path, pan)
+            if os.path.exists(vid_path):
+                print(f"  Scene {n}/{len(scenes)} ({dur:.1f}s, ai-video)...", flush=True)
+                make_clip_from_video(vid_path, dur, clip_path)
+            elif os.path.exists(img_path):
+                print(f"  Scene {n}/{len(scenes)} ({dur:.1f}s, {pan})...", flush=True)
+                make_scene_clip(img_path, dur, clip_path, pan)
+            else:
+                print(f"  [WARN] No video or image for scene_{n:03d} — skipping", flush=True)
+                continue
         else:
             print(f"  [skip] clip_{n:03d}.mp4 exists", flush=True)
 

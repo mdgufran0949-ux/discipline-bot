@@ -37,9 +37,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 1,
-        "score": 1,
-        "fetched_at": "2026-04-29T16:13:14.583020"
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
       }
     },
     {
@@ -59,8 +59,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:16.681901"
+        "score": null,
+        "fetched_at": null
       }
     },
     {
@@ -76,12 +76,12 @@
       "posted_at": "2026-04-24T04:08:26.107613",
       "ig_media_id": "18077634908444906",
       "performance": {
-        "saves": 1,
+        "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 1,
-        "score": 5,
-        "fetched_at": "2026-04-29T16:13:17.710854"
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
       }
     },
     {
@@ -101,8 +101,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:18.803632"
+        "score": null,
+        "fetched_at": null
       }
     },
     {
@@ -122,8 +122,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:19.939259"
+        "score": null,
+        "fetched_at": null
       }
     },
     {
@@ -143,8 +143,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:21.009825"
+        "score": null,
+        "fetched_at": null
       }
     },
     {
@@ -163,9 +163,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 2,
-        "score": 2,
-        "fetched_at": "2026-04-29T16:13:22.064931"
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
       }
     },
     {
@@ -185,8 +185,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:23.057397"
+        "score": null,
+        "fetched_at": null
       }
     },
     {
@@ -206,946 +206,190 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:24.177197"
+        "score": null,
+        "fetched_at": null
       }
     },
     {
-      "id": "day_becoming_better_8_20260425_034144",
+      "id": "day_becoming_better_8_20260425_113809",
       "quote_type": "statement",
       "design_style": "luxury",
       "format": "reel",
       "series": "day_becoming_better",
       "series_number": 8,
-      "topic": "how much does david goggins sleeps",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline isn't measured by the hours of sleep sacrificed, but by the commitment to the journey ahead. Each moment spent in silence builds the foundation for a life of purpose.",
-      "posted_at": "2026-04-25T03:41:44.061984",
-      "ig_media_id": "18431149102137944",
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "growth",
+      "selected_quote": "Growth flourishes where discomfort is embraced, not avoided. Discipline is the bridge from comfort to the life we truly desire.",
+      "posted_at": "2026-04-25T11:38:09.495460",
+      "ig_media_id": "17948858268160463",
       "performance": {
         "saves": 0,
         "shares": 0,
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-29T16:13:25.243849"
+        "fetched_at": "2026-04-29T16:54:38.341213"
       }
     },
     {
-      "id": "discipline_rule_10_20260425_034553",
+      "id": "discipline_rule_10_20260425_114238",
       "quote_type": "statement",
-      "design_style": "minimal",
+      "design_style": "dark",
       "format": "reel",
       "series": "discipline_rule",
       "series_number": 10,
-      "topic": "never be an option",
-      "hook_keyword": "options",
-      "selected_quote": "In life, never settle to be an option.",
-      "posted_at": "2026-04-25T03:45:53.412022",
-      "ig_media_id": "18114010282764175",
+      "topic": "procrastination is self-betrayal",
+      "hook_keyword": "self-betrayal",
+      "selected_quote": "Procrastination is a quiet act of self-betrayal, where the comfort of now steals the promise of tomorrow.",
+      "posted_at": "2026-04-25T11:42:38.371299",
+      "ig_media_id": "18100486522961378",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": 0,
+        "fetched_at": "2026-04-29T16:54:41.544166"
+      }
+    },
+    {
+      "id": "wake_up_call_9_20260425_114725",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 9,
+      "topic": "your laziness has a price",
+      "hook_keyword": "discipline",
+      "selected_quote": "Every moment spent in comfort is a moment that could have been filled with growth. Discipline is the bridge from who we are to who we wish to become.",
+      "posted_at": "2026-04-25T11:47:25.641316",
+      "ig_media_id": "18162233977438162",
       "performance": {
         "saves": 0,
         "shares": 0,
         "comments": 0,
         "likes": 1,
         "score": 1,
-        "fetched_at": "2026-04-29T16:13:26.299860"
+        "fetched_at": "2026-04-29T16:54:44.853070"
       }
     },
     {
-      "id": "wake_up_call_9_20260425_035033",
+      "id": "day_becoming_better_9_20260425_132512",
       "quote_type": "statement",
-      "design_style": "minimal",
+      "design_style": "dark",
       "format": "reel",
-      "series": "wake_up_call",
+      "series": "day_becoming_better",
       "series_number": 9,
-      "topic": "how to develop self discipline",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the quiet commitment we make to ourselves, a journey where every small step lays the foundation for a life well-lived.",
-      "posted_at": "2026-04-25T03:50:33.398865",
-      "ig_media_id": "18109818175675517",
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "growth",
+      "selected_quote": "Growth thrives beyond the edges of comfort. It is in the quiet moments of discipline that true transformation occurs.",
+      "posted_at": "2026-04-25T13:25:12.649811",
+      "ig_media_id": "18074834966219207",
       "performance": {
         "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 1,
+        "score": 1,
+        "fetched_at": "2026-04-29T16:54:47.933306"
+      }
+    },
+    {
+      "id": "discipline_rule_11_20260425_132929",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 11,
+      "topic": "procrastination is self-betrayal",
+      "hook_keyword": "betrayal",
+      "selected_quote": "Procrastination is a quiet act of self-betrayal, where the comfort of today steals the potential of tomorrow.",
+      "posted_at": "2026-04-25T13:29:29.838137",
+      "ig_media_id": "18008185646854544",
+      "performance": {
+        "saves": 2,
         "shares": 0,
         "comments": 0,
         "likes": 2,
-        "score": 2,
-        "fetched_at": "2026-04-29T16:13:27.433033"
-      }
-    },
-    {
-      "id": "day_becoming_better_9_20260425_083420",
-      "quote_type": "statement",
-      "design_style": "bold",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 9,
-      "topic": "a real man has no hobbies",
-      "hook_keyword": "purpose",
-      "selected_quote": "A real man immerses himself in purpose.",
-      "posted_at": "2026-04-25T08:34:20.137379",
-      "ig_media_id": "18102256195954897",
-      "performance": {
-        "saves": 1,
-        "shares": 0,
-        "comments": 0,
-        "likes": 3,
-        "score": 7,
-        "fetched_at": "2026-04-29T16:13:28.624244"
-      }
-    },
-    {
-      "id": "discipline_rule_11_20260425_083827",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 11,
-      "topic": "it's gonna be alright",
-      "hook_keyword": "calm",
-      "selected_quote": "Every storm eventually passes, revealing the calm beneath. Trust the journey and know that brighter days are ahead.",
-      "posted_at": "2026-04-25T08:38:27.313077",
-      "ig_media_id": "18119938441571145",
-      "performance": {
-        "saves": 1,
-        "shares": 0,
-        "comments": 0,
-        "likes": 4,
-        "score": 8,
-        "fetched_at": "2026-04-29T16:13:29.835596"
-      }
-    },
-    {
-      "id": "wake_up_call_10_20260425_084238",
-      "quote_type": "statement",
-      "design_style": "bold",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 10,
-      "topic": "wake up early",
-      "hook_keyword": "discipline",
-      "selected_quote": "Awakening early plants seeds of discipline.",
-      "posted_at": "2026-04-25T08:42:38.516433",
-      "ig_media_id": "18087259763198290",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:32.172341"
-      }
-    },
-    {
-      "id": "day_becoming_better_10_20260425_151014",
-      "quote_type": "statement",
-      "design_style": "minimal",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 10,
-      "topic": "a real man has no hobbies",
-      "hook_keyword": "quiet",
-      "selected_quote": "A real man embraces the quiet work, letting his actions speak louder than any hobby.",
-      "posted_at": "2026-04-25T15:10:14.424435",
-      "ig_media_id": "17959802295116679",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:33.246428"
-      }
-    },
-    {
-      "id": "discipline_rule_12_20260425_151421",
-      "quote_type": "statement",
-      "design_style": "luxury",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 12,
-      "topic": "it's gonna be alright",
-      "hook_keyword": "growth",
-      "selected_quote": "In the quiet moments, when doubt lingers, remember that every challenge is a step towards strength. It's not the chaos that defines us, but the calm resolve we cultivate in its midst.",
-      "posted_at": "2026-04-25T15:14:21.399459",
-      "ig_media_id": "18011236745698831",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:34.354069"
-      }
-    },
-    {
-      "id": "wake_up_call_11_20260425_151918",
-      "quote_type": "statement",
-      "design_style": "luxury",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 11,
-      "topic": "wake up early",
-      "hook_keyword": "growth",
-      "selected_quote": "Every morning brings a new chance to shape our day with intention and purpose. Those who rise early cultivate a quiet strength, laying the foundation for the growth they seek throughout their journey.",
-      "posted_at": "2026-04-25T15:19:18.598802",
-      "ig_media_id": "17886791760512962",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:35.474685"
-      }
-    },
-    {
-      "id": "day_becoming_better_11_20260426_040429",
-      "quote_type": "statement",
-      "design_style": "bold",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 11,
-      "topic": "a real man has no hobbies",
-      "hook_keyword": "growth",
-      "selected_quote": "A real man understands that true strength isn\u2019t found in hobbies but in the commitment to growth. Every choice we make is a reflection of our values, shaping the paths we walk.",
-      "posted_at": "2026-04-26T04:04:29.436571",
-      "ig_media_id": "17999789006750809",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:36.612946"
-      }
-    },
-    {
-      "id": "discipline_rule_13_20260426_040834",
-      "quote_type": "statement",
-      "design_style": "bold",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 13,
-      "topic": "it's gonna be alright",
-      "hook_keyword": "growth",
-      "selected_quote": "Every challenge is a stepping stone to growth.",
-      "posted_at": "2026-04-26T04:08:34.100839",
-      "ig_media_id": "18078520802429298",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:37.622317"
-      }
-    },
-    {
-      "id": "wake_up_call_12_20260426_041332",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 12,
-      "topic": "wake up early",
-      "hook_keyword": "quiet",
-      "selected_quote": "Every dawn offers a chance to shape our day. Waking early is a gentle reminder of the quiet strength within.",
-      "posted_at": "2026-04-26T04:13:32.919965",
-      "ig_media_id": "18408867754180556",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:38.838591"
-      }
-    },
-    {
-      "id": "day_becoming_better_12_20260426_084515",
-      "quote_type": "contrast",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 12,
-      "topic": "david goggins on excuses stop being lazy",
-      "hook_keyword": "discipline",
-      "selected_quote": "Excuses may feel comforting in the moment, but discipline offers the enduring power to change our lives. Every small commitment, each consistent action, builds a foundation we can rely on.",
-      "posted_at": "2026-04-26T08:45:15.305826",
-      "ig_media_id": "17895124464305113",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:39.866842"
-      }
-    },
-    {
-      "id": "discipline_rule_14_20260426_084919",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 14,
-      "topic": "one day, it will make sense",
-      "hook_keyword": "purpose",
-      "selected_quote": "One day, every challenge will reveal its purpose. The journey we take in silence shapes our understanding, bringing clarity when we least expect it.",
-      "posted_at": "2026-04-26T08:49:19.815743",
-      "ig_media_id": "18081130796116001",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:40.905900"
-      }
-    },
-    {
-      "id": "wake_up_call_13_20260426_085325",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 13,
-      "topic": "short motivation 7",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the quiet force that transforms intentions into achievements, nurturing growth even when the path is unseen.",
-      "posted_at": "2026-04-26T08:53:25.540301",
-      "ig_media_id": "18204588649341677",
-      "performance": {
-        "saves": 1,
-        "shares": 0,
-        "comments": 0,
-        "likes": 1,
-        "score": 5,
-        "fetched_at": "2026-04-29T16:13:41.927104"
-      }
-    },
-    {
-      "id": "day_becoming_better_13_20260426_150856",
-      "quote_type": "statement",
-      "design_style": "luxury",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 13,
-      "topic": "david goggins on excuses stop being lazy",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the bridge between goals and achievements, built with every decision made, even when the world is quiet.",
-      "posted_at": "2026-04-26T15:08:56.014158",
-      "ig_media_id": "17909863392205295",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:43.030945"
-      }
-    },
-    {
-      "id": "discipline_rule_15_20260426_151346",
-      "quote_type": "statement",
-      "design_style": "minimal",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 15,
-      "topic": "one day, it will make sense",
-      "hook_keyword": "understanding",
-      "selected_quote": "Every step taken in silence is a step toward understanding. One day, the pieces will align, and the effort will reveal its purpose.",
-      "posted_at": "2026-04-26T15:13:46.731776",
-      "ig_media_id": "18580796917061523",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:44.108390"
-      }
-    },
-    {
-      "id": "wake_up_call_14_20260426_151757",
-      "quote_type": "statement",
-      "design_style": "minimal",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 14,
-      "topic": "short motivation 7",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the gentle art of showing up every day, even when motivation fades. It's the quiet resolve that builds character.",
-      "posted_at": "2026-04-26T15:17:57.087664",
-      "ig_media_id": "17963707185101918",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 1,
-        "score": 1,
-        "fetched_at": "2026-04-29T16:13:45.318297"
-      }
-    },
-    {
-      "id": "day_becoming_better_14_20260427_040942",
-      "quote_type": "statement",
-      "design_style": "minimal",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 14,
-      "topic": "david goggins on excuses stop being lazy",
-      "hook_keyword": "growth",
-      "selected_quote": "Every journey towards growth begins with a single decision to silence the excuses and embrace the effort. It is in this quiet commitment that true strength is forged.",
-      "posted_at": "2026-04-27T04:09:42.080804",
-      "ig_media_id": "18317082223284897",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:46.412627"
-      }
-    },
-    {
-      "id": "discipline_rule_16_20260427_041357",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 16,
-      "topic": "one day, it will make sense",
-      "hook_keyword": "understanding",
-      "selected_quote": "Every challenge faced is a step toward understanding. In time, the pieces of your journey will align.",
-      "posted_at": "2026-04-27T04:13:57.098391",
-      "ig_media_id": "18152451052480343",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:47.520523"
-      }
-    },
-    {
-      "id": "wake_up_call_15_20260427_041813",
-      "quote_type": "statement",
-      "design_style": "minimal",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 15,
-      "topic": "short motivation 7",
-      "hook_keyword": "consistency",
-      "selected_quote": "Consistency is the quiet force that fuels growth. With every small step, we shape the future we envision.",
-      "posted_at": "2026-04-27T04:18:13.006080",
-      "ig_media_id": "18109846297849853",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:48.546271"
-      }
-    },
-    {
-      "id": "day_becoming_better_15_20260427_094023",
-      "quote_type": "statement",
-      "design_style": "minimal",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 15,
-      "topic": "there's a saying back in my village",
-      "hook_keyword": "discipline",
-      "selected_quote": "In the tapestry of life, discipline weaves the strongest threads, holding together our moments of growth and reflection.",
-      "posted_at": "2026-04-27T09:40:23.589495",
-      "ig_media_id": "18581192752027990",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:49.756399"
-      }
-    },
-    {
-      "id": "discipline_rule_17_20260427_094427",
-      "quote_type": "statement",
-      "design_style": "bold",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 17,
-      "topic": "discipline is remembering what you truly want",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the gentle reminder of what we truly desire in life, guiding us through distractions and fleeting pleasures.",
-      "posted_at": "2026-04-27T09:44:27.021501",
-      "ig_media_id": "18070948631669639",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:50.795137"
-      }
-    },
-    {
-      "id": "wake_up_call_16_20260427_094839",
-      "quote_type": "statement",
-      "design_style": "bold",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 16,
-      "topic": "cristiano ronaldo talks about discipline",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the bridge that connects our dreams to reality, a silent force guiding every step we take through life.",
-      "posted_at": "2026-04-27T09:48:39.711037",
-      "ig_media_id": "18161480755376688",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:51.905923"
-      }
-    },
-    {
-      "id": "day_becoming_better_16_20260427_160834",
-      "quote_type": "statement",
-      "design_style": "luxury",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 16,
-      "topic": "there's a saying back in my village",
-      "hook_keyword": "discipline",
-      "selected_quote": "In the quiet moments of our lives, discipline shapes our vision and understanding of growth. It gently pushes us through uncertainty, revealing the beauty in persistence.",
-      "posted_at": "2026-04-27T16:08:34.273998",
-      "ig_media_id": "18115481620741336",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:52.930162"
-      }
-    },
-    {
-      "id": "discipline_rule_18_20260427_161244",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 18,
-      "topic": "discipline is remembering what you truly want",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the quiet reminder of what we truly want in life, guiding us through distractions.",
-      "posted_at": "2026-04-27T16:12:44.481480",
-      "ig_media_id": "18169607896413588",
-      "performance": {
-        "saves": 1,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 4,
-        "fetched_at": "2026-04-29T16:13:53.937492"
-      }
-    },
-    {
-      "id": "wake_up_call_17_20260427_161655",
-      "quote_type": "statement",
-      "design_style": "luxury",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 17,
-      "topic": "cristiano ronaldo talks about discipline",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the steady hand guiding us through the chaos of life, a silent strength that shapes our greatest achievements.",
-      "posted_at": "2026-04-27T16:16:55.486605",
-      "ig_media_id": "18118833031645781",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:55.007216"
-      }
-    },
-    {
-      "id": "day_becoming_better_17_20260428_041429",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 17,
-      "topic": "there's a saying back in my village",
-      "hook_keyword": "discipline",
-      "selected_quote": "In the quiet moments of life, discipline shapes our path, guiding us through uncertainty with steadfast resolve.",
-      "posted_at": "2026-04-28T04:14:29.577370",
-      "ig_media_id": "18149053381482758",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:56.151457"
-      }
-    },
-    {
-      "id": "discipline_rule_19_20260428_041843",
-      "quote_type": "statement",
-      "design_style": "luxury",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 19,
-      "topic": "discipline is remembering what you truly want",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the art of remembering what we truly want, weaving our favorite visions into the fabric of daily life.",
-      "posted_at": "2026-04-28T04:18:43.561377",
-      "ig_media_id": "18079198217553917",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:57.224635"
-      }
-    },
-    {
-      "id": "wake_up_call_18_20260428_042246",
-      "quote_type": "statement",
-      "design_style": "minimal",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 18,
-      "topic": "cristiano ronaldo talks about discipline",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the quiet architect of our lives, shaping dreams into reality through unwavering focus and commitment.",
-      "posted_at": "2026-04-28T04:22:46.929383",
-      "ig_media_id": "18091402642955869",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:13:58.212381"
-      }
-    },
-    {
-      "id": "day_becoming_better_18_20260428_094412",
-      "quote_type": "statement",
-      "design_style": "luxury",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 18,
-      "topic": "if you don't have discipline you are a nobody",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is not a badge of honor; it\u2019s the quiet force that shapes a life of substance and purpose.",
-      "posted_at": "2026-04-28T09:44:12.633963",
-      "ig_media_id": "18085355225613208",
-      "performance": {
-        "saves": 0,
-        "shares": 3,
-        "comments": 0,
-        "likes": 1,
         "score": 10,
-        "fetched_at": "2026-04-29T16:13:59.436619"
+        "fetched_at": "2026-04-29T16:54:50.720590"
       }
     },
     {
-      "id": "discipline_rule_20_20260428_094853",
-      "quote_type": "statement",
-      "design_style": "luxury",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 20,
-      "topic": "1 minute a day",
-      "hook_keyword": "transformation",
-      "selected_quote": "One minute each day can transform the landscape of our lives. It\u2019s not about grand gestures, but the quiet consistency of our efforts.",
-      "posted_at": "2026-04-28T09:48:53.483366",
-      "ig_media_id": "18093660007918757",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:14:00.424792"
-      }
-    },
-    {
-      "id": "wake_up_call_19_20260428_095304",
-      "quote_type": "statement",
-      "design_style": "minimal",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 19,
-      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
-      "hook_keyword": "discipline",
-      "selected_quote": "In the stillness of a focused mind, discipline unfolds like a visual symphony, guiding us through the currents of life towards deeper understanding.",
-      "posted_at": "2026-04-28T09:53:04.598542",
-      "ig_media_id": "18066803135667454",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:14:01.435515"
-      }
-    },
-    {
-      "id": "day_becoming_better_19_20260428_162418",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 19,
-      "topic": "if you don't have discipline you are a nobody",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the quiet foundation upon which a meaningful life is built. It whispers strength in the absence of applause, guiding us through the unseen work that shapes our true selves.",
-      "posted_at": "2026-04-28T16:24:18.655912",
-      "ig_media_id": "18468558121096745",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:14:02.543537"
-      }
-    },
-    {
-      "id": "discipline_rule_21_20260428_162837",
+      "id": "wake_up_call_10_20260425_133420",
       "quote_type": "statement",
       "design_style": "bold",
       "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 21,
-      "topic": "1 minute a day",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline builds through the smallest actions, often taking just a minute each day. In these fleeting moments, we construct the life we desire, brick by brick.",
-      "posted_at": "2026-04-28T16:28:37.198877",
-      "ig_media_id": "18099275105515098",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:14:03.585461"
-      }
-    },
-    {
-      "id": "wake_up_call_20_20260428_163332",
-      "quote_type": "statement",
-      "design_style": "minimal",
-      "format": "reel",
       "series": "wake_up_call",
-      "series_number": 20,
-      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
-      "hook_keyword": "clarity",
-      "selected_quote": "In the quiet moments of stillness, discipline becomes the path through which clarity flows, illuminating the life we seek.",
-      "posted_at": "2026-04-28T16:33:32.001434",
-      "ig_media_id": "18182823019379334",
+      "series_number": 10,
+      "topic": "your laziness has a price",
+      "hook_keyword": "discipline",
+      "selected_quote": "Every moment spent in comfort is a trade-off for the discipline we could be cultivating. True growth often slips through the hands that aren\u2019t willing to embrace the discomfort.",
+      "posted_at": "2026-04-25T13:34:20.665004",
+      "ig_media_id": "18206243224337803",
       "performance": {
         "saves": 0,
         "shares": 0,
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-29T16:14:04.651672"
+        "fetched_at": "2026-04-29T16:54:55.343366"
       }
     },
     {
-      "id": "day_becoming_better_20_20260429_041100",
+      "id": "day_becoming_better_10_20260429_165711",
       "quote_type": "statement",
       "design_style": "minimal",
       "format": "reel",
       "series": "day_becoming_better",
-      "series_number": 20,
-      "topic": "if you don't have discipline you are a nobody",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the quiet foundation upon which a meaningful life is built. It shapes our character and guides our actions, leading to a reality that aligns with our vision.",
-      "posted_at": "2026-04-29T04:11:00.531896",
-      "ig_media_id": "17960315517083081",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:14:05.679754"
-      }
-    },
-    {
-      "id": "discipline_rule_22_20260429_041525",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 22,
-      "topic": "1 minute a day",
-      "hook_keyword": "discipline",
-      "selected_quote": "One minute a day, carved into the fabric of life, can transform intentions into reality. Discipline nurtures growth in the quiet spaces we often overlook.",
-      "posted_at": "2026-04-29T04:15:25.571300",
-      "ig_media_id": "18369427495203946",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:14:06.752913"
-      }
-    },
-    {
-      "id": "wake_up_call_21_20260429_041928",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 21,
-      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the bridge between dreams and reality.",
-      "posted_at": "2026-04-29T04:19:28.863835",
-      "ig_media_id": "18077491214322070",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:14:07.721310"
-      }
-    },
-    {
-      "id": "day_becoming_better_21_20260429_093545",
-      "quote_type": "statement",
-      "design_style": "bold",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 21,
-      "topic": "if you don't have discipline you are a nobody",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the foundation upon which a meaningful life is built. It is the quiet resolve that shapes our greatest achievements, often unseen, but always felt. In a world that values noise, let us remember the power of consistent, thoughtful action.",
-      "posted_at": "2026-04-29T09:35:45.224353",
-      "ig_media_id": "18072128336289034",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:14:08.697185"
-      }
-    },
-    {
-      "id": "discipline_rule_23_20260429_093940",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 23,
-      "topic": "1 minute a day",
-      "hook_keyword": "life",
-      "selected_quote": "One minute a day shapes a life.",
-      "posted_at": "2026-04-29T09:39:40.240736",
-      "ig_media_id": "18096346754027152",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:14:09.788619"
-      }
-    },
-    {
-      "id": "wake_up_call_22_20260429_094359",
-      "quote_type": "statement",
-      "design_style": "luxury",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 22,
-      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
-      "hook_keyword": "discipline",
-      "selected_quote": "In the silence of focused intention, we find the clarity to shape our lives. Discipline is not a burden; it is the gentle guide through chaos, leading us to the depths of our potential.",
-      "posted_at": "2026-04-29T09:43:59.712890",
-      "ig_media_id": "17855157381646196",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-04-29T16:14:10.886817"
-      }
-    },
-    {
-      "id": "day_becoming_better_22_20260429_161523",
-      "quote_type": "statement",
-      "design_style": "dark",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 22,
-      "topic": "akshay kumars powerful time management advice",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the art of managing time wisely, allowing life to unfold without chaos. In every moment of stillness, we find clarity and purpose.",
-      "posted_at": "2026-04-29T16:15:23.242232",
-      "ig_media_id": "18020393696662950",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": null,
-        "fetched_at": null
-      }
-    },
-    {
-      "id": "discipline_rule_24_20260429_161940",
-      "quote_type": "statement",
-      "design_style": "minimal",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 24,
-      "topic": "sometime they need to focus",
-      "hook_keyword": "discipline",
-      "selected_quote": "Discipline is the quiet force that shapes our lives. It is in the moments we focus our energy, when our potential can unfold. Every step taken in stillness builds the path to our future.",
-      "posted_at": "2026-04-29T16:19:40.623346",
-      "ig_media_id": "18099636353073940",
-      "performance": {
-        "saves": 0,
-        "shares": 0,
-        "comments": 0,
-        "likes": 0,
-        "score": null,
-        "fetched_at": null
-      }
-    },
-    {
-      "id": "wake_up_call_23_20260429_162346",
-      "quote_type": "statement",
-      "design_style": "minimal",
-      "format": "reel",
-      "series": "wake_up_call",
-      "series_number": 23,
+      "series_number": 10,
       "topic": "you keep choosing comfort over growth",
       "hook_keyword": "growth",
-      "selected_quote": "Growth requires stepping outside of comfort, where true discipline is forged in the quiet moments. Each choice shapes the life ahead.",
-      "posted_at": "2026-04-29T16:23:46.993739",
-      "ig_media_id": "18115172158688908",
+      "selected_quote": "Choosing comfort over growth is a decision we all face, a soft whisper that distracts us from the deeper call of discipline. Growth often resides in the moments that feel uncomfortable, hidden beneath our fear and doubt.",
+      "posted_at": "2026-04-29T16:57:11.897439",
+      "ig_media_id": "17941749036192557",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_12_20260429_170135",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 12,
+      "topic": "procrastination is self-betrayal",
+      "hook_keyword": "discipline",
+      "selected_quote": "Procrastination is a silent act of self-betrayal; every moment spent in comfort is a moment stolen from our potential.",
+      "posted_at": "2026-04-29T17:01:35.960482",
+      "ig_media_id": "18425187529122352",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_11_20260429_170550",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 11,
+      "topic": "your laziness has a price",
+      "hook_keyword": "discipline",
+      "selected_quote": "Every moment in comfort is a choice that comes at a cost. Discipline is the bridge that leads us to our true potential.",
+      "posted_at": "2026-04-29T17:05:50.253186",
+      "ig_media_id": "18029538374808041",
       "performance": {
         "saves": 0,
         "shares": 0,
@@ -1163,170 +407,8 @@
         "quote_type": "statement",
         "design_style": "luxury",
         "format": "reel",
-        "series": "discipline_rule",
-        "topic": "never be an option",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "bold",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "how to develop self discipline",
-        "hook_keyword": "discipline",
-        "score": 5
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "bold",
-        "format": "reel",
         "series": "day_becoming_better",
-        "topic": "how much does david goggins sleeps",
-        "hook_keyword": "quiet",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "never be an option",
-        "hook_keyword": "life",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "how to develop self discipline",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "how much does david goggins sleeps",
-        "hook_keyword": "discipline",
-        "score": 2
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "never be an option",
-        "hook_keyword": "priority",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "how to develop self discipline",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "how much does david goggins sleeps",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "never be an option",
-        "hook_keyword": "options",
-        "score": 1
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "how to develop self discipline",
-        "hook_keyword": "discipline",
-        "score": 2
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "bold",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "a real man has no hobbies",
-        "hook_keyword": "purpose",
-        "score": 7
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "dark",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "it's gonna be alright",
-        "hook_keyword": "calm",
-        "score": 8
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "bold",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "wake up early",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "a real man has no hobbies",
-        "hook_keyword": "quiet",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "it's gonna be alright",
-        "hook_keyword": "growth",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "wake up early",
-        "hook_keyword": "growth",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "bold",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "a real man has no hobbies",
-        "hook_keyword": "growth",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "bold",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "it's gonna be alright",
+        "topic": "you keep choosing comfort over growth",
         "hook_keyword": "growth",
         "score": 0
       },
@@ -1334,54 +416,9 @@
         "quote_type": "statement",
         "design_style": "dark",
         "format": "reel",
-        "series": "wake_up_call",
-        "topic": "wake up early",
-        "hook_keyword": "quiet",
-        "score": 0
-      },
-      {
-        "quote_type": "contrast",
-        "design_style": "dark",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "david goggins on excuses stop being lazy",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "dark",
-        "format": "reel",
         "series": "discipline_rule",
-        "topic": "one day, it will make sense",
-        "hook_keyword": "purpose",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "dark",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "short motivation 7",
-        "hook_keyword": "discipline",
-        "score": 5
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "david goggins on excuses stop being lazy",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "one day, it will make sense",
-        "hook_keyword": "understanding",
+        "topic": "procrastination is self-betrayal",
+        "hook_keyword": "self-betrayal",
         "score": 0
       },
       {
@@ -1389,321 +426,111 @@
         "design_style": "minimal",
         "format": "reel",
         "series": "wake_up_call",
-        "topic": "short motivation 7",
+        "topic": "your laziness has a price",
         "hook_keyword": "discipline",
         "score": 1
       },
       {
         "quote_type": "statement",
-        "design_style": "minimal",
+        "design_style": "dark",
         "format": "reel",
         "series": "day_becoming_better",
-        "topic": "david goggins on excuses stop being lazy",
+        "topic": "you keep choosing comfort over growth",
         "hook_keyword": "growth",
-        "score": 0
+        "score": 1
       },
       {
         "quote_type": "statement",
         "design_style": "dark",
         "format": "reel",
         "series": "discipline_rule",
-        "topic": "one day, it will make sense",
-        "hook_keyword": "understanding",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "short motivation 7",
-        "hook_keyword": "consistency",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "there's a saying back in my village",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "bold",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "discipline is remembering what you truly want",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "bold",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "cristiano ronaldo talks about discipline",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "there's a saying back in my village",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "dark",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "discipline is remembering what you truly want",
-        "hook_keyword": "discipline",
-        "score": 4
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "cristiano ronaldo talks about discipline",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "dark",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "there's a saying back in my village",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "discipline is remembering what you truly want",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "cristiano ronaldo talks about discipline",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "if you don't have discipline you are a nobody",
-        "hook_keyword": "discipline",
+        "topic": "procrastination is self-betrayal",
+        "hook_keyword": "betrayal",
         "score": 10
       },
       {
         "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "1 minute a day",
-        "hook_keyword": "transformation",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "dark",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "if you don't have discipline you are a nobody",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
         "design_style": "bold",
         "format": "reel",
-        "series": "discipline_rule",
-        "topic": "1 minute a day",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
         "series": "wake_up_call",
-        "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
-        "hook_keyword": "clarity",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "if you don't have discipline you are a nobody",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "dark",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "1 minute a day",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "dark",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "bold",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "if you don't have discipline you are a nobody",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "dark",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "1 minute a day",
-        "hook_keyword": "life",
-        "score": 0
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "luxury",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+        "topic": "your laziness has a price",
         "hook_keyword": "discipline",
         "score": 0
       }
     ],
-    "avoid_topics": [
-      "discipline is remembering what you truly want",
-      "it's gonna be alright",
-      "how much does david goggins sleeps",
-      "david goggins on excuses stop being lazy",
-      "a real man has no hobbies",
-      "there's a saying back in my village",
-      "short motivation 7",
-      "wake up early",
-      "one day, it will make sense",
-      "if you don't have discipline you are a nobody",
-      "cristiano ronaldo talks about discipline",
-      "1 minute a day",
-      "400 hz 410 hz binaural beats for deep theta state meditation focus",
-      "never be an option",
-      "how to develop self discipline"
-    ],
+    "avoid_topics": [],
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 55,
+    "total_posts": 19,
     "by_quote_type": {
       "question": 1,
-      "statement": 53,
-      "contrast": 1
+      "statement": 18
     },
     "by_design_style": {
-      "minimal": 16,
-      "dark": 14,
-      "luxury": 15,
-      "bold": 10
+      "minimal": 4,
+      "dark": 5,
+      "luxury": 6,
+      "bold": 4
     },
     "by_format": {
       "image": 1,
-      "reel": 54
+      "reel": 18
     },
     "by_series": {
-      "discipline_rule": 19,
-      "day_becoming_better": 18,
-      "wake_up_call": 18
+      "discipline_rule": 7,
+      "day_becoming_better": 6,
+      "wake_up_call": 6
     },
-    "top_performing_series": "day_becoming_better"
+    "top_performing_series": "discipline_rule"
   },
   "prompt_hints": {
     "best_hooks": [],
     "best_quote_types": [],
     "avoid_phrases": [
-      "In the quiet moments of night,",
-      "To be more than an option in l",
-      "Discipline is the bridge betwe",
-      "In the quiet hours of the nigh",
-      "In life, we must make a choice",
-      "Discipline is the art of keepi",
-      "Discipline is the bridge betwe",
-      "To be anything less than a pri",
-      "Discipline is the quiet commit",
-      "Discipline isn't measured by t"
+      "Growth flourishes where discom",
+      "Procrastination is a quiet act",
+      "Every moment spent in comfort ",
+      "Growth thrives beyond the edge",
+      "Procrastination is a quiet act",
+      "Every moment spent in comfort "
     ]
   },
-  "last_upgraded": "2026-04-29T16:14:10.896007",
+  "last_upgraded": "2026-04-29T16:54:55.500607",
   "competitor_hints": {
     "top_hooks": [
-      "Improve not prove \u274c",
       "Follow selfelevatepro for daily discipline",
-      "Average Natural \ud83c\uddee\ud83c\uddf3 Aesthetics \ud83e\uddec \ud83e\udd8d",
+      "New rule \u203c\ufe0f\u203c\ufe0f\u203c\ufe0f\u203c\ufe0f no looking back anymore!",
       "Save this post as a guide and share it with a friend \u2705",
       "Thomas Shelby vibes only.",
-      "Gowrav Reddy \ud83d\uddffVs Saitama \ud83d\udc80",
       "\u0907\u0938 \u092b\u093c\u0930\u0935\u0930\u0940 \u0924\u0941\u092e\u094d\u0939\u0947\u0902 \u0928\u0939\u0940\u0902\u2026 \u0924\u0941\u092e\u094d\u0939\u093e\u0930\u0940 \u0906\u0926\u0924\u094b\u0902 \u0915\u094b \u092c\u0926\u0932\u0928\u093e \u0939\u0948\u0964",
       "I became UNSTOPPABLE \u2193",
-      "Drop two \u2764 if you needed to see this!",
-      "Double tap to agree \ud83d\udc46"
+      "This is an everyday battle \u2694\ufe0f\ud83d\udd25",
+      "B A D B O Y Z : Big Brother \ud83e\udec2",
+      "I went quiet for a week.",
+      "Most men break once."
     ],
     "power_words": [
       "follow",
-      "discipline",
       "life",
-      "post",
-      "share",
+      "discipline",
+      "wolveinstinct",
       "every",
-      "let",
-      "know",
-      "save",
-      "his",
-      "turn",
-      "never",
       "content",
-      "earning",
-      "self",
-      "isn",
-      "without",
-      "yourself",
-      "daily",
-      "notifications"
+      "time",
+      "social",
+      "media",
+      "let",
+      "transform",
+      "don",
+      "post",
+      "weekly",
+      "link",
+      "his",
+      "hit",
+      "share",
+      "never",
+      "earning"
     ],
     "winning_structures": [
       "statement",
@@ -1712,7 +539,276 @@
       "contrast",
       "question"
     ],
-    "benchmark_engagement": 10913.0,
-    "updated_at": "2026-04-29T16:13:13.210982"
-  }
+    "benchmark_engagement": 9958.0,
+    "updated_at": "2026-04-29T16:54:12.127293"
+  },
+  "creator_profiles": [
+    {
+      "display_name": "ai | business | motivation",
+      "appearances": 2,
+      "avg_engagement": 11346,
+      "top_engagement": 15975,
+      "dominant_structure": "command",
+      "dominant_length": "long",
+      "sample_hooks": [
+        "Save this post as a guide and share it with a friend \u2705",
+        "Save this post as a guide and share it with a friend \u2705"
+      ],
+      "power_words": [
+        "post",
+        "never",
+        "earning",
+        "tip",
+        "follow",
+        "save",
+        "guide",
+        "share"
+      ]
+    },
+    {
+      "display_name": "self elevate pro&#x2122;",
+      "appearances": 3,
+      "avg_engagement": 10703,
+      "top_engagement": 23174,
+      "dominant_structure": "statement",
+      "dominant_length": "medium",
+      "sample_hooks": [
+        "Follow selfelevatepro for daily discipline",
+        "That one random night where everything changed.",
+        "Follow selfelevatepro for daily discipline"
+      ],
+      "power_words": [
+        "follow",
+        "selfelevatepro",
+        "daily",
+        "discipline",
+        "random",
+        "night",
+        "everything",
+        "changed"
+      ]
+    },
+    {
+      "display_name": "alphaadvice &#x1f48e;",
+      "appearances": 2,
+      "avg_engagement": 7970,
+      "top_engagement": 8250,
+      "dominant_structure": "statement",
+      "dominant_length": "long",
+      "sample_hooks": [
+        "Most men break once.",
+        "Sloppiness is a disease."
+      ],
+      "power_words": [
+        "without",
+        "once",
+        "standards",
+        "lose",
+        "control",
+        "men",
+        "break",
+        "spend"
+      ]
+    },
+    {
+      "display_name": "deeply thinking | &#x1f9e0;",
+      "appearances": 6,
+      "avg_engagement": 7948,
+      "top_engagement": 16960,
+      "dominant_structure": "statement",
+      "dominant_length": "long",
+      "sample_hooks": [
+        "Follow \ud83d\udc49 we.think.deeply we.think.deeply we.think.deeply",
+        "Follow \ud83d\udc49 we.think.deeply \ud83e\udd0d"
+      ],
+      "power_words": [
+        "think",
+        "deeply",
+        "words",
+        "art",
+        "follow",
+        "space",
+        "emotion",
+        "meets"
+      ]
+    },
+    {
+      "display_name": "wisetality",
+      "appearances": 9,
+      "avg_engagement": 6045,
+      "top_engagement": 11265,
+      "dominant_structure": "statement",
+      "dominant_length": "long",
+      "sample_hooks": [
+        "I became UNSTOPPABLE \u2193",
+        "This is an everyday battle \u2694\ufe0f\ud83d\udd25",
+        "Whats your cause?"
+      ],
+      "power_words": [
+        "life",
+        "wolveinstinct",
+        "every",
+        "social",
+        "media",
+        "follow",
+        "weekly",
+        "content"
+      ]
+    },
+    {
+      "display_name": "pj milani | visual teacher",
+      "appearances": 20,
+      "avg_engagement": 5709,
+      "top_engagement": 17145,
+      "dominant_structure": "statement",
+      "dominant_length": "long",
+      "sample_hooks": [
+        "Visual Weekend Roundup illustrated by me \ud83d\ude0a",
+        "Comment \u201cSMARTER\u201d to subscribe to my free Visual IDEAs newsletter."
+      ],
+      "power_words": [
+        "visual",
+        "weekend",
+        "roundup",
+        "illustrated",
+        "favorite",
+        "ideas",
+        "writing",
+        "avoid"
+      ]
+    },
+    {
+      "display_name": "lisa nichols | impact speaker",
+      "appearances": 8,
+      "avg_engagement": 5357,
+      "top_engagement": 7206,
+      "dominant_structure": "statement",
+      "dominant_length": "long",
+      "sample_hooks": [
+        "\u2063No one else has to get your vision because God did not give your vision to anyone else BUT YOU.\u2800",
+        "\u2063I\u2019m tearing up as I even proceed to write this\u2026.\u2800",
+        "\u2063Self-care is your responsibility to your future and it\u2019s so much bigger than getting your nails don"
+      ],
+      "power_words": [
+        "resiliency",
+        "care",
+        "years",
+        "ago",
+        "working",
+        "self",
+        "life",
+        "ever"
+      ]
+    },
+    {
+      "display_name": "aditya patel",
+      "appearances": 4,
+      "avg_engagement": 5051,
+      "top_engagement": 7023,
+      "dominant_structure": "statement",
+      "dominant_length": "medium",
+      "sample_hooks": [
+        "\ud83d\udcaf \u0935\u093e\u0926\u0947 \u0928\u0939\u0940\u0902, \u092a\u0930\u093f\u0923\u093e\u092e \u092c\u094b\u0932\u0924\u0947 \u0939\u0948\u0902\u0964 \ud83d\udc4d"
+      ],
+      "power_words": [
+        "govind",
+        "selected",
+        "rrb",
+        "group",
+        "maths",
+        "reasoning"
+      ]
+    },
+    {
+      "display_name": "citati o osna&#x17e;ivanju &#x17e;ena i motivacija",
+      "appearances": 2,
+      "avg_engagement": 4254,
+      "top_engagement": 5021,
+      "dominant_structure": "statement",
+      "dominant_length": "long",
+      "sample_hooks": [
+        "Ljubav prema sebi ne dolazi kao uzbu\u0111enje koje te izbaci iz ravnote\u017ee.",
+        "Niko ne zna tvoju pri\u010du onako kako je ti zna\u0161."
+      ],
+      "power_words": [
+        "kada",
+        "dolazi",
+        "nije",
+        "tvoje",
+        "spolja",
+        "daje",
+        "niko",
+        "zna"
+      ]
+    },
+    {
+      "display_name": "stoic &#x2022; philosophy &#x2022; mindset",
+      "appearances": 6,
+      "avg_engagement": 2458,
+      "top_engagement": 5305,
+      "dominant_structure": "statement",
+      "dominant_length": "long",
+      "sample_hooks": [
+        "\ud83e\udde0 Max out your stats.",
+        "\ud83e\udde0 How to fall in love with your 9-to-5 in 2026.",
+        "The End of the \u201cNice Guy\u201d Era Starts Now."
+      ],
+      "power_words": [
+        "body",
+        "days",
+        "free",
+        "before",
+        "max",
+        "stats",
+        "stay",
+        "average",
+        "men",
+        "nice"
+      ]
+    },
+    {
+      "display_name": "carola mowe",
+      "appearances": 6,
+      "avg_engagement": 2118,
+      "top_engagement": 3163,
+      "dominant_structure": "statement",
+      "dominant_length": "long",
+      "sample_hooks": [
+        "\ud83d\udea8 STOPP\u2026 das hier musst du lesen.",
+        "\ud83d\udc96 Guten Morgen,"
+      ],
+      "power_words": [
+        "dich",
+        "mehr",
+        "morgen",
+        "andere",
+        "sehen",
+        "gro",
+        "jeden",
+        "kleinen"
+      ]
+    },
+    {
+      "display_name": "mathiazhagan d",
+      "appearances": 4,
+      "avg_engagement": 1967,
+      "top_engagement": 2682,
+      "dominant_structure": "statement",
+      "dominant_length": "medium",
+      "sample_hooks": [
+        "\u2705 MONDAY \u2705 MY DAY \u2705 MATHI DAY \u2705",
+        "\u2705 MONDAY MY DAY MATHI DAY \u2705"
+      ],
+      "power_words": [
+        "day",
+        "monday",
+        "mathi",
+        "excuses",
+        "discipline",
+        "new",
+        "week",
+        "hunger"
+      ]
+    }
+  ]
 }

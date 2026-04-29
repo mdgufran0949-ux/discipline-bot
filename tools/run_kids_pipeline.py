@@ -246,11 +246,12 @@ def run_kids_pipeline(count: int = 1, topic: str = None,
     safety_fails  = 0
     videos_done   = 0
 
-    # Step 0: Daily review (self-improvement loop)
+    # Step 0: Daily review (self-improvement loop) — force=True so it always
+    # runs regardless of 24h throttle (GitHub Actions schedule drifts ~2h/day)
     if daily_review is not None:
         try:
             print("[0] Daily review (self-improvement)...", flush=True)
-            daily_review(KIDS_ACCOUNT)
+            daily_review(KIDS_ACCOUNT, force=True)
         except Exception as e:
             print(f"  [WARN] daily review failed: {e}", flush=True)
 

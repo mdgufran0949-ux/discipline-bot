@@ -20,6 +20,12 @@ load_dotenv()
 TMP         = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".tmp"))
 OUTPUT_FILE = os.path.join(TMP, "documentary_script.json")
 
+def resolve_output_file(out_dir: str | None) -> str:
+    if out_dir:
+        os.makedirs(out_dir, exist_ok=True)
+        return os.path.join(out_dir, "script.json")
+    return OUTPUT_FILE
+
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_BASE    = "https://api.groq.com/openai/v1"
 MODEL        = "llama-3.3-70b-versatile"
@@ -28,7 +34,22 @@ SYSTEM = """You are a master documentary scriptwriter for Hindi YouTube.
 You write deeply researched, cinematic, emotionally engaging scripts
 in the tradition of National Geographic and BBC Documentaries — but in Hindi.
 Every sentence is vivid, factual, and pulls the viewer deeper.
-You never use filler. Every word earns its place."""
+You never use filler. Every word earns its place.
+
+You also write image prompts like a top Hollywood cinematographer.
+Every prompt specifies: camera body, lens, lighting, film stock, era-accurate
+details, and composition — like a real shot list for a documentary."""
+
+# Cinematic suffix appended to every image_prompt so the LLM cannot skip it.
+# Drives Imagen 3 / FLUX toward "real historical photograph" look, not AI slop.
+STYLE_SUFFIX = (
+    ", shot on ARRI Alexa 65, 85mm f/1.4 lens, shallow depth of field, "
+    "golden hour dramatic chiaroscuro lighting, dust-filtered sunbeams, "
+    "sepia-toned wet plate collodion photograph aesthetic, "
+    "Kodak Portra 400 film grain, period-accurate clothing and architecture, "
+    "correct human anatomy, detailed hands, National Geographic photojournalism, "
+    "ultra-detailed, 8k, photorealistic, no modern elements, no text, no watermark"
+)
 
 PROMPT = """विषय (Topic): {topic}
 
@@ -36,14 +57,23 @@ PROMPT = """विषय (Topic): {topic}
 
 प्रत्येक scene में होगा:
 1. Hindi narration: 3-5 sentences, 35-55 words, cinematic + factual tone
-2. English image_prompt: detailed photorealistic historical scene description
+2. English image_prompt: written as a cinematographer's shot description
 3. pan: one of "zoom_in", "zoom_out", "pan_left", "pan_right" (alternate them)
 
-Image prompt rules:
-- Photorealistic historical accuracy
-- Include: lighting, architecture, people, atmosphere, time of day
-- Always end with: "cinematic lighting, ultra-detailed, photorealistic, historical painting style"
-- No modern elements
+IMAGE PROMPT RULES (follow every one — this is critical for quality):
+- Open with the SPECIFIC SCENE: subject, action, location, time of day.
+  Example: "Wide establishing shot of Shahjahanabad Delhi at dawn, Red Fort's
+  massive red sandstone walls rising above the Yamuna river..."
+- Include these elements, always:
+  * Era-specific architecture with material details (sandstone, marble jali, etc.)
+  * Humans in period-accurate dress (angarkha, shalwar, turbans, armor)
+  * Atmosphere (dust haze, mist, torchlight, monsoon rain)
+  * Time of day + light direction (golden hour, blue hour, high noon)
+- DO NOT say "photorealistic historical painting style" — that's generic AI slop.
+  Instead say "sepia wet plate collodion photograph, 1870s albumen print"
+  or "Kodak Portra 400 documentary photograph, warm amber grade".
+- NO modern elements (cars, phones, plastic, digital clocks, street signs in English).
+- NO cartoon, no anime, no illustration. Always photorealistic historical photograph.
 
 Return ONLY valid JSON (no markdown, no explanation):
 {{
@@ -53,17 +83,21 @@ Return ONLY valid JSON (no markdown, no explanation):
   "scenes": [
     {{
       "scene_num": 1,
-      "narration": "Hindi narration text...",
-      "image_prompt": "English image generation prompt, cinematic lighting, ultra-detailed, photorealistic, historical painting style",
+      "narration": "Hindi narration text — 35-55 words, 3-5 sentences",
+      "image_prompt": "Cinematographer's shot description — specific subject, location, era-accurate details, lighting",
       "pan": "zoom_in"
     }}
   ],
   "caption": "YouTube/Instagram caption in Hindi with 8 relevant hashtags",
   "youtube_description": "200-word Hindi description with historical context"
-}}"""
+}}
+
+Do NOT append camera/lens/film-stock language yourself — the pipeline appends
+a standardized cinematic suffix to every image_prompt. Your job is to write
+the SCENE-SPECIFIC part only."""
 
 
-def generate_script(topic: str) -> dict:
+def generate_script(topic: str, out_dir: str | None = None) -> dict:
     if not GROQ_API_KEY:
         raise ValueError("GROQ_API_KEY not found in .env — get free key at console.groq.com")
 
@@ -88,19 +122,21 @@ def generate_script(topic: str) -> dict:
                 print(f"  Too few scenes ({len(data.get('scenes', []))}), retrying...", flush=True)
                 continue
 
-            # Annotate word counts
+            # Append cinematic suffix + annotate word counts
             for s in data["scenes"]:
-                s["word_count"] = len(s["narration"].split())
+                prompt_text = (s.get("image_prompt") or "").strip().rstrip(".,;")
+                s["image_prompt"] = prompt_text + STYLE_SUFFIX
+                s["word_count"]   = len(s["narration"].split())
 
             data["total_words"]  = sum(s["word_count"] for s in data["scenes"])
             data["total_scenes"] = len(data["scenes"])
 
-            os.makedirs(TMP, exist_ok=True)
-            with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            out_file = resolve_output_file(out_dir)
+            with open(out_file, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
 
             print(f"  [OK] {data['total_scenes']} scenes, {data['total_words']} words", flush=True)
-            print(f"  [OK] Saved: {OUTPUT_FILE}", flush=True)
+            print(f"  [OK] Saved: {out_file}", flush=True)
             return data
 
         except json.JSONDecodeError as e:
@@ -114,9 +150,18 @@ def generate_script(topic: str) -> dict:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print('Usage: python tools/generate_documentary_script.py "1800 की दिल्ली"')
+    args    = sys.argv[1:]
+    out_dir = None
+
+    if "--out-dir" in args:
+        idx     = args.index("--out-dir")
+        out_dir = args[idx + 1]
+        args    = [a for i, a in enumerate(args) if i not in (idx, idx + 1)]
+
+    if not args:
+        print('Usage: python tools/generate_documentary_script.py "1800 की दिल्ली" [--out-dir .tmp/insmind_documentary]')
         sys.exit(1)
-    topic  = " ".join(sys.argv[1:])
-    result = generate_script(topic)
+
+    topic  = " ".join(args)
+    result = generate_script(topic, out_dir=out_dir)
     print(json.dumps(result, ensure_ascii=False, indent=2))

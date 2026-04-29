@@ -394,13 +394,13 @@ def generate_discipline_quote(
         if top_creators:
             hints_str += "\n\nTOP CREATORS IN THIS NICHE (accounts that consistently land in the top posts — study their patterns):"
             for c in top_creators[:4]:
-                uname    = c.get("username", "?")
+                uname    = c.get("display_name") or c.get("username", "?")
                 avg_eng  = c.get("avg_engagement", 0)
                 struct   = c.get("dominant_structure", "?")
                 length   = c.get("dominant_length", "?")
                 hooks    = c.get("sample_hooks") or []
                 words    = c.get("power_words") or []
-                hints_str += f"\n  @{uname} (~{avg_eng:,} avg engagement): {struct} structure, {length} quotes"
+                hints_str += f"\n  {uname} (~{avg_eng:,} avg engagement): {struct} structure, {length} quotes"
                 if hooks:
                     hints_str += f'\n    Best hook: "{hooks[0][:90]}"'
                 if words:

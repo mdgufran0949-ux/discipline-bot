@@ -45,3 +45,6 @@ venv/
 # ── Windows ───────────────────────────────────────────────────────
 Thumbs.db
 desktop.ini
+
+# ── Clipper project outputs ────────────────────────────────────────
+clipper/projects/
