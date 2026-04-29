@@ -1028,6 +1028,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_21_20260429_093545",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 21,
+      "topic": "if you don't have discipline you are a nobody",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the foundation upon which a meaningful life is built. It is the quiet resolve that shapes our greatest achievements, often unseen, but always felt. In a world that values noise, let us remember the power of consistent, thoughtful action.",
+      "posted_at": "2026-04-29T09:35:45.224353",
+      "ig_media_id": "18072128336289034",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_23_20260429_093940",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 23,
+      "topic": "1 minute a day",
+      "hook_keyword": "life",
+      "selected_quote": "One minute a day shapes a life.",
+      "posted_at": "2026-04-29T09:39:40.240736",
+      "ig_media_id": "18096346754027152",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_22_20260429_094359",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 22,
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "hook_keyword": "discipline",
+      "selected_quote": "In the silence of focused intention, we find the clarity to shape our lives. Discipline is not a burden; it is the gentle guide through chaos, leading us to the depths of our potential.",
+      "posted_at": "2026-04-29T09:43:59.712890",
+      "ig_media_id": "17855157381646196",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -1402,26 +1465,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 49,
+    "total_posts": 52,
     "by_quote_type": {
       "question": 1,
-      "statement": 47,
+      "statement": 50,
       "contrast": 1
     },
     "by_design_style": {
       "minimal": 14,
-      "dark": 12,
-      "luxury": 14,
-      "bold": 9
+      "dark": 13,
+      "luxury": 15,
+      "bold": 10
     },
     "by_format": {
       "image": 1,
-      "reel": 48
+      "reel": 51
     },
     "by_series": {
-      "discipline_rule": 17,
-      "day_becoming_better": 16,
-      "wake_up_call": 16
+      "discipline_rule": 18,
+      "day_becoming_better": 17,
+      "wake_up_call": 17
     },
     "top_performing_series": "discipline_rule"
   },

@@ -832,6 +832,57 @@
       "predicted": "high",
       "posted_at": "2026-04-29T04:19:28.863835",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_21_20260429_093545",
+      "ig_media_id": "18072128336289034",
+      "permalink": "https://www.instagram.com/reel/DXtfLWiCnBo/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 21,
+      "content_series": "Day 21 of Becoming Better",
+      "topic": "if you don't have discipline you are a nobody",
+      "selected_quote": "Discipline is the foundation upon which a meaningful life is built. It is the quiet resolve that shapes our greatest achievements, often unseen, but always felt. In a world that values noise, let us remember the power of consistent, thoughtful action.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-04-29T09:35:45.224353",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_23_20260429_093940",
+      "ig_media_id": "18096346754027152",
+      "permalink": "https://www.instagram.com/reel/DXtfqPsDS0y/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 23,
+      "content_series": "Discipline Rule #23",
+      "topic": "1 minute a day",
+      "selected_quote": "One minute a day shapes a life.",
+      "quote_type": "statement",
+      "hook_keyword": "life",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-29T09:39:40.240736",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_22_20260429_094359",
+      "ig_media_id": "17855157381646196",
+      "permalink": "https://www.instagram.com/reel/DXtgJS8jtK6/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 22,
+      "content_series": "Wake Up Call #22",
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "selected_quote": "In the silence of focused intention, we find the clarity to shape our lives. Discipline is not a burden; it is the gentle guide through chaos, leading us to the depths of our potential.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-29T09:43:59.712890",
+      "dry_run": false
     }
   ]
 }
