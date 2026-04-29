@@ -781,6 +781,57 @@
       "predicted": "high",
       "posted_at": "2026-04-28T16:33:32.001434",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_20_20260429_041100",
+      "ig_media_id": "17960315517083081",
+      "permalink": "https://www.instagram.com/reel/DXs6BTrCNBc/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 20,
+      "content_series": "Day 20 of Becoming Better",
+      "topic": "if you don't have discipline you are a nobody",
+      "selected_quote": "Discipline is the quiet foundation upon which a meaningful life is built. It shapes our character and guides our actions, leading to a reality that aligns with our vision.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-29T04:11:00.531896",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_22_20260429_041525",
+      "ig_media_id": "18369427495203946",
+      "permalink": "https://www.instagram.com/reel/DXs6h91jha6/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 22,
+      "content_series": "Discipline Rule #22",
+      "topic": "1 minute a day",
+      "selected_quote": "One minute a day, carved into the fabric of life, can transform intentions into reality. Discipline nurtures growth in the quiet spaces we often overlook.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-29T04:15:25.571300",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_21_20260429_041928",
+      "ig_media_id": "18077491214322070",
+      "permalink": "https://www.instagram.com/reel/DXs6_oMIHeX/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 21,
+      "content_series": "Wake Up Call #21",
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "selected_quote": "Discipline is the bridge between dreams and reality.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-29T04:19:28.863835",
+      "dry_run": false
     }
   ]
 }

@@ -965,6 +965,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_20_20260429_041100",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 20,
+      "topic": "if you don't have discipline you are a nobody",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the quiet foundation upon which a meaningful life is built. It shapes our character and guides our actions, leading to a reality that aligns with our vision.",
+      "posted_at": "2026-04-29T04:11:00.531896",
+      "ig_media_id": "17960315517083081",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_22_20260429_041525",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 22,
+      "topic": "1 minute a day",
+      "hook_keyword": "discipline",
+      "selected_quote": "One minute a day, carved into the fabric of life, can transform intentions into reality. Discipline nurtures growth in the quiet spaces we often overlook.",
+      "posted_at": "2026-04-29T04:15:25.571300",
+      "ig_media_id": "18369427495203946",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_21_20260429_041928",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 21,
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the bridge between dreams and reality.",
+      "posted_at": "2026-04-29T04:19:28.863835",
+      "ig_media_id": "18077491214322070",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -1339,26 +1402,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 46,
+    "total_posts": 49,
     "by_quote_type": {
       "question": 1,
-      "statement": 44,
+      "statement": 47,
       "contrast": 1
     },
     "by_design_style": {
-      "minimal": 13,
-      "dark": 10,
+      "minimal": 14,
+      "dark": 12,
       "luxury": 14,
       "bold": 9
     },
     "by_format": {
       "image": 1,
-      "reel": 45
+      "reel": 48
     },
     "by_series": {
-      "discipline_rule": 16,
-      "day_becoming_better": 15,
-      "wake_up_call": 15
+      "discipline_rule": 17,
+      "day_becoming_better": 16,
+      "wake_up_call": 16
     },
     "top_performing_series": "discipline_rule"
   },
