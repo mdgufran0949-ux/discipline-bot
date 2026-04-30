@@ -398,6 +398,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_11_20260430_041244",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 11,
+      "topic": "akshay kumars powerful time management advice",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline shapes our days, transforming fleeting moments into a life of purpose and intention.",
+      "posted_at": "2026-04-30T04:12:44.096928",
+      "ig_media_id": "17878514622436492",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_13_20260430_041731",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 13,
+      "topic": "how much does david goggins sleeps",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline doesn\u2019t require the absence of sleep; it thrives in the choices we make while awake, guiding our every thought and action.",
+      "posted_at": "2026-04-30T04:17:31.742964",
+      "ig_media_id": "18190371988370866",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_12_20260430_042139",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 12,
+      "topic": "how to develop self discipline",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the quiet commitment to show up, even when the excitement fades. It is this steady resolve that transforms moments into a life of purpose.",
+      "posted_at": "2026-04-30T04:21:39.063807",
+      "ig_media_id": "18089939621462361",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -462,25 +525,25 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 19,
+    "total_posts": 22,
     "by_quote_type": {
       "question": 1,
-      "statement": 18
+      "statement": 21
     },
     "by_design_style": {
-      "minimal": 4,
+      "minimal": 7,
       "dark": 5,
       "luxury": 6,
       "bold": 4
     },
     "by_format": {
       "image": 1,
-      "reel": 18
+      "reel": 21
     },
     "by_series": {
-      "discipline_rule": 7,
-      "day_becoming_better": 6,
-      "wake_up_call": 6
+      "discipline_rule": 8,
+      "day_becoming_better": 7,
+      "wake_up_call": 7
     },
     "top_performing_series": "discipline_rule"
   },

@@ -1070,6 +1070,57 @@
       "predicted": "high",
       "posted_at": "2026-04-29T16:23:46.993739",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_11_20260430_041244",
+      "ig_media_id": "17878514622436492",
+      "permalink": "https://www.instagram.com/reel/DXvfBYVlUNT/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 11,
+      "content_series": "Day 11 of Becoming Better",
+      "topic": "akshay kumars powerful time management advice",
+      "selected_quote": "Discipline shapes our days, transforming fleeting moments into a life of purpose and intention.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-30T04:12:44.096928",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_13_20260430_041731",
+      "ig_media_id": "18190371988370866",
+      "permalink": "https://www.instagram.com/reel/DXvfkY5j9Mr/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 13,
+      "content_series": "Discipline Rule #13",
+      "topic": "how much does david goggins sleeps",
+      "selected_quote": "Discipline doesn\u2019t require the absence of sleep; it thrives in the choices we make while awake, guiding our every thought and action.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-30T04:17:31.742964",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_12_20260430_042139",
+      "ig_media_id": "18089939621462361",
+      "permalink": "https://www.instagram.com/reel/DXvgCTAjIXx/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 12,
+      "content_series": "Wake Up Call #12",
+      "topic": "how to develop self discipline",
+      "selected_quote": "Discipline is the quiet commitment to show up, even when the excitement fades. It is this steady resolve that transforms moments into a life of purpose.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-04-30T04:21:39.063807",
+      "dry_run": false
     }
   ]
 }
