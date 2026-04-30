@@ -461,6 +461,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_12_20260430_093552",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 12,
+      "topic": "akshay kumars powerful time management advice",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the bridge between goals and accomplishment, a quiet force that shapes our lives with every passing day, as we follow the rhythm of consistency and let life unfold with purpose.",
+      "posted_at": "2026-04-30T09:35:52.609563",
+      "ig_media_id": "17935368903057805",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_14_20260430_094024",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 14,
+      "topic": "how much does david goggins sleeps",
+      "hook_keyword": "quiet",
+      "selected_quote": "Four and a half hours of sleep is not a badge of cruelty, it is the quiet proof that a body can renegotiate comfort when the mind has already chosen the bigger picture.",
+      "posted_at": "2026-04-30T09:40:24.192872",
+      "ig_media_id": "18098834975048980",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_13_20260430_094521",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 13,
+      "topic": "how to develop self discipline",
+      "hook_keyword": "quiet",
+      "selected_quote": "Discipline is the quiet art of returning to the work even when the room is empty, the applause is gone, and the only witness is the ticking second hand on the wall. In those honest minutes, a life is carved, not announced.",
+      "posted_at": "2026-04-30T09:45:21.364975",
+      "ig_media_id": "18079136810411741",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -525,25 +588,25 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 22,
+    "total_posts": 25,
     "by_quote_type": {
       "question": 1,
-      "statement": 21
+      "statement": 24
     },
     "by_design_style": {
-      "minimal": 7,
-      "dark": 5,
+      "minimal": 8,
+      "dark": 7,
       "luxury": 6,
       "bold": 4
     },
     "by_format": {
       "image": 1,
-      "reel": 21
+      "reel": 24
     },
     "by_series": {
-      "discipline_rule": 8,
-      "day_becoming_better": 7,
-      "wake_up_call": 7
+      "discipline_rule": 9,
+      "day_becoming_better": 8,
+      "wake_up_call": 8
     },
     "top_performing_series": "discipline_rule"
   },
