@@ -1172,6 +1172,57 @@
       "predicted": "high",
       "posted_at": "2026-04-30T09:45:21.364975",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_13_20260430_160045",
+      "ig_media_id": "17948026734150441",
+      "permalink": "https://www.instagram.com/reel/DXwwC80CRdw/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 13,
+      "content_series": "Day 13 of Becoming Better",
+      "topic": "akshay kumars powerful time management advice",
+      "selected_quote": "Discipline is the bridge that connects our intentions to our actions, and it's in the quiet moments that we build the strength to follow through on our commitments, every day, in every aspect of life.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-04-30T16:00:45.501873",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_15_20260430_160447",
+      "ig_media_id": "18130471147563304",
+      "permalink": "https://www.instagram.com/reel/DXwwg2zG_wc/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 15,
+      "content_series": "Discipline Rule #15",
+      "topic": "how much does david goggins sleeps",
+      "selected_quote": "Discipline is not about the hours we sleep, but the hours we dedicate to our craft, and in that dedication, we find true rest and fulfillment in life.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-04-30T16:04:47.270612",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_14_20260430_160858",
+      "ig_media_id": "17960210703114905",
+      "permalink": "https://www.instagram.com/reel/DXww-9MCi7L/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 14,
+      "content_series": "Wake Up Call #14",
+      "topic": "how to develop self discipline",
+      "selected_quote": "Discipline is the quiet foundation upon which a life of purpose is built",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-04-30T16:08:58.261988",
+      "dry_run": false
     }
   ]
 }

@@ -524,6 +524,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_13_20260430_160045",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 13,
+      "topic": "akshay kumars powerful time management advice",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the bridge that connects our intentions to our actions, and it's in the quiet moments that we build the strength to follow through on our commitments, every day, in every aspect of life.",
+      "posted_at": "2026-04-30T16:00:45.501873",
+      "ig_media_id": "17948026734150441",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_15_20260430_160447",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 15,
+      "topic": "how much does david goggins sleeps",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is not about the hours we sleep, but the hours we dedicate to our craft, and in that dedication, we find true rest and fulfillment in life.",
+      "posted_at": "2026-04-30T16:04:47.270612",
+      "ig_media_id": "18130471147563304",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_14_20260430_160858",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 14,
+      "topic": "how to develop self discipline",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the quiet foundation upon which a life of purpose is built",
+      "posted_at": "2026-04-30T16:08:58.261988",
+      "ig_media_id": "17960210703114905",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -588,25 +651,25 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 25,
+    "total_posts": 28,
     "by_quote_type": {
       "question": 1,
-      "statement": 24
+      "statement": 27
     },
     "by_design_style": {
       "minimal": 8,
-      "dark": 7,
-      "luxury": 6,
-      "bold": 4
+      "dark": 8,
+      "luxury": 7,
+      "bold": 5
     },
     "by_format": {
       "image": 1,
-      "reel": 24
+      "reel": 27
     },
     "by_series": {
-      "discipline_rule": 9,
-      "day_becoming_better": 8,
-      "wake_up_call": 8
+      "discipline_rule": 10,
+      "day_becoming_better": 9,
+      "wake_up_call": 9
     },
     "top_performing_series": "discipline_rule"
   },
