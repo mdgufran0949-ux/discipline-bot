@@ -155,11 +155,23 @@
       "duration_seconds": 35.0,
       "upload_timestamp": "2026-04-28T06:31:55.913855",
       "title": "Animals For Kids #Shorts"
+    },
+    {
+      "video_id": "arRjVJttPtQ",
+      "yt_video_id": "arRjVJttPtQ",
+      "url": "https://youtube.com/shorts/arRjVJttPtQ",
+      "topic": "Learn Alphabet with Animals #short #shorts #kidslearning #alphabets",
+      "category": "animals",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 44.0,
+      "upload_timestamp": "2026-04-30T06:33:18.283770",
+      "title": "ABC Animals Cartoon for Preschool - Learn Letters with Biscuit & Zara! #Shorts"
     }
   ],
   "safety_fails": [],
   "stats": {
-    "total_uploaded": 13,
+    "total_uploaded": 14,
     "total_safety_fails": 0
   }
 }

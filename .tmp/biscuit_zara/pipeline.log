@@ -1,0 +1,143 @@
+[0] Daily review (self-improvement)...
+
+=======================================================
+  DAILY REVIEW: biscuit_zara
+=======================================================
+[biscuit_zara] Fetching metrics for 4 posts...
+  [OK] 1tmXmr5fX8c: score=0
+  [OK] 8G7jQP2o6bY: score=0
+  [OK] SZbKA5uvqGA: score=1
+  [OK] o6f6UmVroSg: score=0
+[biscuit_zara] Saved 4 records to /home/runner/work/discipline-bot/discipline-bot/.tmp/biscuit_zara/performance.json
+[biscuit_zara] Patterns rebuilt. strong=0 weak=4 avoid_topics=0
+[biscuit_zara] Strategy report saved: /home/runner/work/discipline-bot/discipline-bot/.tmp/biscuit_zara/strategy_report.json
+[biscuit_zara] Review complete.
+[1] Fetching trending kids topics...
+Scanning YouTube kids hashtags...
+  [#kidslearning] 10 titles
+  [#nurseryrhymes] 1 titles
+  [#animalsforchildren] 12 titles
+Checking Google Trends...
+
+[OK] Best kids topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs
+  [OK] 10 topics fetched
+
+[AUTH] Authenticating YouTube...
+  [OK] YouTube ready
+
+  [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs
+  [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs
+  [SKIP] Duplicate topic: Monster Song | Nursery Rhymes & Kids Songs | Happy Tots #nurseryrhymes #childrensongs
+  [SKIP] Duplicate topic: Animal Learning Game for Toddlers | Animals for Kids #shorts #farmanimals #kktv
+  [SKIP] Duplicate topic: Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs
+  [SKIP] Duplicate topic: Iam a horse  #kidslearning #animal  #horse  #farmanimals
+  [SKIP] Duplicate topic: The Animal That Never Blinks!#kidseducationalvideospreschool #animalsforchildren
+  [SKIP] Duplicate topic: Animals With their Names Educational Nursery Rhyme For Kids
+
+───────────────────────────────────────────────────────
+  Topic: Learn Alphabet with Animals #short #shorts #kidslearning #alphabets
+  Series: standalone | Category: animals
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Learn Alphabet with Animals'
+  [hook] Style: story
+  [RETRY] Attempt 1 failed (Narration too short: 50 words (need 60+)), retrying...
+  [RETRY] Attempt 1 failed (Unterminated string starting at: line 1 column 2128 (char 2127)), retrying...
+  [OK] Script via Kimi K2 (84 words)
+  [OK] Script generation
+[3] Safety check...
+  [WARN] Safety check Gemini call failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDI7ddpEIaF6WpVoL6J88zh2IMMAHZidlQ — failing open
+  [OK] Safety check passed (confidence: 0.0)
+[4] Generating voiceover...
+Generating kids TTS (en-US-AnaNeural)...
+  [OK] 44.0s voiceover, 84 words, 42 caption lines
+  [OK] TTS voiceover
+  Duration: 43.97s
+[5] Generating scene images (AIMLAPI FLUX Pro)...
+Generating 6 scene images via AIMLAPI flux-pro/v1.1...
+  [1/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+  [OK] scene_001.png
+  [2/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+  [OK] scene_002.png
+  [3/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+  [OK] scene_003.png
+  [4/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+  [OK] scene_004.png
+  [5/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+  [OK] scene_005.png
+  [6/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+  [OK] scene_006.png
+  Done: 6 generated, 0 skipped
+  [OK] Scene images
+[5b] Generating background music...
+Generating background music...
+  [OK] WAV generated (64s, stereo, 44100Hz)
+  [OK] Background music saved: /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_bg_music.mp3
+  [OK] Background music
+[5c] Fetching B-roll video clips...
+  [WARN] No PEXELS_API_KEY — skipping B-roll
+  [OK] 0 B-roll clips downloaded
+[6] Composing video...
+  Scene duration: 6.5s x 6 scenes = 44.0s total
+Step 1/6 -- Rendering intro & outro...
+  [OK] Animated intro & outro
+Step 2/6 -- Building scene clips (AI images + B-roll)...
+  [OK] Scene 1 (AI image, Ken Burns pattern 1)
+  [OK] Scene 2 (AI image, Ken Burns pattern 2)
+  [OK] Scene 3 (AI image, Ken Burns pattern 3)
+  [OK] Scene 4 (AI image, Ken Burns pattern 4)
+  [OK] Scene 5 (AI image, Ken Burns pattern 5)
+  [OK] Scene 6 (AI image, Ken Burns pattern 6)
+  Sequence: intro + 6 AI scenes + 0 B-roll clips + outro = 8 segments
+Step 3/6 -- Concatenating with varied transitions...
+  [OK] Background video assembled
+Step 4/6 -- Parsing captions & applying sync offset...
+  [OK] 42 caption lines (synced to video)
+Step 5/6 -- Rendering professional captions + badge...
+  [OK] Badge ready — rendering 42 caption frames...
+Step 6/6 -- Final composite (audio sync fixed)...
+  [MUSIC] Mixing background music at 12% volume
+  [OK] Shorts video -> /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_20260430_062533.mp4
+Generating landscape version...
+  [OK] Landscape -> /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_20260430_062533_landscape.mp4
+  [OK] Video composition
+[7] Generating thumbnail...
+Generating thumbnail via AIMLAPI flux-pro/v1.1...
+  [OK] Thumbnail saved: /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_thumbnail.png
+  [OK] Thumbnail generation
+[8] Uploading to YouTube...
+  Uploading: ABC Animals Cartoon for Preschool - Learn Letters with Biscuit & Zara! #Shorts
+
+  [OK] Uploaded: https://youtube.com/shorts/arRjVJttPtQ
+  [OK] Thumbnail set
+
+=======================================================
+  Biscuit & Zara Pipeline — Done!
+  Videos produced  : 1/1
+  Safety fails     : 0
+  Uploaded         : 1
+  Est. API cost    : $0.056
+    → https://youtube.com/shorts/arRjVJttPtQ | Learn Alphabet with Animals #short #shorts #kidslearning #alphabets
+=======================================================
+
+{
+  "videos_produced": 1,
+  "videos_requested": 1,
+  "safety_fails": 0,
+  "uploads": [
+    {
+      "video_id": "arRjVJttPtQ",
+      "yt_video_id": "arRjVJttPtQ",
+      "url": "https://youtube.com/shorts/arRjVJttPtQ",
+      "topic": "Learn Alphabet with Animals #short #shorts #kidslearning #alphabets",
+      "category": "animals",
+      "series": "standalone",
+      "safety_passed": true,
+      "duration_seconds": 44.0,
+      "upload_timestamp": "2026-04-30T06:33:18.283770",
+      "title": "ABC Animals Cartoon for Preschool - Learn Letters with Biscuit & Zara! #Shorts"
+    }
+  ],
+  "total_cost_estimate_usd": 0.056
+}

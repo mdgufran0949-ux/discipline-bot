@@ -43,7 +43,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.01,
-        "fetched_at": "2026-04-28T06:25:28.073323"
+        "fetched_at": "2026-04-30T06:23:10.693936"
       }
     },
     {
@@ -87,7 +87,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 1.12,
-        "fetched_at": "2026-04-28T06:25:28.073331"
+        "fetched_at": "2026-04-30T06:23:10.693946"
       }
     },
     {
@@ -131,7 +131,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.06,
-        "fetched_at": "2026-04-28T06:25:28.073336"
+        "fetched_at": "2026-04-30T06:23:10.693951"
       }
     },
     {
@@ -161,7 +161,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.0,
-        "fetched_at": "2026-04-28T06:25:28.073342"
+        "fetched_at": "2026-04-30T06:23:10.693957"
       }
     },
     {
@@ -562,6 +562,50 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "post_1777530798",
+      "ig_media_id": "",
+      "yt_video_id": "arRjVJttPtQ",
+      "topic": "Learn Alphabet with Animals #short #shorts #kidslearning #alphabets",
+      "hook": "One bright morning Biscuit spotted a box of alphabet blocks ",
+      "hook_type": "fact",
+      "hook_keyword": "",
+      "quote_type": "",
+      "design_style": "",
+      "format": "video",
+      "series": "standalone",
+      "series_number": 0,
+      "selected_quote": "",
+      "caption": "Join Biscuit the curious bear and Zara the wise owl as they discover an alphabet box that links every letter to a fun animal friend. In this lively preschool cartoon, kids will giggle, dance, and learn letters A through C with alligators, butterflies, and crocodiles!",
+      "hashtags": [
+        "#ABCanimals",
+        "#preschoollearning",
+        "#kidscartoon",
+        "#BiscuitAndZara",
+        "#learnletters",
+        "#alphabetfun"
+      ],
+      "scene_prompts": [
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT discovering a colorful toy box labeled A-Z, eyes huge, ZARA peeking curiously from tree branch",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. ZARA pointing to floating letters A and B beside cheerful cartoon alligator and butterfly, BISCUIT giggling",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT hopping up and down, paws clapping, while ZARA chuckles and flaps wings happily",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. ZARA gesturing to letters C and D next to a friendly green crocodile and leaping dolphin, alphabet streamers waving",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA twirling in a happy circle, alphabet cards swirling like confetti around them",
+        "2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/Disney quality, soft rounded shapes, no text in image, safe for children, cheerful warm lighting, BISCUIT the chubby cheerful yellow bear cub, big round dark brown eyes, small pink nose, rounded ears with light pink inner ear, soft fluffy fur, tiny red bowtie, wide happy smile, ZARA the small wise purple owl, large yellow eyes behind round spectacles, tiny orange beak, soft purple feathered wings, small blue graduation cap, friendly expression. BISCUIT and ZARA waving happily, colorful confetti, twinkling stars spelling \"See you soon!\""
+      ],
+      "posted_at": "2026-04-30T06:33:18.284417",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "yt_views": 0,
+        "yt_watchtime_min": 0,
+        "yt_ctr": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -612,10 +656,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 13,
+    "total_posts": 14,
     "by_quote_type": {},
     "by_hook_type": {
-      "fact": 12
+      "fact": 13
     },
     "by_topic": {
       "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs": 2,
@@ -629,13 +673,14 @@
       "The Animal That Never Blinks!#kidseducationalvideospreschool #animalsforchildren": 1,
       "Caterpillar Song  #kidssongs #kidsvideo #singalong #children #kids #toddlers #babies #nature": 1,
       "Animal Learning Game for Toddlers | Animals for Kids #shorts #farmanimals #kktv": 1,
-      "Animals With their Names Educational Nursery Rhyme For Kids": 1
+      "Animals With their Names Educational Nursery Rhyme For Kids": 1,
+      "Learn Alphabet with Animals #short #shorts #kidslearning #alphabets": 1
     },
     "by_format": {
-      "video": 13
+      "video": 14
     },
     "by_series": {
-      "standalone": 13
+      "standalone": 14
     },
     "top_performing_series": "standalone",
     "top_performing_topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs"
@@ -653,6 +698,6 @@
     "benchmark_engagement": 0,
     "updated_at": null
   },
-  "last_upgraded": "2026-04-28T06:25:28.080167",
-  "last_reviewed": "2026-04-28T06:25:28.081141"
+  "last_upgraded": "2026-04-30T06:23:10.701259",
+  "last_reviewed": "2026-04-30T06:23:10.702311"
 }
