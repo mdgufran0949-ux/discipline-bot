@@ -1274,6 +1274,57 @@
       "predicted": "high",
       "posted_at": "2026-05-01T04:46:41.060636",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_15_20260501_091744",
+      "ig_media_id": "18033785018800945",
+      "permalink": "https://www.instagram.com/reel/DXymuAbkimG/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 15,
+      "content_series": "Day 15 of Becoming Better",
+      "topic": "let me sleep, so my teeth wont grind",
+      "selected_quote": "In the stillness of the night, our discipline is shaped, and our character is refined, every decision a testament to the life we choose to follow",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-01T09:17:44.342872",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_17_20260501_092214",
+      "ig_media_id": "18109093975847698",
+      "permalink": "https://www.instagram.com/reel/DXynPc_ll74/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 17,
+      "content_series": "Discipline Rule #17",
+      "topic": "wake up early",
+      "selected_quote": "While the world sleeps, the disciplined mind wakes, not to follow the noise of social media, but to carve out a space for reflection, growth, and the pursuit of a life well-lived",
+      "quote_type": "contrast",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-01T09:22:14.201466",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_16_20260501_092617",
+      "ig_media_id": "18077438273184907",
+      "permalink": "https://www.instagram.com/reel/DXyns_wCOWQ/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 16,
+      "content_series": "Wake Up Call #16",
+      "topic": "if you don't have discipline you are a nobody",
+      "selected_quote": "Discipline is the bridge that connects our intentions to our actions, and it's the foundation upon which a life of purpose is built, every day, with every decision, and in every moment, we follow our inner compass to navigate the journey of growth and self-discovery.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-01T09:26:17.039914",
+      "dry_run": false
     }
   ]
 }
