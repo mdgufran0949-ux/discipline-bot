@@ -1,27 +1,33 @@
 # DisciplineFuel — Review Report
-Generated: 2026-04-29 16:54
+Generated: 2026-05-01 04:37
 
 > ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
 ## System Health
 - Last competitor fetch: 2026-04-29T16:54 ✅
 - Last IG metrics fetch: never ⚠️
-- IG hashtag quota used (7d): 8 / 30 ✅
+- IG hashtag quota used (7d): 9 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-04-17 | 0 | 7,744 | 0% |
 | 2026-04-19 | 0 | 7,744 | 0% |
 | 2026-04-20 | 0 | 13,825 | 0% |
 | 2026-04-21 | 0 | 13,825 | 0% |
 | 2026-04-22 | 0 | 14,797 | 0% |
 | 2026-04-24 | 0 | 14,797 | 0% |
 | 2026-04-25 | 0 | 6,654 | 11% |
+| 2026-04-29 | 0 | 9,958 | 11% |
 
 ## What Changed Today
 - Format mix: image 0% → 9%, carousel 0% → 11%
+- Blacklisted topic: "you keep choosing comfort over growth"
+- Blacklisted topic: "procrastination is self-betrayal"
+- Blacklisted topic: "how to develop self discipline"
+- Blacklisted topic: "akshay kumars powerful time management advice"
+- Blacklisted topic: "how much does david goggins sleeps"
+- Blacklisted topic: "your laziness has a price"
 
 ## What We Learned From Competitors
 - Scanned hashtags: stoicmindset, discipline, selfdiscipline, disciplinequotes, mentality
@@ -41,49 +47,36 @@ Generated: 2026-04-29 16:54
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
 | Creator | Avg Engagement | Appearances | Style | Length | Best Hook |
 |---------|---------------|-------------|-------|--------|-----------|
-| @? | 11,346 | 2 | command | long | "Save this post as a guide and share it with a friend ✅" |
-| @? | 10,703 | 3 | statement | medium | "Follow selfelevatepro for daily discipline" |
-| @? | 7,970 | 2 | statement | long | "Most men break once." |
+| @? | 11,346 | 4 | command | long | "Save this post as a guide and share it with a friend ✅" |
+| @? | 10,703 | 6 | statement | medium | "Follow selfelevatepro for daily discipline" |
+| @? | 7,970 | 4 | statement | long | "Most men break once." |
 | @? | 7,948 | 6 | statement | long | "Follow 👉 we.think.deeply we.think.deeply we.think.deeply" |
-| @? | 6,045 | 9 | statement | long | "I became UNSTOPPABLE ↓" |
+| @? | 6,045 | 18 | statement | long | "I became UNSTOPPABLE ↓" |
 | @? | 5,709 | 20 | statement | long | "Visual Weekend Roundup illustrated by me 😊" |
 | @? | 5,357 | 8 | statement | long | "⁣No one else has to get your vision because God did not give" |
 | @? | 5,051 | 4 | statement | medium | "💯 वादे नहीं, परिणाम बोलते हैं। 👍" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 12 / 15 recent posts used trending power-words (80%) ✅
-  - ✅ "discipline forges the path we walk in life." (words: life, discipline)
-  - ✅ "discipline is the quiet force that shapes our lives, guiding us throug..." (words: discipline)
-  - ⚠️ "still making excuses?"
-  - ⚠️ "procrastination is a quiet act of self-betrayal, where the comfort of ..."
+- 19 / 20 recent posts used trending power-words (95%) ✅
+  - ✅ "discipline builds through the smallest actions, often taking just a mi..." (words: life, discipline)
+  - ✅ "in the quiet moments of stillness, discipline becomes the path through..." (words: life, discipline)
+  - ⚠️ "four and a half hours of sleep is not a badge of cruelty, it is the qu..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
-```
-HOOKS TRENDING IN THE NICHE RIGHT NOW (from top viral discipline posts — match this ENERGY but write something ORIGINAL, do NOT copy):
-  - "Visual Weekend Roundup illustrated by me 😊"
-  - "Follow 👉 we.think.deeply we.think.deeply we.think.deeply"
-  - "✨ Celebrating Visionary Leadership ✨"
-  - "Success isn’t built overnight — and Virat Kohli proves it better than anyone."
-  - "Comment “SMARTER” to subscribe to my free Visual IDEAs newsletter."
-HIGH-ENGAGEMENT WORDS from top niche posts (weave 2-3 in naturally): don, visual, weekend, roundup, illustrated, favorite, think, life, deeply, dich
-DOMINANT STRUCTURES in top niche posts this week: statement, contrast, question (prefer these)
-
-TOP CREATORS IN THIS NICHE (accounts that consistently land in the top posts — study their patterns):
-  deep...
-```
+_(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (bold, reel) — "Every moment spent in comfort is a trade-off for the discipline we could be cult"
-2. **statement** (dark, reel) — "Procrastination is a quiet act of self-betrayal, where the comfort of today stea"
-3. **statement** (dark, reel) — "Growth thrives beyond the edges of comfort. It is in the quiet moments of discip"
+1. **statement** (dark, reel) — "Discipline is the quiet foundation upon which a life of purpose is built"
+2. **statement** (luxury, reel) — "Discipline is not about the hours we sleep, but the hours we dedicate to our cra"
+3. **statement** (bold, reel) — "Discipline is the bridge that connects our intentions to our actions, and it's i"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 11     | —          |
-| Avg score        | 1.4   | —          |
+| Posts scored     | 68     | —          |
+| Avg score        | 0.9   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 9,958      | -100% |
+| Avg engagement   | 0   | 9,958      | -100% |
 
 ## Next Actions (Auto-applied)
 - Quote generator biased toward: **statement, command** structures

@@ -1223,6 +1223,57 @@
       "predicted": "high",
       "posted_at": "2026-04-30T16:08:58.261988",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_14_20260501_043841",
+      "ig_media_id": "18180264529390428",
+      "permalink": "https://www.instagram.com/reel/DXyGyJ0FDc8/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 14,
+      "content_series": "Day 14 of Becoming Better",
+      "topic": "let me sleep, so my teeth wont grind",
+      "selected_quote": "In the stillness of the night, our bodies repair and our minds recalibrate, reminding us that rest is a crucial part of our journey to discipline and growth in every aspect of life",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-01T04:38:41.402815",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_16_20260501_044235",
+      "ig_media_id": "18120367300650363",
+      "permalink": "https://www.instagram.com/reel/DXyHQGgiXZO/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 16,
+      "content_series": "Discipline Rule #16",
+      "topic": "wake up early",
+      "selected_quote": "The earliest hours hold a sacred stillness, a time when discipline whispers its gentle truths to those who follow its call, and life unfolds with every quiet step.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-01T04:42:35.102590",
+      "dry_run": false
+    },
+    {
+      "id": "wake_up_call_15_20260501_044641",
+      "ig_media_id": "18152121997467921",
+      "permalink": "https://www.instagram.com/reel/DXyHsaSEShX/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 15,
+      "content_series": "Wake Up Call #15",
+      "topic": "if you don't have discipline you are a nobody",
+      "selected_quote": "Discipline is the foundation upon which a life of purpose is built",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-01T04:46:41.060636",
+      "dry_run": false
     }
   ]
 }

@@ -228,7 +228,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-29T16:54:38.341213"
+        "fetched_at": "2026-05-01T04:36:34.908248"
       }
     },
     {
@@ -249,7 +249,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-29T16:54:41.544166"
+        "fetched_at": "2026-05-01T04:36:35.543450"
       }
     },
     {
@@ -270,7 +270,7 @@
         "comments": 0,
         "likes": 1,
         "score": 1,
-        "fetched_at": "2026-04-29T16:54:44.853070"
+        "fetched_at": "2026-05-01T04:36:36.156387"
       }
     },
     {
@@ -291,7 +291,7 @@
         "comments": 0,
         "likes": 1,
         "score": 1,
-        "fetched_at": "2026-04-29T16:54:47.933306"
+        "fetched_at": "2026-05-01T04:36:37.435388"
       }
     },
     {
@@ -312,7 +312,7 @@
         "comments": 0,
         "likes": 2,
         "score": 10,
-        "fetched_at": "2026-04-29T16:54:50.720590"
+        "fetched_at": "2026-05-01T04:36:38.136959"
       }
     },
     {
@@ -333,7 +333,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-04-29T16:54:55.343366"
+        "fetched_at": "2026-05-01T04:36:38.826890"
       }
     },
     {
@@ -353,8 +353,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-01T04:36:39.538419"
       }
     },
     {
@@ -374,8 +374,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-01T04:36:40.149225"
       }
     },
     {
@@ -395,8 +395,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-01T04:36:40.733493"
       }
     },
     {
@@ -416,8 +416,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-01T04:37:14.075428"
       }
     },
     {
@@ -433,12 +433,12 @@
       "posted_at": "2026-04-30T04:17:31.742964",
       "ig_media_id": "18190371988370866",
       "performance": {
-        "saves": 0,
+        "saves": 1,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "likes": 1,
+        "score": 5,
+        "fetched_at": "2026-05-01T04:37:14.936460"
       }
     },
     {
@@ -458,8 +458,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-01T04:37:15.559823"
       }
     },
     {
@@ -479,8 +479,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-01T04:37:16.185571"
       }
     },
     {
@@ -500,8 +500,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-01T04:37:16.835201"
       }
     },
     {
@@ -521,8 +521,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-01T04:37:17.457854"
       }
     },
     {
@@ -542,8 +542,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-01T04:37:18.009214"
       }
     },
     {
@@ -563,8 +563,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-01T04:37:18.629137"
       }
     },
     {
@@ -579,6 +579,69 @@
       "selected_quote": "Discipline is the quiet foundation upon which a life of purpose is built",
       "posted_at": "2026-04-30T16:08:58.261988",
       "ig_media_id": "17960210703114905",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": 0,
+        "fetched_at": "2026-05-01T04:37:19.289897"
+      }
+    },
+    {
+      "id": "day_becoming_better_14_20260501_043841",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 14,
+      "topic": "let me sleep, so my teeth wont grind",
+      "hook_keyword": "discipline",
+      "selected_quote": "In the stillness of the night, our bodies repair and our minds recalibrate, reminding us that rest is a crucial part of our journey to discipline and growth in every aspect of life",
+      "posted_at": "2026-05-01T04:38:41.402815",
+      "ig_media_id": "18180264529390428",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_16_20260501_044235",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 16,
+      "topic": "wake up early",
+      "hook_keyword": "discipline",
+      "selected_quote": "The earliest hours hold a sacred stillness, a time when discipline whispers its gentle truths to those who follow its call, and life unfolds with every quiet step.",
+      "posted_at": "2026-05-01T04:42:35.102590",
+      "ig_media_id": "18120367300650363",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "wake_up_call_15_20260501_044641",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 15,
+      "topic": "if you don't have discipline you are a nobody",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the foundation upon which a life of purpose is built",
+      "posted_at": "2026-05-01T04:46:41.060636",
+      "ig_media_id": "18152121997467921",
       "performance": {
         "saves": 0,
         "shares": 0,
@@ -645,31 +708,146 @@
         "topic": "your laziness has a price",
         "hook_keyword": "discipline",
         "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "you keep choosing comfort over growth",
+        "hook_keyword": "growth",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "bold",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "procrastination is self-betrayal",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "dark",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "your laziness has a price",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "akshay kumars powerful time management advice",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "how much does david goggins sleeps",
+        "hook_keyword": "discipline",
+        "score": 5
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "how to develop self discipline",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "dark",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "akshay kumars powerful time management advice",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "how much does david goggins sleeps",
+        "hook_keyword": "quiet",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "dark",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "how to develop self discipline",
+        "hook_keyword": "quiet",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "bold",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "akshay kumars powerful time management advice",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "luxury",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "how much does david goggins sleeps",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "dark",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "how to develop self discipline",
+        "hook_keyword": "discipline",
+        "score": 0
       }
     ],
-    "avoid_topics": [],
+    "avoid_topics": [
+      "you keep choosing comfort over growth",
+      "procrastination is self-betrayal",
+      "how to develop self discipline",
+      "akshay kumars powerful time management advice",
+      "how much does david goggins sleeps",
+      "your laziness has a price"
+    ],
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 28,
+    "total_posts": 31,
     "by_quote_type": {
       "question": 1,
-      "statement": 27
+      "statement": 30
     },
     "by_design_style": {
       "minimal": 8,
       "dark": 8,
-      "luxury": 7,
-      "bold": 5
+      "luxury": 8,
+      "bold": 7
     },
     "by_format": {
       "image": 1,
-      "reel": 27
+      "reel": 30
     },
     "by_series": {
-      "discipline_rule": 10,
-      "day_becoming_better": 9,
-      "wake_up_call": 9
+      "discipline_rule": 11,
+      "day_becoming_better": 10,
+      "wake_up_call": 10
     },
     "top_performing_series": "discipline_rule"
   },
@@ -682,10 +860,14 @@
       "Every moment spent in comfort ",
       "Growth thrives beyond the edge",
       "Procrastination is a quiet act",
-      "Every moment spent in comfort "
+      "Every moment spent in comfort ",
+      "Choosing comfort over growth i",
+      "Procrastination is a silent ac",
+      "Every moment in comfort is a c",
+      "Discipline shapes our days, tr"
     ]
   },
-  "last_upgraded": "2026-04-29T16:54:55.500607",
+  "last_upgraded": "2026-05-01T04:37:19.297438",
   "competitor_hints": {
     "top_hooks": [
       "Follow selfelevatepro for daily discipline",
@@ -729,18 +911,17 @@
       "question"
     ],
     "benchmark_engagement": 9958.0,
-    "updated_at": "2026-04-29T16:54:12.127293"
+    "updated_at": "2026-05-01T04:36:28.728800"
   },
   "creator_profiles": [
     {
       "display_name": "ai | business | motivation",
-      "appearances": 2,
+      "appearances": 4,
       "avg_engagement": 11346,
       "top_engagement": 15975,
       "dominant_structure": "command",
       "dominant_length": "long",
       "sample_hooks": [
-        "Save this post as a guide and share it with a friend \u2705",
         "Save this post as a guide and share it with a friend \u2705"
       ],
       "power_words": [
@@ -756,15 +937,14 @@
     },
     {
       "display_name": "self elevate pro&#x2122;",
-      "appearances": 3,
+      "appearances": 6,
       "avg_engagement": 10703,
       "top_engagement": 23174,
       "dominant_structure": "statement",
       "dominant_length": "medium",
       "sample_hooks": [
         "Follow selfelevatepro for daily discipline",
-        "That one random night where everything changed.",
-        "Follow selfelevatepro for daily discipline"
+        "That one random night where everything changed."
       ],
       "power_words": [
         "follow",
@@ -779,7 +959,7 @@
     },
     {
       "display_name": "alphaadvice &#x1f48e;",
-      "appearances": 2,
+      "appearances": 4,
       "avg_engagement": 7970,
       "top_engagement": 8250,
       "dominant_structure": "statement",
@@ -823,7 +1003,7 @@
     },
     {
       "display_name": "wisetality",
-      "appearances": 9,
+      "appearances": 18,
       "avg_engagement": 6045,
       "top_engagement": 11265,
       "dominant_structure": "statement",
@@ -910,7 +1090,7 @@
     },
     {
       "display_name": "citati o osna&#x17e;ivanju &#x17e;ena i motivacija",
-      "appearances": 2,
+      "appearances": 4,
       "avg_engagement": 4254,
       "top_engagement": 5021,
       "dominant_structure": "statement",
@@ -932,8 +1112,8 @@
     },
     {
       "display_name": "stoic &#x2022; philosophy &#x2022; mindset",
-      "appearances": 6,
-      "avg_engagement": 2458,
+      "appearances": 8,
+      "avg_engagement": 2781,
       "top_engagement": 5305,
       "dominant_structure": "statement",
       "dominant_length": "long",
