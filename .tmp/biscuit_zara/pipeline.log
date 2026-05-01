@@ -14,9 +14,9 @@
 [biscuit_zara] Review complete.
 [1] Fetching trending kids topics...
 Scanning YouTube kids hashtags...
-  [#kidslearning] 10 titles
-  [#nurseryrhymes] 1 titles
-  [#animalsforchildren] 12 titles
+  [#kidslearning] 11 titles
+  [#nurseryrhymes] 0 titles
+  [#animalsforchildren] 14 titles
 Checking Google Trends...
 
 [OK] Best kids topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs
@@ -27,33 +27,31 @@ Checking Google Trends...
 
   [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs
   [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs
-  [SKIP] Duplicate topic: Monster Song | Nursery Rhymes & Kids Songs | Happy Tots #nurseryrhymes #childrensongs
   [SKIP] Duplicate topic: Animal Learning Game for Toddlers | Animals for Kids #shorts #farmanimals #kktv
   [SKIP] Duplicate topic: Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs
   [SKIP] Duplicate topic: Iam a horse  #kidslearning #animal  #horse  #farmanimals
   [SKIP] Duplicate topic: The Animal That Never Blinks!#kidseducationalvideospreschool #animalsforchildren
-  [SKIP] Duplicate topic: Animals With their Names Educational Nursery Rhyme For Kids
+  [SKIP] Duplicate topic: Learn Alphabet with Animals #short #shorts #kidslearning #alphabets
 
 ───────────────────────────────────────────────────────
-  Topic: Learn Alphabet with Animals #short #shorts #kidslearning #alphabets
+  Topic: Learning animals name part 2 | Fun Learning for Kids | #animals #learning #kidssongs
   Series: standalone | Category: animals
 ───────────────────────────────────────────────────────
 
 [2] Generating script...
-  [TOPIC] Cleaned: 'Learn Alphabet with Animals'
-  [hook] Style: story
-  [RETRY] Attempt 1 failed (Narration too short: 50 words (need 60+)), retrying...
-  [RETRY] Attempt 1 failed (Unterminated string starting at: line 1 column 2128 (char 2127)), retrying...
-  [OK] Script via Kimi K2 (84 words)
+  [TOPIC] Cleaned: 'Learning animals name part 2'
+  [hook] Style: countdown
+  [RETRY] Attempt 1 failed (Narration too short: 15 words (need 60+)), retrying...
+  [OK] Script via Kimi K2 (83 words)
   [OK] Script generation
 [3] Safety check...
   [WARN] Safety check Gemini call failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDI7ddpEIaF6WpVoL6J88zh2IMMAHZidlQ — failing open
   [OK] Safety check passed (confidence: 0.0)
 [4] Generating voiceover...
 Generating kids TTS (en-US-AnaNeural)...
-  [OK] 44.0s voiceover, 84 words, 42 caption lines
+  [OK] 46.2s voiceover, 83 words, 42 caption lines
   [OK] TTS voiceover
-  Duration: 43.97s
+  Duration: 46.18s
 [5] Generating scene images (AIMLAPI FLUX Pro)...
 Generating 6 scene images via AIMLAPI flux-pro/v1.1...
   [1/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
@@ -79,7 +77,7 @@ Generating background music...
   [WARN] No PEXELS_API_KEY — skipping B-roll
   [OK] 0 B-roll clips downloaded
 [6] Composing video...
-  Scene duration: 6.5s x 6 scenes = 44.0s total
+  Scene duration: 6.86s x 6 scenes = 46.2s total
 Step 1/6 -- Rendering intro & outro...
   [OK] Animated intro & outro
 Step 2/6 -- Building scene clips (AI images + B-roll)...
@@ -98,46 +96,188 @@ Step 5/6 -- Rendering professional captions + badge...
   [OK] Badge ready — rendering 42 caption frames...
 Step 6/6 -- Final composite (audio sync fixed)...
   [MUSIC] Mixing background music at 12% volume
-  [OK] Shorts video -> /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_20260430_062533.mp4
+  [OK] Shorts video -> /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_20260501_064112.mp4
 Generating landscape version...
-  [OK] Landscape -> /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_20260430_062533_landscape.mp4
+  [OK] Landscape -> /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_20260501_064112_landscape.mp4
   [OK] Video composition
 [7] Generating thumbnail...
 Generating thumbnail via AIMLAPI flux-pro/v1.1...
-  [OK] Thumbnail saved: /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_thumbnail.png
-  [OK] Thumbnail generation
-[8] Uploading to YouTube...
-  Uploading: ABC Animals Cartoon for Preschool - Learn Letters with Biscuit & Zara! #Shorts
+  [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [RETRY] Thumbnail generation failed (403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations), retrying in 5s...
+Generating thumbnail via AIMLAPI flux-pro/v1.1...
+  [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [FAIL] Thumbnail generation: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
 
-  [OK] Uploaded: https://youtube.com/shorts/arRjVJttPtQ
-  [OK] Thumbnail set
+  [ERROR] Topic failed: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+
+
+───────────────────────────────────────────────────────
+  Topic: Farm Animals Quiz! Fast Learning #earlylearning #animalsforchildren
+  Series: standalone | Category: animals
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Farm Animals Quiz Fast Learning'
+  [hook] Style: story
+  [RETRY] Attempt 1 failed (Narration too short: 41 words (need 60+)), retrying...
+  [OK] Script via Kimi K2 (86 words)
+  [OK] Script generation
+[3] Safety check...
+  [WARN] Safety check Gemini call failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDI7ddpEIaF6WpVoL6J88zh2IMMAHZidlQ — failing open
+  [OK] Safety check passed (confidence: 0.0)
+[4] Generating voiceover...
+Generating kids TTS (en-US-AnaNeural)...
+  [OK] 45.5s voiceover, 86 words, 43 caption lines
+  [OK] TTS voiceover
+  Duration: 45.53s
+[5] Generating scene images (AIMLAPI FLUX Pro)...
+Generating 6 scene images via AIMLAPI flux-pro/v1.1...
+  [skip] scene_001.png exists
+  [skip] scene_002.png exists
+  [skip] scene_003.png exists
+  [skip] scene_004.png exists
+  [skip] scene_005.png exists
+  [skip] scene_006.png exists
+  Done: 0 generated, 6 skipped
+  [OK] Scene images
+[5b] Generating background music...
+Generating background music...
+  [OK] WAV generated (64s, stereo, 44100Hz)
+  [OK] Background music saved: /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_bg_music.mp3
+  [OK] Background music
+[5c] Fetching B-roll video clips...
+  [WARN] No PEXELS_API_KEY — skipping B-roll
+  [OK] 0 B-roll clips downloaded
+[6] Composing video...
+  Scene duration: 6.75s x 6 scenes = 45.5s total
+Step 1/6 -- Rendering intro & outro...
+  [OK] Animated intro & outro
+Step 2/6 -- Building scene clips (AI images + B-roll)...
+  [OK] Scene 1 (AI image, Ken Burns pattern 1)
+  [OK] Scene 2 (AI image, Ken Burns pattern 2)
+  [OK] Scene 3 (AI image, Ken Burns pattern 3)
+  [OK] Scene 4 (AI image, Ken Burns pattern 4)
+  [OK] Scene 5 (AI image, Ken Burns pattern 5)
+  [OK] Scene 6 (AI image, Ken Burns pattern 6)
+  Sequence: intro + 6 AI scenes + 0 B-roll clips + outro = 8 segments
+Step 3/6 -- Concatenating with varied transitions...
+  [OK] Background video assembled
+Step 4/6 -- Parsing captions & applying sync offset...
+  [OK] 43 caption lines (synced to video)
+Step 5/6 -- Rendering professional captions + badge...
+  [OK] Badge ready — rendering 43 caption frames...
+Step 6/6 -- Final composite (audio sync fixed)...
+  [MUSIC] Mixing background music at 12% volume
+  [OK] Shorts video -> /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_20260501_065017.mp4
+Generating landscape version...
+  [OK] Landscape -> /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_20260501_065017_landscape.mp4
+  [OK] Video composition
+[7] Generating thumbnail...
+Generating thumbnail via AIMLAPI flux-pro/v1.1...
+  [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [RETRY] Thumbnail generation failed (403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations), retrying in 5s...
+Generating thumbnail via AIMLAPI flux-pro/v1.1...
+  [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [FAIL] Thumbnail generation: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+
+  [ERROR] Topic failed: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+
+
+───────────────────────────────────────────────────────
+  Topic: Learn to Read VOWEL SONG for KIDS #kidslearning #kidsongs
+  Series: standalone | Category: songs
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Learn to Read VOWEL SONG for KIDS'
+  [hook] Style: adventure
+  [OK] Script via Groq (74 words)
+  [OK] Script generation
+[3] Safety check...
+  [WARN] Safety check Gemini call failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDI7ddpEIaF6WpVoL6J88zh2IMMAHZidlQ — failing open
+  [OK] Safety check passed (confidence: 0.0)
+[4] Generating voiceover...
+Generating kids TTS (en-US-AnaNeural)...
+  [OK] 35.9s voiceover, 74 words, 37 caption lines
+  [OK] TTS voiceover
+  Duration: 35.93s
+[5] Generating scene images (AIMLAPI FLUX Pro)...
+Generating 6 scene images via AIMLAPI flux-pro/v1.1...
+  [skip] scene_001.png exists
+  [skip] scene_002.png exists
+  [skip] scene_003.png exists
+  [skip] scene_004.png exists
+  [skip] scene_005.png exists
+  [skip] scene_006.png exists
+  Done: 0 generated, 6 skipped
+  [OK] Scene images
+[5b] Generating background music...
+Generating background music...
+  [OK] WAV generated (64s, stereo, 44100Hz)
+  [OK] Background music saved: /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_bg_music.mp3
+  [OK] Background music
+[5c] Fetching B-roll video clips...
+  [WARN] No PEXELS_API_KEY — skipping B-roll
+  [OK] 0 B-roll clips downloaded
+[6] Composing video...
+  Scene duration: 5.16s x 6 scenes = 36.0s total
+Step 1/6 -- Rendering intro & outro...
+  [OK] Animated intro & outro
+Step 2/6 -- Building scene clips (AI images + B-roll)...
+  [OK] Scene 1 (AI image, Ken Burns pattern 1)
+  [OK] Scene 2 (AI image, Ken Burns pattern 2)
+  [OK] Scene 3 (AI image, Ken Burns pattern 3)
+  [OK] Scene 4 (AI image, Ken Burns pattern 4)
+  [OK] Scene 5 (AI image, Ken Burns pattern 5)
+  [OK] Scene 6 (AI image, Ken Burns pattern 6)
+  Sequence: intro + 6 AI scenes + 0 B-roll clips + outro = 8 segments
+Step 3/6 -- Concatenating with varied transitions...
+  [OK] Background video assembled
+Step 4/6 -- Parsing captions & applying sync offset...
+  [OK] 37 caption lines (synced to video)
+Step 5/6 -- Rendering professional captions + badge...
+  [OK] Badge ready — rendering 37 caption frames...
+Step 6/6 -- Final composite (audio sync fixed)...
+  [MUSIC] Mixing background music at 12% volume
+  [OK] Shorts video -> /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_20260501_065902.mp4
+Generating landscape version...
+  [OK] Landscape -> /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_20260501_065902_landscape.mp4
+  [OK] Video composition
+[7] Generating thumbnail...
+Generating thumbnail via AIMLAPI flux-pro/v1.1...
+  [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [RETRY] Thumbnail generation failed (403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations), retrying in 5s...
+Generating thumbnail via AIMLAPI flux-pro/v1.1...
+  [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [FAIL] Thumbnail generation: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+
+  [ERROR] Topic failed: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+
 
 =======================================================
   Biscuit & Zara Pipeline — Done!
-  Videos produced  : 1/1
+  Videos produced  : 0/1
   Safety fails     : 0
-  Uploaded         : 1
-  Est. API cost    : $0.056
-    → https://youtube.com/shorts/arRjVJttPtQ | Learn Alphabet with Animals #short #shorts #kidslearning #alphabets
+  Uploaded         : 0
+  Est. API cost    : $0.000
 =======================================================
 
 {
-  "videos_produced": 1,
+  "videos_produced": 0,
   "videos_requested": 1,
   "safety_fails": 0,
-  "uploads": [
-    {
-      "video_id": "arRjVJttPtQ",
-      "yt_video_id": "arRjVJttPtQ",
-      "url": "https://youtube.com/shorts/arRjVJttPtQ",
-      "topic": "Learn Alphabet with Animals #short #shorts #kidslearning #alphabets",
-      "category": "animals",
-      "series": "standalone",
-      "safety_passed": true,
-      "duration_seconds": 44.0,
-      "upload_timestamp": "2026-04-30T06:33:18.283770",
-      "title": "ABC Animals Cartoon for Preschool - Learn Letters with Biscuit & Zara! #Shorts"
-    }
-  ],
-  "total_cost_estimate_usd": 0.056
+  "uploads": [],
+  "total_cost_estimate_usd": 0.0
 }
