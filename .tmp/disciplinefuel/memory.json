@@ -713,6 +713,48 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_16_20260501_153347",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 16,
+      "topic": "let me sleep, so my teeth wont grind",
+      "hook_keyword": "stillness",
+      "selected_quote": "In the stillness of the night, our bodies repair and our minds recalibrate, reminding us that rest is a crucial part of the journey to becoming better, a testament to the discipline that guides our every waking moment, and a chance to let our life unfold with purpose.",
+      "posted_at": "2026-05-01T15:33:47.348024",
+      "ig_media_id": "18085715480056890",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_18_20260501_154055",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 18,
+      "topic": "if you don't have discipline you are a nobody",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the bridge between potential and reality, shaping every aspect of life.",
+      "posted_at": "2026-05-01T15:40:55.378858",
+      "ig_media_id": "18126246061614023",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -892,25 +934,25 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 34,
+    "total_posts": 36,
     "by_quote_type": {
       "question": 1,
-      "statement": 32,
+      "statement": 34,
       "contrast": 1
     },
     "by_design_style": {
-      "minimal": 9,
+      "minimal": 10,
       "dark": 10,
       "luxury": 8,
-      "bold": 7
+      "bold": 8
     },
     "by_format": {
       "image": 1,
-      "reel": 33
+      "reel": 35
     },
     "by_series": {
-      "discipline_rule": 12,
-      "day_becoming_better": 11,
+      "discipline_rule": 13,
+      "day_becoming_better": 12,
       "wake_up_call": 11
     },
     "top_performing_series": "discipline_rule"

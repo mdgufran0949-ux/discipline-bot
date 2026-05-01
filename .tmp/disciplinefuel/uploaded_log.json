@@ -1325,6 +1325,40 @@
       "predicted": "high",
       "posted_at": "2026-05-01T09:26:17.039914",
       "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_16_20260501_153347",
+      "ig_media_id": "18085715480056890",
+      "permalink": "https://www.instagram.com/reel/DXzRwPHjTrn/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 16,
+      "content_series": "Day 16 of Becoming Better",
+      "topic": "let me sleep, so my teeth wont grind",
+      "selected_quote": "In the stillness of the night, our bodies repair and our minds recalibrate, reminding us that rest is a crucial part of the journey to becoming better, a testament to the discipline that guides our every waking moment, and a chance to let our life unfold with purpose.",
+      "quote_type": "statement",
+      "hook_keyword": "stillness",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-01T15:33:47.348024",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_18_20260501_154055",
+      "ig_media_id": "18126246061614023",
+      "permalink": "https://www.instagram.com/reel/DXzSkjigcfB/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 18,
+      "content_series": "Discipline Rule #18",
+      "topic": "if you don't have discipline you are a nobody",
+      "selected_quote": "Discipline is the bridge between potential and reality, shaping every aspect of life.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-01T15:40:55.378858",
+      "dry_run": false
     }
   ]
 }
