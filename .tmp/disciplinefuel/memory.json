@@ -755,6 +755,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_17_20260502_040141",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 17,
+      "topic": "let me sleep, so my teeth wont grind",
+      "hook_keyword": "discipline",
+      "selected_quote": "Life unfolds in the silence between waking and sleep, where discipline is born",
+      "posted_at": "2026-05-02T04:01:41.854798",
+      "ig_media_id": "18111306967867908",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "day_becoming_better_17_20260502_040603",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 17,
+      "topic": "wake up early",
+      "hook_keyword": "quiet",
+      "selected_quote": "The early morning hours hold a quiet power, a time when life's distractions are few and the mind is free to focus on the work that truly matters, cultivating discipline in every moment.",
+      "posted_at": "2026-05-02T04:06:03.269859",
+      "ig_media_id": "18119974858636199",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_19_20260502_041040",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 19,
+      "topic": "if you don't have discipline you are a nobody",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the foundation upon which a life of purpose is built, and without it, we risk losing our sense of direction and identity, every day, in every way, we are shaped by our choices, and discipline is what helps us make the right ones, in the quiet moments, when no one is watching.",
+      "posted_at": "2026-05-02T04:10:40.642380",
+      "ig_media_id": "18349783852208581",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -934,26 +997,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 36,
+    "total_posts": 39,
     "by_quote_type": {
       "question": 1,
-      "statement": 34,
+      "statement": 37,
       "contrast": 1
     },
     "by_design_style": {
-      "minimal": 10,
-      "dark": 10,
+      "minimal": 12,
+      "dark": 11,
       "luxury": 8,
       "bold": 8
     },
     "by_format": {
       "image": 1,
-      "reel": 35
+      "reel": 38
     },
     "by_series": {
-      "discipline_rule": 13,
-      "day_becoming_better": 12,
-      "wake_up_call": 11
+      "discipline_rule": 14,
+      "day_becoming_better": 13,
+      "wake_up_call": 12
     },
     "top_performing_series": "discipline_rule"
   },
