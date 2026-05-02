@@ -881,6 +881,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_19_20260502_151210",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 19,
+      "topic": "cristiano ronaldo talks about discipline",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the bridge between life and our goals.",
+      "posted_at": "2026-05-02T15:12:10.135782",
+      "ig_media_id": "18075865379242095",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "day_becoming_better_19_20260502_151611",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 19,
+      "topic": "short motivation 7",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline fuels life",
+      "posted_at": "2026-05-02T15:16:11.722111",
+      "ig_media_id": "18407519425150382",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_21_20260502_152005",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 21,
+      "topic": "1 minute a day",
+      "hook_keyword": "discipline",
+      "selected_quote": "One minute a day can transform your life with consistent discipline.",
+      "posted_at": "2026-05-02T15:20:05.294786",
+      "ig_media_id": "17886555822501125",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -1162,26 +1225,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 42,
+    "total_posts": 45,
     "by_quote_type": {
       "question": 1,
-      "statement": 40,
+      "statement": 43,
       "contrast": 1
     },
     "by_design_style": {
-      "minimal": 13,
+      "minimal": 15,
       "dark": 11,
       "luxury": 9,
-      "bold": 9
+      "bold": 10
     },
     "by_format": {
       "image": 1,
-      "reel": 41
+      "reel": 44
     },
     "by_series": {
-      "discipline_rule": 15,
-      "day_becoming_better": 14,
-      "wake_up_call": 13
+      "discipline_rule": 16,
+      "day_becoming_better": 15,
+      "wake_up_call": 14
     },
     "top_performing_series": "wake_up_call"
   },

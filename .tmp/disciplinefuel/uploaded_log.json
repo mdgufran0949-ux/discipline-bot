@@ -1461,6 +1461,57 @@
       "predicted": "high",
       "posted_at": "2026-05-02T09:00:36.315474",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_19_20260502_151210",
+      "ig_media_id": "18075865379242095",
+      "permalink": "https://www.instagram.com/reel/DX10EkviU-S/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 19,
+      "content_series": "Wake Up Call #19",
+      "topic": "cristiano ronaldo talks about discipline",
+      "selected_quote": "Discipline is the bridge between life and our goals.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-02T15:12:10.135782",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_19_20260502_151611",
+      "ig_media_id": "18407519425150382",
+      "permalink": "https://www.instagram.com/reel/DX10iJ0GznM/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 19,
+      "content_series": "Day 19 of Becoming Better",
+      "topic": "short motivation 7",
+      "selected_quote": "Discipline fuels life",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-02T15:16:11.722111",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_21_20260502_152005",
+      "ig_media_id": "17886555822501125",
+      "permalink": "https://www.instagram.com/reel/DX10_9TCSXf/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 21,
+      "content_series": "Discipline Rule #21",
+      "topic": "1 minute a day",
+      "selected_quote": "One minute a day can transform your life with consistent discipline.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-02T15:20:05.294786",
+      "dry_run": false
     }
   ]
 }
