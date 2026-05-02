@@ -1,10 +1,10 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-01 04:37
+Generated: 2026-05-02 08:51
 
 > ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
 ## System Health
-- Last competitor fetch: 2026-04-29T16:54 ✅
+- Last competitor fetch: 2026-05-02T08:50 ✅
 - Last IG metrics fetch: never ⚠️
 - IG hashtag quota used (7d): 9 / 30 ✅
 - Consecutive failed competitor fetches: 0
@@ -12,75 +12,79 @@ Generated: 2026-05-01 04:37
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-04-19 | 0 | 7,744 | 0% |
 | 2026-04-20 | 0 | 13,825 | 0% |
 | 2026-04-21 | 0 | 13,825 | 0% |
 | 2026-04-22 | 0 | 14,797 | 0% |
 | 2026-04-24 | 0 | 14,797 | 0% |
 | 2026-04-25 | 0 | 6,654 | 11% |
 | 2026-04-29 | 0 | 9,958 | 11% |
+| 2026-05-01 | 0 | 9,958 | 11% |
 
 ## What Changed Today
-- Format mix: image 0% → 9%, carousel 0% → 11%
-- Blacklisted topic: "you keep choosing comfort over growth"
-- Blacklisted topic: "procrastination is self-betrayal"
-- Blacklisted topic: "how to develop self discipline"
-- Blacklisted topic: "akshay kumars powerful time management advice"
+- Format mix: image 0% → 14%, carousel 0% → 6%
 - Blacklisted topic: "how much does david goggins sleeps"
+- Blacklisted topic: "you keep choosing comfort over growth"
+- Blacklisted topic: "if you don't have discipline you are a nobody"
+- Blacklisted topic: "wake up early"
+- Blacklisted topic: "let me sleep, so my teeth wont grind"
+- Blacklisted topic: "akshay kumars powerful time management advice"
+- Blacklisted topic: "procrastination is self-betrayal"
 - Blacklisted topic: "your laziness has a price"
+- Blacklisted topic: "how to develop self discipline"
 
 ## What We Learned From Competitors
-- Scanned hashtags: stoicmindset, discipline, selfdiscipline, disciplinequotes, mentality
-- Posts analyzed: 50
-- Niche benchmark: 9,958 avg engagement | Our avg: 0 | Gap: -100%
+- Scanned hashtags: disciplinequotes, mentality, mindsetmatters, grindmode, hardworkpaysoff
+- Posts analyzed: 20
+- Niche benchmark: 5,582 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
-  1. "Follow selfelevatepro for daily discipline"
-  2. "New rule ‼️‼️‼️‼️ no looking back anymore!"
-  3. "Save this post as a guide and share it with a friend ✅"
-  4. "Thomas Shelby vibes only."
-  5. "इस फ़रवरी तुम्हें नहीं… तुम्हारी आदतों को बदलना है।"
-- Hot power words: follow, life, discipline, wolveinstinct, every, content, time, social
+  1. "Save this post as a guide and share it with a friend ✅"
+  2. "Drop two ❤ if you needed to see this!"
+  3. "This is an everyday battle ⚔️🔥"
+  4. "Sloppiness is a disease."
+  5. "I always say that consistency and discipline will earn you more than wealth - a beautiful,"
+- Hot power words: life, follow, wolveinstinct, content, post, never, social, media
 - Dominant quote structure: **statement**
-- Dominant media type: **CAROUSEL_ALBUM (56%)**
+- Dominant media type: **IMAGE (70%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
 | Creator | Avg Engagement | Appearances | Style | Length | Best Hook |
 |---------|---------------|-------------|-------|--------|-----------|
-| @? | 11,346 | 4 | command | long | "Save this post as a guide and share it with a friend ✅" |
+| @? | 11,346 | 6 | command | long | "Save this post as a guide and share it with a friend ✅" |
 | @? | 10,703 | 6 | statement | medium | "Follow selfelevatepro for daily discipline" |
 | @? | 7,970 | 4 | statement | long | "Most men break once." |
 | @? | 7,948 | 6 | statement | long | "Follow 👉 we.think.deeply we.think.deeply we.think.deeply" |
-| @? | 6,045 | 18 | statement | long | "I became UNSTOPPABLE ↓" |
+| @? | 5,763 | 26 | statement | long | "This is an everyday battle ⚔️🔥" |
 | @? | 5,709 | 20 | statement | long | "Visual Weekend Roundup illustrated by me 😊" |
 | @? | 5,357 | 8 | statement | long | "⁣No one else has to get your vision because God did not give" |
 | @? | 5,051 | 4 | statement | medium | "💯 वादे नहीं, परिणाम बोलते हैं। 👍" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 19 / 20 recent posts used trending power-words (95%) ✅
-  - ✅ "discipline builds through the smallest actions, often taking just a mi..." (words: life, discipline)
-  - ✅ "in the quiet moments of stillness, discipline becomes the path through..." (words: life, discipline)
+- 18 / 20 recent posts used trending power-words (90%) ✅
+  - ✅ "discipline shapes our days, transforming fleeting moments into a life ..." (words: life, transform)
+  - ✅ "discipline is the quiet commitment to show up, even when the excitemen..." (words: life, transform)
+  - ⚠️ "discipline doesn’t require the absence of sleep; it thrives in the cho..."
   - ⚠️ "four and a half hours of sleep is not a badge of cruelty, it is the qu..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (dark, reel) — "Discipline is the quiet foundation upon which a life of purpose is built"
-2. **statement** (luxury, reel) — "Discipline is not about the hours we sleep, but the hours we dedicate to our cra"
-3. **statement** (bold, reel) — "Discipline is the bridge that connects our intentions to our actions, and it's i"
+1. **statement** (minimal, reel) — "Discipline is the foundation upon which a life of purpose is built, and without "
+2. **statement** (dark, reel) — "The early morning hours hold a quiet power, a time when life's distractions are "
+3. **statement** (minimal, reel) — "Life unfolds in the silence between waking and sleep, where discipline is born"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 68     | —          |
-| Avg score        | 0.9   | —          |
+| Posts scored     | 79     | —          |
+| Avg score        | 1.1   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 0   | 9,958      | -100% |
+| Avg engagement   | 1   | 5,582      | -100% |
 
 ## Next Actions (Auto-applied)
-- Quote generator biased toward: **statement, command** structures
-- Carousel ratio set to 11%
+- Quote generator biased toward: **command, statement** structures
+- Carousel ratio set to 6%
 - 5 trending hooks injected into next LLM prompts
 
 ---

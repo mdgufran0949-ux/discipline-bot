@@ -228,7 +228,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-05-01T04:36:34.908248"
+        "fetched_at": "2026-05-02T08:50:40.738408"
       }
     },
     {
@@ -249,7 +249,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-05-01T04:36:35.543450"
+        "fetched_at": "2026-05-02T08:50:41.424373"
       }
     },
     {
@@ -270,7 +270,7 @@
         "comments": 0,
         "likes": 1,
         "score": 1,
-        "fetched_at": "2026-05-01T04:36:36.156387"
+        "fetched_at": "2026-05-02T08:50:42.091419"
       }
     },
     {
@@ -291,7 +291,7 @@
         "comments": 0,
         "likes": 1,
         "score": 1,
-        "fetched_at": "2026-05-01T04:36:37.435388"
+        "fetched_at": "2026-05-02T08:50:42.715646"
       }
     },
     {
@@ -312,7 +312,7 @@
         "comments": 0,
         "likes": 2,
         "score": 10,
-        "fetched_at": "2026-05-01T04:36:38.136959"
+        "fetched_at": "2026-05-02T08:50:43.358057"
       }
     },
     {
@@ -333,7 +333,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-05-01T04:36:38.826890"
+        "fetched_at": "2026-05-02T08:50:43.932693"
       }
     },
     {
@@ -354,7 +354,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-05-01T04:36:39.538419"
+        "fetched_at": "2026-05-02T08:50:44.774458"
       }
     },
     {
@@ -375,7 +375,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-05-01T04:36:40.149225"
+        "fetched_at": "2026-05-02T08:50:45.535639"
       }
     },
     {
@@ -394,9 +394,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-05-01T04:36:40.733493"
+        "likes": 1,
+        "score": 1,
+        "fetched_at": "2026-05-02T08:50:46.311127"
       }
     },
     {
@@ -417,7 +417,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-05-01T04:37:14.075428"
+        "fetched_at": "2026-05-02T08:51:17.724680"
       }
     },
     {
@@ -438,7 +438,7 @@
         "comments": 0,
         "likes": 1,
         "score": 5,
-        "fetched_at": "2026-05-01T04:37:14.936460"
+        "fetched_at": "2026-05-02T08:51:18.256067"
       }
     },
     {
@@ -459,7 +459,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-05-01T04:37:15.559823"
+        "fetched_at": "2026-05-02T08:51:18.943332"
       }
     },
     {
@@ -478,9 +478,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-05-01T04:37:16.185571"
+        "likes": 1,
+        "score": 1,
+        "fetched_at": "2026-05-02T08:51:19.668615"
       }
     },
     {
@@ -499,9 +499,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-05-01T04:37:16.835201"
+        "likes": 1,
+        "score": 1,
+        "fetched_at": "2026-05-02T08:51:20.346138"
       }
     },
     {
@@ -517,12 +517,12 @@
       "posted_at": "2026-04-30T09:45:21.364975",
       "ig_media_id": "18079136810411741",
       "performance": {
-        "saves": 0,
+        "saves": 1,
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-05-01T04:37:17.457854"
+        "score": 4,
+        "fetched_at": "2026-05-02T08:51:20.964405"
       }
     },
     {
@@ -543,7 +543,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-05-01T04:37:18.009214"
+        "fetched_at": "2026-05-02T08:51:21.652395"
       }
     },
     {
@@ -562,9 +562,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-05-01T04:37:18.629137"
+        "likes": 1,
+        "score": 1,
+        "fetched_at": "2026-05-02T08:51:22.333401"
       }
     },
     {
@@ -583,9 +583,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": 0,
-        "fetched_at": "2026-05-01T04:37:19.289897"
+        "likes": 4,
+        "score": 4,
+        "fetched_at": "2026-05-02T08:51:22.994214"
       }
     },
     {
@@ -605,8 +605,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-02T08:51:23.541082"
       }
     },
     {
@@ -626,8 +626,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-02T08:51:24.093597"
       }
     },
     {
@@ -646,9 +646,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "likes": 1,
+        "score": 1,
+        "fetched_at": "2026-05-02T08:51:25.197797"
       }
     },
     {
@@ -668,8 +668,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-02T08:51:25.778591"
       }
     },
     {
@@ -688,9 +688,9 @@
         "saves": 0,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "likes": 2,
+        "score": 2,
+        "fetched_at": "2026-05-02T08:51:26.450430"
       }
     },
     {
@@ -706,12 +706,12 @@
       "posted_at": "2026-05-01T09:26:17.039914",
       "ig_media_id": "18077438273184907",
       "performance": {
-        "saves": 0,
-        "shares": 0,
+        "saves": 2,
+        "shares": 1,
         "comments": 0,
-        "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "likes": 1,
+        "score": 12,
+        "fetched_at": "2026-05-02T08:51:27.001982"
       }
     },
     {
@@ -731,8 +731,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-02T08:51:27.560771"
       }
     },
     {
@@ -752,8 +752,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-02T08:51:28.229415"
       }
     },
     {
@@ -773,8 +773,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-02T08:51:28.833931"
       }
     },
     {
@@ -794,8 +794,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-02T08:51:29.475894"
       }
     },
     {
@@ -810,6 +810,69 @@
       "selected_quote": "Discipline is the foundation upon which a life of purpose is built, and without it, we risk losing our sense of direction and identity, every day, in every way, we are shaped by our choices, and discipline is what helps us make the right ones, in the quiet moments, when no one is watching.",
       "posted_at": "2026-05-02T04:10:40.642380",
       "ig_media_id": "18349783852208581",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": 0,
+        "fetched_at": "2026-05-02T08:51:30.079664"
+      }
+    },
+    {
+      "id": "wake_up_call_18_20260502_085245",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 18,
+      "topic": "cristiano ronaldo talks about discipline",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline shapes life",
+      "posted_at": "2026-05-02T08:52:45.316118",
+      "ig_media_id": "18061425365438366",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "day_becoming_better_18_20260502_085635",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 18,
+      "topic": "short motivation 7",
+      "hook_keyword": "stillness",
+      "selected_quote": "In the stillness of life, we find the strength to follow our intentions, and in doing so, we transform our days into a reflection of our deepest desires, building a life that is a testament to the power of discipline and quiet progress.",
+      "posted_at": "2026-05-02T08:56:35.364020",
+      "ig_media_id": "18061603496441693",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_20_20260502_090036",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 20,
+      "topic": "1 minute a day",
+      "hook_keyword": "transform",
+      "selected_quote": "Devoting one minute a day to self-improvement can transform your life, as the cumulative effect of small, consistent efforts can lead to profound growth and a stronger sense of purpose.",
+      "posted_at": "2026-05-02T09:00:36.315474",
+      "ig_media_id": "18122155735627611",
       "performance": {
         "saves": 0,
         "shares": 0,
@@ -902,7 +965,7 @@
         "series": "wake_up_call",
         "topic": "your laziness has a price",
         "hook_keyword": "discipline",
-        "score": 0
+        "score": 1
       },
       {
         "quote_type": "statement",
@@ -938,7 +1001,7 @@
         "series": "day_becoming_better",
         "topic": "akshay kumars powerful time management advice",
         "hook_keyword": "discipline",
-        "score": 0
+        "score": 1
       },
       {
         "quote_type": "statement",
@@ -947,7 +1010,7 @@
         "series": "discipline_rule",
         "topic": "how much does david goggins sleeps",
         "hook_keyword": "quiet",
-        "score": 0
+        "score": 1
       },
       {
         "quote_type": "statement",
@@ -956,7 +1019,7 @@
         "series": "wake_up_call",
         "topic": "how to develop self discipline",
         "hook_keyword": "quiet",
-        "score": 0
+        "score": 4
       },
       {
         "quote_type": "statement",
@@ -974,7 +1037,7 @@
         "series": "discipline_rule",
         "topic": "how much does david goggins sleeps",
         "hook_keyword": "discipline",
-        "score": 0
+        "score": 1
       },
       {
         "quote_type": "statement",
@@ -983,42 +1046,144 @@
         "series": "wake_up_call",
         "topic": "how to develop self discipline",
         "hook_keyword": "discipline",
+        "score": 4
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "bold",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "let me sleep, so my teeth wont grind",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "luxury",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "wake up early",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "bold",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "if you don't have discipline you are a nobody",
+        "hook_keyword": "discipline",
+        "score": 1
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "dark",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "let me sleep, so my teeth wont grind",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "contrast",
+        "design_style": "dark",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "wake up early",
+        "hook_keyword": "discipline",
+        "score": 2
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "if you don't have discipline you are a nobody",
+        "hook_keyword": "discipline",
+        "score": 12
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "let me sleep, so my teeth wont grind",
+        "hook_keyword": "stillness",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "bold",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "if you don't have discipline you are a nobody",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "let me sleep, so my teeth wont grind",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "dark",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "wake up early",
+        "hook_keyword": "quiet",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "if you don't have discipline you are a nobody",
+        "hook_keyword": "discipline",
         "score": 0
       }
     ],
     "avoid_topics": [
-      "you keep choosing comfort over growth",
-      "procrastination is self-betrayal",
-      "how to develop self discipline",
-      "akshay kumars powerful time management advice",
       "how much does david goggins sleeps",
-      "your laziness has a price"
+      "you keep choosing comfort over growth",
+      "if you don't have discipline you are a nobody",
+      "wake up early",
+      "let me sleep, so my teeth wont grind",
+      "akshay kumars powerful time management advice",
+      "procrastination is self-betrayal",
+      "your laziness has a price",
+      "how to develop self discipline"
     ],
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 39,
+    "total_posts": 42,
     "by_quote_type": {
       "question": 1,
-      "statement": 37,
+      "statement": 40,
       "contrast": 1
     },
     "by_design_style": {
-      "minimal": 12,
+      "minimal": 13,
       "dark": 11,
-      "luxury": 8,
-      "bold": 8
+      "luxury": 9,
+      "bold": 9
     },
     "by_format": {
       "image": 1,
-      "reel": 38
+      "reel": 41
     },
     "by_series": {
-      "discipline_rule": 14,
-      "day_becoming_better": 13,
-      "wake_up_call": 12
+      "discipline_rule": 15,
+      "day_becoming_better": 14,
+      "wake_up_call": 13
     },
-    "top_performing_series": "discipline_rule"
+    "top_performing_series": "wake_up_call"
   },
   "prompt_hints": {
     "best_hooks": [],
@@ -1036,56 +1201,55 @@
       "Discipline shapes our days, tr"
     ]
   },
-  "last_upgraded": "2026-05-01T04:37:19.297438",
+  "last_upgraded": "2026-05-02T08:51:30.087807",
   "competitor_hints": {
     "top_hooks": [
-      "Follow selfelevatepro for daily discipline",
-      "New rule \u203c\ufe0f\u203c\ufe0f\u203c\ufe0f\u203c\ufe0f no looking back anymore!",
       "Save this post as a guide and share it with a friend \u2705",
-      "Thomas Shelby vibes only.",
-      "\u0907\u0938 \u092b\u093c\u0930\u0935\u0930\u0940 \u0924\u0941\u092e\u094d\u0939\u0947\u0902 \u0928\u0939\u0940\u0902\u2026 \u0924\u0941\u092e\u094d\u0939\u093e\u0930\u0940 \u0906\u0926\u0924\u094b\u0902 \u0915\u094b \u092c\u0926\u0932\u0928\u093e \u0939\u0948\u0964",
-      "I became UNSTOPPABLE \u2193",
+      "Drop two \u2764 if you needed to see this!",
       "This is an everyday battle \u2694\ufe0f\ud83d\udd25",
-      "B A D B O Y Z : Big Brother \ud83e\udec2",
-      "I went quiet for a week.",
-      "Most men break once."
+      "Sloppiness is a disease.",
+      "I always say that consistency and discipline will earn you more than wealth - a beautiful, strong an",
+      "Push your limits.",
+      "Rise above the rest or be buried beneath them is a call to arms for those who refuse to be ordinary.",
+      "Follow phrasalidiomatic",
+      "Whats your cause?",
+      "Whats your cause?\ud83d\udd25\ud83e\udee1"
     ],
     "power_words": [
-      "follow",
       "life",
-      "discipline",
+      "follow",
       "wolveinstinct",
-      "every",
       "content",
-      "time",
+      "post",
+      "never",
       "social",
       "media",
-      "let",
-      "transform",
-      "don",
-      "post",
       "weekly",
-      "link",
-      "his",
-      "hit",
+      "transform",
+      "discipline",
+      "save",
       "share",
-      "never",
-      "earning"
+      "turn",
+      "notifications",
+      "earning",
+      "tip",
+      "day",
+      "every",
+      "always"
     ],
     "winning_structures": [
-      "statement",
       "command",
-      "pain_driven",
-      "contrast",
-      "question"
+      "statement",
+      "question",
+      "pain_driven"
     ],
-    "benchmark_engagement": 9958.0,
-    "updated_at": "2026-05-01T04:36:28.728800"
+    "benchmark_engagement": 5582.0,
+    "updated_at": "2026-05-02T08:50:35.618744"
   },
   "creator_profiles": [
     {
       "display_name": "ai | business | motivation",
-      "appearances": 4,
+      "appearances": 6,
       "avg_engagement": 11346,
       "top_engagement": 15975,
       "dominant_structure": "command",
@@ -1172,25 +1336,27 @@
     },
     {
       "display_name": "wisetality",
-      "appearances": 18,
-      "avg_engagement": 6045,
+      "appearances": 26,
+      "avg_engagement": 5763,
       "top_engagement": 11265,
       "dominant_structure": "statement",
       "dominant_length": "long",
       "sample_hooks": [
-        "I became UNSTOPPABLE \u2193",
         "This is an everyday battle \u2694\ufe0f\ud83d\udd25",
-        "Whats your cause?"
+        "Push your limits.",
+        "Whats your cause?",
+        "I became UNSTOPPABLE \u2193"
       ],
       "power_words": [
-        "life",
         "wolveinstinct",
-        "every",
+        "life",
         "social",
         "media",
         "follow",
         "weekly",
-        "content"
+        "content",
+        "transform",
+        "every"
       ]
     },
     {
@@ -1277,6 +1443,28 @@
         "daje",
         "niko",
         "zna"
+      ]
+    },
+    {
+      "display_name": "elevation mindset | anime | motivation",
+      "appearances": 2,
+      "avg_engagement": 4030,
+      "top_engagement": 5896,
+      "dominant_structure": "statement",
+      "dominant_length": "long",
+      "sample_hooks": [
+        "Rise above the rest or be buried beneath them is a call to arms for those who refuse to be ordinary.",
+        "Discipline is the bridge between goals and accomplishments."
+      ],
+      "power_words": [
+        "rise",
+        "between",
+        "stand",
+        "above",
+        "rest",
+        "buried",
+        "beneath",
+        "call"
       ]
     },
     {

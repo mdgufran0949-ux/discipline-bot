@@ -1410,6 +1410,57 @@
       "predicted": "high",
       "posted_at": "2026-05-02T04:10:40.642380",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_18_20260502_085245",
+      "ig_media_id": "18061425365438366",
+      "permalink": "https://www.instagram.com/reel/DX1Ip0gHz0A/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 18,
+      "content_series": "Wake Up Call #18",
+      "topic": "cristiano ronaldo talks about discipline",
+      "selected_quote": "Discipline shapes life",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-02T08:52:45.316118",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_18_20260502_085635",
+      "ig_media_id": "18061603496441693",
+      "permalink": "https://www.instagram.com/reel/DX1JHAEiYK3/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 18,
+      "content_series": "Day 18 of Becoming Better",
+      "topic": "short motivation 7",
+      "selected_quote": "In the stillness of life, we find the strength to follow our intentions, and in doing so, we transform our days into a reflection of our deepest desires, building a life that is a testament to the power of discipline and quiet progress.",
+      "quote_type": "statement",
+      "hook_keyword": "stillness",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-02T08:56:35.364020",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_20_20260502_090036",
+      "ig_media_id": "18122155735627611",
+      "permalink": "https://www.instagram.com/reel/DX1Jj-slKj7/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 20,
+      "content_series": "Discipline Rule #20",
+      "topic": "1 minute a day",
+      "selected_quote": "Devoting one minute a day to self-improvement can transform your life, as the cumulative effect of small, consistent efforts can lead to profound growth and a stronger sense of purpose.",
+      "quote_type": "statement",
+      "hook_keyword": "transform",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-02T09:00:36.315474",
+      "dry_run": false
     }
   ]
 }
