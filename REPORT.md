@@ -1,36 +1,39 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-02 08:51
+Generated: 2026-05-03 09:04
 
 > ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
 ## System Health
 - Last competitor fetch: 2026-05-02T08:50 ✅
 - Last IG metrics fetch: never ⚠️
-- IG hashtag quota used (7d): 9 / 30 ✅
+- IG hashtag quota used (7d): 8 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-04-20 | 0 | 13,825 | 0% |
 | 2026-04-21 | 0 | 13,825 | 0% |
 | 2026-04-22 | 0 | 14,797 | 0% |
 | 2026-04-24 | 0 | 14,797 | 0% |
 | 2026-04-25 | 0 | 6,654 | 11% |
 | 2026-04-29 | 0 | 9,958 | 11% |
 | 2026-05-01 | 0 | 9,958 | 11% |
+| 2026-05-02 | 0 | 5,582 | 6% |
 
 ## What Changed Today
 - Format mix: image 0% → 14%, carousel 0% → 6%
-- Blacklisted topic: "how much does david goggins sleeps"
-- Blacklisted topic: "you keep choosing comfort over growth"
 - Blacklisted topic: "if you don't have discipline you are a nobody"
-- Blacklisted topic: "wake up early"
-- Blacklisted topic: "let me sleep, so my teeth wont grind"
-- Blacklisted topic: "akshay kumars powerful time management advice"
-- Blacklisted topic: "procrastination is self-betrayal"
+- Blacklisted topic: "you keep choosing comfort over growth"
+- Blacklisted topic: "short motivation 7"
 - Blacklisted topic: "your laziness has a price"
 - Blacklisted topic: "how to develop self discipline"
+- Blacklisted topic: "1 minute a day"
+- Blacklisted topic: "let me sleep, so my teeth wont grind"
+- Blacklisted topic: "procrastination is self-betrayal"
+- Blacklisted topic: "wake up early"
+- Blacklisted topic: "akshay kumars powerful time management advice"
+- Blacklisted topic: "cristiano ronaldo talks about discipline"
+- Blacklisted topic: "how much does david goggins sleeps"
 
 ## What We Learned From Competitors
 - Scanned hashtags: disciplinequotes, mentality, mindsetmatters, grindmode, hardworkpaysoff
@@ -50,35 +53,33 @@ Generated: 2026-05-02 08:51
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
 | Creator | Avg Engagement | Appearances | Style | Length | Best Hook |
 |---------|---------------|-------------|-------|--------|-----------|
-| @? | 11,346 | 6 | command | long | "Save this post as a guide and share it with a friend ✅" |
+| @? | 11,346 | 8 | command | long | "Save this post as a guide and share it with a friend ✅" |
 | @? | 10,703 | 6 | statement | medium | "Follow selfelevatepro for daily discipline" |
 | @? | 7,970 | 4 | statement | long | "Most men break once." |
 | @? | 7,948 | 6 | statement | long | "Follow 👉 we.think.deeply we.think.deeply we.think.deeply" |
-| @? | 5,763 | 26 | statement | long | "This is an everyday battle ⚔️🔥" |
 | @? | 5,709 | 20 | statement | long | "Visual Weekend Roundup illustrated by me 😊" |
+| @? | 5,614 | 34 | statement | long | "This is an everyday battle ⚔️🔥" |
 | @? | 5,357 | 8 | statement | long | "⁣No one else has to get your vision because God did not give" |
 | @? | 5,051 | 4 | statement | medium | "💯 वादे नहीं, परिणाम बोलते हैं। 👍" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 18 / 20 recent posts used trending power-words (90%) ✅
-  - ✅ "discipline shapes our days, transforming fleeting moments into a life ..." (words: life, transform)
-  - ✅ "discipline is the quiet commitment to show up, even when the excitemen..." (words: life, transform)
-  - ⚠️ "discipline doesn’t require the absence of sleep; it thrives in the cho..."
-  - ⚠️ "four and a half hours of sleep is not a badge of cruelty, it is the qu..."
+- 20 / 20 recent posts used trending power-words (100%) ✅
+  - ✅ "in the stillness of the night, our bodies repair and our minds recalib..." (words: life)
+  - ✅ "the earliest hours hold a sacred stillness, a time when discipline whi..." (words: life, follow)
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (minimal, reel) — "Discipline is the foundation upon which a life of purpose is built, and without "
-2. **statement** (dark, reel) — "The early morning hours hold a quiet power, a time when life's distractions are "
-3. **statement** (minimal, reel) — "Life unfolds in the silence between waking and sleep, where discipline is born"
+1. **statement** (dark, reel) — "One minute a day can transform your life"
+2. **statement** (dark, reel) — "In the stillness of life, we find the strength to follow our instincts and trans"
+3. **statement** (luxury, reel) — "Discipline is the quiet thread that weaves a life of purpose and consistency, wh"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 79     | —          |
-| Avg score        | 1.1   | —          |
+| Posts scored     | 88     | —          |
+| Avg score        | 1.4   | —          |
 | High performers  | 0       | —          |
 | Avg engagement   | 1   | 5,582      | -100% |
 

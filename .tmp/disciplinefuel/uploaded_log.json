@@ -1563,6 +1563,57 @@
       "predicted": "high",
       "posted_at": "2026-05-03T04:38:26.389372",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_21_20260503_090603",
+      "ig_media_id": "18114692920793418",
+      "permalink": "https://www.instagram.com/reel/DX3u__9Dy19/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 21,
+      "content_series": "Wake Up Call #21",
+      "topic": "stay positive, bring happiness p",
+      "selected_quote": "Happiness is a life choice, not a circumstance. We follow our hearts to find content in every moment, and it's in these moments that we transform. The life we live is a reflection of the choices we make, and choosing happiness is the greatest discipline of all.",
+      "quote_type": "statement",
+      "hook_keyword": "happiness",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-03T09:06:03.222676",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_21_20260503_091419",
+      "ig_media_id": "18087210773370966",
+      "permalink": "https://www.instagram.com/reel/DX3v6PCguE8/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 21,
+      "content_series": "Day 21 of Becoming Better",
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "selected_quote": "As we settle into the depths of life, we find that true growth lies not in the noise, but in the quiet rhythms of discipline and focus, where the wolf instinct within us awakens to guide us forward, one thoughtful step at a time, through the noise of social media and into the quiet of our own transformative weekly reflections.",
+      "quote_type": "statement",
+      "hook_keyword": "quiet",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-03T09:14:19.273032",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_23_20260503_093032",
+      "ig_media_id": "18045940142599124",
+      "permalink": "https://www.instagram.com/reel/DX3xyZllMO3/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 23,
+      "content_series": "Discipline Rule #23",
+      "topic": "life of the party",
+      "selected_quote": "The quiet life of following small, consistent rules turns ordinary weeks into seasons of transformation. Discipline does not roar like a wolf; it hums like a candle that refuses to go out. Each post of effort, however modest, becomes content that rewrites who we become when no one is watching media scroll.",
+      "quote_type": "statement",
+      "hook_keyword": "quiet",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-03T09:30:32.871551",
+      "dry_run": false
     }
   ]
 }
