@@ -1512,6 +1512,57 @@
       "predicted": "high",
       "posted_at": "2026-05-02T15:20:05.294786",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_20_20260503_043005",
+      "ig_media_id": "17931524493258847",
+      "permalink": "https://www.instagram.com/reel/DX3PYwKCAap/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 20,
+      "content_series": "Wake Up Call #20",
+      "topic": "cristiano ronaldo talks about discipline",
+      "selected_quote": "Discipline is the quiet thread that weaves a life of purpose and consistency, where every moment is a chance to transform and grow.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-03T04:30:05.832530",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_20_20260503_043406",
+      "ig_media_id": "18361064023230731",
+      "permalink": "https://www.instagram.com/reel/DX3P2RAkT9d/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 20,
+      "content_series": "Day 20 of Becoming Better",
+      "topic": "short motivation 7",
+      "selected_quote": "In the stillness of life, we find the strength to follow our instincts and transform our days into a testament of discipline and growth.",
+      "quote_type": "statement",
+      "hook_keyword": "stillness",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-03T04:34:06.337844",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_22_20260503_043826",
+      "ig_media_id": "17882981637552026",
+      "permalink": "https://www.instagram.com/reel/DX3QWd-kyDL/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 22,
+      "content_series": "Discipline Rule #22",
+      "topic": "1 minute a day",
+      "selected_quote": "One minute a day can transform your life",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-03T04:38:26.389372",
+      "dry_run": false
     }
   ]
 }
