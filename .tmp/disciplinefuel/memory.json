@@ -1070,6 +1070,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_22_20260503_151148",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 22,
+      "topic": "stay positive, bring happiness p",
+      "hook_keyword": "positivity",
+      "selected_quote": "Life follows the direction of our thoughts, cultivating positivity transforms it.",
+      "posted_at": "2026-05-03T15:11:48.998644",
+      "ig_media_id": "18068454704479278",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "day_becoming_better_22_20260503_151538",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 22,
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "hook_keyword": "stillness",
+      "selected_quote": "In the stillness of life, we find the strength to follow our deepest intentions, and it is there that true discipline is born, transforming our existence with every passing moment, as we weave a fabric of content that reflects our character",
+      "posted_at": "2026-05-03T15:15:38.672955",
+      "ig_media_id": "18017905259836671",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_24_20260503_151941",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 24,
+      "topic": "life of the party",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline fuels the life",
+      "posted_at": "2026-05-03T15:19:41.683380",
+      "ig_media_id": "18182796274376451",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -1435,26 +1498,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 51,
+    "total_posts": 54,
     "by_quote_type": {
       "question": 1,
-      "statement": 49,
+      "statement": 52,
       "contrast": 1
     },
     "by_design_style": {
       "minimal": 16,
-      "dark": 13,
+      "dark": 16,
       "luxury": 11,
       "bold": 11
     },
     "by_format": {
       "image": 1,
-      "reel": 50
+      "reel": 53
     },
     "by_series": {
-      "discipline_rule": 18,
-      "day_becoming_better": 17,
-      "wake_up_call": 16
+      "discipline_rule": 19,
+      "day_becoming_better": 18,
+      "wake_up_call": 17
     },
     "top_performing_series": "wake_up_call"
   },

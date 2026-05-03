@@ -1614,6 +1614,57 @@
       "predicted": "high",
       "posted_at": "2026-05-03T09:30:32.871551",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_22_20260503_151148",
+      "ig_media_id": "18068454704479278",
+      "permalink": "https://www.instagram.com/reel/DX4Y07tH8aP/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 22,
+      "content_series": "Wake Up Call #22",
+      "topic": "stay positive, bring happiness p",
+      "selected_quote": "Life follows the direction of our thoughts, cultivating positivity transforms it.",
+      "quote_type": "statement",
+      "hook_keyword": "positivity",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-03T15:11:48.998644",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_22_20260503_151538",
+      "ig_media_id": "18017905259836671",
+      "permalink": "https://www.instagram.com/reel/DX4ZSd8AezA/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 22,
+      "content_series": "Day 22 of Becoming Better",
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "selected_quote": "In the stillness of life, we find the strength to follow our deepest intentions, and it is there that true discipline is born, transforming our existence with every passing moment, as we weave a fabric of content that reflects our character",
+      "quote_type": "statement",
+      "hook_keyword": "stillness",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-03T15:15:38.672955",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_24_20260503_151941",
+      "ig_media_id": "18182796274376451",
+      "permalink": "https://www.instagram.com/reel/DX4Zu3bEWty/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 24,
+      "content_series": "Discipline Rule #24",
+      "topic": "life of the party",
+      "selected_quote": "Discipline fuels the life",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-03T15:19:41.683380",
+      "dry_run": false
     }
   ]
 }
