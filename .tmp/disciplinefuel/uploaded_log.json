@@ -1665,6 +1665,57 @@
       "predicted": "high",
       "posted_at": "2026-05-03T15:19:41.683380",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_23_20260504_042940",
+      "ig_media_id": "18115377805739966",
+      "permalink": "https://www.instagram.com/reel/DX50IQWD5C4/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 23,
+      "content_series": "Wake Up Call #23",
+      "topic": "stay positive, bring happiness p",
+      "selected_quote": "Life is a canvas of moments, and every brushstroke of discipline creates a masterpiece of happiness and contentment.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-04T04:29:40.052823",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_23_20260504_043342",
+      "ig_media_id": "18102681142956940",
+      "permalink": "https://www.instagram.com/reel/DX50mkmFSkF/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 23,
+      "content_series": "Day 23 of Becoming Better",
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "selected_quote": "In the stillness of a deep theta state, we find the quiet strength to transform our lives, one disciplined moment at a time, and follow the path that leads to a more fulfilling life.",
+      "quote_type": "statement",
+      "hook_keyword": "stillness",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-04T04:33:42.589445",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_25_20260504_043743",
+      "ig_media_id": "17927819631291889",
+      "permalink": "https://www.instagram.com/reel/DX51Dl0lR29/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 25,
+      "content_series": "Discipline Rule #25",
+      "topic": "life of the party",
+      "selected_quote": "Discipline over desire",
+      "quote_type": "punch",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-04T04:37:43.271039",
+      "dry_run": false
     }
   ]
 }

@@ -1133,6 +1133,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_23_20260504_042940",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 23,
+      "topic": "stay positive, bring happiness p",
+      "hook_keyword": "discipline",
+      "selected_quote": "Life is a canvas of moments, and every brushstroke of discipline creates a masterpiece of happiness and contentment.",
+      "posted_at": "2026-05-04T04:29:40.052823",
+      "ig_media_id": "18115377805739966",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "day_becoming_better_23_20260504_043342",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 23,
+      "topic": "400 hz 410 hz binaural beats for deep theta state meditation focus",
+      "hook_keyword": "stillness",
+      "selected_quote": "In the stillness of a deep theta state, we find the quiet strength to transform our lives, one disciplined moment at a time, and follow the path that leads to a more fulfilling life.",
+      "posted_at": "2026-05-04T04:33:42.589445",
+      "ig_media_id": "18102681142956940",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_25_20260504_043743",
+      "quote_type": "punch",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 25,
+      "topic": "life of the party",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline over desire",
+      "posted_at": "2026-05-04T04:37:43.271039",
+      "ig_media_id": "17927819631291889",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -1498,26 +1561,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 54,
+    "total_posts": 57,
     "by_quote_type": {
       "question": 1,
-      "statement": 52,
-      "contrast": 1
+      "statement": 54,
+      "contrast": 1,
+      "punch": 1
     },
     "by_design_style": {
       "minimal": 16,
-      "dark": 16,
-      "luxury": 11,
+      "dark": 17,
+      "luxury": 13,
       "bold": 11
     },
     "by_format": {
       "image": 1,
-      "reel": 53
+      "reel": 56
     },
     "by_series": {
-      "discipline_rule": 19,
-      "day_becoming_better": 18,
-      "wake_up_call": 17
+      "discipline_rule": 20,
+      "day_becoming_better": 19,
+      "wake_up_call": 18
     },
     "top_performing_series": "wake_up_call"
   },
