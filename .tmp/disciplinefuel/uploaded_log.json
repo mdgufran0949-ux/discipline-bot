@@ -1716,6 +1716,57 @@
       "predicted": "high",
       "posted_at": "2026-05-04T04:37:43.271039",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_24_20260504_094032",
+      "ig_media_id": "17874081729605300",
+      "permalink": "https://www.instagram.com/reel/DX6XucdFKGs/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 24,
+      "content_series": "Wake Up Call #24",
+      "topic": "no excuses",
+      "selected_quote": "It's not the loud motivations that drive us, but the quiet discipline that remembers our goals and stays committed to the grind, even when the strong days are behind us.",
+      "quote_type": "contrast",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-04T09:40:32.516279",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_24_20260504_094428",
+      "ig_media_id": "17874403248600600",
+      "permalink": "https://www.instagram.com/reel/DX6YLW0lBu6/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 24,
+      "content_series": "Day 24 of Becoming Better",
+      "topic": "he loves this rule of discipline",
+      "selected_quote": "Discipline is the quiet strength that stays with us, even when the applause fades, and it's this consistent effort that ultimately leads to success.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-04T09:44:28.187362",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_26_20260504_094832",
+      "ig_media_id": "18062253428443861",
+      "permalink": "https://www.instagram.com/reel/DX6YoKPDuil/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 26,
+      "content_series": "Discipline Rule #26",
+      "topic": "discipline is remembering what you truly want",
+      "selected_quote": "Discipline remembers what you truly want",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-04T09:48:32.825978",
+      "dry_run": false
     }
   ]
 }

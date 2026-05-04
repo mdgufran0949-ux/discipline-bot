@@ -1,10 +1,10 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-03 09:04
+Generated: 2026-05-04 09:39
 
 > ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
 ## System Health
-- Last competitor fetch: 2026-05-02T08:50 ✅
+- Last competitor fetch: 2026-05-04T09:37 ✅
 - Last IG metrics fetch: never ⚠️
 - IG hashtag quota used (7d): 8 / 30 ✅
 - Consecutive failed competitor fetches: 0
@@ -12,42 +12,45 @@ Generated: 2026-05-03 09:04
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-04-21 | 0 | 13,825 | 0% |
 | 2026-04-22 | 0 | 14,797 | 0% |
 | 2026-04-24 | 0 | 14,797 | 0% |
 | 2026-04-25 | 0 | 6,654 | 11% |
 | 2026-04-29 | 0 | 9,958 | 11% |
 | 2026-05-01 | 0 | 9,958 | 11% |
 | 2026-05-02 | 0 | 5,582 | 6% |
+| 2026-05-03 | 0 | 5,582 | 6% |
 
 ## What Changed Today
-- Format mix: image 0% → 14%, carousel 0% → 6%
-- Blacklisted topic: "if you don't have discipline you are a nobody"
-- Blacklisted topic: "you keep choosing comfort over growth"
-- Blacklisted topic: "short motivation 7"
-- Blacklisted topic: "your laziness has a price"
+- Format mix: image 0% → 11%, carousel 0% → 9%
+- Blacklisted topic: "stay positive, bring happiness p"
 - Blacklisted topic: "how to develop self discipline"
-- Blacklisted topic: "1 minute a day"
 - Blacklisted topic: "let me sleep, so my teeth wont grind"
-- Blacklisted topic: "procrastination is self-betrayal"
+- Blacklisted topic: "cristiano ronaldo talks about discipline"
+- Blacklisted topic: "your laziness has a price"
 - Blacklisted topic: "wake up early"
 - Blacklisted topic: "akshay kumars powerful time management advice"
-- Blacklisted topic: "cristiano ronaldo talks about discipline"
+- Blacklisted topic: "life of the party"
+- Blacklisted topic: "if you don't have discipline you are a nobody"
 - Blacklisted topic: "how much does david goggins sleeps"
+- Blacklisted topic: "you keep choosing comfort over growth"
+- Blacklisted topic: "1 minute a day"
+- Blacklisted topic: "procrastination is self-betrayal"
+- Blacklisted topic: "short motivation 7"
+- Blacklisted topic: "400 hz 410 hz binaural beats for deep theta state meditation focus"
 
 ## What We Learned From Competitors
-- Scanned hashtags: disciplinequotes, mentality, mindsetmatters, grindmode, hardworkpaysoff
-- Posts analyzed: 20
-- Niche benchmark: 5,582 avg engagement | Our avg: 0 | Gap: -100%
+- Scanned hashtags: mindsetmatters, grindmode, hardworkpaysoff, motivationdaily, selfimprovementtips
+- Posts analyzed: 7
+- Niche benchmark: 3,802 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
-  1. "Save this post as a guide and share it with a friend ✅"
-  2. "Drop two ❤ if you needed to see this!"
-  3. "This is an everyday battle ⚔️🔥"
-  4. "Sloppiness is a disease."
-  5. "I always say that consistency and discipline will earn you more than wealth - a beautiful,"
-- Hot power words: life, follow, wolveinstinct, content, post, never, social, media
+  1. "Success isn’t about the applause you get when you’re winning."
+  2. "Strong days pay off.🏅"
+  3. "🔥 Back & Shoulders Destroyed."
+  4. "Tennis drills on the schedule today 🎾"
+  5. "Just looking through prep photos."
+- Hot power words: stay, success, remember, speak, louder, strong, back, consistent
 - Dominant quote structure: **statement**
-- Dominant media type: **IMAGE (70%)**
+- Dominant media type: **IMAGE (57%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
@@ -63,29 +66,31 @@ Generated: 2026-05-03 09:04
 | @? | 5,051 | 4 | statement | medium | "💯 वादे नहीं, परिणाम बोलते हैं। 👍" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 20 / 20 recent posts used trending power-words (100%) ✅
-  - ✅ "in the stillness of the night, our bodies repair and our minds recalib..." (words: life)
-  - ✅ "the earliest hours hold a sacred stillness, a time when discipline whi..." (words: life, follow)
+- 3 / 20 recent posts used trending power-words (15%) ⚠️
+  - ✅ "devoting one minute a day to self-improvement can transform your life,..." (words: strong, consistent)
+  - ✅ "one minute a day can transform your life with consistent discipline." (words: consistent)
+  - ⚠️ "the early morning hours hold a quiet power, a time when life's distrac..."
+  - ⚠️ "discipline is the foundation upon which a life of purpose is built, an..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (dark, reel) — "One minute a day can transform your life"
-2. **statement** (dark, reel) — "In the stillness of life, we find the strength to follow our instincts and trans"
-3. **statement** (luxury, reel) — "Discipline is the quiet thread that weaves a life of purpose and consistency, wh"
+1. **punch** (dark, reel) — "Discipline over desire"
+2. **statement** (luxury, reel) — "In the stillness of a deep theta state, we find the quiet strength to transform "
+3. **statement** (luxury, reel) — "Life is a canvas of moments, and every brushstroke of discipline creates a maste"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 88     | —          |
-| Avg score        | 1.4   | —          |
+| Posts scored     | 97     | —          |
+| Avg score        | 1.5   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 5,582      | -100% |
+| Avg engagement   | 1   | 3,802      | -100% |
 
 ## Next Actions (Auto-applied)
-- Quote generator biased toward: **command, statement** structures
-- Carousel ratio set to 6%
+- Quote generator biased toward: **statement, identity** structures
+- Carousel ratio set to 9%
 - 5 trending hooks injected into next LLM prompts
 
 ---
