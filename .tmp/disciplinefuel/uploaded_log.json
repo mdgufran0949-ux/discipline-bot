@@ -1767,6 +1767,57 @@
       "predicted": "high",
       "posted_at": "2026-05-04T09:48:32.825978",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_25_20260504_161906",
+      "ig_media_id": "18065784497374981",
+      "permalink": "https://www.instagram.com/reel/DX7FVHDjw_i/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 25,
+      "content_series": "Wake Up Call #25",
+      "topic": "no excuses",
+      "selected_quote": "Discipline is the quiet strength that stays with us, even when motivation fades, and it's this consistent effort that ultimately leads to success.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-04T16:19:06.286981",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_25_20260504_162307",
+      "ig_media_id": "18102461440952596",
+      "permalink": "https://www.instagram.com/reel/DX7FyLvjJig/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 25,
+      "content_series": "Day 25 of Becoming Better",
+      "topic": "he loves this rule of discipline",
+      "selected_quote": "Discipline is the whisper that speaks louder",
+      "quote_type": "statement",
+      "hook_keyword": "whisper",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-04T16:23:07.265568",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_27_20260504_162711",
+      "ig_media_id": "18142347712508909",
+      "permalink": "https://www.instagram.com/reel/DX7GP6pCQYY/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 27,
+      "content_series": "Discipline Rule #27",
+      "topic": "discipline is remembering what you truly want",
+      "selected_quote": "Discipline is remembering what you truly want, even when the noise speaks louder.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-04T16:27:11.643587",
+      "dry_run": false
     }
   ]
 }
