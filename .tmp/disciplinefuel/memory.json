@@ -1322,6 +1322,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_26_20260505_035816",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 26,
+      "topic": "no excuses",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline speaks louder than excuses, and success remembers those who stay consistent.",
+      "posted_at": "2026-05-05T03:58:16.537774",
+      "ig_media_id": "18351364072211284",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "day_becoming_better_26_20260505_040226",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 26,
+      "topic": "he loves this rule of discipline",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the bridge between goals and success.",
+      "posted_at": "2026-05-05T04:02:26.516573",
+      "ig_media_id": "18111423352882292",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_28_20260505_040629",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 28,
+      "topic": "discipline is remembering what you truly want",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the gentle reminder of what we truly want, a quiet whisper that guides us through life's noise, helping us stay consistent on our path to success.",
+      "posted_at": "2026-05-05T04:06:29.483008",
+      "ig_media_id": "17993769191956364",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -1771,27 +1834,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 63,
+    "total_posts": 66,
     "by_quote_type": {
       "question": 1,
-      "statement": 59,
+      "statement": 62,
       "contrast": 2,
       "punch": 1
     },
     "by_design_style": {
-      "minimal": 18,
-      "dark": 19,
+      "minimal": 19,
+      "dark": 20,
       "luxury": 13,
-      "bold": 13
+      "bold": 14
     },
     "by_format": {
       "image": 1,
-      "reel": 62
+      "reel": 65
     },
     "by_series": {
-      "discipline_rule": 22,
-      "day_becoming_better": 21,
-      "wake_up_call": 20
+      "discipline_rule": 23,
+      "day_becoming_better": 22,
+      "wake_up_call": 21
     },
     "top_performing_series": "wake_up_call"
   },

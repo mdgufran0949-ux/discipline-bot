@@ -1818,6 +1818,57 @@
       "predicted": "high",
       "posted_at": "2026-05-04T16:27:11.643587",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_26_20260505_035816",
+      "ig_media_id": "18351364072211284",
+      "permalink": "https://www.instagram.com/reel/DX8VVXQlqUD/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 26,
+      "content_series": "Wake Up Call #26",
+      "topic": "no excuses",
+      "selected_quote": "Discipline speaks louder than excuses, and success remembers those who stay consistent.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-05T03:58:16.537774",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_26_20260505_040226",
+      "ig_media_id": "18111423352882292",
+      "permalink": "https://www.instagram.com/reel/DX8Vzvqk6pO/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 26,
+      "content_series": "Day 26 of Becoming Better",
+      "topic": "he loves this rule of discipline",
+      "selected_quote": "Discipline is the bridge between goals and success.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-05T04:02:26.516573",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_28_20260505_040629",
+      "ig_media_id": "17993769191956364",
+      "permalink": "https://www.instagram.com/reel/DX8WSFeEVyp/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 28,
+      "content_series": "Discipline Rule #28",
+      "topic": "discipline is remembering what you truly want",
+      "selected_quote": "Discipline is the gentle reminder of what we truly want, a quiet whisper that guides us through life's noise, helping us stay consistent on our path to success.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-05T04:06:29.483008",
+      "dry_run": false
     }
   ]
 }
