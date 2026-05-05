@@ -1385,6 +1385,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_27_20260505_093327",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 27,
+      "topic": "no excuses",
+      "hook_keyword": "stay",
+      "selected_quote": "Success is not a destination, but a consistent effort to stay on the path, even when the outcome is uncertain, and the journey is long.",
+      "posted_at": "2026-05-05T09:33:27.363277",
+      "ig_media_id": "18144555394505201",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "day_becoming_better_27_20260505_093731",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 27,
+      "topic": "he loves this rule of discipline",
+      "hook_keyword": "discipline",
+      "selected_quote": "The strongest voices are those that speak louder through their actions, not words. Discipline is the quiet foundation upon which success is built, and it's the consistent effort that stays with us long after the initial motivation has faded. Remember, the work we put in today will be the voice that speaks for us tomorrow.",
+      "posted_at": "2026-05-05T09:37:31.514662",
+      "ig_media_id": "17887822329475263",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_29_20260505_094130",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 29,
+      "topic": "discipline is remembering what you truly want",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline remembers what truly matters",
+      "posted_at": "2026-05-05T09:41:30.357443",
+      "ig_media_id": "18097234274326457",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -1834,27 +1897,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 66,
+    "total_posts": 69,
     "by_quote_type": {
       "question": 1,
-      "statement": 62,
+      "statement": 65,
       "contrast": 2,
       "punch": 1
     },
     "by_design_style": {
       "minimal": 19,
-      "dark": 20,
+      "dark": 21,
       "luxury": 13,
-      "bold": 14
+      "bold": 16
     },
     "by_format": {
       "image": 1,
-      "reel": 65
+      "reel": 68
     },
     "by_series": {
-      "discipline_rule": 23,
-      "day_becoming_better": 22,
-      "wake_up_call": 21
+      "discipline_rule": 24,
+      "day_becoming_better": 23,
+      "wake_up_call": 22
     },
     "top_performing_series": "wake_up_call"
   },

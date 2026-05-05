@@ -1869,6 +1869,57 @@
       "predicted": "high",
       "posted_at": "2026-05-05T04:06:29.483008",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_27_20260505_093327",
+      "ig_media_id": "18144555394505201",
+      "permalink": "https://www.instagram.com/reel/DX87srkkgNS/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 27,
+      "content_series": "Wake Up Call #27",
+      "topic": "no excuses",
+      "selected_quote": "Success is not a destination, but a consistent effort to stay on the path, even when the outcome is uncertain, and the journey is long.",
+      "quote_type": "statement",
+      "hook_keyword": "stay",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-05T09:33:27.363277",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_27_20260505_093731",
+      "ig_media_id": "17887822329475263",
+      "permalink": "https://www.instagram.com/reel/DX88KP4CItf/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 27,
+      "content_series": "Day 27 of Becoming Better",
+      "topic": "he loves this rule of discipline",
+      "selected_quote": "The strongest voices are those that speak louder through their actions, not words. Discipline is the quiet foundation upon which success is built, and it's the consistent effort that stays with us long after the initial motivation has faded. Remember, the work we put in today will be the voice that speaks for us tomorrow.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-05T09:37:31.514662",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_29_20260505_094130",
+      "ig_media_id": "18097234274326457",
+      "permalink": "https://www.instagram.com/reel/DX88n73ivJQ/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 29,
+      "content_series": "Discipline Rule #29",
+      "topic": "discipline is remembering what you truly want",
+      "selected_quote": "Discipline remembers what truly matters",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-05T09:41:30.357443",
+      "dry_run": false
     }
   ]
 }
