@@ -2022,6 +2022,57 @@
       "predicted": "high",
       "posted_at": "2026-05-06T09:52:35.955187",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_30_20260506_162155",
+      "ig_media_id": "18588594640049268",
+      "permalink": "https://www.instagram.com/reel/DYAPPO0DC5s/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 30,
+      "content_series": "Wake Up Call #30",
+      "topic": "never be an option",
+      "selected_quote": "Discipline is the whisper that stays when motivation speaks louder",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-06T16:21:55.633941",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_30_20260506_164036",
+      "ig_media_id": "17983737269990298",
+      "permalink": "https://www.instagram.com/reel/DYARZaKlNlN/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 30,
+      "content_series": "Day 30 of Becoming Better",
+      "topic": "become who you could be",
+      "selected_quote": "The quiet version of you is still becoming loud inside.",
+      "quote_type": "statement",
+      "hook_keyword": "quiet",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-06T16:40:36.175371",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_32_20260506_165155",
+      "ig_media_id": "17868598662614754",
+      "permalink": "https://www.instagram.com/reel/DYASrhPDnD2/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 32,
+      "content_series": "Discipline Rule #32",
+      "topic": "father disciplines his daughter",
+      "selected_quote": "A father\u2019s discipline is measured not in loud words but in the quiet way he shows up, day after day, guiding her hands until she can hold her own compass. He doesn\u2019t speak louder to make her strong; he stays consistent so she can one day speak louder for herself. Success is built while the world isn\u2019t watching, and when she remembers the steadiness of his presence, she understands that consistency was always the greatest gift.",
+      "quote_type": "statement",
+      "hook_keyword": "quiet",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-06T16:51:55.801103",
+      "dry_run": false
     }
   ]
 }
