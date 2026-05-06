@@ -1971,6 +1971,57 @@
       "predicted": "high",
       "posted_at": "2026-05-06T04:44:00.959783",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_29_20260506_094428",
+      "ig_media_id": "18063665060418791",
+      "permalink": "https://www.instagram.com/reel/DX_hwh-DJ7b/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 29,
+      "content_series": "Wake Up Call #29",
+      "topic": "never be an option",
+      "selected_quote": "Discipline is the silent foundation of success, a choice that speaks louder than any achievement.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-06T09:44:28.945131",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_29_20260506_094831",
+      "ig_media_id": "17913037821379641",
+      "permalink": "https://www.instagram.com/reel/DX_iNqtlScI/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 29,
+      "content_series": "Day 29 of Becoming Better",
+      "topic": "become who you could be",
+      "selected_quote": "The strongest version of ourselves is built on the foundation of consistent effort and quiet dedication.",
+      "quote_type": "statement",
+      "hook_keyword": "strongest",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-06T09:48:31.700791",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_31_20260506_095235",
+      "ig_media_id": "17960470296112948",
+      "permalink": "https://www.instagram.com/reel/DX_isi1DIns/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 31,
+      "content_series": "Discipline Rule #31",
+      "topic": "father disciplines his daughter",
+      "selected_quote": "Discipline speaks louder",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-06T09:52:35.955187",
+      "dry_run": false
     }
   ]
 }
