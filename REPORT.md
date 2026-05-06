@@ -1,42 +1,45 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-04 09:39
+Generated: 2026-05-06 04:15
 
 > ⚠️ **ATTENTION NEEDED:** metrics_fetch
 
 ## System Health
 - Last competitor fetch: 2026-05-04T09:37 ✅
 - Last IG metrics fetch: never ⚠️
-- IG hashtag quota used (7d): 8 / 30 ✅
+- IG hashtag quota used (7d): 10 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-04-22 | 0 | 14,797 | 0% |
 | 2026-04-24 | 0 | 14,797 | 0% |
 | 2026-04-25 | 0 | 6,654 | 11% |
 | 2026-04-29 | 0 | 9,958 | 11% |
 | 2026-05-01 | 0 | 9,958 | 11% |
 | 2026-05-02 | 0 | 5,582 | 6% |
 | 2026-05-03 | 0 | 5,582 | 6% |
+| 2026-05-04 | 0 | 3,802 | 9% |
 
 ## What Changed Today
 - Format mix: image 0% → 11%, carousel 0% → 9%
-- Blacklisted topic: "stay positive, bring happiness p"
-- Blacklisted topic: "how to develop self discipline"
-- Blacklisted topic: "let me sleep, so my teeth wont grind"
-- Blacklisted topic: "cristiano ronaldo talks about discipline"
-- Blacklisted topic: "your laziness has a price"
-- Blacklisted topic: "wake up early"
 - Blacklisted topic: "akshay kumars powerful time management advice"
-- Blacklisted topic: "life of the party"
+- Blacklisted topic: "short motivation 7"
 - Blacklisted topic: "if you don't have discipline you are a nobody"
 - Blacklisted topic: "how much does david goggins sleeps"
+- Blacklisted topic: "cristiano ronaldo talks about discipline"
+- Blacklisted topic: "let me sleep, so my teeth wont grind"
+- Blacklisted topic: "your laziness has a price"
+- Blacklisted topic: "discipline is remembering what you truly want"
+- Blacklisted topic: "life of the party"
+- Blacklisted topic: "no excuses"
 - Blacklisted topic: "you keep choosing comfort over growth"
-- Blacklisted topic: "1 minute a day"
-- Blacklisted topic: "procrastination is self-betrayal"
-- Blacklisted topic: "short motivation 7"
+- Blacklisted topic: "he loves this rule of discipline"
 - Blacklisted topic: "400 hz 410 hz binaural beats for deep theta state meditation focus"
+- Blacklisted topic: "procrastination is self-betrayal"
+- Blacklisted topic: "stay positive, bring happiness p"
+- Blacklisted topic: "wake up early"
+- Blacklisted topic: "how to develop self discipline"
+- Blacklisted topic: "1 minute a day"
 
 ## What We Learned From Competitors
 - Scanned hashtags: mindsetmatters, grindmode, hardworkpaysoff, motivationdaily, selfimprovementtips
@@ -66,24 +69,24 @@ Generated: 2026-05-04 09:39
 | @? | 5,051 | 4 | statement | medium | "💯 वादे नहीं, परिणाम बोलते हैं। 👍" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 3 / 20 recent posts used trending power-words (15%) ⚠️
-  - ✅ "devoting one minute a day to self-improvement can transform your life,..." (words: strong, consistent)
-  - ✅ "one minute a day can transform your life with consistent discipline." (words: consistent)
-  - ⚠️ "the early morning hours hold a quiet power, a time when life's distrac..."
-  - ⚠️ "discipline is the foundation upon which a life of purpose is built, an..."
+- 13 / 20 recent posts used trending power-words (65%) ✅
+  - ✅ "the quiet life of following small, consistent rules turns ordinary wee..." (words: consistent)
+  - ✅ "it's not the loud motivations that drive us, but the quiet discipline ..." (words: stay, remember, strong)
+  - ⚠️ "as we settle into the depths of life, we find that true growth lies no..."
+  - ⚠️ "life follows the direction of our thoughts, cultivating positivity tra..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **punch** (dark, reel) — "Discipline over desire"
-2. **statement** (luxury, reel) — "In the stillness of a deep theta state, we find the quiet strength to transform "
-3. **statement** (luxury, reel) — "Life is a canvas of moments, and every brushstroke of discipline creates a maste"
+1. **statement** (bold, reel) — "Discipline remembers what truly matters"
+2. **statement** (bold, reel) — "The strongest voices are those that speak louder through their actions, not word"
+3. **statement** (dark, reel) — "Success is not a destination, but a consistent effort to stay on the path, even "
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 97     | —          |
+| Posts scored     | 109     | —          |
 | Avg score        | 1.5   | —          |
 | High performers  | 0       | —          |
 | Avg engagement   | 1   | 3,802      | -100% |

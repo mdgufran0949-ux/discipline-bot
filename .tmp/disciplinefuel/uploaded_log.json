@@ -1920,6 +1920,57 @@
       "predicted": "high",
       "posted_at": "2026-05-05T09:41:30.357443",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_28_20260506_041857",
+      "ig_media_id": "18103934692757848",
+      "permalink": "https://www.instagram.com/reel/DX-8gNqEaNJ/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 28,
+      "content_series": "Wake Up Call #28",
+      "topic": "never be an option",
+      "selected_quote": "Motivation may fade, but discipline remains, a constant reminder that our strongest days are built on the foundation of consistent effort.",
+      "quote_type": "contrast",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-06T04:18:57.688381",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_28_20260506_042456",
+      "ig_media_id": "17938175562213693",
+      "permalink": "https://www.instagram.com/reel/DX-9MQ5AtLg/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 28,
+      "content_series": "Day 28 of Becoming Better",
+      "topic": "become who you could be",
+      "selected_quote": "The person you could become is waiting quietly in the habits you haven\u2019t chosen yet \u2014 stay long enough to meet him.",
+      "quote_type": "statement",
+      "hook_keyword": "stay",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-06T04:24:56.237644",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_30_20260506_044400",
+      "ig_media_id": "17936255043233591",
+      "permalink": "https://www.instagram.com/reel/DX-_Y9UFNHK/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 30,
+      "content_series": "Discipline Rule #30",
+      "topic": "father disciplines his daughter",
+      "selected_quote": "A father teaches his daughter that success speaks loudest when a promise stays consistent longer than a feeling does.",
+      "quote_type": "statement",
+      "hook_keyword": "stay",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-06T04:44:00.959783",
+      "dry_run": false
     }
   ]
 }
