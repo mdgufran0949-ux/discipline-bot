@@ -72,8 +72,21 @@ def _load_log(account: str) -> dict:
     path = _log_path(account)
     if not os.path.exists(path):
         return {"uploaded": []}
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {"uploaded": []}
+    except Exception:
+        return {"uploaded": []}
+
+
+def _save_log(account: str, log: dict) -> None:
+    path = _log_path(account)
+    tmp  = path + ".tmp"
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(log, f, indent=2, ensure_ascii=False)
+    os.replace(tmp, path)
 
 
 # ── Instagram metrics fetching ─────────────────────────────────────────────────
@@ -136,7 +149,7 @@ def fetch_and_score_posts(account: str, ig_access_token: str, force: bool = Fals
     print(f"Fetching metrics for {len(posts)} posts...", flush=True)
     for post in posts:
         media_id = post.get("ig_media_id", "")
-        if not media_id:
+        if not media_id or media_id.startswith(("QUEUED_", "DRY_")):
             continue
         fetched_at = post.get("metrics_fetched_at", "")
         if not force and fetched_at:
@@ -161,6 +174,8 @@ def fetch_and_score_posts(account: str, ig_access_token: str, force: bool = Fals
 
         mem_module.update_performance(media_id, metrics)
         print(f"  [OK] {media_id}: score={score:.0f} (saves={metrics['saves']}, shares={metrics['shares']})", flush=True)
+
+    _save_log(account, log)
 
     return scored
 

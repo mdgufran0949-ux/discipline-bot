@@ -2,9 +2,8 @@ name: DisciplineFuel Pipeline
 
 on:
   schedule:
-    - cron: '30 0 * * *'   # 06:00 IST (UTC+5:30)
-    - cron: '30 7 * * *'   # 13:00 IST
-    - cron: '30 14 * * *'  # 20:00 IST
+    - cron: '30 3 * * *'    # base 09:00 IST (+random 5-30 min delay applied in step)
+    - cron: '30 12 * * *'   # base 18:00 IST (+random 5-30 min delay applied in step)
   workflow_dispatch:        # manual trigger from GitHub UI
 
 jobs:
@@ -68,8 +67,14 @@ jobs:
           mkdir -p .tmp/disciplinefuel
           echo "$CANVA_TOKEN_JSON" > .tmp/disciplinefuel/canva_token.json
 
+      - name: Random pre-post delay (5-30 min — avoids exact round-time pattern)
+        run: |
+          delay=$(( (RANDOM % 1501) + 300 ))
+          echo "Sleeping ${delay}s ($(( delay / 60 ))m $(( delay % 60 ))s) before posting..."
+          sleep $delay
+
       - name: Run DisciplineFuel pipeline
-        run: python tools/run_discipline_pipeline.py --account disciplinefuel --count 3
+        run: python tools/run_discipline_pipeline.py --account disciplinefuel --count 1
 
       - name: Commit state files back to repo
         if: always()
@@ -79,35 +84,41 @@ jobs:
 
           # Save files written during this run BEFORE resetting to remote.
           # git reset --hard would otherwise wipe them since they're tracked.
-          mkdir -p /tmp/df_state
+          mkdir -p /tmp/df_state /tmp/df_state/queue
           cp .tmp/disciplinefuel/memory.json           /tmp/df_state/ 2>/dev/null || true
           cp .tmp/disciplinefuel/uploaded_log.json     /tmp/df_state/ 2>/dev/null || true
+          cp .tmp/disciplinefuel/audio_history.json    /tmp/df_state/ 2>/dev/null || true
           cp .tmp/disciplinefuel/trends.json           /tmp/df_state/ 2>/dev/null || true
           cp .tmp/disciplinefuel/competitor_intel.json /tmp/df_state/ 2>/dev/null || true
           cp .tmp/disciplinefuel/change_history.jsonl  /tmp/df_state/ 2>/dev/null || true
           cp config/accounts/disciplinefuel.json       /tmp/df_state/ 2>/dev/null || true
           cp REPORT.md                                 /tmp/df_state/ 2>/dev/null || true
+          cp queue/pending_audio/*.json                /tmp/df_state/queue/ 2>/dev/null || true
 
           # Reset to latest remote to avoid push conflicts
           git fetch origin main
           git reset --hard origin/main
 
           # Restore the files this run generated
-          mkdir -p .tmp/disciplinefuel
+          mkdir -p .tmp/disciplinefuel queue/pending_audio
           cp /tmp/df_state/memory.json           .tmp/disciplinefuel/ 2>/dev/null || true
           cp /tmp/df_state/uploaded_log.json     .tmp/disciplinefuel/ 2>/dev/null || true
+          cp /tmp/df_state/audio_history.json    .tmp/disciplinefuel/ 2>/dev/null || true
           cp /tmp/df_state/trends.json           .tmp/disciplinefuel/ 2>/dev/null || true
           cp /tmp/df_state/competitor_intel.json .tmp/disciplinefuel/ 2>/dev/null || true
           cp /tmp/df_state/change_history.jsonl  .tmp/disciplinefuel/ 2>/dev/null || true
           cp /tmp/df_state/disciplinefuel.json   config/accounts/     2>/dev/null || true
           cp /tmp/df_state/REPORT.md             .                     2>/dev/null || true
+          cp /tmp/df_state/queue/*.json          queue/pending_audio/ 2>/dev/null || true
 
           git add -f .tmp/disciplinefuel/memory.json            2>/dev/null || true
           git add -f .tmp/disciplinefuel/uploaded_log.json      2>/dev/null || true
+          git add -f .tmp/disciplinefuel/audio_history.json     2>/dev/null || true
           git add -f .tmp/disciplinefuel/trends.json             2>/dev/null || true
           git add -f .tmp/disciplinefuel/competitor_intel.json   2>/dev/null || true
           git add -f .tmp/disciplinefuel/change_history.jsonl    2>/dev/null || true
           git add    config/accounts/disciplinefuel.json
           git add    REPORT.md                                   2>/dev/null || true
+          git add -f queue/pending_audio/                        2>/dev/null || true
           git diff --staged --quiet || git commit -m "state: disciplinefuel after pipeline run [skip ci]"
           git push origin main

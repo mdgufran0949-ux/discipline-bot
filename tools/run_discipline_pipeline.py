@@ -35,7 +35,7 @@ import generate_canva_post       as canva_tool
 import upload_image_post         as upload_tool
 import upload_reel               as reel_upload_tool
 import compose_discipline_reel   as reel_tool
-import generate_discipline_bgm   as bgm_tool
+import audio_selector
 import review_and_upgrade        as review_tool
 
 SLEEP_BETWEEN_POSTS = 180   # 3 minutes (same as run_pipeline.py)
@@ -203,6 +203,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
 
         design_style = memory_tool.weighted_choice(weights["design_style"])
         fmt          = memory_tool.weighted_choice(weights["format"])
+        manual_mode  = False  # set to True inside reel branch when manual_audio_mode is active
 
         # Skip recently-used topic (check last 30 posts in memory)
         if memory_tool.should_avoid(topic=topic):
@@ -276,9 +277,8 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 )
                 output_files = composed["files"]
             elif fmt == "reel":
-                bgm_path = os.path.join(TMP_BASE, account, "bgm.mp3")
-                if not os.path.exists(bgm_path) or (time.time() - os.path.getmtime(bgm_path)) > 7 * 86400:
-                    bgm_tool.generate_bgm(output_path=bgm_path)
+                manual_mode = cfg.get("manual_audio_mode", True)
+                audio_selector.prepare_bgm(account, cfg)
                 composed = reel_tool.compose_discipline_reel(
                     quote=selected_quote,
                     series_label=series_label,
@@ -303,11 +303,31 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
             print("\n[7/8] Uploading to Instagram...", flush=True)
             ig_media_id = ""
             permalink   = ""
+            preview_url = None
+            queue_id    = None
 
             if dry_run:
                 print(f"  [DRY RUN] Would upload {fmt} post: {output_files}", flush=True)
                 ig_media_id = f"DRY_{int(time.time())}"
                 permalink   = "https://instagram.com/p/dry_run"
+            elif fmt == "reel" and manual_mode:
+                # Hard path — queued for manual IG posting, upload_reel is never called
+                print("\n[7/8] Manual audio mode — queuing reel for manual IG post...", flush=True)
+                queue_info  = audio_selector.queue_for_manual_posting(
+                    video_path=output_files[0],
+                    metadata={
+                        "caption":          caption,
+                        "hashtags":         payload.get("hashtags", []),
+                        "series_label":     series_label,
+                        "queued_at":        datetime.now().isoformat(),
+                        "target_post_time": datetime.now().isoformat(),
+                    },
+                    account=account,
+                )
+                queue_id    = queue_info["queue_id"]
+                ig_media_id = f"QUEUED_{queue_id}"   # placeholder; replaced by mark_posted.py
+                permalink   = "pending_manual_post"   # real permalink set after manual posting
+                preview_url = queue_info.get("cloudinary_url")
             else:
                 if fmt == "carousel":
                     result = upload_tool.upload_carousel_post(
@@ -339,6 +359,9 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 "id":              f"{series_type}_{series_num}_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
                 "ig_media_id":     ig_media_id,
                 "permalink":       permalink,
+                "preview_url":     preview_url,
+                "queue_id":        queue_id,
+                "status":          "pending_manual_post" if (fmt == "reel" and manual_mode) else ("dry_run" if dry_run else "published"),
                 "format":          fmt,
                 "series":          series_type,
                 "series_number":   series_num,
