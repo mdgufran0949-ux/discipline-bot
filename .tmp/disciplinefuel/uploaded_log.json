@@ -2124,6 +2124,57 @@
       "predicted": "high",
       "posted_at": "2026-05-07T04:22:26.502520",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_32_20260507_100604",
+      "ig_media_id": "17999797130926251",
+      "permalink": "https://www.instagram.com/reel/DYCJA_iDcmP/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 32,
+      "content_series": "Wake Up Call #32",
+      "topic": "monster jam grinds",
+      "selected_quote": "The strongest grinds are often the quiet ones, where we stay committed to our craft, and success becomes a natural byproduct of our consistent effort.",
+      "quote_type": "statement",
+      "hook_keyword": "quiet",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-07T10:06:04.808863",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_32_20260507_101006",
+      "ig_media_id": "17989178423988004",
+      "permalink": "https://www.instagram.com/reel/DYCJeu4ggcT/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 32,
+      "content_series": "Day 32 of Becoming Better",
+      "topic": "has returned! jaafar jackson as michael thoughts",
+      "selected_quote": "Discipline speaks louder than success",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-07T10:10:06.255493",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_34_20260507_101442",
+      "ig_media_id": "18590994436004698",
+      "permalink": "https://www.instagram.com/reel/DYCKAVVDONa/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 34,
+      "content_series": "Discipline Rule #34",
+      "topic": "the behringer grind",
+      "selected_quote": "The strongest version of ourselves is built in the silence of consistent effort, where every step forward is a testament to our unyielding commitment to stay on the path towards success.",
+      "quote_type": "statement",
+      "hook_keyword": "silence",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-07T10:14:42.133153",
+      "dry_run": false
     }
   ]
 }

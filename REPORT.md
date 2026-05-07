@@ -1,10 +1,10 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-06 04:15
+Generated: 2026-05-07 10:04
 
-> ⚠️ **ATTENTION NEEDED:** metrics_fetch
+> ⚠️ **ATTENTION NEEDED:** competitor_fetch, metrics_fetch
 
 ## System Health
-- Last competitor fetch: 2026-05-04T09:37 ✅
+- Last competitor fetch: 2026-05-04T09:37 ⚠️
 - Last IG metrics fetch: never ⚠️
 - IG hashtag quota used (7d): 10 / 30 ✅
 - Consecutive failed competitor fetches: 0
@@ -12,49 +12,40 @@ Generated: 2026-05-06 04:15
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-04-24 | 0 | 14,797 | 0% |
 | 2026-04-25 | 0 | 6,654 | 11% |
 | 2026-04-29 | 0 | 9,958 | 11% |
 | 2026-05-01 | 0 | 9,958 | 11% |
 | 2026-05-02 | 0 | 5,582 | 6% |
 | 2026-05-03 | 0 | 5,582 | 6% |
 | 2026-05-04 | 0 | 3,802 | 9% |
+| 2026-05-06 | 0 | 3,802 | 9% |
 
 ## What Changed Today
 - Format mix: image 0% → 11%, carousel 0% → 9%
-- Blacklisted topic: "akshay kumars powerful time management advice"
-- Blacklisted topic: "short motivation 7"
-- Blacklisted topic: "if you don't have discipline you are a nobody"
-- Blacklisted topic: "how much does david goggins sleeps"
-- Blacklisted topic: "cristiano ronaldo talks about discipline"
-- Blacklisted topic: "let me sleep, so my teeth wont grind"
-- Blacklisted topic: "your laziness has a price"
+- Blacklisted topic: "procrastination is self-betrayal"
 - Blacklisted topic: "discipline is remembering what you truly want"
-- Blacklisted topic: "life of the party"
-- Blacklisted topic: "no excuses"
+- Blacklisted topic: "short motivation 7"
+- Blacklisted topic: "400 hz 410 hz binaural beats for deep theta state meditation focus"
 - Blacklisted topic: "you keep choosing comfort over growth"
 - Blacklisted topic: "he loves this rule of discipline"
-- Blacklisted topic: "400 hz 410 hz binaural beats for deep theta state meditation focus"
-- Blacklisted topic: "procrastination is self-betrayal"
-- Blacklisted topic: "stay positive, bring happiness p"
+- Blacklisted topic: "your laziness has a price"
+- Blacklisted topic: "cristiano ronaldo talks about discipline"
 - Blacklisted topic: "wake up early"
-- Blacklisted topic: "how to develop self discipline"
+- Blacklisted topic: "if you don't have discipline you are a nobody"
+- Blacklisted topic: "life of the party"
 - Blacklisted topic: "1 minute a day"
+- Blacklisted topic: "no excuses"
+- Blacklisted topic: "stay positive, bring happiness p"
+- Blacklisted topic: "how to develop self discipline"
+- Blacklisted topic: "father disciplines his daughter"
+- Blacklisted topic: "akshay kumars powerful time management advice"
+- Blacklisted topic: "how much does david goggins sleeps"
+- Blacklisted topic: "let me sleep, so my teeth wont grind"
+- Blacklisted topic: "never be an option"
+- Blacklisted topic: "become who you could be"
 
 ## What We Learned From Competitors
-- Scanned hashtags: mindsetmatters, grindmode, hardworkpaysoff, motivationdaily, selfimprovementtips
-- Posts analyzed: 7
-- Niche benchmark: 3,802 avg engagement | Our avg: 0 | Gap: -100%
-- Top hooks trending in niche:
-  1. "Success isn’t about the applause you get when you’re winning."
-  2. "Strong days pay off.🏅"
-  3. "🔥 Back & Shoulders Destroyed."
-  4. "Tennis drills on the schedule today 🎾"
-  5. "Just looking through prep photos."
-- Hot power words: stay, success, remember, speak, louder, strong, back, consistent
-- Dominant quote structure: **statement**
-- Dominant media type: **IMAGE (57%)**
-- Caption length sweet spot: long
+- No competitor data this run (API unavailable or cached)
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
 | Creator | Avg Engagement | Appearances | Style | Length | Best Hook |
@@ -69,27 +60,25 @@ Generated: 2026-05-06 04:15
 | @? | 5,051 | 4 | statement | medium | "💯 वादे नहीं, परिणाम बोलते हैं। 👍" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 13 / 20 recent posts used trending power-words (65%) ✅
-  - ✅ "the quiet life of following small, consistent rules turns ordinary wee..." (words: consistent)
-  - ✅ "it's not the loud motivations that drive us, but the quiet discipline ..." (words: stay, remember, strong)
-  - ⚠️ "as we settle into the depths of life, we find that true growth lies no..."
-  - ⚠️ "life follows the direction of our thoughts, cultivating positivity tra..."
+- 19 / 20 recent posts used trending power-words (95%) ✅
+  - ✅ "discipline is the whisper that speaks louder" (words: speak, louder)
+  - ✅ "discipline is remembering what you truly want, even when the noise spe..." (words: remember, speak, louder)
+  - ⚠️ "the quiet version of you is still becoming loud inside."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (bold, reel) — "Discipline remembers what truly matters"
-2. **statement** (bold, reel) — "The strongest voices are those that speak louder through their actions, not word"
-3. **statement** (dark, reel) — "Success is not a destination, but a consistent effort to stay on the path, even "
+1. **statement** (luxury, reel) — "A father's discipline is not about controlling his daughter, but about teaching "
+2. **statement** (minimal, reel) — "As we stay committed to our growth, we begin to remember the person we're meant "
+3. **statement** (dark, reel) — "Discipline becomes the voice that speaks louder than excuses, reminding us to st"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 109     | —          |
-| Avg score        | 1.5   | —          |
+| Posts scored     | 121     | —          |
+| Avg score        | 1.7   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 3,802      | -100% |
 
 ## Next Actions (Auto-applied)
 - Quote generator biased toward: **statement, identity** structures
