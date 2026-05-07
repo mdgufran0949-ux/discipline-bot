@@ -1637,6 +1637,69 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_31_20260507_041409",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 31,
+      "topic": "never be an option",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline becomes the voice that speaks louder than excuses, reminding us to stay consistent in our pursuit of success, and guiding us to remember that every step forward is a testament to our growth.",
+      "posted_at": "2026-05-07T04:14:09.987479",
+      "ig_media_id": "17868701625528400",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "day_becoming_better_31_20260507_041814",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 31,
+      "topic": "become who you could be",
+      "hook_keyword": "growth",
+      "selected_quote": "As we stay committed to our growth, we begin to remember the person we're meant to be, and our success becomes a reflection of our quiet dedication to ourselves.",
+      "posted_at": "2026-05-07T04:18:14.238570",
+      "ig_media_id": "17989372244966536",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_33_20260507_042226",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 33,
+      "topic": "father disciplines his daughter",
+      "hook_keyword": "discipline",
+      "selected_quote": "A father's discipline is not about controlling his daughter, but about teaching her to stay consistent and strong in the face of challenges, and to remember that success is a journey, not a destination.",
+      "posted_at": "2026-05-07T04:22:26.502520",
+      "ig_media_id": "18224429701314799",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2116,27 +2179,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 78,
+    "total_posts": 81,
     "by_quote_type": {
       "question": 1,
-      "statement": 73,
+      "statement": 76,
       "contrast": 3,
       "punch": 1
     },
     "by_design_style": {
-      "minimal": 21,
-      "dark": 23,
-      "luxury": 18,
+      "minimal": 22,
+      "dark": 24,
+      "luxury": 19,
       "bold": 16
     },
     "by_format": {
       "image": 1,
-      "reel": 77
+      "reel": 80
     },
     "by_series": {
-      "discipline_rule": 27,
-      "day_becoming_better": 26,
-      "wake_up_call": 25
+      "discipline_rule": 28,
+      "day_becoming_better": 27,
+      "wake_up_call": 26
     },
     "top_performing_series": "wake_up_call"
   },

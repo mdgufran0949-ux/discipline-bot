@@ -2073,6 +2073,57 @@
       "predicted": "high",
       "posted_at": "2026-05-06T16:51:55.801103",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_31_20260507_041409",
+      "ig_media_id": "17868701625528400",
+      "permalink": "https://www.instagram.com/reel/DYBgvjOgXEn/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 31,
+      "content_series": "Wake Up Call #31",
+      "topic": "never be an option",
+      "selected_quote": "Discipline becomes the voice that speaks louder than excuses, reminding us to stay consistent in our pursuit of success, and guiding us to remember that every step forward is a testament to our growth.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-07T04:14:09.987479",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_31_20260507_041814",
+      "ig_media_id": "17989372244966536",
+      "permalink": "https://www.instagram.com/reel/DYBhNbVD0mY/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 31,
+      "content_series": "Day 31 of Becoming Better",
+      "topic": "become who you could be",
+      "selected_quote": "As we stay committed to our growth, we begin to remember the person we're meant to be, and our success becomes a reflection of our quiet dedication to ourselves.",
+      "quote_type": "statement",
+      "hook_keyword": "growth",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-07T04:18:14.238570",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_33_20260507_042226",
+      "ig_media_id": "18224429701314799",
+      "permalink": "https://www.instagram.com/reel/DYBhr_9kofZ/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 33,
+      "content_series": "Discipline Rule #33",
+      "topic": "father disciplines his daughter",
+      "selected_quote": "A father's discipline is not about controlling his daughter, but about teaching her to stay consistent and strong in the face of challenges, and to remember that success is a journey, not a destination.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-07T04:22:26.502520",
+      "dry_run": false
     }
   ]
 }
