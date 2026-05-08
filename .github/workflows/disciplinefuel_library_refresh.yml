@@ -1,0 +1,74 @@
+name: DisciplineFuel Audio Library — Weekly Refresh
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'   # every Sunday 03:00 UTC
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run — show what would be replaced, no downloads'
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore .env from secrets
+        env:
+          JAMENDO_CLIENT_ID:      ${{ secrets.JAMENDO_CLIENT_ID }}
+          CLOUDINARY_CLOUD_NAME:  ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY:     ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET:  ${{ secrets.CLOUDINARY_API_SECRET }}
+        run: |
+          echo "JAMENDO_CLIENT_ID=$JAMENDO_CLIENT_ID"           >> .env
+          echo "CLOUDINARY_CLOUD_NAME=$CLOUDINARY_CLOUD_NAME"   >> .env
+          echo "CLOUDINARY_API_KEY=$CLOUDINARY_API_KEY"         >> .env
+          echo "CLOUDINARY_API_SECRET=$CLOUDINARY_API_SECRET"   >> .env
+
+      - name: Restore audio library from repo
+        run: |
+          # audio_library/ is committed — already present after checkout
+          echo "Library tracks: $(find audio_library -name '*.mp3' 2>/dev/null | wc -l)"
+
+      - name: Refresh audio library
+        run: |
+          ARGS="--refresh --account disciplinefuel"
+          [ "${{ github.event.inputs.dry_run }}" = "true" ] && ARGS="$ARGS --dry-run"
+          python tools/audio_library_manager.py $ARGS
+
+      - name: Commit refreshed library
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name  "DisciplineFuel Bot"
+          git config user.email "bot@disciplinefuel.com"
+
+          mkdir -p /tmp/audio_lib
+          cp -r audio_library/ /tmp/audio_lib/ 2>/dev/null || true
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          cp -r /tmp/audio_lib/audio_library/ . 2>/dev/null || true
+
+          git add -f audio_library/
+          git diff --staged --quiet || git commit -m "chore: weekly Jamendo audio library refresh [skip ci]"
+          git push origin main

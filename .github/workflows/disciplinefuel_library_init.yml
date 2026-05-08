@@ -1,0 +1,76 @@
+name: DisciplineFuel Audio Library — Bootstrap
+
+# Manual trigger only. Run once after adding JAMENDO_CLIENT_ID to repo secrets.
+# Takes ~5 minutes to download 60 tracks across 4 pillars (~30 MB total).
+on:
+  workflow_dispatch:
+    inputs:
+      pillar:
+        description: 'Bootstrap single pillar only (leave blank for all 4)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry run — fetch metadata only, no downloads'
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore .env from secrets
+        env:
+          JAMENDO_CLIENT_ID:      ${{ secrets.JAMENDO_CLIENT_ID }}
+          CLOUDINARY_CLOUD_NAME:  ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY:     ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET:  ${{ secrets.CLOUDINARY_API_SECRET }}
+        run: |
+          echo "JAMENDO_CLIENT_ID=$JAMENDO_CLIENT_ID"           >> .env
+          echo "CLOUDINARY_CLOUD_NAME=$CLOUDINARY_CLOUD_NAME"   >> .env
+          echo "CLOUDINARY_API_KEY=$CLOUDINARY_API_KEY"         >> .env
+          echo "CLOUDINARY_API_SECRET=$CLOUDINARY_API_SECRET"   >> .env
+
+      - name: Bootstrap audio library
+        run: |
+          ARGS="--bootstrap --account disciplinefuel"
+          [ -n "${{ github.event.inputs.pillar }}" ] && ARGS="$ARGS --pillar ${{ github.event.inputs.pillar }}"
+          [ "${{ github.event.inputs.dry_run }}" = "true" ] && ARGS="$ARGS --dry-run"
+          python tools/audio_library_manager.py $ARGS
+
+      - name: Commit library to repo
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name  "DisciplineFuel Bot"
+          git config user.email "bot@disciplinefuel.com"
+
+          # Save downloaded files before resetting to remote
+          mkdir -p /tmp/audio_lib
+          cp -r audio_library/ /tmp/audio_lib/ 2>/dev/null || true
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          # Restore downloads
+          cp -r /tmp/audio_lib/audio_library/ . 2>/dev/null || true
+
+          git add -f audio_library/
+          git diff --staged --quiet || git commit -m "feat: bootstrap Jamendo audio library [skip ci]"
+          git push origin main

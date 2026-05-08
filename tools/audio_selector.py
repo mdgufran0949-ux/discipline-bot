@@ -92,7 +92,7 @@ def _bgm_target(account: str) -> str:
 
 # ── Main interface ───────────────────────────────────────────────────────────
 
-def prepare_bgm(account: str, cfg: dict) -> bool:
+def prepare_bgm(account: str, cfg: dict, pillar: str = None) -> bool:
     """
     Prepare .tmp/<account>/bgm.mp3 before calling compose_discipline_reel.
 
@@ -111,17 +111,37 @@ def prepare_bgm(account: str, cfg: dict) -> bool:
         print("  [AUDIO] Manual mode — composing silent reel for manual IG posting", flush=True)
         return False
 
-    # Option A: pick from audio_library/
-    chosen_src = _pick_from_library(account)
+    # Option A: pick from managed Jamendo library (with pillar awareness)
+    chosen_src = _pick_managed(account, pillar)
     if chosen_src:
         shutil.copy2(chosen_src, bgm_path)
         print(f"  [AUDIO] Library track -> {os.path.basename(chosen_src)}", flush=True)
         return True
 
-    # Fallback: regenerate procedural BGM (never cached when used as fallback)
-    print("  [AUDIO] Library empty — falling back to procedural BGM", flush=True)
+    # Fallback: flat audio_library/ scan (legacy / pre-manager files)
+    chosen_src = _pick_from_library(account)
+    if chosen_src:
+        shutil.copy2(chosen_src, bgm_path)
+        print(f"  [AUDIO] Flat library track -> {os.path.basename(chosen_src)}", flush=True)
+        return True
+
+    # Final fallback: procedural BGM (no caching — generate fresh each time)
+    print("  [AUDIO] No library tracks — falling back to procedural BGM", flush=True)
     _generate_procedural(bgm_path)
     return True
+
+
+def _pick_managed(account: str, pillar: str | None) -> str | None:
+    """Delegate to audio_library_manager when manifest.json exists."""
+    manifest = os.path.join(_AUDIO_LIB, "manifest.json")
+    if not os.path.exists(manifest):
+        return None
+    try:
+        import audio_library_manager as alm
+        return alm.get_track_for_post(pillar, account)
+    except Exception as exc:
+        print(f"  [AUDIO] Library manager error: {exc} — falling back to flat scan", flush=True)
+        return None
 
 
 def _pick_from_library(account: str) -> str | None:
