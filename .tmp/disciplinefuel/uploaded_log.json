@@ -2728,7 +2728,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-07T20:41:59.539789",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 1,
+      "comments": 0,
+      "likes": 0,
+      "score": 3,
+      "metrics_fetched_at": "2026-05-08T14:39:53.988363"
     },
     {
       "id": "day_becoming_better_30_20260507_204633",
@@ -2745,7 +2751,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-07T20:46:33.392625",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-08T14:39:54.926370"
     },
     {
       "id": "discipline_rule_32_20260507_205123",
@@ -2762,7 +2774,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-07T20:51:23.312247",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-08T14:39:55.514858"
     },
     {
       "id": "wake_up_call_30_20260506_162155",
@@ -2779,7 +2797,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-06T16:21:55.633941",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 2,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 9,
+      "metrics_fetched_at": "2026-05-08T14:39:56.076667"
     },
     {
       "id": "day_becoming_better_30_20260506_164036",
@@ -2796,7 +2820,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-06T16:40:36.175371",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 2,
+      "score": 6,
+      "metrics_fetched_at": "2026-05-08T14:39:56.702363"
     },
     {
       "id": "discipline_rule_32_20260506_165155",
@@ -2813,7 +2843,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-06T16:51:55.801103",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 5,
+      "metrics_fetched_at": "2026-05-08T14:39:58.913003"
     },
     {
       "id": "wake_up_call_31_20260507_041409",
@@ -2830,7 +2866,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-07T04:14:09.987479",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 4,
+      "comments": 0,
+      "likes": 2,
+      "score": 14,
+      "metrics_fetched_at": "2026-05-08T14:39:59.436262"
     },
     {
       "id": "day_becoming_better_31_20260507_041814",
@@ -2847,7 +2889,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-07T04:18:14.238570",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-08T14:40:00.464084"
     },
     {
       "id": "discipline_rule_33_20260507_042226",
@@ -2864,7 +2912,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-07T04:22:26.502520",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 3,
+      "comments": 0,
+      "likes": 2,
+      "score": 11,
+      "metrics_fetched_at": "2026-05-08T14:40:02.155135"
     },
     {
       "id": "wake_up_call_32_20260507_100604",
@@ -2881,7 +2935,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-07T10:06:04.808863",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-08T14:40:02.859001"
     },
     {
       "id": "day_becoming_better_32_20260507_101006",
@@ -2898,7 +2958,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-07T10:10:06.255493",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-08T14:40:03.419601"
     },
     {
       "id": "discipline_rule_34_20260507_101442",
@@ -2915,7 +2981,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-07T10:14:42.133153",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 3,
+      "comments": 0,
+      "likes": 0,
+      "score": 9,
+      "metrics_fetched_at": "2026-05-08T14:40:04.060480"
     },
     {
       "id": "wake_up_call_33_20260508_054744",
@@ -2935,6 +3007,26 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-08T05:47:44.005706",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_33_20260508_144039",
+      "ig_media_id": "QUEUED_disciplinefuel_20260508_144038",
+      "permalink": "pending_manual_post",
+      "preview_url": "https://res.cloudinary.com/dpttnbaan/video/upload/v1778251239/queue/disciplinefuel_20260508_144038.mp4",
+      "queue_id": "disciplinefuel_20260508_144038",
+      "status": "pending_manual_post",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 33,
+      "content_series": "Day 33 of Becoming Better",
+      "topic": "monster jam grinds",
+      "selected_quote": "Discipline is the bridge that connects our everyday efforts to a life of purpose and growth, building a stronger version of ourselves with every step.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-08T14:40:39.903551",
       "dry_run": false
     }
   ]
