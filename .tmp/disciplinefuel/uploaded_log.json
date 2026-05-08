@@ -2175,6 +2175,26 @@
       "predicted": "high",
       "posted_at": "2026-05-07T10:14:42.133153",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_33_20260508_054744",
+      "ig_media_id": "QUEUED_disciplinefuel_20260508_054742",
+      "permalink": "pending_manual_post",
+      "preview_url": "https://res.cloudinary.com/dpttnbaan/video/upload/v1778219263/queue/disciplinefuel_20260508_054742.mp4",
+      "queue_id": "disciplinefuel_20260508_054742",
+      "status": "pending_manual_post",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 33,
+      "content_series": "Wake Up Call #33",
+      "topic": "monster jam grinds",
+      "selected_quote": "The strongest grinds are often the ones that happen in silence, where success is measured by the strength of our character, not the noise of our achievements.",
+      "quote_type": "statement",
+      "hook_keyword": "silence",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-08T05:47:44.005706",
+      "dry_run": false
     }
   ]
 }

@@ -1763,6 +1763,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_33_20260508_054744",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 33,
+      "topic": "monster jam grinds",
+      "hook_keyword": "silence",
+      "selected_quote": "The strongest grinds are often the ones that happen in silence, where success is measured by the strength of our character, not the noise of our achievements.",
+      "posted_at": "2026-05-08T05:47:44.005706",
+      "ig_media_id": "QUEUED_disciplinefuel_20260508_054742",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2245,27 +2266,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 84,
+    "total_posts": 85,
     "by_quote_type": {
       "question": 1,
-      "statement": 79,
+      "statement": 80,
       "contrast": 3,
       "punch": 1
     },
     "by_design_style": {
       "minimal": 23,
       "dark": 25,
-      "luxury": 20,
+      "luxury": 21,
       "bold": 16
     },
     "by_format": {
       "image": 1,
-      "reel": 83
+      "reel": 84
     },
     "by_series": {
       "discipline_rule": 29,
       "day_becoming_better": 28,
-      "wake_up_call": 27
+      "wake_up_call": 28
     },
     "top_performing_series": "wake_up_call"
   },
