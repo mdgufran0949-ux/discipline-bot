@@ -210,38 +210,42 @@ def upgrade_config(account: str, scored_posts: list) -> dict:
     cfg["design_style_weights"] = new_style_weights
 
     # Update content_format_mix
-    cfg["content_format_mix"] = {k: round(v, 3) for k, v in weights["format"].items()}
+    # When manual_audio_mode is active every post is a reel — lock it, skip competitor blend
+    if cfg.get("manual_audio_mode", False):
+        cfg["content_format_mix"] = {"reel": 1.0, "image": 0.0, "carousel": 0.0}
+    else:
+        cfg["content_format_mix"] = {k: round(v, 3) for k, v in weights["format"].items()}
 
-    # Blend competitor media-type signal into format mix
-    intel_path = os.path.join(TMP_BASE, account, "competitor_intel.json")
-    if os.path.exists(intel_path):
-        try:
-            with open(intel_path, "r", encoding="utf-8") as f:
-                intel = json.load(f)
-            media_mix = intel.get("patterns", {}).get("best_media_types", {})
-            if media_mix:
-                carousel_pct = media_mix.get("CAROUSEL_ALBUM", 0.0)
-                image_pct    = media_mix.get("IMAGE", 0.0)
-                video_pct    = media_mix.get("VIDEO", 0.0)  # reels show as VIDEO in competitor data
-                current      = cfg["content_format_mix"]
-                blended = {
-                    "reel":     round((current.get("reel",     0.50) + video_pct)    / 2, 3),
-                    "image":    round((current.get("image",    0.25) + image_pct)    / 2, 3),
-                    "carousel": round((current.get("carousel", 0.25) + carousel_pct) / 2, 3),
-                }
-                tot = sum(blended.values()) or 1
-                blended = {k: round(v / tot, 3) for k, v in blended.items()}
-                # Floor: keep reel >= 0.80 — reel-first is the deliberate strategy
-                if blended.get("reel", 0) < 0.80:
-                    deficit = 0.80 - blended["reel"]
-                    blended["reel"] = 0.40
-                    # Deduct deficit proportionally from image and carousel
-                    non_reel_total = blended.get("image", 0) + blended.get("carousel", 0) or 1
-                    for k in ("image", "carousel"):
-                        blended[k] = round(blended[k] - deficit * blended[k] / non_reel_total, 3)
-                cfg["content_format_mix"] = blended
-        except Exception as e:
-            print(f"  [WARN] Competitor media-type blend failed: {e}", flush=True)
+    # Blend competitor media-type signal into format mix (skipped when manual_audio_mode)
+    if not cfg.get("manual_audio_mode", False):
+        intel_path = os.path.join(TMP_BASE, account, "competitor_intel.json")
+        if os.path.exists(intel_path):
+            try:
+                with open(intel_path, "r", encoding="utf-8") as f:
+                    intel = json.load(f)
+                media_mix = intel.get("patterns", {}).get("best_media_types", {})
+                if media_mix:
+                    carousel_pct = media_mix.get("CAROUSEL_ALBUM", 0.0)
+                    image_pct    = media_mix.get("IMAGE", 0.0)
+                    video_pct    = media_mix.get("VIDEO", 0.0)
+                    current      = cfg["content_format_mix"]
+                    blended = {
+                        "reel":     round((current.get("reel",     0.50) + video_pct)    / 2, 3),
+                        "image":    round((current.get("image",    0.25) + image_pct)    / 2, 3),
+                        "carousel": round((current.get("carousel", 0.25) + carousel_pct) / 2, 3),
+                    }
+                    tot = sum(blended.values()) or 1
+                    blended = {k: round(v / tot, 3) for k, v in blended.items()}
+                    # Floor: keep reel >= 0.80 — reel-first is the deliberate strategy
+                    if blended.get("reel", 0) < 0.80:
+                        deficit = 0.80 - blended["reel"]
+                        blended["reel"] = 0.80   # set to floor, not reassign deficit
+                        non_reel_total = blended.get("image", 0) + blended.get("carousel", 0) or 1
+                        for k in ("image", "carousel"):
+                            blended[k] = round(blended[k] - deficit * blended[k] / non_reel_total, 3)
+                    cfg["content_format_mix"] = blended
+            except Exception as e:
+                print(f"  [WARN] Competitor media-type blend failed: {e}", flush=True)
 
     # Update content_preferences
     hints = mem_module.get_prompt_hints()

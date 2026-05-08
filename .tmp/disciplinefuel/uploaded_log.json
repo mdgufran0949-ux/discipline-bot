@@ -66,7 +66,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-21T00:38:13.348760",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:31:02.205873"
     },
     {
       "id": "discipline_rule_5_20260422_194606",
@@ -100,7 +106,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-23T00:05:15.253370",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:31:20.278007"
     },
     {
       "id": "day_becoming_better_4_20260423_175659",
@@ -117,7 +129,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-23T17:56:59.065348",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:31:43.382961"
     },
     {
       "id": "discipline_rule_6_20260423_180121",
@@ -134,7 +152,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-23T18:01:21.095039",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:32:08.983078"
     },
     {
       "id": "wake_up_call_5_20260423_180535",
@@ -151,7 +175,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-23T18:05:35.918773",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:32:25.469755"
     },
     {
       "id": "day_becoming_better_8_20260425_113809",
@@ -168,7 +198,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-25T11:38:09.495460",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:33:10.190948"
     },
     {
       "id": "discipline_rule_10_20260425_114238",
@@ -185,7 +221,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-25T11:42:38.371299",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:34:10.601615"
     },
     {
       "id": "wake_up_call_9_20260425_114725",
@@ -202,7 +244,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-25T11:47:25.641316",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:34:35.903177"
     },
     {
       "id": "day_becoming_better_9_20260425_132512",
@@ -219,7 +267,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-25T13:25:12.649811",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:34:39.614569"
     },
     {
       "id": "discipline_rule_11_20260425_132929",
@@ -236,7 +290,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-25T13:29:29.838137",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 2,
+      "shares": 0,
+      "comments": 0,
+      "likes": 2,
+      "score": 10,
+      "metrics_fetched_at": "2026-05-07T20:34:42.250602"
     },
     {
       "id": "wake_up_call_10_20260425_133420",
@@ -253,7 +313,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-04-25T13:34:20.665004",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:34:44.560547"
     },
     {
       "id": "day_becoming_better_10_20260429_165711",
@@ -270,7 +336,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-29T16:57:11.897439",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:34:46.815395"
     },
     {
       "id": "discipline_rule_12_20260429_170135",
@@ -287,7 +359,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-04-29T17:01:35.960482",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:34:49.377390"
     },
     {
       "id": "wake_up_call_11_20260429_170550",
@@ -304,7 +382,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-29T17:05:50.253186",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:34:52.576508"
     },
     {
       "id": "day_becoming_better_8_20260425_034144",
@@ -321,7 +405,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-25T03:41:44.061984",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:34:55.624828"
     },
     {
       "id": "discipline_rule_10_20260425_034553",
@@ -338,7 +428,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-25T03:45:53.412022",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:35:00.963525"
     },
     {
       "id": "wake_up_call_9_20260425_035033",
@@ -355,7 +451,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-25T03:50:33.398865",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 2,
+      "score": 2,
+      "metrics_fetched_at": "2026-05-07T20:35:03.186174"
     },
     {
       "id": "day_becoming_better_9_20260425_083420",
@@ -372,7 +474,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-04-25T08:34:20.137379",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 3,
+      "score": 7,
+      "metrics_fetched_at": "2026-05-07T20:35:06.961576"
     },
     {
       "id": "discipline_rule_11_20260425_083827",
@@ -389,7 +497,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-25T08:38:27.313077",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 4,
+      "score": 8,
+      "metrics_fetched_at": "2026-05-07T20:35:09.610872"
     },
     {
       "id": "wake_up_call_10_20260425_084238",
@@ -406,7 +520,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-04-25T08:42:38.516433",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:35:12.342671"
     },
     {
       "id": "day_becoming_better_10_20260425_151014",
@@ -423,7 +543,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-25T15:10:14.424435",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:35:14.651061"
     },
     {
       "id": "discipline_rule_12_20260425_151421",
@@ -440,7 +566,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-25T15:14:21.399459",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:35:17.203886"
     },
     {
       "id": "wake_up_call_11_20260425_151918",
@@ -457,7 +589,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-25T15:19:18.598802",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:35:23.741986"
     },
     {
       "id": "day_becoming_better_11_20260426_040429",
@@ -474,7 +612,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-04-26T04:04:29.436571",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:35:25.811490"
     },
     {
       "id": "discipline_rule_13_20260426_040834",
@@ -491,7 +635,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-04-26T04:08:34.100839",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:35:28.916723"
     },
     {
       "id": "wake_up_call_12_20260426_041332",
@@ -508,7 +658,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-26T04:13:32.919965",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:35:32.060237"
     },
     {
       "id": "day_becoming_better_12_20260426_084515",
@@ -525,7 +681,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-26T08:45:15.305826",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:35:35.517472"
     },
     {
       "id": "discipline_rule_14_20260426_084919",
@@ -542,7 +704,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-26T08:49:19.815743",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:35:38.302954"
     },
     {
       "id": "wake_up_call_13_20260426_085325",
@@ -559,7 +727,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-26T08:53:25.540301",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 5,
+      "metrics_fetched_at": "2026-05-07T20:35:42.307721"
     },
     {
       "id": "day_becoming_better_13_20260426_150856",
@@ -576,7 +750,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-26T15:08:56.014158",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:35:46.908448"
     },
     {
       "id": "discipline_rule_15_20260426_151346",
@@ -593,7 +773,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-26T15:13:46.731776",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:35:51.059711"
     },
     {
       "id": "wake_up_call_14_20260426_151757",
@@ -610,7 +796,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-26T15:17:57.087664",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:35:53.610248"
     },
     {
       "id": "day_becoming_better_14_20260427_040942",
@@ -627,7 +819,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-27T04:09:42.080804",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:01.373226"
     },
     {
       "id": "discipline_rule_16_20260427_041357",
@@ -644,7 +842,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-27T04:13:57.098391",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:03.846445"
     },
     {
       "id": "wake_up_call_15_20260427_041813",
@@ -661,7 +865,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-27T04:18:13.006080",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:07.216462"
     },
     {
       "id": "day_becoming_better_15_20260427_094023",
@@ -678,7 +888,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-27T09:40:23.589495",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:09.122272"
     },
     {
       "id": "discipline_rule_17_20260427_094427",
@@ -695,7 +911,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-04-27T09:44:27.021501",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:12.095521"
     },
     {
       "id": "wake_up_call_16_20260427_094839",
@@ -712,7 +934,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-04-27T09:48:39.711037",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:14.673371"
     },
     {
       "id": "day_becoming_better_16_20260427_160834",
@@ -729,7 +957,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-27T16:08:34.273998",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:16.818050"
     },
     {
       "id": "discipline_rule_18_20260427_161244",
@@ -746,7 +980,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-27T16:12:44.481480",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 4,
+      "metrics_fetched_at": "2026-05-07T20:36:19.127208"
     },
     {
       "id": "wake_up_call_17_20260427_161655",
@@ -763,7 +1003,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-27T16:16:55.486605",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:21.577924"
     },
     {
       "id": "day_becoming_better_17_20260428_041429",
@@ -780,7 +1026,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-28T04:14:29.577370",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:24.431381"
     },
     {
       "id": "discipline_rule_19_20260428_041843",
@@ -797,7 +1049,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-28T04:18:43.561377",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:26.492659"
     },
     {
       "id": "wake_up_call_18_20260428_042246",
@@ -814,7 +1072,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-28T04:22:46.929383",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:28.908083"
     },
     {
       "id": "day_becoming_better_18_20260428_094412",
@@ -831,7 +1095,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-28T09:44:12.633963",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 3,
+      "comments": 0,
+      "likes": 2,
+      "score": 11,
+      "metrics_fetched_at": "2026-05-07T20:36:31.143632"
     },
     {
       "id": "discipline_rule_20_20260428_094853",
@@ -848,7 +1118,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-28T09:48:53.483366",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:33.232395"
     },
     {
       "id": "wake_up_call_19_20260428_095304",
@@ -865,7 +1141,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-28T09:53:04.598542",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:36.073180"
     },
     {
       "id": "day_becoming_better_19_20260428_162418",
@@ -882,7 +1164,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-28T16:24:18.655912",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:38.446006"
     },
     {
       "id": "discipline_rule_21_20260428_162837",
@@ -899,7 +1187,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-04-28T16:28:37.198877",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:40.999860"
     },
     {
       "id": "wake_up_call_20_20260428_163332",
@@ -916,7 +1210,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-28T16:33:32.001434",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:43.092527"
     },
     {
       "id": "day_becoming_better_20_20260429_041100",
@@ -933,7 +1233,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-29T04:11:00.531896",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:45.673428"
     },
     {
       "id": "discipline_rule_22_20260429_041525",
@@ -950,7 +1256,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-29T04:15:25.571300",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:49.877771"
     },
     {
       "id": "wake_up_call_21_20260429_041928",
@@ -967,7 +1279,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-29T04:19:28.863835",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:52.032997"
     },
     {
       "id": "day_becoming_better_21_20260429_093545",
@@ -984,7 +1302,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-04-29T09:35:45.224353",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:54.527817"
     },
     {
       "id": "discipline_rule_23_20260429_093940",
@@ -1001,7 +1325,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-29T09:39:40.240736",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:57.199018"
     },
     {
       "id": "wake_up_call_22_20260429_094359",
@@ -1018,7 +1348,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-29T09:43:59.712890",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:36:59.462503"
     },
     {
       "id": "day_becoming_better_22_20260429_161523",
@@ -1035,7 +1371,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-29T16:15:23.242232",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:37:01.414352"
     },
     {
       "id": "discipline_rule_24_20260429_161940",
@@ -1052,7 +1394,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-29T16:19:40.623346",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:37:03.661831"
     },
     {
       "id": "wake_up_call_23_20260429_162346",
@@ -1069,7 +1417,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-29T16:23:46.993739",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:37:06.459714"
     },
     {
       "id": "day_becoming_better_11_20260430_041244",
@@ -1086,7 +1440,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-30T04:12:44.096928",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:37:09.946135"
     },
     {
       "id": "discipline_rule_13_20260430_041731",
@@ -1103,7 +1463,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-30T04:17:31.742964",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 5,
+      "metrics_fetched_at": "2026-05-07T20:37:12.392909"
     },
     {
       "id": "wake_up_call_12_20260430_042139",
@@ -1120,7 +1486,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-30T04:21:39.063807",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:37:15.472399"
     },
     {
       "id": "day_becoming_better_12_20260430_093552",
@@ -1137,7 +1509,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-30T09:35:52.609563",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:37:17.664057"
     },
     {
       "id": "discipline_rule_14_20260430_094024",
@@ -1154,7 +1532,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-04-30T09:40:24.192872",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:37:19.784489"
     },
     {
       "id": "wake_up_call_13_20260430_094521",
@@ -1171,7 +1555,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-30T09:45:21.364975",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 4,
+      "metrics_fetched_at": "2026-05-07T20:37:21.881803"
     },
     {
       "id": "day_becoming_better_13_20260430_160045",
@@ -1188,7 +1578,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-04-30T16:00:45.501873",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:37:24.333966"
     },
     {
       "id": "discipline_rule_15_20260430_160447",
@@ -1205,7 +1601,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-04-30T16:04:47.270612",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:37:26.636322"
     },
     {
       "id": "wake_up_call_14_20260430_160858",
@@ -1222,7 +1624,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-04-30T16:08:58.261988",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 4,
+      "score": 4,
+      "metrics_fetched_at": "2026-05-07T20:37:28.814143"
     },
     {
       "id": "day_becoming_better_14_20260501_043841",
@@ -1239,7 +1647,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-05-01T04:38:41.402815",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:37:31.500838"
     },
     {
       "id": "discipline_rule_16_20260501_044235",
@@ -1256,7 +1670,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-01T04:42:35.102590",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:37:33.443090"
     },
     {
       "id": "wake_up_call_15_20260501_044641",
@@ -1273,7 +1693,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-05-01T04:46:41.060636",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:37:36.064837"
     },
     {
       "id": "day_becoming_better_15_20260501_091744",
@@ -1290,7 +1716,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-01T09:17:44.342872",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:37:38.423638"
     },
     {
       "id": "discipline_rule_17_20260501_092214",
@@ -1307,7 +1739,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-01T09:22:14.201466",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 2,
+      "score": 2,
+      "metrics_fetched_at": "2026-05-07T20:37:40.848078"
     },
     {
       "id": "wake_up_call_16_20260501_092617",
@@ -1324,7 +1762,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-01T09:26:17.039914",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 2,
+      "shares": 1,
+      "comments": 0,
+      "likes": 1,
+      "score": 12,
+      "metrics_fetched_at": "2026-05-07T20:37:44.013313"
     },
     {
       "id": "day_becoming_better_16_20260501_153347",
@@ -1341,7 +1785,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-01T15:33:47.348024",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 2,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 9,
+      "metrics_fetched_at": "2026-05-07T20:37:46.115352"
     },
     {
       "id": "discipline_rule_18_20260501_154055",
@@ -1358,7 +1808,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-05-01T15:40:55.378858",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 2,
+      "score": 2,
+      "metrics_fetched_at": "2026-05-07T20:37:48.568526"
     },
     {
       "id": "wake_up_call_17_20260502_040141",
@@ -1375,7 +1831,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-02T04:01:41.854798",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 1,
+      "comments": 0,
+      "likes": 1,
+      "score": 4,
+      "metrics_fetched_at": "2026-05-07T20:37:51.304921"
     },
     {
       "id": "day_becoming_better_17_20260502_040603",
@@ -1392,7 +1854,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-02T04:06:03.269859",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 5,
+      "metrics_fetched_at": "2026-05-07T20:37:53.473486"
     },
     {
       "id": "discipline_rule_19_20260502_041040",
@@ -1409,7 +1877,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-02T04:10:40.642380",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:37:56.266057"
     },
     {
       "id": "wake_up_call_18_20260502_085245",
@@ -1426,7 +1900,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-02T08:52:45.316118",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 4,
+      "metrics_fetched_at": "2026-05-07T20:37:58.824867"
     },
     {
       "id": "day_becoming_better_18_20260502_085635",
@@ -1443,7 +1923,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-02T08:56:35.364020",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:38:01.383455"
     },
     {
       "id": "discipline_rule_20_20260502_090036",
@@ -1460,7 +1946,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-05-02T09:00:36.315474",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:38:04.322724"
     },
     {
       "id": "wake_up_call_19_20260502_151210",
@@ -1477,7 +1969,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-02T15:12:10.135782",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:38:06.506131"
     },
     {
       "id": "day_becoming_better_19_20260502_151611",
@@ -1494,7 +1992,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-05-02T15:16:11.722111",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:38:08.745634"
     },
     {
       "id": "discipline_rule_21_20260502_152005",
@@ -1511,7 +2015,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-02T15:20:05.294786",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:38:13.064542"
     },
     {
       "id": "wake_up_call_20_20260503_043005",
@@ -1528,7 +2038,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-03T04:30:05.832530",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 3,
+      "score": 7,
+      "metrics_fetched_at": "2026-05-07T20:38:16.999840"
     },
     {
       "id": "day_becoming_better_20_20260503_043406",
@@ -1545,7 +2061,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-03T04:34:06.337844",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 4,
+      "score": 8,
+      "metrics_fetched_at": "2026-05-07T20:38:19.145051"
     },
     {
       "id": "discipline_rule_22_20260503_043826",
@@ -1562,7 +2084,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-03T04:38:26.389372",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:38:21.383910"
     },
     {
       "id": "wake_up_call_21_20260503_090603",
@@ -1579,7 +2107,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-03T09:06:03.222676",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:38:24.454164"
     },
     {
       "id": "day_becoming_better_21_20260503_091419",
@@ -1596,7 +2130,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-05-03T09:14:19.273032",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:38:26.515267"
     },
     {
       "id": "discipline_rule_23_20260503_093032",
@@ -1613,7 +2153,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-03T09:30:32.871551",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:38:29.024225"
     },
     {
       "id": "wake_up_call_22_20260503_151148",
@@ -1630,7 +2176,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-03T15:11:48.998644",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:38:31.441617"
     },
     {
       "id": "day_becoming_better_22_20260503_151538",
@@ -1647,7 +2199,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-03T15:15:38.672955",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:38:33.573406"
     },
     {
       "id": "discipline_rule_24_20260503_151941",
@@ -1664,7 +2222,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-03T15:19:41.683380",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 5,
+      "metrics_fetched_at": "2026-05-07T20:38:35.749845"
     },
     {
       "id": "wake_up_call_23_20260504_042940",
@@ -1681,7 +2245,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-04T04:29:40.052823",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:38:38.764400"
     },
     {
       "id": "day_becoming_better_23_20260504_043342",
@@ -1698,7 +2268,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-04T04:33:42.589445",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:38:41.880339"
     },
     {
       "id": "discipline_rule_25_20260504_043743",
@@ -1715,7 +2291,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-04T04:37:43.271039",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 3,
+      "score": 7,
+      "metrics_fetched_at": "2026-05-07T20:38:44.338611"
     },
     {
       "id": "wake_up_call_24_20260504_094032",
@@ -1732,7 +2314,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-05-04T09:40:32.516279",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:38:46.761787"
     },
     {
       "id": "day_becoming_better_24_20260504_094428",
@@ -1749,7 +2337,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-04T09:44:28.187362",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:38:49.704017"
     },
     {
       "id": "discipline_rule_26_20260504_094832",
@@ -1766,7 +2360,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-04T09:48:32.825978",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:38:53.114078"
     },
     {
       "id": "wake_up_call_25_20260504_161906",
@@ -1783,7 +2383,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-04T16:19:06.286981",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:38:55.994149"
     },
     {
       "id": "day_becoming_better_25_20260504_162307",
@@ -1800,7 +2406,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-04T16:23:07.265568",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 2,
+      "score": 2,
+      "metrics_fetched_at": "2026-05-07T20:38:58.076320"
     },
     {
       "id": "discipline_rule_27_20260504_162711",
@@ -1817,7 +2429,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-05-04T16:27:11.643587",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 2,
+      "comments": 0,
+      "likes": 2,
+      "score": 8,
+      "metrics_fetched_at": "2026-05-07T20:39:00.429832"
     },
     {
       "id": "wake_up_call_26_20260505_035816",
@@ -1834,7 +2452,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-05-05T03:58:16.537774",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:39:02.670309"
     },
     {
       "id": "day_becoming_better_26_20260505_040226",
@@ -1851,7 +2475,13 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-05T04:02:26.516573",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 1,
+      "comments": 0,
+      "likes": 0,
+      "score": 3,
+      "metrics_fetched_at": "2026-05-07T20:39:05.466988"
     },
     {
       "id": "discipline_rule_28_20260505_040629",
@@ -1868,7 +2498,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-05T04:06:29.483008",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 1,
+      "metrics_fetched_at": "2026-05-07T20:39:08.095185"
     },
     {
       "id": "wake_up_call_27_20260505_093327",
@@ -1885,7 +2521,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-05T09:33:27.363277",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 1,
+      "score": 5,
+      "metrics_fetched_at": "2026-05-07T20:39:10.826791"
     },
     {
       "id": "day_becoming_better_27_20260505_093731",
@@ -1902,7 +2544,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-05-05T09:37:31.514662",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:39:13.060496"
     },
     {
       "id": "discipline_rule_29_20260505_094130",
@@ -1919,7 +2567,13 @@
       "design_style": "bold",
       "predicted": "high",
       "posted_at": "2026-05-05T09:41:30.357443",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:39:16.391034"
     },
     {
       "id": "wake_up_call_28_20260506_041857",
@@ -1936,7 +2590,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-06T04:18:57.688381",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 2,
+      "score": 6,
+      "metrics_fetched_at": "2026-05-07T20:39:18.915843"
     },
     {
       "id": "day_becoming_better_28_20260506_042456",
@@ -1953,7 +2613,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-06T04:24:56.237644",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 1,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 4,
+      "metrics_fetched_at": "2026-05-07T20:39:24.550514"
     },
     {
       "id": "discipline_rule_30_20260506_044400",
@@ -1970,7 +2636,13 @@
       "design_style": "dark",
       "predicted": "high",
       "posted_at": "2026-05-06T04:44:00.959783",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:39:26.355352"
     },
     {
       "id": "wake_up_call_29_20260506_094428",
@@ -1987,7 +2659,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-06T09:44:28.945131",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:39:29.226115"
     },
     {
       "id": "day_becoming_better_29_20260506_094831",
@@ -2004,7 +2682,13 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-06T09:48:31.700791",
-      "dry_run": false
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 2,
+      "score": 2,
+      "metrics_fetched_at": "2026-05-07T20:39:31.426060"
     },
     {
       "id": "discipline_rule_31_20260506_095235",
@@ -2021,6 +2705,63 @@
       "design_style": "minimal",
       "predicted": "high",
       "posted_at": "2026-05-06T09:52:35.955187",
+      "dry_run": false,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-05-07T20:39:35.294845"
+    },
+    {
+      "id": "wake_up_call_30_20260507_204159",
+      "ig_media_id": "18072664172401402",
+      "permalink": "https://www.instagram.com/reel/DYCsCuaDfif/",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 30,
+      "content_series": "Wake Up Call #30",
+      "topic": "discipline is the only shortcut",
+      "selected_quote": "Discipline is the quiet shortcut everyone keeps looking for.",
+      "quote_type": "statement",
+      "hook_keyword": "shortcut",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-07T20:41:59.539789",
+      "dry_run": false
+    },
+    {
+      "id": "day_becoming_better_30_20260507_204633",
+      "ig_media_id": "17934043656251337",
+      "permalink": "https://www.instagram.com/reel/DYCskUUj3XS/",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 30,
+      "content_series": "Day 30 of Becoming Better",
+      "topic": "nobody is coming to save you",
+      "selected_quote": "The quiet agreement you make with yourself at midnight, when no lights are watching, is the only rescue plan that shows up on time. Every day you keep it, the world grows smaller, stronger, straighter. Discipline is the quiet boat you build alone and later realize can carry others.",
+      "quote_type": "statement",
+      "hook_keyword": "quiet",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-07T20:46:33.392625",
+      "dry_run": false
+    },
+    {
+      "id": "discipline_rule_32_20260507_205123",
+      "ig_media_id": "18118795819668143",
+      "permalink": "https://www.instagram.com/reel/DYCtHosD7wn/",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 32,
+      "content_series": "Discipline Rule #32",
+      "topic": "your future self is watching you right now",
+      "selected_quote": "Somewhere in the quiet of this moment, your future self is watching, taking silent notes on how you greet the small, uncelebrated choices. The clock hands turn and they remember whether you built the day with discipline or borrowed against it from comfort.",
+      "quote_type": "statement",
+      "hook_keyword": "quiet",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-07T20:51:23.312247",
       "dry_run": false
     },
     {

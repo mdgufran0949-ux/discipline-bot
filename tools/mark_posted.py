@@ -10,7 +10,7 @@ What it does (no network calls):
 2. Stamps posted_at, ig_media_id, permalink into the queue JSON
 3. Moves the file to queue/posted/<queue_id>.json
 4. Finds the matching entry in .tmp/disciplinefuel/uploaded_log.json by queue_id
-5. Updates that entry: status → "published", ig_media_id → real ID, permalink → URL
+5. Updates that entry: status -> "published", ig_media_id -> real ID, permalink -> URL
 6. Saves both files and prints a confirmation
 
 Use --dry-run to preview changes without writing.
@@ -92,12 +92,12 @@ def run(queue_id: str, ig_media_id: str, permalink: str, account: str, dry_run: 
     if dry_run:
         print(f"  [DRY RUN] Would update queue JSON:")
         _print_json_diff(queue_path, queue_data)
-        print(f"  [DRY RUN] Would move → {os.path.relpath(dest_path, _ROOT)}")
+        print(f"  [DRY RUN] Would move -> {os.path.relpath(dest_path, _ROOT)}")
     else:
         os.makedirs(_POSTED_DIR, exist_ok=True)
         _save_json(queue_path, queue_data, dry_run=False)
         shutil.move(queue_path, dest_path)
-        print(f"  Moved → {os.path.relpath(dest_path, _ROOT)}", flush=True)
+        print(f"  Moved -> {os.path.relpath(dest_path, _ROOT)}", flush=True)
 
     # ── 3. Update uploaded_log.json ────────────────────────────────────────────
     log_path = _log_path(account)

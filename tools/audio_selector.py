@@ -2,8 +2,8 @@
 audio_selector.py
 Audio strategy for DisciplineFuel reels.
 
-Set  manual_audio_mode: true  in disciplinefuel.json  → Option B (default)
-     manual_audio_mode: false                          → Option A
+Set  manual_audio_mode: true  in disciplinefuel.json  -> Option B (default)
+     manual_audio_mode: false                          -> Option A
 
 Option A — rotating library
   Picks an mp3 from audio_library/, never reusing within NO_REPEAT_WINDOW posts.
@@ -97,7 +97,7 @@ def prepare_bgm(account: str, cfg: dict) -> bool:
     Prepare .tmp/<account>/bgm.mp3 before calling compose_discipline_reel.
 
     Returns True  if audio was placed at bgm.mp3 (Option A or procedural fallback).
-    Returns False if manual mode is active (bgm.mp3 removed → silent reel).
+    Returns False if manual mode is active (bgm.mp3 removed -> silent reel).
 
     This is the only function run_discipline_pipeline.py needs to call before composing.
     """
@@ -115,7 +115,7 @@ def prepare_bgm(account: str, cfg: dict) -> bool:
     chosen_src = _pick_from_library(account)
     if chosen_src:
         shutil.copy2(chosen_src, bgm_path)
-        print(f"  [AUDIO] Library track → {os.path.basename(chosen_src)}", flush=True)
+        print(f"  [AUDIO] Library track -> {os.path.basename(chosen_src)}", flush=True)
         return True
 
     # Fallback: regenerate procedural BGM (never cached when used as fallback)
@@ -217,8 +217,8 @@ def _print_posting_instructions(entry: dict) -> None:
     print(f"  Caption  : {str(entry.get('caption',''))[:80]}...", flush=True)
     print(f"  Steps    :", flush=True)
     print(f"    1. Download video from URL above", flush=True)
-    print(f"    2. Open Instagram app → New Reel → select video", flush=True)
-    print(f"    3. Tap 'Add audio' → search trending sound", flush=True)
+    print(f"    2. Open Instagram app -> New Reel -> select video", flush=True)
+    print(f"    3. Tap 'Add audio' -> search trending sound", flush=True)
     print(f"    4. Paste caption from queue/{entry['queue_id']}.json", flush=True)
     print(f"    5. Post", flush=True)
     print("=" * 55 + "\n", flush=True)
