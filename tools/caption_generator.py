@@ -18,6 +18,7 @@ Hashtag activation:
 """
 
 import json
+import logging
 import os
 import random
 import re
@@ -29,12 +30,13 @@ load_dotenv()
 _TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
 _ROOT      = os.path.abspath(os.path.join(_TOOLS_DIR, ".."))
 _TMP_BASE  = os.path.join(_ROOT, ".tmp")
+_LOGS_DIR  = os.path.join(_ROOT, "logs")
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 
 STRUCTURES = ["hook_value_cta", "single_line", "numbered_list", "mini_story", "contrarian_take"]
 
-# Soft preference: 60% chance to use a pillar-preferred structure
+# Soft preference: 75% chance to use a pillar-preferred structure
 PILLAR_STRUCTURE_PREF = {
     "hard_truth":  ["hook_value_cta", "single_line"],
     "tactical":    ["numbered_list",  "hook_value_cta"],
@@ -42,7 +44,7 @@ PILLAR_STRUCTURE_PREF = {
     "story_proof": ["mini_story",     "hook_value_cta"],
 }
 
-PREFERRED_CHANCE      = 0.60
+PREFERRED_CHANCE      = 0.75
 STRUCTURE_BLOCK       = 1    # never repeat the N most-recent structures
 CTA_BLOCK             = 5    # never reuse a CTA within last N posts
 HASHTAG_A_COUNT       = 4    # from Pool A per post
@@ -69,7 +71,14 @@ _CAPTION_SYSTEM = (
     "You write punchy, raw Instagram caption bodies for DisciplineFuel — a discipline/mindset page. "
     "Voice: wise, direct, relatable. No corporate speak. No clichés. No hashtags. No CTAs. "
     "Audience: 16-30 year olds building discipline and focus. "
-    "Return ONLY the caption body. No labels, no explanation."
+    "Return ONLY the caption body. No labels, no explanation.\n\n"
+    "FAITHFULNESS REQUIREMENT (do not violate): "
+    "The caption body MUST preserve the central claim of the source quote. "
+    "If the quote contains a negation (NOT, NEVER, isn't, won't, don't, no), "
+    "that negation must appear in the body or the body must restate the negated claim. "
+    "The body extends or applies the quote — it never contradicts it. "
+    "If expanding the quote would require contradicting it, return the quote's "
+    "central claim verbatim as the first sentence of the body."
 )
 
 _CAPTION_PROMPTS = {
@@ -129,10 +138,73 @@ _CTA_INDICATORS = (
 )
 
 
+# ── Verification helpers ────────────────────────────────────────────────────────
+
+def _detect_story_shape(quote_text: str) -> bool:
+    markers = [
+        " at 3 ", " at 4 ", " at 5 ", " at dawn", " one day", " years ago",
+        " asked ", " replied ", " said ", " told ",
+        " a monk ", " a master", " the teacher", " the student",
+    ]
+    quote_lower = " " + quote_text.lower() + " "
+    return any(m in quote_lower for m in markers)
+
+
+def _verify_negation_preserved(quote_text: str, body: str) -> bool:
+    negation_words = [" not ", " never ", " no ", "isn't", "aren't", "won't",
+                      "don't", "doesn't", "wasn't", "weren't", "can't", "wouldn't"]
+    quote_lower = " " + quote_text.lower() + " "
+    body_lower  = " " + body.lower() + " "
+    quote_negs  = [n for n in negation_words if n in quote_lower]
+    if not quote_negs:
+        return True
+    return any(n in body_lower for n in quote_negs)
+
+
+def _verify_stat_preserved(quote_text: str, body: str, hook: str) -> bool:
+    if hook != "stat_shock":
+        return True
+    quote_nums = re.findall(r'\d+%?', quote_text)
+    if not quote_nums:
+        return True
+    body_nums = re.findall(r'\d+%?', body)
+    return any(n in body_nums for n in quote_nums)
+
+
+def _verify_structure(body: str, structure: str) -> bool:
+    if structure == "numbered_list":
+        numbered_lines = re.findall(r'(?m)^\s*(?:[1-9]\.|[1-9]\)|[①-⑨])', body)
+        return len(numbered_lines) >= 3
+    elif structure == "single_line":
+        sentences = re.findall(r'[.!?]+', body)
+        return len(sentences) <= 1
+    elif structure == "mini_story":
+        markers = [" at ", " when ", " one day", " asked", " replied", " said", " told"]
+        return any(m in " " + body.lower() + " " for m in markers)
+    elif structure == "contrarian_take":
+        markers = [" but ", " actually", " not ", " the truth is", " wrong", " however"]
+        return any(m in " " + body.lower() + " " for m in markers)
+    return True
+
+
+def _setup_verif_logger() -> logging.Logger:
+    os.makedirs(_LOGS_DIR, exist_ok=True)
+    logger = logging.getLogger("caption_verifier")
+    if not logger.handlers:
+        handler = logging.FileHandler(
+            os.path.join(_LOGS_DIR, "caption_verification.log"),
+            encoding="utf-8",
+        )
+        handler.setFormatter(logging.Formatter("%(asctime)s %(message)s"))
+        logger.addHandler(handler)
+        logger.setLevel(logging.INFO)
+    return logger
+
+
 # ── LLM dispatch ───────────────────────────────────────────────────────────────
 
-def _llm_call(prompt: str, temperature: float = 0.80) -> str:
-    """OpenRouter -> Groq -> Gemini -> Kimi (mirrors quote generator order)."""
+def _llm_call(prompt: str, temperature: float = 0.80) -> tuple:
+    """OpenRouter -> Groq -> Gemini -> Kimi. Returns (response_text, provider_name)."""
     messages = [
         {"role": "system", "content": _CAPTION_SYSTEM},
         {"role": "user",   "content": prompt},
@@ -156,7 +228,7 @@ def _llm_call(prompt: str, temperature: float = 0.80) -> str:
                 timeout=25,
             )
             if resp.ok:
-                return resp.json()["choices"][0]["message"]["content"].strip()
+                return resp.json()["choices"][0]["message"]["content"].strip(), "openrouter/gpt-4o-mini"
         except Exception as e:
             print(f"  [CAPTION] OpenRouter failed: {str(e)[:60]}", flush=True)
 
@@ -168,7 +240,7 @@ def _llm_call(prompt: str, temperature: float = 0.80) -> str:
                 model="llama-3.3-70b-versatile", messages=messages,
                 temperature=temperature, max_tokens=400,
             )
-            return r.choices[0].message.content.strip()
+            return r.choices[0].message.content.strip(), "groq/llama-3.3-70b-versatile"
         except Exception as e:
             print(f"  [CAPTION] Groq failed: {str(e)[:60]}", flush=True)
 
@@ -181,7 +253,7 @@ def _llm_call(prompt: str, temperature: float = 0.80) -> str:
                 contents=_CAPTION_SYSTEM + "\n\n" + prompt,
                 config={"temperature": temperature, "max_output_tokens": 400},
             )
-            return resp.text.strip()
+            return resp.text.strip(), "gemini/gemini-2.0-flash"
         except Exception as e:
             print(f"  [CAPTION] Gemini failed: {str(e)[:60]}", flush=True)
 
@@ -193,7 +265,7 @@ def _llm_call(prompt: str, temperature: float = 0.80) -> str:
                 model="moonshotai/kimi-k2-instruct", messages=messages,
                 temperature=temperature, max_tokens=400,
             )
-            return r.choices[0].message.content.strip()
+            return r.choices[0].message.content.strip(), "kimi/kimi-k2-instruct"
         except Exception as e:
             print(f"  [CAPTION] Kimi failed: {str(e)[:60]}", flush=True)
 
@@ -285,26 +357,30 @@ def _load_pools() -> dict:
             "#consistentaction", "#hardworkpays", "#hardtruthsquotes", "#uncommonmentality",
         ],
         "pool_C": [
-            "#disciplinefuel", "#disciplinedaily", "#fueldiscipline",
-            "#disciplineismylife", "#disciplinenotmotivation",
+            "#disciplinefuel", "#disciplinedaily", "#fueledbydiscipline",
+            "#dis_ciplinefuel", "#disciplinenotmotivation",
         ],
     }
 
 
 # ── Structure picker ────────────────────────────────────────────────────────────
 
-def _pick_structure(pillar: str, recent_structures: list) -> str:
+def _pick_structure(pillar: str, recent_structures: list, quote: str = "") -> str:
     blocked    = set(recent_structures[-STRUCTURE_BLOCK:]) if recent_structures else set()
     prefs      = PILLAR_STRUCTURE_PREF.get(pillar, ["hook_value_cta", "single_line"])
     avail_pref = [s for s in prefs     if s not in blocked]
     avail_non  = [s for s in STRUCTURES if s not in prefs and s not in blocked]
 
-    # True 60/40 split: the 40% branch draws only from non-preferred structures
-    # so preferred rate cannot exceed PREFERRED_CHANCE through random overlap.
+    # Force mini_story when quote has story shape + story_proof pillar
+    if pillar == "story_proof" and quote and _detect_story_shape(quote):
+        if "mini_story" not in blocked:
+            return "mini_story"
+
+    # True 75/25 split: the 25% branch draws only from non-preferred structures
     if avail_pref and avail_non:
         return random.choice(avail_pref if random.random() < PREFERRED_CHANCE else avail_non)
 
-    # Fallback: one category is exhausted (e.g. all non-prefs blocked by chance)
+    # Fallback: one category is exhausted
     available = avail_pref + avail_non
     if not available:
         available = STRUCTURES
@@ -382,22 +458,65 @@ def _update_hashtag_history(history: dict, tags: list) -> dict:
 
 # ── Caption body ───────────────────────────────────────────────────────────────
 
-def _generate_body(quote: str, pillar: str, hook_template: str, structure: str) -> str:
-    """Call LLM to write the caption body. Falls back to quote text on failure."""
+def _generate_body(quote: str, pillar: str, hook_template: str, structure: str) -> tuple:
+    """Call LLM to write the caption body. Returns (body, llm_provider)."""
     template = _CAPTION_PROMPTS.get(structure, _CAPTION_PROMPTS["hook_value_cta"])
     prompt   = template.format(quote=quote, pillar=pillar, hook_template=hook_template)
 
-    try:
-        body = _llm_call(prompt)
-        # Strip any stray hashtags the LLM might have added
-        body = re.sub(r"#\w+", "", body).strip()
-        # Remove lines that smell like a CTA
-        lines = body.splitlines()
+    if hook_template == "stat_shock":
+        prompt += (
+            "\n\nSTAT REQUIREMENT: The body's first sentence MUST contain a number, percentage, "
+            "or statistic from the source quote. Use the exact number verbatim — do not paraphrase."
+        )
+
+    _logger = _setup_verif_logger()
+
+    def _clean(raw: str) -> str:
+        raw   = re.sub(r"#\w+", "", raw).strip()
+        lines = raw.splitlines()
         lines = [l for l in lines if not any(c in l.lower() for c in _CTA_INDICATORS)]
-        return "\n".join(lines).strip() or quote
+        return "\n".join(lines).strip()
+
+    try:
+        raw, provider = _llm_call(prompt)
+        body = _clean(raw)
+
+        # Fix negation inversion — regen once, then fallback to prepending quote's first sentence
+        if not _verify_negation_preserved(quote, body):
+            fix_prompt = (
+                "CORRECTION: The previous body contradicted the source quote's negation.\n"
+                f'Source quote: "{quote}"\n'
+                "The body MUST preserve any NOT/NEVER/don't/isn't from the quote. Rewrite:\n\n"
+                + prompt
+            )
+            try:
+                raw2, provider = _llm_call(fix_prompt, temperature=0.60)
+                body2 = _clean(raw2)
+                if _verify_negation_preserved(quote, body2):
+                    body = body2
+                else:
+                    first_sentence = re.split(r'(?<=[.!?])\s', quote)[0]
+                    body = first_sentence + "\n\n" + body
+            except Exception:
+                first_sentence = re.split(r'(?<=[.!?])\s', quote)[0]
+                body = first_sentence + "\n\n" + body
+
+        neg_ok    = _verify_negation_preserved(quote, body)
+        stat_ok   = _verify_stat_preserved(quote, body, hook_template)
+        struct_ok = _verify_structure(body, structure)
+
+        stat_label = "PASS" if stat_ok else ("FAIL" if hook_template == "stat_shock" else "N/A")
+        _logger.info(
+            f"structure={structure} | neg={'PASS' if neg_ok else 'FAIL'} | "
+            f"stat={stat_label} | struct={'PASS' if struct_ok else 'FAIL'} | "
+            f"provider={provider} | quote={quote[:60]!r}"
+        )
+
+        return body, provider
+
     except Exception as e:
         print(f"  [CAPTION] LLM body failed ({str(e)[:60]}), using quote as body.", flush=True)
-        return quote
+        return quote, "fallback"
 
 
 # ── Public interface ────────────────────────────────────────────────────────────
@@ -423,14 +542,14 @@ def generate_caption(
     history = _load_hashtag_history(account)
     pools   = _load_pools()
 
-    structure = _pick_structure(pillar, state.get("recent_structures", []))
+    structure = _pick_structure(pillar, state.get("recent_structures", []), quote=quote)
     cta       = _pick_cta(state.get("recent_ctas", []))
     ht_sets   = _pick_hashtags(pools, history)
     all_tags  = ht_sets["A"] + ht_sets["B"] + ht_sets["C"]
 
     print(f"  [CAPTION] structure={structure} | cta={cta[:30]}... | tags={len(all_tags)}", flush=True)
 
-    body    = _generate_body(quote, pillar, hook_template, structure)
+    body, llm_provider = _generate_body(quote, pillar, hook_template, structure)
     caption = f"{body}\n\n{cta}\n\n{' '.join(all_tags)}"
 
     # Persist state (keep last 20 of each for history window)
@@ -448,4 +567,5 @@ def generate_caption(
         "cta":                cta,
         "hashtags":           all_tags,
         "hashtag_pools_used": ht_sets,
+        "llm_provider":       llm_provider,
     }
