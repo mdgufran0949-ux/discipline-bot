@@ -297,6 +297,84 @@ def upgrade_config(account: str, scored_posts: list) -> dict:
     }
 
 
+# ── Pillar / hook analysis ─────────────────────────────────────────────────────
+
+_MIN_MEASURED = 10  # minimum posts before analysis is meaningful
+
+
+def _measured_posts(posts: list) -> list:
+    """Filter to posts that have first-hour metrics and are not pending/dry-run."""
+    return [
+        p for p in posts
+        if p.get("views_t1h") is not None
+        and p.get("status") not in ("pending_manual_post", "dry_run")
+    ]
+
+
+def _avg_metrics(posts: list) -> dict:
+    n = len(posts)
+    if not n:
+        return {}
+    return {
+        "count":          n,
+        "avg_views_t1h":  round(sum(p.get("views_t1h",  0) for p in posts) / n, 1),
+        "avg_likes_t1h":  round(sum(p.get("likes_t1h",  0) for p in posts) / n, 1),
+        "avg_saves_t1h":  round(sum(p.get("saves_t1h",  0) for p in posts) / n, 1),
+        "avg_shares_t1h": round(sum(p.get("shares_t1h", 0) for p in posts) / n, 1),
+        "avg_score_t1h":  round(sum(p.get("score_t1h",  0) for p in posts) / n, 1),
+    }
+
+
+def analyze_by_pillar(posts: list) -> dict:
+    """Group measured posts by pillar. Returns insufficient_data dict if < _MIN_MEASURED."""
+    measured = [p for p in _measured_posts(posts) if p.get("pillar")]
+    if len(measured) < _MIN_MEASURED:
+        return {"insufficient_data": True, "measured_count": len(measured), "needed": _MIN_MEASURED}
+    by_pillar = {}
+    for p in measured:
+        by_pillar.setdefault(p["pillar"], []).append(p)
+    return {pillar: _avg_metrics(group) for pillar, group in by_pillar.items()}
+
+
+def analyze_by_hook(posts: list) -> dict:
+    """Group measured posts by hook_template. Returns insufficient_data dict if < _MIN_MEASURED."""
+    measured = [p for p in _measured_posts(posts) if p.get("hook_template")]
+    if len(measured) < _MIN_MEASURED:
+        return {"insufficient_data": True, "measured_count": len(measured), "needed": _MIN_MEASURED}
+    by_hook = {}
+    for p in measured:
+        by_hook.setdefault(p["hook_template"], []).append(p)
+    return {hook: _avg_metrics(group) for hook, group in by_hook.items()}
+
+
+def analyze_by_combo(posts: list) -> dict:
+    """
+    Group measured posts by (pillar, hook_template) combo.
+    Returns top_5 and bottom_5 by avg_score_t1h plus full breakdown.
+    """
+    measured = [
+        p for p in _measured_posts(posts)
+        if p.get("pillar") and p.get("hook_template")
+    ]
+    if len(measured) < _MIN_MEASURED:
+        return {"insufficient_data": True, "measured_count": len(measured), "needed": _MIN_MEASURED}
+    by_combo = {}
+    for p in measured:
+        key = f"{p['pillar']}+{p['hook_template']}"
+        by_combo.setdefault(key, []).append(p)
+    breakdown = {combo: _avg_metrics(group) for combo, group in by_combo.items()}
+    ranked = sorted(
+        [(combo, m) for combo, m in breakdown.items() if m.get("count", 0) >= 2],
+        key=lambda x: x[1].get("avg_score_t1h", 0),
+        reverse=True,
+    )
+    return {
+        "breakdown": breakdown,
+        "top_5":    [{"combo": c, **m} for c, m in ranked[:5]],
+        "bottom_5": [{"combo": c, **m} for c, m in ranked[-5:]],
+    }
+
+
 # ── Report helpers ─────────────────────────────────────────────────────────────
 
 def _check_hook_adoption(account: str, trending_hints: dict) -> dict:
@@ -642,6 +720,74 @@ def write_human_report(account: str, report: dict) -> None:
     if thooks:
         lines.append(f"- {len(thooks)} trending hooks injected into next LLM prompts")
     lines.append("")
+
+    # ── Pillar / Hook Analysis ─────────────────────────────────────────────────
+    ph = report.get("pillar_hook_analysis", {})
+    log_all   = _load_log(account)
+    all_posts = log_all.get("uploaded", [])
+
+    pillar_data = ph.get("by_pillar", {})
+    hook_data   = ph.get("by_hook", {})
+    combo_data  = ph.get("by_combo", {})
+
+    lines.append("## Content Intelligence — Pillar Performance")
+    if pillar_data.get("insufficient_data"):
+        lines.append(f"Not enough measured data yet for pillar analysis. "
+                     f"Need at least {pillar_data['needed']} measured posts "
+                     f"(have {pillar_data['measured_count']}).")
+    else:
+        lines.append("| Pillar | Posts | Avg Views t1h | Avg Saves t1h | Avg Score t1h |")
+        lines.append("|--------|-------|---------------|---------------|---------------|")
+        for pillar, m in sorted(pillar_data.items(), key=lambda x: x[1].get("avg_score_t1h", 0), reverse=True):
+            lines.append(
+                f"| {pillar} | {m['count']} "
+                f"| {m.get('avg_views_t1h', 0):,.0f} "
+                f"| {m.get('avg_saves_t1h', 0):.1f} "
+                f"| {m.get('avg_score_t1h', 0):.1f} |"
+            )
+    lines.append("")
+
+    lines.append("## Content Intelligence — Hook Template Performance")
+    if hook_data.get("insufficient_data"):
+        lines.append(f"Not enough measured data yet for hook analysis. "
+                     f"Need at least {hook_data['needed']} measured posts "
+                     f"(have {hook_data['measured_count']}).")
+    else:
+        lines.append("| Hook Template | Posts | Avg Views t1h | Avg Saves t1h | Avg Score t1h |")
+        lines.append("|---------------|-------|---------------|---------------|---------------|")
+        for hook, m in sorted(hook_data.items(), key=lambda x: x[1].get("avg_score_t1h", 0), reverse=True):
+            lines.append(
+                f"| {hook} | {m['count']} "
+                f"| {m.get('avg_views_t1h', 0):,.0f} "
+                f"| {m.get('avg_saves_t1h', 0):.1f} "
+                f"| {m.get('avg_score_t1h', 0):.1f} |"
+            )
+    lines.append("")
+
+    lines.append("## Content Intelligence — Top Pillar+Hook Combos")
+    if combo_data.get("insufficient_data"):
+        lines.append(f"Not enough measured data yet. "
+                     f"Need at least {combo_data['needed']} measured posts with pillar+hook tags "
+                     f"(have {combo_data['measured_count']}).")
+    else:
+        top5   = combo_data.get("top_5", [])
+        bot5   = combo_data.get("bottom_5", [])
+        if top5:
+            lines.append("**Top 5 combos (highest avg score t1h):**")
+            for entry in top5:
+                lines.append(
+                    f"- `{entry['combo']}` — score {entry.get('avg_score_t1h', 0):.1f} "
+                    f"({entry.get('count', 0)} posts)"
+                )
+        if bot5:
+            lines.append("")
+            lines.append("**Bottom 5 combos (lowest avg score t1h, min 2 posts):**")
+            for entry in bot5:
+                lines.append(
+                    f"- `{entry['combo']}` — score {entry.get('avg_score_t1h', 0):.1f} "
+                    f"({entry.get('count', 0)} posts)"
+                )
+    lines.append("")
     lines.append("---")
     lines.append("*Auto-generated by DisciplineFuel self-improvement loop*")
 
@@ -765,6 +911,15 @@ def generate_strategy_report(account: str, scored_posts: list, upgrade_summary: 
     report["hook_adoption"] = _check_hook_adoption(account, hints)
     report["system_health"] = _system_health(account)
     report["trend_rows"]    = _render_trend_table(account)
+
+    # Pillar / hook intelligence (uses all posts in log, not just scored subset)
+    log_all   = _load_log(account)
+    all_posts = log_all.get("uploaded", [])
+    report["pillar_hook_analysis"] = {
+        "by_pillar": analyze_by_pillar(all_posts),
+        "by_hook":   analyze_by_hook(all_posts),
+        "by_combo":  analyze_by_combo(all_posts),
+    }
     report["our_avg_engagement"] = round(our_avg_eng, 1)
 
     # Save JSON report

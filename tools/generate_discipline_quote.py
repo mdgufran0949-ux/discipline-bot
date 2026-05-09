@@ -154,6 +154,84 @@ Split into 3 groups:
 
 Return as a single JSON array of 15 strings, no # symbol, no explanation."""
 
+# ── Pillar + hook guidance ─────────────────────────────────────────────────────
+
+PILLAR_GUIDANCE = {
+    "hard_truth":  "Uncomfortable realities about effort, comfort, failure, or complacency. Tone: blunt, no sugar-coating. The reader feels a twinge of recognition — nudged, not attacked.",
+    "tactical":    "Specific habits, frameworks, numbered systems. Tone: practical, instructional. Ground the wisdom in concrete, actionable reality.",
+    "reframe":     "Flips a widely-held belief on its head. Tone: insight-driven, contrarian. The reader thinks 'I never thought of it that way.'",
+    "story_proof": "Grounded in a narrative, quote, person, or vivid scene. Tone: warm, anchored. Opens with a moment or figure the reader can picture.",
+}
+
+HOOK_GUIDANCE = {
+    "question":   "The OPENING LINE must be a direct question that stops the reader mid-scroll. (e.g. 'What if the thing you're avoiding is the thing you need most?')",
+    "contrarian": "The OPENING LINE must directly contradict a common, widely-held belief. Start with the contradiction, not a buildup. (e.g. 'Motivation is overrated.')",
+    "stat_shock": "The OPENING must contain a specific number, statistic, percentage, or precise timeframe. (e.g. '66 days.' / 'Most people quit in week 3.' / '1% better every day.')",
+    "story":      "The OPENING must introduce a scene, person, or vivid moment. Drop the reader into it immediately. (e.g. 'There is a kind of silence...' / 'The night he decided...')",
+    "command":    "The OPENING must be a direct instruction starting with an imperative verb. Clear, not aggressive. (e.g. 'Stop treating rest like a reward.' / 'Write it down.')",
+}
+
+PILLAR_HOOK_QUOTE_PROMPT = """Topic: {topic}
+Series: {series_label}
+Design style: {design_style}
+Hot keywords (use 1-2 gently, never force them): {hot_keywords}
+Performance hints: {prompt_hints}
+Length target: {length_instruction}
+
+REQUIRED CONTENT PILLAR:
+Pillar: {pillar}
+What this means: {pillar_guidance}
+
+REQUIRED HOOK TEMPLATE:
+Hook: {hook_template}
+What this means: {hook_guidance}
+
+Generate exactly 5 quote variations. ALL 5 must:
+1. Match the pillar theme and tone described above
+2. Open with the hook structure described above
+3. Follow the length target
+4. End with the self-verification tag: [pillar: {pillar}, hook: {hook_template}]
+
+Be reflective, wise, observational. No insults. No attacks. No hashtags. Universal truth, not shaming.
+
+Select the single best quote (most likely to get saved), ensuring it fits the pillar AND hook.
+
+Return ONLY this JSON (no markdown, no explanation):
+{{
+  "quote_options": [
+    {{"type": "statement", "text": "...[pillar: {pillar}, hook: {hook_template}]"}},
+    {{"type": "contrast",  "text": "...[pillar: {pillar}, hook: {hook_template}]"}},
+    {{"type": "punch",     "text": "...[pillar: {pillar}, hook: {hook_template}]"}},
+    {{"type": "identity",  "text": "...[pillar: {pillar}, hook: {hook_template}]"}},
+    {{"type": "command",   "text": "...[pillar: {pillar}, hook: {hook_template}]"}}
+  ],
+  "selected_quote": "...[pillar: {pillar}, hook: {hook_template}]",
+  "selected_type": "statement|contrast|punch|identity|command",
+  "hook_keyword": "single word that anchors the quote (e.g. quiet, built, discipline)",
+  "format": "image or carousel",
+  "design_style": "{design_style}",
+  "image_prompt": "detailed prompt for a cinematic, moody, atmospheric image. No text in image. Match the pillar mood.",
+  "predicted_performance": "high|medium|low",
+  "reasoning": "one sentence on why this quote will resonate for the {pillar} pillar"
+}}"""
+
+# Tag regex — matches [pillar: X, hook: Y] anywhere in text
+import re as _re
+_TAG_RE = _re.compile(r'\[pillar:\s*(\w+),\s*hook:\s*(\w+)\]', _re.IGNORECASE)
+
+
+def _strip_tag(text: str) -> str:
+    """Remove [pillar: X, hook: Y] self-verification tag from quote text."""
+    return _TAG_RE.sub("", text).strip()
+
+
+def _validate_tag(text: str, pillar: str, hook: str) -> bool:
+    """Return True if text contains a matching [pillar: X, hook: Y] tag."""
+    m = _TAG_RE.search(text)
+    if not m:
+        return False
+    return m.group(1).lower() == pillar.lower() and m.group(2).lower() == hook.lower()
+
 
 # ── LLM calls ─────────────────────────────────────────────────────────────────
 
@@ -363,7 +441,9 @@ def generate_discipline_quote(
     series_number: int = 1,
     design_style: str = "dark",
     hot_keywords: list = None,
-    prompt_hints: dict = None
+    prompt_hints: dict = None,
+    pillar: str = None,
+    hook_template: str = None,
 ) -> dict:
     """
     Generate a full DisciplineFuel content payload.
@@ -433,15 +513,35 @@ def generate_discipline_quote(
         length_instruction = "Write a LONG quote: 40-80 words. 3-5 sentences. Wisdom arc: observe → reflect → affirm. Calm, warm, universal. Most variations should be this length."
 
     # Step 2: Generate quote options
+    use_pillar_hook = bool(pillar and hook_template)
+    pillar_hook_source = "picker" if use_pillar_hook else None
+
     print(f"Generating quotes for: {topic}", flush=True)
-    quote_prompt = QUOTE_PROMPT.format(
-        topic=topic,
-        series_label=series_label,
-        design_style=design_style,
-        hot_keywords=hot_kw_str,
-        prompt_hints=hints_str,
-        length_instruction=length_instruction
-    )
+    if use_pillar_hook:
+        print(f"  [CONSTRAINED] pillar={pillar} hook={hook_template}", flush=True)
+
+    if use_pillar_hook:
+        quote_prompt = PILLAR_HOOK_QUOTE_PROMPT.format(
+            topic=topic,
+            series_label=series_label,
+            design_style=design_style,
+            hot_keywords=hot_kw_str,
+            prompt_hints=hints_str,
+            length_instruction=length_instruction,
+            pillar=pillar,
+            hook_template=hook_template,
+            pillar_guidance=PILLAR_GUIDANCE.get(pillar, ""),
+            hook_guidance=HOOK_GUIDANCE.get(hook_template, ""),
+        )
+    else:
+        quote_prompt = QUOTE_PROMPT.format(
+            topic=topic,
+            series_label=series_label,
+            design_style=design_style,
+            hot_keywords=hot_kw_str,
+            prompt_hints=hints_str,
+            length_instruction=length_instruction
+        )
 
     raw_quote = _call(quote_prompt)
     try:
@@ -453,6 +553,50 @@ def generate_discipline_quote(
 
     selected_quote = quote_data.get("selected_quote", "")
     selected_type  = quote_data.get("selected_type", "statement")
+
+    # ── Pillar/hook validation and tag stripping ───────────────────────────────
+    if use_pillar_hook:
+        # Validate self-tag on selected quote
+        if not _validate_tag(selected_quote, pillar, hook_template):
+            print(f"  [WARN] Self-tag mismatch on selected. Checking options...", flush=True)
+            # Try to find a valid option
+            found = False
+            for opt in quote_data.get("quote_options", []):
+                if _validate_tag(opt.get("text", ""), pillar, hook_template):
+                    selected_quote = opt["text"]
+                    selected_type  = opt.get("type", selected_type)
+                    found = True
+                    break
+            if not found:
+                # Retry once with stronger instructions
+                print(f"  [WARN] No valid tagged option. Retrying with stronger prompt...", flush=True)
+                retry_prompt = quote_prompt + (
+                    f"\n\nCRITICAL: Every quote MUST end with [pillar: {pillar}, hook: {hook_template}]. "
+                    f"The opening MUST follow the {hook_template} structure exactly. "
+                    f"This is non-negotiable."
+                )
+                try:
+                    raw2 = _call(retry_prompt, temperature=0.75)
+                    data2 = _extract_json(raw2)
+                    sq2 = data2.get("selected_quote", "")
+                    if _validate_tag(sq2, pillar, hook_template):
+                        quote_data     = data2
+                        selected_quote = sq2
+                        selected_type  = data2.get("selected_type", selected_type)
+                    else:
+                        # Final fallback: strip constraint, use unconstrained path
+                        print(f"  [WARN] Pillar/hook constraint failed both attempts. Falling back to unconstrained.", flush=True)
+                        pillar_hook_source = "fallback"
+                        use_pillar_hook    = False
+                except Exception as re_err:
+                    print(f"  [WARN] Retry failed: {str(re_err)[:80]}. Using unconstrained.", flush=True)
+                    pillar_hook_source = "fallback"
+                    use_pillar_hook    = False
+
+        # Strip the [pillar: X, hook: Y] tag from the final quote and all options
+        selected_quote = _strip_tag(selected_quote)
+        for opt in quote_data.get("quote_options", []):
+            opt["text"] = _strip_tag(opt.get("text", ""))
 
     # Quality gate — reject polluted / shaming / cliché quotes
     ok, reason = _is_quality_quote(selected_quote)
@@ -554,7 +698,10 @@ def generate_discipline_quote(
         "series_number":   series_number,
         "topic":           topic,
         "predicted_performance": quote_data.get("predicted_performance", "medium"),
-        "reasoning":       quote_data.get("reasoning", "")
+        "reasoning":       quote_data.get("reasoning", ""),
+        "pillar":            pillar,
+        "hook_template":     hook_template,
+        "pillar_hook_source": pillar_hook_source,
     }
 
 

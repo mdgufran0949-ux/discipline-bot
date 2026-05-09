@@ -36,6 +36,7 @@ import upload_image_post         as upload_tool
 import upload_reel               as reel_upload_tool
 import compose_discipline_reel   as reel_tool
 import audio_selector
+import pillar_hook_picker
 import review_and_upgrade        as review_tool
 
 SLEEP_BETWEEN_POSTS = 180   # 3 minutes (same as run_pipeline.py)
@@ -212,10 +213,15 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                     topic = t
                     break
 
+        # -- Step 5b: Pick pillar + hook template
+        pillar, hook_template = pillar_hook_picker.pick_pillar_and_hook(account)
+
         print(f"  Topic:        {topic}", flush=True)
         print(f"  Series:       {_series_label(series_type, series_num)}", flush=True)
         print(f"  Style:        {design_style}", flush=True)
         print(f"  Format:       {fmt}", flush=True)
+        print(f"  Pillar:       {pillar}", flush=True)
+        print(f"  Hook:         {hook_template}", flush=True)
 
         try:
             # -- Step 6: Generate quote payload
@@ -226,7 +232,9 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 series_number=series_num,
                 design_style=design_style,
                 hot_keywords=hot_keywords,
-                prompt_hints=prompt_hints
+                prompt_hints=prompt_hints,
+                pillar=pillar,
+                hook_template=hook_template,
             )
 
             selected_quote = payload["selected_quote"]
@@ -278,7 +286,7 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 output_files = composed["files"]
             elif fmt == "reel":
                 manual_mode = cfg.get("manual_audio_mode", True)
-                audio_selector.prepare_bgm(account, cfg)
+                audio_selector.prepare_bgm(account, cfg, pillar=pillar)
                 composed = reel_tool.compose_discipline_reel(
                     quote=selected_quote,
                     series_label=series_label,
@@ -366,14 +374,17 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 "series":          series_type,
                 "series_number":   series_num,
                 "content_series":  series_label,
-                "topic":           topic,
-                "selected_quote":  selected_quote,
-                "quote_type":      payload.get("selected_type", ""),
-                "hook_keyword":    payload.get("hook_keyword", ""),
-                "design_style":    design_style,
-                "predicted":       payload.get("predicted_performance", ""),
-                "posted_at":       datetime.now().isoformat(),
-                "dry_run":         dry_run
+                "topic":              topic,
+                "selected_quote":     selected_quote,
+                "quote_type":         payload.get("selected_type", ""),
+                "hook_keyword":       payload.get("hook_keyword", ""),
+                "design_style":       design_style,
+                "predicted":          payload.get("predicted_performance", ""),
+                "posted_at":          datetime.now().isoformat(),
+                "dry_run":            dry_run,
+                "pillar":             payload.get("pillar", pillar),
+                "hook_template":      payload.get("hook_template", hook_template),
+                "pillar_hook_source": payload.get("pillar_hook_source", "picker"),
             }
 
             memory_tool.log_post(log_entry)
