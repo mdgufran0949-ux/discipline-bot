@@ -1,9 +1,9 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-08 14:40
+Generated: 2026-05-08 19:17
 
 ## System Health
 - Last competitor fetch: 2026-05-07T20:31 ✅
-- Last IG metrics fetch: 2026-05-08T14:40 ✅
+- Last IG metrics fetch: 2026-05-08T19:17 ✅
 - IG hashtag quota used (7d): 7 / 30 ✅
 - Consecutive failed competitor fetches: 1
 
@@ -19,8 +19,28 @@ Generated: 2026-05-08 14:40
 | 2026-05-07 | 0 | 0 | 9% |
 
 ## What Changed Today
-- Format mix: unchanged (image 0%, carousel 0%)
-- No significant changes this run (system is stable)
+- Format mix: image 0% → 2%, carousel 0% → 18%
+- Blacklisted topic: "stay positive, bring happiness p"
+- Blacklisted topic: "discipline is remembering what you truly want"
+- Blacklisted topic: "no excuses"
+- Blacklisted topic: "how to develop self discipline"
+- Blacklisted topic: "wake up early"
+- Blacklisted topic: "cristiano ronaldo talks about discipline"
+- Blacklisted topic: "you keep choosing comfort over growth"
+- Blacklisted topic: "father disciplines his daughter"
+- Blacklisted topic: "become who you could be"
+- Blacklisted topic: "procrastination is self-betrayal"
+- Blacklisted topic: "your laziness has a price"
+- Blacklisted topic: "1 minute a day"
+- Blacklisted topic: "if you don't have discipline you are a nobody"
+- Blacklisted topic: "short motivation 7"
+- Blacklisted topic: "let me sleep, so my teeth wont grind"
+- Blacklisted topic: "he loves this rule of discipline"
+- Blacklisted topic: "400 hz 410 hz binaural beats for deep theta state meditation focus"
+- Blacklisted topic: "how much does david goggins sleeps"
+- Blacklisted topic: "life of the party"
+- Blacklisted topic: "akshay kumars powerful time management advice"
+- Blacklisted topic: "never be an option"
 
 ## What We Learned From Competitors
 - Scanned hashtags: motivationdaily, selfimprovementtips, stoicmindset, discipline, selfdiscipline
@@ -50,19 +70,31 @@ Generated: 2026-05-08 14:40
 | @? | 5,051 | 4 | statement | medium | "💯 वादे नहीं, परिणाम बोलते हैं। 👍" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 14 / 20 recent posts used trending power-words (70%) ✅
+- 15 / 20 recent posts used trending power-words (75%) ✅
+  - ✅ "the strongest voices are those that speak louder through their actions..." (words: discipline)
   - ✅ "discipline remembers what truly matters" (words: discipline)
-  - ✅ "motivation may fade, but discipline remains, a constant reminder that ..." (words: discipline)
   - ⚠️ "the person you could become is waiting quietly in the habits you haven..."
   - ⚠️ "the strongest version of ourselves is built on the foundation of consi..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
-_(not yet generated — will appear after first pipeline run)_
+```
+HOOKS TRENDING IN THE NICHE RIGHT NOW (from top viral discipline posts — match this ENERGY but write something ORIGINAL, do NOT copy):
+  - "Follow selfelevatepro for daily discipline"
+  - "I became UNSTOPPABLE ↓"
+  - "The gym doesn’t just build your body."
+  - "The toughest chapters of your life won’t come with applause, only silence."
+  - "That one random night where everything changed."
+HIGH-ENGAGEMENT WORDS from top niche posts (weave 2-3 in naturally): follow, discipline, every, let, his, daily, life, selfelevatepro, build, discomfort
+DOMINANT STRUCTURES in top niche posts this week: statement, contrast, question (prefer these)
+
+TOP CREATORS IN THIS NICHE (accounts that consistently land in the top posts — study their patterns):
+  self elevate pro&#x2122; (~15,059 avg engagement): stat...
+```
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (luxury, reel) — "The strongest grinds are often the ones that happen in silence, where success is"
-2. **statement** (dark, reel) — "The strongest version of ourselves is built in the silence of consistent effort,"
-3. **statement** (luxury, reel) — "Discipline speaks louder than success"
+1. **statement** (dark, reel) — "The strongest version of ourselves is built in the silence of consistent effort,"
+2. **statement** (luxury, reel) — "Discipline speaks louder than success"
+3. **statement** (minimal, reel) — "The strongest grinds are often the quiet ones, where we stay committed to our cr"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
@@ -74,7 +106,7 @@ _(not yet generated — will appear after first pipeline run)_
 
 ## Next Actions (Auto-applied)
 - Quote generator biased toward: **statement, contrast** structures
-- Carousel ratio set to 0%
+- Carousel ratio set to 18%
 - 5 trending hooks injected into next LLM prompts
 
 ---

@@ -2734,7 +2734,7 @@
       "comments": 0,
       "likes": 0,
       "score": 3,
-      "metrics_fetched_at": "2026-05-08T14:39:53.988363"
+      "metrics_fetched_at": "2026-05-08T19:16:31.346209"
     },
     {
       "id": "day_becoming_better_30_20260507_204633",
@@ -2757,7 +2757,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-05-08T14:39:54.926370"
+      "metrics_fetched_at": "2026-05-08T19:16:33.975280"
     },
     {
       "id": "discipline_rule_32_20260507_205123",
@@ -2780,7 +2780,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-05-08T14:39:55.514858"
+      "metrics_fetched_at": "2026-05-08T19:16:37.264694"
     },
     {
       "id": "wake_up_call_30_20260506_162155",
@@ -2803,7 +2803,7 @@
       "comments": 0,
       "likes": 1,
       "score": 9,
-      "metrics_fetched_at": "2026-05-08T14:39:56.076667"
+      "metrics_fetched_at": "2026-05-08T19:16:39.711111"
     },
     {
       "id": "day_becoming_better_30_20260506_164036",
@@ -2826,7 +2826,7 @@
       "comments": 0,
       "likes": 2,
       "score": 6,
-      "metrics_fetched_at": "2026-05-08T14:39:56.702363"
+      "metrics_fetched_at": "2026-05-08T19:16:42.481995"
     },
     {
       "id": "discipline_rule_32_20260506_165155",
@@ -2849,7 +2849,7 @@
       "comments": 0,
       "likes": 1,
       "score": 5,
-      "metrics_fetched_at": "2026-05-08T14:39:58.913003"
+      "metrics_fetched_at": "2026-05-08T19:16:45.417018"
     },
     {
       "id": "wake_up_call_31_20260507_041409",
@@ -2872,7 +2872,7 @@
       "comments": 0,
       "likes": 2,
       "score": 14,
-      "metrics_fetched_at": "2026-05-08T14:39:59.436262"
+      "metrics_fetched_at": "2026-05-08T19:16:48.948870"
     },
     {
       "id": "day_becoming_better_31_20260507_041814",
@@ -2895,7 +2895,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-05-08T14:40:00.464084"
+      "metrics_fetched_at": "2026-05-08T19:16:52.110352"
     },
     {
       "id": "discipline_rule_33_20260507_042226",
@@ -2918,7 +2918,7 @@
       "comments": 0,
       "likes": 2,
       "score": 11,
-      "metrics_fetched_at": "2026-05-08T14:40:02.155135"
+      "metrics_fetched_at": "2026-05-08T19:16:55.670512"
     },
     {
       "id": "wake_up_call_32_20260507_100604",
@@ -2941,7 +2941,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-05-08T14:40:02.859001"
+      "metrics_fetched_at": "2026-05-08T19:16:58.756579"
     },
     {
       "id": "day_becoming_better_32_20260507_101006",
@@ -2964,7 +2964,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-05-08T14:40:03.419601"
+      "metrics_fetched_at": "2026-05-08T19:17:01.854700"
     },
     {
       "id": "discipline_rule_34_20260507_101442",
@@ -2987,7 +2987,27 @@
       "comments": 0,
       "likes": 0,
       "score": 9,
-      "metrics_fetched_at": "2026-05-08T14:40:04.060480"
+      "metrics_fetched_at": "2026-05-08T19:17:04.406898"
+    },
+    {
+      "id": "wake_up_call_33_20260508_192145",
+      "ig_media_id": "QUEUED_disciplinefuel_20260508_192133",
+      "permalink": "pending_manual_post",
+      "preview_url": "https://res.cloudinary.com/dpttnbaan/video/upload/v1778248304/queue/disciplinefuel_20260508_192133.mp4",
+      "queue_id": "disciplinefuel_20260508_192133",
+      "status": "pending_manual_post",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 33,
+      "content_series": "Wake Up Call #33",
+      "topic": "david goggins on excuses stop being lazy",
+      "selected_quote": "Discipline is the bridge between intention and reality, built every day with deliberate choices that shape our lives.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-08T19:21:45.716411",
+      "dry_run": false
     },
     {
       "id": "wake_up_call_33_20260508_054744",
@@ -3007,46 +3027,6 @@
       "design_style": "luxury",
       "predicted": "high",
       "posted_at": "2026-05-08T05:47:44.005706",
-      "dry_run": false
-    },
-    {
-      "id": "day_becoming_better_33_20260508_144039",
-      "ig_media_id": "QUEUED_disciplinefuel_20260508_144038",
-      "permalink": "pending_manual_post",
-      "preview_url": "https://res.cloudinary.com/dpttnbaan/video/upload/v1778251239/queue/disciplinefuel_20260508_144038.mp4",
-      "queue_id": "disciplinefuel_20260508_144038",
-      "status": "pending_manual_post",
-      "format": "reel",
-      "series": "day_becoming_better",
-      "series_number": 33,
-      "content_series": "Day 33 of Becoming Better",
-      "topic": "monster jam grinds",
-      "selected_quote": "Discipline is the bridge that connects our everyday efforts to a life of purpose and growth, building a stronger version of ourselves with every step.",
-      "quote_type": "statement",
-      "hook_keyword": "discipline",
-      "design_style": "minimal",
-      "predicted": "high",
-      "posted_at": "2026-05-08T14:40:39.903551",
-      "dry_run": false
-    },
-    {
-      "id": "discipline_rule_35_20260509_061305",
-      "ig_media_id": "QUEUED_disciplinefuel_20260509_061303",
-      "permalink": "pending_manual_post",
-      "preview_url": "https://res.cloudinary.com/dpttnbaan/video/upload/v1778307183/queue/disciplinefuel_20260509_061303.mp4",
-      "queue_id": "disciplinefuel_20260509_061303",
-      "status": "pending_manual_post",
-      "format": "reel",
-      "series": "discipline_rule",
-      "series_number": 35,
-      "content_series": "Discipline Rule #35",
-      "topic": "monster jam grinds",
-      "selected_quote": "Every great achievement is built on the foundation of daily discipline, where the silence of dedication speaks louder than the applause of success.",
-      "quote_type": "statement",
-      "hook_keyword": "discipline",
-      "design_style": "dark",
-      "predicted": "high",
-      "posted_at": "2026-05-09T06:13:05.094101",
       "dry_run": false
     }
   ]
