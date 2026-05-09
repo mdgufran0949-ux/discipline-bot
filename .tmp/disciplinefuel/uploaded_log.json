@@ -3028,6 +3028,42 @@
       "predicted": "high",
       "posted_at": "2026-05-08T05:47:44.005706",
       "dry_run": false
+    },
+    {
+      "id": "wake_up_call_34_20260509_143104",
+      "ig_media_id": "QUEUED_disciplinefuel_20260509_143103",
+      "permalink": "pending_manual_post",
+      "preview_url": "https://res.cloudinary.com/dpttnbaan/video/upload/v1778337064/queue/disciplinefuel_20260509_143103.mp4",
+      "queue_id": "disciplinefuel_20260509_143103",
+      "status": "pending_manual_post",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 34,
+      "content_series": "Wake Up Call #34",
+      "topic": "david goggins on excuses stop being lazy",
+      "selected_quote": "Let go of every excuse. Discipline is what remains when motivation fades.",
+      "quote_type": "statement",
+      "hook_keyword": "let",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-09T14:31:04.888067",
+      "dry_run": false,
+      "pillar": "hard_truth",
+      "hook_template": "command",
+      "pillar_hook_source": "picker",
+      "caption_structure": "single_line",
+      "caption_cta": "Send this to the version of you that's still asleep.",
+      "hashtags_used": [
+        "#disciplinedmind",
+        "#mentaltoughnessquotes",
+        "#selfimprovementdaily",
+        "#stoicphilosophy",
+        "#stoicquotesdaily",
+        "#doitnobodywatching",
+        "#mindsetfuel",
+        "#fueldiscipline",
+        "#disciplinefuel"
+      ]
     }
   ]
 }

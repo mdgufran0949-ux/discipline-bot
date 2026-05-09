@@ -1826,6 +1826,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_34_20260509_143104",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 34,
+      "topic": "david goggins on excuses stop being lazy",
+      "hook_keyword": "let",
+      "selected_quote": "Let go of every excuse. Discipline is what remains when motivation fades.",
+      "posted_at": "2026-05-09T14:31:04.888067",
+      "ig_media_id": "QUEUED_disciplinefuel_20260509_143103",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2308,27 +2329,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 87,
+    "total_posts": 88,
     "by_quote_type": {
       "question": 1,
-      "statement": 82,
+      "statement": 83,
       "contrast": 3,
       "punch": 1
     },
     "by_design_style": {
       "minimal": 24,
-      "dark": 26,
+      "dark": 27,
       "luxury": 21,
       "bold": 16
     },
     "by_format": {
       "image": 1,
-      "reel": 86
+      "reel": 87
     },
     "by_series": {
       "discipline_rule": 30,
       "day_becoming_better": 29,
-      "wake_up_call": 28
+      "wake_up_call": 29
     },
     "top_performing_series": "wake_up_call"
   },
