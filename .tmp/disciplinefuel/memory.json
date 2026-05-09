@@ -1805,6 +1805,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_35_20260509_061305",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 35,
+      "topic": "monster jam grinds",
+      "hook_keyword": "discipline",
+      "selected_quote": "Every great achievement is built on the foundation of daily discipline, where the silence of dedication speaks louder than the applause of success.",
+      "posted_at": "2026-05-09T06:13:05.094101",
+      "ig_media_id": "QUEUED_disciplinefuel_20260509_061303",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2287,25 +2308,25 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 86,
+    "total_posts": 87,
     "by_quote_type": {
       "question": 1,
-      "statement": 81,
+      "statement": 82,
       "contrast": 3,
       "punch": 1
     },
     "by_design_style": {
       "minimal": 24,
-      "dark": 25,
+      "dark": 26,
       "luxury": 21,
       "bold": 16
     },
     "by_format": {
       "image": 1,
-      "reel": 85
+      "reel": 86
     },
     "by_series": {
-      "discipline_rule": 29,
+      "discipline_rule": 30,
       "day_becoming_better": 29,
       "wake_up_call": 28
     },
