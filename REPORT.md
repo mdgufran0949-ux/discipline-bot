@@ -1,57 +1,47 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-07 10:04
-
-> ⚠️ **ATTENTION NEEDED:** competitor_fetch, metrics_fetch
+Generated: 2026-05-08 14:40
 
 ## System Health
-- Last competitor fetch: 2026-05-04T09:37 ⚠️
-- Last IG metrics fetch: never ⚠️
-- IG hashtag quota used (7d): 10 / 30 ✅
-- Consecutive failed competitor fetches: 0
+- Last competitor fetch: 2026-05-07T20:31 ✅
+- Last IG metrics fetch: 2026-05-08T14:40 ✅
+- IG hashtag quota used (7d): 7 / 30 ✅
+- Consecutive failed competitor fetches: 1
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-04-25 | 0 | 6,654 | 11% |
 | 2026-04-29 | 0 | 9,958 | 11% |
 | 2026-05-01 | 0 | 9,958 | 11% |
 | 2026-05-02 | 0 | 5,582 | 6% |
 | 2026-05-03 | 0 | 5,582 | 6% |
 | 2026-05-04 | 0 | 3,802 | 9% |
 | 2026-05-06 | 0 | 3,802 | 9% |
+| 2026-05-07 | 0 | 0 | 9% |
 
 ## What Changed Today
-- Format mix: image 0% → 11%, carousel 0% → 9%
-- Blacklisted topic: "procrastination is self-betrayal"
-- Blacklisted topic: "discipline is remembering what you truly want"
-- Blacklisted topic: "short motivation 7"
-- Blacklisted topic: "400 hz 410 hz binaural beats for deep theta state meditation focus"
-- Blacklisted topic: "you keep choosing comfort over growth"
-- Blacklisted topic: "he loves this rule of discipline"
-- Blacklisted topic: "your laziness has a price"
-- Blacklisted topic: "cristiano ronaldo talks about discipline"
-- Blacklisted topic: "wake up early"
-- Blacklisted topic: "if you don't have discipline you are a nobody"
-- Blacklisted topic: "life of the party"
-- Blacklisted topic: "1 minute a day"
-- Blacklisted topic: "no excuses"
-- Blacklisted topic: "stay positive, bring happiness p"
-- Blacklisted topic: "how to develop self discipline"
-- Blacklisted topic: "father disciplines his daughter"
-- Blacklisted topic: "akshay kumars powerful time management advice"
-- Blacklisted topic: "how much does david goggins sleeps"
-- Blacklisted topic: "let me sleep, so my teeth wont grind"
-- Blacklisted topic: "never be an option"
-- Blacklisted topic: "become who you could be"
+- Format mix: unchanged (image 0%, carousel 0%)
+- No significant changes this run (system is stable)
 
 ## What We Learned From Competitors
-- No competitor data this run (API unavailable or cached)
+- Scanned hashtags: motivationdaily, selfimprovementtips, stoicmindset, discipline, selfdiscipline
+- Posts analyzed: 17
+- Niche benchmark: 7,948 avg engagement | Our avg: 0 | Gap: -100%
+- Top hooks trending in niche:
+  1. "Follow selfelevatepro for daily discipline"
+  2. "I became UNSTOPPABLE ↓"
+  3. "The gym doesn’t just build your body."
+  4. "The toughest chapters of your life won’t come with applause, only silence."
+  5. "That one random night where everything changed."
+- Hot power words: follow, discipline, every, let, his, daily, life, selfelevatepro
+- Dominant quote structure: **statement**
+- Dominant media type: **CAROUSEL_ALBUM (88%)**
+- Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
 | Creator | Avg Engagement | Appearances | Style | Length | Best Hook |
 |---------|---------------|-------------|-------|--------|-----------|
+| @? | 15,059 | 10 | statement | medium | "Follow selfelevatepro for daily discipline" |
 | @? | 11,346 | 8 | command | long | "Save this post as a guide and share it with a friend ✅" |
-| @? | 10,703 | 6 | statement | medium | "Follow selfelevatepro for daily discipline" |
 | @? | 7,970 | 4 | statement | long | "Most men break once." |
 | @? | 7,948 | 6 | statement | long | "Follow 👉 we.think.deeply we.think.deeply we.think.deeply" |
 | @? | 5,709 | 20 | statement | long | "Visual Weekend Roundup illustrated by me 😊" |
@@ -60,29 +50,31 @@ Generated: 2026-05-07 10:04
 | @? | 5,051 | 4 | statement | medium | "💯 वादे नहीं, परिणाम बोलते हैं। 👍" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 19 / 20 recent posts used trending power-words (95%) ✅
-  - ✅ "discipline is the whisper that speaks louder" (words: speak, louder)
-  - ✅ "discipline is remembering what you truly want, even when the noise spe..." (words: remember, speak, louder)
-  - ⚠️ "the quiet version of you is still becoming loud inside."
+- 14 / 20 recent posts used trending power-words (70%) ✅
+  - ✅ "discipline remembers what truly matters" (words: discipline)
+  - ✅ "motivation may fade, but discipline remains, a constant reminder that ..." (words: discipline)
+  - ⚠️ "the person you could become is waiting quietly in the habits you haven..."
+  - ⚠️ "the strongest version of ourselves is built on the foundation of consi..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (luxury, reel) — "A father's discipline is not about controlling his daughter, but about teaching "
-2. **statement** (minimal, reel) — "As we stay committed to our growth, we begin to remember the person we're meant "
-3. **statement** (dark, reel) — "Discipline becomes the voice that speaks louder than excuses, reminding us to st"
+1. **statement** (luxury, reel) — "The strongest grinds are often the ones that happen in silence, where success is"
+2. **statement** (dark, reel) — "The strongest version of ourselves is built in the silence of consistent effort,"
+3. **statement** (luxury, reel) — "Discipline speaks louder than success"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 121     | —          |
-| Avg score        | 1.7   | —          |
+| Posts scored     | 127     | —          |
+| Avg score        | 1.9   | —          |
 | High performers  | 0       | —          |
+| Avg engagement   | 1   | 7,948      | -100% |
 
 ## Next Actions (Auto-applied)
-- Quote generator biased toward: **statement, identity** structures
-- Carousel ratio set to 9%
+- Quote generator biased toward: **statement, contrast** structures
+- Carousel ratio set to 0%
 - 5 trending hooks injected into next LLM prompts
 
 ---

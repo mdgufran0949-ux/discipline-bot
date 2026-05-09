@@ -1593,7 +1593,7 @@
         "comments": 0,
         "likes": 1,
         "score": 9,
-        "fetched_at": "2026-05-07T10:04:38.233940"
+        "fetched_at": "2026-05-08T14:39:56.077365"
       }
     },
     {
@@ -1612,9 +1612,9 @@
         "saves": 1,
         "shares": 0,
         "comments": 0,
-        "likes": 0,
-        "score": 4,
-        "fetched_at": "2026-05-07T10:04:39.327504"
+        "likes": 2,
+        "score": 6,
+        "fetched_at": "2026-05-08T14:39:56.703011"
       }
     },
     {
@@ -1630,12 +1630,12 @@
       "posted_at": "2026-05-06T16:51:55.801103",
       "ig_media_id": "17868598662614754",
       "performance": {
-        "saves": 0,
+        "saves": 1,
         "shares": 0,
         "comments": 0,
         "likes": 1,
-        "score": 1,
-        "fetched_at": "2026-05-07T10:04:40.141167"
+        "score": 5,
+        "fetched_at": "2026-05-08T14:39:58.913717"
       }
     },
     {
@@ -1652,11 +1652,11 @@
       "ig_media_id": "17868701625528400",
       "performance": {
         "saves": 0,
-        "shares": 1,
+        "shares": 4,
         "comments": 0,
         "likes": 2,
-        "score": 5,
-        "fetched_at": "2026-05-07T10:04:41.074469"
+        "score": 14,
+        "fetched_at": "2026-05-08T14:39:59.436927"
       }
     },
     {
@@ -1677,7 +1677,7 @@
         "comments": 0,
         "likes": 0,
         "score": 0,
-        "fetched_at": "2026-05-07T10:04:42.236466"
+        "fetched_at": "2026-05-08T14:40:00.464794"
       }
     },
     {
@@ -1698,7 +1698,7 @@
         "comments": 0,
         "likes": 2,
         "score": 11,
-        "fetched_at": "2026-05-07T10:04:43.354046"
+        "fetched_at": "2026-05-08T14:40:02.155861"
       }
     },
     {
@@ -1718,8 +1718,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-08T14:40:02.859770"
       }
     },
     {
@@ -1739,8 +1739,8 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 0,
+        "fetched_at": "2026-05-08T14:40:03.420288"
       }
     },
     {
@@ -1757,11 +1757,11 @@
       "ig_media_id": "18590994436004698",
       "performance": {
         "saves": 0,
-        "shares": 0,
+        "shares": 3,
         "comments": 0,
         "likes": 0,
-        "score": null,
-        "fetched_at": null
+        "score": 9,
+        "fetched_at": "2026-05-08T14:40:04.061245"
       }
     },
     {
@@ -1784,38 +1784,53 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_33_20260508_144039",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 33,
+      "topic": "monster jam grinds",
+      "hook_keyword": "discipline",
+      "selected_quote": "Discipline is the bridge that connects our everyday efforts to a life of purpose and growth, building a stronger version of ourselves with every step.",
+      "posted_at": "2026-05-08T14:40:39.903551",
+      "ig_media_id": "QUEUED_disciplinefuel_20260508_144038",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
+    },
+    {
+      "id": "discipline_rule_35_20260509_061305",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 35,
+      "topic": "monster jam grinds",
+      "hook_keyword": "discipline",
+      "selected_quote": "Every great achievement is built on the foundation of daily discipline, where the silence of dedication speaks louder than the applause of success.",
+      "posted_at": "2026-05-09T06:13:05.094101",
+      "ig_media_id": "QUEUED_disciplinefuel_20260509_061303",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
     "strong": [],
     "weak": [
-      {
-        "quote_type": "statement",
-        "design_style": "dark",
-        "format": "reel",
-        "series": "day_becoming_better",
-        "topic": "let me sleep, so my teeth wont grind",
-        "hook_keyword": "discipline",
-        "score": 0
-      },
-      {
-        "quote_type": "contrast",
-        "design_style": "dark",
-        "format": "reel",
-        "series": "discipline_rule",
-        "topic": "wake up early",
-        "hook_keyword": "discipline",
-        "score": 2
-      },
-      {
-        "quote_type": "statement",
-        "design_style": "minimal",
-        "format": "reel",
-        "series": "wake_up_call",
-        "topic": "if you don't have discipline you are a nobody",
-        "hook_keyword": "discipline",
-        "score": 12
-      },
       {
         "quote_type": "statement",
         "design_style": "minimal",
@@ -2201,7 +2216,7 @@
         "series": "day_becoming_better",
         "topic": "become who you could be",
         "hook_keyword": "quiet",
-        "score": 4
+        "score": 6
       },
       {
         "quote_type": "statement",
@@ -2210,7 +2225,7 @@
         "series": "discipline_rule",
         "topic": "father disciplines his daughter",
         "hook_keyword": "quiet",
-        "score": 1
+        "score": 5
       },
       {
         "quote_type": "statement",
@@ -2219,7 +2234,7 @@
         "series": "wake_up_call",
         "topic": "never be an option",
         "hook_keyword": "discipline",
-        "score": 5
+        "score": 14
       },
       {
         "quote_type": "statement",
@@ -2238,54 +2253,81 @@
         "topic": "father disciplines his daughter",
         "hook_keyword": "discipline",
         "score": 11
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "minimal",
+        "format": "reel",
+        "series": "wake_up_call",
+        "topic": "monster jam grinds",
+        "hook_keyword": "quiet",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "luxury",
+        "format": "reel",
+        "series": "day_becoming_better",
+        "topic": "has returned! jaafar jackson as michael thoughts",
+        "hook_keyword": "discipline",
+        "score": 0
+      },
+      {
+        "quote_type": "statement",
+        "design_style": "dark",
+        "format": "reel",
+        "series": "discipline_rule",
+        "topic": "the behringer grind",
+        "hook_keyword": "silence",
+        "score": 9
       }
     ],
     "avoid_topics": [
-      "procrastination is self-betrayal",
-      "discipline is remembering what you truly want",
-      "short motivation 7",
-      "400 hz 410 hz binaural beats for deep theta state meditation focus",
-      "you keep choosing comfort over growth",
-      "he loves this rule of discipline",
-      "your laziness has a price",
       "cristiano ronaldo talks about discipline",
-      "wake up early",
-      "if you don't have discipline you are a nobody",
-      "life of the party",
+      "you keep choosing comfort over growth",
+      "discipline is remembering what you truly want",
       "1 minute a day",
-      "no excuses",
       "stay positive, bring happiness p",
-      "how to develop self discipline",
-      "father disciplines his daughter",
-      "akshay kumars powerful time management advice",
-      "how much does david goggins sleeps",
-      "let me sleep, so my teeth wont grind",
+      "he loves this rule of discipline",
+      "wake up early",
+      "400 hz 410 hz binaural beats for deep theta state meditation focus",
       "never be an option",
-      "become who you could be"
+      "no excuses",
+      "your laziness has a price",
+      "procrastination is self-betrayal",
+      "if you don't have discipline you are a nobody",
+      "let me sleep, so my teeth wont grind",
+      "father disciplines his daughter",
+      "life of the party",
+      "akshay kumars powerful time management advice",
+      "become who you could be",
+      "how much does david goggins sleeps",
+      "how to develop self discipline",
+      "short motivation 7"
     ],
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 85,
+    "total_posts": 87,
     "by_quote_type": {
       "question": 1,
-      "statement": 80,
+      "statement": 82,
       "contrast": 3,
       "punch": 1
     },
     "by_design_style": {
-      "minimal": 23,
-      "dark": 25,
+      "minimal": 24,
+      "dark": 26,
       "luxury": 21,
       "bold": 16
     },
     "by_format": {
       "image": 1,
-      "reel": 84
+      "reel": 86
     },
     "by_series": {
-      "discipline_rule": 29,
-      "day_becoming_better": 28,
+      "discipline_rule": 30,
+      "day_becoming_better": 29,
       "wake_up_call": 28
     },
     "top_performing_series": "wake_up_call"
@@ -2306,47 +2348,73 @@
       "Discipline shapes our days, tr"
     ]
   },
-  "last_upgraded": "2026-05-07T10:04:43.366050",
+  "last_upgraded": "2026-05-08T14:40:04.077666",
   "competitor_hints": {
     "top_hooks": [
-      "Success isn\u2019t about the applause you get when you\u2019re winning.",
-      "Strong days pay off.\ud83c\udfc5",
-      "\ud83d\udd25 Back & Shoulders Destroyed.",
-      "Tennis drills on the schedule today \ud83c\udfbe",
-      "Just looking through prep photos.",
-      "Patiently Awaiting My Turn!!",
-      "\u201cMirror talks, muscles respond.\u201d"
+      "Follow selfelevatepro for daily discipline",
+      "I became UNSTOPPABLE \u2193",
+      "The gym doesn\u2019t just build your body.",
+      "The toughest chapters of your life won\u2019t come with applause, only silence.",
+      "That one random night where everything changed.",
+      "Make yourself proud brother.",
+      "Level up this winter arc with discipline, self-improvement, and a focus on the habits that will chan",
+      "//The first New Moon of the year arrives on January 18th at 28\u00b0 Capricorn \u2014 and it\u2019s packed with pot",
+      "Have you ever shared good news too early\u2026 and then watched the energy shift?",
+      "He literally locked his habit away."
     ],
     "power_words": [
-      "stay",
-      "success",
-      "remember",
-      "speak",
-      "louder",
-      "strong",
-      "back",
-      "consistent",
-      "grind",
-      "next",
-      "looking",
-      "say",
+      "follow",
+      "discipline",
+      "every",
+      "let",
+      "his",
+      "daily",
+      "life",
+      "selfelevatepro",
+      "build",
+      "discomfort",
+      "became",
+      "ever",
+      "doubt",
       "isn",
-      "applause",
-      "winning",
-      "silence",
-      "endure",
-      "grinding",
-      "phone",
-      "stays"
+      "truth",
+      "gym",
+      "stoicsandstoicism",
+      "self",
+      "new",
+      "something"
     ],
     "winning_structures": [
       "statement",
-      "identity"
+      "contrast",
+      "question"
     ],
-    "benchmark_engagement": 3802.0,
-    "updated_at": "2026-05-06T04:13:36.367275"
+    "benchmark_engagement": 7948.0,
+    "updated_at": "2026-05-08T14:39:53.310432"
   },
   "creator_profiles": [
+    {
+      "display_name": "self elevate pro&#x2122;",
+      "appearances": 10,
+      "avg_engagement": 15059,
+      "top_engagement": 54321,
+      "dominant_structure": "statement",
+      "dominant_length": "medium",
+      "sample_hooks": [
+        "Follow selfelevatepro for daily discipline",
+        "That one random night where everything changed."
+      ],
+      "power_words": [
+        "follow",
+        "selfelevatepro",
+        "daily",
+        "discipline",
+        "random",
+        "night",
+        "everything",
+        "changed"
+      ]
+    },
     {
       "display_name": "ai | business | motivation",
       "appearances": 8,
@@ -2366,28 +2434,6 @@
         "save",
         "guide",
         "share"
-      ]
-    },
-    {
-      "display_name": "self elevate pro&#x2122;",
-      "appearances": 6,
-      "avg_engagement": 10703,
-      "top_engagement": 23174,
-      "dominant_structure": "statement",
-      "dominant_length": "medium",
-      "sample_hooks": [
-        "Follow selfelevatepro for daily discipline",
-        "That one random night where everything changed."
-      ],
-      "power_words": [
-        "follow",
-        "selfelevatepro",
-        "daily",
-        "discipline",
-        "random",
-        "night",
-        "everything",
-        "changed"
       ]
     },
     {
