@@ -37,6 +37,7 @@ import upload_reel               as reel_upload_tool
 import compose_discipline_reel   as reel_tool
 import audio_selector
 import pillar_hook_picker
+import caption_generator
 import review_and_upgrade        as review_tool
 
 SLEEP_BETWEEN_POSTS = 180   # 3 minutes (same as run_pipeline.py)
@@ -82,9 +83,9 @@ def _save_log(account: str, log: dict) -> None:
 
 
 def _pick_caption(cfg: dict, page_name: str, hashtags: list, llm_caption: str) -> str:
-    """Use the LLM-generated caption if available, else pick from templates."""
+    # DEPRECATED: replaced by caption_generator.generate_caption().
+    # Kept for emergency rollback — do not call in new code.
     if llm_caption and len(llm_caption) > 20:
-        # Append hashtags if not already in caption
         hashtag_str = " ".join(f"#{h}" for h in hashtags[:15])
         if "#" not in llm_caption:
             return llm_caption.strip() + f"\n\n{hashtag_str}"
@@ -304,8 +305,14 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 output_files = [composed["file"]]
 
             # -- Step 9: Build caption
-            caption = _pick_caption(cfg, cfg.get("ig_page_name", "@DisciplineFuel"),
-                                    payload.get("hashtags", []), payload.get("caption", ""))
+            caption_data = caption_generator.generate_caption(
+                quote=selected_quote,
+                pillar=pillar,
+                hook_template=hook_template,
+                account=account,
+                cfg=cfg,
+            )
+            caption = caption_data["caption"]
 
             # -- Step 10: Upload (skip in dry run)
             print("\n[7/8] Uploading to Instagram...", flush=True)
@@ -385,6 +392,9 @@ def run_pipeline(account: str = "disciplinefuel", count: int = 3, dry_run: bool 
                 "pillar":             payload.get("pillar", pillar),
                 "hook_template":      payload.get("hook_template", hook_template),
                 "pillar_hook_source": payload.get("pillar_hook_source", "picker"),
+                "caption_structure":  caption_data.get("structure", ""),
+                "caption_cta":        caption_data.get("cta", ""),
+                "hashtags_used":      caption_data.get("hashtags", []),
             }
 
             memory_tool.log_post(log_entry)

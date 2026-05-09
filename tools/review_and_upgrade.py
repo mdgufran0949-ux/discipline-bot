@@ -375,6 +375,60 @@ def analyze_by_combo(posts: list) -> dict:
     }
 
 
+# ── Caption / hashtag analysis ────────────────────────────────────────────────
+
+def analyze_by_caption_structure(posts: list) -> dict:
+    """Group measured posts by caption_structure, compute avg t1h metrics."""
+    measured = [p for p in _measured_posts(posts) if p.get("caption_structure")]
+    if len(measured) < _MIN_MEASURED:
+        return {"insufficient_data": True, "measured_count": len(measured), "needed": _MIN_MEASURED}
+    by_struct = {}
+    for p in measured:
+        by_struct.setdefault(p["caption_structure"], []).append(p)
+    return {s: _avg_metrics(group) for s, group in by_struct.items()}
+
+
+def analyze_by_cta(posts: list) -> dict:
+    """Group measured posts by caption_cta, compute avg t1h metrics."""
+    measured = [p for p in _measured_posts(posts) if p.get("caption_cta")]
+    if len(measured) < _MIN_MEASURED:
+        return {"insufficient_data": True, "measured_count": len(measured), "needed": _MIN_MEASURED}
+    by_cta = {}
+    for p in measured:
+        by_cta.setdefault(p["caption_cta"], []).append(p)
+    return {cta: _avg_metrics(group) for cta, group in by_cta.items()}
+
+
+def analyze_by_hashtag(posts: list) -> dict:
+    """
+    Top 10 hashtags by avg score_t1h across all measured posts containing each tag.
+    Only includes tags that appear in at least 2 posts (avoids single-post outliers).
+    """
+    measured = [p for p in _measured_posts(posts) if p.get("hashtags_used")]
+    if len(measured) < _MIN_MEASURED:
+        return {"insufficient_data": True, "measured_count": len(measured), "needed": _MIN_MEASURED}
+
+    tag_posts: dict = {}
+    for p in measured:
+        for tag in p.get("hashtags_used", []):
+            tag_posts.setdefault(tag, []).append(p)
+
+    tag_metrics = {
+        tag: _avg_metrics(group)
+        for tag, group in tag_posts.items()
+        if len(group) >= 2
+    }
+    ranked = sorted(
+        tag_metrics.items(),
+        key=lambda x: x[1].get("avg_score_t1h", 0),
+        reverse=True,
+    )
+    return {
+        "top_10":               [{"tag": tag, **m} for tag, m in ranked[:10]],
+        "total_tags_analyzed":  len(tag_metrics),
+    }
+
+
 # ── Report helpers ─────────────────────────────────────────────────────────────
 
 def _check_hook_adoption(account: str, trending_hints: dict) -> dict:
@@ -788,6 +842,69 @@ def write_human_report(account: str, report: dict) -> None:
                     f"({entry.get('count', 0)} posts)"
                 )
     lines.append("")
+
+    # ── Caption / Hashtag Analysis ─────────────────────────────────────────────
+    ca = report.get("caption_analysis", {})
+    struct_data = ca.get("by_structure", {})
+    cta_data    = ca.get("by_cta", {})
+    ht_data     = ca.get("by_hashtag", {})
+
+    lines.append("## Content Intelligence — Caption Structure Performance")
+    if struct_data.get("insufficient_data"):
+        lines.append(
+            f"Not enough measured data yet. Need at least {struct_data['needed']} "
+            f"measured posts (have {struct_data['measured_count']})."
+        )
+    else:
+        lines.append("| Structure | Posts | Avg Views t1h | Avg Saves t1h | Avg Score t1h |")
+        lines.append("|-----------|-------|---------------|---------------|---------------|")
+        for struct, m in sorted(struct_data.items(), key=lambda x: x[1].get("avg_score_t1h", 0), reverse=True):
+            lines.append(
+                f"| {struct} | {m['count']} "
+                f"| {m.get('avg_views_t1h', 0):,.0f} "
+                f"| {m.get('avg_saves_t1h', 0):.1f} "
+                f"| {m.get('avg_score_t1h', 0):.1f} |"
+            )
+    lines.append("")
+
+    lines.append("## Content Intelligence — CTA Performance")
+    if cta_data.get("insufficient_data"):
+        lines.append(
+            f"Not enough measured data yet. Need at least {cta_data['needed']} "
+            f"measured posts (have {cta_data['measured_count']})."
+        )
+    else:
+        lines.append("| CTA | Posts | Avg Saves t1h | Avg Score t1h |")
+        lines.append("|-----|-------|---------------|---------------|")
+        for cta, m in sorted(cta_data.items(), key=lambda x: x[1].get("avg_score_t1h", 0), reverse=True):
+            cta_short = cta[:50] + ("..." if len(cta) > 50 else "")
+            lines.append(
+                f"| {cta_short} | {m['count']} "
+                f"| {m.get('avg_saves_t1h', 0):.1f} "
+                f"| {m.get('avg_score_t1h', 0):.1f} |"
+            )
+    lines.append("")
+
+    lines.append("## Content Intelligence — Top Hashtags by Performance")
+    if ht_data.get("insufficient_data"):
+        lines.append(
+            f"Not enough measured data yet. Need at least {ht_data['needed']} "
+            f"measured posts (have {ht_data['measured_count']})."
+        )
+    else:
+        top10 = ht_data.get("top_10", [])
+        total = ht_data.get("total_tags_analyzed", 0)
+        lines.append(f"_(across {total} unique tags with 2+ measured posts)_")
+        if top10:
+            lines.append("| Hashtag | Posts | Avg Saves t1h | Avg Score t1h |")
+            lines.append("|---------|-------|---------------|---------------|")
+            for entry in top10:
+                lines.append(
+                    f"| {entry['tag']} | {entry.get('count', 0)} "
+                    f"| {entry.get('avg_saves_t1h', 0):.1f} "
+                    f"| {entry.get('avg_score_t1h', 0):.1f} |"
+                )
+    lines.append("")
     lines.append("---")
     lines.append("*Auto-generated by DisciplineFuel self-improvement loop*")
 
@@ -919,6 +1036,13 @@ def generate_strategy_report(account: str, scored_posts: list, upgrade_summary: 
         "by_pillar": analyze_by_pillar(all_posts),
         "by_hook":   analyze_by_hook(all_posts),
         "by_combo":  analyze_by_combo(all_posts),
+    }
+
+    # Caption / hashtag intelligence
+    report["caption_analysis"] = {
+        "by_structure": analyze_by_caption_structure(all_posts),
+        "by_cta":       analyze_by_cta(all_posts),
+        "by_hashtag":   analyze_by_hashtag(all_posts),
     }
     report["our_avg_engagement"] = round(our_avg_eng, 1)
 
