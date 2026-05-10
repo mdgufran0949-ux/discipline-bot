@@ -3100,6 +3100,42 @@
         "#dis_ciplinefuel",
         "#disciplinefuel"
       ]
+    },
+    {
+      "id": "discipline_rule_36_20260510_141408",
+      "ig_media_id": "QUEUED_disciplinefuel_20260510_141407",
+      "permalink": "pending_manual_post",
+      "preview_url": "https://res.cloudinary.com/dpttnbaan/video/upload/v1778422447/queue/disciplinefuel_20260510_141407.mp4",
+      "queue_id": "disciplinefuel_20260510_141407",
+      "status": "pending_manual_post",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 36,
+      "content_series": "Discipline Rule #36",
+      "topic": "muscles dont make the man g",
+      "selected_quote": "What if the strongest muscle you can build is your ability to follow discipline every day, letting it guide you towards a life of purpose and growth?",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-10T14:14:08.304828",
+      "dry_run": false,
+      "pillar": "tactical",
+      "hook_template": "question",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Send this to the version of you that's still asleep.",
+      "hashtags_used": [
+        "#mentaldisciplinedaily",
+        "#focusandgrind",
+        "#mindsetreset",
+        "#stoicmindset",
+        "#harshtruths",
+        "#stoicwisdomdaily",
+        "#stoicismdaily",
+        "#dis_ciplinefuel",
+        "#disciplinedaily"
+      ]
     }
   ]
 }

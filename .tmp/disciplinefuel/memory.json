@@ -1868,6 +1868,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_36_20260510_141408",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 36,
+      "topic": "muscles dont make the man g",
+      "hook_keyword": "discipline",
+      "selected_quote": "What if the strongest muscle you can build is your ability to follow discipline every day, letting it guide you towards a life of purpose and growth?",
+      "posted_at": "2026-05-10T14:14:08.304828",
+      "ig_media_id": "QUEUED_disciplinefuel_20260510_141407",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2350,10 +2371,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 89,
+    "total_posts": 90,
     "by_quote_type": {
       "question": 1,
-      "statement": 84,
+      "statement": 85,
       "contrast": 3,
       "punch": 1
     },
@@ -2361,14 +2382,14 @@
       "minimal": 24,
       "dark": 27,
       "luxury": 21,
-      "bold": 17
+      "bold": 18
     },
     "by_format": {
       "image": 1,
-      "reel": 88
+      "reel": 89
     },
     "by_series": {
-      "discipline_rule": 30,
+      "discipline_rule": 31,
       "day_becoming_better": 30,
       "wake_up_call": 29
     },
