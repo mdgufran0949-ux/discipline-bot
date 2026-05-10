@@ -143,3 +143,30 @@ These components are unchanged and should not be touched:
    one of 5 hook templates. Add diversity check against last 10 posts before selecting.
 2. **Caption rebuild** — 5-structure rotation + mid-size hashtag pool (50K–500K range).
 3. **Engagement bot** — 5 actions/day week 1, ramp to 15/day by week 4.
+
+---
+
+## LLM Provider Quality — Kimi vs Llama for Discipline Niche
+
+**Observed:** PR #2 round-3 verification (2026-05-10)
+
+Captions 6, 7, and 8 in the verification run fell through to
+`kimi/kimi-k2-instruct` after Groq rate-limited mid-run. All three were
+noticeably tighter and more on-brand than the Llama 3.3 outputs earlier
+in the same run:
+
+- Caption 6 (Kimi): *"Every lazy scroll, every snooze, every 'I'll start
+  tomorrow' is a loyalty pledge to your future self: stay soft."*
+- Caption 7 (Kimi): *"Cold cell. 4:58 a.m. He's the only thing breathing. /
+  A candle trembles above his folded knees. / Knife gets dull with noise —
+  only quiet hones the edge."*
+- Caption 8 (Kimi): *"Your whole life. / That's the bill. Not a weekend sprint
+  or 90-day glow-up. The moment you stop paying, discipline walks."*
+
+Comparable Llama outputs in the same session were longer, more explanatory,
+and occasionally fell into AI-essay patterns despite the banned-phrase guard.
+
+**Deferred decision:** Swap fallback chain order so Kimi is primary, Llama
+is secondary (or removed). Current chain: OpenRouter → Groq/Llama → Gemini
+→ Kimi. Hold this change until we have 2–3 weeks of engagement data to A/B
+against the current chain.

@@ -54,12 +54,17 @@ SAMPLES = [
     },
 ]
 
-ACCOUNT = "disciplinefuel_test"
+ACCOUNT      = "disciplinefuel_test"
+RUN_ONLY     = {1}   # set to None to run all 8
 
 for i, s in enumerate(SAMPLES, 1):
+    if RUN_ONLY and i not in RUN_ONLY:
+        continue
     result = generate_caption(s["quote"], s["pillar"], s["hook"], ACCOUNT)
 
+    from caption_generator import _HOOK_REQUIREMENTS
     stat_label   = "PASS" if result["stat_ok"] else ("FAIL" if s["hook"] == "stat_shock" else "N/A")
+    hook_label   = "PASS" if result["hook_ok"] else ("FAIL" if s["hook"] in _HOOK_REQUIREMENTS else "N/A")
     lesson_label = "yes" if result["lesson_preserved"] else "no" if s["pillar"] == "story_proof" else "N/A"
     banned_label = result["banned_phrases"] if result["banned_phrases"] else "none"
     regen_label  = ("yes (" + "; ".join(result["regen_reasons"]) + ")"
@@ -77,6 +82,7 @@ for i, s in enumerate(SAMPLES, 1):
     print(f"Semantic verifier reason: \"{result['semantic_reason']}\"")
     print(f"Lesson preserved: {lesson_label}")
     print(f"Stat verification: {stat_label}")
+    print(f"Hook alignment: {hook_label}")
     print(f"Banned phrases found: {banned_label}")
     print(f"Regeneration triggered: {regen_label}")
     print()

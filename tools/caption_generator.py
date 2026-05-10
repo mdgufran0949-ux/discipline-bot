@@ -207,6 +207,28 @@ def _verify_structure(body: str, structure: str) -> bool:
     return True
 
 
+_HOOK_REQUIREMENTS = {
+    "question":  "contain at least one question (a sentence ending in ?)",
+    "stat_shock": "contain at least one number or percentage",
+    "command":   "contain at least one direct imperative sentence",
+}
+
+
+def _verify_hook_alignment(body: str, hook_template: str) -> bool:
+    """Verify body matches the hook template's structural requirement."""
+    if hook_template == "question":
+        return "?" in body
+    elif hook_template == "stat_shock":
+        return bool(re.search(r'\d+', body))
+    elif hook_template == "command":
+        imperatives = ["stop ", "start ", "do ", "don't ", "never ", "always ",
+                       "drop ", "kill ", "pick ", "build ", "track ", "write ",
+                       "focus ", "cut ", "choose ", "show "]
+        body_lower = " " + body.lower()
+        return any(imp in body_lower for imp in imperatives)
+    return True
+
+
 def _setup_verif_logger() -> logging.Logger:
     os.makedirs(_LOGS_DIR, exist_ok=True)
     logger = logging.getLogger("caption_verifier")
@@ -558,8 +580,9 @@ def _generate_body(quote: str, pillar: str, hook_template: str, structure: str) 
 
     def _fallback_meta(err=""):
         return {"semantic_verdict": "N/A", "semantic_reason": err[:60],
-                "lesson_preserved": True, "stat_ok": True, "struct_ok": True,
-                "banned_phrases": [], "regen_triggered": False, "regen_reasons": []}
+                "lesson_preserved": True, "stat_ok": True, "hook_ok": True,
+                "struct_ok": True, "banned_phrases": [],
+                "regen_triggered": False, "regen_reasons": []}
 
     try:
         raw, provider = _llm_call(prompt)
@@ -633,16 +656,36 @@ def _generate_body(quote: str, pillar: str, hook_template: str, structure: str) 
             except Exception:
                 pass
 
+        # ── Fix 4: Hook alignment check ─────────────────────────────────────────
+        hook_ok = _verify_hook_alignment(body, hook_template)
+        if not hook_ok and hook_template in _HOOK_REQUIREMENTS:
+            requirement = _HOOK_REQUIREMENTS[hook_template]
+            regen_reasons.append(f"hook_misaligned: {hook_template}")
+            hook_prompt = (
+                f"HOOK REQUIREMENT: This caption uses the {hook_template} hook. "
+                f"The body MUST {requirement}.\n\n"
+                + prompt
+            )
+            try:
+                raw5, provider = _llm_call(hook_prompt, temperature=0.75)
+                body5 = _clean(raw5)
+                if _verify_hook_alignment(body5, hook_template):
+                    body    = body5
+                    hook_ok = True
+            except Exception:
+                pass  # log and ship
+
         stat_ok   = _verify_stat_preserved(quote, body, hook_template)
         struct_ok = _verify_structure(body, structure)
 
         stat_label = "PASS" if stat_ok else ("FAIL" if hook_template == "stat_shock" else "N/A")
+        hook_label = "PASS" if hook_ok else ("FAIL" if hook_template in _HOOK_REQUIREMENTS else "N/A")
         regen_str  = "; ".join(regen_reasons) if regen_reasons else "none"
 
         _logger.info(
             f"structure={structure} | semantic={sem['verdict']} | "
             f"lesson={'yes' if sem.get('lesson_preserved') else 'no'} | "
-            f"stat={stat_label} | struct={'PASS' if struct_ok else 'FAIL'} | "
+            f"stat={stat_label} | hook={hook_label} | struct={'PASS' if struct_ok else 'FAIL'} | "
             f"banned={banned_found or 'none'} | regen={regen_str} | "
             f"provider={provider} | quote={quote[:60]!r}"
         )
@@ -652,6 +695,7 @@ def _generate_body(quote: str, pillar: str, hook_template: str, structure: str) 
             "semantic_reason":   sem.get("reason", ""),
             "lesson_preserved":  sem.get("lesson_preserved", True),
             "stat_ok":           stat_ok,
+            "hook_ok":           hook_ok,
             "struct_ok":         struct_ok,
             "banned_phrases":    banned_found,
             "regen_triggered":   bool(regen_reasons),
