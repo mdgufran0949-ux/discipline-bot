@@ -1910,6 +1910,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_35_20260511_160327",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 35,
+      "topic": "david goggins on excuses stop being lazy",
+      "hook_keyword": "night",
+      "selected_quote": "The night he decided to stop making excuses, he discovered that the only thing holding him back was his own mindset. Every day since then has been a testament to the power of discipline.",
+      "posted_at": "2026-05-11T16:03:27.182175",
+      "ig_media_id": "QUEUED_disciplinefuel_20260511_160325",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2392,26 +2413,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 91,
+    "total_posts": 92,
     "by_quote_type": {
       "question": 1,
-      "statement": 86,
+      "statement": 87,
       "contrast": 3,
       "punch": 1
     },
     "by_design_style": {
       "minimal": 24,
-      "dark": 27,
+      "dark": 28,
       "luxury": 21,
       "bold": 19
     },
     "by_format": {
       "image": 1,
-      "reel": 90
+      "reel": 91
     },
     "by_series": {
       "discipline_rule": 31,
-      "day_becoming_better": 30,
+      "day_becoming_better": 31,
       "wake_up_call": 30
     },
     "top_performing_series": "discipline_rule"

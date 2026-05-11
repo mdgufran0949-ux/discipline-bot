@@ -3172,6 +3172,42 @@
         "#disciplinefuel",
         "#disciplinedaily"
       ]
+    },
+    {
+      "id": "day_becoming_better_35_20260511_160327",
+      "ig_media_id": "QUEUED_disciplinefuel_20260511_160325",
+      "permalink": "pending_manual_post",
+      "preview_url": "https://res.cloudinary.com/dpttnbaan/video/upload/v1778515405/queue/disciplinefuel_20260511_160325.mp4",
+      "queue_id": "disciplinefuel_20260511_160325",
+      "status": "pending_manual_post",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 35,
+      "content_series": "Day 35 of Becoming Better",
+      "topic": "david goggins on excuses stop being lazy",
+      "selected_quote": "The night he decided to stop making excuses, he discovered that the only thing holding him back was his own mindset. Every day since then has been a testament to the power of discipline.",
+      "quote_type": "statement",
+      "hook_keyword": "night",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-11T16:03:27.182175",
+      "dry_run": false,
+      "pillar": "hard_truth",
+      "hook_template": "story",
+      "pillar_hook_source": "picker",
+      "caption_structure": "numbered_list",
+      "caption_cta": "Bookmark this for your next weak moment.",
+      "hashtags_used": [
+        "#buildinghabits",
+        "#habitsofsuccessful",
+        "#buildyourmind",
+        "#quietambition",
+        "#buildingcharacter",
+        "#buildmentaltoughness",
+        "#harshtruths",
+        "#disciplinenotmotivation",
+        "#disciplinedaily"
+      ]
     }
   ]
 }
