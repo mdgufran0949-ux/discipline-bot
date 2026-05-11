@@ -1,24 +1,24 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-10 06:47
+Generated: 2026-05-11 07:25
 
 > ⚠️ **ATTENTION NEEDED:** competitor_fetch
 
 ## System Health
 - Last competitor fetch: 2026-05-07T20:31 ⚠️
-- Last IG metrics fetch: 2026-05-10T06:47 ✅
-- IG hashtag quota used (7d): 10 / 30 ✅
-- Consecutive failed competitor fetches: 0
+- Last IG metrics fetch: 2026-05-11T07:25 ✅
+- IG hashtag quota used (7d): 8 / 30 ✅
+- Consecutive failed competitor fetches: 1
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-05-01 | 0 | 9,958 | 11% |
 | 2026-05-02 | 0 | 5,582 | 6% |
 | 2026-05-03 | 0 | 5,582 | 6% |
 | 2026-05-04 | 0 | 3,802 | 9% |
 | 2026-05-06 | 0 | 3,802 | 9% |
 | 2026-05-07 | 0 | 0 | 9% |
 | 2026-05-08 | 0 | 7,948 | 18% |
+| 2026-05-10 | 0 | 0 | 0% |
 
 ## What Changed Today
 - Format mix: unchanged (image 0%, carousel 0%)
@@ -40,19 +40,19 @@ Generated: 2026-05-10 06:47
 | @? | 5,051 | 4 | statement | medium | "💯 वादे नहीं, परिणाम बोलते हैं। 👍" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 14 / 20 recent posts used trending power-words (70%) ✅
-  - ✅ "a father teaches his daughter that success speaks loudest when a promi..." (words: his)
+- 15 / 20 recent posts used trending power-words (75%) ✅
   - ✅ "discipline is the silent foundation of success, a choice that speaks l..." (words: discipline)
-  - ⚠️ "the person you could become is waiting quietly in the habits you haven..."
+  - ✅ "discipline speaks louder" (words: discipline)
   - ⚠️ "the strongest version of ourselves is built on the foundation of consi..."
+  - ⚠️ "the quiet version of you is still becoming loud inside."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (dark, reel) — "Let go of every excuse. Discipline is what remains when motivation fades."
-2. **statement** (luxury, reel) — "The strongest grinds are often the ones that happen in silence, where success is"
-3. **statement** (bold, reel) — "Discipline is the bridge between intention and reality, built every day with del"
+1. **statement** (bold, reel) — "What if the strongest muscle you can build is your ability to follow discipline "
+2. **statement** (bold, reel) — "Visible muscle isn’t the measure of a man; the real strength lives in the quiet "
+3. **statement** (dark, reel) — "Let go of every excuse. Discipline is what remains when motivation fades."
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
