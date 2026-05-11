@@ -1,0 +1,75 @@
+name: DisciplineFuel Engagement Bot
+
+on:
+  schedule:
+    # 4 cycles/day — UTC times with natural jitter offsets
+    # 04:17 UTC = ~09:47 IST   (morning)
+    # 08:47 UTC = ~14:17 IST   (midday)
+    # 12:23 UTC = ~17:53 IST   (evening)
+    # 15:43 UTC = ~21:13 IST   (night)
+    - cron: "17 4 * * *"
+    - cron: "47 8 * * *"
+    - cron: "23 12 * * *"
+    - cron: "43 15 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (no actual posts)"
+        required: false
+        default: "false"
+        type: choice
+        options: ["true", "false"]
+
+jobs:
+  engagement:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests python-dotenv google-generativeai
+
+      - name: Add random jitter (0-900s)
+        run: |
+          JITTER=$((RANDOM % 900))
+          echo "Sleeping ${JITTER}s for jitter"
+          sleep $JITTER
+
+      - name: Check kill switch
+        id: killswitch
+        run: |
+          if [ -f "PAUSE_ENGAGEMENT" ]; then
+            echo "PAUSED=true" >> $GITHUB_OUTPUT
+            echo "Kill switch active — skipping engagement cycle"
+          else
+            echo "PAUSED=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run engagement bot
+        if: steps.killswitch.outputs.PAUSED == 'false'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY:       ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          DRY_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_FLAG="--dry-run"
+          fi
+          python tools/reply_bot.py --account disciplinefuel $DRY_FLAG
+
+      - name: Commit engagement log
+        if: steps.killswitch.outputs.PAUSED == 'false' && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .tmp/disciplinefuel/engagement_log.json || true
+          git diff --staged --quiet || \
+            git commit -m "state: disciplinefuel engagement log [skip ci]"
+          git push

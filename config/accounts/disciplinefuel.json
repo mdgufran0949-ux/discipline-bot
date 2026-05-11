@@ -219,5 +219,11 @@
   },
   "target_audience": "16-30 procrastination discipline grind",
   "performance_log": ".tmp/disciplinefuel/uploaded_log.json",
-  "token_refreshed_at": "2026-04-15T07:04:02.327317"
+  "token_refreshed_at": "2026-04-15T07:04:02.327317",
+  "engagement": {
+    "enabled": false,
+    "ramp_start_date": null,
+    "reply_min_words": 5,
+    "reply_max_words": 15
+  }
 }
