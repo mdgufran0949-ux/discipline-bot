@@ -53,7 +53,7 @@
     "Bookmark this. Come back when you feel weak. @DisciplineFuel\n\n#discipline #focus #hardwork #success #grind #selfimprovement #noexcuses #mentalstrength #growthmindset #levelup"
   ],
   "posts_per_day": 2,
-  "manual_audio_mode": true,
+  "manual_audio_mode": false,
   "content_format_mix": {
     "reel": 1.0,
     "image": 0.0,
@@ -221,8 +221,8 @@
   "performance_log": ".tmp/disciplinefuel/uploaded_log.json",
   "token_refreshed_at": "2026-04-15T07:04:02.327317",
   "engagement": {
-    "enabled": false,
-    "ramp_start_date": null,
+    "enabled": true,
+    "ramp_start_date": "2026-05-12T00:00:00",
     "reply_min_words": 5,
     "reply_max_words": 15
   }
