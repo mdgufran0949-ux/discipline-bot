@@ -3208,6 +3208,42 @@
         "#disciplinenotmotivation",
         "#disciplinedaily"
       ]
+    },
+    {
+      "id": "discipline_rule_37_20260512_064129",
+      "ig_media_id": "QUEUED_disciplinefuel_20260512_064127",
+      "permalink": "pending_manual_post",
+      "preview_url": "https://res.cloudinary.com/dpttnbaan/video/upload/v1778568087/queue/disciplinefuel_20260512_064127.mp4",
+      "queue_id": "disciplinefuel_20260512_064127",
+      "status": "pending_manual_post",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 37,
+      "content_series": "Discipline Rule #37",
+      "topic": "david goggins on excuses stop being lazy",
+      "selected_quote": "Stop making excuses and start building discipline, for it's in the daily habits that we find the strength to overcome every obstacle and achieve greatness",
+      "quote_type": "contrast",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-12T06:41:29.178715",
+      "dry_run": false,
+      "pillar": "tactical",
+      "hook_template": "command",
+      "pillar_hook_source": "picker",
+      "caption_structure": "single_line",
+      "caption_cta": "Follow @dis.ciplinefuel for daily fuel.",
+      "hashtags_used": [
+        "#habitsofsuccessful",
+        "#disciplineiskey",
+        "#wisdommotivation",
+        "#selfimprovementdaily",
+        "#calmambition",
+        "#consistentaction",
+        "#toughnessmindset",
+        "#disciplinefuel",
+        "#disciplinenotmotivation"
+      ]
     }
   ]
 }

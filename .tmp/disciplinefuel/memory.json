@@ -1931,6 +1931,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_37_20260512_064129",
+      "quote_type": "contrast",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 37,
+      "topic": "david goggins on excuses stop being lazy",
+      "hook_keyword": "discipline",
+      "selected_quote": "Stop making excuses and start building discipline, for it's in the daily habits that we find the strength to overcome every obstacle and achieve greatness",
+      "posted_at": "2026-05-12T06:41:29.178715",
+      "ig_media_id": "QUEUED_disciplinefuel_20260512_064127",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2413,25 +2434,25 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 92,
+    "total_posts": 93,
     "by_quote_type": {
       "question": 1,
       "statement": 87,
-      "contrast": 3,
+      "contrast": 4,
       "punch": 1
     },
     "by_design_style": {
       "minimal": 24,
       "dark": 28,
       "luxury": 21,
-      "bold": 19
+      "bold": 20
     },
     "by_format": {
       "image": 1,
-      "reel": 91
+      "reel": 92
     },
     "by_series": {
-      "discipline_rule": 31,
+      "discipline_rule": 32,
       "day_becoming_better": 31,
       "wake_up_call": 30
     },
