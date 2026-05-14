@@ -1952,6 +1952,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_37_20260514_064640",
+      "quote_type": "command",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 37,
+      "topic": "fear is just comfort in disguise",
+      "hook_keyword": "discipline",
+      "selected_quote": "Recognize the fear that is masquerading as comfort, and challenge it with the discipline of self-reflection, for it is through this quiet introspection that we uncover the path to genuine growth and self-awareness",
+      "posted_at": "2026-05-14T06:46:40.398310",
+      "ig_media_id": "17888114049487592",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2434,27 +2455,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 93,
+    "total_posts": 94,
     "by_quote_type": {
       "question": 1,
       "statement": 88,
       "contrast": 3,
-      "punch": 1
+      "punch": 1,
+      "command": 1
     },
     "by_design_style": {
       "minimal": 26,
-      "dark": 27,
+      "dark": 28,
       "luxury": 22,
       "bold": 18
     },
     "by_format": {
       "image": 1,
-      "reel": 92
+      "reel": 93
     },
     "by_series": {
       "discipline_rule": 32,
       "day_becoming_better": 31,
-      "wake_up_call": 30
+      "wake_up_call": 31
     },
     "top_performing_series": "discipline_rule"
   },

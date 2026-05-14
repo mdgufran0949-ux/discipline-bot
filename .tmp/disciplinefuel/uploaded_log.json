@@ -3244,6 +3244,42 @@
         "#dis_ciplinefuel",
         "#disciplinedaily"
       ]
+    },
+    {
+      "id": "wake_up_call_37_20260514_064640",
+      "ig_media_id": "17888114049487592",
+      "permalink": "https://www.instagram.com/reel/DYTzw1PFf2j/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 37,
+      "content_series": "Wake Up Call #37",
+      "topic": "fear is just comfort in disguise",
+      "selected_quote": "Recognize the fear that is masquerading as comfort, and challenge it with the discipline of self-reflection, for it is through this quiet introspection that we uncover the path to genuine growth and self-awareness",
+      "quote_type": "command",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-05-14T06:46:40.398310",
+      "dry_run": false,
+      "pillar": "story_proof",
+      "hook_template": "command",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Comment your biggest excuse below.",
+      "hashtags_used": [
+        "#mindsetreset",
+        "#selfimprovementdaily",
+        "#focusandgrind",
+        "#wisdommotivation",
+        "#buildingcharacter",
+        "#mindsetfuel",
+        "#hardworkdaily",
+        "#disciplinenotmotivation",
+        "#fueledbydiscipline"
+      ]
     }
   ]
 }
