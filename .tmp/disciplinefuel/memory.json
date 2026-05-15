@@ -1994,6 +1994,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_39_20260515_070150",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 39,
+      "topic": "david goggins on excuses stop being lazy",
+      "hook_keyword": "night",
+      "selected_quote": "The night David Goggins decided to stop making excuses, he began to uncover a strength that would stay with him every step of the way, a reminder that growth happens in the dark, and success is the culmination of every moment we choose to show up and work,",
+      "posted_at": "2026-05-15T07:01:50.346135",
+      "ig_media_id": "17873479674666762",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2476,26 +2497,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 95,
+    "total_posts": 96,
     "by_quote_type": {
       "question": 1,
-      "statement": 89,
+      "statement": 90,
       "contrast": 3,
       "punch": 1,
       "command": 1
     },
     "by_design_style": {
       "minimal": 26,
-      "dark": 29,
+      "dark": 30,
       "luxury": 22,
       "bold": 18
     },
     "by_format": {
       "image": 1,
-      "reel": 94
+      "reel": 95
     },
     "by_series": {
-      "discipline_rule": 32,
+      "discipline_rule": 33,
       "day_becoming_better": 32,
       "wake_up_call": 31
     },
