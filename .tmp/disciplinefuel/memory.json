@@ -2015,6 +2015,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_38_20260515_152558",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 38,
+      "topic": "david goggins on excuses stop being lazy",
+      "hook_keyword": "66 days",
+      "selected_quote": "66 days is the average time it takes to form a new habit, yet most people quit in the first 30. Perhaps the problem isn't our lack of motivation, but our misconception of what discipline truly means.",
+      "posted_at": "2026-05-15T15:25:58.392325",
+      "ig_media_id": "18109942612698643",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2497,10 +2518,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 96,
+    "total_posts": 97,
     "by_quote_type": {
       "question": 1,
-      "statement": 90,
+      "statement": 91,
       "contrast": 3,
       "punch": 1,
       "command": 1
@@ -2508,17 +2529,17 @@
     "by_design_style": {
       "minimal": 26,
       "dark": 30,
-      "luxury": 22,
+      "luxury": 23,
       "bold": 18
     },
     "by_format": {
       "image": 1,
-      "reel": 95
+      "reel": 96
     },
     "by_series": {
       "discipline_rule": 33,
       "day_becoming_better": 32,
-      "wake_up_call": 31
+      "wake_up_call": 32
     },
     "top_performing_series": "discipline_rule"
   },
