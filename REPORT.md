@@ -1,39 +1,40 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-14 15:35
+Generated: 2026-05-16 06:38
 
 ## System Health
-- Last competitor fetch: 2026-05-13T06:56 ✅
-- Last IG metrics fetch: 2026-05-14T15:35 ✅
-- IG hashtag quota used (7d): 10 / 30 ✅
+- Last competitor fetch: 2026-05-16T06:37 ✅
+- Last IG metrics fetch: 2026-05-16T06:38 ✅
+- IG hashtag quota used (7d): 8 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-05-03 | 0 | 5,582 | 6% |
 | 2026-05-04 | 0 | 3,802 | 9% |
 | 2026-05-06 | 0 | 3,802 | 9% |
 | 2026-05-07 | 0 | 0 | 9% |
 | 2026-05-08 | 0 | 7,948 | 18% |
 | 2026-05-10 | 0 | 10,215 | 0% |
 | 2026-05-13 | 0 | 3,899 | 12% |
+| 2026-05-14 | 0 | 3,899 | 12% |
 
 ## What Changed Today
-- Format mix: image 0% → 8%, carousel 0% → 12%
+- Format mix: image 0% → 15%, carousel 0% → 5%
+- Blacklisted topic: "fear is just comfort in disguise"
 
 ## What We Learned From Competitors
-- Scanned hashtags: mentality, mindsetmatters, grindmode, hardworkpaysoff, motivationdaily
-- Posts analyzed: 26
-- Niche benchmark: 3,899 avg engagement | Our avg: 0 | Gap: -100%
+- Scanned hashtags: hardworkpaysoff, motivationdaily, selfimprovementtips, stoicmindset, discipline
+- Posts analyzed: 31
+- Niche benchmark: 5,546 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
-  1. "Success isn’t about the applause you get when you’re winning."
-  2. "नशिब नाही — फक्त कठोर मेहनत."
-  3. "Send this to a friend you’re proud of 🦋"
-  4. "The highest form of intelligence isn’t just what you know — it’s how you think about what "
-  5. "Follow world._.motivation  for more _____________"
-- Hot power words: success, follow, every, growth, share, black, stay, quotes
+  1. "Follow aapki.safalta"
+  2. "You must fulfill that."
+  3. "வேலையை விட்டுவிட்டு கார் ஓட்டிய எம்பிஏ பட்டதாரி.."
+  4. "Ishan Kishan 🥵❤️‍🔥 — resilience, grind, and a ruthless comeback."
+  5. "⁣I’m tearing up as I even proceed to write this….⠀"
+- Hot power words: follow, share, her, motivation, success, hard, black, day
 - Dominant quote structure: **statement**
-- Dominant media type: **CAROUSEL_ALBUM (58%)**
+- Dominant media type: **IMAGE (71%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
@@ -46,34 +47,34 @@ Generated: 2026-05-14 15:35
 | @? | 5,709 | 20 | statement | long | "Visual Weekend Roundup illustrated by me 😊" |
 | @? | 5,427 | 52 | statement | long | "Fall 7 times, wake up 8." |
 | @? | 5,357 | 8 | statement | long | "⁣No one else has to get your vision because God did not give" |
-| @? | 5,216 | 4 | statement | medium | "Follow world._.motivation  for more _____________" |
+| @? | 5,258 | 9 | statement | medium | "Follow world._.motivation  for more _____________" |
 
 ## Hook Adoption (Did We Use the Learnings?)
 - 17 / 20 recent posts used trending power-words (85%) ✅
-  - ✅ "the quiet agreement you make with yourself at midnight, when no lights..." (words: every)
-  - ✅ "discipline is the whisper that stays when motivation speaks louder" (words: stay)
-  - ⚠️ "somewhere in the quiet of this moment, your future self is watching, t..."
+  - ✅ "a father’s discipline is measured not in loud words but in the quiet w..." (words: her, success, day)
+  - ✅ "discipline becomes the voice that speaks louder than excuses, remindin..." (words: success)
   - ⚠️ "the quiet version of you is still becoming loud inside."
+  - ⚠️ "what if discipline is the only shortcut to a life of true freedom?"
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **command** (dark, reel) — "Recognize the fear that is masquerading as comfort, and challenge it with the di"
-2. **statement** (bold, reel) — "What if fear is not an obstacle, but a sign that we are growing beyond our comfo"
-3. **statement** (minimal, reel) — "The night he stood in front of the mirror, he realized that muscles don't make t"
+1. **statement** (luxury, reel) — "66 days is the average time it takes to form a new habit, yet most people quit i"
+2. **statement** (dark, reel) — "The night David Goggins decided to stop making excuses, he began to uncover a st"
+3. **statement** (dark, reel) — "Fear is often the disguise of comfort, and it's in these moments that we must fo"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 130     | —          |
+| Posts scored     | 133     | —          |
 | Avg score        | 1.9   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 3,899      | -100% |
+| Avg engagement   | 1   | 5,546      | -100% |
 
 ## Next Actions (Auto-applied)
 - Quote generator biased toward: **statement, question** structures
-- Carousel ratio set to 12%
+- Carousel ratio set to 5%
 - 5 trending hooks injected into next LLM prompts
 
 ## Content Intelligence — Pillar Performance
@@ -99,7 +100,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-05-14T15:03
+- Last cycle ran: 2026-05-15T17:23
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
