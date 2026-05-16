@@ -2057,6 +2057,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_40_20260516_143833",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 40,
+      "topic": "how to build discipline",
+      "hook_keyword": "start",
+      "selected_quote": "Start by mapping your day with intention, then follow through with discipline, and you will find that success is not a destination, but a culmination of hard work and love for the process",
+      "posted_at": "2026-05-16T14:38:33.917865",
+      "ig_media_id": "18063482996439625",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2540,10 +2561,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 98,
+    "total_posts": 99,
     "by_quote_type": {
       "question": 1,
-      "statement": 92,
+      "statement": 93,
       "contrast": 3,
       "punch": 1,
       "command": 1
@@ -2551,15 +2572,15 @@
     "by_design_style": {
       "minimal": 27,
       "dark": 30,
-      "luxury": 23,
+      "luxury": 24,
       "bold": 18
     },
     "by_format": {
       "image": 1,
-      "reel": 97
+      "reel": 98
     },
     "by_series": {
-      "discipline_rule": 33,
+      "discipline_rule": 34,
       "day_becoming_better": 33,
       "wake_up_call": 32
     },
