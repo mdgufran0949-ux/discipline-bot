@@ -2099,6 +2099,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_39_20260517_142021",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 39,
+      "topic": "how to build discipline",
+      "hook_keyword": "discipline",
+      "selected_quote": "66 days is the average time it takes to build a habit, yet most people give up after just 3 weeks, revealing a hard truth about our comfort with effort and our tendency to prioritize immediate gratification over long-term success",
+      "posted_at": "2026-05-17T14:20:21.348809",
+      "ig_media_id": "18150664744489196",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2583,27 +2604,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 100,
+    "total_posts": 101,
     "by_quote_type": {
       "question": 1,
-      "statement": 94,
+      "statement": 95,
       "contrast": 3,
       "punch": 1,
       "command": 1
     },
     "by_design_style": {
-      "minimal": 28,
+      "minimal": 29,
       "dark": 30,
       "luxury": 24,
       "bold": 18
     },
     "by_format": {
       "image": 1,
-      "reel": 99
+      "reel": 100
     },
     "by_series": {
       "discipline_rule": 34,
-      "day_becoming_better": 33,
+      "day_becoming_better": 34,
       "wake_up_call": 33
     },
     "top_performing_series": "wake_up_call"
