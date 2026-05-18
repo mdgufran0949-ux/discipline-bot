@@ -2141,6 +2141,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_40_20260518_161715",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 40,
+      "topic": "every delay is a vote against yourself",
+      "hook_keyword": "delay",
+      "selected_quote": "What if every delay is a glimpse into the fears that hold you back? As you pause, the world moves forward, and the gap between your aspirations and reality grows. In the quiet moments, you must confront the doubts that whisper 'not yet.'",
+      "posted_at": "2026-05-18T16:17:15.504635",
+      "ig_media_id": "18107664079899159",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2626,10 +2647,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 102,
+    "total_posts": 103,
     "by_quote_type": {
       "question": 1,
-      "statement": 95,
+      "statement": 96,
       "contrast": 3,
       "punch": 1,
       "command": 2
@@ -2638,16 +2659,16 @@
       "minimal": 29,
       "dark": 31,
       "luxury": 24,
-      "bold": 18
+      "bold": 19
     },
     "by_format": {
       "image": 1,
-      "reel": 101
+      "reel": 102
     },
     "by_series": {
       "discipline_rule": 35,
       "day_becoming_better": 34,
-      "wake_up_call": 33
+      "wake_up_call": 34
     },
     "top_performing_series": "discipline_rule"
   },

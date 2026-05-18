@@ -3644,6 +3644,42 @@
         "#disciplinefuel",
         "#dis_ciplinefuel"
       ]
+    },
+    {
+      "id": "wake_up_call_40_20260518_161715",
+      "ig_media_id": "18107664079899159",
+      "permalink": "https://www.instagram.com/reel/DYfIPs3AhBJ/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 40,
+      "content_series": "Wake Up Call #40",
+      "topic": "every delay is a vote against yourself",
+      "selected_quote": "What if every delay is a glimpse into the fears that hold you back? As you pause, the world moves forward, and the gap between your aspirations and reality grows. In the quiet moments, you must confront the doubts that whisper 'not yet.'",
+      "quote_type": "statement",
+      "hook_keyword": "delay",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-18T16:17:15.504635",
+      "dry_run": false,
+      "pillar": "story_proof",
+      "hook_template": "question",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Tag someone who needs to hear this.",
+      "hashtags_used": [
+        "#seriousmindset",
+        "#stoiclife",
+        "#disciplinequotesdaily",
+        "#wisdommotivation",
+        "#hardtruthsquotes",
+        "#buildingcharacter",
+        "#disciplineequalsfreedom",
+        "#disciplinenotmotivation",
+        "#dis_ciplinefuel"
+      ]
     }
   ]
 }
