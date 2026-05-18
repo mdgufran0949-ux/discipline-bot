@@ -1,81 +1,82 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-17 06:51
+Generated: 2026-05-18 07:25
 
 ## System Health
-- Last competitor fetch: 2026-05-16T06:37 ✅
-- Last IG metrics fetch: 2026-05-17T06:51 ✅
-- IG hashtag quota used (7d): 10 / 30 ✅
+- Last competitor fetch: 2026-05-18T07:24 ✅
+- Last IG metrics fetch: 2026-05-18T07:25 ✅
+- IG hashtag quota used (7d): 8 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-05-06 | 0 | 3,802 | 9% |
 | 2026-05-07 | 0 | 0 | 9% |
 | 2026-05-08 | 0 | 7,948 | 18% |
 | 2026-05-10 | 0 | 10,215 | 0% |
 | 2026-05-13 | 0 | 3,899 | 12% |
 | 2026-05-14 | 0 | 3,899 | 12% |
 | 2026-05-16 | 0 | 5,546 | 5% |
+| 2026-05-17 | 0 | 5,546 | 5% |
 
 ## What Changed Today
-- Format mix: image 0% → 15%, carousel 0% → 5%
+- Format mix: image 0% → 11%, carousel 0% → 9%
 - Blacklisted topic: "david goggins on excuses stop being lazy"
+- Blacklisted topic: "how to build discipline"
 - Blacklisted topic: "fear is just comfort in disguise"
 
 ## What We Learned From Competitors
-- Scanned hashtags: hardworkpaysoff, motivationdaily, selfimprovementtips, stoicmindset, discipline
-- Posts analyzed: 31
-- Niche benchmark: 5,546 avg engagement | Our avg: 0 | Gap: -100%
+- Scanned hashtags: selfimprovementtips, stoicmindset, discipline, selfdiscipline, disciplinequotes
+- Posts analyzed: 50
+- Niche benchmark: 12,327 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
-  1. "Follow aapki.safalta"
-  2. "You must fulfill that."
-  3. "வேலையை விட்டுவிட்டு கார் ஓட்டிய எம்பிஏ பட்டதாரி.."
-  4. "Ishan Kishan 🥵❤️‍🔥 — resilience, grind, and a ruthless comeback."
-  5. "⁣I’m tearing up as I even proceed to write this….⠀"
-- Hot power words: follow, share, her, motivation, success, hard, black, day
+  1. "Save this post as a guide and share it with a friend ✅"
+  2. "Improve not prove ❌"
+  3. "Let me tell you something that most men refuse to accept—"
+  4. "Follow aapki.safalta"
+  5. "You must fulfill that."
+- Hot power words: follow, wolveinstinct, visual, life, bio, link, hashtags, content
 - Dominant quote structure: **statement**
-- Dominant media type: **IMAGE (71%)**
+- Dominant media type: **IMAGE (54%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
 | Creator | Avg Engagement | Appearances | Style | Length | Best Hook |
 |---------|---------------|-------------|-------|--------|-----------|
 | @? | 17,852 | 13 | statement | medium | "Follow selfelevatepro for daily discipline" |
+| @? | 13,407 | 3 | statement | long | "Let me tell you something that most men refuse to accept—" |
 | @? | 11,344 | 12 | command | long | "Save this post as a guide and share it with a friend ✅" |
 | @? | 7,970 | 4 | statement | long | "Most men break once." |
 | @? | 7,948 | 6 | statement | long | "Follow 👉 we.think.deeply we.think.deeply we.think.deeply" |
-| @? | 5,709 | 20 | statement | long | "Visual Weekend Roundup illustrated by me 😊" |
-| @? | 5,427 | 52 | statement | long | "Fall 7 times, wake up 8." |
+| @? | 6,024 | 2 | command | long | "Build your castle on a solid foundation." |
+| @? | 5,743 | 32 | statement | long | "Visual Weekend Roundup illustrated by me 😊" |
 | @? | 5,357 | 8 | statement | long | "⁣No one else has to get your vision because God did not give" |
-| @? | 5,270 | 14 | statement | medium | "Follow world._.motivation  for more _____________" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 18 / 20 recent posts used trending power-words (90%) ✅
-  - ✅ "discipline becomes the voice that speaks louder than excuses, remindin..." (words: success)
-  - ✅ "as we stay committed to our growth, we begin to remember the person we..." (words: success)
-  - ⚠️ "what if discipline is the only shortcut to a life of true freedom?"
-  - ⚠️ "recognize the fear that is masquerading as comfort, and challenge it w..."
+- 3 / 20 recent posts used trending power-words (15%) ⚠️
+  - ✅ "what if discipline is the only shortcut to a life of true freedom?" (words: life)
+  - ✅ "66 days into a new habit, most people realize nobody is coming to save..." (words: follow, life)
+  - ⚠️ "a father's discipline is not about controlling his daughter, but about..."
+  - ⚠️ "the strongest grinds are often the quiet ones, where we stay committed..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (luxury, reel) — "Start by mapping your day with intention, then follow through with discipline, a"
-2. **statement** (minimal, reel) — "What if the thing holding you back is the fear of facing your own potential? As "
-3. **statement** (luxury, reel) — "66 days is the average time it takes to form a new habit, yet most people quit i"
+1. **statement** (minimal, reel) — "66 days is the average time it takes to build a habit, yet most people give up a"
+2. **statement** (minimal, reel) — "The night she discovered her own strength, she realized that discipline wasn't a"
+3. **statement** (luxury, reel) — "Start by mapping your day with intention, then follow through with discipline, a"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 135     | —          |
-| Avg score        | 1.9   | —          |
+| Posts scored     | 137     | —          |
+| Avg score        | 1.8   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 5,546      | -100% |
+| Avg engagement   | 1   | 12,327      | -100% |
 
 ## Next Actions (Auto-applied)
-- Quote generator biased toward: **statement, question** structures
-- Carousel ratio set to 5%
+- Quote generator biased toward: **command, statement** structures
+- Carousel ratio set to 9%
 - 5 trending hooks injected into next LLM prompts
 
 ## Content Intelligence — Pillar Performance
@@ -101,7 +102,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-05-16T16:36
+- Last cycle ran: 2026-05-17T16:40
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
