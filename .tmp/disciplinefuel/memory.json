@@ -2162,6 +2162,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_40_20260519_072359",
+      "quote_type": "command",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 40,
+      "topic": "every delay is a vote against yourself",
+      "hook_keyword": "stop",
+      "selected_quote": "Stop postponing your growth: every day is a chance to vote for yourself",
+      "posted_at": "2026-05-19T07:23:59.759181",
+      "ig_media_id": "18063433460427520",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2647,27 +2668,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 103,
+    "total_posts": 104,
     "by_quote_type": {
       "question": 1,
       "statement": 96,
       "contrast": 3,
       "punch": 1,
-      "command": 2
+      "command": 3
     },
     "by_design_style": {
       "minimal": 29,
       "dark": 31,
-      "luxury": 24,
+      "luxury": 25,
       "bold": 19
     },
     "by_format": {
       "image": 1,
-      "reel": 102
+      "reel": 103
     },
     "by_series": {
       "discipline_rule": 35,
-      "day_becoming_better": 34,
+      "day_becoming_better": 35,
       "wake_up_call": 34
     },
     "top_performing_series": "discipline_rule"

@@ -3680,6 +3680,42 @@
         "#disciplinenotmotivation",
         "#dis_ciplinefuel"
       ]
+    },
+    {
+      "id": "day_becoming_better_40_20260519_072359",
+      "ig_media_id": "18063433460427520",
+      "permalink": "https://www.instagram.com/reel/DYgwAd8iJCW/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 40,
+      "content_series": "Day 40 of Becoming Better",
+      "topic": "every delay is a vote against yourself",
+      "selected_quote": "Stop postponing your growth: every day is a chance to vote for yourself",
+      "quote_type": "command",
+      "hook_keyword": "stop",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-19T07:23:59.759181",
+      "dry_run": false,
+      "pillar": "reframe",
+      "hook_template": "command",
+      "pillar_hook_source": "picker",
+      "caption_structure": "mini_story",
+      "caption_cta": "Bookmark this for your next weak moment.",
+      "hashtags_used": [
+        "#habitsofsuccessful",
+        "#silentgrind",
+        "#mindsetreset",
+        "#selfcontroldaily",
+        "#stoicquotesdaily",
+        "#stoicwisdomdaily",
+        "#doitnobodywatching",
+        "#disciplinefuel",
+        "#fueledbydiscipline"
+      ]
     }
   ]
 }
