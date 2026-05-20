@@ -3770,6 +3770,42 @@
         "#disciplinedaily",
         "#disciplinefuel"
       ]
+    },
+    {
+      "id": "wake_up_call_41_20260520_072959",
+      "ig_media_id": "17860789737691630",
+      "permalink": "https://www.instagram.com/reel/DYjVe_TGq71/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 41,
+      "content_series": "Wake Up Call #41",
+      "topic": "wake up before your competition does",
+      "selected_quote": "Early rising is not about being more productive, it's about being more intentional with your time. By waking up before the noise, you create space for growth and focus. This quiet morning routine sets the tone for a disciplined day.",
+      "quote_type": "statement",
+      "hook_keyword": "intentional",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-05-20T07:29:59.123508",
+      "dry_run": false,
+      "pillar": "tactical",
+      "hook_template": "contrarian",
+      "pillar_hook_source": "picker",
+      "caption_structure": "mini_story",
+      "caption_cta": "Save this. Read it tomorrow morning.",
+      "hashtags_used": [
+        "#selfcontroldaily",
+        "#stoiclife",
+        "#mentalresilience",
+        "#seriousmindset",
+        "#resilientmindset",
+        "#uncommonmentality",
+        "#stoicquotesdaily",
+        "#fueledbydiscipline",
+        "#disciplinedaily"
+      ]
     }
   ]
 }

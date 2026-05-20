@@ -2204,6 +2204,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_41_20260520_072959",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 41,
+      "topic": "wake up before your competition does",
+      "hook_keyword": "intentional",
+      "selected_quote": "Early rising is not about being more productive, it's about being more intentional with your time. By waking up before the noise, you create space for growth and focus. This quiet morning routine sets the tone for a disciplined day.",
+      "posted_at": "2026-05-20T07:29:59.123508",
+      "ig_media_id": "17860789737691630",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2690,10 +2711,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 105,
+    "total_posts": 106,
     "by_quote_type": {
       "question": 1,
-      "statement": 97,
+      "statement": 98,
       "contrast": 3,
       "punch": 1,
       "command": 3
@@ -2702,16 +2723,16 @@
       "minimal": 29,
       "dark": 31,
       "luxury": 26,
-      "bold": 19
+      "bold": 20
     },
     "by_format": {
       "image": 1,
-      "reel": 104
+      "reel": 105
     },
     "by_series": {
       "discipline_rule": 36,
       "day_becoming_better": 35,
-      "wake_up_call": 34
+      "wake_up_call": 35
     },
     "top_performing_series": "discipline_rule"
   },
