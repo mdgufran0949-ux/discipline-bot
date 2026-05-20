@@ -1,43 +1,43 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-19 16:19
+Generated: 2026-05-20 16:32
 
 ## System Health
-- Last competitor fetch: 2026-05-18T07:24 ✅
-- Last IG metrics fetch: 2026-05-19T16:19 ✅
+- Last competitor fetch: 2026-05-20T16:30 ✅
+- Last IG metrics fetch: 2026-05-20T16:32 ✅
 - IG hashtag quota used (7d): 10 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-05-08 | 0 | 7,948 | 18% |
 | 2026-05-10 | 0 | 10,215 | 0% |
 | 2026-05-13 | 0 | 3,899 | 12% |
 | 2026-05-14 | 0 | 3,899 | 12% |
 | 2026-05-16 | 0 | 5,546 | 5% |
 | 2026-05-17 | 0 | 5,546 | 5% |
 | 2026-05-18 | 0 | 12,327 | 9% |
+| 2026-05-19 | 0 | 12,327 | 9% |
 
 ## What Changed Today
-- Format mix: image 0% → 11%, carousel 0% → 9%
+- Format mix: image 0% → 13%, carousel 0% → 7%
 - Blacklisted topic: "every delay is a vote against yourself"
 - Blacklisted topic: "david goggins on excuses stop being lazy"
-- Blacklisted topic: "how to build discipline"
 - Blacklisted topic: "fear is just comfort in disguise"
+- Blacklisted topic: "how to build discipline"
 
 ## What We Learned From Competitors
-- Scanned hashtags: selfimprovementtips, stoicmindset, discipline, selfdiscipline, disciplinequotes
+- Scanned hashtags: discipline, selfdiscipline, disciplinequotes, mentality, mindsetmatters
 - Posts analyzed: 50
-- Niche benchmark: 12,327 avg engagement | Our avg: 0 | Gap: -100%
+- Niche benchmark: 11,119 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
   1. "Save this post as a guide and share it with a friend ✅"
   2. "Improve not prove ❌"
-  3. "Let me tell you something that most men refuse to accept—"
-  4. "Follow aapki.safalta"
-  5. "You must fulfill that."
-- Hot power words: follow, wolveinstinct, visual, life, bio, link, hashtags, content
+  3. "The struggles you’re facing right now aren’t punishments… they’re lessons."
+  4. "The older I get, the more I realize happiness isn’t loud or complicated."
+  5. "इस फ़रवरी तुम्हें नहीं… तुम्हारी आदतों को बदलना है।"
+- Hot power words: life, follow, wolveinstinct, every, discipline, people, content, always
 - Dominant quote structure: **statement**
-- Dominant media type: **IMAGE (54%)**
+- Dominant media type: **IMAGE (64%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
@@ -53,31 +53,31 @@ Generated: 2026-05-19 16:19
 | @? | 5,357 | 8 | statement | long | "⁣No one else has to get your vision because God did not give" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 3 / 20 recent posts used trending power-words (15%) ⚠️
-  - ✅ "what if discipline is the only shortcut to a life of true freedom?" (words: life)
-  - ✅ "66 days into a new habit, most people realize nobody is coming to save..." (words: follow, life)
-  - ⚠️ "the strongest version of ourselves is built in the silence of consiste..."
-  - ⚠️ "discipline is the bridge between intention and reality, built every da..."
+- 17 / 20 recent posts used trending power-words (85%) ✅
+  - ✅ "let go of every excuse. discipline is what remains when motivation fad..." (words: every, discipline)
+  - ✅ "what if discipline is the only shortcut to a life of true freedom?" (words: life, discipline)
+  - ⚠️ "the strongest grinds are often the ones that happen in silence, where ..."
+  - ⚠️ "start before ready"
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **command** (luxury, reel) — "Stop postponing your growth: every day is a chance to vote for yourself"
-2. **statement** (bold, reel) — "What if every delay is a glimpse into the fears that hold you back? As you pause"
-3. **command** (dark, reel) — "Start before ready"
+1. **statement** (bold, reel) — "Early rising is not about being more productive, it's about being more intention"
+2. **statement** (luxury, reel) — "90% of the competition sleeps in. The rest build their legacy before dawn."
+3. **command** (luxury, reel) — "Stop postponing your growth: every day is a chance to vote for yourself"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 140     | —          |
+| Posts scored     | 142     | —          |
 | Avg score        | 1.8   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 12,327      | -100% |
+| Avg engagement   | 1   | 11,119      | -100% |
 
 ## Next Actions (Auto-applied)
 - Quote generator biased toward: **command, statement** structures
-- Carousel ratio set to 9%
+- Carousel ratio set to 7%
 - 5 trending hooks injected into next LLM prompts
 
 ## Content Intelligence — Pillar Performance
@@ -103,7 +103,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-05-19T15:58
+- Last cycle ran: 2026-05-20T16:04
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
