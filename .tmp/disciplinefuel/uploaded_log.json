@@ -3906,6 +3906,42 @@
         "#disciplinedaily",
         "#dis_ciplinefuel"
       ]
+    },
+    {
+      "id": "wake_up_call_42_20260521_162050",
+      "ig_media_id": "18068152838355687",
+      "permalink": "https://www.instagram.com/reel/DYm3B8PCVad/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 42,
+      "content_series": "Wake Up Call #42",
+      "topic": "stop waiting for motivation to start",
+      "selected_quote": "What if the greatest obstacle to your growth is not the lack of motivation, but the expectation of it? Every day, we wait for the right feeling to start, but discipline is what gets us moving, even when motivation is absent.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-05-21T16:20:50.116581",
+      "dry_run": false,
+      "pillar": "story_proof",
+      "hook_template": "question",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Save it. Re-read it. Live it.",
+      "hashtags_used": [
+        "#disciplinedmen",
+        "#stoicphilosophy",
+        "#mindsetreset",
+        "#stoiclife",
+        "#stoicismdaily",
+        "#buildmentaltoughness",
+        "#hardtruthsquotes",
+        "#disciplinefuel",
+        "#disciplinenotmotivation"
+      ]
     }
   ]
 }

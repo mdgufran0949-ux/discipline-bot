@@ -2267,6 +2267,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_42_20260521_162050",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 42,
+      "topic": "stop waiting for motivation to start",
+      "hook_keyword": "discipline",
+      "selected_quote": "What if the greatest obstacle to your growth is not the lack of motivation, but the expectation of it? Every day, we wait for the right feeling to start, but discipline is what gets us moving, even when motivation is absent.",
+      "posted_at": "2026-05-21T16:20:50.116581",
+      "ig_media_id": "18068152838355687",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2753,28 +2774,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 108,
+    "total_posts": 109,
     "by_quote_type": {
       "question": 1,
-      "statement": 100,
+      "statement": 101,
       "contrast": 3,
       "punch": 1,
       "command": 3
     },
     "by_design_style": {
-      "minimal": 29,
+      "minimal": 30,
       "dark": 31,
       "luxury": 26,
       "bold": 22
     },
     "by_format": {
       "image": 1,
-      "reel": 107
+      "reel": 108
     },
     "by_series": {
       "discipline_rule": 37,
       "day_becoming_better": 36,
-      "wake_up_call": 35
+      "wake_up_call": 36
     },
     "top_performing_series": "discipline_rule"
   },
