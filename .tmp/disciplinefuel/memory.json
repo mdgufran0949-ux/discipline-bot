@@ -2246,6 +2246,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_43_20260521_073607",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 43,
+      "topic": "stop waiting for motivation to start",
+      "hook_keyword": "start",
+      "selected_quote": "Start before you're ready, because life doesn't wait for motivation to strike. Every great achievement begins with a single step, not a surge of excitement.",
+      "posted_at": "2026-05-21T07:36:07.180148",
+      "ig_media_id": "17972673264024298",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2732,10 +2753,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 107,
+    "total_posts": 108,
     "by_quote_type": {
       "question": 1,
-      "statement": 99,
+      "statement": 100,
       "contrast": 3,
       "punch": 1,
       "command": 3
@@ -2744,14 +2765,14 @@
       "minimal": 29,
       "dark": 31,
       "luxury": 26,
-      "bold": 21
+      "bold": 22
     },
     "by_format": {
       "image": 1,
-      "reel": 106
+      "reel": 107
     },
     "by_series": {
-      "discipline_rule": 36,
+      "discipline_rule": 37,
       "day_becoming_better": 36,
       "wake_up_call": 35
     },
