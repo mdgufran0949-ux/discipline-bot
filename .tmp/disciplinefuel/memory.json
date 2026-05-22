@@ -2309,6 +2309,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_44_20260522_155911",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 44,
+      "topic": "monster jam grinds",
+      "hook_keyword": "silence",
+      "selected_quote": "There is a kind of silence that precedes every failure, a silence that screams of untaken action.",
+      "posted_at": "2026-05-22T15:59:11.545961",
+      "ig_media_id": "18138623683474188",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2796,10 +2817,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 110,
+    "total_posts": 111,
     "by_quote_type": {
       "question": 1,
-      "statement": 102,
+      "statement": 103,
       "contrast": 3,
       "punch": 1,
       "command": 3
@@ -2807,15 +2828,15 @@
     "by_design_style": {
       "minimal": 30,
       "dark": 31,
-      "luxury": 27,
+      "luxury": 28,
       "bold": 22
     },
     "by_format": {
       "image": 1,
-      "reel": 109
+      "reel": 110
     },
     "by_series": {
-      "discipline_rule": 37,
+      "discipline_rule": 38,
       "day_becoming_better": 37,
       "wake_up_call": 36
     },

@@ -3996,6 +3996,42 @@
         "#fueledbydiscipline",
         "#dis_ciplinefuel"
       ]
+    },
+    {
+      "id": "discipline_rule_44_20260522_155911",
+      "ig_media_id": "18138623683474188",
+      "permalink": "https://www.instagram.com/reel/DYpZWdxiZrA/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 44,
+      "content_series": "Discipline Rule #44",
+      "topic": "monster jam grinds",
+      "selected_quote": "There is a kind of silence that precedes every failure, a silence that screams of untaken action.",
+      "quote_type": "statement",
+      "hook_keyword": "silence",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-22T15:59:11.545961",
+      "dry_run": false,
+      "pillar": "hard_truth",
+      "hook_template": "story",
+      "pillar_hook_source": "picker",
+      "caption_structure": "single_line",
+      "caption_cta": "Save this. Read it tomorrow morning.",
+      "hashtags_used": [
+        "#stoicphilosophy",
+        "#stoicmindset",
+        "#silentgrind",
+        "#slowprogress",
+        "#resilientmindset",
+        "#toughnessmindset",
+        "#consistentaction",
+        "#disciplinenotmotivation",
+        "#fueledbydiscipline"
+      ]
     }
   ]
 }
