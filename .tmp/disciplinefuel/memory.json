@@ -2330,6 +2330,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_43_20260523_065217",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 43,
+      "topic": "monster jam grinds",
+      "hook_keyword": "discard",
+      "selected_quote": "Rethink your approach to every challenge, embracing the unknown as a catalyst for growth, not a source of fear.",
+      "posted_at": "2026-05-23T06:52:17.557726",
+      "ig_media_id": "18426268351123851",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2817,10 +2838,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 111,
+    "total_posts": 112,
     "by_quote_type": {
       "question": 1,
-      "statement": 103,
+      "statement": 104,
       "contrast": 3,
       "punch": 1,
       "command": 3
@@ -2828,17 +2849,17 @@
     "by_design_style": {
       "minimal": 30,
       "dark": 31,
-      "luxury": 28,
+      "luxury": 29,
       "bold": 22
     },
     "by_format": {
       "image": 1,
-      "reel": 110
+      "reel": 111
     },
     "by_series": {
       "discipline_rule": 38,
       "day_becoming_better": 37,
-      "wake_up_call": 36
+      "wake_up_call": 37
     },
     "top_performing_series": "discipline_rule"
   },

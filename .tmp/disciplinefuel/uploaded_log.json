@@ -4032,6 +4032,42 @@
         "#disciplinenotmotivation",
         "#fueledbydiscipline"
       ]
+    },
+    {
+      "id": "wake_up_call_43_20260523_065217",
+      "ig_media_id": "18426268351123851",
+      "permalink": "https://www.instagram.com/reel/DYq_jNJjYDD/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 43,
+      "content_series": "Wake Up Call #43",
+      "topic": "monster jam grinds",
+      "selected_quote": "Rethink your approach to every challenge, embracing the unknown as a catalyst for growth, not a source of fear.",
+      "quote_type": "statement",
+      "hook_keyword": "discard",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-05-23T06:52:17.557726",
+      "dry_run": false,
+      "pillar": "reframe",
+      "hook_template": "command",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Save it. Re-read it. Live it.",
+      "hashtags_used": [
+        "#habitsofsuccessful",
+        "#focusandgrind",
+        "#mentaldisciplinedaily",
+        "#innerstrength",
+        "#uncommonmentality",
+        "#stoicquotesdaily",
+        "#buildmentaltoughness",
+        "#dis_ciplinefuel",
+        "#disciplinedaily"
+      ]
     }
   ]
 }
