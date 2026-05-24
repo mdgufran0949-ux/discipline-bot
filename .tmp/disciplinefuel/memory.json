@@ -2372,6 +2372,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_45_20260524_142812",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 45,
+      "topic": "your future self is watching you right now",
+      "hook_keyword": "growth",
+      "selected_quote": "What if your future self is watching you right now, silently witnessing every decision and every step you take towards growth and discipline? In this moment, you have the power to shape the narrative of your life, to cultivate the habits and mindset that will lead you to success, and to build a foundation for a brighter future.",
+      "posted_at": "2026-05-24T14:28:12.437901",
+      "ig_media_id": "18109915816900184",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2860,26 +2881,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 113,
+    "total_posts": 114,
     "by_quote_type": {
       "question": 1,
-      "statement": 105,
+      "statement": 106,
       "contrast": 3,
       "punch": 1,
       "command": 3
     },
     "by_design_style": {
-      "minimal": 30,
+      "minimal": 31,
       "dark": 32,
       "luxury": 29,
       "bold": 22
     },
     "by_format": {
       "image": 1,
-      "reel": 112
+      "reel": 113
     },
     "by_series": {
-      "discipline_rule": 38,
+      "discipline_rule": 39,
       "day_becoming_better": 38,
       "wake_up_call": 37
     },
