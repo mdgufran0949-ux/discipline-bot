@@ -1,44 +1,45 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-22 07:27
+Generated: 2026-05-24 07:22
 
 ## System Health
-- Last competitor fetch: 2026-05-20T16:30 ✅
-- Last IG metrics fetch: 2026-05-22T07:27 ✅
-- IG hashtag quota used (7d): 9 / 30 ✅
+- Last competitor fetch: 2026-05-24T07:19 ✅
+- Last IG metrics fetch: 2026-05-24T07:22 ✅
+- IG hashtag quota used (7d): 7 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-05-13 | 0 | 3,899 | 12% |
 | 2026-05-14 | 0 | 3,899 | 12% |
 | 2026-05-16 | 0 | 5,546 | 5% |
 | 2026-05-17 | 0 | 5,546 | 5% |
 | 2026-05-18 | 0 | 12,327 | 9% |
 | 2026-05-19 | 0 | 12,327 | 9% |
 | 2026-05-20 | 0 | 11,119 | 7% |
+| 2026-05-22 | 0 | 11,119 | 7% |
 
 ## What Changed Today
-- Format mix: image 0% → 13%, carousel 0% → 7%
-- Blacklisted topic: "david goggins on excuses stop being lazy"
-- Blacklisted topic: "every delay is a vote against yourself"
+- Format mix: image 0% → 12%, carousel 0% → 8%
 - Blacklisted topic: "how to build discipline"
 - Blacklisted topic: "stop waiting for motivation to start"
 - Blacklisted topic: "fear is just comfort in disguise"
+- Blacklisted topic: "monster jam grinds"
+- Blacklisted topic: "david goggins on excuses stop being lazy"
+- Blacklisted topic: "every delay is a vote against yourself"
 
 ## What We Learned From Competitors
-- Scanned hashtags: discipline, selfdiscipline, disciplinequotes, mentality, mindsetmatters
-- Posts analyzed: 50
-- Niche benchmark: 11,119 avg engagement | Our avg: 0 | Gap: -100%
+- Scanned hashtags: mindsetmatters, grindmode, hardworkpaysoff, motivationdaily, selfimprovementtips
+- Posts analyzed: 37
+- Niche benchmark: 6,348 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
-  1. "Save this post as a guide and share it with a friend ✅"
-  2. "Improve not prove ❌"
-  3. "The struggles you’re facing right now aren’t punishments… they’re lessons."
-  4. "The older I get, the more I realize happiness isn’t loud or complicated."
-  5. "इस फ़रवरी तुम्हें नहीं… तुम्हारी आदतों को बदलना है।"
-- Hot power words: life, follow, wolveinstinct, every, discipline, people, content, always
+  1. "✨8 steps to develop strong mindset."
+  2. "Follow aapki.safalta"
+  3. "You must fulfill that."
+  4. "வேலையை விட்டுவிட்டு கார் ஓட்டிய எம்பிஏ பட்டதாரி.."
+  5. "Ishan Kishan 🥵❤️‍🔥 — resilience, grind, and a ruthless comeback."
+- Hot power words: follow, share, success, black, growth, motivation, day, mindset
 - Dominant quote structure: **statement**
-- Dominant media type: **IMAGE (64%)**
+- Dominant media type: **IMAGE (57%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
@@ -51,34 +52,34 @@ Generated: 2026-05-22 07:27
 | @? | 7,948 | 6 | statement | long | "Follow 👉 we.think.deeply we.think.deeply we.think.deeply" |
 | @? | 6,024 | 4 | command | long | "Build your castle on a solid foundation." |
 | @? | 5,759 | 44 | statement | long | "Visual Weekend Roundup illustrated by me 😊" |
-| @? | 5,357 | 8 | statement | long | "⁣No one else has to get your vision because God did not give" |
+| @? | 5,242 | 19 | statement | medium | "Follow world._.motivation  for more _____________" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 18 / 20 recent posts used trending power-words (90%) ✅
-  - ✅ "66 days into a new habit, most people realize nobody is coming to save..." (words: life, follow, every)
-  - ✅ "complacency is a strength, not a weakness. it allows us to focus on wh..." (words: discipline)
+- 16 / 20 recent posts used trending power-words (80%) ✅
+  - ✅ "what if fear is not an obstacle, but a sign that we are growing beyond..." (words: growth, time)
+  - ✅ "recognize the fear that is masquerading as comfort, and challenge it w..." (words: growth)
   - ⚠️ "start before ready"
-  - ⚠️ "90% of the competition sleeps in. the rest build their legacy before d..."
+  - ⚠️ "what if every delay is a glimpse into the fears that hold you back? as..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (minimal, reel) — "What if the greatest obstacle to your growth is not the lack of motivation, but "
-2. **statement** (bold, reel) — "Start before you're ready, because life doesn't wait for motivation to strike. E"
-3. **statement** (bold, reel) — "The night falls, and with it, our excuses. We wait for motivation, but it rarely"
+1. **statement** (luxury, reel) — "Rethink your approach to every challenge, embracing the unknown as a catalyst fo"
+2. **statement** (luxury, reel) — "There is a kind of silence that precedes every failure, a silence that screams o"
+3. **statement** (luxury, reel) — "42 days into the grind, every rep shapes discipline."
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 145     | —          |
-| Avg score        | 1.7   | —          |
+| Posts scored     | 148     | —          |
+| Avg score        | 1.8   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 11,119      | -100% |
+| Avg engagement   | 1   | 6,348      | -100% |
 
 ## Next Actions (Auto-applied)
-- Quote generator biased toward: **command, statement** structures
-- Carousel ratio set to 7%
+- Quote generator biased toward: **statement, question** structures
+- Carousel ratio set to 8%
 - 5 trending hooks injected into next LLM prompts
 
 ## Content Intelligence — Pillar Performance
@@ -104,7 +105,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-05-21T17:45
+- Last cycle ran: 2026-05-23T16:45
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
