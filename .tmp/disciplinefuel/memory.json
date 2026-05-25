@@ -2414,6 +2414,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_44_20260525_160017",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 44,
+      "topic": "pain now or regret later",
+      "hook_keyword": "discipline",
+      "selected_quote": "66 days is the average time it takes to form a habit, yet most people give up after just 3 weeks, unaware that the greatest growth often lies in the darkest, most uncomfortable moments of our journey",
+      "posted_at": "2026-05-25T16:00:17.792943",
+      "ig_media_id": "17962490363940563",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2902,27 +2923,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 115,
+    "total_posts": 116,
     "by_quote_type": {
       "question": 1,
-      "statement": 106,
+      "statement": 107,
       "contrast": 3,
       "punch": 2,
       "command": 3
     },
     "by_design_style": {
       "minimal": 32,
-      "dark": 32,
+      "dark": 33,
       "luxury": 29,
       "bold": 22
     },
     "by_format": {
       "image": 1,
-      "reel": 114
+      "reel": 115
     },
     "by_series": {
       "discipline_rule": 39,
-      "day_becoming_better": 38,
+      "day_becoming_better": 39,
       "wake_up_call": 38
     },
     "top_performing_series": "wake_up_call"
