@@ -1,45 +1,46 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-25 08:13
+Generated: 2026-05-26 16:45
 
 ## System Health
-- Last competitor fetch: 2026-05-24T07:19 ✅
-- Last IG metrics fetch: 2026-05-25T08:13 ✅
-- IG hashtag quota used (7d): 10 / 30 ✅
+- Last competitor fetch: 2026-05-26T16:42 ✅
+- Last IG metrics fetch: 2026-05-26T16:45 ✅
+- IG hashtag quota used (7d): 9 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-05-16 | 0 | 5,546 | 5% |
 | 2026-05-17 | 0 | 5,546 | 5% |
 | 2026-05-18 | 0 | 12,327 | 9% |
 | 2026-05-19 | 0 | 12,327 | 9% |
 | 2026-05-20 | 0 | 11,119 | 7% |
 | 2026-05-22 | 0 | 11,119 | 7% |
 | 2026-05-24 | 0 | 6,348 | 8% |
+| 2026-05-25 | 0 | 6,348 | 8% |
 
 ## What Changed Today
-- Format mix: image 0% → 12%, carousel 0% → 8%
+- Format mix: image 0% → 10%, carousel 0% → 10%
 - Blacklisted topic: "monster jam grinds"
-- Blacklisted topic: "david goggins on excuses stop being lazy"
-- Blacklisted topic: "every delay is a vote against yourself"
-- Blacklisted topic: "fear is just comfort in disguise"
-- Blacklisted topic: "how to build discipline"
 - Blacklisted topic: "stop waiting for motivation to start"
+- Blacklisted topic: "david goggins on excuses stop being lazy"
+- Blacklisted topic: "fear is just comfort in disguise"
+- Blacklisted topic: "pain now or regret later"
+- Blacklisted topic: "how to build discipline"
+- Blacklisted topic: "every delay is a vote against yourself"
 
 ## What We Learned From Competitors
-- Scanned hashtags: mindsetmatters, grindmode, hardworkpaysoff, motivationdaily, selfimprovementtips
-- Posts analyzed: 37
-- Niche benchmark: 6,348 avg engagement | Our avg: 0 | Gap: -100%
+- Scanned hashtags: hardworkpaysoff, motivationdaily, selfimprovementtips, stoicmindset, discipline
+- Posts analyzed: 50
+- Niche benchmark: 11,220 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
-  1. "✨8 steps to develop strong mindset."
-  2. "Follow aapki.safalta"
-  3. "You must fulfill that."
-  4. "வேலையை விட்டுவிட்டு கார் ஓட்டிய எம்பிஏ பட்டதாரி.."
-  5. "Ishan Kishan 🥵❤️‍🔥 — resilience, grind, and a ruthless comeback."
-- Hot power words: follow, share, success, black, growth, motivation, day, mindset
+  1. "Inner peace isn’t just about what we embrace, it’s just as much about what we let go."
+  2. "Success doesn’t happen overnight."
+  3. "Follow aapki.safalta"
+  4. "Visual Weekend Roundup illustrated by me 😊"
+  5. "Follow 👉 we.think.deeply we.think.deeply we.think.deeply"
+- Hot power words: visual, illustrated, favorite, weekend, roundup, comment, ideas, don
 - Dominant quote structure: **statement**
-- Dominant media type: **IMAGE (57%)**
+- Dominant media type: **IMAGE (52%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
@@ -51,35 +52,35 @@ Generated: 2026-05-25 08:13
 | @? | 7,970 | 4 | statement | long | "Most men break once." |
 | @? | 7,948 | 6 | statement | long | "Follow 👉 we.think.deeply we.think.deeply we.think.deeply" |
 | @? | 6,024 | 4 | command | long | "Build your castle on a solid foundation." |
-| @? | 5,759 | 44 | statement | long | "Visual Weekend Roundup illustrated by me 😊" |
-| @? | 5,226 | 24 | statement | medium | "Follow world._.motivation  for more _____________" |
+| @? | 5,911 | 65 | statement | long | "Visual Weekend Roundup illustrated by me 😊" |
+| @? | 5,164 | 26 | statement | medium | "Follow world._.motivation  for more _____________" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 16 / 20 recent posts used trending power-words (80%) ✅
-  - ✅ "fear is often the disguise of comfort, and it's in these moments that ..." (words: success, growth, time)
-  - ✅ "the night david goggins decided to stop making excuses, he began to un..." (words: success, growth)
-  - ⚠️ "start before ready"
-  - ⚠️ "what if every delay is a glimpse into the fears that hold you back? as..."
+- 2 / 20 recent posts used trending power-words (10%) ⚠️
+  - ✅ "start by mapping your day with intention, then follow through with dis..." (words: follow)
+  - ✅ "the night falls, and with it, our excuses. we wait for motivation, but..." (words: follow)
+  - ⚠️ "what if the thing holding you back is the fear of facing your own pote..."
+  - ⚠️ "the night she discovered her own strength, she realized that disciplin..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (minimal, reel) — "What if your future self is watching you right now, silently witnessing every de"
-2. **statement** (dark, reel) — "Complacency is the most rewarding feeling, yet it's the beginning of our downfal"
-3. **statement** (luxury, reel) — "Rethink your approach to every challenge, embracing the unknown as a catalyst fo"
+1. **statement** (minimal, reel) — "Pain is not something to be feared, but rather a sign of growth, a reminder that"
+2. **statement** (dark, reel) — "66 days is the average time it takes to form a habit, yet most people give up af"
+3. **punch** (minimal, reel) — "Discipline born in darkness."
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 150     | —          |
+| Posts scored     | 153     | —          |
 | Avg score        | 1.8   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 6,348      | -100% |
+| Avg engagement   | 1   | 11,220      | -100% |
 
 ## Next Actions (Auto-applied)
-- Quote generator biased toward: **statement, question** structures
-- Carousel ratio set to 8%
+- Quote generator biased toward: **statement, command** structures
+- Carousel ratio set to 10%
 - 5 trending hooks injected into next LLM prompts
 
 ## Content Intelligence — Pillar Performance
@@ -105,7 +106,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-05-24T16:51
+- Last cycle ran: 2026-05-26T16:24
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
