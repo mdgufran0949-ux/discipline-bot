@@ -2498,6 +2498,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_47_20260527_164015",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 47,
+      "topic": "the clock does not care about your excuses",
+      "hook_keyword": "moment",
+      "selected_quote": "There is a moment every morning when the world is still, and the clock does not care about our excuses. It keeps moving, a reminder that growth happens in the quiet hours, and discipline is the bridge between our intentions and reality. As we stand at this crossroads, we must choose to focus on the process, not the outcome. In this silence, we find our strength, and our resolve is tested.",
+      "posted_at": "2026-05-27T16:40:15.308209",
+      "ig_media_id": "17878270905657167",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -2987,26 +3008,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 119,
+    "total_posts": 120,
     "by_quote_type": {
       "question": 1,
-      "statement": 110,
+      "statement": 111,
       "contrast": 3,
       "punch": 2,
       "command": 3
     },
     "by_design_style": {
       "minimal": 34,
-      "dark": 33,
+      "dark": 34,
       "luxury": 30,
       "bold": 22
     },
     "by_format": {
       "image": 1,
-      "reel": 118
+      "reel": 119
     },
     "by_series": {
-      "discipline_rule": 40,
+      "discipline_rule": 41,
       "day_becoming_better": 40,
       "wake_up_call": 39
     },
