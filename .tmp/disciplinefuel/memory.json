@@ -2540,6 +2540,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_46_20260528_165409",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 46,
+      "topic": "winners do not wait for the right moment",
+      "hook_keyword": "waiting",
+      "selected_quote": "Waiting for the perfect moment is a myth. Growth happens in the silence, not in the spotlight. We often overlook the power of quiet progress, and that's where the real magic happens. The most disciplined individuals don't wait for motivation; they create their own momentum",
+      "posted_at": "2026-05-28T16:54:09.460813",
+      "ig_media_id": "17899601178448274",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3030,27 +3051,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 121,
+    "total_posts": 122,
     "by_quote_type": {
       "question": 1,
-      "statement": 112,
+      "statement": 113,
       "contrast": 3,
       "punch": 2,
       "command": 3
     },
     "by_design_style": {
       "minimal": 34,
-      "dark": 35,
+      "dark": 36,
       "luxury": 30,
       "bold": 22
     },
     "by_format": {
       "image": 1,
-      "reel": 120
+      "reel": 121
     },
     "by_series": {
       "discipline_rule": 41,
-      "day_becoming_better": 40,
+      "day_becoming_better": 41,
       "wake_up_call": 40
     },
     "top_performing_series": "wake_up_call"
