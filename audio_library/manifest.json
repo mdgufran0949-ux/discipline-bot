@@ -1,161 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-05-24T06:30:12.253197",
+  "last_updated": "2026-05-31T06:52:22.608998",
   "tracks": [
-    {
-      "track_id": "hard_truth_682351",
-      "jamendo_id": "682351",
-      "pillar": "hard_truth",
-      "title": "Moon & Sun - Salt & Indigo",
-      "artist_name": "Moon & Sun",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 198,
-      "downloaded_at": "2026-05-14T15:07:52.655326",
-      "file_path": "audio_library/hard_truth/682351.mp3"
-    },
-    {
-      "track_id": "hard_truth_2004479",
-      "jamendo_id": "2004479",
-      "pillar": "hard_truth",
-      "title": "1. Intermezzo / Allegro",
-      "artist_name": "Michał Jałochowski",
-      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
-      "duration": 300,
-      "downloaded_at": "2026-05-14T15:07:57.419442",
-      "file_path": "audio_library/hard_truth/2004479.mp3"
-    },
-    {
-      "track_id": "hard_truth_168834",
-      "jamendo_id": "168834",
-      "pillar": "hard_truth",
-      "title": "Point of no return",
-      "artist_name": "Roger Subirana Mata",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 259,
-      "downloaded_at": "2026-05-14T15:08:01.511182",
-      "file_path": "audio_library/hard_truth/168834.mp3"
-    },
-    {
-      "track_id": "hard_truth_1876634",
-      "jamendo_id": "1876634",
-      "pillar": "hard_truth",
-      "title": "Clair De Lune",
-      "artist_name": "AurbanniAudio",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 230,
-      "downloaded_at": "2026-05-14T15:08:05.191438",
-      "file_path": "audio_library/hard_truth/1876634.mp3"
-    },
-    {
-      "track_id": "hard_truth_1214596",
-      "jamendo_id": "1214596",
-      "pillar": "hard_truth",
-      "title": "Hold Me Tonight",
-      "artist_name": "JARA",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 184,
-      "downloaded_at": "2026-05-14T15:08:08.495635",
-      "file_path": "audio_library/hard_truth/1214596.mp3"
-    },
-    {
-      "track_id": "tactical_1433574",
-      "jamendo_id": "1433574",
-      "pillar": "tactical",
-      "title": "atmosphere 017",
-      "artist_name": "Vagiz Ga Lee",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 150,
-      "downloaded_at": "2026-05-14T15:08:47.120998",
-      "file_path": "audio_library/tactical/1433574.mp3"
-    },
-    {
-      "track_id": "tactical_1934017",
-      "jamendo_id": "1934017",
-      "pillar": "tactical",
-      "title": "MKHLSDRV — This Is Phonk",
-      "artist_name": "MKHLSDRV",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "duration": 206,
-      "downloaded_at": "2026-05-14T15:08:50.644778",
-      "file_path": "audio_library/tactical/1934017.mp3"
-    },
-    {
-      "track_id": "tactical_1439411",
-      "jamendo_id": "1439411",
-      "pillar": "tactical",
-      "title": "Broken Clock",
-      "artist_name": "Amoebacrew",
-      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
-      "duration": 155,
-      "downloaded_at": "2026-05-14T15:08:53.489747",
-      "file_path": "audio_library/tactical/1439411.mp3"
-    },
-    {
-      "track_id": "tactical_1463289",
-      "jamendo_id": "1463289",
-      "pillar": "tactical",
-      "title": "Background Media (Middle Version)",
-      "artist_name": "makesound",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 108,
-      "downloaded_at": "2026-05-14T15:08:55.865335",
-      "file_path": "audio_library/tactical/1463289.mp3"
-    },
-    {
-      "track_id": "tactical_1445708",
-      "jamendo_id": "1445708",
-      "pillar": "tactical",
-      "title": "Spring Moment main",
-      "artist_name": "Denys Kaganiuk",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 100,
-      "downloaded_at": "2026-05-14T15:08:57.863893",
-      "file_path": "audio_library/tactical/1445708.mp3"
-    },
-    {
-      "track_id": "reframe_1070219",
-      "jamendo_id": "1070219",
-      "pillar": "reframe",
-      "title": "Mr.&Mrs Rains",
-      "artist_name": "Intoxicated Piano",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "duration": 205,
-      "downloaded_at": "2026-05-14T15:09:34.073837",
-      "file_path": "audio_library/reframe/1070219.mp3"
-    },
-    {
-      "track_id": "reframe_2068038",
-      "jamendo_id": "2068038",
-      "pillar": "reframe",
-      "title": "Tana Mao (feat Katya Zlobina)",
-      "artist_name": "So Far As I Know",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 254,
-      "downloaded_at": "2026-05-14T15:09:38.331617",
-      "file_path": "audio_library/reframe/2068038.mp3"
-    },
-    {
-      "track_id": "reframe_2007484",
-      "jamendo_id": "2007484",
-      "pillar": "reframe",
-      "title": "(Part 2) The peace of the abyss",
-      "artist_name": "Francisco Sánchez Lab",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "duration": 674,
-      "downloaded_at": "2026-05-14T15:09:48.442270",
-      "file_path": "audio_library/reframe/2007484.mp3"
-    },
-    {
-      "track_id": "reframe_1885653",
-      "jamendo_id": "1885653",
-      "pillar": "reframe",
-      "title": "See the Sun Explode",
-      "artist_name": "Fresh Body Shop",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 187,
-      "downloaded_at": "2026-05-14T15:09:51.481553",
-      "file_path": "audio_library/reframe/1885653.mp3"
-    },
     {
       "track_id": "reframe_2280561",
       "jamendo_id": "2280561",
@@ -177,61 +23,6 @@
       "duration": 202,
       "downloaded_at": "2026-05-14T15:10:02.890954",
       "file_path": "audio_library/reframe/2208995.mp3"
-    },
-    {
-      "track_id": "story_proof_2214037",
-      "jamendo_id": "2214037",
-      "pillar": "story_proof",
-      "title": "Where's the Love",
-      "artist_name": "Samie Bower",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 189,
-      "downloaded_at": "2026-05-14T15:10:43.163936",
-      "file_path": "audio_library/story_proof/2214037.mp3"
-    },
-    {
-      "track_id": "story_proof_2162424",
-      "jamendo_id": "2162424",
-      "pillar": "story_proof",
-      "title": "XENEZE - Starlight",
-      "artist_name": "XENEZE",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 158,
-      "downloaded_at": "2026-05-14T15:10:46.041282",
-      "file_path": "audio_library/story_proof/2162424.mp3"
-    },
-    {
-      "track_id": "story_proof_2006249",
-      "jamendo_id": "2006249",
-      "pillar": "story_proof",
-      "title": "Runaway Mustang",
-      "artist_name": "The Devil Music Co.",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 199,
-      "downloaded_at": "2026-05-14T15:10:49.460360",
-      "file_path": "audio_library/story_proof/2006249.mp3"
-    },
-    {
-      "track_id": "story_proof_1892110",
-      "jamendo_id": "1892110",
-      "pillar": "story_proof",
-      "title": "Dile Cuanto la Quiero",
-      "artist_name": "Igmar",
-      "license_url": "http://creativecommons.org/licenses/by/3.0/",
-      "duration": 174,
-      "downloaded_at": "2026-05-14T15:10:52.690798",
-      "file_path": "audio_library/story_proof/1892110.mp3"
-    },
-    {
-      "track_id": "story_proof_1974740",
-      "jamendo_id": "1974740",
-      "pillar": "story_proof",
-      "title": "One Day We'll Be A Song",
-      "artist_name": "Explosive Ear Candy",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 255,
-      "downloaded_at": "2026-05-14T15:10:56.797994",
-      "file_path": "audio_library/story_proof/1974740.mp3"
     },
     {
       "track_id": "hard_truth_2245816",
@@ -650,6 +441,215 @@
       "duration": 244,
       "downloaded_at": "2026-05-24T06:30:12.248945",
       "file_path": "audio_library/story_proof/2303415.mp3"
+    },
+    {
+      "track_id": "hard_truth_2313014",
+      "jamendo_id": "2313014",
+      "pillar": "hard_truth",
+      "title": "The Dark Protector",
+      "artist_name": "Grégoire Lourme",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 246,
+      "downloaded_at": "2026-05-31T06:50:44.737864",
+      "file_path": "audio_library/hard_truth/2313014.mp3"
+    },
+    {
+      "track_id": "hard_truth_2140682",
+      "jamendo_id": "2140682",
+      "pillar": "hard_truth",
+      "title": "IN THIS DARK",
+      "artist_name": "LEEAAV",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 201,
+      "downloaded_at": "2026-05-31T06:50:49.703377",
+      "file_path": "audio_library/hard_truth/2140682.mp3"
+    },
+    {
+      "track_id": "hard_truth_2313015",
+      "jamendo_id": "2313015",
+      "pillar": "hard_truth",
+      "title": "The Dark Protector (No choir)",
+      "artist_name": "Grégoire Lourme",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 246,
+      "downloaded_at": "2026-05-31T06:50:55.676134",
+      "file_path": "audio_library/hard_truth/2313015.mp3"
+    },
+    {
+      "track_id": "hard_truth_1273561",
+      "jamendo_id": "1273561",
+      "pillar": "hard_truth",
+      "title": "Ride",
+      "artist_name": "Fox &amp; Mew",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 238,
+      "downloaded_at": "2026-05-31T06:51:01.942410",
+      "file_path": "audio_library/hard_truth/1273561.mp3"
+    },
+    {
+      "track_id": "hard_truth_1214597",
+      "jamendo_id": "1214597",
+      "pillar": "hard_truth",
+      "title": "To Die For",
+      "artist_name": "JARA",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 158,
+      "downloaded_at": "2026-05-31T06:51:06.193104",
+      "file_path": "audio_library/hard_truth/1214597.mp3"
+    },
+    {
+      "track_id": "tactical_1490284",
+      "jamendo_id": "1490284",
+      "pillar": "tactical",
+      "title": "Sour Theme",
+      "artist_name": "SRB",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 216,
+      "downloaded_at": "2026-05-31T06:51:11.710451",
+      "file_path": "audio_library/tactical/1490284.mp3"
+    },
+    {
+      "track_id": "tactical_1535253",
+      "jamendo_id": "1535253",
+      "pillar": "tactical",
+      "title": "Subatomic",
+      "artist_name": "iNDEX",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 309,
+      "downloaded_at": "2026-05-31T06:51:20.447931",
+      "file_path": "audio_library/tactical/1535253.mp3"
+    },
+    {
+      "track_id": "tactical_1411145",
+      "jamendo_id": "1411145",
+      "pillar": "tactical",
+      "title": "Raga 2",
+      "artist_name": "XOs",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 168,
+      "downloaded_at": "2026-05-31T06:51:24.665051",
+      "file_path": "audio_library/tactical/1411145.mp3"
+    },
+    {
+      "track_id": "tactical_1656176",
+      "jamendo_id": "1656176",
+      "pillar": "tactical",
+      "title": "Background Ambiemt Glitch Loop 2",
+      "artist_name": "DHDMusic",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 19,
+      "downloaded_at": "2026-05-31T06:51:25.883842",
+      "file_path": "audio_library/tactical/1656176.mp3"
+    },
+    {
+      "track_id": "tactical_1487951",
+      "jamendo_id": "1487951",
+      "pillar": "tactical",
+      "title": "Ambient",
+      "artist_name": "Yuriy Shishlov",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 102,
+      "downloaded_at": "2026-05-31T06:51:28.817554",
+      "file_path": "audio_library/tactical/1487951.mp3"
+    },
+    {
+      "track_id": "reframe_1234660",
+      "jamendo_id": "1234660",
+      "pillar": "reframe",
+      "title": "Yes or No",
+      "artist_name": "studyBreak",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 220,
+      "downloaded_at": "2026-05-31T06:51:35.417302",
+      "file_path": "audio_library/reframe/1234660.mp3"
+    },
+    {
+      "track_id": "reframe_1234662",
+      "jamendo_id": "1234662",
+      "pillar": "reframe",
+      "title": "Choices",
+      "artist_name": "studyBreak",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 204,
+      "downloaded_at": "2026-05-31T06:51:40.946481",
+      "file_path": "audio_library/reframe/1234662.mp3"
+    },
+    {
+      "track_id": "reframe_1234661",
+      "jamendo_id": "1234661",
+      "pillar": "reframe",
+      "title": "Waves",
+      "artist_name": "studyBreak",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 252,
+      "downloaded_at": "2026-05-31T06:51:47.109513",
+      "file_path": "audio_library/reframe/1234661.mp3"
+    },
+    {
+      "track_id": "reframe_1830957",
+      "jamendo_id": "1830957",
+      "pillar": "reframe",
+      "title": "Polaris (feat. Daria Shakhova)",
+      "artist_name": "So Far As I Know",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 263,
+      "downloaded_at": "2026-05-31T06:51:53.140653",
+      "file_path": "audio_library/reframe/1830957.mp3"
+    },
+    {
+      "track_id": "story_proof_1826189",
+      "jamendo_id": "1826189",
+      "pillar": "story_proof",
+      "title": "Not the One to Say (I Told You So) (24-bit Master)",
+      "artist_name": "Cole Powell",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 235,
+      "downloaded_at": "2026-05-31T06:51:58.972108",
+      "file_path": "audio_library/story_proof/1826189.mp3"
+    },
+    {
+      "track_id": "story_proof_2203626",
+      "jamendo_id": "2203626",
+      "pillar": "story_proof",
+      "title": "Alive",
+      "artist_name": "Songwriterz",
+      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
+      "duration": 234,
+      "downloaded_at": "2026-05-31T06:52:04.660891",
+      "file_path": "audio_library/story_proof/2203626.mp3"
+    },
+    {
+      "track_id": "story_proof_2266835",
+      "jamendo_id": "2266835",
+      "pillar": "story_proof",
+      "title": "Pop &amp; Deep House",
+      "artist_name": "TNDR Productions",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 275,
+      "downloaded_at": "2026-05-31T06:52:11.108703",
+      "file_path": "audio_library/story_proof/2266835.mp3"
+    },
+    {
+      "track_id": "story_proof_1840623",
+      "jamendo_id": "1840623",
+      "pillar": "story_proof",
+      "title": "My Heart Blows Up (Explosions)",
+      "artist_name": "Anton Leuba",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 219,
+      "downloaded_at": "2026-05-31T06:52:16.197741",
+      "file_path": "audio_library/story_proof/1840623.mp3"
+    },
+    {
+      "track_id": "story_proof_1933339",
+      "jamendo_id": "1933339",
+      "pillar": "story_proof",
+      "title": "The River",
+      "artist_name": "Stingray SZN",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 289,
+      "downloaded_at": "2026-05-31T06:52:22.605585",
+      "file_path": "audio_library/story_proof/1933339.mp3"
     }
   ]
 }
