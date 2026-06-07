@@ -1,161 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-05-31T06:52:22.608998",
+  "last_updated": "2026-06-07T07:00:29.623848",
   "tracks": [
-    {
-      "track_id": "reframe_2280561",
-      "jamendo_id": "2280561",
-      "pillar": "reframe",
-      "title": "Fiat Lux (No Shadows Mix)",
-      "artist_name": "Bemused",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 521,
-      "downloaded_at": "2026-05-14T15:09:59.491529",
-      "file_path": "audio_library/reframe/2280561.mp3"
-    },
-    {
-      "track_id": "reframe_2208995",
-      "jamendo_id": "2208995",
-      "pillar": "reframe",
-      "title": "Igor Pumphonia - The Other Way (2nd Version)",
-      "artist_name": "Igor Pumphonia",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 202,
-      "downloaded_at": "2026-05-14T15:10:02.890954",
-      "file_path": "audio_library/reframe/2208995.mp3"
-    },
-    {
-      "track_id": "hard_truth_2245816",
-      "jamendo_id": "2245816",
-      "pillar": "hard_truth",
-      "title": "Moon Blossoms",
-      "artist_name": "So Far As I Know",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 384,
-      "downloaded_at": "2026-05-17T06:14:04.275262",
-      "file_path": "audio_library/hard_truth/2245816.mp3"
-    },
-    {
-      "track_id": "hard_truth_2189053",
-      "jamendo_id": "2189053",
-      "pillar": "hard_truth",
-      "title": "Noise | UK Drill Music",
-      "artist_name": "Kontraa",
-      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
-      "duration": 170,
-      "downloaded_at": "2026-05-17T06:14:09.711139",
-      "file_path": "audio_library/hard_truth/2189053.mp3"
-    },
-    {
-      "track_id": "hard_truth_2209691",
-      "jamendo_id": "2209691",
-      "pillar": "hard_truth",
-      "title": "Ganges Warriors",
-      "artist_name": "Janevo",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 125,
-      "downloaded_at": "2026-05-17T06:14:14.136159",
-      "file_path": "audio_library/hard_truth/2209691.mp3"
-    },
-    {
-      "track_id": "hard_truth_2038811",
-      "jamendo_id": "2038811",
-      "pillar": "hard_truth",
-      "title": "La espada en la roca",
-      "artist_name": "Jaime Heras",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 557,
-      "downloaded_at": "2026-05-17T06:14:29.903554",
-      "file_path": "audio_library/hard_truth/2038811.mp3"
-    },
-    {
-      "track_id": "hard_truth_1841610",
-      "jamendo_id": "1841610",
-      "pillar": "hard_truth",
-      "title": "Guardian of Power",
-      "artist_name": "Grégoire Lourme",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 218,
-      "downloaded_at": "2026-05-17T06:14:36.615678",
-      "file_path": "audio_library/hard_truth/1841610.mp3"
-    },
-    {
-      "track_id": "tactical_1533554",
-      "jamendo_id": "1533554",
-      "pillar": "tactical",
-      "title": "BerlinGhosts [Clubmix] - David Greefs",
-      "artist_name": "DAVID GREEFS",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 209,
-      "downloaded_at": "2026-05-17T06:14:44.805794",
-      "file_path": "audio_library/tactical/1533554.mp3"
-    },
-    {
-      "track_id": "tactical_1470233",
-      "jamendo_id": "1470233",
-      "pillar": "tactical",
-      "title": "Choir Organ Majestic (Loop)",
-      "artist_name": "Mitch Europa",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 483,
-      "downloaded_at": "2026-05-17T06:14:56.883449",
-      "file_path": "audio_library/tactical/1470233.mp3"
-    },
-    {
-      "track_id": "tactical_1434162",
-      "jamendo_id": "1434162",
-      "pillar": "tactical",
-      "title": "Corporate Inspiring Background",
-      "artist_name": "easytonica",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 136,
-      "downloaded_at": "2026-05-17T06:15:01.452972",
-      "file_path": "audio_library/tactical/1434162.mp3"
-    },
-    {
-      "track_id": "tactical_1500811",
-      "jamendo_id": "1500811",
-      "pillar": "tactical",
-      "title": "Dream of elegance",
-      "artist_name": "Giustino Barletta",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 334,
-      "downloaded_at": "2026-05-17T06:15:10.170430",
-      "file_path": "audio_library/tactical/1500811.mp3"
-    },
-    {
-      "track_id": "tactical_1401629",
-      "jamendo_id": "1401629",
-      "pillar": "tactical",
-      "title": "RocketX - Venus (Original Mix) FreeDL",
-      "artist_name": "RocketX",
-      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
-      "duration": 312,
-      "downloaded_at": "2026-05-17T06:15:18.946658",
-      "file_path": "audio_library/tactical/1401629.mp3"
-    },
-    {
-      "track_id": "reframe_1867076",
-      "jamendo_id": "1867076",
-      "pillar": "reframe",
-      "title": "Relaxing Zen Music 432Hz",
-      "artist_name": "Raw Vibrations",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 332,
-      "downloaded_at": "2026-05-17T06:15:29.177685",
-      "file_path": "audio_library/reframe/1867076.mp3"
-    },
-    {
-      "track_id": "reframe_2163964",
-      "jamendo_id": "2163964",
-      "pillar": "reframe",
-      "title": "Tears",
-      "artist_name": "Aminolen",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 332,
-      "downloaded_at": "2026-05-17T06:15:38.999635",
-      "file_path": "audio_library/reframe/2163964.mp3"
-    },
     {
       "track_id": "reframe_2057569",
       "jamendo_id": "2057569",
@@ -177,61 +23,6 @@
       "duration": 519,
       "downloaded_at": "2026-05-17T06:15:58.693960",
       "file_path": "audio_library/reframe/1885476.mp3"
-    },
-    {
-      "track_id": "story_proof_2272481",
-      "jamendo_id": "2272481",
-      "pillar": "story_proof",
-      "title": "Dont Run Away",
-      "artist_name": "Jon Worthy",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 166,
-      "downloaded_at": "2026-05-17T06:16:04.619333",
-      "file_path": "audio_library/story_proof/2272481.mp3"
-    },
-    {
-      "track_id": "story_proof_1977273",
-      "jamendo_id": "1977273",
-      "pillar": "story_proof",
-      "title": "In the Summer",
-      "artist_name": "Maiya",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 198,
-      "downloaded_at": "2026-05-17T06:16:11.082543",
-      "file_path": "audio_library/story_proof/1977273.mp3"
-    },
-    {
-      "track_id": "story_proof_1975586",
-      "jamendo_id": "1975586",
-      "pillar": "story_proof",
-      "title": "Live It Up",
-      "artist_name": "The.madpix.project",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 192,
-      "downloaded_at": "2026-05-17T06:16:17.020356",
-      "file_path": "audio_library/story_proof/1975586.mp3"
-    },
-    {
-      "track_id": "story_proof_1981752",
-      "jamendo_id": "1981752",
-      "pillar": "story_proof",
-      "title": "Quatro Paredes",
-      "artist_name": "heiwr",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 152,
-      "downloaded_at": "2026-05-17T06:16:21.832819",
-      "file_path": "audio_library/story_proof/1981752.mp3"
-    },
-    {
-      "track_id": "story_proof_1879649",
-      "jamendo_id": "1879649",
-      "pillar": "story_proof",
-      "title": "Un Ratito Nama (Prod: Duran The Coach)",
-      "artist_name": "Lessky",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 180,
-      "downloaded_at": "2026-05-17T06:16:27.418242",
-      "file_path": "audio_library/story_proof/1879649.mp3"
     },
     {
       "track_id": "hard_truth_2040935",
@@ -650,6 +441,215 @@
       "duration": 289,
       "downloaded_at": "2026-05-31T06:52:22.605585",
       "file_path": "audio_library/story_proof/1933339.mp3"
+    },
+    {
+      "track_id": "hard_truth_2004479",
+      "jamendo_id": "2004479",
+      "pillar": "hard_truth",
+      "title": "1. Intermezzo / Allegro",
+      "artist_name": "Michał Jałochowski",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 300,
+      "downloaded_at": "2026-06-07T06:59:20.186624",
+      "file_path": "audio_library/hard_truth/2004479.mp3"
+    },
+    {
+      "track_id": "hard_truth_682351",
+      "jamendo_id": "682351",
+      "pillar": "hard_truth",
+      "title": "Moon & Sun - Salt & Indigo",
+      "artist_name": "Moon & Sun",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 198,
+      "downloaded_at": "2026-06-07T06:59:23.695679",
+      "file_path": "audio_library/hard_truth/682351.mp3"
+    },
+    {
+      "track_id": "hard_truth_1214596",
+      "jamendo_id": "1214596",
+      "pillar": "hard_truth",
+      "title": "Hold Me Tonight",
+      "artist_name": "JARA",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 184,
+      "downloaded_at": "2026-06-07T06:59:26.908034",
+      "file_path": "audio_library/hard_truth/1214596.mp3"
+    },
+    {
+      "track_id": "hard_truth_2163419",
+      "jamendo_id": "2163419",
+      "pillar": "hard_truth",
+      "title": "Club Future House",
+      "artist_name": "MokkaMusic",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 163,
+      "downloaded_at": "2026-06-07T06:59:29.724299",
+      "file_path": "audio_library/hard_truth/2163419.mp3"
+    },
+    {
+      "track_id": "hard_truth_1876634",
+      "jamendo_id": "1876634",
+      "pillar": "hard_truth",
+      "title": "Clair De Lune",
+      "artist_name": "AurbanniAudio",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 230,
+      "downloaded_at": "2026-06-07T06:59:33.423299",
+      "file_path": "audio_library/hard_truth/1876634.mp3"
+    },
+    {
+      "track_id": "tactical_1433574",
+      "jamendo_id": "1433574",
+      "pillar": "tactical",
+      "title": "atmosphere 017",
+      "artist_name": "Vagiz Ga Lee",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 150,
+      "downloaded_at": "2026-06-07T06:59:36.330181",
+      "file_path": "audio_library/tactical/1433574.mp3"
+    },
+    {
+      "track_id": "tactical_1439411",
+      "jamendo_id": "1439411",
+      "pillar": "tactical",
+      "title": "Broken Clock",
+      "artist_name": "Amoebacrew",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 155,
+      "downloaded_at": "2026-06-07T06:59:39.134160",
+      "file_path": "audio_library/tactical/1439411.mp3"
+    },
+    {
+      "track_id": "tactical_1934017",
+      "jamendo_id": "1934017",
+      "pillar": "tactical",
+      "title": "MKHLSDRV — This Is Phonk",
+      "artist_name": "MKHLSDRV",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 206,
+      "downloaded_at": "2026-06-07T06:59:42.679958",
+      "file_path": "audio_library/tactical/1934017.mp3"
+    },
+    {
+      "track_id": "tactical_1819481",
+      "jamendo_id": "1819481",
+      "pillar": "tactical",
+      "title": "Deep Groove Élément",
+      "artist_name": "PM music Prod",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 414,
+      "downloaded_at": "2026-06-07T06:59:49.189350",
+      "file_path": "audio_library/tactical/1819481.mp3"
+    },
+    {
+      "track_id": "tactical_1463289",
+      "jamendo_id": "1463289",
+      "pillar": "tactical",
+      "title": "Background Media (Middle Version)",
+      "artist_name": "makesound",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 108,
+      "downloaded_at": "2026-06-07T06:59:51.562055",
+      "file_path": "audio_library/tactical/1463289.mp3"
+    },
+    {
+      "track_id": "reframe_1070219",
+      "jamendo_id": "1070219",
+      "pillar": "reframe",
+      "title": "Mr.&Mrs Rains",
+      "artist_name": "Intoxicated Piano",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 205,
+      "downloaded_at": "2026-06-07T06:59:56.643742",
+      "file_path": "audio_library/reframe/1070219.mp3"
+    },
+    {
+      "track_id": "reframe_1885653",
+      "jamendo_id": "1885653",
+      "pillar": "reframe",
+      "title": "See the Sun Explode",
+      "artist_name": "Fresh Body Shop",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 187,
+      "downloaded_at": "2026-06-07T06:59:59.697464",
+      "file_path": "audio_library/reframe/1885653.mp3"
+    },
+    {
+      "track_id": "reframe_15664",
+      "jamendo_id": "15664",
+      "pillar": "reframe",
+      "title": "Headphonetic",
+      "artist_name": "Revolution Void",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 396,
+      "downloaded_at": "2026-06-07T07:00:05.225024",
+      "file_path": "audio_library/reframe/15664.mp3"
+    },
+    {
+      "track_id": "reframe_1118121",
+      "jamendo_id": "1118121",
+      "pillar": "reframe",
+      "title": "Baldych - Lunar Path",
+      "artist_name": "Tunguska Electronic Music Society",
+      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
+      "duration": 352,
+      "downloaded_at": "2026-06-07T07:00:10.661793",
+      "file_path": "audio_library/reframe/1118121.mp3"
+    },
+    {
+      "track_id": "story_proof_2214037",
+      "jamendo_id": "2214037",
+      "pillar": "story_proof",
+      "title": "Where's the Love",
+      "artist_name": "Samie Bower",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 189,
+      "downloaded_at": "2026-06-07T07:00:14.357156",
+      "file_path": "audio_library/story_proof/2214037.mp3"
+    },
+    {
+      "track_id": "story_proof_1974740",
+      "jamendo_id": "1974740",
+      "pillar": "story_proof",
+      "title": "One Day We'll Be A Song",
+      "artist_name": "Explosive Ear Candy",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 255,
+      "downloaded_at": "2026-06-07T07:00:18.634259",
+      "file_path": "audio_library/story_proof/1974740.mp3"
+    },
+    {
+      "track_id": "story_proof_2303930",
+      "jamendo_id": "2303930",
+      "pillar": "story_proof",
+      "title": "The Addiction Is Me",
+      "artist_name": "Ed Napoli",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 221,
+      "downloaded_at": "2026-06-07T07:00:22.359278",
+      "file_path": "audio_library/story_proof/2303930.mp3"
+    },
+    {
+      "track_id": "story_proof_2162424",
+      "jamendo_id": "2162424",
+      "pillar": "story_proof",
+      "title": "XENEZE - Starlight",
+      "artist_name": "XENEZE",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 158,
+      "downloaded_at": "2026-06-07T07:00:25.232576",
+      "file_path": "audio_library/story_proof/2162424.mp3"
+    },
+    {
+      "track_id": "story_proof_1194315",
+      "jamendo_id": "1194315",
+      "pillar": "story_proof",
+      "title": "Human Light",
+      "artist_name": "John Dada &amp; the Weathermen",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 234,
+      "downloaded_at": "2026-06-07T07:00:29.620495",
+      "file_path": "audio_library/story_proof/1194315.mp3"
     }
   ]
 }
