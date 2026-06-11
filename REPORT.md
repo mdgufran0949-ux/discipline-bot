@@ -1,48 +1,38 @@
 # DisciplineFuel — Review Report
-Generated: 2026-05-28 07:16
+Generated: 2026-06-11 08:29
+
+> ⚠️ **ATTENTION NEEDED:** competitor_fetch
 
 ## System Health
-- Last competitor fetch: 2026-05-26T16:42 ✅
-- Last IG metrics fetch: 2026-05-28T07:16 ✅
-- IG hashtag quota used (7d): 10 / 30 ✅
+- Last competitor fetch: 2026-05-26T16:42 ⚠️
+- Last IG metrics fetch: 2026-06-11T08:29 ✅
+- IG hashtag quota used (7d): 0 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-05-18 | 0 | 12,327 | 9% |
 | 2026-05-19 | 0 | 12,327 | 9% |
 | 2026-05-20 | 0 | 11,119 | 7% |
 | 2026-05-22 | 0 | 11,119 | 7% |
 | 2026-05-24 | 0 | 6,348 | 8% |
 | 2026-05-25 | 0 | 6,348 | 8% |
 | 2026-05-26 | 0 | 11,220 | 10% |
+| 2026-05-28 | 0 | 11,220 | 10% |
 
 ## What Changed Today
 - Format mix: image 0% → 10%, carousel 0% → 10%
-- Blacklisted topic: "monster jam grinds"
-- Blacklisted topic: "the clock does not care about your excuses"
-- Blacklisted topic: "pain now or regret later"
-- Blacklisted topic: "stop waiting for motivation to start"
-- Blacklisted topic: "david goggins on excuses stop being lazy"
-- Blacklisted topic: "how to build discipline"
 - Blacklisted topic: "every delay is a vote against yourself"
+- Blacklisted topic: "pain now or regret later"
+- Blacklisted topic: "david goggins on excuses stop being lazy"
+- Blacklisted topic: "stop waiting for motivation to start"
 - Blacklisted topic: "fear is just comfort in disguise"
+- Blacklisted topic: "the clock does not care about your excuses"
+- Blacklisted topic: "how to build discipline"
+- Blacklisted topic: "monster jam grinds"
 
 ## What We Learned From Competitors
-- Scanned hashtags: hardworkpaysoff, motivationdaily, selfimprovementtips, stoicmindset, discipline
-- Posts analyzed: 50
-- Niche benchmark: 11,220 avg engagement | Our avg: 0 | Gap: -100%
-- Top hooks trending in niche:
-  1. "Inner peace isn’t just about what we embrace, it’s just as much about what we let go."
-  2. "Success doesn’t happen overnight."
-  3. "Follow aapki.safalta"
-  4. "Visual Weekend Roundup illustrated by me 😊"
-  5. "Follow 👉 we.think.deeply we.think.deeply we.think.deeply"
-- Hot power words: visual, illustrated, favorite, weekend, roundup, comment, ideas, don
-- Dominant quote structure: **statement**
-- Dominant media type: **IMAGE (52%)**
-- Caption length sweet spot: long
+- No competitor data this run (API unavailable or cached)
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
 | Creator | Avg Engagement | Appearances | Style | Length | Best Hook |
@@ -57,27 +47,26 @@ Generated: 2026-05-28 07:16
 | @? | 5,111 | 28 | statement | medium | "Follow world._.motivation  for more _____________" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 2 / 20 recent posts used trending power-words (10%) ⚠️
+- 4 / 20 recent posts used trending power-words (20%) ⚠️
   - ✅ "the night falls, and with it, our excuses. we wait for motivation, but..." (words: follow)
   - ✅ "there is a moment every morning when the world is still, and the clock..." (words: keep)
-  - ⚠️ "66 days is the average time it takes to build a habit, yet most people..."
-  - ⚠️ "start before ready"
+  - ⚠️ "what if every delay is a glimpse into the fears that hold you back? as..."
+  - ⚠️ "stop postponing your growth: every day is a chance to vote for yoursel..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (dark, reel) — "There is a moment every morning when the world is still, and the clock does not "
-2. **statement** (minimal, reel) — "What if time is not the enemy, but the mirror that reflects our discipline?"
-3. **statement** (luxury, reel) — "Set your schedule with intention, for time does not care about your excuses. Pri"
+1. **statement** (dark, reel) — "Waiting for the perfect moment is a myth. Growth happens in the silence, not in "
+2. **statement** (dark, reel) — "90% of people wait for the perfect moment to start, but winners don't wait, they"
+3. **statement** (dark, reel) — "There is a moment every morning when the world is still, and the clock does not "
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 156     | —          |
-| Avg score        | 1.8   | —          |
+| Posts scored     | 158     | —          |
+| Avg score        | 1.7   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 11,220      | -100% |
 
 ## Next Actions (Auto-applied)
 - Quote generator biased toward: **statement, command** structures
@@ -107,7 +96,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-05-27T18:27
+- Last cycle ran: 2026-06-10T18:30
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
