@@ -4590,6 +4590,42 @@
         "#dis_ciplinefuel",
         "#disciplinedaily"
       ]
+    },
+    {
+      "id": "wake_up_call_47_20260617_165434",
+      "ig_media_id": "18095623922340375",
+      "permalink": "https://www.instagram.com/reel/DZscWzGCINw/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 47,
+      "content_series": "Wake Up Call #47",
+      "topic": "nobody is coming to save you",
+      "selected_quote": "Are you waiting for someone to rescue you from your own complacency? Nobody is coming to save you, and that's a liberating truth. It's time to take control of your life, your growth, and your discipline.",
+      "quote_type": "statement",
+      "hook_keyword": "complacency",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-06-17T16:54:34.796517",
+      "dry_run": false,
+      "pillar": "hard_truth",
+      "hook_template": "question",
+      "pillar_hook_source": "picker",
+      "caption_structure": "single_line",
+      "caption_cta": "Comment your biggest excuse below.",
+      "hashtags_used": [
+        "#mentalresilience",
+        "#selfmastery",
+        "#seriousmindset",
+        "#stoicphilosophy",
+        "#stoicismdaily",
+        "#calmambition",
+        "#buildingcharacter",
+        "#disciplinefuel",
+        "#fueledbydiscipline"
+      ]
     }
   ]
 }

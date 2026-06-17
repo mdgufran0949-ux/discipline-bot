@@ -2582,6 +2582,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_47_20260617_165434",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 47,
+      "topic": "nobody is coming to save you",
+      "hook_keyword": "complacency",
+      "selected_quote": "Are you waiting for someone to rescue you from your own complacency? Nobody is coming to save you, and that's a liberating truth. It's time to take control of your life, your growth, and your discipline.",
+      "posted_at": "2026-06-17T16:54:34.796517",
+      "ig_media_id": "18095623922340375",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3072,10 +3093,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 123,
+    "total_posts": 124,
     "by_quote_type": {
       "question": 1,
-      "statement": 113,
+      "statement": 114,
       "contrast": 3,
       "punch": 3,
       "command": 3
@@ -3083,17 +3104,17 @@
     "by_design_style": {
       "minimal": 34,
       "dark": 37,
-      "luxury": 30,
+      "luxury": 31,
       "bold": 22
     },
     "by_format": {
       "image": 1,
-      "reel": 122
+      "reel": 123
     },
     "by_series": {
       "discipline_rule": 42,
       "day_becoming_better": 41,
-      "wake_up_call": 40
+      "wake_up_call": 41
     },
     "top_performing_series": "wake_up_call"
   },

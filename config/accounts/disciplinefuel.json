@@ -84,7 +84,7 @@
   ],
   "series_counters": {
     "discipline_rule": 48,
-    "wake_up_call": 46,
+    "wake_up_call": 47,
     "day_becoming_better": 46
   },
   "series_rotation": [
@@ -92,7 +92,7 @@
     "wake_up_call",
     "day_becoming_better"
   ],
-  "series_index": 1,
+  "series_index": 2,
   "content_topics": [
     "you keep choosing comfort over growth",
     "procrastination is self-betrayal",
@@ -125,7 +125,7 @@
     "fear is just comfort in disguise",
     "wake up before your competition does"
   ],
-  "topic_index": 14,
+  "topic_index": 15,
   "pipeline": {
     "trends": "tools/fetch_discipline_trends.py",
     "memory": "tools/discipline_memory.py",
