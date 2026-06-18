@@ -2624,6 +2624,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_49_20260618_162350",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 49,
+      "topic": "winners do not wait for the right moment",
+      "hook_keyword": "winners",
+      "selected_quote": "90% of winners don't wait for the right moment. They create it.",
+      "posted_at": "2026-06-18T16:23:50.666271",
+      "ig_media_id": "17909318217242748",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3114,26 +3135,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 125,
+    "total_posts": 126,
     "by_quote_type": {
       "question": 1,
-      "statement": 115,
+      "statement": 116,
       "contrast": 3,
       "punch": 3,
       "command": 3
     },
     "by_design_style": {
       "minimal": 34,
-      "dark": 37,
+      "dark": 38,
       "luxury": 31,
       "bold": 23
     },
     "by_format": {
       "image": 1,
-      "reel": 124
+      "reel": 125
     },
     "by_series": {
-      "discipline_rule": 42,
+      "discipline_rule": 43,
       "day_becoming_better": 42,
       "wake_up_call": 41
     },

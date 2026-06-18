@@ -4674,6 +4674,42 @@
         "#disciplinedaily",
         "#fueledbydiscipline"
       ]
+    },
+    {
+      "id": "discipline_rule_49_20260618_162350",
+      "ig_media_id": "17909318217242748",
+      "permalink": "https://www.instagram.com/reel/DZu9odBADEi/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 49,
+      "content_series": "Discipline Rule #49",
+      "topic": "winners do not wait for the right moment",
+      "selected_quote": "90% of winners don't wait for the right moment. They create it.",
+      "quote_type": "statement",
+      "hook_keyword": "winners",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-06-18T16:23:50.666271",
+      "dry_run": false,
+      "pillar": "hard_truth",
+      "hook_template": "stat_shock",
+      "pillar_hook_source": "picker",
+      "caption_structure": "numbered_list",
+      "caption_cta": "Follow @dis.ciplinefuel for daily fuel.",
+      "hashtags_used": [
+        "#mentalresilience",
+        "#consistencymindset",
+        "#quietambition",
+        "#personaldevelopmentdaily",
+        "#toughnessmindset",
+        "#slowgrowth",
+        "#hardtruthsquotes",
+        "#disciplinenotmotivation",
+        "#disciplinefuel"
+      ]
     }
   ]
 }
