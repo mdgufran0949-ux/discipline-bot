@@ -1,67 +1,79 @@
 # DisciplineFuel — Review Report
-Generated: 2026-06-16 17:55
-
-> ⚠️ **ATTENTION NEEDED:** competitor_fetch
+Generated: 2026-06-18 08:48
 
 ## System Health
-- Last competitor fetch: 2026-06-14T08:21 ⚠️
-- Last IG metrics fetch: 2026-06-16T17:55 ✅
+- Last competitor fetch: 2026-06-18T08:44 ✅
+- Last IG metrics fetch: 2026-06-18T08:48 ✅
 - IG hashtag quota used (7d): 5 / 30 ✅
-- Consecutive failed competitor fetches: 0
+- Consecutive failed competitor fetches: 1
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-05-25 | 0 | 6,348 | 8% |
 | 2026-05-26 | 0 | 11,220 | 10% |
 | 2026-05-28 | 0 | 11,220 | 10% |
 | 2026-06-11 | 0 | 0 | 10% |
 | 2026-06-12 | 0 | 0 | 10% |
 | 2026-06-14 | 0 | 8,258 | 13% |
 | 2026-06-15 | 0 | 8,258 | 13% |
+| 2026-06-16 | 0 | 0 | 13% |
 
 ## What Changed Today
-- Format mix: unchanged (image 7%, carousel 13%)
-- No significant changes this run (system is stable)
+- Format mix: image 7% → 8%, carousel 13% → 12%
 
 ## What We Learned From Competitors
-- No competitor data this run (API unavailable or cached)
+- Scanned hashtags: selfimprovementtips, stoicmindset, discipline, selfdiscipline, disciplinequotes
+- Posts analyzed: 50
+- Niche benchmark: 15,768 avg engagement | Our avg: 0 | Gap: -100%
+- Top hooks trending in niche:
+  1. "We must all suffer from one of two pains:"
+  2. "Follow selfelevatepro for daily discipline"
+  3. "Built in silence."
+  4. "Follow aapki.safalta"
+  5. "Visual Weekend Roundup illustrated by me 😊"
+- Hot power words: follow, visual, discipline, illustrated, weekend, roundup, favorite, don
+- Dominant quote structure: **statement**
+- Dominant media type: **CAROUSEL_ALBUM (62%)**
+- Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
 | Creator | Avg Engagement | Appearances | Style | Length | Best Hook |
 |---------|---------------|-------------|-------|--------|-----------|
 | @? | 17,852 | 13 | statement | medium | "Follow selfelevatepro for daily discipline" |
+| @? | 15,790 | 2 | statement | long | "Average Natural 🇮🇳 Aesthetics 🧬 🦍" |
 | @? | 13,407 | 6 | statement | long | "Let me tell you something that most men refuse to accept—" |
 | @? | 11,344 | 12 | command | long | "Save this post as a guide and share it with a friend ✅" |
+| @? | 8,723 | 2 | statement | long | "Drop two ❤ if you needed to see this!" |
 | @? | 7,970 | 4 | statement | long | "Most men break once." |
 | @? | 7,948 | 6 | statement | long | "Follow 👉 we.think.deeply we.think.deeply we.think.deeply" |
-| @? | 6,267 | 122 | statement | long | "Visual Weekend Roundup illustrated by me 😊" |
-| @? | 6,024 | 4 | command | long | "Build your castle on a solid foundation." |
-| @? | 5,111 | 28 | statement | medium | "Follow world._.motivation  for more _____________" |
+| @? | 6,684 | 136 | statement | long | "We must all suffer from one of two pains:" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 0 / 20 recent posts used trending power-words (0%) ⚠️
-  - ⚠️ "what if every delay is a glimpse into the fears that hold you back? as..."
-  - ⚠️ "stop postponing your growth: every day is a chance to vote for yoursel..."
+- 14 / 20 recent posts used trending power-words (70%) ✅
+  - ✅ "early rising is not about being more productive, it's about being more..." (words: discipline)
+  - ✅ "the night falls, and with it, our excuses. we wait for motivation, but..." (words: follow, discipline)
+  - ⚠️ "90% of the competition sleeps in. the rest build their legacy before d..."
+  - ⚠️ "there is a kind of silence that precedes every failure, a silence that..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (dark, reel) — "Waiting for the perfect moment is a myth. Growth happens in the silence, not in "
-2. **statement** (dark, reel) — "90% of people wait for the perfect moment to start, but winners don't wait, they"
-3. **statement** (dark, reel) — "There is a moment every morning when the world is still, and the clock does not "
+1. **statement** (luxury, reel) — "Are you waiting for someone to rescue you from your own complacency? Nobody is c"
+2. **punch** (dark, reel) — "Save yourself."
+3. **statement** (dark, reel) — "Waiting for the perfect moment is a myth. Growth happens in the silence, not in "
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 158     | —          |
-| Avg score        | 1.7   | —          |
+| Posts scored     | 160     | —          |
+| Avg score        | 1.8   | —          |
 | High performers  | 0       | —          |
+| Avg engagement   | 1   | 15,768      | -100% |
 
 ## Next Actions (Auto-applied)
-- Quote generator biased toward: **statement, contrast** structures
-- Carousel ratio set to 13%
+- Quote generator biased toward: **pain_driven, statement** structures
+- Carousel ratio set to 12%
 - 5 trending hooks injected into next LLM prompts
 
 ## Content Intelligence — Pillar Performance
@@ -87,7 +99,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-06-16T13:31
+- Last cycle ran: 2026-06-17T18:08
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
