@@ -2666,6 +2666,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_48_20260619_160002",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 48,
+      "topic": "your future self is watching you right now",
+      "hook_keyword": "future",
+      "selected_quote": "What if your future self is watching you right now, silently judging the choices you make?",
+      "posted_at": "2026-06-19T16:00:02.241842",
+      "ig_media_id": "17917580898385598",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3157,10 +3178,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 127,
+    "total_posts": 128,
     "by_quote_type": {
       "question": 1,
-      "statement": 117,
+      "statement": 118,
       "contrast": 3,
       "punch": 3,
       "command": 3
@@ -3168,16 +3189,16 @@
     "by_design_style": {
       "minimal": 34,
       "dark": 38,
-      "luxury": 32,
+      "luxury": 33,
       "bold": 23
     },
     "by_format": {
       "image": 1,
-      "reel": 126
+      "reel": 127
     },
     "by_series": {
       "discipline_rule": 43,
-      "day_becoming_better": 42,
+      "day_becoming_better": 43,
       "wake_up_call": 42
     },
     "top_performing_series": "discipline_rule"
