@@ -2687,6 +2687,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_50_20260620_073940",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 50,
+      "topic": "your future self is watching you right now",
+      "hook_keyword": "discipline",
+      "selected_quote": "Establish a daily routine that serves your future self, for the life you build today is a reflection of the discipline you practice now",
+      "posted_at": "2026-06-20T07:39:40.413812",
+      "ig_media_id": "18103095227323474",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3178,10 +3199,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 128,
+    "total_posts": 129,
     "by_quote_type": {
       "question": 1,
-      "statement": 118,
+      "statement": 119,
       "contrast": 3,
       "punch": 3,
       "command": 3
@@ -3190,14 +3211,14 @@
       "minimal": 34,
       "dark": 38,
       "luxury": 33,
-      "bold": 23
+      "bold": 24
     },
     "by_format": {
       "image": 1,
-      "reel": 127
+      "reel": 128
     },
     "by_series": {
-      "discipline_rule": 43,
+      "discipline_rule": 44,
       "day_becoming_better": 43,
       "wake_up_call": 42
     },

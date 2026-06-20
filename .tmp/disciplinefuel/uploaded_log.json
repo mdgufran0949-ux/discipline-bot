@@ -4810,6 +4810,42 @@
         "#disciplinefuel",
         "#fueledbydiscipline"
       ]
+    },
+    {
+      "id": "discipline_rule_50_20260620_073940",
+      "ig_media_id": "18103095227323474",
+      "permalink": "https://www.instagram.com/reel/DZzLPh1j5Yb/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 50,
+      "content_series": "Discipline Rule #50",
+      "topic": "your future self is watching you right now",
+      "selected_quote": "Establish a daily routine that serves your future self, for the life you build today is a reflection of the discipline you practice now",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-06-20T07:39:40.413812",
+      "dry_run": false,
+      "pillar": "tactical",
+      "hook_template": "command",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Follow @dis.ciplinefuel for daily fuel.",
+      "hashtags_used": [
+        "#selfimprovementdaily",
+        "#mentalresilience",
+        "#selfgrowthjourney",
+        "#buildcharacter",
+        "#slowgrowth",
+        "#buildingcharacter",
+        "#hardworkdaily",
+        "#disciplinenotmotivation",
+        "#dis_ciplinefuel"
+      ]
     }
   ]
 }
