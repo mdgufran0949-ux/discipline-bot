@@ -1,40 +1,41 @@
 # DisciplineFuel — Review Report
-Generated: 2026-06-19 09:04
+Generated: 2026-06-20 15:03
 
 ## System Health
-- Last competitor fetch: 2026-06-18T08:44 ✅
-- Last IG metrics fetch: 2026-06-19T09:04 ✅
+- Last competitor fetch: 2026-06-20T15:01 ✅
+- Last IG metrics fetch: 2026-06-20T15:03 ✅
 - IG hashtag quota used (7d): 9 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-05-28 | 0 | 11,220 | 10% |
 | 2026-06-11 | 0 | 0 | 10% |
 | 2026-06-12 | 0 | 0 | 10% |
 | 2026-06-14 | 0 | 8,258 | 13% |
 | 2026-06-15 | 0 | 8,258 | 13% |
 | 2026-06-16 | 0 | 0 | 13% |
 | 2026-06-18 | 0 | 15,768 | 12% |
+| 2026-06-19 | 0 | 15,768 | 12% |
 
 ## What Changed Today
-- Format mix: image 7% → 8%, carousel 13% → 12%
+- Format mix: image 7% → 9%, carousel 13% → 11%
 - Blacklisted topic: "winners do not wait for the right moment"
+- Blacklisted topic: "your future self is watching you right now"
 
 ## What We Learned From Competitors
-- Scanned hashtags: selfimprovementtips, stoicmindset, discipline, selfdiscipline, disciplinequotes
+- Scanned hashtags: discipline, selfdiscipline, disciplinequotes, mentality, mindsetmatters
 - Posts analyzed: 50
-- Niche benchmark: 15,768 avg engagement | Our avg: 0 | Gap: -100%
+- Niche benchmark: 12,451 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
-  1. "We must all suffer from one of two pains:"
-  2. "Follow selfelevatepro for daily discipline"
-  3. "Built in silence."
-  4. "Follow aapki.safalta"
-  5. "Visual Weekend Roundup illustrated by me 😊"
-- Hot power words: follow, visual, discipline, illustrated, weekend, roundup, favorite, don
+  1. "Built in silence."
+  2. "Most people are controlled not by others, but by habits they refuse to examine."
+  3. "Double tap to agree 👆"
+  4. "New rule ‼️‼️‼️‼️ no looking back anymore!"
+  5. "Average Natural 🇮🇳 Aesthetics 🧬 🦍"
+- Hot power words: discipline, every, keep, follow, let, stay, his, built
 - Dominant quote structure: **statement**
-- Dominant media type: **CAROUSEL_ALBUM (62%)**
+- Dominant media type: **CAROUSEL_ALBUM (54%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
@@ -42,39 +43,39 @@ Generated: 2026-06-19 09:04
 |---------|---------------|-------------|-------|--------|-----------|
 | @? | 17,852 | 13 | statement | medium | "Follow selfelevatepro for daily discipline" |
 | @? | 15,790 | 4 | statement | long | "Average Natural 🇮🇳 Aesthetics 🧬 🦍" |
+| @? | 14,384 | 2 | statement | long | "Double tap to agree 👆" |
 | @? | 13,407 | 6 | statement | long | "Let me tell you something that most men refuse to accept—" |
 | @? | 11,344 | 12 | command | long | "Save this post as a guide and share it with a friend ✅" |
-| @? | 8,723 | 4 | statement | long | "Drop two ❤ if you needed to see this!" |
-| @? | 7,970 | 4 | statement | long | "Most men break once." |
-| @? | 7,948 | 6 | statement | long | "Follow 👉 we.think.deeply we.think.deeply we.think.deeply" |
-| @? | 7,023 | 150 | statement | long | "We must all suffer from one of two pains:" |
+| @? | 8,870 | 2 | statement | long | "इस फ़रवरी तुम्हें नहीं… तुम्हारी आदतों को बदलना है।" |
+| @? | 8,796 | 8 | statement | long | "Most people are controlled not by others, but by habits they" |
+| @? | 8,723 | 6 | statement | long | "Drop two ❤ if you needed to see this!" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 15 / 20 recent posts used trending power-words (75%) ✅
-  - ✅ "the night falls, and with it, our excuses. we wait for motivation, but..." (words: follow, discipline)
-  - ✅ "start before you're ready, because life doesn't wait for motivation to..." (words: life)
-  - ⚠️ "there is a kind of silence that precedes every failure, a silence that..."
-  - ⚠️ "rethink your approach to every challenge, embracing the unknown as a c..."
+- 17 / 20 recent posts used trending power-words (85%) ✅
+  - ✅ "42 days into the grind, every rep shapes discipline." (words: discipline, every)
+  - ✅ "there is a kind of silence that precedes every failure, a silence that..." (words: every)
+  - ⚠️ "complacency is the most rewarding feeling, yet it's the beginning of o..."
+  - ⚠️ "save yourself."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (dark, reel) — "90% of winners don't wait for the right moment. They create it."
-2. **statement** (bold, reel) — "The night he decided to start was the same night he realized winners don't wait "
-3. **statement** (luxury, reel) — "Are you waiting for someone to rescue you from your own complacency? Nobody is c"
+1. **statement** (bold, reel) — "Establish a daily routine that serves your future self, for the life you build t"
+2. **statement** (luxury, reel) — "What if your future self is watching you right now, silently judging the choices"
+3. **statement** (luxury, reel) — "Discipline is not a restriction, but a liberation. It allows us to focus on what"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 162     | —          |
+| Posts scored     | 165     | —          |
 | Avg score        | 1.7   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 15,768      | -100% |
+| Avg engagement   | 1   | 12,451      | -100% |
 
 ## Next Actions (Auto-applied)
-- Quote generator biased toward: **pain_driven, statement** structures
-- Carousel ratio set to 12%
+- Quote generator biased toward: **statement, contrast** structures
+- Carousel ratio set to 11%
 - 5 trending hooks injected into next LLM prompts
 
 ## Content Intelligence — Pillar Performance
@@ -100,7 +101,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-06-18T18:23
+- Last cycle ran: 2026-06-20T14:37
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
