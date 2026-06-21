@@ -1,161 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-06-14T07:17:53.149940",
+  "last_updated": "2026-06-21T07:28:53.982624",
   "tracks": [
-    {
-      "track_id": "reframe_1121396",
-      "jamendo_id": "1121396",
-      "pillar": "reframe",
-      "title": "Give Me a Change",
-      "artist_name": "Marco Margna",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 202,
-      "downloaded_at": "2026-05-24T06:29:51.183098",
-      "file_path": "audio_library/reframe/1121396.mp3"
-    },
-    {
-      "track_id": "reframe_2258683",
-      "jamendo_id": "2258683",
-      "pillar": "reframe",
-      "title": "Soothing Wind Energy I Free Background Music I Free Music Lab Release",
-      "artist_name": "Free Music Lab",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 292,
-      "downloaded_at": "2026-05-24T06:29:56.016997",
-      "file_path": "audio_library/reframe/2258683.mp3"
-    },
-    {
-      "track_id": "hard_truth_2313014",
-      "jamendo_id": "2313014",
-      "pillar": "hard_truth",
-      "title": "The Dark Protector",
-      "artist_name": "Grégoire Lourme",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 246,
-      "downloaded_at": "2026-05-31T06:50:44.737864",
-      "file_path": "audio_library/hard_truth/2313014.mp3"
-    },
-    {
-      "track_id": "hard_truth_2140682",
-      "jamendo_id": "2140682",
-      "pillar": "hard_truth",
-      "title": "IN THIS DARK",
-      "artist_name": "LEEAAV",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 201,
-      "downloaded_at": "2026-05-31T06:50:49.703377",
-      "file_path": "audio_library/hard_truth/2140682.mp3"
-    },
-    {
-      "track_id": "hard_truth_2313015",
-      "jamendo_id": "2313015",
-      "pillar": "hard_truth",
-      "title": "The Dark Protector (No choir)",
-      "artist_name": "Grégoire Lourme",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 246,
-      "downloaded_at": "2026-05-31T06:50:55.676134",
-      "file_path": "audio_library/hard_truth/2313015.mp3"
-    },
-    {
-      "track_id": "hard_truth_1273561",
-      "jamendo_id": "1273561",
-      "pillar": "hard_truth",
-      "title": "Ride",
-      "artist_name": "Fox &amp; Mew",
-      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
-      "duration": 238,
-      "downloaded_at": "2026-05-31T06:51:01.942410",
-      "file_path": "audio_library/hard_truth/1273561.mp3"
-    },
-    {
-      "track_id": "hard_truth_1214597",
-      "jamendo_id": "1214597",
-      "pillar": "hard_truth",
-      "title": "To Die For",
-      "artist_name": "JARA",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 158,
-      "downloaded_at": "2026-05-31T06:51:06.193104",
-      "file_path": "audio_library/hard_truth/1214597.mp3"
-    },
-    {
-      "track_id": "tactical_1490284",
-      "jamendo_id": "1490284",
-      "pillar": "tactical",
-      "title": "Sour Theme",
-      "artist_name": "SRB",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "duration": 216,
-      "downloaded_at": "2026-05-31T06:51:11.710451",
-      "file_path": "audio_library/tactical/1490284.mp3"
-    },
-    {
-      "track_id": "tactical_1535253",
-      "jamendo_id": "1535253",
-      "pillar": "tactical",
-      "title": "Subatomic",
-      "artist_name": "iNDEX",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "duration": 309,
-      "downloaded_at": "2026-05-31T06:51:20.447931",
-      "file_path": "audio_library/tactical/1535253.mp3"
-    },
-    {
-      "track_id": "tactical_1411145",
-      "jamendo_id": "1411145",
-      "pillar": "tactical",
-      "title": "Raga 2",
-      "artist_name": "XOs",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 168,
-      "downloaded_at": "2026-05-31T06:51:24.665051",
-      "file_path": "audio_library/tactical/1411145.mp3"
-    },
-    {
-      "track_id": "tactical_1656176",
-      "jamendo_id": "1656176",
-      "pillar": "tactical",
-      "title": "Background Ambiemt Glitch Loop 2",
-      "artist_name": "DHDMusic",
-      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
-      "duration": 19,
-      "downloaded_at": "2026-05-31T06:51:25.883842",
-      "file_path": "audio_library/tactical/1656176.mp3"
-    },
-    {
-      "track_id": "tactical_1487951",
-      "jamendo_id": "1487951",
-      "pillar": "tactical",
-      "title": "Ambient",
-      "artist_name": "Yuriy Shishlov",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 102,
-      "downloaded_at": "2026-05-31T06:51:28.817554",
-      "file_path": "audio_library/tactical/1487951.mp3"
-    },
-    {
-      "track_id": "reframe_1234660",
-      "jamendo_id": "1234660",
-      "pillar": "reframe",
-      "title": "Yes or No",
-      "artist_name": "studyBreak",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "duration": 220,
-      "downloaded_at": "2026-05-31T06:51:35.417302",
-      "file_path": "audio_library/reframe/1234660.mp3"
-    },
-    {
-      "track_id": "reframe_1234662",
-      "jamendo_id": "1234662",
-      "pillar": "reframe",
-      "title": "Choices",
-      "artist_name": "studyBreak",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "duration": 204,
-      "downloaded_at": "2026-05-31T06:51:40.946481",
-      "file_path": "audio_library/reframe/1234662.mp3"
-    },
     {
       "track_id": "reframe_1234661",
       "jamendo_id": "1234661",
@@ -177,61 +23,6 @@
       "duration": 263,
       "downloaded_at": "2026-05-31T06:51:53.140653",
       "file_path": "audio_library/reframe/1830957.mp3"
-    },
-    {
-      "track_id": "story_proof_1826189",
-      "jamendo_id": "1826189",
-      "pillar": "story_proof",
-      "title": "Not the One to Say (I Told You So) (24-bit Master)",
-      "artist_name": "Cole Powell",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 235,
-      "downloaded_at": "2026-05-31T06:51:58.972108",
-      "file_path": "audio_library/story_proof/1826189.mp3"
-    },
-    {
-      "track_id": "story_proof_2203626",
-      "jamendo_id": "2203626",
-      "pillar": "story_proof",
-      "title": "Alive",
-      "artist_name": "Songwriterz",
-      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
-      "duration": 234,
-      "downloaded_at": "2026-05-31T06:52:04.660891",
-      "file_path": "audio_library/story_proof/2203626.mp3"
-    },
-    {
-      "track_id": "story_proof_2266835",
-      "jamendo_id": "2266835",
-      "pillar": "story_proof",
-      "title": "Pop &amp; Deep House",
-      "artist_name": "TNDR Productions",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 275,
-      "downloaded_at": "2026-05-31T06:52:11.108703",
-      "file_path": "audio_library/story_proof/2266835.mp3"
-    },
-    {
-      "track_id": "story_proof_1840623",
-      "jamendo_id": "1840623",
-      "pillar": "story_proof",
-      "title": "My Heart Blows Up (Explosions)",
-      "artist_name": "Anton Leuba",
-      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
-      "duration": 219,
-      "downloaded_at": "2026-05-31T06:52:16.197741",
-      "file_path": "audio_library/story_proof/1840623.mp3"
-    },
-    {
-      "track_id": "story_proof_1933339",
-      "jamendo_id": "1933339",
-      "pillar": "story_proof",
-      "title": "The River",
-      "artist_name": "Stingray SZN",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 289,
-      "downloaded_at": "2026-05-31T06:52:22.605585",
-      "file_path": "audio_library/story_proof/1933339.mp3"
     },
     {
       "track_id": "hard_truth_2004479",
@@ -650,6 +441,215 @@
       "duration": 152,
       "downloaded_at": "2026-06-14T07:17:53.146643",
       "file_path": "audio_library/story_proof/1981752.mp3"
+    },
+    {
+      "track_id": "hard_truth_2040935",
+      "jamendo_id": "2040935",
+      "pillar": "hard_truth",
+      "title": "Like I Do",
+      "artist_name": "I. D. F. X.",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 191,
+      "downloaded_at": "2026-06-21T07:26:45.561258",
+      "file_path": "audio_library/hard_truth/2040935.mp3"
+    },
+    {
+      "track_id": "hard_truth_2043011",
+      "jamendo_id": "2043011",
+      "pillar": "hard_truth",
+      "title": "Into The Sky",
+      "artist_name": "Lesya NZ",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 186,
+      "downloaded_at": "2026-06-21T07:26:51.522714",
+      "file_path": "audio_library/hard_truth/2043011.mp3"
+    },
+    {
+      "track_id": "hard_truth_2180016",
+      "jamendo_id": "2180016",
+      "pillar": "hard_truth",
+      "title": "Love You Anymore (feat. Seven)",
+      "artist_name": "Tom Orlando",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 156,
+      "downloaded_at": "2026-06-21T07:27:04.872091",
+      "file_path": "audio_library/hard_truth/2180016.mp3"
+    },
+    {
+      "track_id": "hard_truth_1904435",
+      "jamendo_id": "1904435",
+      "pillar": "hard_truth",
+      "title": "Reflections (feat. Mathias Hagen)",
+      "artist_name": "Kevin S.",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 258,
+      "downloaded_at": "2026-06-21T07:27:12.804618",
+      "file_path": "audio_library/hard_truth/1904435.mp3"
+    },
+    {
+      "track_id": "hard_truth_2300623",
+      "jamendo_id": "2300623",
+      "pillar": "hard_truth",
+      "title": "Entanglement",
+      "artist_name": "Stokastico",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 213,
+      "downloaded_at": "2026-06-21T07:27:19.776749",
+      "file_path": "audio_library/hard_truth/2300623.mp3"
+    },
+    {
+      "track_id": "tactical_1502537",
+      "jamendo_id": "1502537",
+      "pillar": "tactical",
+      "title": "Detachment from reality",
+      "artist_name": "Anginc",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 291,
+      "downloaded_at": "2026-06-21T07:27:28.630215",
+      "file_path": "audio_library/tactical/1502537.mp3"
+    },
+    {
+      "track_id": "tactical_1522580",
+      "jamendo_id": "1522580",
+      "pillar": "tactical",
+      "title": "Mirage",
+      "artist_name": "Ad Libitum",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 427,
+      "downloaded_at": "2026-06-21T07:27:39.157042",
+      "file_path": "audio_library/tactical/1522580.mp3"
+    },
+    {
+      "track_id": "tactical_1445184",
+      "jamendo_id": "1445184",
+      "pillar": "tactical",
+      "title": "The Sun",
+      "artist_name": "Amoebacrew",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 168,
+      "downloaded_at": "2026-06-21T07:27:44.849205",
+      "file_path": "audio_library/tactical/1445184.mp3"
+    },
+    {
+      "track_id": "tactical_1535251",
+      "jamendo_id": "1535251",
+      "pillar": "tactical",
+      "title": "70s,90s-next stop everywhere",
+      "artist_name": "iNDEX",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 259,
+      "downloaded_at": "2026-06-21T07:27:52.897286",
+      "file_path": "audio_library/tactical/1535251.mp3"
+    },
+    {
+      "track_id": "tactical_1528678",
+      "jamendo_id": "1528678",
+      "pillar": "tactical",
+      "title": "Ambient Inspiring Loop",
+      "artist_name": "Heavenless",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 122,
+      "downloaded_at": "2026-06-21T07:27:57.288385",
+      "file_path": "audio_library/tactical/1528678.mp3"
+    },
+    {
+      "track_id": "reframe_2230315",
+      "jamendo_id": "2230315",
+      "pillar": "reframe",
+      "title": "Wanting and Waiting",
+      "artist_name": "Occasionally Humans",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 240,
+      "downloaded_at": "2026-06-21T07:28:05.757918",
+      "file_path": "audio_library/reframe/2230315.mp3"
+    },
+    {
+      "track_id": "reframe_1833805",
+      "jamendo_id": "1833805",
+      "pillar": "reframe",
+      "title": "Beautiful Lounge",
+      "artist_name": "Sergey Gulevich",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 144,
+      "downloaded_at": "2026-06-21T07:28:10.551886",
+      "file_path": "audio_library/reframe/1833805.mp3"
+    },
+    {
+      "track_id": "reframe_2208995",
+      "jamendo_id": "2208995",
+      "pillar": "reframe",
+      "title": "Igor Pumphonia - The Other Way (2nd Version)",
+      "artist_name": "Igor Pumphonia",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 202,
+      "downloaded_at": "2026-06-21T07:28:16.748920",
+      "file_path": "audio_library/reframe/2208995.mp3"
+    },
+    {
+      "track_id": "reframe_2163964",
+      "jamendo_id": "2163964",
+      "pillar": "reframe",
+      "title": "Tears",
+      "artist_name": "Aminolen",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 332,
+      "downloaded_at": "2026-06-21T07:28:26.684306",
+      "file_path": "audio_library/reframe/2163964.mp3"
+    },
+    {
+      "track_id": "story_proof_1982365",
+      "jamendo_id": "1982365",
+      "pillar": "story_proof",
+      "title": "Abstract Ideas",
+      "artist_name": "DHDMusic",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 114,
+      "downloaded_at": "2026-06-21T07:28:31.182916",
+      "file_path": "audio_library/story_proof/1982365.mp3"
+    },
+    {
+      "track_id": "story_proof_2124813",
+      "jamendo_id": "2124813",
+      "pillar": "story_proof",
+      "title": "African Vibe",
+      "artist_name": "DHDMusic",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 121,
+      "downloaded_at": "2026-06-21T07:28:35.466085",
+      "file_path": "audio_library/story_proof/2124813.mp3"
+    },
+    {
+      "track_id": "story_proof_1886257",
+      "jamendo_id": "1886257",
+      "pillar": "story_proof",
+      "title": "Alone",
+      "artist_name": "Color Out",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 245,
+      "downloaded_at": "2026-06-21T07:28:42.411098",
+      "file_path": "audio_library/story_proof/1886257.mp3"
+    },
+    {
+      "track_id": "story_proof_2137882",
+      "jamendo_id": "2137882",
+      "pillar": "story_proof",
+      "title": "Bad Intentions",
+      "artist_name": "Bessonn&amp;sa",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 181,
+      "downloaded_at": "2026-06-21T07:28:48.060553",
+      "file_path": "audio_library/story_proof/2137882.mp3"
+    },
+    {
+      "track_id": "story_proof_1892110",
+      "jamendo_id": "1892110",
+      "pillar": "story_proof",
+      "title": "Dile Cuanto la Quiero",
+      "artist_name": "Igmar",
+      "license_url": "http://creativecommons.org/licenses/by/3.0/",
+      "duration": 174,
+      "downloaded_at": "2026-06-21T07:28:53.978836",
+      "file_path": "audio_library/story_proof/1892110.mp3"
     }
   ]
 }
