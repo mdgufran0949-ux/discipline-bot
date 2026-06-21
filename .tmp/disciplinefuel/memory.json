@@ -2729,6 +2729,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_49_20260621_083030",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 49,
+      "topic": "discipline is doing it when you do not feel like it",
+      "hook_keyword": "discipline",
+      "selected_quote": "90 days of consistent effort can transform your habits, and it's in these moments of discipline that we discover our true potential",
+      "posted_at": "2026-06-21T08:30:30.135110",
+      "ig_media_id": "18255566968306306",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3221,10 +3242,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 130,
+    "total_posts": 131,
     "by_quote_type": {
       "question": 1,
-      "statement": 120,
+      "statement": 121,
       "contrast": 3,
       "punch": 3,
       "command": 3
@@ -3232,16 +3253,16 @@
     "by_design_style": {
       "minimal": 34,
       "dark": 38,
-      "luxury": 34,
+      "luxury": 35,
       "bold": 24
     },
     "by_format": {
       "image": 1,
-      "reel": 129
+      "reel": 130
     },
     "by_series": {
       "discipline_rule": 44,
-      "day_becoming_better": 43,
+      "day_becoming_better": 44,
       "wake_up_call": 43
     },
     "top_performing_series": "discipline_rule"
