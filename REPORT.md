@@ -1,41 +1,42 @@
 # DisciplineFuel — Review Report
-Generated: 2026-06-21 15:24
+Generated: 2026-06-22 17:37
 
 ## System Health
-- Last competitor fetch: 2026-06-20T15:01 ✅
-- Last IG metrics fetch: 2026-06-21T15:24 ✅
-- IG hashtag quota used (7d): 10 / 30 ✅
+- Last competitor fetch: 2026-06-22T17:34 ✅
+- Last IG metrics fetch: 2026-06-22T17:37 ✅
+- IG hashtag quota used (7d): 7 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-06-12 | 0 | 0 | 10% |
 | 2026-06-14 | 0 | 8,258 | 13% |
 | 2026-06-15 | 0 | 8,258 | 13% |
 | 2026-06-16 | 0 | 0 | 13% |
 | 2026-06-18 | 0 | 15,768 | 12% |
 | 2026-06-19 | 0 | 15,768 | 12% |
 | 2026-06-20 | 0 | 12,451 | 11% |
+| 2026-06-21 | 0 | 12,451 | 11% |
 
 ## What Changed Today
-- Format mix: image 7% → 9%, carousel 13% → 11%
+- Format mix: image 7% → 10%, carousel 13% → 10%
+- Blacklisted topic: "wake up before your competition does"
 - Blacklisted topic: "your future self is watching you right now"
 - Blacklisted topic: "winners do not wait for the right moment"
 
 ## What We Learned From Competitors
-- Scanned hashtags: discipline, selfdiscipline, disciplinequotes, mentality, mindsetmatters
+- Scanned hashtags: disciplinequotes, mentality, mindsetmatters, grindmode, hardworkpaysoff
 - Posts analyzed: 50
-- Niche benchmark: 12,451 avg engagement | Our avg: 0 | Gap: -100%
+- Niche benchmark: 10,617 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
-  1. "Built in silence."
-  2. "Most people are controlled not by others, but by habits they refuse to examine."
-  3. "Double tap to agree 👆"
-  4. "New rule ‼️‼️‼️‼️ no looking back anymore!"
-  5. "Average Natural 🇮🇳 Aesthetics 🧬 🦍"
-- Hot power words: discipline, every, keep, follow, let, stay, his, built
+  1. "Most people are controlled not by others, but by habits they refuse to examine."
+  2. "Double tap to agree 👆"
+  3. "New rule ‼️‼️‼️‼️ no looking back anymore!"
+  4. "Save this post as a guide and share it with a friend ✅"
+  5. "Modern life complicated everything."
+- Hot power words: life, follow, let, hard, don, work, people, discipline
 - Dominant quote structure: **statement**
-- Dominant media type: **CAROUSEL_ALBUM (54%)**
+- Dominant media type: **IMAGE (50%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
@@ -43,39 +44,39 @@ Generated: 2026-06-21 15:24
 |---------|---------------|-------------|-------|--------|-----------|
 | @? | 17,852 | 13 | statement | medium | "Follow selfelevatepro for daily discipline" |
 | @? | 15,790 | 4 | statement | long | "Average Natural 🇮🇳 Aesthetics 🧬 🦍" |
-| @? | 14,384 | 4 | statement | long | "Double tap to agree 👆" |
 | @? | 13,407 | 6 | statement | long | "Let me tell you something that most men refuse to accept—" |
+| @? | 12,187 | 8 | statement | long | "Double tap to agree 👆" |
 | @? | 11,344 | 12 | command | long | "Save this post as a guide and share it with a friend ✅" |
-| @? | 9,071 | 12 | statement | long | "Most people are controlled not by others, but by habits they" |
+| @? | 9,208 | 16 | statement | long | "Most people are controlled not by others, but by habits they" |
 | @? | 8,870 | 4 | statement | long | "इस फ़रवरी तुम्हें नहीं… तुम्हारी आदतों को बदलना है।" |
 | @? | 8,723 | 8 | statement | long | "Drop two ❤ if you needed to see this!" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 17 / 20 recent posts used trending power-words (85%) ✅
-  - ✅ "rethink your approach to every challenge, embracing the unknown as a c..." (words: every)
-  - ✅ "what if your future self is watching you right now, silently witnessin..." (words: discipline, every, his)
-  - ⚠️ "complacency is the most rewarding feeling, yet it's the beginning of o..."
+- 18 / 20 recent posts used trending power-words (90%) ✅
+  - ✅ "what if your future self is watching you right now, silently witnessin..." (words: life, discipline)
+  - ✅ "discipline born in darkness." (words: discipline)
   - ⚠️ "save yourself."
+  - ⚠️ "what if your future self is watching you right now, silently judging t..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (luxury, reel) — "90 days of consistent effort can transform your habits, and it's in these moment"
-2. **statement** (luxury, reel) — "In the stillness of every morning, we're reminded that discipline is not about f"
-3. **statement** (bold, reel) — "Establish a daily routine that serves your future self, for the life you build t"
+1. **statement** (luxury, reel) — "What if waking up before the sun rises is the discipline that sets you apart fro"
+2. **contrast** (bold, reel) — "While most people believe that waking up at the crack of dawn is a sign of weakn"
+3. **statement** (luxury, reel) — "90 days of consistent effort can transform your habits, and it's in these moment"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 167     | —          |
+| Posts scored     | 169     | —          |
 | Avg score        | 1.7   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 12,451      | -100% |
+| Avg engagement   | 1   | 10,617      | -100% |
 
 ## Next Actions (Auto-applied)
 - Quote generator biased toward: **statement, contrast** structures
-- Carousel ratio set to 11%
+- Carousel ratio set to 10%
 - 5 trending hooks injected into next LLM prompts
 
 ## Content Intelligence — Pillar Performance
@@ -101,7 +102,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-06-21T14:41
+- Last cycle ran: 2026-06-22T14:22
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*

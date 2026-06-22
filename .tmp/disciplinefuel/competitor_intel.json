@@ -1,34 +1,22 @@
 {
-  "last_updated": "2026-06-20T15:01:08.152447",
+  "last_updated": "2026-06-22T17:34:08.938631",
   "hashtags_scanned": [
-    "discipline",
-    "selfdiscipline",
     "disciplinequotes",
     "mentality",
-    "mindsetmatters"
+    "mindsetmatters",
+    "grindmode",
+    "hardworkpaysoff"
   ],
   "total_posts_analyzed": 50,
   "top_posts": [
-    {
-      "media_id": "18064927613710256",
-      "permalink": "https://www.instagram.com/p/DZg0u5HSpR4/",
-      "hashtag_source": "discipline",
-      "media_type": "IMAGE",
-      "like_count": 40322,
-      "comments_count": 0,
-      "engagement_score": 40322,
-      "hook_line": "Built in silence.",
-      "caption_length": 164,
-      "detected_structure": "statement"
-    },
     {
       "media_id": "17968921941119724",
       "permalink": "https://www.instagram.com/p/DZiIqK3SOVN/",
       "hashtag_source": "mindsetmatters",
       "media_type": "IMAGE",
-      "like_count": 34903,
+      "like_count": 34865,
       "comments_count": 0,
-      "engagement_score": 34903,
+      "engagement_score": 34865,
       "hook_line": "Focused.",
       "caption_length": 99,
       "detected_structure": "statement"
@@ -38,9 +26,9 @@
       "permalink": "https://www.instagram.com/p/DT79-YYCOQD/",
       "hashtag_source": "mentality",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 18945,
+      "like_count": 18942,
       "comments_count": 51,
-      "engagement_score": 18996,
+      "engagement_score": 18993,
       "hook_line": "Most people are controlled not by others, but by habits they refuse to examine.",
       "caption_length": 893,
       "detected_structure": "contrast"
@@ -50,9 +38,9 @@
       "permalink": "https://www.instagram.com/p/DBSHMhpt9eT/",
       "hashtag_source": "disciplinequotes",
       "media_type": "IMAGE",
-      "like_count": 18688,
+      "like_count": 18685,
       "comments_count": 50,
-      "engagement_score": 18738,
+      "engagement_score": 18735,
       "hook_line": "Double tap to agree \ud83d\udc46",
       "caption_length": 422,
       "detected_structure": "statement"
@@ -70,51 +58,39 @@
       "detected_structure": "statement"
     },
     {
-      "media_id": "18090666016450239",
-      "permalink": "https://www.instagram.com/p/C8J750kxW7C/",
-      "hashtag_source": "disciplinequotes",
-      "media_type": "IMAGE",
-      "like_count": 16293,
-      "comments_count": 168,
-      "engagement_score": 16461,
-      "hook_line": "Average Natural \ud83c\uddee\ud83c\uddf3 Aesthetics \ud83e\uddec \ud83e\udd8d",
-      "caption_length": 365,
-      "detected_structure": "statement"
-    },
-    {
       "media_id": "18055564165342790",
       "permalink": "https://www.instagram.com/p/Ci4xVY6vlu5/",
       "hashtag_source": "disciplinequotes",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 15276,
+      "like_count": 15274,
       "comments_count": 680,
-      "engagement_score": 15956,
+      "engagement_score": 15954,
       "hook_line": "Save this post as a guide and share it with a friend \u2705",
       "caption_length": 409,
       "detected_structure": "command"
     },
     {
-      "media_id": "18139466413472469",
-      "permalink": "https://www.instagram.com/p/DZVHQNsuBEf/",
-      "hashtag_source": "discipline",
+      "media_id": "18087365717246010",
+      "permalink": "https://www.instagram.com/p/DVsLhbik4Ns/",
+      "hashtag_source": "grindmode",
       "media_type": "IMAGE",
-      "like_count": 15253,
-      "comments_count": 167,
-      "engagement_score": 15420,
-      "hook_line": "\ud83d\udca5Passion Is Not Enough\ud83d\udca5",
-      "caption_length": 756,
+      "like_count": 14918,
+      "comments_count": 110,
+      "engagement_score": 15028,
+      "hook_line": "Modern life complicated everything.",
+      "caption_length": 578,
       "detected_structure": "statement"
     },
     {
-      "media_id": "18093667346512384",
-      "permalink": "https://www.instagram.com/p/DUGBgE9ATp7/",
-      "hashtag_source": "selfdiscipline",
-      "media_type": "CAROUSEL_ALBUM",
-      "like_count": 11912,
-      "comments_count": 31,
-      "engagement_score": 11943,
-      "hook_line": "\u0907\u0938 \u092b\u093c\u0930\u0935\u0930\u0940 \u0924\u0941\u092e\u094d\u0939\u0947\u0902 \u0928\u0939\u0940\u0902\u2026 \u0924\u0941\u092e\u094d\u0939\u093e\u0930\u0940 \u0906\u0926\u0924\u094b\u0902 \u0915\u094b \u092c\u0926\u0932\u0928\u093e \u0939\u0948\u0964",
-      "caption_length": 900,
+      "media_id": "18104501599927702",
+      "permalink": "https://www.instagram.com/p/DXS2SQcgdjw/",
+      "hashtag_source": "grindmode",
+      "media_type": "IMAGE",
+      "like_count": 11493,
+      "comments_count": 2,
+      "engagement_score": 11495,
+      "hook_line": "Most people will only ever see the final version.",
+      "caption_length": 618,
       "detected_structure": "statement"
     },
     {
@@ -122,12 +98,24 @@
       "permalink": "https://www.instagram.com/p/C35B_hpy-FV/",
       "hashtag_source": "disciplinequotes",
       "media_type": "IMAGE",
-      "like_count": 11392,
+      "like_count": 11391,
       "comments_count": 62,
-      "engagement_score": 11454,
+      "engagement_score": 11453,
       "hook_line": "When I was 13, I was taught by my father that I have to be the pilot of my life\u2708\ufe0f",
       "caption_length": 1352,
       "detected_structure": "statement"
+    },
+    {
+      "media_id": "17971874973052482",
+      "permalink": "https://www.instagram.com/p/DZd03hwiQ0t/",
+      "hashtag_source": "hardworkpaysoff",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 10648,
+      "comments_count": 101,
+      "engagement_score": 10749,
+      "hook_line": "From humble beginnings to a doctorate.",
+      "caption_length": 554,
+      "detected_structure": "contrast"
     },
     {
       "media_id": "17862318605797978",
@@ -142,27 +130,27 @@
       "detected_structure": "statement"
     },
     {
-      "media_id": "18104690143632397",
-      "permalink": "https://www.instagram.com/p/DQ3kGM9Dx-g/",
-      "hashtag_source": "selfdiscipline",
-      "media_type": "CAROUSEL_ALBUM",
-      "like_count": 9065,
-      "comments_count": 996,
-      "engagement_score": 10061,
-      "hook_line": "Comment \ud83d\udc49 Mindset \u2705",
-      "caption_length": 261,
-      "detected_structure": "statement"
-    },
-    {
       "media_id": "17943018209870901",
       "permalink": "https://www.instagram.com/p/DBPbkgINtXO/",
       "hashtag_source": "disciplinequotes",
       "media_type": "IMAGE",
-      "like_count": 10009,
+      "like_count": 10004,
       "comments_count": 20,
-      "engagement_score": 10029,
+      "engagement_score": 10024,
       "hook_line": "Double tap to agree \ud83d\udc46",
       "caption_length": 394,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "18551627653017833",
+      "permalink": "https://www.instagram.com/p/DRNOCf3jRwR/",
+      "hashtag_source": "grindmode",
+      "media_type": "IMAGE",
+      "like_count": 8754,
+      "comments_count": 78,
+      "engagement_score": 8832,
+      "hook_line": "At some point you stop chasing people and start chasing potential.",
+      "caption_length": 586,
       "detected_structure": "statement"
     },
     {
@@ -178,18 +166,6 @@
       "detected_structure": "pain_driven"
     },
     {
-      "media_id": "18077661776388924",
-      "permalink": "https://www.instagram.com/p/DZS63nmDHIC/",
-      "hashtag_source": "discipline",
-      "media_type": "IMAGE",
-      "like_count": 7626,
-      "comments_count": 93,
-      "engagement_score": 7719,
-      "hook_line": "Will you put it into practice?",
-      "caption_length": 332,
-      "detected_structure": "question"
-    },
-    {
       "media_id": "18294236392214791",
       "permalink": "https://www.instagram.com/p/DFlKhjNtWrg/",
       "hashtag_source": "disciplinequotes",
@@ -202,15 +178,27 @@
       "detected_structure": "statement"
     },
     {
-      "media_id": "17945890430506316",
-      "permalink": "https://www.instagram.com/p/CjdOPqLj6B4/",
-      "hashtag_source": "disciplinequotes",
+      "media_id": "18118936843802220",
+      "permalink": "https://www.instagram.com/p/DZ2v9LUGaYZ/",
+      "hashtag_source": "mindsetmatters",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 7076,
-      "comments_count": 64,
-      "engagement_score": 7140,
-      "hook_line": "Share the word, save it to remind yourself.\u2764",
-      "caption_length": 245,
+      "like_count": 7128,
+      "comments_count": 50,
+      "engagement_score": 7178,
+      "hook_line": "One of the hardest lessons in life is realizing that not everyone will give back what you gave them.",
+      "caption_length": 572,
+      "detected_structure": "contrast"
+    },
+    {
+      "media_id": "17934329177755246",
+      "permalink": "https://www.instagram.com/p/CyqSTk-r3Sb/",
+      "hashtag_source": "disciplinequotes",
+      "media_type": "IMAGE",
+      "like_count": 6640,
+      "comments_count": 36,
+      "engagement_score": 6676,
+      "hook_line": "Seek adversity to grow in life \ud83d\udd25",
+      "caption_length": 577,
       "detected_structure": "statement"
     },
     {
@@ -226,15 +214,15 @@
       "detected_structure": "pain_driven"
     },
     {
-      "media_id": "18065013344308241",
-      "permalink": "https://www.instagram.com/p/DVBqd4yjEpa/",
-      "hashtag_source": "selfdiscipline",
+      "media_id": "18116799742887932",
+      "permalink": "https://www.instagram.com/p/DZN2yIwMX4k/",
+      "hashtag_source": "mindsetmatters",
       "media_type": "IMAGE",
-      "like_count": 6496,
-      "comments_count": 46,
-      "engagement_score": 6542,
-      "hook_line": "The gym doesn\u2019t just build your body.",
-      "caption_length": 253,
+      "like_count": 6339,
+      "comments_count": 113,
+      "engagement_score": 6452,
+      "hook_line": "\ud83d\udde3\ufe0f The people getting results aren\u2019t always the most motivated.",
+      "caption_length": 378,
       "detected_structure": "statement"
     },
     {
@@ -254,9 +242,9 @@
       "permalink": "https://www.instagram.com/p/DVMaYffErvO/",
       "hashtag_source": "mentality",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 6153,
+      "like_count": 6151,
       "comments_count": 19,
-      "engagement_score": 6172,
+      "engagement_score": 6170,
       "hook_line": "(Motivation day53/100  Collecting fans 7.5k/8k)",
       "caption_length": 95,
       "detected_structure": "statement"
@@ -274,18 +262,6 @@
       "detected_structure": "statement"
     },
     {
-      "media_id": "18062808920254475",
-      "permalink": "https://www.instagram.com/p/DS5dRmlE7AD/",
-      "hashtag_source": "selfdiscipline",
-      "media_type": "CAROUSEL_ALBUM",
-      "like_count": 5770,
-      "comments_count": 28,
-      "engagement_score": 5798,
-      "hook_line": "Comment \u092e\u0947\u0902 \u0932\u093f\u0916\u094b:",
-      "caption_length": 638,
-      "detected_structure": "statement"
-    },
-    {
       "media_id": "18051378353442654",
       "permalink": "https://www.instagram.com/p/DTa4b64jSA9/",
       "hashtag_source": "mentality",
@@ -298,100 +274,124 @@
       "detected_structure": "command"
     },
     {
-      "media_id": "17918831940253500",
-      "permalink": "https://www.instagram.com/p/DT0G589iYG9/",
-      "hashtag_source": "selfdiscipline",
+      "media_id": "18063636253986732",
+      "permalink": "https://www.instagram.com/p/DMzOW11OJpX/",
+      "hashtag_source": "grindmode",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 5575,
+      "comments_count": 10,
+      "engagement_score": 5585,
+      "hook_line": "- THESE ARE THE CHAPTERS NO ONE WRITES ABOUT.",
+      "caption_length": 208,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "18091771393841812",
+      "permalink": "https://www.instagram.com/p/DU5eNWnDeqO/",
+      "hashtag_source": "hardworkpaysoff",
       "media_type": "IMAGE",
-      "like_count": 5274,
-      "comments_count": 88,
-      "engagement_score": 5362,
-      "hook_line": "\u0d05\u0d1a\u0d4d\u0d1b\u0d7b \u0d2e\u0d41\u0d31\u0d4d\u0d31\u0d2e\u0d1f\u0d3f\u0d1a\u0d4d\u0d1a\u0d3e\u0d32\u0d41\u0d02, \u0d05\u0d2e\u0d4d\u0d2e \u0d2e\u0d41\u0d31\u0d4d\u0d31\u0d2e\u0d1f\u0d3f\u0d1a\u0d4d\u0d1a\u0d3e\u0d32\u0d41\u0d02...",
-      "caption_length": 322,
+      "like_count": 4485,
+      "comments_count": 15,
+      "engagement_score": 4500,
+      "hook_line": "\ud83d\udcaf \u0935\u093e\u0926\u0947 \u0928\u0939\u0940\u0902, \u092a\u0930\u093f\u0923\u093e\u092e \u092c\u094b\u0932\u0924\u0947 \u0939\u0948\u0902\u0964 \ud83d\udc4d",
+      "caption_length": 275,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "18132074413718152",
+      "permalink": "https://www.instagram.com/p/DZu7tylEfAl/",
+      "hashtag_source": "mindsetmatters",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 4455,
+      "comments_count": 10,
+      "engagement_score": 4465,
+      "hook_line": "Invest wisely.",
+      "caption_length": 91,
       "detected_structure": "statement"
     }
   ],
   "patterns": {
     "top_hooks": [
-      "Built in silence.",
       "Most people are controlled not by others, but by habits they refuse to examine.",
       "Double tap to agree \ud83d\udc46",
       "New rule \u203c\ufe0f\u203c\ufe0f\u203c\ufe0f\u203c\ufe0f no looking back anymore!",
-      "Average Natural \ud83c\uddee\ud83c\uddf3 Aesthetics \ud83e\uddec \ud83e\udd8d",
       "Save this post as a guide and share it with a friend \u2705",
-      "\ud83d\udca5Passion Is Not Enough\ud83d\udca5",
-      "\u0907\u0938 \u092b\u093c\u0930\u0935\u0930\u0940 \u0924\u0941\u092e\u094d\u0939\u0947\u0902 \u0928\u0939\u0940\u0902\u2026 \u0924\u0941\u092e\u094d\u0939\u093e\u0930\u0940 \u0906\u0926\u0924\u094b\u0902 \u0915\u094b \u092c\u0926\u0932\u0928\u093e \u0939\u0948\u0964",
+      "Modern life complicated everything.",
+      "Most people will only ever see the final version.",
       "When I was 13, I was taught by my father that I have to be the pilot of my life\u2708\ufe0f",
-      "Drop two \u2764 if you needed to see this!"
+      "From humble beginnings to a doctorate.",
+      "Drop two \u2764 if you needed to see this!",
+      "At some point you stop chasing people and start chasing potential."
     ],
     "power_words": [
-      "discipline",
-      "every",
-      "keep",
+      "life",
       "follow",
       "let",
-      "stay",
-      "his",
-      "built",
-      "people",
+      "hard",
       "don",
-      "isn",
-      "life",
-      "motivation",
-      "take",
-      "share",
+      "work",
+      "people",
+      "discipline",
+      "keep",
+      "back",
       "make",
-      "build",
-      "through",
+      "every",
+      "together",
+      "create",
+      "hit",
+      "stay",
       "doesn",
-      "focused"
+      "rise",
+      "stop",
+      "used"
     ],
     "best_media_types": {
-      "IMAGE": 0.46,
-      "CAROUSEL_ALBUM": 0.54
+      "IMAGE": 0.5,
+      "CAROUSEL_ALBUM": 0.5
     },
     "caption_length_winners": {
-      "medium": 0.28,
-      "long": 0.64,
-      "short": 0.08
+      "medium": 0.26,
+      "long": 0.68,
+      "short": 0.06
     },
     "top_quote_structures": {
-      "statement": 0.74,
-      "contrast": 0.12,
+      "statement": 0.78,
+      "contrast": 0.1,
       "command": 0.04,
       "pain_driven": 0.04,
-      "question": 0.02,
       "identity": 0.04
     },
-    "avg_engagement_top_25": 12451.0,
-    "median_engagement_top_25": 10029,
+    "avg_engagement_top_25": 10617.0,
+    "median_engagement_top_25": 8160,
     "top_creators": [
       {
         "display_name": "mindset | motivation | success",
-        "appearances": 2,
-        "avg_engagement": 14384,
-        "top_engagement": 18738,
+        "appearances": 4,
+        "avg_engagement": 9990,
+        "top_engagement": 18735,
         "dominant_structure": "statement",
         "dominant_length": "long",
         "sample_hooks": [
           "Double tap to agree \ud83d\udc46",
-          "Double tap to agree \ud83d\udc46"
+          "Double tap to agree \ud83d\udc46",
+          "At some point you stop chasing people and start chasing potential."
         ],
         "power_words": [
-          "double",
-          "tap",
-          "agree",
           "let",
           "succeed",
           "together",
           "create",
-          "successes"
+          "successes",
+          "doesn",
+          "double",
+          "tap"
         ]
       },
       {
         "display_name": "alphaadvice &#x1f48e;",
         "appearances": 4,
-        "avg_engagement": 9622,
-        "top_engagement": 18996,
+        "avg_engagement": 9621,
+        "top_engagement": 18993,
         "dominant_structure": "statement",
         "dominant_length": "long",
         "sample_hooks": [
@@ -408,50 +408,6 @@
           "keep",
           "stop",
           "used"
-        ]
-      },
-      {
-        "display_name": "ankit kumar",
-        "appearances": 2,
-        "avg_engagement": 8870,
-        "top_engagement": 11943,
-        "dominant_structure": "statement",
-        "dominant_length": "long",
-        "sample_hooks": [
-          "\u0907\u0938 \u092b\u093c\u0930\u0935\u0930\u0940 \u0924\u0941\u092e\u094d\u0939\u0947\u0902 \u0928\u0939\u0940\u0902\u2026 \u0924\u0941\u092e\u094d\u0939\u093e\u0930\u0940 \u0906\u0926\u0924\u094b\u0902 \u0915\u094b \u092c\u0926\u0932\u0928\u093e \u0939\u0948\u0964",
-          "Comment \u092e\u0947\u0902 \u0932\u093f\u0916\u094b:"
-        ],
-        "power_words": [
-          "mode",
-          "standard",
-          "comment",
-          "discipline",
-          "save",
-          "motivation",
-          "reminder",
-          "scroll"
-        ]
-      },
-      {
-        "display_name": "inspire l motivation l wisdom",
-        "appearances": 2,
-        "avg_engagement": 8723,
-        "top_engagement": 10306,
-        "dominant_structure": "statement",
-        "dominant_length": "long",
-        "sample_hooks": [
-          "Drop two \u2764 if you needed to see this!",
-          "Share the word, save it to remind yourself.\u2764"
-        ],
-        "power_words": [
-          "winner",
-          "spirit",
-          "save",
-          "share",
-          "hashtag",
-          "drop",
-          "needed",
-          "see"
         ]
       },
       {
@@ -477,42 +433,65 @@
         ]
       },
       {
-        "display_name": "guntur | your discipline partner &#x1f44a;&#x1f3fb;",
-        "appearances": 2,
-        "avg_engagement": 3640,
-        "top_engagement": 4014,
-        "dominant_structure": "statement",
-        "dominant_length": "short",
-        "sample_hooks": [
-          "Apapun yang terjadi hari ini, semoga itu pilihan terbaik.\ud83d\udda4"
-        ],
-        "power_words": [
-          "apapun",
-          "yang",
-          "terjadi",
-          "hari",
-          "ini",
-          "semoga",
-          "itu",
-          "pilihan"
-        ]
-      },
-      {
-        "display_name": "gfda",
-        "appearances": 2,
-        "avg_engagement": 3308,
-        "top_engagement": 4011,
+        "display_name": "absolute motivation",
+        "appearances": 3,
+        "avg_engagement": 3826,
+        "top_engagement": 5585,
         "dominant_structure": "statement",
         "dominant_length": "medium",
         "sample_hooks": [
-          "The trick is not minding that it sucks."
+          "- THESE ARE THE CHAPTERS NO ONE WRITES ABOUT.",
+          "- YOU DON\u2019T RISE BY CHANCE, YOU RISE BY CHOICE."
         ],
         "power_words": [
-          "invest",
-          "wisely",
-          "trick",
-          "minding",
-          "sucks"
+          "link",
+          "bio",
+          "quotes",
+          "hit",
+          "daily",
+          "rise",
+          "chapters",
+          "writes"
+        ]
+      },
+      {
+        "display_name": "my positive outlooks",
+        "appearances": 2,
+        "avg_engagement": 2199,
+        "top_engagement": 2488,
+        "dominant_structure": "contrast",
+        "dominant_length": "medium",
+        "sample_hooks": [
+          "My ending isn\u2019t written yet, but quitting won\u2019t be part of it.",
+          "Staying positive through tough times is already a victory."
+        ],
+        "power_words": [
+          "ending",
+          "isn",
+          "written",
+          "yet",
+          "quitting",
+          "won",
+          "part",
+          "staying"
+        ]
+      },
+      {
+        "display_name": "manuel locci",
+        "appearances": 2,
+        "avg_engagement": 2120,
+        "top_engagement": 2353,
+        "dominant_structure": "statement",
+        "dominant_length": "medium",
+        "sample_hooks": [
+          "Ripaga con il silenzio, il tempo far\u00e0 il resto.\u270d\ud83c\udffb"
+        ],
+        "power_words": [
+          "ripaga",
+          "silenzio",
+          "tempo",
+          "far",
+          "resto"
         ]
       }
     ]
