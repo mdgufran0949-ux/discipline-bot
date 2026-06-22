@@ -2771,6 +2771,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_50_20260622_095340",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 50,
+      "topic": "wake up before your competition does",
+      "hook_keyword": "discipline",
+      "selected_quote": "What if waking up before the sun rises is the discipline that sets you apart from the rest? Every day, people let their dreams slip away, stuck in a cycle of procrastination. But not you. You stay focused, keep pushing, and let your actions speak louder than words.",
+      "posted_at": "2026-06-22T09:53:40.198806",
+      "ig_media_id": "17900230095305062",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3263,10 +3284,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 132,
+    "total_posts": 133,
     "by_quote_type": {
       "question": 1,
-      "statement": 121,
+      "statement": 122,
       "contrast": 4,
       "punch": 3,
       "command": 3
@@ -3274,17 +3295,17 @@
     "by_design_style": {
       "minimal": 34,
       "dark": 38,
-      "luxury": 35,
+      "luxury": 36,
       "bold": 25
     },
     "by_format": {
       "image": 1,
-      "reel": 131
+      "reel": 132
     },
     "by_series": {
       "discipline_rule": 45,
       "day_becoming_better": 44,
-      "wake_up_call": 43
+      "wake_up_call": 44
     },
     "top_performing_series": "discipline_rule"
   },
