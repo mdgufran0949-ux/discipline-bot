@@ -2834,6 +2834,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_51_20260623_160021",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 51,
+      "topic": "you are not busy you are avoiding",
+      "hook_keyword": "discipline",
+      "selected_quote": "80% of people let their schedules dictate their lives, yet the most disciplined among us don't let time control their actions. We create space for what truly matters. Let us follow our own rhythm, not the one imposed by others.",
+      "posted_at": "2026-06-23T16:00:21.012061",
+      "ig_media_id": "17891544936378812",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3327,10 +3348,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 135,
+    "total_posts": 136,
     "by_quote_type": {
       "question": 1,
-      "statement": 123,
+      "statement": 124,
       "contrast": 5,
       "punch": 3,
       "command": 3
@@ -3338,17 +3359,17 @@
     "by_design_style": {
       "minimal": 35,
       "dark": 38,
-      "luxury": 37,
+      "luxury": 38,
       "bold": 25
     },
     "by_format": {
       "image": 1,
-      "reel": 134
+      "reel": 135
     },
     "by_series": {
       "discipline_rule": 46,
       "day_becoming_better": 45,
-      "wake_up_call": 44
+      "wake_up_call": 45
     },
     "top_performing_series": "discipline_rule"
   },
