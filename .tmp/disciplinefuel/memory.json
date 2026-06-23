@@ -2813,6 +2813,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_52_20260623_071532",
+      "quote_type": "contrast",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 52,
+      "topic": "you are not busy you are avoiding",
+      "hook_keyword": "discipline",
+      "selected_quote": "In a world that follows the clock, it's the people who discipline their time that get to keep their freedom",
+      "posted_at": "2026-06-23T07:15:32.932651",
+      "ig_media_id": "18106944389061745",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3306,26 +3327,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 134,
+    "total_posts": 135,
     "by_quote_type": {
       "question": 1,
       "statement": 123,
-      "contrast": 4,
+      "contrast": 5,
       "punch": 3,
       "command": 3
     },
     "by_design_style": {
       "minimal": 35,
       "dark": 38,
-      "luxury": 36,
+      "luxury": 37,
       "bold": 25
     },
     "by_format": {
       "image": 1,
-      "reel": 133
+      "reel": 134
     },
     "by_series": {
-      "discipline_rule": 45,
+      "discipline_rule": 46,
       "day_becoming_better": 45,
       "wake_up_call": 44
     },

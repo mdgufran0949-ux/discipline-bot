@@ -5076,6 +5076,42 @@
         "#disciplinedaily",
         "#dis_ciplinefuel"
       ]
+    },
+    {
+      "id": "discipline_rule_52_20260623_071532",
+      "ig_media_id": "18106944389061745",
+      "permalink": "https://www.instagram.com/reel/DZ623mnDkYg/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 52,
+      "content_series": "Discipline Rule #52",
+      "topic": "you are not busy you are avoiding",
+      "selected_quote": "In a world that follows the clock, it's the people who discipline their time that get to keep their freedom",
+      "quote_type": "contrast",
+      "hook_keyword": "discipline",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-06-23T07:15:32.932651",
+      "dry_run": false,
+      "pillar": "tactical",
+      "hook_template": "story",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Follow for unfiltered discipline.",
+      "hashtags_used": [
+        "#disciplinedmen",
+        "#silentgrind",
+        "#habitsofsuccessful",
+        "#selfcontroldaily",
+        "#mindsetfuel",
+        "#stoicwisdomdaily",
+        "#unglamoroussuccess",
+        "#dis_ciplinefuel",
+        "#disciplinefuel"
+      ]
     }
   ]
 }
