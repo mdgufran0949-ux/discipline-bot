@@ -2960,6 +2960,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_53_20260626_153214",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 53,
+      "topic": "you are not unlucky you are undisciplined",
+      "hook_keyword": "discipline",
+      "selected_quote": "Lack of discipline is not bad luck, it's a lack of routine. We follow the same habits every day, and our lives reflect the work we put in. Let's take control of our time and focus on growth.",
+      "posted_at": "2026-06-26T15:32:14.127068",
+      "ig_media_id": "17940300078257405",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3455,28 +3476,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 141,
+    "total_posts": 142,
     "by_quote_type": {
       "question": 1,
-      "statement": 128,
+      "statement": 129,
       "contrast": 5,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
       "minimal": 35,
-      "dark": 39,
+      "dark": 40,
       "luxury": 39,
       "bold": 28
     },
     "by_format": {
       "image": 1,
-      "reel": 140
+      "reel": 141
     },
     "by_series": {
       "discipline_rule": 48,
       "day_becoming_better": 47,
-      "wake_up_call": 46
+      "wake_up_call": 47
     },
     "top_performing_series": "discipline_rule"
   },
