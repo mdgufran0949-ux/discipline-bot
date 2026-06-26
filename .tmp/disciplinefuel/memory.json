@@ -2939,6 +2939,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_54_20260626_072713",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 54,
+      "topic": "you are not unlucky you are undisciplined",
+      "hook_keyword": "silence",
+      "selected_quote": "There is a kind of silence that reveals our true character, one that exposes the excuses we make for our lack of discipline, and it's in these moments that we must let the truth sink in: we are not unlucky, we are undisciplined",
+      "posted_at": "2026-06-26T07:27:13.681129",
+      "ig_media_id": "17915715438203911",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3434,10 +3455,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 140,
+    "total_posts": 141,
     "by_quote_type": {
       "question": 1,
-      "statement": 127,
+      "statement": 128,
       "contrast": 5,
       "punch": 3,
       "command": 4
@@ -3446,14 +3467,14 @@
       "minimal": 35,
       "dark": 39,
       "luxury": 39,
-      "bold": 27
+      "bold": 28
     },
     "by_format": {
       "image": 1,
-      "reel": 139
+      "reel": 140
     },
     "by_series": {
-      "discipline_rule": 47,
+      "discipline_rule": 48,
       "day_becoming_better": 47,
       "wake_up_call": 46
     },
