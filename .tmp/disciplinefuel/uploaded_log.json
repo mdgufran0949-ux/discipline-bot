@@ -5478,6 +5478,42 @@
         "#disciplinedaily",
         "#disciplinefuel"
       ]
+    },
+    {
+      "id": "discipline_rule_55_20260627_144431",
+      "ig_media_id": "18270670756294175",
+      "permalink": "https://www.instagram.com/reel/DaF9apjjztT/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 55,
+      "content_series": "Discipline Rule #55",
+      "topic": "you already know what you need to do",
+      "selected_quote": "What if the thing you're avoiding is the thing you need most to grow? The truth is, we often know what we need to do, but we wait for the perfect moment, the perfect feeling, or the perfect circumstances. In reality, the only perfect moment is the present one.",
+      "quote_type": "statement",
+      "hook_keyword": "avoiding",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-06-27T14:44:31.581373",
+      "dry_run": false,
+      "pillar": "hard_truth",
+      "hook_template": "question",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Share this with someone who's stuck.",
+      "hashtags_used": [
+        "#disciplinedmind",
+        "#disciplineovermotivation",
+        "#quietambition",
+        "#habitsofsuccessful",
+        "#quietdiscipline",
+        "#unglamoroussuccess",
+        "#toughnessmindset",
+        "#disciplinefuel",
+        "#dis_ciplinefuel"
+      ]
     }
   ]
 }

@@ -3002,6 +3002,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_55_20260627_144431",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 55,
+      "topic": "you already know what you need to do",
+      "hook_keyword": "avoiding",
+      "selected_quote": "What if the thing you're avoiding is the thing you need most to grow? The truth is, we often know what we need to do, but we wait for the perfect moment, the perfect feeling, or the perfect circumstances. In reality, the only perfect moment is the present one.",
+      "posted_at": "2026-06-27T14:44:31.581373",
+      "ig_media_id": "18270670756294175",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3498,26 +3519,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 143,
+    "total_posts": 144,
     "by_quote_type": {
       "question": 1,
-      "statement": 130,
+      "statement": 131,
       "contrast": 5,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
       "minimal": 35,
-      "dark": 40,
+      "dark": 41,
       "luxury": 40,
       "bold": 28
     },
     "by_format": {
       "image": 1,
-      "reel": 142
+      "reel": 143
     },
     "by_series": {
-      "discipline_rule": 48,
+      "discipline_rule": 49,
       "day_becoming_better": 48,
       "wake_up_call": 47
     },
