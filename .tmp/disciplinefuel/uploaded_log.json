@@ -5570,6 +5570,42 @@
         "#dis_ciplinefuel",
         "#disciplinedaily"
       ]
+    },
+    {
+      "id": "day_becoming_better_54_20260628_143320",
+      "ig_media_id": "18238448287313205",
+      "permalink": "https://www.instagram.com/reel/DaIg9GFlA0k/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 54,
+      "content_series": "Day 54 of Becoming Better",
+      "topic": "procrastination is self betrayal",
+      "selected_quote": "Procrastination is not laziness, it's a lack of clarity on what needs to be done first.",
+      "quote_type": "statement",
+      "hook_keyword": "clarity",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-06-28T14:33:20.371929",
+      "dry_run": false,
+      "pillar": "tactical",
+      "hook_template": "contrarian",
+      "pillar_hook_source": "picker",
+      "caption_structure": "numbered_list",
+      "caption_cta": "Follow @dis.ciplinefuel for daily fuel.",
+      "hashtags_used": [
+        "#disciplineovermotivation",
+        "#growthmindsetdaily",
+        "#stoicphilosophy",
+        "#quietambition",
+        "#workethicmatters",
+        "#doitnobodywatching",
+        "#buildingcharacter",
+        "#fueledbydiscipline",
+        "#disciplinenotmotivation"
+      ]
     }
   ]
 }

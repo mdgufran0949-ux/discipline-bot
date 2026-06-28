@@ -3044,6 +3044,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_54_20260628_143320",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 54,
+      "topic": "procrastination is self betrayal",
+      "hook_keyword": "clarity",
+      "selected_quote": "Procrastination is not laziness, it's a lack of clarity on what needs to be done first.",
+      "posted_at": "2026-06-28T14:33:20.371929",
+      "ig_media_id": "18238448287313205",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3540,27 +3561,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 145,
+    "total_posts": 146,
     "by_quote_type": {
       "question": 1,
-      "statement": 132,
+      "statement": 133,
       "contrast": 5,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
-      "minimal": 36,
+      "minimal": 37,
       "dark": 41,
       "luxury": 40,
       "bold": 28
     },
     "by_format": {
       "image": 1,
-      "reel": 144
+      "reel": 145
     },
     "by_series": {
       "discipline_rule": 49,
-      "day_becoming_better": 48,
+      "day_becoming_better": 49,
       "wake_up_call": 48
     },
     "top_performing_series": "discipline_rule"
