@@ -3086,6 +3086,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_55_20260629_163721",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 55,
+      "topic": "nobody is coming to save you",
+      "hook_keyword": "create",
+      "selected_quote": "Create a schedule that honors your discipline, and every day will be a testament to your growth. Let the noise of others fade into the background as you follow your own path, quietly building the life you desire",
+      "posted_at": "2026-06-29T16:37:21.977503",
+      "ig_media_id": "18106096831821598",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3582,10 +3603,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 147,
+    "total_posts": 148,
     "by_quote_type": {
       "question": 1,
-      "statement": 134,
+      "statement": 135,
       "contrast": 5,
       "punch": 3,
       "command": 4
@@ -3593,17 +3614,17 @@
     "by_design_style": {
       "minimal": 37,
       "dark": 41,
-      "luxury": 41,
+      "luxury": 42,
       "bold": 28
     },
     "by_format": {
       "image": 1,
-      "reel": 146
+      "reel": 147
     },
     "by_series": {
       "discipline_rule": 50,
       "day_becoming_better": 49,
-      "wake_up_call": 48
+      "wake_up_call": 49
     },
     "top_performing_series": "discipline_rule"
   },
