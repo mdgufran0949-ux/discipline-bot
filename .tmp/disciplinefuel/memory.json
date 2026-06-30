@@ -3107,6 +3107,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_55_20260630_072447",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 55,
+      "topic": "nobody is coming to save you",
+      "hook_keyword": "discipline",
+      "selected_quote": "What if the only person who can save you is the person you're becoming every day? Discipline is not a destination, but a journey of self-discovery. Every step forward, no matter how small, is a step away from the need for rescue.",
+      "posted_at": "2026-06-30T07:24:47.387541",
+      "ig_media_id": "17937502986268200",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3603,10 +3624,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 148,
+    "total_posts": 149,
     "by_quote_type": {
       "question": 1,
-      "statement": 135,
+      "statement": 136,
       "contrast": 5,
       "punch": 3,
       "command": 4
@@ -3615,15 +3636,15 @@
       "minimal": 37,
       "dark": 41,
       "luxury": 42,
-      "bold": 28
+      "bold": 29
     },
     "by_format": {
       "image": 1,
-      "reel": 147
+      "reel": 148
     },
     "by_series": {
       "discipline_rule": 50,
-      "day_becoming_better": 49,
+      "day_becoming_better": 50,
       "wake_up_call": 49
     },
     "top_performing_series": "discipline_rule"
