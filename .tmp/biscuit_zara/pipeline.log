@@ -14,8 +14,8 @@
 [biscuit_zara] Review complete.
 [1] Fetching trending kids topics...
 Scanning YouTube kids hashtags...
-  [#kidslearning] 10 titles
-  [#nurseryrhymes] 0 titles
+  [#kidslearning] 8 titles
+  [#nurseryrhymes] 1 titles
   [#animalsforchildren] 9 titles
 Checking Google Trends...
 
@@ -34,7 +34,6 @@ Checking Google Trends...
 [2] Generating script...
   [TOPIC] Cleaned: 'forest animals song for Children and Kids'
   [hook] Style: countdown
-  [RETRY] Attempt 1 failed (Narration too short: 12 words (need 60+)), retrying...
   [OK] Script via Groq (64 words)
   [OK] Script generation
 [3] Safety check...
@@ -42,9 +41,9 @@ Checking Google Trends...
   [OK] Safety check passed (confidence: 0.0)
 [4] Generating voiceover...
 Generating kids TTS (en-US-AnaNeural)...
-  [OK] 33.1s voiceover, 64 words, 32 caption lines
+  [OK] 34.0s voiceover, 64 words, 32 caption lines
   [OK] TTS voiceover
-  Duration: 33.14s
+  Duration: 34.01s
 [5] Generating scene images (AIMLAPI FLUX Pro)...
 Generating 6 scene images via AIMLAPI flux-pro/v1.1...
   [1/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
@@ -96,48 +95,25 @@ Step 2/6 -- Building scene clips (AI images + B-roll)...
   [ERROR] Topic failed: Missing: /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_images/scene_001.png
 
   [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs
-  [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs
 
 ───────────────────────────────────────────────────────
-  Topic: 15 Animal Names in English | Fun Learning Animals for Preschool Kids | Baby Zuzu World
-  Series: standalone | Category: animals
-───────────────────────────────────────────────────────
-
-[2] Generating script...
-  [TOPIC] Cleaned: 'Fun Learning Animals for Preschool Kids'
-  [hook] Style: countdown
-  [RETRY] Attempt 1 failed (Narration too short: 54 words (need 60+)), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying...
-  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying in 5s...
-  [TOPIC] Cleaned: 'Fun Learning Animals for Preschool Kids'
-  [hook] Style: countdown
-  [RETRY] Attempt 1 failed (Narration too short: 45 words (need 60+)), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying...
-  [FAIL] Script generation: Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}
-
-  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}
-
-  [SKIP] Duplicate topic: Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs
-
-───────────────────────────────────────────────────────
-  Topic: Counting Numbers | write and read numbers | 123 learning for kids | 1-6 | 12345 counting for kids
-  Series: standalone | Category: numbers
+  Topic: Happy Holi |   | holi 2022 | Nursery rhymes & baby songs | Cartoon for kids | - Jugnu Kids
+  Series: standalone | Category: stories
 ───────────────────────────────────────────────────────
 
 [2] Generating script...
-  [TOPIC] Cleaned: '12345 counting for kids'
-  [hook] Style: wow_fact
-  [RETRY] Attempt 1 failed (Narration too short: 33 words (need 60+)), retrying...
-  [OK] Script via Groq (74 words)
+  [TOPIC] Cleaned: 'Nursery rhymes baby songs'
+  [hook] Style: story
+  [OK] Script via Groq (61 words)
   [OK] Script generation
 [3] Safety check...
   [WARN] Safety check Gemini call failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDI7ddpEIaF6WpVoL6J88zh2IMMAHZidlQ — failing open
   [OK] Safety check passed (confidence: 0.0)
 [4] Generating voiceover...
 Generating kids TTS (en-US-AnaNeural)...
-  [OK] 33.6s voiceover, 74 words, 37 caption lines
+  [OK] 30.2s voiceover, 61 words, 31 caption lines
   [OK] TTS voiceover
-  Duration: 33.65s
+  Duration: 30.24s
 [5] Generating scene images (AIMLAPI FLUX Pro)...
 Generating 6 scene images via AIMLAPI flux-pro/v1.1...
   [1/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
@@ -188,10 +164,119 @@ Step 2/6 -- Building scene clips (AI images + B-roll)...
 
   [ERROR] Topic failed: Missing: /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_images/scene_001.png
 
-  [SKIP] Duplicate topic: Caterpillar Song  #kidssongs #kidsvideo #singalong #children #kids #toddlers #babies #nature
+
+───────────────────────────────────────────────────────
+  Topic: 15 Animal Names in English | Fun Learning Animals for Preschool Kids | Baby Zuzu World
+  Series: standalone | Category: animals
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Fun Learning Animals for Preschool Kids'
+  [hook] Style: countdown
+  [RETRY] Attempt 1 failed (Narration too short: 33 words (need 60+)), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying...
+  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying in 5s...
+  [TOPIC] Cleaned: 'Fun Learning Animals for Preschool Kids'
+  [hook] Style: countdown
+  [RETRY] Attempt 1 failed (Narration too short: 8 words (need 60+)), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying...
+  [FAIL] Script generation: Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}
+
+  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}
+
+  [SKIP] Duplicate topic: Lets Share Together  | Lalafun Nursery Rhymes & Kids Songs
+
+───────────────────────────────────────────────────────
+  Topic: Counting Numbers | write and read numbers | 123 learning for kids | 1-6 | 12345 counting for kids
+  Series: standalone | Category: numbers
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: '12345 counting for kids'
+  [hook] Style: wow_fact
+  [RETRY] Attempt 1 failed (Narration too short: 51 words (need 60+)), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying...
+  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying in 5s...
+  [TOPIC] Cleaned: '12345 counting for kids'
+  [hook] Style: wow_fact
+  [RETRY] Attempt 1 failed (Narration too short: 13 words (need 60+)), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying...
+  [FAIL] Script generation: Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}
+
+  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}
+
   [SKIP] Duplicate topic: Iam a horse  #kidslearning #animal  #horse  #farmanimals
   [SKIP] Duplicate topic: The Animal That Never Blinks!#kidseducationalvideospreschool #animalsforchildren
   [SKIP] Duplicate topic: Learn Alphabet with Animals #short #shorts #kidslearning #alphabets
+
+───────────────────────────────────────────────────────
+  Topic: Learn Cutting Fruits Safely with Leo!  #kidslearning
+  Series: standalone | Category: nature
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Learn Cutting Fruits Safely with Leo'
+  [hook] Style: challenge
+  [OK] Script via Groq (66 words)
+  [OK] Script generation
+[3] Safety check...
+  [WARN] Safety check Gemini call failed: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDI7ddpEIaF6WpVoL6J88zh2IMMAHZidlQ — failing open
+  [OK] Safety check passed (confidence: 0.0)
+[4] Generating voiceover...
+Generating kids TTS (en-US-AnaNeural)...
+  [OK] 32.9s voiceover, 66 words, 33 caption lines
+  [OK] TTS voiceover
+  Duration: 32.93s
+[5] Generating scene images (AIMLAPI FLUX Pro)...
+Generating 6 scene images via AIMLAPI flux-pro/v1.1...
+  [1/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+    [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [2/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+    [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [3/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+    [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [4/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+    [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [5/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+    [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  [6/6] 2D cartoon illustration, bright vibrant colors, child-friendly, Pixar/...
+    [attempt 1] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 2] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+    [attempt 3] Error: 403 Client Error: Forbidden for url: https://api.aimlapi.com/v1/images/generations
+  Done: 0 generated, 0 skipped
+  [OK] Scene images
+[5b] Generating background music...
+Generating background music...
+  [OK] WAV generated (64s, stereo, 44100Hz)
+  [OK] Background music saved: /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_bg_music.mp3
+  [OK] Background music
+[5c] Fetching B-roll video clips...
+  [WARN] No PEXELS_API_KEY — skipping B-roll
+  [OK] 0 B-roll clips downloaded
+[6] Composing video...
+  Scene duration: 5.0s x 6 scenes = 35.0s total
+Step 1/6 -- Rendering intro & outro...
+  [OK] Animated intro & outro
+Step 2/6 -- Building scene clips (AI images + B-roll)...
+  [RETRY] Video composition failed (Missing: /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_images/scene_001.png), retrying in 5s...
+  Scene duration: 5.0s x 6 scenes = 35.0s total
+Step 1/6 -- Rendering intro & outro...
+  [OK] Animated intro & outro
+Step 2/6 -- Building scene clips (AI images + B-roll)...
+  [FAIL] Video composition: Missing: /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_images/scene_001.png
+
+  [ERROR] Topic failed: Missing: /home/runner/work/discipline-bot/discipline-bot/.tmp/kids_images/scene_001.png
+
 
 =======================================================
   Biscuit & Zara Pipeline — Done!
