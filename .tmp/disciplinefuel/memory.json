@@ -3191,6 +3191,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_58_20260702_145636",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 58,
+      "topic": "procrastination is self betrayal",
+      "hook_keyword": "discipline",
+      "selected_quote": "What if discipline is the bridge between your goals and reality? Focus on building it, day by day.",
+      "posted_at": "2026-07-02T14:56:36.553413",
+      "ig_media_id": "18104482997091859",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3688,10 +3709,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 152,
+    "total_posts": 153,
     "by_quote_type": {
       "question": 1,
-      "statement": 139,
+      "statement": 140,
       "contrast": 5,
       "punch": 3,
       "command": 4
@@ -3700,14 +3721,14 @@
       "minimal": 38,
       "dark": 41,
       "luxury": 44,
-      "bold": 29
+      "bold": 30
     },
     "by_format": {
       "image": 1,
-      "reel": 151
+      "reel": 152
     },
     "by_series": {
-      "discipline_rule": 51,
+      "discipline_rule": 52,
       "day_becoming_better": 51,
       "wake_up_call": 50
     },

@@ -5890,6 +5890,42 @@
         "#dis_ciplinefuel",
         "#disciplinenotmotivation"
       ]
+    },
+    {
+      "id": "discipline_rule_58_20260702_145636",
+      "ig_media_id": "18104482997091859",
+      "permalink": "https://www.instagram.com/reel/DaS2y3LgXmX/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 58,
+      "content_series": "Discipline Rule #58",
+      "topic": "procrastination is self betrayal",
+      "selected_quote": "What if discipline is the bridge between your goals and reality? Focus on building it, day by day.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-07-02T14:56:36.553413",
+      "dry_run": false,
+      "pillar": "tactical",
+      "hook_template": "question",
+      "pillar_hook_source": "picker",
+      "caption_structure": "numbered_list",
+      "caption_cta": "Save this. Read it tomorrow morning.",
+      "hashtags_used": [
+        "#consistencymindset",
+        "#stoiclife",
+        "#stoicmindset",
+        "#innerstrength",
+        "#buildingcharacter",
+        "#workethicmatters",
+        "#calmambition",
+        "#disciplinedaily",
+        "#disciplinefuel"
+      ]
     }
   ]
 }
