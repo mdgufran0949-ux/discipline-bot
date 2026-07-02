@@ -3170,6 +3170,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_56_20260702_072413",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 56,
+      "topic": "procrastination is self betrayal",
+      "hook_keyword": "silence",
+      "selected_quote": "There is a kind of silence that occurs when we procrastinate, a silence that is not just the absence of sound, but the absence of our true selves. It's a silence that whispers self-betrayal, a reminder that we are not living the life we truly desire. In this silence, we must find the discipline to focus on our growth, to stay committed to our goals, and to let go of the distractions that hold us back.",
+      "posted_at": "2026-07-02T07:24:13.270981",
+      "ig_media_id": "18105737459052835",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3667,27 +3688,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 151,
+    "total_posts": 152,
     "by_quote_type": {
       "question": 1,
-      "statement": 138,
+      "statement": 139,
       "contrast": 5,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
-      "minimal": 37,
+      "minimal": 38,
       "dark": 41,
       "luxury": 44,
       "bold": 29
     },
     "by_format": {
       "image": 1,
-      "reel": 150
+      "reel": 151
     },
     "by_series": {
       "discipline_rule": 51,
-      "day_becoming_better": 50,
+      "day_becoming_better": 51,
       "wake_up_call": 50
     },
     "top_performing_series": "discipline_rule"
