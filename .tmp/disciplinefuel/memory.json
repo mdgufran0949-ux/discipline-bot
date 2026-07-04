@@ -3254,6 +3254,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_59_20260704_065343",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 59,
+      "topic": "comfort is the enemy of growth",
+      "hook_keyword": "night",
+      "selected_quote": "The night he realized comfort was a slow poison, he began to let go of the things that held him back, and in that silence, he found the discipline to create a life he truly wanted",
+      "posted_at": "2026-07-04T06:53:43.526747",
+      "ig_media_id": "18108018185471404",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3752,26 +3773,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 155,
+    "total_posts": 156,
     "by_quote_type": {
       "question": 1,
-      "statement": 141,
+      "statement": 142,
       "contrast": 6,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
       "minimal": 38,
-      "dark": 41,
+      "dark": 42,
       "luxury": 46,
       "bold": 30
     },
     "by_format": {
       "image": 1,
-      "reel": 154
+      "reel": 155
     },
     "by_series": {
-      "discipline_rule": 52,
+      "discipline_rule": 53,
       "day_becoming_better": 52,
       "wake_up_call": 51
     },
