@@ -3296,6 +3296,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_58_20260705_070037",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 58,
+      "topic": "your phone is stealing your future",
+      "hook_keyword": "phone",
+      "selected_quote": "What if your phone is designing your life?",
+      "posted_at": "2026-07-05T07:00:37.784846",
+      "ig_media_id": "18573880198067411",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3795,10 +3816,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 157,
+    "total_posts": 158,
     "by_quote_type": {
       "question": 1,
-      "statement": 143,
+      "statement": 144,
       "contrast": 6,
       "punch": 3,
       "command": 4
@@ -3806,16 +3827,16 @@
     "by_design_style": {
       "minimal": 38,
       "dark": 43,
-      "luxury": 46,
+      "luxury": 47,
       "bold": 30
     },
     "by_format": {
       "image": 1,
-      "reel": 156
+      "reel": 157
     },
     "by_series": {
       "discipline_rule": 53,
-      "day_becoming_better": 52,
+      "day_becoming_better": 53,
       "wake_up_call": 52
     },
     "top_performing_series": "discipline_rule"
