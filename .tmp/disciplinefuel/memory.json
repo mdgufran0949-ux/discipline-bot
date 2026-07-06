@@ -3338,6 +3338,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_59_20260706_082840",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 59,
+      "topic": "your phone is stealing your future",
+      "hook_keyword": "night",
+      "selected_quote": "The night you decided to put your phone on silent, a part of you began to awaken to the fact that life is not lived through a screen, but in the quiet moments in between. As we relearn to appreciate the stillness, we start to see that our devices are not the source of our growth, but rather a distraction from it. In this realization, we find the courage to take back control of our time and our lives.",
+      "posted_at": "2026-07-06T08:28:40.944079",
+      "ig_media_id": "18613989667049419",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3837,10 +3858,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 159,
+    "total_posts": 160,
     "by_quote_type": {
       "question": 1,
-      "statement": 145,
+      "statement": 146,
       "contrast": 6,
       "punch": 3,
       "command": 4
@@ -3849,16 +3870,16 @@
       "minimal": 38,
       "dark": 44,
       "luxury": 47,
-      "bold": 30
+      "bold": 31
     },
     "by_format": {
       "image": 1,
-      "reel": 158
+      "reel": 159
     },
     "by_series": {
       "discipline_rule": 54,
       "day_becoming_better": 53,
-      "wake_up_call": 52
+      "wake_up_call": 53
     },
     "top_performing_series": "discipline_rule"
   },
