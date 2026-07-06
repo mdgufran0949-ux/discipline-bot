@@ -1,36 +1,36 @@
 {
-  "last_updated": "2026-07-04T14:20:04.155603",
+  "last_updated": "2026-07-06T16:20:54.498292",
   "hashtags_scanned": [
-    "mindsetmatters",
-    "grindmode",
     "hardworkpaysoff",
     "motivationdaily",
-    "selfimprovementtips"
+    "selfimprovementtips",
+    "stoicmindset",
+    "discipline"
   ],
-  "total_posts_analyzed": 50,
+  "total_posts_analyzed": 43,
   "top_posts": [
+    {
+      "media_id": "17963933861987385",
+      "permalink": "https://www.instagram.com/p/DPoOceECEMD/",
+      "hashtag_source": "stoicmindset",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 49800,
+      "comments_count": 1393,
+      "engagement_score": 51193,
+      "hook_line": "There are 12 weeks left in 2025.",
+      "caption_length": 649,
+      "detected_structure": "statement"
+    },
     {
       "media_id": "18041439658657631",
       "permalink": "https://www.instagram.com/p/C3z7OdoMX91/",
       "hashtag_source": "selfimprovementtips",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 38373,
+      "like_count": 38371,
       "comments_count": 210,
-      "engagement_score": 38583,
+      "engagement_score": 38581,
       "hook_line": "I LIED...",
       "caption_length": 1141,
-      "detected_structure": "statement"
-    },
-    {
-      "media_id": "17968921941119724",
-      "permalink": "https://www.instagram.com/p/DZiIqK3SOVN/",
-      "hashtag_source": "mindsetmatters",
-      "media_type": "IMAGE",
-      "like_count": 34614,
-      "comments_count": 0,
-      "engagement_score": 34614,
-      "hook_line": "Focused.",
-      "caption_length": 99,
       "detected_structure": "statement"
     },
     {
@@ -38,9 +38,9 @@
       "permalink": "https://www.instagram.com/p/CNFiSGTraC_/",
       "hashtag_source": "selfimprovementtips",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 18083,
+      "like_count": 18080,
       "comments_count": 120,
-      "engagement_score": 18203,
+      "engagement_score": 18200,
       "hook_line": "Follow aapki.safalta",
       "caption_length": 341,
       "detected_structure": "statement"
@@ -58,51 +58,27 @@
       "detected_structure": "statement"
     },
     {
-      "media_id": "18087365717246010",
-      "permalink": "https://www.instagram.com/p/DVsLhbik4Ns/",
-      "hashtag_source": "grindmode",
-      "media_type": "IMAGE",
-      "like_count": 14904,
-      "comments_count": 110,
-      "engagement_score": 15014,
-      "hook_line": "Modern life complicated everything.",
-      "caption_length": 578,
+      "media_id": "17843928579636003",
+      "permalink": "https://www.instagram.com/p/DSVhxCJDALT/",
+      "hashtag_source": "stoicmindset",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 16758,
+      "comments_count": 131,
+      "engagement_score": 16889,
+      "hook_line": "Follow \ud83d\udc49 we.think.deeply we.think.deeply we.think.deeply",
+      "caption_length": 1027,
       "detected_structure": "statement"
     },
     {
-      "media_id": "18078800596898321",
-      "permalink": "https://www.instagram.com/p/DRkLau1kwme/",
-      "hashtag_source": "grindmode",
+      "media_id": "18078164026888991",
+      "permalink": "https://www.instagram.com/p/DPsvsr_E0GP/",
+      "hashtag_source": "stoicmindset",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 12733,
-      "comments_count": 71,
-      "engagement_score": 12804,
-      "hook_line": "She left?",
-      "caption_length": 708,
-      "detected_structure": "question"
-    },
-    {
-      "media_id": "17877000246430500",
-      "permalink": "https://www.instagram.com/p/DRE6a6qAYLV/",
-      "hashtag_source": "grindmode",
-      "media_type": "CAROUSEL_ALBUM",
-      "like_count": 12529,
-      "comments_count": 56,
-      "engagement_score": 12585,
-      "hook_line": "\ud83d\udcaf",
-      "caption_length": 525,
-      "detected_structure": "statement"
-    },
-    {
-      "media_id": "18104501599927702",
-      "permalink": "https://www.instagram.com/p/DXS2SQcgdjw/",
-      "hashtag_source": "grindmode",
-      "media_type": "IMAGE",
-      "like_count": 11271,
-      "comments_count": 2,
-      "engagement_score": 11273,
-      "hook_line": "Most people will only ever see the final version.",
-      "caption_length": 618,
+      "like_count": 14078,
+      "comments_count": 97,
+      "engagement_score": 14175,
+      "hook_line": "Truth doesn\u2019t scream \u2014 it whispers.",
+      "caption_length": 2082,
       "detected_structure": "statement"
     },
     {
@@ -110,9 +86,9 @@
       "permalink": "https://www.instagram.com/p/DBlyywus5Du/",
       "hashtag_source": "selfimprovementtips",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 9063,
+      "like_count": 9062,
       "comments_count": 195,
-      "engagement_score": 9258,
+      "engagement_score": 9257,
       "hook_line": "Comment \"SMARTER\" to subscribe to my free Visual IDEAs newsletter.",
       "caption_length": 949,
       "detected_structure": "statement"
@@ -122,23 +98,11 @@
       "permalink": "https://www.instagram.com/p/DBBcCAZJqUY/",
       "hashtag_source": "selfimprovementtips",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 8778,
+      "like_count": 8777,
       "comments_count": 107,
-      "engagement_score": 8885,
+      "engagement_score": 8884,
       "hook_line": "Visual Weekend Roundup illustrated by me \ud83d\ude0a",
       "caption_length": 966,
-      "detected_structure": "statement"
-    },
-    {
-      "media_id": "18551627653017833",
-      "permalink": "https://www.instagram.com/p/DRNOCf3jRwR/",
-      "hashtag_source": "grindmode",
-      "media_type": "IMAGE",
-      "like_count": 8735,
-      "comments_count": 79,
-      "engagement_score": 8814,
-      "hook_line": "At some point you stop chasing people and start chasing potential.",
-      "caption_length": 586,
       "detected_structure": "statement"
     },
     {
@@ -166,6 +130,18 @@
       "detected_structure": "statement"
     },
     {
+      "media_id": "17896912266100524",
+      "permalink": "https://www.instagram.com/p/DDkFnGANVDj/",
+      "hashtag_source": "selfimprovementtips",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 7065,
+      "comments_count": 57,
+      "engagement_score": 7122,
+      "hook_line": "Comment \u201cSMARTER\u201d to subscribe to my free Visual IDEAs newsletter.",
+      "caption_length": 1024,
+      "detected_structure": "statement"
+    },
+    {
       "media_id": "18042751679320807",
       "permalink": "https://www.instagram.com/p/DCKA6mqtzDB/",
       "hashtag_source": "selfimprovementtips",
@@ -182,23 +158,23 @@
       "permalink": "https://www.instagram.com/p/DEIFRcYopCU/",
       "hashtag_source": "selfimprovementtips",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 6357,
+      "like_count": 6356,
       "comments_count": 134,
-      "engagement_score": 6491,
+      "engagement_score": 6490,
       "hook_line": "Comment \u201cSMARTER\u201d to subscribe to my free Visual IDEAs newsletter.",
       "caption_length": 1018,
       "detected_structure": "statement"
     },
     {
-      "media_id": "18100740604748996",
-      "permalink": "https://www.instagram.com/p/DWXRamcjrhG/",
-      "hashtag_source": "motivationdaily",
-      "media_type": "IMAGE",
-      "like_count": 6303,
-      "comments_count": 29,
-      "engagement_score": 6332,
-      "hook_line": "Tap the \ud83e\udd0d if you\u2019re ready for what\u2019s next.",
-      "caption_length": 105,
+      "media_id": "17844990885536988",
+      "permalink": "https://www.instagram.com/p/DMfzdGpp0_K/",
+      "hashtag_source": "stoicmindset",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 5968,
+      "comments_count": 104,
+      "engagement_score": 6072,
+      "hook_line": "Boy, let me tell you something no school, no society, and no sweetheart will teach you\u2014",
+      "caption_length": 1804,
       "detected_structure": "statement"
     },
     {
@@ -214,39 +190,27 @@
       "detected_structure": "statement"
     },
     {
-      "media_id": "18078574808162792",
-      "permalink": "https://www.instagram.com/p/DRhboM-gVqo/",
-      "hashtag_source": "grindmode",
+      "media_id": "18055060688463538",
+      "permalink": "https://www.instagram.com/p/DVOY2NFE0qX/",
+      "hashtag_source": "stoicmindset",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 5203,
-      "comments_count": 26,
-      "engagement_score": 5229,
-      "hook_line": "\ud83d\udcaf",
-      "caption_length": 525,
+      "like_count": 4734,
+      "comments_count": 59,
+      "engagement_score": 4793,
+      "hook_line": "Most people don\u2019t suffer because life is hard.",
+      "caption_length": 736,
       "detected_structure": "statement"
     },
     {
-      "media_id": "18084421357865726",
-      "permalink": "https://www.instagram.com/p/DR7pBeHDb_d/",
-      "hashtag_source": "grindmode",
-      "media_type": "IMAGE",
-      "like_count": 4770,
-      "comments_count": 34,
-      "engagement_score": 4804,
-      "hook_line": "The biggest risk isn\u2019t losing money, it\u2019s Opportunity Cost.",
-      "caption_length": 560,
-      "detected_structure": "statement"
-    },
-    {
-      "media_id": "17986648664837900",
-      "permalink": "https://www.instagram.com/p/DaRPy3CD1od/",
-      "hashtag_source": "mindsetmatters",
+      "media_id": "18083469050028044",
+      "permalink": "https://www.instagram.com/p/DRh0tliE7cY/",
+      "hashtag_source": "stoicmindset",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 4715,
-      "comments_count": 0,
-      "engagement_score": 4715,
-      "hook_line": "There is no such thing as easy growth.",
-      "caption_length": 1770,
+      "like_count": 4708,
+      "comments_count": 44,
+      "engagement_score": 4752,
+      "hook_line": "Truth doesn\u2019t scream \u2014 it whispers.",
+      "caption_length": 2082,
       "detected_structure": "statement"
     },
     {
@@ -254,23 +218,23 @@
       "permalink": "https://www.instagram.com/p/CyYHQSto7aJ/",
       "hashtag_source": "selfimprovementtips",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 4577,
+      "like_count": 4576,
       "comments_count": 41,
-      "engagement_score": 4618,
+      "engagement_score": 4617,
       "hook_line": "Visual Weekend Roundup illustrated by me \ud83d\ude0a",
       "caption_length": 373,
       "detected_structure": "statement"
     },
     {
-      "media_id": "17910443478204536",
-      "permalink": "https://www.instagram.com/p/DX4emRjmd4R/",
-      "hashtag_source": "hardworkpaysoff",
+      "media_id": "18109008070607884",
+      "permalink": "https://www.instagram.com/p/DQojc1dCPyF/",
+      "hashtag_source": "stoicmindset",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 4335,
-      "comments_count": 20,
-      "engagement_score": 4355,
-      "hook_line": "From stage roots and small roles to industry-defining success, Darshan Thoogudeepa, Upendra Rao, Yas",
-      "caption_length": 508,
+      "like_count": 4234,
+      "comments_count": 111,
+      "engagement_score": 4345,
+      "hook_line": "Power isn\u2019t loud.",
+      "caption_length": 263,
       "detected_structure": "statement"
     },
     {
@@ -278,9 +242,9 @@
       "permalink": "https://www.instagram.com/p/DOD1BdCD6S1/",
       "hashtag_source": "selfimprovementtips",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 4070,
+      "like_count": 4068,
       "comments_count": 37,
-      "engagement_score": 4107,
+      "engagement_score": 4105,
       "hook_line": "September is your fresh reset \u2014 a chance to create new routines, build discipline, and finally step",
       "caption_length": 1249,
       "detected_structure": "statement"
@@ -298,88 +262,179 @@
       "detected_structure": "statement"
     },
     {
-      "media_id": "18132514114608019",
-      "permalink": "https://www.instagram.com/p/DaBo3T7G1wT/",
-      "hashtag_source": "motivationdaily",
+      "media_id": "17951685071667262",
+      "permalink": "https://www.instagram.com/p/Cw8J_C7JzrQ/",
+      "hashtag_source": "selfimprovementtips",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 3979,
-      "comments_count": 9,
-      "engagement_score": 3988,
-      "hook_line": "Go with the choice that scares you the most , because that is the one that will make you grow \u2728",
-      "caption_length": 95,
+      "like_count": 3799,
+      "comments_count": 165,
+      "engagement_score": 3964,
+      "hook_line": "Have you ever wondered why when we feel low, things get worse, and when we feel on top, opportunitie",
+      "caption_length": 1859,
+      "detected_structure": "question"
+    },
+    {
+      "media_id": "18052451308647040",
+      "permalink": "https://www.instagram.com/p/C-fj0MpOeFC/",
+      "hashtag_source": "selfimprovementtips",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 3919,
+      "comments_count": 16,
+      "engagement_score": 3935,
+      "hook_line": "Visual Weekend Roundup illustrated by me \ud83d\ude0a",
+      "caption_length": 640,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "18069800066098785",
+      "permalink": "https://www.instagram.com/p/DSIM-wWjMk6/",
+      "hashtag_source": "stoicmindset",
+      "media_type": "IMAGE",
+      "like_count": 3749,
+      "comments_count": 26,
+      "engagement_score": 3775,
+      "hook_line": "Accept the challenge you\u2019re facing.",
+      "caption_length": 1074,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "18173508043376021",
+      "permalink": "https://www.instagram.com/p/DVEXDrSEmTH/",
+      "hashtag_source": "selfimprovementtips",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 3546,
+      "comments_count": 46,
+      "engagement_score": 3592,
+      "hook_line": "Embracing Self-Improvement",
+      "caption_length": 64,
       "detected_structure": "statement"
     }
   ],
   "patterns": {
     "top_hooks": [
+      "There are 12 weeks left in 2025.",
       "Follow aapki.safalta",
       "You must fulfill that.",
-      "Modern life complicated everything.",
-      "Most people will only ever see the final version.",
+      "Follow \ud83d\udc49 we.think.deeply we.think.deeply we.think.deeply",
+      "Truth doesn\u2019t scream \u2014 it whispers.",
       "Comment \"SMARTER\" to subscribe to my free Visual IDEAs newsletter.",
       "Visual Weekend Roundup illustrated by me \ud83d\ude0a",
-      "At some point you stop chasing people and start chasing potential.",
       "Comment \u201cSMARTER\u201d to subscribe to my free Visual IDEAs newsletter.",
       "Messi\u2019s story isn\u2019t about being the biggest or the loudest.",
-      "Tap the \ud83e\udd0d if you\u2019re ready for what\u2019s next."
+      "Boy, let me tell you something no school, no society, and no sweetheart will teach you\u2014"
     ],
     "power_words": [
-      "life",
       "visual",
       "don",
+      "life",
+      "free",
       "follow",
-      "through",
       "illustrated",
+      "need",
+      "motivation",
+      "comment",
       "ideas",
       "weekend",
       "roundup",
       "favorite",
+      "through",
       "start",
-      "success",
-      "people",
-      "create",
-      "back",
-      "free",
-      "real",
-      "let",
-      "step",
-      "newsletter"
+      "think",
+      "build",
+      "yourself",
+      "every",
+      "people"
     ],
     "best_media_types": {
-      "CAROUSEL_ALBUM": 0.56,
-      "IMAGE": 0.44
+      "CAROUSEL_ALBUM": 0.744,
+      "IMAGE": 0.256
     },
     "caption_length_winners": {
-      "long": 0.74,
-      "medium": 0.22,
-      "short": 0.04
+      "long": 0.884,
+      "medium": 0.093,
+      "short": 0.023
     },
     "top_quote_structures": {
-      "statement": 0.98,
-      "question": 0.02
+      "statement": 0.907,
+      "question": 0.047,
+      "pain_driven": 0.023,
+      "contrast": 0.023
     },
-    "avg_engagement_top_25": 10584.0,
-    "median_engagement_top_25": 7582,
+    "avg_engagement_top_25": 10587.0,
+    "median_engagement_top_25": 6490,
     "top_creators": [
       {
-        "display_name": "business | entrepreneurship | technology",
+        "display_name": "mori mindset | motivation & stoicism",
         "appearances": 2,
-        "avg_engagement": 8907,
-        "top_engagement": 12585,
+        "avg_engagement": 27769,
+        "top_engagement": 51193,
         "dominant_structure": "statement",
         "dominant_length": "long",
-        "sample_hooks": [],
+        "sample_hooks": [
+          "There are 12 weeks left in 2025.",
+          "Power isn\u2019t loud."
+        ],
         "power_words": [
+          "waiting",
+          "mindset",
+          "rewire",
+          "weeks",
+          "already",
+          "year",
+          "comment",
+          "free"
+        ]
+      },
+      {
+        "display_name": "deeply thinking | &#x1f9e0;",
+        "appearances": 2,
+        "avg_engagement": 9295,
+        "top_engagement": 16889,
+        "dominant_structure": "statement",
+        "dominant_length": "long",
+        "sample_hooks": [
+          "Follow \ud83d\udc49 we.think.deeply we.think.deeply we.think.deeply",
+          "Follow \ud83d\udc49 we.think.deeply \ud83e\udd0d"
+        ],
+        "power_words": [
+          "think",
+          "deeply",
+          "words",
+          "art",
           "follow",
-          "hustling",
-          "income"
+          "space",
+          "emotion",
+          "meets"
+        ]
+      },
+      {
+        "display_name": "billionaires soul&#x2122;",
+        "appearances": 4,
+        "avg_engagement": 6305,
+        "top_engagement": 14175,
+        "dominant_structure": "statement",
+        "dominant_length": "long",
+        "sample_hooks": [
+          "Truth doesn\u2019t scream \u2014 it whispers.",
+          "Most people don\u2019t suffer because life is hard.",
+          "Truth doesn\u2019t scream \u2014 it whispers."
+        ],
+        "power_words": [
+          "water",
+          "pain",
+          "cow",
+          "snake",
+          "drinks",
+          "turns",
+          "don",
+          "truth"
         ]
       },
       {
         "display_name": "pj milani | visual teacher",
-        "appearances": 10,
-        "avg_engagement": 5991,
-        "top_engagement": 9258,
+        "appearances": 11,
+        "avg_engagement": 6114,
+        "top_engagement": 9257,
         "dominant_structure": "statement",
         "dominant_length": "long",
         "sample_hooks": [
@@ -396,51 +451,6 @@
           "ideas",
           "newsletter",
           "through"
-        ]
-      },
-      {
-        "display_name": "mindset | motivation | success",
-        "appearances": 5,
-        "avg_engagement": 4018,
-        "top_engagement": 8814,
-        "dominant_structure": "statement",
-        "dominant_length": "long",
-        "sample_hooks": [
-          "At some point you stop chasing people and start chasing potential.",
-          "The biggest risk isn\u2019t losing money, it\u2019s Opportunity Cost.",
-          "\u201cNormal\u201d is just another word for settling."
-        ],
-        "power_words": [
-          "let",
-          "people",
-          "start",
-          "doesn",
-          "money",
-          "succeed",
-          "together",
-          "create"
-        ]
-      },
-      {
-        "display_name": "my positive outlooks",
-        "appearances": 2,
-        "avg_engagement": 2644,
-        "top_engagement": 3268,
-        "dominant_structure": "statement",
-        "dominant_length": "medium",
-        "sample_hooks": [
-          "Don\u2019t give up \u2014 rise after every fall, because today is a fresh start .",
-          "You\u2019ll work it out like you always do, so trust yourself."
-        ],
-        "power_words": [
-          "don",
-          "give",
-          "rise",
-          "after",
-          "every",
-          "fall",
-          "today",
-          "fresh"
         ]
       }
     ]
