@@ -3380,6 +3380,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_61_20260707_071152",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 61,
+      "topic": "discipline is the only shortcut",
+      "hook_keyword": "discipline",
+      "selected_quote": "For 90 days, the mind will resist discipline, but on the 91st day, it starts to follow. This is where growth begins, and freedom is found in the quiet moments of persistence",
+      "posted_at": "2026-07-07T07:11:52.879504",
+      "ig_media_id": "18162985117459153",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3880,10 +3901,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 161,
+    "total_posts": 162,
     "by_quote_type": {
       "question": 1,
-      "statement": 147,
+      "statement": 148,
       "contrast": 6,
       "punch": 3,
       "command": 4
@@ -3891,15 +3912,15 @@
     "by_design_style": {
       "minimal": 38,
       "dark": 44,
-      "luxury": 47,
+      "luxury": 48,
       "bold": 32
     },
     "by_format": {
       "image": 1,
-      "reel": 160
+      "reel": 161
     },
     "by_series": {
-      "discipline_rule": 54,
+      "discipline_rule": 55,
       "day_becoming_better": 54,
       "wake_up_call": 53
     },
