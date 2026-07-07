@@ -3401,6 +3401,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_60_20260707_155855",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 60,
+      "topic": "discipline is the only shortcut",
+      "hook_keyword": "establish",
+      "selected_quote": "Establish a daily routine that serves your goals, and watch your life transform through the power of discipline. Focus on the process, not just the outcome, and you'll find that growth becomes a natural byproduct of your efforts.",
+      "posted_at": "2026-07-07T15:58:55.255118",
+      "ig_media_id": "17904701193453375",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3901,10 +3922,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 162,
+    "total_posts": 163,
     "by_quote_type": {
       "question": 1,
-      "statement": 148,
+      "statement": 149,
       "contrast": 6,
       "punch": 3,
       "command": 4
@@ -3913,16 +3934,16 @@
       "minimal": 38,
       "dark": 44,
       "luxury": 48,
-      "bold": 32
+      "bold": 33
     },
     "by_format": {
       "image": 1,
-      "reel": 161
+      "reel": 162
     },
     "by_series": {
       "discipline_rule": 55,
       "day_becoming_better": 54,
-      "wake_up_call": 53
+      "wake_up_call": 54
     },
     "top_performing_series": "discipline_rule"
   },
