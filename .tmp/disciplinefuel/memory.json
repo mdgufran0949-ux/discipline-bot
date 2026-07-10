@@ -3485,6 +3485,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_61_20260710_072214",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 61,
+      "topic": "you already know what you need to do",
+      "hook_keyword": "recognize",
+      "selected_quote": "Recognize the truth that you already know what you need to do, but choosing to act on it is a different matter altogether. The hardest part is not the lack of knowledge, but the lack of discipline to follow through.",
+      "posted_at": "2026-07-10T07:22:14.960017",
+      "ig_media_id": "18122460409742581",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -3986,27 +4007,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 166,
+    "total_posts": 167,
     "by_quote_type": {
       "question": 1,
-      "statement": 152,
+      "statement": 153,
       "contrast": 6,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
-      "minimal": 38,
+      "minimal": 39,
       "dark": 45,
       "luxury": 50,
       "bold": 33
     },
     "by_format": {
       "image": 1,
-      "reel": 165
+      "reel": 166
     },
     "by_series": {
       "discipline_rule": 56,
-      "day_becoming_better": 55,
+      "day_becoming_better": 56,
       "wake_up_call": 55
     },
     "top_performing_series": "discipline_rule"
