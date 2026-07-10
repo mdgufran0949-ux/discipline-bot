@@ -1,36 +1,37 @@
 # DisciplineFuel — Review Report
-Generated: 2026-07-09 07:22
+Generated: 2026-07-10 15:41
 
 ## System Health
 - Last competitor fetch: 2026-07-09T07:18 ✅
-- Last IG metrics fetch: 2026-07-09T07:22 ✅
+- Last IG metrics fetch: 2026-07-10T15:41 ✅
 - IG hashtag quota used (7d): 10 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-06-30 | 0 | 8,875 | 14% |
 | 2026-07-01 | 0 | 12,557 | 9% |
 | 2026-07-03 | 0 | 12,557 | 9% |
 | 2026-07-04 | 0 | 10,584 | 11% |
 | 2026-07-05 | 0 | 10,584 | 11% |
 | 2026-07-06 | 0 | 10,587 | 15% |
 | 2026-07-08 | 0 | 10,587 | 15% |
+| 2026-07-09 | 0 | 13,627 | 12% |
 
 ## What Changed Today
 - Format mix: image 7% → 8%, carousel 13% → 12%
-- Blacklisted topic: "discipline is doing it when you do not feel like it"
-- Blacklisted topic: "your future self is watching you right now"
-- Blacklisted topic: "procrastination is self betrayal"
-- Blacklisted topic: "wake up before your competition does"
-- Blacklisted topic: "nobody is coming to save you"
-- Blacklisted topic: "winners do not wait for the right moment"
-- Blacklisted topic: "your phone is stealing your future"
-- Blacklisted topic: "you are not unlucky you are undisciplined"
-- Blacklisted topic: "comfort is the enemy of growth"
 - Blacklisted topic: "you are not busy you are avoiding"
+- Blacklisted topic: "discipline is doing it when you do not feel like it"
 - Blacklisted topic: "discipline is the only shortcut"
+- Blacklisted topic: "your phone is stealing your future"
+- Blacklisted topic: "procrastination is self betrayal"
+- Blacklisted topic: "comfort is the enemy of growth"
+- Blacklisted topic: "your future self is watching you right now"
+- Blacklisted topic: "wake up before your competition does"
+- Blacklisted topic: "you already know what you need to do"
+- Blacklisted topic: "nobody is coming to save you"
+- Blacklisted topic: "you are not unlucky you are undisciplined"
+- Blacklisted topic: "winners do not wait for the right moment"
 
 ## What We Learned From Competitors
 - Scanned hashtags: stoicmindset, discipline, selfdiscipline, disciplinequotes, mentality
@@ -50,7 +51,7 @@ Generated: 2026-07-09 07:22
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
 | Creator | Avg Engagement | Appearances | Style | Length | Best Hook |
 |---------|---------------|-------------|-------|--------|-----------|
-| @? | 27,774 | 10 | statement | long | "There are 12 weeks left in 2025." |
+| @? | 27,773 | 12 | statement | long | "There are 12 weeks left in 2025." |
 | @? | 17,852 | 13 | statement | medium | "Follow selfelevatepro for daily discipline" |
 | @? | 15,790 | 4 | statement | long | "Average Natural 🇮🇳 Aesthetics 🧬 🦍" |
 | @? | 13,407 | 6 | statement | long | "Let me tell you something that most men refuse to accept—" |
@@ -61,8 +62,8 @@ Generated: 2026-07-09 07:22
 
 ## Hook Adoption (Did We Use the Learnings?)
 - 18 / 20 recent posts used trending power-words (90%) ✅
-  - ✅ "procrastination is not laziness, it's a lack of clarity on what needs ..." (words: don)
-  - ✅ "95 days into the journey, most people realize that nobody is coming to..." (words: people, life, body)
+  - ✅ "create a schedule that honors your discipline, and every day will be a..." (words: life, follow, men)
+  - ✅ "what if the only person who can save you is the person you're becoming..." (words: discipline, day)
   - ⚠️ "66% of our waking hours are spent on screens, quietly shaping our mind..."
   - ⚠️ "set boundaries with your phone to protect your time."
 
@@ -70,14 +71,14 @@ Generated: 2026-07-09 07:22
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (luxury, reel) — "The version of you that quit still lives here, a reminder that discipline is not"
-2. **statement** (dark, reel) — "What if the version of you that quit still lives here, waiting to be silenced by"
-3. **statement** (bold, reel) — "Establish a daily routine that serves your goals, and watch your life transform "
+1. **statement** (minimal, reel) — "Recognize the truth that you already know what you need to do, but choosing to a"
+2. **statement** (luxury, reel) — "Planning is not preparation. We already know what we need to do; the real challe"
+3. **statement** (luxury, reel) — "The version of you that quit still lives here, a reminder that discipline is not"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 201     | —          |
+| Posts scored     | 203     | —          |
 | Avg score        | 1.6   | —          |
 | High performers  | 0       | —          |
 | Avg engagement   | 1   | 13,627      | -100% |
@@ -110,7 +111,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-07-08T17:06
+- Last cycle ran: 2026-07-10T15:13
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
