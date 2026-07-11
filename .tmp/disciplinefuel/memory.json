@@ -3548,6 +3548,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_62_20260711_142846",
+      "quote_type": "contrast",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 62,
+      "topic": "you are not tired you are uninspired",
+      "hook_keyword": "uninspired",
+      "selected_quote": "We're not tired, we're just uninspired by our daily routines.",
+      "posted_at": "2026-07-11T14:28:46.702412",
+      "ig_media_id": "18130746022616771",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4050,27 +4071,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 169,
+    "total_posts": 170,
     "by_quote_type": {
       "question": 1,
       "statement": 155,
-      "contrast": 6,
+      "contrast": 7,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
       "minimal": 40,
       "dark": 46,
-      "luxury": 50,
+      "luxury": 51,
       "bold": 33
     },
     "by_format": {
       "image": 1,
-      "reel": 168
+      "reel": 169
     },
     "by_series": {
       "discipline_rule": 57,
-      "day_becoming_better": 56,
+      "day_becoming_better": 57,
       "wake_up_call": 56
     },
     "top_performing_series": "discipline_rule"
