@@ -3527,6 +3527,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_62_20260711_060853",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 62,
+      "topic": "you are not tired you are uninspired",
+      "hook_keyword": "purpose",
+      "selected_quote": "What if the fatigue you feel is not from lack of rest, but from lack of purpose?",
+      "posted_at": "2026-07-11T06:08:53.679992",
+      "ig_media_id": "18096294755461074",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4029,28 +4050,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 168,
+    "total_posts": 169,
     "by_quote_type": {
       "question": 1,
-      "statement": 154,
+      "statement": 155,
       "contrast": 6,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
       "minimal": 40,
-      "dark": 45,
+      "dark": 46,
       "luxury": 50,
       "bold": 33
     },
     "by_format": {
       "image": 1,
-      "reel": 167
+      "reel": 168
     },
     "by_series": {
       "discipline_rule": 57,
       "day_becoming_better": 56,
-      "wake_up_call": 55
+      "wake_up_call": 56
     },
     "top_performing_series": "discipline_rule"
   },

@@ -6624,6 +6624,42 @@
         "#disciplinenotmotivation",
         "#disciplinefuel"
       ]
+    },
+    {
+      "id": "wake_up_call_62_20260711_060853",
+      "ig_media_id": "18096294755461074",
+      "permalink": "https://www.instagram.com/reel/DapFieWDxoD/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 62,
+      "content_series": "Wake Up Call #62",
+      "topic": "you are not tired you are uninspired",
+      "selected_quote": "What if the fatigue you feel is not from lack of rest, but from lack of purpose?",
+      "quote_type": "statement",
+      "hook_keyword": "purpose",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-07-11T06:08:53.679992",
+      "dry_run": false,
+      "pillar": "story_proof",
+      "hook_template": "question",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Follow for unfiltered discipline.",
+      "hashtags_used": [
+        "#innerstrength",
+        "#seriousmindset",
+        "#growthmindsetdaily",
+        "#disciplineovermotivation",
+        "#hardtruthsquotes",
+        "#toughnessmindset",
+        "#stoicismdaily",
+        "#disciplinedaily",
+        "#dis_ciplinefuel"
+      ]
     }
   ]
 }
