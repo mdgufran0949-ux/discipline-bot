@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-05T06:32:05.501694",
+  "last_updated": "2026-07-12T05:48:40.844161",
   "tracks": [
     {
       "track_id": "reframe_2007484",
@@ -177,61 +177,6 @@
       "duration": 332,
       "downloaded_at": "2026-06-21T07:28:26.684306",
       "file_path": "audio_library/reframe/2163964.mp3"
-    },
-    {
-      "track_id": "story_proof_1982365",
-      "jamendo_id": "1982365",
-      "pillar": "story_proof",
-      "title": "Abstract Ideas",
-      "artist_name": "DHDMusic",
-      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
-      "duration": 114,
-      "downloaded_at": "2026-06-21T07:28:31.182916",
-      "file_path": "audio_library/story_proof/1982365.mp3"
-    },
-    {
-      "track_id": "story_proof_2124813",
-      "jamendo_id": "2124813",
-      "pillar": "story_proof",
-      "title": "African Vibe",
-      "artist_name": "DHDMusic",
-      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
-      "duration": 121,
-      "downloaded_at": "2026-06-21T07:28:35.466085",
-      "file_path": "audio_library/story_proof/2124813.mp3"
-    },
-    {
-      "track_id": "story_proof_1886257",
-      "jamendo_id": "1886257",
-      "pillar": "story_proof",
-      "title": "Alone",
-      "artist_name": "Color Out",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 245,
-      "downloaded_at": "2026-06-21T07:28:42.411098",
-      "file_path": "audio_library/story_proof/1886257.mp3"
-    },
-    {
-      "track_id": "story_proof_2137882",
-      "jamendo_id": "2137882",
-      "pillar": "story_proof",
-      "title": "Bad Intentions",
-      "artist_name": "Bessonn&amp;sa",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 181,
-      "downloaded_at": "2026-06-21T07:28:48.060553",
-      "file_path": "audio_library/story_proof/2137882.mp3"
-    },
-    {
-      "track_id": "story_proof_1892110",
-      "jamendo_id": "1892110",
-      "pillar": "story_proof",
-      "title": "Dile Cuanto la Quiero",
-      "artist_name": "Igmar",
-      "license_url": "http://creativecommons.org/licenses/by/3.0/",
-      "duration": 174,
-      "downloaded_at": "2026-06-21T07:28:53.978836",
-      "file_path": "audio_library/story_proof/1892110.mp3"
     },
     {
       "track_id": "hard_truth_2313014",
@@ -650,6 +595,61 @@
       "duration": 255,
       "downloaded_at": "2026-07-05T06:32:05.498302",
       "file_path": "audio_library/story_proof/1974740.mp3"
+    },
+    {
+      "track_id": "story_proof_2272481",
+      "jamendo_id": "2272481",
+      "pillar": "story_proof",
+      "title": "Dont Run Away",
+      "artist_name": "Jon Worthy",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 166,
+      "downloaded_at": "2026-07-12T05:48:16.683377",
+      "file_path": "audio_library/story_proof/2272481.mp3"
+    },
+    {
+      "track_id": "story_proof_2006249",
+      "jamendo_id": "2006249",
+      "pillar": "story_proof",
+      "title": "Runaway Mustang",
+      "artist_name": "The Devil Music Co.",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 199,
+      "downloaded_at": "2026-07-12T05:48:23.014721",
+      "file_path": "audio_library/story_proof/2006249.mp3"
+    },
+    {
+      "track_id": "story_proof_1981752",
+      "jamendo_id": "1981752",
+      "pillar": "story_proof",
+      "title": "Quatro Paredes",
+      "artist_name": "heiwr",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 152,
+      "downloaded_at": "2026-07-12T05:48:28.073933",
+      "file_path": "audio_library/story_proof/1981752.mp3"
+    },
+    {
+      "track_id": "story_proof_1977273",
+      "jamendo_id": "1977273",
+      "pillar": "story_proof",
+      "title": "In the Summer",
+      "artist_name": "Maiya",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 198,
+      "downloaded_at": "2026-07-12T05:48:34.640190",
+      "file_path": "audio_library/story_proof/1977273.mp3"
+    },
+    {
+      "track_id": "story_proof_1975586",
+      "jamendo_id": "1975586",
+      "pillar": "story_proof",
+      "title": "Live It Up",
+      "artist_name": "The.madpix.project",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 192,
+      "downloaded_at": "2026-07-12T05:48:40.841077",
+      "file_path": "audio_library/story_proof/1975586.mp3"
     }
   ]
 }
