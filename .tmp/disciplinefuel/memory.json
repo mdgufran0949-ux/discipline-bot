@@ -3590,6 +3590,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_63_20260712_143838",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 63,
+      "topic": "the version of you that quit still lives here",
+      "hook_keyword": "discipline",
+      "selected_quote": "66 days is the average time it takes for a habit to stick, but the version of you that quit still lives here",
+      "posted_at": "2026-07-12T14:38:38.461364",
+      "ig_media_id": "17974724864902660",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4093,10 +4114,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 171,
+    "total_posts": 172,
     "by_quote_type": {
       "question": 1,
-      "statement": 156,
+      "statement": 157,
       "contrast": 7,
       "punch": 3,
       "command": 4
@@ -4104,17 +4125,17 @@
     "by_design_style": {
       "minimal": 40,
       "dark": 46,
-      "luxury": 51,
+      "luxury": 52,
       "bold": 34
     },
     "by_format": {
       "image": 1,
-      "reel": 170
+      "reel": 171
     },
     "by_series": {
       "discipline_rule": 58,
       "day_becoming_better": 57,
-      "wake_up_call": 56
+      "wake_up_call": 57
     },
     "top_performing_series": "discipline_rule"
   },
