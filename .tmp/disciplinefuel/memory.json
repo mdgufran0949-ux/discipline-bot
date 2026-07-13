@@ -3632,6 +3632,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_65_20260713_154106",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 65,
+      "topic": "stop calling it overthinking",
+      "hook_keyword": "stop",
+      "selected_quote": "Stop labeling it overthinking",
+      "posted_at": "2026-07-13T15:41:06.984631",
+      "ig_media_id": "18137364193605214",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4136,10 +4157,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 173,
+    "total_posts": 174,
     "by_quote_type": {
       "question": 1,
-      "statement": 158,
+      "statement": 159,
       "contrast": 7,
       "punch": 3,
       "command": 4
@@ -4147,15 +4168,15 @@
     "by_design_style": {
       "minimal": 40,
       "dark": 46,
-      "luxury": 53,
+      "luxury": 54,
       "bold": 34
     },
     "by_format": {
       "image": 1,
-      "reel": 172
+      "reel": 173
     },
     "by_series": {
-      "discipline_rule": 58,
+      "discipline_rule": 59,
       "day_becoming_better": 58,
       "wake_up_call": 57
     },
