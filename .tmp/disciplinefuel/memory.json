@@ -3653,6 +3653,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_64_20260714_055735",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 64,
+      "topic": "stop calling it overthinking",
+      "hook_keyword": "depth",
+      "selected_quote": "Overthinking is not a curse, it's a sign of depth. Every moment we take to reflect is a chance to grow, to learn, and to stay focused on what truly matters in life. In a world that often values noise over nuance, it's time to reframe our perception of the mind's quiet work",
+      "posted_at": "2026-07-14T05:57:35.890345",
+      "ig_media_id": "18066781652732852",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4157,28 +4178,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 174,
+    "total_posts": 175,
     "by_quote_type": {
       "question": 1,
-      "statement": 159,
+      "statement": 160,
       "contrast": 7,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
-      "minimal": 40,
+      "minimal": 41,
       "dark": 46,
       "luxury": 54,
       "bold": 34
     },
     "by_format": {
       "image": 1,
-      "reel": 173
+      "reel": 174
     },
     "by_series": {
       "discipline_rule": 59,
       "day_becoming_better": 58,
-      "wake_up_call": 57
+      "wake_up_call": 58
     },
     "top_performing_series": "discipline_rule"
   },
