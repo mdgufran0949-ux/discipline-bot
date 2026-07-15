@@ -3716,6 +3716,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_65_20260715_143017",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 65,
+      "topic": "your circle is keeping you soft",
+      "hook_keyword": "discipline",
+      "selected_quote": "Set your schedule with intention, every time, to keep your focus sharp",
+      "posted_at": "2026-07-15T14:30:17.924135",
+      "ig_media_id": "18484235818096937",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4221,28 +4242,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 177,
+    "total_posts": 178,
     "by_quote_type": {
       "question": 1,
-      "statement": 162,
+      "statement": 163,
       "contrast": 7,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
       "minimal": 41,
-      "dark": 47,
+      "dark": 48,
       "luxury": 55,
       "bold": 34
     },
     "by_format": {
       "image": 1,
-      "reel": 176
+      "reel": 177
     },
     "by_series": {
       "discipline_rule": 60,
       "day_becoming_better": 59,
-      "wake_up_call": 58
+      "wake_up_call": 59
     },
     "top_performing_series": "discipline_rule"
   },
