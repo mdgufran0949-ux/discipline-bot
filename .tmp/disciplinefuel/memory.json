@@ -3695,6 +3695,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_66_20260715_055811",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 66,
+      "topic": "your circle is keeping you soft",
+      "hook_keyword": "discipline",
+      "selected_quote": "66 days into the year, most people's resolutions have faded, and it's often the company we keep that determines whether we stay on track or lose our way",
+      "posted_at": "2026-07-15T05:58:11.642589",
+      "ig_media_id": "17993474384809670",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4200,10 +4221,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 176,
+    "total_posts": 177,
     "by_quote_type": {
       "question": 1,
-      "statement": 161,
+      "statement": 162,
       "contrast": 7,
       "punch": 3,
       "command": 4
@@ -4211,15 +4232,15 @@
     "by_design_style": {
       "minimal": 41,
       "dark": 47,
-      "luxury": 54,
+      "luxury": 55,
       "bold": 34
     },
     "by_format": {
       "image": 1,
-      "reel": 175
+      "reel": 176
     },
     "by_series": {
-      "discipline_rule": 59,
+      "discipline_rule": 60,
       "day_becoming_better": 59,
       "wake_up_call": 58
     },
