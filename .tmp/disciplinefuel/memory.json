@@ -3758,6 +3758,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_67_20260716_145334",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 67,
+      "topic": "switch\" your mind",
+      "hook_keyword": "morning",
+      "selected_quote": "As the morning light creeps into the room, it whispers a reminder that every day is a chance to follow a new path, to rewire the mind and choose discipline over distraction, to become the person we've always thought we could be",
+      "posted_at": "2026-07-16T14:53:34.116285",
+      "ig_media_id": "18098948090361621",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4264,10 +4285,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 179,
+    "total_posts": 180,
     "by_quote_type": {
       "question": 1,
-      "statement": 164,
+      "statement": 165,
       "contrast": 7,
       "punch": 3,
       "command": 4
@@ -4275,15 +4296,15 @@
     "by_design_style": {
       "minimal": 41,
       "dark": 48,
-      "luxury": 55,
+      "luxury": 56,
       "bold": 35
     },
     "by_format": {
       "image": 1,
-      "reel": 178
+      "reel": 179
     },
     "by_series": {
-      "discipline_rule": 60,
+      "discipline_rule": 61,
       "day_becoming_better": 60,
       "wake_up_call": 59
     },
