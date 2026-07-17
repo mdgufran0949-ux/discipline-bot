@@ -3800,6 +3800,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_66_20260717_143457",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 66,
+      "topic": "you have been rehearsing failure",
+      "hook_keyword": "rehearsal",
+      "selected_quote": "66 days of rehearsal shape every failure",
+      "posted_at": "2026-07-17T14:34:57.849925",
+      "ig_media_id": "18008570438937321",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4306,27 +4327,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 181,
+    "total_posts": 182,
     "by_quote_type": {
       "question": 1,
-      "statement": 166,
+      "statement": 167,
       "contrast": 7,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
-      "minimal": 42,
+      "minimal": 43,
       "dark": 48,
       "luxury": 56,
       "bold": 35
     },
     "by_format": {
       "image": 1,
-      "reel": 180
+      "reel": 181
     },
     "by_series": {
       "discipline_rule": 61,
-      "day_becoming_better": 60,
+      "day_becoming_better": 61,
       "wake_up_call": 60
     },
     "top_performing_series": "discipline_rule"
