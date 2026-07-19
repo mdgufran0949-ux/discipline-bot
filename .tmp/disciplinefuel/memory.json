@@ -3842,6 +3842,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_67_20260719_142409",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 67,
+      "topic": "portable shooting machine x founder, ceo",
+      "hook_keyword": "establish",
+      "selected_quote": "Establish a daily routine that serves your goals, and follow it every day, no matter how bad the morning starts.",
+      "posted_at": "2026-07-19T14:24:09.621090",
+      "ig_media_id": "18058351850763101",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4348,28 +4369,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 183,
+    "total_posts": 184,
     "by_quote_type": {
       "question": 1,
-      "statement": 168,
+      "statement": 169,
       "contrast": 7,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
       "minimal": 43,
-      "dark": 48,
+      "dark": 49,
       "luxury": 57,
       "bold": 35
     },
     "by_format": {
       "image": 1,
-      "reel": 182
+      "reel": 183
     },
     "by_series": {
       "discipline_rule": 62,
       "day_becoming_better": 61,
-      "wake_up_call": 60
+      "wake_up_call": 61
     },
     "top_performing_series": "discipline_rule"
   },
