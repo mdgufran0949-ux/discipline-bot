@@ -3884,6 +3884,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_69_20260720_145948",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 69,
+      "topic": "you have been rehearsing failure",
+      "hook_keyword": "night",
+      "selected_quote": "The night you decided to face your fears is the same night you began to rewire your mindset, and every day since has been a testament to the discipline that grows in the quiet hours, where life's greatest lessons are learned",
+      "posted_at": "2026-07-20T14:59:48.347904",
+      "ig_media_id": "18323721829275929",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4390,10 +4411,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 185,
+    "total_posts": 186,
     "by_quote_type": {
       "question": 1,
-      "statement": 170,
+      "statement": 171,
       "contrast": 7,
       "punch": 3,
       "command": 4
@@ -4402,14 +4423,14 @@
       "minimal": 43,
       "dark": 50,
       "luxury": 57,
-      "bold": 35
+      "bold": 36
     },
     "by_format": {
       "image": 1,
-      "reel": 184
+      "reel": 185
     },
     "by_series": {
-      "discipline_rule": 62,
+      "discipline_rule": 63,
       "day_becoming_better": 62,
       "wake_up_call": 61
     },
