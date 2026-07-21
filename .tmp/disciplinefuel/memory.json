@@ -3905,6 +3905,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_68_20260721_064307",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 68,
+      "topic": "you have been rehearsing failure",
+      "hook_keyword": "failure",
+      "selected_quote": "What if every failure you've experienced has been secretly rehearsing you for the life you're meant to live? Every bad day, every failed attempt, has been guiding you towards growth, quietly building your strength, and preparing you for the journey ahead.",
+      "posted_at": "2026-07-21T06:43:07.339338",
+      "ig_media_id": "18360759775214477",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4411,28 +4432,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 186,
+    "total_posts": 187,
     "by_quote_type": {
       "question": 1,
-      "statement": 171,
+      "statement": 172,
       "contrast": 7,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
       "minimal": 43,
-      "dark": 50,
+      "dark": 51,
       "luxury": 57,
       "bold": 36
     },
     "by_format": {
       "image": 1,
-      "reel": 185
+      "reel": 186
     },
     "by_series": {
       "discipline_rule": 63,
       "day_becoming_better": 62,
-      "wake_up_call": 61
+      "wake_up_call": 62
     },
     "top_performing_series": "discipline_rule"
   },
