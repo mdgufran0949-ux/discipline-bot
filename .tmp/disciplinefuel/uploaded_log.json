@@ -7620,6 +7620,42 @@
         "#disciplinefuel",
         "#disciplinedaily"
       ]
+    },
+    {
+      "id": "wake_up_call_69_20260722_144548",
+      "ig_media_id": "18110192083965798",
+      "permalink": "https://www.instagram.com/reel/DbGVcxigsvU/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 69,
+      "content_series": "Wake Up Call #69",
+      "topic": "portable shooting machine x founder, ceo",
+      "selected_quote": "Discipline is not about being perfect, it's about being consistent every day",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-07-22T14:45:48.220684",
+      "dry_run": false,
+      "pillar": "reframe",
+      "hook_template": "contrarian",
+      "pillar_hook_source": "picker",
+      "caption_structure": "contrarian_take",
+      "caption_cta": "Comment 'YES' if this hit.",
+      "hashtags_used": [
+        "#innerstrength",
+        "#disciplineovermotivation",
+        "#selfgrowthjourney",
+        "#silentgrind",
+        "#unglamoroussuccess",
+        "#buildmentaltoughness",
+        "#quietdiscipline",
+        "#disciplinefuel",
+        "#dis_ciplinefuel"
+      ]
     }
   ]
 }
