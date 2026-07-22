@@ -3947,6 +3947,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_70_20260722_061747",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 70,
+      "topic": "portable shooting machine x founder, ceo",
+      "hook_keyword": "remember",
+      "selected_quote": "Remember every great story started with a single step, not a thousand excuses. Life is a journey of progress, not perfection. Follow the path that whispers discipline, every day, and you'll find your way.",
+      "posted_at": "2026-07-22T06:17:47.667810",
+      "ig_media_id": "18406667140155347",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4454,10 +4475,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 188,
+    "total_posts": 189,
     "by_quote_type": {
       "question": 1,
-      "statement": 173,
+      "statement": 174,
       "contrast": 7,
       "punch": 3,
       "command": 4
@@ -4466,14 +4487,14 @@
       "minimal": 43,
       "dark": 52,
       "luxury": 57,
-      "bold": 36
+      "bold": 37
     },
     "by_format": {
       "image": 1,
-      "reel": 187
+      "reel": 188
     },
     "by_series": {
-      "discipline_rule": 63,
+      "discipline_rule": 64,
       "day_becoming_better": 63,
       "wake_up_call": 62
     },
