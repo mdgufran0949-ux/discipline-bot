@@ -1,44 +1,45 @@
 # DisciplineFuel — Review Report
-Generated: 2026-07-21 14:59
+Generated: 2026-07-23 06:28
 
 > ⚠️ **ATTENTION NEEDED:** competitor_fetch
 
 ## System Health
 - Last competitor fetch: 2026-07-18T14:21 ⚠️
-- Last IG metrics fetch: 2026-07-21T14:59 ✅
+- Last IG metrics fetch: 2026-07-23T06:28 ✅
 - IG hashtag quota used (7d): 7 / 30 ✅
-- Consecutive failed competitor fetches: 0
+- Consecutive failed competitor fetches: 1
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-07-12 | 0 | 0 | 12% |
 | 2026-07-13 | 0 | 5,321 | 10% |
 | 2026-07-14 | 0 | 5,321 | 10% |
 | 2026-07-16 | 0 | 8,669 | 12% |
 | 2026-07-17 | 0 | 8,669 | 12% |
 | 2026-07-18 | 0 | 12,143 | 12% |
 | 2026-07-20 | 0 | 12,143 | 12% |
+| 2026-07-21 | 0 | 0 | 12% |
 
 ## What Changed Today
 - Format mix: image 7% → 8%, carousel 13% → 12%
-- Blacklisted topic: "you are not tired you are uninspired"
-- Blacklisted topic: "discipline is doing it when you do not feel like it"
-- Blacklisted topic: "your circle is keeping you soft"
-- Blacklisted topic: "comfort is the enemy of growth"
-- Blacklisted topic: "you already know what you need to do"
-- Blacklisted topic: "you are not unlucky you are undisciplined"
-- Blacklisted topic: "procrastination is self betrayal"
-- Blacklisted topic: "you have been rehearsing failure"
-- Blacklisted topic: "you are not busy you are avoiding"
-- Blacklisted topic: "the version of you that quit still lives here"
-- Blacklisted topic: "winners do not wait for the right moment"
 - Blacklisted topic: "stop calling it overthinking"
-- Blacklisted topic: "wake up before your competition does"
-- Blacklisted topic: "nobody is coming to save you"
-- Blacklisted topic: "discipline is the only shortcut"
+- Blacklisted topic: "comfort is the enemy of growth"
+- Blacklisted topic: "you have been rehearsing failure"
 - Blacklisted topic: "your future self is watching you right now"
+- Blacklisted topic: "your circle is keeping you soft"
+- Blacklisted topic: "discipline is doing it when you do not feel like it"
+- Blacklisted topic: "wake up before your competition does"
+- Blacklisted topic: "discipline is the only shortcut"
+- Blacklisted topic: "you already know what you need to do"
+- Blacklisted topic: "nobody is coming to save you"
+- Blacklisted topic: "you are not unlucky you are undisciplined"
+- Blacklisted topic: "the version of you that quit still lives here"
+- Blacklisted topic: "procrastination is self betrayal"
+- Blacklisted topic: "you are not tired you are uninspired"
 - Blacklisted topic: "your phone is stealing your future"
+- Blacklisted topic: "portable shooting machine x founder, ceo"
+- Blacklisted topic: "winners do not wait for the right moment"
+- Blacklisted topic: "you are not busy you are avoiding"
 
 ## What We Learned From Competitors
 - No competitor data this run (API unavailable or cached)
@@ -56,24 +57,22 @@ Generated: 2026-07-21 14:59
 | @? | 8,723 | 8 | statement | long | "Drop two ❤ if you needed to see this!" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 17 / 20 recent posts used trending power-words (85%) ✅
+- 20 / 20 recent posts used trending power-words (100%) ✅
   - ✅ "in the depths of our struggles, a part of us remains untouched, a vers..." (words: life)
   - ✅ "66 days is the average time it takes for a habit to stick, but the ver..." (words: day)
-  - ⚠️ "90% of the time, we're not tired, we're just uninspired."
-  - ⚠️ "what if the fatigue you feel is not from lack of rest, but from lack o..."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (dark, reel) — "What if every failure you've experienced has been secretly rehearsing you for th"
-2. **statement** (bold, reel) — "The night you decided to face your fears is the same night you began to rewire y"
-3. **statement** (dark, reel) — "Failure is not the opposite of success, it's a part of it. Every day, we rehears"
+1. **statement** (minimal, reel) — "Discipline is not about being perfect, it's about being consistent every day"
+2. **statement** (bold, reel) — "Remember every great story started with a single step, not a thousand excuses. L"
+3. **statement** (dark, reel) — "66 days into building a new habit, most people start to see results, but it's th"
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 223     | —          |
+| Posts scored     | 226     | —          |
 | Avg score        | 1.4   | —          |
 | High performers  | 0       | —          |
 
@@ -105,7 +104,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-07-21T11:00
+- Last cycle ran: 2026-07-22T17:06
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
