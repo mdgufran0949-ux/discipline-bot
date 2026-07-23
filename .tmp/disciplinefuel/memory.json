@@ -4010,6 +4010,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_71_20260723_151255",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 71,
+      "topic": "one more scroll one less chance",
+      "hook_keyword": "discipline",
+      "selected_quote": "66 days is the average time it takes for a habit to form, yet most people give up after just 3 weeks, highlighting the harsh reality that discipline is a muscle that must be exercised daily to see real growth",
+      "posted_at": "2026-07-23T15:12:55.855707",
+      "ig_media_id": "17899562016517238",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4518,10 +4539,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 191,
+    "total_posts": 192,
     "by_quote_type": {
       "question": 1,
-      "statement": 176,
+      "statement": 177,
       "contrast": 7,
       "punch": 3,
       "command": 4
@@ -4529,15 +4550,15 @@
     "by_design_style": {
       "minimal": 45,
       "dark": 52,
-      "luxury": 57,
+      "luxury": 58,
       "bold": 37
     },
     "by_format": {
       "image": 1,
-      "reel": 190
+      "reel": 191
     },
     "by_series": {
-      "discipline_rule": 64,
+      "discipline_rule": 65,
       "day_becoming_better": 64,
       "wake_up_call": 63
     },
