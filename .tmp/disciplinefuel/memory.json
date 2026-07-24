@@ -4052,6 +4052,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_70_20260724_143717",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 70,
+      "topic": "one more scroll one less chance",
+      "hook_keyword": "complacency",
+      "selected_quote": "Complacency is a silent killer of dreams, and every day we follow the path of least resistance, we inch closer to a life of regret. The truth is, the bad habits we justify today will be the chains that hold us back tomorrow",
+      "posted_at": "2026-07-24T14:37:17.887465",
+      "ig_media_id": "18453645979187323",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4560,10 +4581,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 193,
+    "total_posts": 194,
     "by_quote_type": {
       "question": 1,
-      "statement": 178,
+      "statement": 179,
       "contrast": 7,
       "punch": 3,
       "command": 4
@@ -4572,15 +4593,15 @@
       "minimal": 46,
       "dark": 52,
       "luxury": 58,
-      "bold": 37
+      "bold": 38
     },
     "by_format": {
       "image": 1,
-      "reel": 192
+      "reel": 193
     },
     "by_series": {
       "discipline_rule": 65,
-      "day_becoming_better": 64,
+      "day_becoming_better": 65,
       "wake_up_call": 64
     },
     "top_performing_series": "discipline_rule"
