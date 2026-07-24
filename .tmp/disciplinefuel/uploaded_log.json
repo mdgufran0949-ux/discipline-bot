@@ -72,7 +72,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:23:36.717747"
+      "metrics_fetched_at": "2026-07-24T06:34:02.124668"
     },
     {
       "id": "discipline_rule_5_20260422_194606",
@@ -112,7 +112,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:23:37.917619"
+      "metrics_fetched_at": "2026-07-24T06:34:02.756958"
     },
     {
       "id": "day_becoming_better_4_20260423_175659",
@@ -135,7 +135,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:23:39.076761"
+      "metrics_fetched_at": "2026-07-24T06:34:03.299976"
     },
     {
       "id": "discipline_rule_6_20260423_180121",
@@ -158,7 +158,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:23:40.022510"
+      "metrics_fetched_at": "2026-07-24T06:34:03.965501"
     },
     {
       "id": "wake_up_call_5_20260423_180535",
@@ -181,7 +181,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:23:41.225781"
+      "metrics_fetched_at": "2026-07-24T06:34:04.502745"
     },
     {
       "id": "day_becoming_better_8_20260425_113809",
@@ -204,7 +204,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:23:42.206869"
+      "metrics_fetched_at": "2026-07-24T06:34:05.387433"
     },
     {
       "id": "discipline_rule_10_20260425_114238",
@@ -227,7 +227,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:23:43.316313"
+      "metrics_fetched_at": "2026-07-24T06:34:05.925901"
     },
     {
       "id": "wake_up_call_9_20260425_114725",
@@ -250,7 +250,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:23:44.288179"
+      "metrics_fetched_at": "2026-07-24T06:34:06.445279"
     },
     {
       "id": "day_becoming_better_9_20260425_132512",
@@ -273,7 +273,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:23:45.654273"
+      "metrics_fetched_at": "2026-07-24T06:34:07.073742"
     },
     {
       "id": "discipline_rule_11_20260425_132929",
@@ -296,7 +296,7 @@
       "comments": 0,
       "likes": 2,
       "score": 10,
-      "metrics_fetched_at": "2026-07-23T06:23:46.685627"
+      "metrics_fetched_at": "2026-07-24T06:34:07.972739"
     },
     {
       "id": "wake_up_call_10_20260425_133420",
@@ -307,7 +307,7 @@
       "series_number": 10,
       "content_series": "Wake Up Call #10",
       "topic": "your laziness has a price",
-      "selected_quote": "Every moment spent in comfort is a trade-off for the discipline we could be cultivating. True growth often slips through the hands that aren’t willing to embrace the discomfort.",
+      "selected_quote": "Every moment spent in comfort is a trade-off for the discipline we could be cultivating. True growth often slips through the hands that aren\u2019t willing to embrace the discomfort.",
       "quote_type": "statement",
       "hook_keyword": "discipline",
       "design_style": "bold",
@@ -319,7 +319,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:23:47.355323"
+      "metrics_fetched_at": "2026-07-24T06:34:08.688919"
     },
     {
       "id": "day_becoming_better_10_20260429_165711",
@@ -342,7 +342,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:23:48.998069"
+      "metrics_fetched_at": "2026-07-24T06:34:09.205675"
     },
     {
       "id": "discipline_rule_12_20260429_170135",
@@ -365,7 +365,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:23:49.782954"
+      "metrics_fetched_at": "2026-07-24T06:34:09.854756"
     },
     {
       "id": "wake_up_call_11_20260429_170550",
@@ -388,7 +388,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:23:50.436444"
+      "metrics_fetched_at": "2026-07-24T06:34:10.445979"
     },
     {
       "id": "day_becoming_better_8_20260425_034144",
@@ -411,7 +411,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:23:52.180919"
+      "metrics_fetched_at": "2026-07-24T06:34:11.160559"
     },
     {
       "id": "discipline_rule_10_20260425_034553",
@@ -434,7 +434,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:23:54.829122"
+      "metrics_fetched_at": "2026-07-24T06:34:11.752125"
     },
     {
       "id": "wake_up_call_9_20260425_035033",
@@ -457,7 +457,7 @@
       "comments": 0,
       "likes": 2,
       "score": 2,
-      "metrics_fetched_at": "2026-07-23T06:23:55.508452"
+      "metrics_fetched_at": "2026-07-24T06:34:12.288499"
     },
     {
       "id": "day_becoming_better_9_20260425_083420",
@@ -480,7 +480,7 @@
       "comments": 0,
       "likes": 3,
       "score": 7,
-      "metrics_fetched_at": "2026-07-23T06:23:57.116693"
+      "metrics_fetched_at": "2026-07-24T06:34:12.961702"
     },
     {
       "id": "discipline_rule_11_20260425_083827",
@@ -503,7 +503,7 @@
       "comments": 0,
       "likes": 4,
       "score": 8,
-      "metrics_fetched_at": "2026-07-23T06:23:59.518720"
+      "metrics_fetched_at": "2026-07-24T06:34:13.638412"
     },
     {
       "id": "wake_up_call_10_20260425_084238",
@@ -526,7 +526,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:00.085814"
+      "metrics_fetched_at": "2026-07-24T06:34:14.318696"
     },
     {
       "id": "day_becoming_better_10_20260425_151014",
@@ -549,7 +549,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:00.754051"
+      "metrics_fetched_at": "2026-07-24T06:34:15.301039"
     },
     {
       "id": "discipline_rule_12_20260425_151421",
@@ -572,7 +572,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:04.007748"
+      "metrics_fetched_at": "2026-07-24T06:34:15.814962"
     },
     {
       "id": "wake_up_call_11_20260425_151918",
@@ -595,7 +595,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:06.835845"
+      "metrics_fetched_at": "2026-07-24T06:34:16.487146"
     },
     {
       "id": "day_becoming_better_11_20260426_040429",
@@ -606,7 +606,7 @@
       "series_number": 11,
       "content_series": "Day 11 of Becoming Better",
       "topic": "a real man has no hobbies",
-      "selected_quote": "A real man understands that true strength isn’t found in hobbies but in the commitment to growth. Every choice we make is a reflection of our values, shaping the paths we walk.",
+      "selected_quote": "A real man understands that true strength isn\u2019t found in hobbies but in the commitment to growth. Every choice we make is a reflection of our values, shaping the paths we walk.",
       "quote_type": "statement",
       "hook_keyword": "growth",
       "design_style": "bold",
@@ -618,7 +618,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:07.593552"
+      "metrics_fetched_at": "2026-07-24T06:34:17.085485"
     },
     {
       "id": "discipline_rule_13_20260426_040834",
@@ -641,7 +641,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:09.614685"
+      "metrics_fetched_at": "2026-07-24T06:34:17.710222"
     },
     {
       "id": "wake_up_call_12_20260426_041332",
@@ -664,7 +664,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:10.263984"
+      "metrics_fetched_at": "2026-07-24T06:34:18.409952"
     },
     {
       "id": "day_becoming_better_12_20260426_084515",
@@ -687,7 +687,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:11.252910"
+      "metrics_fetched_at": "2026-07-24T06:34:18.986282"
     },
     {
       "id": "discipline_rule_14_20260426_084919",
@@ -710,7 +710,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:11.866711"
+      "metrics_fetched_at": "2026-07-24T06:34:19.588161"
     },
     {
       "id": "wake_up_call_13_20260426_085325",
@@ -733,7 +733,7 @@
       "comments": 0,
       "likes": 1,
       "score": 5,
-      "metrics_fetched_at": "2026-07-23T06:24:12.516710"
+      "metrics_fetched_at": "2026-07-24T06:34:20.154165"
     },
     {
       "id": "day_becoming_better_13_20260426_150856",
@@ -756,7 +756,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:13.354544"
+      "metrics_fetched_at": "2026-07-24T06:34:20.727079"
     },
     {
       "id": "discipline_rule_15_20260426_151346",
@@ -779,7 +779,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:14.016817"
+      "metrics_fetched_at": "2026-07-24T06:34:21.272281"
     },
     {
       "id": "wake_up_call_14_20260426_151757",
@@ -802,7 +802,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:24:15.326551"
+      "metrics_fetched_at": "2026-07-24T06:34:21.961080"
     },
     {
       "id": "day_becoming_better_14_20260427_040942",
@@ -825,7 +825,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:16.206518"
+      "metrics_fetched_at": "2026-07-24T06:34:22.676752"
     },
     {
       "id": "discipline_rule_16_20260427_041357",
@@ -848,7 +848,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:16.772316"
+      "metrics_fetched_at": "2026-07-24T06:34:23.262326"
     },
     {
       "id": "wake_up_call_15_20260427_041813",
@@ -871,7 +871,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:17.601735"
+      "metrics_fetched_at": "2026-07-24T06:34:24.488542"
     },
     {
       "id": "day_becoming_better_15_20260427_094023",
@@ -894,7 +894,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:18.448755"
+      "metrics_fetched_at": "2026-07-24T06:34:25.013895"
     },
     {
       "id": "discipline_rule_17_20260427_094427",
@@ -917,7 +917,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:19.182280"
+      "metrics_fetched_at": "2026-07-24T06:34:26.514316"
     },
     {
       "id": "wake_up_call_16_20260427_094839",
@@ -940,7 +940,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:20.997010"
+      "metrics_fetched_at": "2026-07-24T06:34:27.130236"
     },
     {
       "id": "day_becoming_better_16_20260427_160834",
@@ -963,7 +963,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:22.226814"
+      "metrics_fetched_at": "2026-07-24T06:34:27.677509"
     },
     {
       "id": "discipline_rule_18_20260427_161244",
@@ -986,7 +986,7 @@
       "comments": 0,
       "likes": 0,
       "score": 4,
-      "metrics_fetched_at": "2026-07-23T06:24:22.872755"
+      "metrics_fetched_at": "2026-07-24T06:34:28.275408"
     },
     {
       "id": "wake_up_call_17_20260427_161655",
@@ -1009,7 +1009,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:25.152664"
+      "metrics_fetched_at": "2026-07-24T06:34:28.814177"
     },
     {
       "id": "day_becoming_better_17_20260428_041429",
@@ -1032,7 +1032,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:26.518242"
+      "metrics_fetched_at": "2026-07-24T06:34:29.538535"
     },
     {
       "id": "discipline_rule_19_20260428_041843",
@@ -1055,7 +1055,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:27.144872"
+      "metrics_fetched_at": "2026-07-24T06:34:30.100332"
     },
     {
       "id": "wake_up_call_18_20260428_042246",
@@ -1078,7 +1078,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:29.389521"
+      "metrics_fetched_at": "2026-07-24T06:34:30.715929"
     },
     {
       "id": "day_becoming_better_18_20260428_094412",
@@ -1089,7 +1089,7 @@
       "series_number": 18,
       "content_series": "Day 18 of Becoming Better",
       "topic": "if you don't have discipline you are a nobody",
-      "selected_quote": "Discipline is not a badge of honor; it’s the quiet force that shapes a life of substance and purpose.",
+      "selected_quote": "Discipline is not a badge of honor; it\u2019s the quiet force that shapes a life of substance and purpose.",
       "quote_type": "statement",
       "hook_keyword": "discipline",
       "design_style": "luxury",
@@ -1101,7 +1101,7 @@
       "comments": 0,
       "likes": 2,
       "score": 11,
-      "metrics_fetched_at": "2026-07-23T06:24:31.479214"
+      "metrics_fetched_at": "2026-07-24T06:34:31.398411"
     },
     {
       "id": "discipline_rule_20_20260428_094853",
@@ -1112,7 +1112,7 @@
       "series_number": 20,
       "content_series": "Discipline Rule #20",
       "topic": "1 minute a day",
-      "selected_quote": "One minute each day can transform the landscape of our lives. It’s not about grand gestures, but the quiet consistency of our efforts.",
+      "selected_quote": "One minute each day can transform the landscape of our lives. It\u2019s not about grand gestures, but the quiet consistency of our efforts.",
       "quote_type": "statement",
       "hook_keyword": "transformation",
       "design_style": "luxury",
@@ -1124,7 +1124,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:32.398436"
+      "metrics_fetched_at": "2026-07-24T06:34:31.893608"
     },
     {
       "id": "wake_up_call_19_20260428_095304",
@@ -1147,7 +1147,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:32.944042"
+      "metrics_fetched_at": "2026-07-24T06:34:32.908074"
     },
     {
       "id": "day_becoming_better_19_20260428_162418",
@@ -1170,7 +1170,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:33.603524"
+      "metrics_fetched_at": "2026-07-24T06:34:33.508366"
     },
     {
       "id": "discipline_rule_21_20260428_162837",
@@ -1193,7 +1193,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:35.335901"
+      "metrics_fetched_at": "2026-07-24T06:34:34.088324"
     },
     {
       "id": "wake_up_call_20_20260428_163332",
@@ -1216,7 +1216,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:36.005657"
+      "metrics_fetched_at": "2026-07-24T06:34:34.714125"
     },
     {
       "id": "day_becoming_better_20_20260429_041100",
@@ -1239,7 +1239,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:36.622803"
+      "metrics_fetched_at": "2026-07-24T06:34:35.269240"
     },
     {
       "id": "discipline_rule_22_20260429_041525",
@@ -1262,7 +1262,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:37.225173"
+      "metrics_fetched_at": "2026-07-24T06:34:35.798613"
     },
     {
       "id": "wake_up_call_21_20260429_041928",
@@ -1285,7 +1285,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:37.964867"
+      "metrics_fetched_at": "2026-07-24T06:34:36.364302"
     },
     {
       "id": "day_becoming_better_21_20260429_093545",
@@ -1308,7 +1308,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:39.612697"
+      "metrics_fetched_at": "2026-07-24T06:34:36.983477"
     },
     {
       "id": "discipline_rule_23_20260429_093940",
@@ -1331,7 +1331,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:40.259531"
+      "metrics_fetched_at": "2026-07-24T06:34:37.544290"
     },
     {
       "id": "wake_up_call_22_20260429_094359",
@@ -1354,7 +1354,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:43.875900"
+      "metrics_fetched_at": "2026-07-24T06:34:38.139325"
     },
     {
       "id": "day_becoming_better_22_20260429_161523",
@@ -1377,7 +1377,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:44.449017"
+      "metrics_fetched_at": "2026-07-24T06:34:38.714580"
     },
     {
       "id": "discipline_rule_24_20260429_161940",
@@ -1400,7 +1400,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:46.593523"
+      "metrics_fetched_at": "2026-07-24T06:34:39.337030"
     },
     {
       "id": "wake_up_call_23_20260429_162346",
@@ -1423,7 +1423,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:47.994470"
+      "metrics_fetched_at": "2026-07-24T06:34:40.152435"
     },
     {
       "id": "day_becoming_better_11_20260430_041244",
@@ -1446,7 +1446,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:48.638260"
+      "metrics_fetched_at": "2026-07-24T06:34:40.770434"
     },
     {
       "id": "discipline_rule_13_20260430_041731",
@@ -1457,7 +1457,7 @@
       "series_number": 13,
       "content_series": "Discipline Rule #13",
       "topic": "how much does david goggins sleeps",
-      "selected_quote": "Discipline doesn’t require the absence of sleep; it thrives in the choices we make while awake, guiding our every thought and action.",
+      "selected_quote": "Discipline doesn\u2019t require the absence of sleep; it thrives in the choices we make while awake, guiding our every thought and action.",
       "quote_type": "statement",
       "hook_keyword": "discipline",
       "design_style": "minimal",
@@ -1469,7 +1469,7 @@
       "comments": 0,
       "likes": 1,
       "score": 5,
-      "metrics_fetched_at": "2026-07-23T06:24:50.760754"
+      "metrics_fetched_at": "2026-07-24T06:34:41.467496"
     },
     {
       "id": "wake_up_call_12_20260430_042139",
@@ -1492,7 +1492,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:24:51.305024"
+      "metrics_fetched_at": "2026-07-24T06:34:42.469792"
     },
     {
       "id": "day_becoming_better_12_20260430_093552",
@@ -1515,7 +1515,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:24:53.090808"
+      "metrics_fetched_at": "2026-07-24T06:34:43.057547"
     },
     {
       "id": "discipline_rule_14_20260430_094024",
@@ -1538,7 +1538,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:24:53.745551"
+      "metrics_fetched_at": "2026-07-24T06:34:43.753284"
     },
     {
       "id": "wake_up_call_13_20260430_094521",
@@ -1561,7 +1561,7 @@
       "comments": 0,
       "likes": 0,
       "score": 4,
-      "metrics_fetched_at": "2026-07-23T06:24:54.671811"
+      "metrics_fetched_at": "2026-07-24T06:34:44.355400"
     },
     {
       "id": "day_becoming_better_13_20260430_160045",
@@ -1584,7 +1584,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:24:55.535398"
+      "metrics_fetched_at": "2026-07-24T06:34:45.019444"
     },
     {
       "id": "discipline_rule_15_20260430_160447",
@@ -1607,7 +1607,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:24:56.489111"
+      "metrics_fetched_at": "2026-07-24T06:34:45.516503"
     },
     {
       "id": "wake_up_call_14_20260430_160858",
@@ -1630,7 +1630,7 @@
       "comments": 0,
       "likes": 4,
       "score": 4,
-      "metrics_fetched_at": "2026-07-23T06:24:57.577396"
+      "metrics_fetched_at": "2026-07-24T06:34:46.099812"
     },
     {
       "id": "day_becoming_better_14_20260501_043841",
@@ -1653,7 +1653,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:24:58.507368"
+      "metrics_fetched_at": "2026-07-24T06:34:46.715349"
     },
     {
       "id": "discipline_rule_16_20260501_044235",
@@ -1676,7 +1676,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:24:59.401468"
+      "metrics_fetched_at": "2026-07-24T06:34:47.303156"
     },
     {
       "id": "wake_up_call_15_20260501_044641",
@@ -1699,7 +1699,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:25:00.518929"
+      "metrics_fetched_at": "2026-07-24T06:34:47.905098"
     },
     {
       "id": "day_becoming_better_15_20260501_091744",
@@ -1722,7 +1722,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:02.882711"
+      "metrics_fetched_at": "2026-07-24T06:34:48.591282"
     },
     {
       "id": "discipline_rule_17_20260501_092214",
@@ -1745,7 +1745,7 @@
       "comments": 0,
       "likes": 2,
       "score": 2,
-      "metrics_fetched_at": "2026-07-23T06:25:03.973368"
+      "metrics_fetched_at": "2026-07-24T06:34:49.241974"
     },
     {
       "id": "wake_up_call_16_20260501_092617",
@@ -1768,7 +1768,7 @@
       "comments": 0,
       "likes": 1,
       "score": 12,
-      "metrics_fetched_at": "2026-07-23T06:25:05.575552"
+      "metrics_fetched_at": "2026-07-24T06:34:49.937220"
     },
     {
       "id": "day_becoming_better_16_20260501_153347",
@@ -1791,7 +1791,7 @@
       "comments": 0,
       "likes": 1,
       "score": 9,
-      "metrics_fetched_at": "2026-07-23T06:25:06.413243"
+      "metrics_fetched_at": "2026-07-24T06:34:50.583369"
     },
     {
       "id": "discipline_rule_18_20260501_154055",
@@ -1814,7 +1814,7 @@
       "comments": 0,
       "likes": 2,
       "score": 2,
-      "metrics_fetched_at": "2026-07-23T06:25:07.566733"
+      "metrics_fetched_at": "2026-07-24T06:34:51.167302"
     },
     {
       "id": "wake_up_call_17_20260502_040141",
@@ -1837,7 +1837,7 @@
       "comments": 0,
       "likes": 1,
       "score": 4,
-      "metrics_fetched_at": "2026-07-23T06:25:08.655657"
+      "metrics_fetched_at": "2026-07-24T06:34:51.704912"
     },
     {
       "id": "day_becoming_better_17_20260502_040603",
@@ -1860,7 +1860,7 @@
       "comments": 0,
       "likes": 1,
       "score": 5,
-      "metrics_fetched_at": "2026-07-23T06:25:09.949533"
+      "metrics_fetched_at": "2026-07-24T06:34:53.224469"
     },
     {
       "id": "discipline_rule_19_20260502_041040",
@@ -1883,7 +1883,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:25:11.073235"
+      "metrics_fetched_at": "2026-07-24T06:34:53.897781"
     },
     {
       "id": "wake_up_call_18_20260502_085245",
@@ -1906,7 +1906,7 @@
       "comments": 0,
       "likes": 0,
       "score": 4,
-      "metrics_fetched_at": "2026-07-23T06:25:13.202779"
+      "metrics_fetched_at": "2026-07-24T06:34:54.490268"
     },
     {
       "id": "day_becoming_better_18_20260502_085635",
@@ -1929,7 +1929,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:14.631792"
+      "metrics_fetched_at": "2026-07-24T06:34:54.994861"
     },
     {
       "id": "discipline_rule_20_20260502_090036",
@@ -1952,7 +1952,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:25:15.749913"
+      "metrics_fetched_at": "2026-07-24T06:34:55.854058"
     },
     {
       "id": "wake_up_call_19_20260502_151210",
@@ -1975,7 +1975,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:16.686919"
+      "metrics_fetched_at": "2026-07-24T06:34:56.375330"
     },
     {
       "id": "day_becoming_better_19_20260502_151611",
@@ -1998,7 +1998,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:17.969569"
+      "metrics_fetched_at": "2026-07-24T06:34:56.992580"
     },
     {
       "id": "discipline_rule_21_20260502_152005",
@@ -2021,7 +2021,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:25:18.957015"
+      "metrics_fetched_at": "2026-07-24T06:34:57.610008"
     },
     {
       "id": "wake_up_call_20_20260503_043005",
@@ -2044,7 +2044,7 @@
       "comments": 0,
       "likes": 3,
       "score": 7,
-      "metrics_fetched_at": "2026-07-23T06:25:20.142657"
+      "metrics_fetched_at": "2026-07-24T06:34:58.192634"
     },
     {
       "id": "day_becoming_better_20_20260503_043406",
@@ -2067,7 +2067,7 @@
       "comments": 0,
       "likes": 4,
       "score": 8,
-      "metrics_fetched_at": "2026-07-23T06:25:20.985683"
+      "metrics_fetched_at": "2026-07-24T06:34:58.807815"
     },
     {
       "id": "discipline_rule_22_20260503_043826",
@@ -2090,7 +2090,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:22.021682"
+      "metrics_fetched_at": "2026-07-24T06:34:59.435314"
     },
     {
       "id": "wake_up_call_21_20260503_090603",
@@ -2113,7 +2113,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:25:22.993284"
+      "metrics_fetched_at": "2026-07-24T06:35:00.005107"
     },
     {
       "id": "day_becoming_better_21_20260503_091419",
@@ -2136,7 +2136,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:24.244550"
+      "metrics_fetched_at": "2026-07-24T06:35:00.559530"
     },
     {
       "id": "discipline_rule_23_20260503_093032",
@@ -2159,7 +2159,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:25.276519"
+      "metrics_fetched_at": "2026-07-24T06:35:01.251548"
     },
     {
       "id": "wake_up_call_22_20260503_151148",
@@ -2182,7 +2182,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:25:26.201704"
+      "metrics_fetched_at": "2026-07-24T06:35:01.874666"
     },
     {
       "id": "day_becoming_better_22_20260503_151538",
@@ -2205,7 +2205,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:26.907196"
+      "metrics_fetched_at": "2026-07-24T06:35:02.471828"
     },
     {
       "id": "discipline_rule_24_20260503_151941",
@@ -2228,7 +2228,7 @@
       "comments": 0,
       "likes": 1,
       "score": 5,
-      "metrics_fetched_at": "2026-07-23T06:25:27.416980"
+      "metrics_fetched_at": "2026-07-24T06:35:03.019385"
     },
     {
       "id": "wake_up_call_23_20260504_042940",
@@ -2251,7 +2251,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:25:28.163383"
+      "metrics_fetched_at": "2026-07-24T06:35:03.609099"
     },
     {
       "id": "day_becoming_better_23_20260504_043342",
@@ -2274,7 +2274,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:28.786640"
+      "metrics_fetched_at": "2026-07-24T06:35:04.248311"
     },
     {
       "id": "discipline_rule_25_20260504_043743",
@@ -2297,7 +2297,7 @@
       "comments": 0,
       "likes": 3,
       "score": 7,
-      "metrics_fetched_at": "2026-07-23T06:25:31.403255"
+      "metrics_fetched_at": "2026-07-24T06:35:04.923359"
     },
     {
       "id": "wake_up_call_24_20260504_094032",
@@ -2320,7 +2320,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:33.282820"
+      "metrics_fetched_at": "2026-07-24T06:35:05.460566"
     },
     {
       "id": "day_becoming_better_24_20260504_094428",
@@ -2343,7 +2343,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:25:34.978864"
+      "metrics_fetched_at": "2026-07-24T06:35:06.054200"
     },
     {
       "id": "discipline_rule_26_20260504_094832",
@@ -2366,7 +2366,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:36.911052"
+      "metrics_fetched_at": "2026-07-24T06:35:07.432668"
     },
     {
       "id": "wake_up_call_25_20260504_161906",
@@ -2389,7 +2389,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:39.167238"
+      "metrics_fetched_at": "2026-07-24T06:35:08.075344"
     },
     {
       "id": "day_becoming_better_25_20260504_162307",
@@ -2412,7 +2412,7 @@
       "comments": 0,
       "likes": 2,
       "score": 2,
-      "metrics_fetched_at": "2026-07-23T06:25:41.445987"
+      "metrics_fetched_at": "2026-07-24T06:35:08.743169"
     },
     {
       "id": "discipline_rule_27_20260504_162711",
@@ -2435,7 +2435,7 @@
       "comments": 0,
       "likes": 2,
       "score": 8,
-      "metrics_fetched_at": "2026-07-23T06:25:42.067399"
+      "metrics_fetched_at": "2026-07-24T06:35:09.396538"
     },
     {
       "id": "wake_up_call_26_20260505_035816",
@@ -2458,7 +2458,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:25:44.069267"
+      "metrics_fetched_at": "2026-07-24T06:35:09.985906"
     },
     {
       "id": "day_becoming_better_26_20260505_040226",
@@ -2481,7 +2481,7 @@
       "comments": 0,
       "likes": 0,
       "score": 3,
-      "metrics_fetched_at": "2026-07-23T06:25:46.126035"
+      "metrics_fetched_at": "2026-07-24T06:35:10.616905"
     },
     {
       "id": "discipline_rule_28_20260505_040629",
@@ -2504,7 +2504,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:25:46.984941"
+      "metrics_fetched_at": "2026-07-24T06:35:11.487160"
     },
     {
       "id": "wake_up_call_27_20260505_093327",
@@ -2527,7 +2527,7 @@
       "comments": 0,
       "likes": 1,
       "score": 5,
-      "metrics_fetched_at": "2026-07-23T06:25:47.662090"
+      "metrics_fetched_at": "2026-07-24T06:35:12.183434"
     },
     {
       "id": "day_becoming_better_27_20260505_093731",
@@ -2550,7 +2550,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:49.419136"
+      "metrics_fetched_at": "2026-07-24T06:35:12.800796"
     },
     {
       "id": "discipline_rule_29_20260505_094130",
@@ -2573,7 +2573,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:50.590693"
+      "metrics_fetched_at": "2026-07-24T06:35:13.344485"
     },
     {
       "id": "wake_up_call_28_20260506_041857",
@@ -2596,7 +2596,7 @@
       "comments": 0,
       "likes": 2,
       "score": 6,
-      "metrics_fetched_at": "2026-07-23T06:25:51.415408"
+      "metrics_fetched_at": "2026-07-24T06:35:13.932034"
     },
     {
       "id": "day_becoming_better_28_20260506_042456",
@@ -2607,7 +2607,7 @@
       "series_number": 28,
       "content_series": "Day 28 of Becoming Better",
       "topic": "become who you could be",
-      "selected_quote": "The person you could become is waiting quietly in the habits you haven’t chosen yet — stay long enough to meet him.",
+      "selected_quote": "The person you could become is waiting quietly in the habits you haven\u2019t chosen yet \u2014 stay long enough to meet him.",
       "quote_type": "statement",
       "hook_keyword": "stay",
       "design_style": "luxury",
@@ -2619,7 +2619,7 @@
       "comments": 0,
       "likes": 0,
       "score": 4,
-      "metrics_fetched_at": "2026-07-23T06:25:53.572817"
+      "metrics_fetched_at": "2026-07-24T06:35:14.582138"
     },
     {
       "id": "discipline_rule_30_20260506_044400",
@@ -2642,7 +2642,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:55.153517"
+      "metrics_fetched_at": "2026-07-24T06:35:15.104943"
     },
     {
       "id": "wake_up_call_29_20260506_094428",
@@ -2665,7 +2665,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:25:57.056047"
+      "metrics_fetched_at": "2026-07-24T06:35:15.732790"
     },
     {
       "id": "day_becoming_better_29_20260506_094831",
@@ -2688,7 +2688,7 @@
       "comments": 0,
       "likes": 2,
       "score": 2,
-      "metrics_fetched_at": "2026-07-23T06:25:57.658466"
+      "metrics_fetched_at": "2026-07-24T06:35:16.255671"
     },
     {
       "id": "discipline_rule_31_20260506_095235",
@@ -2711,7 +2711,7 @@
       "comments": 0,
       "likes": 0,
       "score": 9,
-      "metrics_fetched_at": "2026-07-23T06:25:58.186390"
+      "metrics_fetched_at": "2026-07-24T06:35:16.965473"
     },
     {
       "id": "wake_up_call_30_20260507_204159",
@@ -2734,7 +2734,7 @@
       "comments": 0,
       "likes": 0,
       "score": 3,
-      "metrics_fetched_at": "2026-07-23T06:26:00.545960"
+      "metrics_fetched_at": "2026-07-24T06:35:17.579970"
     },
     {
       "id": "day_becoming_better_30_20260507_204633",
@@ -2757,7 +2757,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:26:02.523520"
+      "metrics_fetched_at": "2026-07-24T06:35:18.110378"
     },
     {
       "id": "discipline_rule_32_20260507_205123",
@@ -2780,7 +2780,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:04.691170"
+      "metrics_fetched_at": "2026-07-24T06:35:18.673510"
     },
     {
       "id": "wake_up_call_30_20260506_162155",
@@ -2803,7 +2803,7 @@
       "comments": 0,
       "likes": 1,
       "score": 9,
-      "metrics_fetched_at": "2026-07-23T06:26:07.744219"
+      "metrics_fetched_at": "2026-07-24T06:35:19.821264"
     },
     {
       "id": "day_becoming_better_30_20260506_164036",
@@ -2826,7 +2826,7 @@
       "comments": 0,
       "likes": 3,
       "score": 7,
-      "metrics_fetched_at": "2026-07-23T06:26:09.785467"
+      "metrics_fetched_at": "2026-07-24T06:35:20.617612"
     },
     {
       "id": "discipline_rule_32_20260506_165155",
@@ -2837,7 +2837,7 @@
       "series_number": 32,
       "content_series": "Discipline Rule #32",
       "topic": "father disciplines his daughter",
-      "selected_quote": "A father’s discipline is measured not in loud words but in the quiet way he shows up, day after day, guiding her hands until she can hold her own compass. He doesn’t speak louder to make her strong; he stays consistent so she can one day speak louder for herself. Success is built while the world isn’t watching, and when she remembers the steadiness of his presence, she understands that consistency was always the greatest gift.",
+      "selected_quote": "A father\u2019s discipline is measured not in loud words but in the quiet way he shows up, day after day, guiding her hands until she can hold her own compass. He doesn\u2019t speak louder to make her strong; he stays consistent so she can one day speak louder for herself. Success is built while the world isn\u2019t watching, and when she remembers the steadiness of his presence, she understands that consistency was always the greatest gift.",
       "quote_type": "statement",
       "hook_keyword": "quiet",
       "design_style": "luxury",
@@ -2849,7 +2849,7 @@
       "comments": 0,
       "likes": 1,
       "score": 5,
-      "metrics_fetched_at": "2026-07-23T06:26:11.700921"
+      "metrics_fetched_at": "2026-07-24T06:35:21.616321"
     },
     {
       "id": "wake_up_call_31_20260507_041409",
@@ -2872,7 +2872,7 @@
       "comments": 0,
       "likes": 2,
       "score": 14,
-      "metrics_fetched_at": "2026-07-23T06:26:13.754955"
+      "metrics_fetched_at": "2026-07-24T06:35:22.164093"
     },
     {
       "id": "day_becoming_better_31_20260507_041814",
@@ -2895,7 +2895,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:15.396288"
+      "metrics_fetched_at": "2026-07-24T06:35:22.729767"
     },
     {
       "id": "discipline_rule_33_20260507_042226",
@@ -2918,7 +2918,7 @@
       "comments": 0,
       "likes": 2,
       "score": 11,
-      "metrics_fetched_at": "2026-07-23T06:26:17.376631"
+      "metrics_fetched_at": "2026-07-24T06:35:23.309312"
     },
     {
       "id": "wake_up_call_32_20260507_100604",
@@ -2941,7 +2941,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:17.988817"
+      "metrics_fetched_at": "2026-07-24T06:35:23.986730"
     },
     {
       "id": "day_becoming_better_32_20260507_101006",
@@ -2964,7 +2964,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:26:18.816699"
+      "metrics_fetched_at": "2026-07-24T06:35:24.568957"
     },
     {
       "id": "discipline_rule_34_20260507_101442",
@@ -2987,7 +2987,7 @@
       "comments": 0,
       "likes": 0,
       "score": 9,
-      "metrics_fetched_at": "2026-07-23T06:26:19.479514"
+      "metrics_fetched_at": "2026-07-24T06:35:25.146995"
     },
     {
       "id": "wake_up_call_33_20260508_192145",
@@ -3213,7 +3213,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:20.026553"
+      "metrics_fetched_at": "2026-07-24T06:35:25.689741"
     },
     {
       "id": "discipline_rule_38_20260513_161844",
@@ -3255,7 +3255,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:26:20.647045"
+      "metrics_fetched_at": "2026-07-24T06:35:26.266305"
     },
     {
       "id": "wake_up_call_37_20260514_064640",
@@ -3297,7 +3297,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:26:22.874000"
+      "metrics_fetched_at": "2026-07-24T06:35:26.869108"
     },
     {
       "id": "day_becoming_better_37_20260514_153709",
@@ -3339,7 +3339,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:26:23.543809"
+      "metrics_fetched_at": "2026-07-24T06:35:27.487615"
     },
     {
       "id": "discipline_rule_39_20260515_070150",
@@ -3381,7 +3381,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:25.876635"
+      "metrics_fetched_at": "2026-07-24T06:35:28.128599"
     },
     {
       "id": "wake_up_call_38_20260515_152558",
@@ -3423,7 +3423,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:26.502908"
+      "metrics_fetched_at": "2026-07-24T06:35:28.716324"
     },
     {
       "id": "day_becoming_better_38_20260516_064001",
@@ -3473,7 +3473,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:28.551128"
+      "metrics_fetched_at": "2026-07-24T06:35:29.392347"
     },
     {
       "id": "discipline_rule_40_20260516_143833",
@@ -3523,7 +3523,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:29.166976"
+      "metrics_fetched_at": "2026-07-24T06:35:29.972206"
     },
     {
       "id": "wake_up_call_39_20260517_065214",
@@ -3565,7 +3565,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:31.481130"
+      "metrics_fetched_at": "2026-07-24T06:35:30.587613"
     },
     {
       "id": "day_becoming_better_39_20260517_142021",
@@ -3607,7 +3607,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:33.988235"
+      "metrics_fetched_at": "2026-07-24T06:35:31.210547"
     },
     {
       "id": "discipline_rule_41_20260518_072734",
@@ -3649,7 +3649,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:26:34.658530"
+      "metrics_fetched_at": "2026-07-24T06:35:31.896448"
     },
     {
       "id": "wake_up_call_40_20260518_161715",
@@ -3691,7 +3691,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:35.405805"
+      "metrics_fetched_at": "2026-07-24T06:35:32.517883"
     },
     {
       "id": "day_becoming_better_40_20260519_072359",
@@ -3733,7 +3733,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:36.196091"
+      "metrics_fetched_at": "2026-07-24T06:35:33.057497"
     },
     {
       "id": "discipline_rule_42_20260519_162023",
@@ -3775,7 +3775,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:37.771093"
+      "metrics_fetched_at": "2026-07-24T06:35:33.626003"
     },
     {
       "id": "wake_up_call_41_20260520_072959",
@@ -3825,7 +3825,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:39.114112"
+      "metrics_fetched_at": "2026-07-24T06:35:34.219787"
     },
     {
       "id": "day_becoming_better_41_20260520_163356",
@@ -3875,7 +3875,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:39.882365"
+      "metrics_fetched_at": "2026-07-24T06:35:34.834780"
     },
     {
       "id": "discipline_rule_43_20260521_073607",
@@ -3917,7 +3917,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:41.968107"
+      "metrics_fetched_at": "2026-07-24T06:35:35.559862"
     },
     {
       "id": "wake_up_call_42_20260521_162050",
@@ -3959,7 +3959,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:42.589721"
+      "metrics_fetched_at": "2026-07-24T06:35:36.098824"
     },
     {
       "id": "day_becoming_better_42_20260522_072905",
@@ -4001,7 +4001,7 @@
       "comments": 0,
       "likes": 0,
       "score": 9,
-      "metrics_fetched_at": "2026-07-23T06:26:43.436707"
+      "metrics_fetched_at": "2026-07-24T06:35:36.749716"
     },
     {
       "id": "discipline_rule_44_20260522_155911",
@@ -4043,7 +4043,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:43.936286"
+      "metrics_fetched_at": "2026-07-24T06:35:37.268954"
     },
     {
       "id": "wake_up_call_43_20260523_065217",
@@ -4093,7 +4093,7 @@
       "comments": 0,
       "likes": 0,
       "score": 9,
-      "metrics_fetched_at": "2026-07-23T06:26:44.649932"
+      "metrics_fetched_at": "2026-07-24T06:35:37.918263"
     },
     {
       "id": "day_becoming_better_43_20260524_072315",
@@ -4143,7 +4143,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:46.724759"
+      "metrics_fetched_at": "2026-07-24T06:35:38.560794"
     },
     {
       "id": "discipline_rule_45_20260524_142812",
@@ -4193,7 +4193,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:48.531559"
+      "metrics_fetched_at": "2026-07-24T06:35:39.219247"
     },
     {
       "id": "wake_up_call_44_20260525_081503",
@@ -4235,7 +4235,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:49.221202"
+      "metrics_fetched_at": "2026-07-24T06:35:39.766209"
     },
     {
       "id": "day_becoming_better_44_20260525_160017",
@@ -4277,7 +4277,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:49.785736"
+      "metrics_fetched_at": "2026-07-24T06:35:40.280441"
     },
     {
       "id": "discipline_rule_46_20260526_070752",
@@ -4319,7 +4319,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:51.642138"
+      "metrics_fetched_at": "2026-07-24T06:35:40.922012"
     },
     {
       "id": "wake_up_call_45_20260526_164701",
@@ -4369,7 +4369,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:53.486692"
+      "metrics_fetched_at": "2026-07-24T06:35:41.496054"
     },
     {
       "id": "day_becoming_better_45_20260527_075503",
@@ -4411,7 +4411,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:55.388336"
+      "metrics_fetched_at": "2026-07-24T06:35:42.111363"
     },
     {
       "id": "discipline_rule_47_20260527_164015",
@@ -4461,7 +4461,7 @@
       "comments": 0,
       "likes": 0,
       "score": 4,
-      "metrics_fetched_at": "2026-07-23T06:26:56.196024"
+      "metrics_fetched_at": "2026-07-24T06:35:42.753883"
     },
     {
       "id": "wake_up_call_46_20260528_071826",
@@ -4503,7 +4503,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:56.800972"
+      "metrics_fetched_at": "2026-07-24T06:35:43.276834"
     },
     {
       "id": "day_becoming_better_46_20260528_165409",
@@ -4553,7 +4553,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:57.377860"
+      "metrics_fetched_at": "2026-07-24T06:35:43.921975"
     },
     {
       "id": "discipline_rule_48_20260616_175656",
@@ -4595,7 +4595,7 @@
       "comments": 0,
       "likes": 4,
       "score": 8,
-      "metrics_fetched_at": "2026-07-23T06:26:58.615228"
+      "metrics_fetched_at": "2026-07-24T06:35:44.562282"
     },
     {
       "id": "wake_up_call_47_20260617_165434",
@@ -4637,7 +4637,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:26:59.370891"
+      "metrics_fetched_at": "2026-07-24T06:35:45.224642"
     },
     {
       "id": "day_becoming_better_47_20260618_084947",
@@ -4679,7 +4679,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:00.086808"
+      "metrics_fetched_at": "2026-07-24T06:35:45.987927"
     },
     {
       "id": "discipline_rule_49_20260618_162350",
@@ -4729,7 +4729,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:27:01.775298"
+      "metrics_fetched_at": "2026-07-24T06:35:48.036231"
     },
     {
       "id": "wake_up_call_48_20260619_090556",
@@ -4779,7 +4779,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:02.359688"
+      "metrics_fetched_at": "2026-07-24T06:35:50.089510"
     },
     {
       "id": "day_becoming_better_48_20260619_160002",
@@ -4821,7 +4821,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:04.455764"
+      "metrics_fetched_at": "2026-07-24T06:35:50.696676"
     },
     {
       "id": "discipline_rule_50_20260620_073940",
@@ -4863,7 +4863,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:05.003300"
+      "metrics_fetched_at": "2026-07-24T06:35:51.276793"
     },
     {
       "id": "wake_up_call_49_20260620_150525",
@@ -4913,7 +4913,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:05.678072"
+      "metrics_fetched_at": "2026-07-24T06:35:51.871177"
     },
     {
       "id": "day_becoming_better_49_20260621_083030",
@@ -4955,7 +4955,7 @@
       "comments": 0,
       "likes": 1,
       "score": 5,
-      "metrics_fetched_at": "2026-07-23T06:27:06.277871"
+      "metrics_fetched_at": "2026-07-24T06:35:52.416022"
     },
     {
       "id": "discipline_rule_51_20260621_152626",
@@ -4997,7 +4997,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:06.954942"
+      "metrics_fetched_at": "2026-07-24T06:35:53.068167"
     },
     {
       "id": "wake_up_call_50_20260622_095340",
@@ -5039,7 +5039,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:08.657694"
+      "metrics_fetched_at": "2026-07-24T06:35:53.592112"
     },
     {
       "id": "day_becoming_better_50_20260622_173848",
@@ -5081,7 +5081,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:10.688610"
+      "metrics_fetched_at": "2026-07-24T06:35:54.176701"
     },
     {
       "id": "discipline_rule_52_20260623_071532",
@@ -5131,7 +5131,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:12.115651"
+      "metrics_fetched_at": "2026-07-24T06:35:54.700914"
     },
     {
       "id": "wake_up_call_51_20260623_160021",
@@ -5181,7 +5181,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:13.948798"
+      "metrics_fetched_at": "2026-07-24T06:35:55.303408"
     },
     {
       "id": "day_becoming_better_51_20260624_072031",
@@ -5223,7 +5223,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:16.715900"
+      "metrics_fetched_at": "2026-07-24T06:35:55.853109"
     },
     {
       "id": "discipline_rule_53_20260624_153939",
@@ -5265,7 +5265,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:17.245111"
+      "metrics_fetched_at": "2026-07-24T06:35:56.463928"
     },
     {
       "id": "wake_up_call_52_20260625_071200",
@@ -5315,7 +5315,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:17.820140"
+      "metrics_fetched_at": "2026-07-24T06:35:57.033665"
     },
     {
       "id": "day_becoming_better_52_20260625_153715",
@@ -5357,7 +5357,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:18.410289"
+      "metrics_fetched_at": "2026-07-24T06:35:57.625347"
     },
     {
       "id": "discipline_rule_54_20260626_072713",
@@ -5399,7 +5399,7 @@
       "comments": 0,
       "likes": 1,
       "score": 5,
-      "metrics_fetched_at": "2026-07-23T06:27:20.400818"
+      "metrics_fetched_at": "2026-07-24T06:35:58.167028"
     },
     {
       "id": "wake_up_call_53_20260626_153214",
@@ -5441,7 +5441,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:27:22.697728"
+      "metrics_fetched_at": "2026-07-24T06:35:58.870785"
     },
     {
       "id": "day_becoming_better_53_20260627_065729",
@@ -5483,7 +5483,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:23.362908"
+      "metrics_fetched_at": "2026-07-24T06:35:59.428276"
     },
     {
       "id": "discipline_rule_55_20260627_144431",
@@ -5533,7 +5533,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:24.716223"
+      "metrics_fetched_at": "2026-07-24T06:36:00.057840"
     },
     {
       "id": "wake_up_call_54_20260628_073343",
@@ -5575,7 +5575,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:26.200477"
+      "metrics_fetched_at": "2026-07-24T06:36:00.679608"
     },
     {
       "id": "day_becoming_better_54_20260628_143320",
@@ -5625,7 +5625,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:27.330735"
+      "metrics_fetched_at": "2026-07-24T06:36:01.236388"
     },
     {
       "id": "discipline_rule_56_20260629_084500",
@@ -5675,7 +5675,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:29.630239"
+      "metrics_fetched_at": "2026-07-24T06:36:01.766385"
     },
     {
       "id": "wake_up_call_55_20260629_163721",
@@ -5725,7 +5725,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:31.486661"
+      "metrics_fetched_at": "2026-07-24T06:36:02.350845"
     },
     {
       "id": "day_becoming_better_55_20260630_072447",
@@ -5767,7 +5767,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:32.185794"
+      "metrics_fetched_at": "2026-07-24T06:36:02.976176"
     },
     {
       "id": "discipline_rule_57_20260630_152651",
@@ -5809,7 +5809,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:33.076248"
+      "metrics_fetched_at": "2026-07-24T06:36:03.535327"
     },
     {
       "id": "wake_up_call_56_20260701_153802",
@@ -5859,7 +5859,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:33.808404"
+      "metrics_fetched_at": "2026-07-24T06:36:04.182994"
     },
     {
       "id": "day_becoming_better_56_20260702_072413",
@@ -5901,7 +5901,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:36.597841"
+      "metrics_fetched_at": "2026-07-24T06:36:04.721103"
     },
     {
       "id": "discipline_rule_58_20260702_145636",
@@ -5943,7 +5943,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:38.590635"
+      "metrics_fetched_at": "2026-07-24T06:36:05.311483"
     },
     {
       "id": "wake_up_call_57_20260703_070519",
@@ -5985,7 +5985,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:40.948093"
+      "metrics_fetched_at": "2026-07-24T06:36:06.004700"
     },
     {
       "id": "day_becoming_better_57_20260703_150808",
@@ -6035,7 +6035,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:43.275255"
+      "metrics_fetched_at": "2026-07-24T06:36:06.662204"
     },
     {
       "id": "discipline_rule_59_20260704_065343",
@@ -6085,7 +6085,7 @@
       "comments": 0,
       "likes": 3,
       "score": 11,
-      "metrics_fetched_at": "2026-07-23T06:27:43.823682"
+      "metrics_fetched_at": "2026-07-24T06:36:07.186753"
     },
     {
       "id": "wake_up_call_58_20260704_142350",
@@ -6135,7 +6135,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:44.450128"
+      "metrics_fetched_at": "2026-07-24T06:36:07.763310"
     },
     {
       "id": "day_becoming_better_58_20260705_070037",
@@ -6177,7 +6177,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:45.134255"
+      "metrics_fetched_at": "2026-07-24T06:36:08.327533"
     },
     {
       "id": "discipline_rule_60_20260705_143123",
@@ -6227,7 +6227,7 @@
       "comments": 0,
       "likes": 0,
       "score": 9,
-      "metrics_fetched_at": "2026-07-23T06:27:47.119814"
+      "metrics_fetched_at": "2026-07-24T06:36:08.983987"
     },
     {
       "id": "wake_up_call_59_20260706_082840",
@@ -6269,7 +6269,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:47.689802"
+      "metrics_fetched_at": "2026-07-24T06:36:09.644660"
     },
     {
       "id": "day_becoming_better_59_20260706_162723",
@@ -6311,7 +6311,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:49.711455"
+      "metrics_fetched_at": "2026-07-24T06:36:10.205619"
     },
     {
       "id": "discipline_rule_61_20260707_071152",
@@ -6361,7 +6361,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:51.434770"
+      "metrics_fetched_at": "2026-07-24T06:36:10.782560"
     },
     {
       "id": "wake_up_call_60_20260707_155855",
@@ -6403,7 +6403,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:53.515234"
+      "metrics_fetched_at": "2026-07-24T06:36:11.304511"
     },
     {
       "id": "day_becoming_better_60_20260708_063419",
@@ -6453,7 +6453,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:27:54.530783"
+      "metrics_fetched_at": "2026-07-24T06:36:11.919102"
     },
     {
       "id": "discipline_rule_62_20260708_152435",
@@ -6503,7 +6503,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:55.247296"
+      "metrics_fetched_at": "2026-07-24T06:36:12.634883"
     },
     {
       "id": "wake_up_call_61_20260709_072330",
@@ -6545,7 +6545,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:58.085795"
+      "metrics_fetched_at": "2026-07-24T06:36:13.598832"
     },
     {
       "id": "day_becoming_better_61_20260710_072214",
@@ -6587,7 +6587,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:27:58.745406"
+      "metrics_fetched_at": "2026-07-24T06:36:14.317537"
     },
     {
       "id": "discipline_rule_63_20260710_154222",
@@ -6629,7 +6629,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:00.778300"
+      "metrics_fetched_at": "2026-07-24T06:36:15.047483"
     },
     {
       "id": "wake_up_call_62_20260711_060853",
@@ -6679,7 +6679,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:02.891862"
+      "metrics_fetched_at": "2026-07-24T06:36:15.594725"
     },
     {
       "id": "day_becoming_better_62_20260711_142846",
@@ -6729,7 +6729,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:04.301519"
+      "metrics_fetched_at": "2026-07-24T06:36:16.093231"
     },
     {
       "id": "discipline_rule_64_20260712_064930",
@@ -6779,7 +6779,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:05.876810"
+      "metrics_fetched_at": "2026-07-24T06:36:16.699493"
     },
     {
       "id": "wake_up_call_63_20260712_143838",
@@ -6829,7 +6829,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:07.747455"
+      "metrics_fetched_at": "2026-07-24T06:36:17.364538"
     },
     {
       "id": "day_becoming_better_63_20260713_070451",
@@ -6879,7 +6879,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:08.605469"
+      "metrics_fetched_at": "2026-07-24T06:36:17.975544"
     },
     {
       "id": "discipline_rule_65_20260713_154106",
@@ -6929,7 +6929,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:09.270524"
+      "metrics_fetched_at": "2026-07-24T06:36:18.494619"
     },
     {
       "id": "wake_up_call_64_20260714_055735",
@@ -6979,7 +6979,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:10.186015"
+      "metrics_fetched_at": "2026-07-24T06:36:19.158155"
     },
     {
       "id": "day_becoming_better_64_20260714_144902",
@@ -7029,7 +7029,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:12.196133"
+      "metrics_fetched_at": "2026-07-24T06:36:19.712685"
     },
     {
       "id": "discipline_rule_66_20260715_055811",
@@ -7079,7 +7079,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:13.961427"
+      "metrics_fetched_at": "2026-07-24T06:36:20.635961"
     },
     {
       "id": "wake_up_call_65_20260715_143017",
@@ -7121,7 +7121,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:14.574173"
+      "metrics_fetched_at": "2026-07-24T06:36:21.576805"
     },
     {
       "id": "day_becoming_better_65_20260716_062416",
@@ -7163,7 +7163,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:15.187613"
+      "metrics_fetched_at": "2026-07-24T06:36:22.288199"
     },
     {
       "id": "discipline_rule_67_20260716_145334",
@@ -7213,7 +7213,7 @@
       "comments": 0,
       "likes": 1,
       "score": 5,
-      "metrics_fetched_at": "2026-07-23T06:28:15.771107"
+      "metrics_fetched_at": "2026-07-24T06:36:22.880667"
     },
     {
       "id": "wake_up_call_66_20260717_063402",
@@ -7255,7 +7255,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:18.320174"
+      "metrics_fetched_at": "2026-07-24T06:36:23.925125"
     },
     {
       "id": "day_becoming_better_66_20260717_143457",
@@ -7305,7 +7305,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:20.191102"
+      "metrics_fetched_at": "2026-07-24T06:36:24.656208"
     },
     {
       "id": "discipline_rule_68_20260718_142612",
@@ -7355,7 +7355,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:21.744614"
+      "metrics_fetched_at": "2026-07-24T06:36:25.203982"
     },
     {
       "id": "wake_up_call_67_20260719_142409",
@@ -7397,7 +7397,7 @@
       "comments": 0,
       "likes": 1,
       "score": 1,
-      "metrics_fetched_at": "2026-07-23T06:28:23.827790"
+      "metrics_fetched_at": "2026-07-24T06:36:25.777200"
     },
     {
       "id": "day_becoming_better_67_20260720_065511",
@@ -7447,7 +7447,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:25.349545"
+      "metrics_fetched_at": "2026-07-24T06:36:26.339215"
     },
     {
       "id": "discipline_rule_69_20260720_145948",
@@ -7489,7 +7489,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:26.905342"
+      "metrics_fetched_at": "2026-07-24T06:36:27.038841"
     },
     {
       "id": "wake_up_call_68_20260721_064307",
@@ -7539,7 +7539,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:28.292617"
+      "metrics_fetched_at": "2026-07-24T06:36:27.637792"
     },
     {
       "id": "day_becoming_better_68_20260721_150040",
@@ -7589,7 +7589,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:28.835292"
+      "metrics_fetched_at": "2026-07-24T06:36:28.208146"
     },
     {
       "id": "discipline_rule_70_20260722_061747",
@@ -7631,7 +7631,7 @@
       "comments": 0,
       "likes": 2,
       "score": 2,
-      "metrics_fetched_at": "2026-07-23T06:28:29.392313"
+      "metrics_fetched_at": "2026-07-24T06:36:28.737113"
     },
     {
       "id": "wake_up_call_69_20260722_144548",
@@ -7673,7 +7673,7 @@
       "comments": 0,
       "likes": 0,
       "score": 0,
-      "metrics_fetched_at": "2026-07-23T06:28:30.018295"
+      "metrics_fetched_at": "2026-07-24T06:36:29.263610"
     },
     {
       "id": "day_becoming_better_69_20260723_062955",
@@ -7709,7 +7709,13 @@
         "#buildingcharacter",
         "#disciplinedaily",
         "#fueledbydiscipline"
-      ]
+      ],
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-07-24T06:36:29.906095"
     },
     {
       "id": "discipline_rule_71_20260723_151255",
@@ -7753,7 +7759,49 @@
       "plays_t1h": null,
       "views_t1h": null,
       "metrics_t1h_fetched_at": "2026-07-23T16:21:37.308465",
-      "score_t1h": 0
+      "score_t1h": 0,
+      "saves": 0,
+      "shares": 0,
+      "comments": 0,
+      "likes": 0,
+      "score": 0,
+      "metrics_fetched_at": "2026-07-24T06:36:30.513791"
+    },
+    {
+      "id": "wake_up_call_70_20260724_063738",
+      "ig_media_id": "18603486385063663",
+      "permalink": "https://www.instagram.com/reel/DbKnMG4jcvS/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 70,
+      "content_series": "Wake Up Call #70",
+      "topic": "one more scroll one less chance",
+      "selected_quote": "What if every bad habit is an unmet need in disguise, leading us to follow the same patterns every day, only to realize that life is not about breaking free, but about understanding what we're truly searching for?",
+      "quote_type": "statement",
+      "hook_keyword": "habits",
+      "design_style": "minimal",
+      "predicted": "high",
+      "posted_at": "2026-07-24T06:37:38.603396",
+      "dry_run": false,
+      "pillar": "reframe",
+      "hook_template": "question",
+      "pillar_hook_source": "picker",
+      "caption_structure": "contrarian_take",
+      "caption_cta": "Bookmark this for your next weak moment.",
+      "hashtags_used": [
+        "#buildinghabits",
+        "#seriousmindset",
+        "#personaldevelopmentdaily",
+        "#disciplinedmen",
+        "#unglamoroussuccess",
+        "#buildmentaltoughness",
+        "#consistentaction",
+        "#disciplinenotmotivation",
+        "#dis_ciplinefuel"
+      ]
     }
   ]
 }
