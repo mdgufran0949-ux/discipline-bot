@@ -4073,6 +4073,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_72_20260725_062646",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 72,
+      "topic": "one more scroll one less chance",
+      "hook_keyword": "eliminate",
+      "selected_quote": "Eliminate mindless scrolling every day to follow a life of purpose. With each unnecessary swipe, we don't just waste time, we waste a chance to grow. Let's reclaim our days, one less scroll at a time",
+      "posted_at": "2026-07-25T06:26:46.423737",
+      "ig_media_id": "18448221325188515",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4581,10 +4602,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 194,
+    "total_posts": 195,
     "by_quote_type": {
       "question": 1,
-      "statement": 179,
+      "statement": 180,
       "contrast": 7,
       "punch": 3,
       "command": 4
@@ -4592,15 +4613,15 @@
     "by_design_style": {
       "minimal": 46,
       "dark": 52,
-      "luxury": 58,
+      "luxury": 59,
       "bold": 38
     },
     "by_format": {
       "image": 1,
-      "reel": 193
+      "reel": 194
     },
     "by_series": {
-      "discipline_rule": 65,
+      "discipline_rule": 66,
       "day_becoming_better": 65,
       "wake_up_call": 64
     },
