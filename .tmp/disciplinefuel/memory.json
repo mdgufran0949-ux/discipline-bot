@@ -4115,6 +4115,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_71_20260726_064524",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 71,
+      "topic": "you are one decision away from a different life",
+      "hook_keyword": "night",
+      "selected_quote": "The night he decided to take control of his life, everything changed. One decision can alter the course of every day, leading to a life of discipline and growth. It doesn't have to be loud; it just has to be made.",
+      "posted_at": "2026-07-26T06:45:24.704254",
+      "ig_media_id": "17958854754158786",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4624,27 +4645,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 196,
+    "total_posts": 197,
     "by_quote_type": {
       "question": 1,
-      "statement": 181,
+      "statement": 182,
       "contrast": 7,
       "punch": 3,
       "command": 4
     },
     "by_design_style": {
       "minimal": 46,
-      "dark": 53,
+      "dark": 54,
       "luxury": 59,
       "bold": 38
     },
     "by_format": {
       "image": 1,
-      "reel": 195
+      "reel": 196
     },
     "by_series": {
       "discipline_rule": 66,
-      "day_becoming_better": 65,
+      "day_becoming_better": 66,
       "wake_up_call": 65
     },
     "top_performing_series": "discipline_rule"
