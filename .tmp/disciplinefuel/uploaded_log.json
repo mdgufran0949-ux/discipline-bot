@@ -8036,6 +8036,42 @@
         "#disciplinenotmotivation",
         "#fueledbydiscipline"
       ]
+    },
+    {
+      "id": "wake_up_call_72_20260727_070021",
+      "ig_media_id": "18085068536541872",
+      "permalink": "https://www.instagram.com/reel/DbSYJf5ETm_/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 72,
+      "content_series": "Wake Up Call #72",
+      "topic": "you are one decision away from a different life",
+      "selected_quote": "Change is not a gradual process, but a single decision that alters the course of our life every day",
+      "quote_type": "statement",
+      "hook_keyword": "decision",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-07-27T07:00:21.043289",
+      "dry_run": false,
+      "pillar": "reframe",
+      "hook_template": "contrarian",
+      "pillar_hook_source": "picker",
+      "caption_structure": "mini_story",
+      "caption_cta": "Tag someone who needs to hear this.",
+      "hashtags_used": [
+        "#disciplineovermotivation",
+        "#selfgrowthjourney",
+        "#consistencymindset",
+        "#disciplinedmind",
+        "#unglamoroussuccess",
+        "#stoicwisdomdaily",
+        "#hardworkdaily",
+        "#dis_ciplinefuel",
+        "#disciplinedaily"
+      ]
     }
   ]
 }

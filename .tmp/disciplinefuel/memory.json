@@ -4157,6 +4157,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_72_20260727_070021",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 72,
+      "topic": "you are one decision away from a different life",
+      "hook_keyword": "decision",
+      "selected_quote": "Change is not a gradual process, but a single decision that alters the course of our life every day",
+      "posted_at": "2026-07-27T07:00:21.043289",
+      "ig_media_id": "18085068536541872",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4666,10 +4687,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 198,
+    "total_posts": 199,
     "by_quote_type": {
       "question": 1,
-      "statement": 183,
+      "statement": 184,
       "contrast": 7,
       "punch": 3,
       "command": 4
@@ -4678,16 +4699,16 @@
       "minimal": 47,
       "dark": 54,
       "luxury": 59,
-      "bold": 38
+      "bold": 39
     },
     "by_format": {
       "image": 1,
-      "reel": 197
+      "reel": 198
     },
     "by_series": {
       "discipline_rule": 67,
       "day_becoming_better": 66,
-      "wake_up_call": 65
+      "wake_up_call": 66
     },
     "top_performing_series": "discipline_rule"
   },
