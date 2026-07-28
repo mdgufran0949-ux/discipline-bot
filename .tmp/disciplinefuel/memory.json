@@ -4199,6 +4199,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_74_20260728_062927",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 74,
+      "topic": "the weak version of you is louder right now",
+      "hook_keyword": "quiet",
+      "selected_quote": "90% of our thoughts are whispers of the weak version of ourselves, but in the quiet moments, we discover our true strength. Every day, we follow the path that our minds have built, and it's in these moments that we realize growth is a journey, not a destination.",
+      "posted_at": "2026-07-28T06:29:27.656345",
+      "ig_media_id": "18014928878916979",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4709,26 +4730,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 200,
+    "total_posts": 201,
     "by_quote_type": {
       "question": 1,
-      "statement": 184,
+      "statement": 185,
       "contrast": 7,
       "punch": 4,
       "command": 4
     },
     "by_design_style": {
       "minimal": 48,
-      "dark": 54,
+      "dark": 55,
       "luxury": 59,
       "bold": 39
     },
     "by_format": {
       "image": 1,
-      "reel": 199
+      "reel": 200
     },
     "by_series": {
-      "discipline_rule": 67,
+      "discipline_rule": 68,
       "day_becoming_better": 67,
       "wake_up_call": 66
     },
