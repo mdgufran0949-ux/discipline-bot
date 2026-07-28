@@ -4220,6 +4220,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_73_20260728_152832",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 73,
+      "topic": "the weak version of you is louder right now",
+      "hook_keyword": "moment",
+      "selected_quote": "There is a moment every day when the weak version of you is louder, but it's in those moments that you must remind yourself that discipline is a choice, and growth is a quiet process that unfolds over time",
+      "posted_at": "2026-07-28T15:28:32.949643",
+      "ig_media_id": "18348642217216352",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4730,10 +4751,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 201,
+    "total_posts": 202,
     "by_quote_type": {
       "question": 1,
-      "statement": 185,
+      "statement": 186,
       "contrast": 7,
       "punch": 4,
       "command": 4
@@ -4742,16 +4763,16 @@
       "minimal": 48,
       "dark": 55,
       "luxury": 59,
-      "bold": 39
+      "bold": 40
     },
     "by_format": {
       "image": 1,
-      "reel": 200
+      "reel": 201
     },
     "by_series": {
       "discipline_rule": 68,
       "day_becoming_better": 67,
-      "wake_up_call": 66
+      "wake_up_call": 67
     },
     "top_performing_series": "discipline_rule"
   },
