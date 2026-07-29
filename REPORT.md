@@ -1,47 +1,48 @@
 # DisciplineFuel — Review Report
-Generated: 2026-07-27 15:59
+Generated: 2026-07-29 06:42
 
 > ⚠️ **ATTENTION NEEDED:** competitor_fetch
 
 ## System Health
 - Last competitor fetch: 2026-07-18T14:21 ⚠️
-- Last IG metrics fetch: 2026-07-27T15:59 ✅
+- Last IG metrics fetch: 2026-07-29T06:42 ✅
 - IG hashtag quota used (7d): 0 / 30 ✅
 - Consecutive failed competitor fetches: 5
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-07-18 | 0 | 12,143 | 12% |
 | 2026-07-20 | 0 | 12,143 | 12% |
 | 2026-07-21 | 0 | 0 | 12% |
 | 2026-07-23 | 0 | 0 | 12% |
 | 2026-07-24 | 0 | 0 | 12% |
 | 2026-07-25 | 0 | 0 | 12% |
 | 2026-07-26 | 0 | 0 | 12% |
+| 2026-07-27 | 0 | 0 | 12% |
 
 ## What Changed Today
 - Format mix: image 7% → 8%, carousel 13% → 12%
-- Blacklisted topic: "portable shooting machine x founder, ceo"
-- Blacklisted topic: "you are not tired you are uninspired"
-- Blacklisted topic: "stop calling it overthinking"
-- Blacklisted topic: "you are one decision away from a different life"
-- Blacklisted topic: "comfort is the enemy of growth"
-- Blacklisted topic: "your future self is watching you right now"
-- Blacklisted topic: "discipline is doing it when you do not feel like it"
-- Blacklisted topic: "your circle is keeping you soft"
-- Blacklisted topic: "your phone is stealing your future"
-- Blacklisted topic: "procrastination is self betrayal"
-- Blacklisted topic: "winners do not wait for the right moment"
 - Blacklisted topic: "one more scroll one less chance"
-- Blacklisted topic: "you are not unlucky you are undisciplined"
+- Blacklisted topic: "you are one decision away from a different life"
 - Blacklisted topic: "discipline is the only shortcut"
-- Blacklisted topic: "wake up before your competition does"
-- Blacklisted topic: "nobody is coming to save you"
-- Blacklisted topic: "the version of you that quit still lives here"
+- Blacklisted topic: "your phone is stealing your future"
+- Blacklisted topic: "stop calling it overthinking"
+- Blacklisted topic: "portable shooting machine x founder, ceo"
 - Blacklisted topic: "you have been rehearsing failure"
-- Blacklisted topic: "you are not busy you are avoiding"
+- Blacklisted topic: "nobody is coming to save you"
+- Blacklisted topic: "the weak version of you is louder right now"
+- Blacklisted topic: "you are not tired you are uninspired"
+- Blacklisted topic: "discipline is doing it when you do not feel like it"
+- Blacklisted topic: "comfort is the enemy of growth"
 - Blacklisted topic: "you already know what you need to do"
+- Blacklisted topic: "winners do not wait for the right moment"
+- Blacklisted topic: "wake up before your competition does"
+- Blacklisted topic: "the version of you that quit still lives here"
+- Blacklisted topic: "your future self is watching you right now"
+- Blacklisted topic: "procrastination is self betrayal"
+- Blacklisted topic: "you are not busy you are avoiding"
+- Blacklisted topic: "you are not unlucky you are undisciplined"
+- Blacklisted topic: "your circle is keeping you soft"
 
 ## What We Learned From Competitors
 - No competitor data this run (API unavailable or cached)
@@ -59,22 +60,23 @@ Generated: 2026-07-27 15:59
 | @? | 8,723 | 8 | statement | long | "Drop two ❤ if you needed to see this!" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 20 / 20 recent posts used trending power-words (100%) ✅
-  - ✅ "as the morning light creeps into the room, it whispers a reminder that..." (words: day, follow, every)
-  - ✅ "failure is not the opposite of success, it's a part of it. every day, ..." (words: day, every, doesn)
+- 19 / 20 recent posts used trending power-words (95%) ✅
+  - ✅ "what if every bad day is a chance to build discipline?" (words: day, every, bad)
+  - ✅ "establish a daily routine that serves your goals, and follow it every ..." (words: day, follow, every)
+  - ⚠️ "discipline your thoughts."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
 
 ## Recent Generated Quotes (last 3)
-1. **statement** (bold, reel) — "Change is not a gradual process, but a single decision that alters the course of"
-2. **statement** (minimal, reel) — "What if one decision could alter the course of your life every day? It's the sma"
-3. **statement** (dark, reel) — "The night he decided to take control of his life, everything changed. One decisi"
+1. **statement** (bold, reel) — "There is a moment every day when the weak version of you is louder, but it's in "
+2. **statement** (dark, reel) — "90% of our thoughts are whispers of the weak version of ourselves, but in the qu"
+3. **punch** (minimal, reel) — "Discipline your thoughts."
 
 ## Our Performance
 | Metric           | Us      | Niche Top  |
 |------------------|---------|------------|
-| Posts scored     | 235     | —          |
+| Posts scored     | 238     | —          |
 | Avg score        | 1.4   | —          |
 | High performers  | 0       | —          |
 
@@ -106,7 +108,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 0
-- Last cycle ran: 2026-07-27T11:57
+- Last cycle ran: 2026-07-28T17:18
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
