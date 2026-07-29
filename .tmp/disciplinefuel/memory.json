@@ -4262,6 +4262,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_75_20260729_150737",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 75,
+      "topic": "your dreams cannot survive your habits",
+      "hook_keyword": "habits",
+      "selected_quote": "What happens when your dreams meet your daily habits? They either flourish or fade",
+      "posted_at": "2026-07-29T15:07:37.980495",
+      "ig_media_id": "17904958572464241",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4773,10 +4794,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 203,
+    "total_posts": 204,
     "by_quote_type": {
       "question": 1,
-      "statement": 187,
+      "statement": 188,
       "contrast": 7,
       "punch": 4,
       "command": 4
@@ -4785,14 +4806,14 @@
       "minimal": 48,
       "dark": 56,
       "luxury": 59,
-      "bold": 40
+      "bold": 41
     },
     "by_format": {
       "image": 1,
-      "reel": 202
+      "reel": 203
     },
     "by_series": {
-      "discipline_rule": 68,
+      "discipline_rule": 69,
       "day_becoming_better": 68,
       "wake_up_call": 67
     },
