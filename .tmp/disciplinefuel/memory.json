@@ -4283,6 +4283,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_74_20260730_061724",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 74,
+      "topic": "your dreams cannot survive your habits",
+      "hook_keyword": "discipline",
+      "selected_quote": "66 days of bad habits can erase a lifetime of good intentions. Every day, we follow the path that our habits have carved out for us, leading us further away from our dreams. It's a hard truth to accept, but our lives are a reflection of our daily choices.",
+      "posted_at": "2026-07-30T06:17:24.275417",
+      "ig_media_id": "17901023202494989",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4794,28 +4815,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 204,
+    "total_posts": 205,
     "by_quote_type": {
       "question": 1,
-      "statement": 188,
+      "statement": 189,
       "contrast": 7,
       "punch": 4,
       "command": 4
     },
     "by_design_style": {
       "minimal": 48,
-      "dark": 56,
+      "dark": 57,
       "luxury": 59,
       "bold": 41
     },
     "by_format": {
       "image": 1,
-      "reel": 203
+      "reel": 204
     },
     "by_series": {
       "discipline_rule": 69,
       "day_becoming_better": 68,
-      "wake_up_call": 67
+      "wake_up_call": 68
     },
     "top_performing_series": "discipline_rule"
   },

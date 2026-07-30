@@ -8306,6 +8306,42 @@
         "#disciplinefuel",
         "#fueledbydiscipline"
       ]
+    },
+    {
+      "id": "wake_up_call_74_20260730_061724",
+      "ig_media_id": "17901023202494989",
+      "permalink": "https://www.instagram.com/reel/DbaBmdfDpNS/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 74,
+      "content_series": "Wake Up Call #74",
+      "topic": "your dreams cannot survive your habits",
+      "selected_quote": "66 days of bad habits can erase a lifetime of good intentions. Every day, we follow the path that our habits have carved out for us, leading us further away from our dreams. It's a hard truth to accept, but our lives are a reflection of our daily choices.",
+      "quote_type": "statement",
+      "hook_keyword": "discipline",
+      "design_style": "dark",
+      "predicted": "high",
+      "posted_at": "2026-07-30T06:17:24.275417",
+      "dry_run": false,
+      "pillar": "hard_truth",
+      "hook_template": "stat_shock",
+      "pillar_hook_source": "picker",
+      "caption_structure": "numbered_list",
+      "caption_cta": "Comment your biggest excuse below.",
+      "hashtags_used": [
+        "#mindsetreset",
+        "#selfimprovementdaily",
+        "#innerstrength",
+        "#disciplinedmind",
+        "#hardtruthsquotes",
+        "#stoicismdaily",
+        "#toughnessmindset",
+        "#fueledbydiscipline",
+        "#dis_ciplinefuel"
+      ]
     }
   ]
 }
