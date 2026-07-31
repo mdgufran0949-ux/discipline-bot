@@ -4346,6 +4346,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_75_20260731_151213",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 75,
+      "topic": "stop romanticizing your struggle",
+      "hook_keyword": "night",
+      "selected_quote": "The night you stop glorifying your struggles is the night you start to dismantle them. Every bad habit, every excuse, and every justification will be laid bare. It's a difficult truth to face, but one that ultimately sets you free",
+      "posted_at": "2026-07-31T15:12:13.085222",
+      "ig_media_id": "18305711014304572",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4858,28 +4879,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 207,
+    "total_posts": 208,
     "by_quote_type": {
       "question": 1,
-      "statement": 191,
+      "statement": 192,
       "contrast": 7,
       "punch": 4,
       "command": 4
     },
     "by_design_style": {
       "minimal": 48,
-      "dark": 57,
+      "dark": 58,
       "luxury": 60,
       "bold": 42
     },
     "by_format": {
       "image": 1,
-      "reel": 206
+      "reel": 207
     },
     "by_series": {
       "discipline_rule": 70,
       "day_becoming_better": 69,
-      "wake_up_call": 68
+      "wake_up_call": 69
     },
     "top_performing_series": "discipline_rule"
   },
