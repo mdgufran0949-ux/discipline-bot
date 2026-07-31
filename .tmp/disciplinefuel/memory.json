@@ -4325,6 +4325,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_76_20260731_065709",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 76,
+      "topic": "stop romanticizing your struggle",
+      "hook_keyword": "struggling",
+      "selected_quote": "Struggling is not a badge of honor. It's a signal to re-evaluate our approach every day.",
+      "posted_at": "2026-07-31T06:57:09.887812",
+      "ig_media_id": "18064665275741735",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4837,10 +4858,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 206,
+    "total_posts": 207,
     "by_quote_type": {
       "question": 1,
-      "statement": 190,
+      "statement": 191,
       "contrast": 7,
       "punch": 4,
       "command": 4
@@ -4848,15 +4869,15 @@
     "by_design_style": {
       "minimal": 48,
       "dark": 57,
-      "luxury": 59,
+      "luxury": 60,
       "bold": 42
     },
     "by_format": {
       "image": 1,
-      "reel": 205
+      "reel": 206
     },
     "by_series": {
-      "discipline_rule": 69,
+      "discipline_rule": 70,
       "day_becoming_better": 69,
       "wake_up_call": 68
     },

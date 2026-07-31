@@ -8404,6 +8404,42 @@
         "#disciplinenotmotivation",
         "#dis_ciplinefuel"
       ]
+    },
+    {
+      "id": "discipline_rule_76_20260731_065709",
+      "ig_media_id": "18064665275741735",
+      "permalink": "https://www.instagram.com/reel/Dbcq91LEn0H/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 76,
+      "content_series": "Discipline Rule #76",
+      "topic": "stop romanticizing your struggle",
+      "selected_quote": "Struggling is not a badge of honor. It's a signal to re-evaluate our approach every day.",
+      "quote_type": "statement",
+      "hook_keyword": "struggling",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-07-31T06:57:09.887812",
+      "dry_run": false,
+      "pillar": "reframe",
+      "hook_template": "contrarian",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Comment your biggest excuse below.",
+      "hashtags_used": [
+        "#selfmastery",
+        "#stoicmindset",
+        "#silentgrind",
+        "#workharderquietly",
+        "#doitnobodywatching",
+        "#hardtruthsquotes",
+        "#stoicquotesdaily",
+        "#disciplinedaily",
+        "#disciplinenotmotivation"
+      ]
     }
   ]
 }
