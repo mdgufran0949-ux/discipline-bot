@@ -4388,6 +4388,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_77_20260801_141705",
+      "quote_type": "command",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 77,
+      "topic": "a real man has no hobbies",
+      "hook_keyword": "stop",
+      "selected_quote": "Stop believing that a real man must abandon his desires, and start embracing the idea that his hobbies are a vital part of his identity, and a key to a fulfilling life, every day.",
+      "posted_at": "2026-08-01T14:17:05.308746",
+      "ig_media_id": "18049414172595358",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4901,26 +4922,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 209,
+    "total_posts": 210,
     "by_quote_type": {
       "question": 1,
       "statement": 192,
       "contrast": 8,
       "punch": 4,
-      "command": 4
+      "command": 5
     },
     "by_design_style": {
       "minimal": 48,
       "dark": 58,
-      "luxury": 61,
+      "luxury": 62,
       "bold": 42
     },
     "by_format": {
       "image": 1,
-      "reel": 208
+      "reel": 209
     },
     "by_series": {
-      "discipline_rule": 70,
+      "discipline_rule": 71,
       "day_becoming_better": 70,
       "wake_up_call": 69
     },
