@@ -4409,6 +4409,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_76_20260802_062437",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 76,
+      "topic": "a real man has no hobbies",
+      "hook_keyword": "purpose",
+      "selected_quote": "A life of purpose has no room for idle hobbies, every day is a chance to follow a deliberate path, shaping life with intention, not distraction",
+      "posted_at": "2026-08-02T06:24:37.586562",
+      "ig_media_id": "18123626521685666",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4922,28 +4943,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 210,
+    "total_posts": 211,
     "by_quote_type": {
       "question": 1,
-      "statement": 192,
+      "statement": 193,
       "contrast": 8,
       "punch": 4,
       "command": 5
     },
     "by_design_style": {
-      "minimal": 48,
+      "minimal": 49,
       "dark": 58,
       "luxury": 62,
       "bold": 42
     },
     "by_format": {
       "image": 1,
-      "reel": 209
+      "reel": 210
     },
     "by_series": {
       "discipline_rule": 71,
       "day_becoming_better": 70,
-      "wake_up_call": 69
+      "wake_up_call": 70
     },
     "top_performing_series": "discipline_rule"
   },
