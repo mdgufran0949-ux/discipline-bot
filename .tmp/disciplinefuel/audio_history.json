@@ -1,10 +1,5 @@
 [
   {
-    "filename": "1234662.mp3",
-    "used_at": "2026-05-23T06:50:42.610891",
-    "pillar": "reframe"
-  },
-  {
     "filename": "2040935.mp3",
     "used_at": "2026-05-24T07:22:18.271887",
     "pillar": "hard_truth"
@@ -498,5 +493,10 @@
     "filename": "1487951.mp3",
     "used_at": "2026-08-02T06:23:48.869100",
     "pillar": "tactical"
+  },
+  {
+    "filename": "1250829.mp3",
+    "used_at": "2026-08-02T14:44:18.035378",
+    "pillar": "reframe"
   }
 ]
