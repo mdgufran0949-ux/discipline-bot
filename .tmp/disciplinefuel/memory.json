@@ -4451,6 +4451,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_78_20260803_070155",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 78,
+      "topic": "the grind is not optional",
+      "hook_keyword": "night",
+      "selected_quote": "The night he decided to take control of his life, he realized that every day is a choice between discipline and distraction. In that moment, he understood that the grind is not optional, but a necessary step towards growth. It's a decision we all must make, every day, in every aspect of our lives",
+      "posted_at": "2026-08-03T07:01:55.280512",
+      "ig_media_id": "18123886501829150",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -4965,10 +4986,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 212,
+    "total_posts": 213,
     "by_quote_type": {
       "question": 1,
-      "statement": 194,
+      "statement": 195,
       "contrast": 8,
       "punch": 4,
       "command": 5
@@ -4976,15 +4997,15 @@
     "by_design_style": {
       "minimal": 49,
       "dark": 58,
-      "luxury": 62,
+      "luxury": 63,
       "bold": 43
     },
     "by_format": {
       "image": 1,
-      "reel": 211
+      "reel": 212
     },
     "by_series": {
-      "discipline_rule": 71,
+      "discipline_rule": 72,
       "day_becoming_better": 71,
       "wake_up_call": 70
     },
