@@ -4493,6 +4493,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_77_20260804_063643",
+      "quote_type": "contrast",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 77,
+      "topic": "the grind is not optional",
+      "hook_keyword": "quiet",
+      "selected_quote": "What if discipline is the quiet that tames the storm?",
+      "posted_at": "2026-08-04T06:36:43.209615",
+      "ig_media_id": "18608016604002308",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5007,27 +5028,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 214,
+    "total_posts": 215,
     "by_quote_type": {
       "question": 1,
       "statement": 195,
-      "contrast": 8,
+      "contrast": 9,
       "punch": 4,
       "command": 6
     },
     "by_design_style": {
       "minimal": 50,
-      "dark": 58,
+      "dark": 59,
       "luxury": 63,
       "bold": 43
     },
     "by_format": {
       "image": 1,
-      "reel": 213
+      "reel": 214
     },
     "by_series": {
       "discipline_rule": 72,
-      "day_becoming_better": 71,
+      "day_becoming_better": 72,
       "wake_up_call": 71
     },
     "top_performing_series": "discipline_rule"
