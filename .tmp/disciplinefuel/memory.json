@@ -4535,6 +4535,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_78_20260806_151300",
+      "quote_type": "statement",
+      "design_style": "minimal",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 78,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "moment",
+      "selected_quote": "There is a moment every day when we choose comfort over growth, and it's in those moments that we must confront the truth about our own potential. The question is, what will we do with that truth?",
+      "posted_at": "2026-08-06T15:13:00.411425",
+      "ig_media_id": "17938898007336090",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5050,28 +5071,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 216,
+    "total_posts": 217,
     "by_quote_type": {
       "question": 1,
-      "statement": 196,
+      "statement": 197,
       "contrast": 9,
       "punch": 4,
       "command": 6
     },
     "by_design_style": {
-      "minimal": 50,
+      "minimal": 51,
       "dark": 59,
       "luxury": 63,
       "bold": 44
     },
     "by_format": {
       "image": 1,
-      "reel": 215
+      "reel": 216
     },
     "by_series": {
       "discipline_rule": 73,
       "day_becoming_better": 72,
-      "wake_up_call": 71
+      "wake_up_call": 72
     },
     "top_performing_series": "discipline_rule"
   },
