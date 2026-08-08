@@ -4598,6 +4598,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_79_20260808_134555",
+      "quote_type": "punch",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 79,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "excuse",
+      "selected_quote": "Is comfort your excuse?",
+      "posted_at": "2026-08-08T13:45:55.037873",
+      "ig_media_id": "17892805386393894",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5113,28 +5134,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 219,
+    "total_posts": 220,
     "by_quote_type": {
       "question": 1,
       "statement": 199,
       "contrast": 9,
-      "punch": 4,
+      "punch": 5,
       "command": 6
     },
     "by_design_style": {
       "minimal": 51,
       "dark": 59,
       "luxury": 63,
-      "bold": 46
+      "bold": 47
     },
     "by_format": {
       "image": 1,
-      "reel": 218
+      "reel": 219
     },
     "by_series": {
       "discipline_rule": 74,
       "day_becoming_better": 73,
-      "wake_up_call": 72
+      "wake_up_call": 73
     },
     "top_performing_series": "discipline_rule"
   },
