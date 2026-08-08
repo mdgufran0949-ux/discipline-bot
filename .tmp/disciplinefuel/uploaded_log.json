@@ -8964,6 +8964,42 @@
         "#fueledbydiscipline",
         "#dis_ciplinefuel"
       ]
+    },
+    {
+      "id": "discipline_rule_80_20260808_045649",
+      "ig_media_id": "18090941504134922",
+      "permalink": "https://www.instagram.com/reel/DbxDigdFBUn/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 80,
+      "content_series": "Discipline Rule #80",
+      "topic": "you keep choosing comfort over growth",
+      "selected_quote": "Establish a daily routine that prioritizes growth over comfort, and watch your life transform every day. Focus on the process, not the outcome.",
+      "quote_type": "statement",
+      "hook_keyword": "establish",
+      "design_style": "bold",
+      "predicted": "high",
+      "posted_at": "2026-08-08T04:56:49.779087",
+      "dry_run": false,
+      "pillar": "tactical",
+      "hook_template": "command",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Bookmark this for your next weak moment.",
+      "hashtags_used": [
+        "#personaldevelopmentdaily",
+        "#stoicmindset",
+        "#innerstrength",
+        "#mentaldisciplinedaily",
+        "#resilientmindset",
+        "#buildmentaltoughness",
+        "#harshtruths",
+        "#disciplinenotmotivation",
+        "#fueledbydiscipline"
+      ]
     }
   ]
 }

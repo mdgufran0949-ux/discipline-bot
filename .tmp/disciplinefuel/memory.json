@@ -4577,6 +4577,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_80_20260808_045649",
+      "quote_type": "statement",
+      "design_style": "bold",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 80,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "establish",
+      "selected_quote": "Establish a daily routine that prioritizes growth over comfort, and watch your life transform every day. Focus on the process, not the outcome.",
+      "posted_at": "2026-08-08T04:56:49.779087",
+      "ig_media_id": "18090941504134922",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5092,10 +5113,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 218,
+    "total_posts": 219,
     "by_quote_type": {
       "question": 1,
-      "statement": 198,
+      "statement": 199,
       "contrast": 9,
       "punch": 4,
       "command": 6
@@ -5104,14 +5125,14 @@
       "minimal": 51,
       "dark": 59,
       "luxury": 63,
-      "bold": 45
+      "bold": 46
     },
     "by_format": {
       "image": 1,
-      "reel": 217
+      "reel": 218
     },
     "by_series": {
-      "discipline_rule": 73,
+      "discipline_rule": 74,
       "day_becoming_better": 73,
       "wake_up_call": 72
     },
