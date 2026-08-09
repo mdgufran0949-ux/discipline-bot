@@ -4640,6 +4640,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "discipline_rule_81_20260809_134257",
+      "quote_type": "punch",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 81,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "grown",
+      "selected_quote": "Grown not comforted.",
+      "posted_at": "2026-08-09T13:42:57.214719",
+      "ig_media_id": "18101106980259374",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5155,26 +5176,26 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 221,
+    "total_posts": 222,
     "by_quote_type": {
       "question": 1,
       "statement": 200,
       "contrast": 9,
-      "punch": 5,
+      "punch": 6,
       "command": 6
     },
     "by_design_style": {
       "minimal": 51,
       "dark": 60,
-      "luxury": 63,
+      "luxury": 64,
       "bold": 47
     },
     "by_format": {
       "image": 1,
-      "reel": 220
+      "reel": 221
     },
     "by_series": {
-      "discipline_rule": 74,
+      "discipline_rule": 75,
       "day_becoming_better": 74,
       "wake_up_call": 73
     },

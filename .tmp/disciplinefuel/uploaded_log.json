@@ -9098,6 +9098,42 @@
         "#disciplinenotmotivation",
         "#disciplinefuel"
       ]
+    },
+    {
+      "id": "discipline_rule_81_20260809_134257",
+      "ig_media_id": "18101106980259374",
+      "permalink": "https://www.instagram.com/reel/Db0kkzroIKM/",
+      "preview_url": null,
+      "queue_id": null,
+      "status": "published",
+      "format": "reel",
+      "series": "discipline_rule",
+      "series_number": 81,
+      "content_series": "Discipline Rule #81",
+      "topic": "you keep choosing comfort over growth",
+      "selected_quote": "Grown not comforted.",
+      "quote_type": "punch",
+      "hook_keyword": "grown",
+      "design_style": "luxury",
+      "predicted": "high",
+      "posted_at": "2026-08-09T13:42:57.214719",
+      "dry_run": false,
+      "pillar": "tactical",
+      "hook_template": "contrarian",
+      "pillar_hook_source": "picker",
+      "caption_structure": "hook_value_cta",
+      "caption_cta": "Follow @dis.ciplinefuel for daily fuel.",
+      "hashtags_used": [
+        "#disciplinequotesdaily",
+        "#quietambition",
+        "#selfgrowthjourney",
+        "#workharderquietly",
+        "#disciplineequalsfreedom",
+        "#toughnessmindset",
+        "#stoicquotesdaily",
+        "#disciplinedaily",
+        "#dis_ciplinefuel"
+      ]
     }
   ]
 }
