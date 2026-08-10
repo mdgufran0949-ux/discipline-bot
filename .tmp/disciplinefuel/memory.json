@@ -4682,6 +4682,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_80_20260810_142114",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 80,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "comfort",
+      "selected_quote": "What if every comfort is a compromise on growth? We settle for familiarity, often at the cost of our true potential",
+      "posted_at": "2026-08-10T14:21:14.136578",
+      "ig_media_id": "18068201372723313",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5197,27 +5218,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 223,
+    "total_posts": 224,
     "by_quote_type": {
       "question": 1,
-      "statement": 201,
+      "statement": 202,
       "contrast": 9,
       "punch": 6,
       "command": 6
     },
     "by_design_style": {
       "minimal": 51,
-      "dark": 61,
+      "dark": 62,
       "luxury": 64,
       "bold": 47
     },
     "by_format": {
       "image": 1,
-      "reel": 222
+      "reel": 223
     },
     "by_series": {
       "discipline_rule": 75,
-      "day_becoming_better": 74,
+      "day_becoming_better": 75,
       "wake_up_call": 74
     },
     "top_performing_series": "discipline_rule"
