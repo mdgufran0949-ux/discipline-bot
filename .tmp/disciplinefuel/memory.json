@@ -4724,6 +4724,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_81_20260812_053122",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 81,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "complacency",
+      "selected_quote": "Comfort is not the enemy of growth; complacency is.",
+      "posted_at": "2026-08-12T05:31:22.215188",
+      "ig_media_id": "17922790920408207",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5239,10 +5260,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 225,
+    "total_posts": 226,
     "by_quote_type": {
       "question": 1,
-      "statement": 203,
+      "statement": 204,
       "contrast": 9,
       "punch": 6,
       "command": 6
@@ -5250,17 +5271,17 @@
     "by_design_style": {
       "minimal": 52,
       "dark": 62,
-      "luxury": 64,
+      "luxury": 65,
       "bold": 47
     },
     "by_format": {
       "image": 1,
-      "reel": 224
+      "reel": 225
     },
     "by_series": {
       "discipline_rule": 76,
       "day_becoming_better": 75,
-      "wake_up_call": 74
+      "wake_up_call": 75
     },
     "top_performing_series": "discipline_rule"
   },
