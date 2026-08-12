@@ -4745,6 +4745,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_81_20260812_140837",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 81,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "comfort",
+      "selected_quote": "66 days is the average time it takes to notice the gap between comfort and growth. We often choose the former, unaware of the cost.",
+      "posted_at": "2026-08-12T14:08:37.425584",
+      "ig_media_id": "18081407228675784",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5260,10 +5281,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 226,
+    "total_posts": 227,
     "by_quote_type": {
       "question": 1,
-      "statement": 204,
+      "statement": 205,
       "contrast": 9,
       "punch": 6,
       "command": 6
@@ -5271,16 +5292,16 @@
     "by_design_style": {
       "minimal": 52,
       "dark": 62,
-      "luxury": 65,
+      "luxury": 66,
       "bold": 47
     },
     "by_format": {
       "image": 1,
-      "reel": 225
+      "reel": 226
     },
     "by_series": {
       "discipline_rule": 76,
-      "day_becoming_better": 75,
+      "day_becoming_better": 76,
       "wake_up_call": 75
     },
     "top_performing_series": "discipline_rule"
