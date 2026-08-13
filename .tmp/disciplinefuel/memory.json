@@ -4787,6 +4787,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_82_20260813_142233",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 82,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "growth",
+      "selected_quote": "What if the comfort you're chasing is actually a barrier to growth? We often prioritize what feels good in the moment, rather than what will benefit us in the long run. This realization can be a hard pill to swallow, but it's a necessary one for those seeking true progress.",
+      "posted_at": "2026-08-13T14:22:33.965999",
+      "ig_media_id": "18088889510557366",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5302,10 +5323,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 228,
+    "total_posts": 229,
     "by_quote_type": {
       "question": 1,
-      "statement": 206,
+      "statement": 207,
       "contrast": 9,
       "punch": 6,
       "command": 6
@@ -5313,17 +5334,17 @@
     "by_design_style": {
       "minimal": 52,
       "dark": 63,
-      "luxury": 66,
+      "luxury": 67,
       "bold": 47
     },
     "by_format": {
       "image": 1,
-      "reel": 227
+      "reel": 228
     },
     "by_series": {
       "discipline_rule": 77,
       "day_becoming_better": 76,
-      "wake_up_call": 75
+      "wake_up_call": 76
     },
     "top_performing_series": "discipline_rule"
   },
