@@ -4808,6 +4808,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_82_20260814_053914",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 82,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "establish",
+      "selected_quote": "Establish a weekly routine that prioritizes growth over comfort, and watch your life transform over time",
+      "posted_at": "2026-08-14T05:39:14.117222",
+      "ig_media_id": "17954428680247880",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5323,10 +5344,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 229,
+    "total_posts": 230,
     "by_quote_type": {
       "question": 1,
-      "statement": 207,
+      "statement": 208,
       "contrast": 9,
       "punch": 6,
       "command": 6
@@ -5334,16 +5355,16 @@
     "by_design_style": {
       "minimal": 52,
       "dark": 63,
-      "luxury": 67,
+      "luxury": 68,
       "bold": 47
     },
     "by_format": {
       "image": 1,
-      "reel": 228
+      "reel": 229
     },
     "by_series": {
       "discipline_rule": 77,
-      "day_becoming_better": 76,
+      "day_becoming_better": 77,
       "wake_up_call": 76
     },
     "top_performing_series": "discipline_rule"
