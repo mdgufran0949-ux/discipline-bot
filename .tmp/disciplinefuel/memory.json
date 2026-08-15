@@ -4850,6 +4850,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_83_20260815_043102",
+      "quote_type": "statement",
+      "design_style": "luxury",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 83,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "night",
+      "selected_quote": "The night you choose comfort over growth is the night your potential begins to fade",
+      "posted_at": "2026-08-15T04:31:02.247971",
+      "ig_media_id": "18121749901892636",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5365,10 +5386,10 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 231,
+    "total_posts": 232,
     "by_quote_type": {
       "question": 1,
-      "statement": 209,
+      "statement": 210,
       "contrast": 9,
       "punch": 6,
       "command": 6
@@ -5376,17 +5397,17 @@
     "by_design_style": {
       "minimal": 52,
       "dark": 63,
-      "luxury": 69,
+      "luxury": 70,
       "bold": 47
     },
     "by_format": {
       "image": 1,
-      "reel": 230
+      "reel": 231
     },
     "by_series": {
       "discipline_rule": 78,
       "day_becoming_better": 77,
-      "wake_up_call": 76
+      "wake_up_call": 77
     },
     "top_performing_series": "discipline_rule"
   },
