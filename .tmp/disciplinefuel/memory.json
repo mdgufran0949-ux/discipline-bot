@@ -4871,6 +4871,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "day_becoming_better_83_20260815_133742",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "day_becoming_better",
+      "series_number": 83,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "comfort",
+      "selected_quote": "Comfort is not the enemy of growth, but its subtle saboteur. We often choose the familiar over the formidable, and it's in these moments that we must re-examine our priorities.",
+      "posted_at": "2026-08-15T13:37:42.952819",
+      "ig_media_id": "18090130136375993",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5386,27 +5407,27 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 232,
+    "total_posts": 233,
     "by_quote_type": {
       "question": 1,
-      "statement": 210,
+      "statement": 211,
       "contrast": 9,
       "punch": 6,
       "command": 6
     },
     "by_design_style": {
       "minimal": 52,
-      "dark": 63,
+      "dark": 64,
       "luxury": 70,
       "bold": 47
     },
     "by_format": {
       "image": 1,
-      "reel": 231
+      "reel": 232
     },
     "by_series": {
       "discipline_rule": 78,
-      "day_becoming_better": 77,
+      "day_becoming_better": 78,
       "wake_up_call": 77
     },
     "top_performing_series": "discipline_rule"
