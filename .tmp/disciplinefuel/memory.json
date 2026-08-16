@@ -4913,6 +4913,27 @@
         "score": null,
         "fetched_at": null
       }
+    },
+    {
+      "id": "wake_up_call_84_20260816_133139",
+      "quote_type": "statement",
+      "design_style": "dark",
+      "format": "reel",
+      "series": "wake_up_call",
+      "series_number": 84,
+      "topic": "you keep choosing comfort over growth",
+      "hook_keyword": "start",
+      "selected_quote": "What if every day is a chance to start anew, to focus on growth over comfort?",
+      "posted_at": "2026-08-16T13:31:39.609508",
+      "ig_media_id": "18132133795726194",
+      "performance": {
+        "saves": 0,
+        "shares": 0,
+        "comments": 0,
+        "likes": 0,
+        "score": null,
+        "fetched_at": null
+      }
     }
   ],
   "patterns": {
@@ -5428,28 +5449,28 @@
     "avoid_hook_keywords": []
   },
   "stats": {
-    "total_posts": 234,
+    "total_posts": 235,
     "by_quote_type": {
       "question": 1,
-      "statement": 211,
+      "statement": 212,
       "contrast": 10,
       "punch": 6,
       "command": 6
     },
     "by_design_style": {
       "minimal": 53,
-      "dark": 64,
+      "dark": 65,
       "luxury": 70,
       "bold": 47
     },
     "by_format": {
       "image": 1,
-      "reel": 233
+      "reel": 234
     },
     "by_series": {
       "discipline_rule": 79,
       "day_becoming_better": 78,
-      "wake_up_call": 77
+      "wake_up_call": 78
     },
     "top_performing_series": "discipline_rule"
   },
