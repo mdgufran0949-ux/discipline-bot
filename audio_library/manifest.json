@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-08-09T04:12:05.009291",
+  "last_updated": "2026-08-16T03:41:18.432166",
   "tracks": [
     {
       "track_id": "reframe_1234662",
@@ -67,116 +67,6 @@
       "duration": 186,
       "downloaded_at": "2026-07-05T06:31:47.337285",
       "file_path": "audio_library/reframe/43679.mp3"
-    },
-    {
-      "track_id": "hard_truth_2189053",
-      "jamendo_id": "2189053",
-      "pillar": "hard_truth",
-      "title": "Noise | UK Drill Music",
-      "artist_name": "Kontraa",
-      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
-      "duration": 170,
-      "downloaded_at": "2026-07-19T05:42:28.326002",
-      "file_path": "audio_library/hard_truth/2189053.mp3"
-    },
-    {
-      "track_id": "hard_truth_1955927",
-      "jamendo_id": "1955927",
-      "pillar": "hard_truth",
-      "title": "A Hero Is Born",
-      "artist_name": "Energy Music",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 148,
-      "downloaded_at": "2026-07-19T05:42:31.040977",
-      "file_path": "audio_library/hard_truth/1955927.mp3"
-    },
-    {
-      "track_id": "hard_truth_1834794",
-      "jamendo_id": "1834794",
-      "pillar": "hard_truth",
-      "title": "How Weird It Is... (Original Mix)",
-      "artist_name": "Sun Spot",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 324,
-      "downloaded_at": "2026-07-19T05:42:36.547576",
-      "file_path": "audio_library/hard_truth/1834794.mp3"
-    },
-    {
-      "track_id": "hard_truth_1841610",
-      "jamendo_id": "1841610",
-      "pillar": "hard_truth",
-      "title": "Guardian of Power",
-      "artist_name": "Grégoire Lourme",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 218,
-      "downloaded_at": "2026-07-19T05:42:40.260025",
-      "file_path": "audio_library/hard_truth/1841610.mp3"
-    },
-    {
-      "track_id": "hard_truth_1642847",
-      "jamendo_id": "1642847",
-      "pillar": "hard_truth",
-      "title": "The Reason",
-      "artist_name": "Hakim El Kassimi",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 297,
-      "downloaded_at": "2026-07-19T05:42:44.294968",
-      "file_path": "audio_library/hard_truth/1642847.mp3"
-    },
-    {
-      "track_id": "tactical_1059093",
-      "jamendo_id": "1059093",
-      "pillar": "tactical",
-      "title": "Hazardous - Wrong thing",
-      "artist_name": "Hazardous",
-      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
-      "duration": 216,
-      "downloaded_at": "2026-07-19T05:42:48.911456",
-      "file_path": "audio_library/tactical/1059093.mp3"
-    },
-    {
-      "track_id": "tactical_1934017",
-      "jamendo_id": "1934017",
-      "pillar": "tactical",
-      "title": "MKHLSDRV — This Is Phonk",
-      "artist_name": "MKHLSDRV",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "duration": 206,
-      "downloaded_at": "2026-07-19T05:42:52.264463",
-      "file_path": "audio_library/tactical/1934017.mp3"
-    },
-    {
-      "track_id": "tactical_1434162",
-      "jamendo_id": "1434162",
-      "pillar": "tactical",
-      "title": "Corporate Inspiring Background",
-      "artist_name": "easytonica",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 136,
-      "downloaded_at": "2026-07-19T05:42:54.904328",
-      "file_path": "audio_library/tactical/1434162.mp3"
-    },
-    {
-      "track_id": "tactical_1445708",
-      "jamendo_id": "1445708",
-      "pillar": "tactical",
-      "title": "Spring Moment main",
-      "artist_name": "Denys Kaganiuk",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 100,
-      "downloaded_at": "2026-07-19T05:42:56.978843",
-      "file_path": "audio_library/tactical/1445708.mp3"
-    },
-    {
-      "track_id": "tactical_1481201",
-      "jamendo_id": "1481201",
-      "pillar": "tactical",
-      "title": "Mediterranean Sea",
-      "artist_name": "Nick Gordy",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 192,
-      "downloaded_at": "2026-07-19T05:43:00.596625",
-      "file_path": "audio_library/tactical/1481201.mp3"
     },
     {
       "track_id": "reframe_1234661",
@@ -331,61 +221,6 @@
       "duration": 313,
       "downloaded_at": "2026-07-26T05:52:17.077201",
       "file_path": "audio_library/tactical/1488506.mp3"
-    },
-    {
-      "track_id": "story_proof_1826189",
-      "jamendo_id": "1826189",
-      "pillar": "story_proof",
-      "title": "Not the One to Say (I Told You So) (24-bit Master)",
-      "artist_name": "Cole Powell",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 235,
-      "downloaded_at": "2026-07-26T05:52:34.567856",
-      "file_path": "audio_library/story_proof/1826189.mp3"
-    },
-    {
-      "track_id": "story_proof_2203626",
-      "jamendo_id": "2203626",
-      "pillar": "story_proof",
-      "title": "Alive",
-      "artist_name": "Songwriterz",
-      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
-      "duration": 234,
-      "downloaded_at": "2026-07-26T05:52:39.376769",
-      "file_path": "audio_library/story_proof/2203626.mp3"
-    },
-    {
-      "track_id": "story_proof_1840623",
-      "jamendo_id": "1840623",
-      "pillar": "story_proof",
-      "title": "My Heart Blows Up (Explosions)",
-      "artist_name": "Anton Leuba",
-      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
-      "duration": 219,
-      "downloaded_at": "2026-07-26T05:52:43.877947",
-      "file_path": "audio_library/story_proof/1840623.mp3"
-    },
-    {
-      "track_id": "story_proof_2266835",
-      "jamendo_id": "2266835",
-      "pillar": "story_proof",
-      "title": "Pop &amp; Deep House",
-      "artist_name": "TNDR Productions",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 275,
-      "downloaded_at": "2026-07-26T05:52:49.242415",
-      "file_path": "audio_library/story_proof/2266835.mp3"
-    },
-    {
-      "track_id": "story_proof_1879649",
-      "jamendo_id": "1879649",
-      "pillar": "story_proof",
-      "title": "Un Ratito Nama (Prod: Duran The Coach)",
-      "artist_name": "Lessky",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 180,
-      "downloaded_at": "2026-07-26T05:52:53.201927",
-      "file_path": "audio_library/story_proof/1879649.mp3"
     },
     {
       "track_id": "tactical_1490284",
@@ -650,6 +485,171 @@
       "duration": 192,
       "downloaded_at": "2026-08-09T04:12:05.006139",
       "file_path": "audio_library/story_proof/1975586.mp3"
+    },
+    {
+      "track_id": "hard_truth_682351",
+      "jamendo_id": "682351",
+      "pillar": "hard_truth",
+      "title": "Moon & Sun - Salt & Indigo",
+      "artist_name": "Moon & Sun",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 198,
+      "downloaded_at": "2026-08-16T03:40:16.164533",
+      "file_path": "audio_library/hard_truth/682351.mp3"
+    },
+    {
+      "track_id": "hard_truth_1214596",
+      "jamendo_id": "1214596",
+      "pillar": "hard_truth",
+      "title": "Hold Me Tonight",
+      "artist_name": "JARA",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 184,
+      "downloaded_at": "2026-08-16T03:40:19.982909",
+      "file_path": "audio_library/hard_truth/1214596.mp3"
+    },
+    {
+      "track_id": "hard_truth_2004479",
+      "jamendo_id": "2004479",
+      "pillar": "hard_truth",
+      "title": "1. Intermezzo / Allegro",
+      "artist_name": "Michał Jałochowski",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 300,
+      "downloaded_at": "2026-08-16T03:40:25.433571",
+      "file_path": "audio_library/hard_truth/2004479.mp3"
+    },
+    {
+      "track_id": "hard_truth_2163419",
+      "jamendo_id": "2163419",
+      "pillar": "hard_truth",
+      "title": "Club Future House",
+      "artist_name": "MokkaMusic",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 163,
+      "downloaded_at": "2026-08-16T03:40:28.681667",
+      "file_path": "audio_library/hard_truth/2163419.mp3"
+    },
+    {
+      "track_id": "hard_truth_1864256",
+      "jamendo_id": "1864256",
+      "pillar": "hard_truth",
+      "title": "Channeling",
+      "artist_name": "MauMouse",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 130,
+      "downloaded_at": "2026-08-16T03:40:31.012835",
+      "file_path": "audio_library/hard_truth/1864256.mp3"
+    },
+    {
+      "track_id": "tactical_1433574",
+      "jamendo_id": "1433574",
+      "pillar": "tactical",
+      "title": "atmosphere 017",
+      "artist_name": "Vagiz Ga Lee",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 150,
+      "downloaded_at": "2026-08-16T03:40:34.671151",
+      "file_path": "audio_library/tactical/1433574.mp3"
+    },
+    {
+      "track_id": "tactical_1819481",
+      "jamendo_id": "1819481",
+      "pillar": "tactical",
+      "title": "Deep Groove Élément",
+      "artist_name": "PM music Prod",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 414,
+      "downloaded_at": "2026-08-16T03:40:42.166521",
+      "file_path": "audio_library/tactical/1819481.mp3"
+    },
+    {
+      "track_id": "tactical_1439411",
+      "jamendo_id": "1439411",
+      "pillar": "tactical",
+      "title": "Broken Clock",
+      "artist_name": "Amoebacrew",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 155,
+      "downloaded_at": "2026-08-16T03:40:45.606002",
+      "file_path": "audio_library/tactical/1439411.mp3"
+    },
+    {
+      "track_id": "tactical_1463289",
+      "jamendo_id": "1463289",
+      "pillar": "tactical",
+      "title": "Background Media (Middle Version)",
+      "artist_name": "makesound",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 108,
+      "downloaded_at": "2026-08-16T03:40:48.223644",
+      "file_path": "audio_library/tactical/1463289.mp3"
+    },
+    {
+      "track_id": "tactical_1470233",
+      "jamendo_id": "1470233",
+      "pillar": "tactical",
+      "title": "Choir Organ Majestic (Loop)",
+      "artist_name": "Mitch Europa",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 483,
+      "downloaded_at": "2026-08-16T03:40:55.598073",
+      "file_path": "audio_library/tactical/1470233.mp3"
+    },
+    {
+      "track_id": "story_proof_1982365",
+      "jamendo_id": "1982365",
+      "pillar": "story_proof",
+      "title": "Abstract Ideas",
+      "artist_name": "DHDMusic",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 114,
+      "downloaded_at": "2026-08-16T03:41:03.723955",
+      "file_path": "audio_library/story_proof/1982365.mp3"
+    },
+    {
+      "track_id": "story_proof_1886257",
+      "jamendo_id": "1886257",
+      "pillar": "story_proof",
+      "title": "Alone",
+      "artist_name": "Color Out",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 245,
+      "downloaded_at": "2026-08-16T03:41:08.102418",
+      "file_path": "audio_library/story_proof/1886257.mp3"
+    },
+    {
+      "track_id": "story_proof_2124813",
+      "jamendo_id": "2124813",
+      "pillar": "story_proof",
+      "title": "African Vibe",
+      "artist_name": "DHDMusic",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 121,
+      "downloaded_at": "2026-08-16T03:41:10.773293",
+      "file_path": "audio_library/story_proof/2124813.mp3"
+    },
+    {
+      "track_id": "story_proof_2137882",
+      "jamendo_id": "2137882",
+      "pillar": "story_proof",
+      "title": "Bad Intentions",
+      "artist_name": "Bessonn&amp;sa",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 181,
+      "downloaded_at": "2026-08-16T03:41:14.653325",
+      "file_path": "audio_library/story_proof/2137882.mp3"
+    },
+    {
+      "track_id": "story_proof_1892110",
+      "jamendo_id": "1892110",
+      "pillar": "story_proof",
+      "title": "Dile Cuanto la Quiero",
+      "artist_name": "Igmar",
+      "license_url": "http://creativecommons.org/licenses/by/3.0/",
+      "duration": 174,
+      "downloaded_at": "2026-08-16T03:41:18.428324",
+      "file_path": "audio_library/story_proof/1892110.mp3"
     }
   ]
 }
