@@ -14,9 +14,9 @@
 [biscuit_zara] Review complete.
 [1] Fetching trending kids topics...
 Scanning YouTube kids hashtags...
-  [#kidslearning] 7 titles
+  [#kidslearning] 9 titles
   [#nurseryrhymes] 0 titles
-  [#animalsforchildren] 10 titles
+  [#animalsforchildren] 7 titles
 Checking Google Trends...
 
 [OK] Best kids topic: Animal Sounds for toddler| forest animals song for Children and Kids | KLVWild Nursery Rhymes
@@ -89,18 +89,18 @@ Checking Google Trends...
 
 
 ───────────────────────────────────────────────────────
-  Topic: 25 Animal Names in English and Hindi with Pictures | Animals for Kids | Fruits Name | Vegetables
+  Topic: Learn Animal Names & Sounds! Wild Animals Song for Toddlers
   Series: standalone | Category: animals
 ───────────────────────────────────────────────────────
 
 [2] Generating script...
-  [TOPIC] Cleaned: '25 Animal Names in English and Hindi with Pictures'
-  [hook] Style: wow_fact
+  [TOPIC] Cleaned: 'Learn Animal Names Sounds Wild Animals Song for Toddlers'
+  [hook] Style: question
   [RETRY] Attempt 1 failed (Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}), retrying...
   [RETRY] Attempt 1 failed (Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying...
   [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying in 5s...
-  [TOPIC] Cleaned: '25 Animal Names in English and Hindi with Pictures'
-  [hook] Style: wow_fact
+  [TOPIC] Cleaned: 'Learn Animal Names Sounds Wild Animals Song for Toddlers'
+  [hook] Style: question
   [RETRY] Attempt 1 failed (Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}), retrying...
   [RETRY] Attempt 1 failed (Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying...
   [FAIL] Script generation: Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}
@@ -109,18 +109,18 @@ Checking Google Trends...
 
 
 ───────────────────────────────────────────────────────
-  Topic: Learn Animals Name for kids &  toddlers #animals #kidslearning #toddlerlearning #shorts
-  Series: standalone | Category: animals
+  Topic: Learn to Read VOWEL SONG for KIDS #kidslearning #kidsongs
+  Series: standalone | Category: songs
 ───────────────────────────────────────────────────────
 
 [2] Generating script...
-  [TOPIC] Cleaned: 'Learn Animals Name for kids toddlers'
-  [hook] Style: countdown
+  [TOPIC] Cleaned: 'Learn to Read VOWEL SONG for KIDS'
+  [hook] Style: adventure
   [RETRY] Attempt 1 failed (Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}), retrying...
   [RETRY] Attempt 1 failed (Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying...
   [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying in 5s...
-  [TOPIC] Cleaned: 'Learn Animals Name for kids toddlers'
-  [hook] Style: countdown
+  [TOPIC] Cleaned: 'Learn to Read VOWEL SONG for KIDS'
+  [hook] Style: adventure
   [RETRY] Attempt 1 failed (Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}), retrying...
   [RETRY] Attempt 1 failed (Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}), retrying...
   [FAIL] Script generation: Script generation failed on all providers: Error code: 410 - {'type': 'about:blank', 'title': 'Gone', 'status': 410, 'detail': "The model 'moonshotai/kimi-k2-instruct' has reached its end of life on 2026-05-12T00:00:00Z and is no longer available."}
