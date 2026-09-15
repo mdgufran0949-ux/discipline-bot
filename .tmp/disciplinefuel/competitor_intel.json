@@ -1,34 +1,22 @@
 {
-  "last_updated": "2026-09-13T08:34:35.647951",
+  "last_updated": "2026-09-15T17:42:44.481058",
   "hashtags_scanned": [
-    "mentality",
-    "mindsetmatters",
     "grindmode",
     "hardworkpaysoff",
-    "motivationdaily"
+    "motivationdaily",
+    "selfimprovementtips",
+    "stoicmindset"
   ],
-  "total_posts_analyzed": 27,
+  "total_posts_analyzed": 33,
   "top_posts": [
-    {
-      "media_id": "18050834096454600",
-      "permalink": "https://www.instagram.com/p/DThpi6tjSpl/",
-      "hashtag_source": "grindmode",
-      "media_type": "IMAGE",
-      "like_count": 53764,
-      "comments_count": 81,
-      "engagement_score": 53845,
-      "hook_line": "1\ufe0f\u20e3 Wake up at the same time every day \u2014 no negotiations.",
-      "caption_length": 450,
-      "detected_structure": "statement"
-    },
     {
       "media_id": "18091240654794612",
       "permalink": "https://www.instagram.com/p/DTOgSFUjMvc/",
       "hashtag_source": "grindmode",
       "media_type": "IMAGE",
-      "like_count": 17395,
+      "like_count": 17389,
       "comments_count": 63,
-      "engagement_score": 17458,
+      "engagement_score": 17452,
       "hook_line": "Success isn\u2019t about the applause you get when you\u2019re winning.",
       "caption_length": 498,
       "detected_structure": "statement"
@@ -38,11 +26,23 @@
       "permalink": "https://www.instagram.com/p/DVsLhbik4Ns/",
       "hashtag_source": "grindmode",
       "media_type": "IMAGE",
-      "like_count": 14842,
+      "like_count": 14838,
       "comments_count": 110,
-      "engagement_score": 14952,
+      "engagement_score": 14948,
       "hook_line": "Modern life complicated everything.",
       "caption_length": 578,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "17895867084346516",
+      "permalink": "https://www.instagram.com/p/DRN9pVKkoPh/",
+      "hashtag_source": "stoicmindset",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 13945,
+      "comments_count": 76,
+      "engagement_score": 14021,
+      "hook_line": "A better mindset is always one decision away.",
+      "caption_length": 583,
       "detected_structure": "statement"
     },
     {
@@ -50,24 +50,24 @@
       "permalink": "https://www.instagram.com/p/DRkLau1kwme/",
       "hashtag_source": "grindmode",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 12629,
+      "like_count": 12619,
       "comments_count": 71,
-      "engagement_score": 12700,
+      "engagement_score": 12690,
       "hook_line": "She left?",
       "caption_length": 708,
       "detected_structure": "question"
     },
     {
-      "media_id": "17877000246430500",
-      "permalink": "https://www.instagram.com/p/DRE6a6qAYLV/",
-      "hashtag_source": "grindmode",
+      "media_id": "18090646774909641",
+      "permalink": "https://www.instagram.com/p/DWvCTiGEinK/",
+      "hashtag_source": "stoicmindset",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 12439,
-      "comments_count": 56,
-      "engagement_score": 12495,
-      "hook_line": "\ud83d\udcaf",
-      "caption_length": 525,
-      "detected_structure": "statement"
+      "like_count": 11923,
+      "comments_count": 47,
+      "engagement_score": 11970,
+      "hook_line": "The life that transforms you is built in disciplined limits, not in excess.",
+      "caption_length": 580,
+      "detected_structure": "contrast"
     },
     {
       "media_id": "18551627653017833",
@@ -79,42 +79,6 @@
       "engagement_score": 8738,
       "hook_line": "At some point you stop chasing people and start chasing potential.",
       "caption_length": 586,
-      "detected_structure": "statement"
-    },
-    {
-      "media_id": "18100849099785194",
-      "permalink": "https://www.instagram.com/p/DW9UGyCDVt6/",
-      "hashtag_source": "mentality",
-      "media_type": "IMAGE",
-      "like_count": 8436,
-      "comments_count": 36,
-      "engagement_score": 8472,
-      "hook_line": "Most men break once.",
-      "caption_length": 817,
-      "detected_structure": "statement"
-    },
-    {
-      "media_id": "18111010454015895",
-      "permalink": "https://www.instagram.com/p/DcvkagWD35U/",
-      "hashtag_source": "mentality",
-      "media_type": "CAROUSEL_ALBUM",
-      "like_count": 6672,
-      "comments_count": 41,
-      "engagement_score": 6713,
-      "hook_line": "Five animals.",
-      "caption_length": 913,
-      "detected_structure": "statement"
-    },
-    {
-      "media_id": "18067033910416912",
-      "permalink": "https://www.instagram.com/p/DSX7oiUDAMk/",
-      "hashtag_source": "grindmode",
-      "media_type": "IMAGE",
-      "like_count": 5956,
-      "comments_count": 42,
-      "engagement_score": 5998,
-      "hook_line": "\ud83d\udcaf",
-      "caption_length": 525,
       "detected_structure": "statement"
     },
     {
@@ -130,15 +94,51 @@
       "detected_structure": "statement"
     },
     {
+      "media_id": "18087645710055703",
+      "permalink": "https://www.instagram.com/p/DSLqbP5jNQE/",
+      "hashtag_source": "stoicmindset",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 5069,
+      "comments_count": 28,
+      "engagement_score": 5097,
+      "hook_line": "Follow \ud83d\udc49 we.think.deeply we.think.deeply we.think.deeply",
+      "caption_length": 1027,
+      "detected_structure": "statement"
+    },
+    {
       "media_id": "18081244931199570",
       "permalink": "https://www.instagram.com/p/DZDLJxPALCO/",
       "hashtag_source": "grindmode",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 4752,
+      "like_count": 4750,
       "comments_count": 9,
-      "engagement_score": 4761,
+      "engagement_score": 4759,
       "hook_line": "Grind fckn time!",
       "caption_length": 93,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "18055060688463538",
+      "permalink": "https://www.instagram.com/p/DVOY2NFE0qX/",
+      "hashtag_source": "stoicmindset",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 4692,
+      "comments_count": 58,
+      "engagement_score": 4750,
+      "hook_line": "Most people don\u2019t suffer because life is hard.",
+      "caption_length": 736,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "18083469050028044",
+      "permalink": "https://www.instagram.com/p/DRh0tliE7cY/",
+      "hashtag_source": "stoicmindset",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 4673,
+      "comments_count": 43,
+      "engagement_score": 4716,
+      "hook_line": "Truth doesn\u2019t scream \u2014 it whispers.",
+      "caption_length": 2082,
       "detected_structure": "statement"
     },
     {
@@ -154,15 +154,27 @@
       "detected_structure": "statement"
     },
     {
-      "media_id": "18107359322480847",
-      "permalink": "https://www.instagram.com/p/DY4q3lrEg_N/",
-      "hashtag_source": "mentality",
+      "media_id": "18109008070607884",
+      "permalink": "https://www.instagram.com/p/DQojc1dCPyF/",
+      "hashtag_source": "stoicmindset",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 1644,
-      "comments_count": 1456,
-      "engagement_score": 3100,
-      "hook_line": "40 Slots left - Limited access.",
-      "caption_length": 1336,
+      "like_count": 4217,
+      "comments_count": 111,
+      "engagement_score": 4328,
+      "hook_line": "Power isn\u2019t loud.",
+      "caption_length": 263,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "17888442387202798",
+      "permalink": "https://www.instagram.com/p/DNkqoOHpBc0/",
+      "hashtag_source": "stoicmindset",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 3177,
+      "comments_count": 61,
+      "engagement_score": 3238,
+      "hook_line": "Comment \u201cFocus\u201d and I will share you the link of the book in dm.",
+      "caption_length": 948,
       "detected_structure": "statement"
     },
     {
@@ -190,6 +202,18 @@
       "detected_structure": "contrast"
     },
     {
+      "media_id": "18006354260714841",
+      "permalink": "https://www.instagram.com/p/DW_oKUGgL61/",
+      "hashtag_source": "grindmode",
+      "media_type": "CAROUSEL_ALBUM",
+      "like_count": 2397,
+      "comments_count": 29,
+      "engagement_score": 2426,
+      "hook_line": "Progress doesn\u2019t require perfection, if you missed your start yesterday then start today.",
+      "caption_length": 1663,
+      "detected_structure": "contrast"
+    },
+    {
       "media_id": "18086060800949789",
       "permalink": "https://www.instagram.com/p/DRQTLhijSDB/",
       "hashtag_source": "grindmode",
@@ -199,6 +223,18 @@
       "engagement_score": 2360,
       "hook_line": "\u201cNormal\u201d is just another word for settling.",
       "caption_length": 706,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "18086102135510970",
+      "permalink": "https://www.instagram.com/p/DR-xsd5CieQ/",
+      "hashtag_source": "grindmode",
+      "media_type": "IMAGE",
+      "like_count": 2323,
+      "comments_count": 21,
+      "engagement_score": 2344,
+      "hook_line": "By the time the crowd is talking about an opportunity, the real money has already been made.",
+      "caption_length": 665,
       "detected_structure": "statement"
     },
     {
@@ -214,15 +250,39 @@
       "detected_structure": "contrast"
     },
     {
-      "media_id": "18065364014752513",
-      "permalink": "https://www.instagram.com/p/Dc_I2i-IL-3/",
-      "hashtag_source": "mentality",
+      "media_id": "17933577018230818",
+      "permalink": "https://www.instagram.com/p/DW38aRuFGCH/",
+      "hashtag_source": "stoicmindset",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 2087,
-      "comments_count": 61,
+      "like_count": 2218,
+      "comments_count": 37,
+      "engagement_score": 2255,
+      "hook_line": "\ud83e\udde0 How to fall in love with your 9-to-5 in 2026.",
+      "caption_length": 2176,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "18059323616271385",
+      "permalink": "https://www.instagram.com/p/DR0JeBSDb6B/",
+      "hashtag_source": "grindmode",
+      "media_type": "IMAGE",
+      "like_count": 2120,
+      "comments_count": 31,
+      "engagement_score": 2151,
+      "hook_line": "Here is the truth society doesn\u2019t tell you:",
+      "caption_length": 827,
+      "detected_structure": "statement"
+    },
+    {
+      "media_id": "18044426561691384",
+      "permalink": "https://www.instagram.com/p/DRIv1vejazP/",
+      "hashtag_source": "stoicmindset",
+      "media_type": "IMAGE",
+      "like_count": 2148,
+      "comments_count": 0,
       "engagement_score": 2148,
-      "hook_line": "90% of peak weeks are already ruined before they even start.",
-      "caption_length": 1283,
+      "hook_line": "\u0e40\u0e23\u0e34\u0e48\u0e21\u0e15\u0e49\u0e19\u0e2a\u0e31\u0e1b\u0e14\u0e32\u0e2b\u0e4c\u0e14\u0e49\u0e27\u0e22\u0e04\u0e27\u0e32\u0e21\u0e40\u0e23\u0e35\u0e22\u0e1a\u0e07\u0e48\u0e32\u0e22\u0e02\u0e2d\u0e07\u0e2a\u0e42\u0e15\u0e2d\u0e34\u0e01",
+      "caption_length": 281,
       "detected_structure": "statement"
     },
     {
@@ -238,147 +298,139 @@
       "detected_structure": "statement"
     },
     {
-      "media_id": "17943180888338851",
-      "permalink": "https://www.instagram.com/p/Dcj_ol5Pm3s/",
-      "hashtag_source": "mentality",
-      "media_type": "IMAGE",
-      "like_count": 1598,
-      "comments_count": 31,
-      "engagement_score": 1629,
-      "hook_line": "Reason This With Me \u2b07\ufe0f",
-      "caption_length": 1463,
-      "detected_structure": "statement"
-    },
-    {
-      "media_id": "18001395080974834",
-      "permalink": "https://www.instagram.com/p/DaJvquAge2M/",
-      "hashtag_source": "mentality",
+      "media_id": "18073733426370879",
+      "permalink": "https://www.instagram.com/p/DSW2PfSDOEQ/",
+      "hashtag_source": "stoicmindset",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 1564,
-      "comments_count": 11,
-      "engagement_score": 1575,
-      "hook_line": "Banyak orang tua melihat basket hanya sebagai olahraga \ud83c\udfc0",
-      "caption_length": 905,
-      "detected_structure": "statement"
-    },
-    {
-      "media_id": "18053676047343608",
-      "permalink": "https://www.instagram.com/p/DSYkx_MisEC/",
-      "hashtag_source": "grindmode",
-      "media_type": "IMAGE",
-      "like_count": 1423,
-      "comments_count": 31,
-      "engagement_score": 1454,
-      "hook_line": "It\u2019s not about hating people.",
-      "caption_length": 1000,
-      "detected_structure": "contrast"
-    },
-    {
-      "media_id": "18443600818121772",
-      "permalink": "https://www.instagram.com/p/DdBtOWruHGF/",
-      "hashtag_source": "mentality",
-      "media_type": "IMAGE",
-      "like_count": 1396,
-      "comments_count": 13,
-      "engagement_score": 1409,
-      "hook_line": "The battle ends only when you believe it does.",
-      "caption_length": 153,
-      "detected_structure": "statement"
-    },
-    {
-      "media_id": "17852833275528561",
-      "permalink": "https://www.instagram.com/p/DQXAuEcETwd/",
-      "hashtag_source": "grindmode",
-      "media_type": "CAROUSEL_ALBUM",
-      "like_count": 1352,
-      "comments_count": 31,
-      "engagement_score": 1383,
-      "hook_line": "Fellas, remember this\ud83d\udc47\ud83c\udffd",
-      "caption_length": 835,
-      "detected_structure": "statement"
-    },
-    {
-      "media_id": "17925062151051296",
-      "permalink": "https://www.instagram.com/p/DSvg651jjs1/",
-      "hashtag_source": "grindmode",
-      "media_type": "CAROUSEL_ALBUM",
-      "like_count": 1171,
-      "comments_count": 43,
-      "engagement_score": 1214,
-      "hook_line": "Tennis drills on the schedule today \ud83c\udfbe",
-      "caption_length": 354,
+      "like_count": 1765,
+      "comments_count": 9,
+      "engagement_score": 1774,
+      "hook_line": "Follow \ud83d\udc49 we.think.deeply we.think.deeply we.think.deeply",
+      "caption_length": 1027,
       "detected_structure": "statement"
     }
   ],
   "patterns": {
     "top_hooks": [
-      "1\ufe0f\u20e3 Wake up at the same time every day \u2014 no negotiations.",
       "Success isn\u2019t about the applause you get when you\u2019re winning.",
       "Modern life complicated everything.",
+      "A better mindset is always one decision away.",
+      "The life that transforms you is built in disciplined limits, not in excess.",
       "At some point you stop chasing people and start chasing potential.",
-      "Most men break once.",
+      "Follow \ud83d\udc49 we.think.deeply we.think.deeply we.think.deeply",
       "Grind fckn time!",
-      "Low profile isn\u2019t insecurity, it\u2019s strategy.",
-      "40 Slots left - Limited access.",
-      "Feelings are priceless, but rent isn\u2019t.",
-      "Love is important, but love doesn\u2019t compound."
+      "Most people don\u2019t suffer because life is hard.",
+      "Truth doesn\u2019t scream \u2014 it whispers.",
+      "Low profile isn\u2019t insecurity, it\u2019s strategy."
     ],
     "power_words": [
       "don",
-      "keep",
-      "let",
-      "life",
       "follow",
-      "work",
-      "stay",
-      "discipline",
-      "build",
-      "real",
-      "income",
-      "people",
-      "need",
-      "time",
-      "energy",
       "doesn",
-      "money",
-      "succeed",
+      "let",
+      "real",
+      "life",
+      "build",
+      "men",
+      "create",
+      "wisdom",
+      "every",
+      "people",
       "together",
-      "create"
+      "isn",
+      "mindset",
+      "back",
+      "think",
+      "discipline",
+      "focus",
+      "start"
     ],
     "best_media_types": {
-      "IMAGE": 0.593,
-      "CAROUSEL_ALBUM": 0.407
+      "IMAGE": 0.455,
+      "CAROUSEL_ALBUM": 0.545
     },
     "caption_length_winners": {
-      "long": 0.889,
-      "medium": 0.111
+      "long": 0.939,
+      "medium": 0.061
     },
     "top_quote_structures": {
-      "statement": 0.778,
-      "question": 0.037,
-      "contrast": 0.185
+      "statement": 0.758,
+      "question": 0.03,
+      "contrast": 0.212
     },
-    "avg_engagement_top_25": 7289.0,
-    "median_engagement_top_25": 3100,
+    "avg_engagement_top_25": 5680.0,
+    "median_engagement_top_25": 4328,
     "top_creators": [
       {
-        "display_name": "business | entrepreneurship | technology",
+        "display_name": "billionaires soul&#x2122;",
         "appearances": 3,
-        "avg_engagement": 7899,
-        "top_engagement": 12495,
+        "avg_engagement": 8138,
+        "top_engagement": 14948,
         "dominant_structure": "statement",
         "dominant_length": "long",
-        "sample_hooks": [],
+        "sample_hooks": [
+          "Modern life complicated everything.",
+          "Most people don\u2019t suffer because life is hard.",
+          "Truth doesn\u2019t scream \u2014 it whispers."
+        ],
         "power_words": [
+          "water",
+          "life",
+          "everything",
+          "mindset",
+          "suffer",
+          "pain",
+          "cow",
+          "snake"
+        ]
+      },
+      {
+        "display_name": "masculinity | alpha manhood",
+        "appearances": 2,
+        "avg_engagement": 6920,
+        "top_engagement": 12690,
+        "dominant_structure": "question",
+        "dominant_length": "long",
+        "sample_hooks": [
+          "Don\u2019t hate modern women."
+        ],
+        "power_words": [
+          "step",
+          "fix",
+          "don",
+          "back",
+          "man",
+          "becoming",
+          "win",
+          "leveling"
+        ]
+      },
+      {
+        "display_name": "deeply thinking | &#x1f9e0;",
+        "appearances": 2,
+        "avg_engagement": 3436,
+        "top_engagement": 5097,
+        "dominant_structure": "statement",
+        "dominant_length": "long",
+        "sample_hooks": [
+          "Follow \ud83d\udc49 we.think.deeply we.think.deeply we.think.deeply",
+          "Follow \ud83d\udc49 we.think.deeply we.think.deeply we.think.deeply"
+        ],
+        "power_words": [
+          "think",
+          "deeply",
+          "words",
           "follow",
-          "hustling",
-          "income"
+          "enter",
+          "space",
+          "emotion",
+          "meets"
         ]
       },
       {
         "display_name": "mindset | motivation | success",
-        "appearances": 7,
-        "avg_engagement": 3559,
+        "appearances": 9,
+        "avg_engagement": 3268,
         "top_engagement": 8738,
         "dominant_structure": "statement",
         "dominant_length": "long",
@@ -399,25 +451,47 @@
         ]
       },
       {
-        "display_name": "myron wideman jr.",
+        "display_name": "stoic &#x2022; philosophy &#x2022; mindset",
         "appearances": 2,
-        "avg_engagement": 1825,
-        "top_engagement": 2267,
-        "dominant_structure": "contrast",
+        "avg_engagement": 1978,
+        "top_engagement": 2255,
+        "dominant_structure": "statement",
         "dominant_length": "long",
         "sample_hooks": [
-          "Just because they\u2019re available doesn\u2019t mean they\u2019re qualified.",
-          "Fellas, remember this\ud83d\udc47\ud83c\udffd"
+          "\ud83e\udde0 How to fall in love with your 9-to-5 in 2026.",
+          "The End of the \u201cNice Guy\u201d Era Starts Now."
         ],
         "power_words": [
-          "amazing",
-          "won",
-          "easy",
-          "worth",
-          "available",
-          "doesn",
-          "mean",
-          "qualified"
+          "men",
+          "nice",
+          "good",
+          "free",
+          "before",
+          "face",
+          "fall",
+          "love"
+        ]
+      },
+      {
+        "display_name": "tony volkmann",
+        "appearances": 2,
+        "avg_engagement": 1438,
+        "top_engagement": 1598,
+        "dominant_structure": "statement",
+        "dominant_length": "long",
+        "sample_hooks": [
+          "You don\u2019t control what happens\u2014but you control how you respond.",
+          "Most things disturbing your peace today will eventually become distant memories."
+        ],
+        "power_words": [
+          "stoicdoctrine",
+          "control",
+          "stay",
+          "mind",
+          "follow",
+          "daily",
+          "stoic",
+          "wisdom"
         ]
       }
     ]
