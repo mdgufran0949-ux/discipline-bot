@@ -1,106 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-09-20T08:04:57.121942",
+  "last_updated": "2026-09-27T08:43:54.850768",
   "tracks": [
-    {
-      "track_id": "reframe_1250829",
-      "jamendo_id": "1250829",
-      "pillar": "reframe",
-      "title": "Solar Plexus Chakra - (note E)",
-      "artist_name": "Macroform",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 631,
-      "downloaded_at": "2026-08-02T05:48:02.600488",
-      "file_path": "audio_library/reframe/1250829.mp3"
-    },
-    {
-      "track_id": "reframe_1417932",
-      "jamendo_id": "1417932",
-      "pillar": "reframe",
-      "title": "The Flow",
-      "artist_name": "Twin Flames",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 243,
-      "downloaded_at": "2026-08-02T05:48:07.329241",
-      "file_path": "audio_library/reframe/1417932.mp3"
-    },
-    {
-      "track_id": "hard_truth_2189053",
-      "jamendo_id": "2189053",
-      "pillar": "hard_truth",
-      "title": "Noise | UK Drill Music",
-      "artist_name": "Kontraa",
-      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
-      "duration": 170,
-      "downloaded_at": "2026-08-23T03:41:59.363086",
-      "file_path": "audio_library/hard_truth/2189053.mp3"
-    },
-    {
-      "track_id": "hard_truth_1955927",
-      "jamendo_id": "1955927",
-      "pillar": "hard_truth",
-      "title": "A Hero Is Born",
-      "artist_name": "Energy Music",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 148,
-      "downloaded_at": "2026-08-23T03:42:04.151281",
-      "file_path": "audio_library/hard_truth/1955927.mp3"
-    },
-    {
-      "track_id": "hard_truth_1834794",
-      "jamendo_id": "1834794",
-      "pillar": "hard_truth",
-      "title": "How Weird It Is... (Original Mix)",
-      "artist_name": "Sun Spot",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 324,
-      "downloaded_at": "2026-08-23T03:42:13.669149",
-      "file_path": "audio_library/hard_truth/1834794.mp3"
-    },
-    {
-      "track_id": "hard_truth_1841610",
-      "jamendo_id": "1841610",
-      "pillar": "hard_truth",
-      "title": "Guardian of Power",
-      "artist_name": "Grégoire Lourme",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 218,
-      "downloaded_at": "2026-08-23T03:42:20.232085",
-      "file_path": "audio_library/hard_truth/1841610.mp3"
-    },
-    {
-      "track_id": "hard_truth_1642847",
-      "jamendo_id": "1642847",
-      "pillar": "hard_truth",
-      "title": "The Reason",
-      "artist_name": "Hakim El Kassimi",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 297,
-      "downloaded_at": "2026-08-23T03:42:27.152781",
-      "file_path": "audio_library/hard_truth/1642847.mp3"
-    },
-    {
-      "track_id": "reframe_1121396",
-      "jamendo_id": "1121396",
-      "pillar": "reframe",
-      "title": "Give Me a Change",
-      "artist_name": "Marco Margna",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 202,
-      "downloaded_at": "2026-08-23T03:42:39.440334",
-      "file_path": "audio_library/reframe/1121396.mp3"
-    },
-    {
-      "track_id": "reframe_1234660",
-      "jamendo_id": "1234660",
-      "pillar": "reframe",
-      "title": "Yes or No",
-      "artist_name": "studyBreak",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "duration": 220,
-      "downloaded_at": "2026-08-23T03:42:45.915702",
-      "file_path": "audio_library/reframe/1234660.mp3"
-    },
     {
       "track_id": "reframe_2208995",
       "jamendo_id": "2208995",
@@ -232,61 +133,6 @@
       "duration": 192,
       "downloaded_at": "2026-08-30T08:42:24.630686",
       "file_path": "audio_library/tactical/1481201.mp3"
-    },
-    {
-      "track_id": "story_proof_2214037",
-      "jamendo_id": "2214037",
-      "pillar": "story_proof",
-      "title": "Where's the Love",
-      "artist_name": "Samie Bower",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 189,
-      "downloaded_at": "2026-08-30T08:42:35.972032",
-      "file_path": "audio_library/story_proof/2214037.mp3"
-    },
-    {
-      "track_id": "story_proof_2162424",
-      "jamendo_id": "2162424",
-      "pillar": "story_proof",
-      "title": "XENEZE - Starlight",
-      "artist_name": "XENEZE",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 158,
-      "downloaded_at": "2026-08-30T08:42:40.925399",
-      "file_path": "audio_library/story_proof/2162424.mp3"
-    },
-    {
-      "track_id": "story_proof_1933339",
-      "jamendo_id": "1933339",
-      "pillar": "story_proof",
-      "title": "The River",
-      "artist_name": "Stingray SZN",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 289,
-      "downloaded_at": "2026-08-30T08:42:49.224751",
-      "file_path": "audio_library/story_proof/1933339.mp3"
-    },
-    {
-      "track_id": "story_proof_1974740",
-      "jamendo_id": "1974740",
-      "pillar": "story_proof",
-      "title": "One Day We'll Be A Song",
-      "artist_name": "Explosive Ear Candy",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 255,
-      "downloaded_at": "2026-08-30T08:42:56.344430",
-      "file_path": "audio_library/story_proof/1974740.mp3"
-    },
-    {
-      "track_id": "story_proof_2329989",
-      "jamendo_id": "2329989",
-      "pillar": "story_proof",
-      "title": "Time Forward",
-      "artist_name": "Energy Music",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 154,
-      "downloaded_at": "2026-08-30T08:43:01.155174",
-      "file_path": "audio_library/story_proof/2329989.mp3"
     },
     {
       "track_id": "story_proof_2272481",
@@ -650,6 +496,160 @@
       "duration": 174,
       "downloaded_at": "2026-09-20T08:04:57.118252",
       "file_path": "audio_library/story_proof/1892110.mp3"
+    },
+    {
+      "track_id": "hard_truth_682351",
+      "jamendo_id": "682351",
+      "pillar": "hard_truth",
+      "title": "Moon & Sun - Salt & Indigo",
+      "artist_name": "Moon & Sun",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 198,
+      "downloaded_at": "2026-09-27T08:42:59.497872",
+      "file_path": "audio_library/hard_truth/682351.mp3"
+    },
+    {
+      "track_id": "hard_truth_1214596",
+      "jamendo_id": "1214596",
+      "pillar": "hard_truth",
+      "title": "Hold Me Tonight",
+      "artist_name": "JARA",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 184,
+      "downloaded_at": "2026-09-27T08:43:02.712534",
+      "file_path": "audio_library/hard_truth/1214596.mp3"
+    },
+    {
+      "track_id": "hard_truth_2004479",
+      "jamendo_id": "2004479",
+      "pillar": "hard_truth",
+      "title": "1. Intermezzo / Allegro",
+      "artist_name": "Michał Jałochowski",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 300,
+      "downloaded_at": "2026-09-27T08:43:07.649666",
+      "file_path": "audio_library/hard_truth/2004479.mp3"
+    },
+    {
+      "track_id": "hard_truth_2163419",
+      "jamendo_id": "2163419",
+      "pillar": "hard_truth",
+      "title": "Club Future House",
+      "artist_name": "MokkaMusic",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 163,
+      "downloaded_at": "2026-09-27T08:43:10.478109",
+      "file_path": "audio_library/hard_truth/2163419.mp3"
+    },
+    {
+      "track_id": "hard_truth_1864256",
+      "jamendo_id": "1864256",
+      "pillar": "hard_truth",
+      "title": "Channeling",
+      "artist_name": "MauMouse",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 130,
+      "downloaded_at": "2026-09-27T08:43:12.355410",
+      "file_path": "audio_library/hard_truth/1864256.mp3"
+    },
+    {
+      "track_id": "reframe_2230315",
+      "jamendo_id": "2230315",
+      "pillar": "reframe",
+      "title": "Wanting and Waiting",
+      "artist_name": "Occasionally Humans",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 240,
+      "downloaded_at": "2026-09-27T08:43:21.870669",
+      "file_path": "audio_library/reframe/2230315.mp3"
+    },
+    {
+      "track_id": "reframe_1833805",
+      "jamendo_id": "1833805",
+      "pillar": "reframe",
+      "title": "Beautiful Lounge",
+      "artist_name": "Sergey Gulevich",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 144,
+      "downloaded_at": "2026-09-27T08:43:24.352828",
+      "file_path": "audio_library/reframe/1833805.mp3"
+    },
+    {
+      "track_id": "reframe_1885653",
+      "jamendo_id": "1885653",
+      "pillar": "reframe",
+      "title": "See the Sun Explode",
+      "artist_name": "Fresh Body Shop",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 187,
+      "downloaded_at": "2026-09-27T08:43:27.361307",
+      "file_path": "audio_library/reframe/1885653.mp3"
+    },
+    {
+      "track_id": "reframe_2280561",
+      "jamendo_id": "2280561",
+      "pillar": "reframe",
+      "title": "Fiat Lux (No Shadows Mix)",
+      "artist_name": "Bemused",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 521,
+      "downloaded_at": "2026-09-27T08:43:35.467746",
+      "file_path": "audio_library/reframe/2280561.mp3"
+    },
+    {
+      "track_id": "story_proof_1826189",
+      "jamendo_id": "1826189",
+      "pillar": "story_proof",
+      "title": "Not the One to Say (I Told You So) (24-bit Master)",
+      "artist_name": "Cole Powell",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 235,
+      "downloaded_at": "2026-09-27T08:43:39.769620",
+      "file_path": "audio_library/story_proof/1826189.mp3"
+    },
+    {
+      "track_id": "story_proof_2203626",
+      "jamendo_id": "2203626",
+      "pillar": "story_proof",
+      "title": "Alive",
+      "artist_name": "Songwriterz",
+      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
+      "duration": 234,
+      "downloaded_at": "2026-09-27T08:43:43.599300",
+      "file_path": "audio_library/story_proof/2203626.mp3"
+    },
+    {
+      "track_id": "story_proof_1840623",
+      "jamendo_id": "1840623",
+      "pillar": "story_proof",
+      "title": "My Heart Blows Up (Explosions)",
+      "artist_name": "Anton Leuba",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 219,
+      "downloaded_at": "2026-09-27T08:43:47.333929",
+      "file_path": "audio_library/story_proof/1840623.mp3"
+    },
+    {
+      "track_id": "story_proof_2266835",
+      "jamendo_id": "2266835",
+      "pillar": "story_proof",
+      "title": "Pop &amp; Deep House",
+      "artist_name": "TNDR Productions",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 275,
+      "downloaded_at": "2026-09-27T08:43:51.721228",
+      "file_path": "audio_library/story_proof/2266835.mp3"
+    },
+    {
+      "track_id": "story_proof_1879649",
+      "jamendo_id": "1879649",
+      "pillar": "story_proof",
+      "title": "Un Ratito Nama (Prod: Duran The Coach)",
+      "artist_name": "Lessky",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 180,
+      "downloaded_at": "2026-09-27T08:43:54.846855",
+      "file_path": "audio_library/story_proof/1879649.mp3"
     }
   ]
 }
