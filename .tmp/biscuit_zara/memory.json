@@ -43,7 +43,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.01,
-        "fetched_at": "2026-10-04T10:19:58.902374"
+        "fetched_at": "2026-10-05T11:02:36.119935"
       }
     },
     {
@@ -87,7 +87,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 1.12,
-        "fetched_at": "2026-10-04T10:19:58.902384"
+        "fetched_at": "2026-10-05T11:02:36.119942"
       }
     },
     {
@@ -131,7 +131,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.06,
-        "fetched_at": "2026-10-04T10:19:58.902389"
+        "fetched_at": "2026-10-05T11:02:36.119946"
       }
     },
     {
@@ -161,7 +161,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.0,
-        "fetched_at": "2026-10-04T10:19:58.902396"
+        "fetched_at": "2026-10-05T11:02:36.119950"
       }
     },
     {
@@ -698,6 +698,6 @@
     "benchmark_engagement": 0,
     "updated_at": null
   },
-  "last_upgraded": "2026-10-04T10:19:58.906997",
-  "last_reviewed": "2026-10-04T10:19:58.908141"
+  "last_upgraded": "2026-10-05T11:02:36.123551",
+  "last_reviewed": "2026-10-05T11:02:36.124558"
 }
