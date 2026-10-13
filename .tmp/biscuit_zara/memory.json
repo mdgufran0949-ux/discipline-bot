@@ -43,7 +43,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.01,
-        "fetched_at": "2026-10-12T11:29:53.958075"
+        "fetched_at": "2026-10-13T11:19:14.716425"
       }
     },
     {
@@ -87,7 +87,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 1.12,
-        "fetched_at": "2026-10-12T11:29:53.958084"
+        "fetched_at": "2026-10-13T11:19:14.716433"
       }
     },
     {
@@ -131,7 +131,7 @@
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
         "score": 0.06,
-        "fetched_at": "2026-10-12T11:29:53.958088"
+        "fetched_at": "2026-10-13T11:19:14.716438"
       }
     },
     {
@@ -157,11 +157,11 @@
         "shares": 0,
         "comments": 0,
         "likes": 0,
-        "yt_views": 4,
+        "yt_views": 6,
         "yt_watchtime_min": 0,
         "yt_ctr": 0,
-        "score": 0.0,
-        "fetched_at": "2026-10-12T11:29:53.958094"
+        "score": 0.01,
+        "fetched_at": "2026-10-13T11:19:14.716443"
       }
     },
     {
@@ -649,7 +649,7 @@
         "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
         "format": "video",
         "series": "standalone",
-        "score": 0.0
+        "score": 0.01
       }
     ],
     "avoid_topics": [],
@@ -698,6 +698,6 @@
     "benchmark_engagement": 0,
     "updated_at": null
   },
-  "last_upgraded": "2026-10-12T11:29:53.964725",
-  "last_reviewed": "2026-10-12T11:29:53.966841"
+  "last_upgraded": "2026-10-13T11:19:14.720422",
+  "last_reviewed": "2026-10-13T11:19:14.721564"
 }

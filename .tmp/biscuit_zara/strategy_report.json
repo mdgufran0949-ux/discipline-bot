@@ -1,6 +1,6 @@
 {
   "account": "biscuit_zara",
-  "generated_at": "2026-10-12T11:29:53.963690",
+  "generated_at": "2026-10-13T11:19:14.719823",
   "total_posts_scored": 4,
   "high_performers": 0,
   "medium_performers": 0,
@@ -41,18 +41,18 @@
       "score": 0.0,
       "saves": 0,
       "shares": 0,
-      "yt_views": 4
+      "yt_views": 6
     }
   ],
   "worst_5_posts": [
     {
       "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
-      "hook": "",
+      "hook": "Three, two, one, fun has just begun, learning rhymes for eve",
       "score": 0.0
     },
     {
       "topic": "Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs",
-      "hook": "Three, two, one, fun has just begun, learning rhymes for eve",
+      "hook": "",
       "score": 0.0
     },
     {
@@ -79,7 +79,7 @@
       "story": 0.15,
       "imperative": 0.15
     },
-    "last_analyzed": "2026-10-12T11:29:53.961422",
+    "last_analyzed": "2026-10-13T11:19:14.718722",
     "top_hooks": []
   },
   "next_strategy": {
