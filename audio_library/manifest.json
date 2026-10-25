@@ -1,51 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-10-18T07:35:05.182100",
+  "last_updated": "2026-10-25T07:56:21.097070",
   "tracks": [
-    {
-      "track_id": "reframe_2068038",
-      "jamendo_id": "2068038",
-      "pillar": "reframe",
-      "title": "Tana Mao (feat Katya Zlobina)",
-      "artist_name": "So Far As I Know",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 254,
-      "downloaded_at": "2026-09-20T08:04:37.948515",
-      "file_path": "audio_library/reframe/2068038.mp3"
-    },
-    {
-      "track_id": "reframe_1830957",
-      "jamendo_id": "1830957",
-      "pillar": "reframe",
-      "title": "Polaris (feat. Daria Shakhova)",
-      "artist_name": "So Far As I Know",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 263,
-      "downloaded_at": "2026-09-20T08:04:42.271979",
-      "file_path": "audio_library/reframe/1830957.mp3"
-    },
-    {
-      "track_id": "reframe_2230315",
-      "jamendo_id": "2230315",
-      "pillar": "reframe",
-      "title": "Wanting and Waiting",
-      "artist_name": "Occasionally Humans",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 240,
-      "downloaded_at": "2026-09-27T08:43:21.870669",
-      "file_path": "audio_library/reframe/2230315.mp3"
-    },
-    {
-      "track_id": "reframe_1833805",
-      "jamendo_id": "1833805",
-      "pillar": "reframe",
-      "title": "Beautiful Lounge",
-      "artist_name": "Sergey Gulevich",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 144,
-      "downloaded_at": "2026-09-27T08:43:24.352828",
-      "file_path": "audio_library/reframe/1833805.mp3"
-    },
     {
       "track_id": "reframe_1885653",
       "jamendo_id": "1885653",
@@ -67,61 +23,6 @@
       "duration": 521,
       "downloaded_at": "2026-09-27T08:43:35.467746",
       "file_path": "audio_library/reframe/2280561.mp3"
-    },
-    {
-      "track_id": "hard_truth_2189053",
-      "jamendo_id": "2189053",
-      "pillar": "hard_truth",
-      "title": "Noise | UK Drill Music",
-      "artist_name": "Kontraa",
-      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
-      "duration": 170,
-      "downloaded_at": "2026-10-04T08:59:05.160363",
-      "file_path": "audio_library/hard_truth/2189053.mp3"
-    },
-    {
-      "track_id": "hard_truth_1955927",
-      "jamendo_id": "1955927",
-      "pillar": "hard_truth",
-      "title": "A Hero Is Born",
-      "artist_name": "Energy Music",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 148,
-      "downloaded_at": "2026-10-04T08:59:07.794053",
-      "file_path": "audio_library/hard_truth/1955927.mp3"
-    },
-    {
-      "track_id": "hard_truth_1834794",
-      "jamendo_id": "1834794",
-      "pillar": "hard_truth",
-      "title": "How Weird It Is... (Original Mix)",
-      "artist_name": "Sun Spot",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 324,
-      "downloaded_at": "2026-10-04T08:59:13.353265",
-      "file_path": "audio_library/hard_truth/1834794.mp3"
-    },
-    {
-      "track_id": "hard_truth_1841610",
-      "jamendo_id": "1841610",
-      "pillar": "hard_truth",
-      "title": "Guardian of Power",
-      "artist_name": "Grégoire Lourme",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 218,
-      "downloaded_at": "2026-10-04T08:59:17.005098",
-      "file_path": "audio_library/hard_truth/1841610.mp3"
-    },
-    {
-      "track_id": "hard_truth_1642847",
-      "jamendo_id": "1642847",
-      "pillar": "hard_truth",
-      "title": "The Reason",
-      "artist_name": "Hakim El Kassimi",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 297,
-      "downloaded_at": "2026-10-04T08:59:21.175456",
-      "file_path": "audio_library/hard_truth/1642847.mp3"
     },
     {
       "track_id": "tactical_1433574",
@@ -650,6 +551,105 @@
       "duration": 174,
       "downloaded_at": "2026-10-18T07:35:05.178014",
       "file_path": "audio_library/story_proof/1892110.mp3"
+    },
+    {
+      "track_id": "hard_truth_682351",
+      "jamendo_id": "682351",
+      "pillar": "hard_truth",
+      "title": "Moon & Sun - Salt & Indigo",
+      "artist_name": "Moon & Sun",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 198,
+      "downloaded_at": "2026-10-25T07:55:45.510399",
+      "file_path": "audio_library/hard_truth/682351.mp3"
+    },
+    {
+      "track_id": "hard_truth_1214596",
+      "jamendo_id": "1214596",
+      "pillar": "hard_truth",
+      "title": "Hold Me Tonight",
+      "artist_name": "JARA",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 184,
+      "downloaded_at": "2026-10-25T07:55:48.731052",
+      "file_path": "audio_library/hard_truth/1214596.mp3"
+    },
+    {
+      "track_id": "hard_truth_2004479",
+      "jamendo_id": "2004479",
+      "pillar": "hard_truth",
+      "title": "1. Intermezzo / Allegro",
+      "artist_name": "Michał Jałochowski",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 300,
+      "downloaded_at": "2026-10-25T07:55:53.654466",
+      "file_path": "audio_library/hard_truth/2004479.mp3"
+    },
+    {
+      "track_id": "hard_truth_2163419",
+      "jamendo_id": "2163419",
+      "pillar": "hard_truth",
+      "title": "Club Future House",
+      "artist_name": "MokkaMusic",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 163,
+      "downloaded_at": "2026-10-25T07:55:56.620567",
+      "file_path": "audio_library/hard_truth/2163419.mp3"
+    },
+    {
+      "track_id": "hard_truth_1864256",
+      "jamendo_id": "1864256",
+      "pillar": "hard_truth",
+      "title": "Channeling",
+      "artist_name": "MauMouse",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 130,
+      "downloaded_at": "2026-10-25T07:55:58.637483",
+      "file_path": "audio_library/hard_truth/1864256.mp3"
+    },
+    {
+      "track_id": "reframe_1659141",
+      "jamendo_id": "1659141",
+      "pillar": "reframe",
+      "title": "Uplifting Motivational Pop Anthem Coldplay",
+      "artist_name": "Dmitriy Sadovoi",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 130,
+      "downloaded_at": "2026-10-25T07:56:06.797439",
+      "file_path": "audio_library/reframe/1659141.mp3"
+    },
+    {
+      "track_id": "reframe_43679",
+      "jamendo_id": "43679",
+      "pillar": "reframe",
+      "title": "Ocean fantasy",
+      "artist_name": "St Adam",
+      "license_url": "",
+      "duration": 186,
+      "downloaded_at": "2026-10-25T07:56:08.976223",
+      "file_path": "audio_library/reframe/43679.mp3"
+    },
+    {
+      "track_id": "reframe_1234661",
+      "jamendo_id": "1234661",
+      "pillar": "reframe",
+      "title": "Waves",
+      "artist_name": "studyBreak",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 252,
+      "downloaded_at": "2026-10-25T07:56:13.604734",
+      "file_path": "audio_library/reframe/1234661.mp3"
+    },
+    {
+      "track_id": "reframe_2258683",
+      "jamendo_id": "2258683",
+      "pillar": "reframe",
+      "title": "Soothing Wind Energy I Free Background Music I Free Music Lab Release",
+      "artist_name": "Free Music Lab",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 292,
+      "downloaded_at": "2026-10-25T07:56:18.456328",
+      "file_path": "audio_library/reframe/2258683.mp3"
     }
   ]
 }
