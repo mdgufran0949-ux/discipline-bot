@@ -1,45 +1,45 @@
 # DisciplineFuel — Review Report
-Generated: 2026-10-29 10:41
+Generated: 2026-10-30 10:50
 
 ## System Health
-- Last competitor fetch: 2026-10-28T10:15 ✅
-- Last IG metrics fetch: 2026-10-29T10:41 ✅
+- Last competitor fetch: 2026-10-30T10:44 ✅
+- Last IG metrics fetch: 2026-10-30T10:50 ✅
 - IG hashtag quota used (7d): 10 / 30 ✅
 - Consecutive failed competitor fetches: 0
 
 ## Trend (Last 7 Runs)
 | Date       | Our Avg | Niche Avg | Carousel% |
 |------------|---------|-----------|-----------|
-| 2026-10-20 | 0 | 26,297 | 13% |
 | 2026-10-21 | 0 | 26,297 | 13% |
 | 2026-10-23 | 0 | 127,308 | 13% |
 | 2026-10-24 | 0 | 127,308 | 13% |
 | 2026-10-25 | 0 | 51,679 | 10% |
 | 2026-10-26 | 0 | 51,679 | 10% |
 | 2026-10-28 | 0 | 28,178 | 10% |
+| 2026-10-29 | 0 | 28,178 | 10% |
 
 ## What Changed Today
-- Format mix: unchanged (image 10%, carousel 10%)
-- No significant changes this run (system is stable)
+- Format mix: image 10% → 7%, carousel 10% → 13%
 
 ## What We Learned From Competitors
-- Scanned hashtags: selfimprovementtips, stoicmindset, discipline, selfdiscipline, disciplinequotes
+- Scanned hashtags: discipline, selfdiscipline, disciplinequotes, mentality, mindsetmatters
 - Posts analyzed: 50
-- Niche benchmark: 28,178 avg engagement | Our avg: 0 | Gap: -100%
+- Niche benchmark: 28,542 avg engagement | Our avg: 0 | Gap: -100%
 - Top hooks trending in niche:
-  1. "9 Strange Japanese Habits That May Seem Silly, But Actually Work..."
-  2. "Mastery begins where impulse ends."
-  3. "Stay Hydrated folks 🚀"
-  4. "You only have 57 days, do this right now ⬇️"
-  5. "Given that it is talking about thirst metaphorically, it includes thirst for attention, ap"
-- Hot power words: follow, feel, life, discipline, want, never, things, mind
+  1. "Most people want a different life."
+  2. "Being a gentleman is not an aesthetic."
+  3. "João Marinho Neto, born on October 5, 1912, in Maranguape, Brazil, is currently recognized"
+  4. "Talent can take a player far."
+  5. "remember We’re Literally  just on a floating rock and most the things you’re worried about"
+- Hot power words: life, discipline, follow, don, want, his, keep, day
 - Dominant quote structure: **statement**
-- Dominant media type: **IMAGE (52%)**
+- Dominant media type: **CAROUSEL_ALBUM (66%)**
 - Caption length sweet spot: long
 
 ## Top Creator Leaderboard (Niche Leaders We're Learning From)
 | Creator | Avg Engagement | Appearances | Style | Length | Best Hook |
 |---------|---------------|-------------|-------|--------|-----------|
+| @? | 78,112 | 2 | statement | long | "Most people want a different life." |
 | @? | 27,761 | 20 | statement | long | "There are 12 weeks left in 2025." |
 | @? | 17,852 | 13 | statement | medium | "Follow selfelevatepro for daily discipline" |
 | @? | 15,790 | 4 | statement | long | "Average Natural 🇮🇳 Aesthetics 🧬 🦍" |
@@ -47,14 +47,13 @@ Generated: 2026-10-29 10:41
 | @? | 11,960 | 4 | contrast | long | "The life that transforms you is built in disciplined limits," |
 | @? | 11,344 | 12 | command | long | "Save this post as a guide and share it with a friend ✅" |
 | @? | 10,968 | 8 | question | long | "Do you think people are actually lazy… or just overwhelmed?" |
-| @? | 8,870 | 4 | statement | long | "इस फ़रवरी तुम्हें नहीं… तुम्हारी आदतों को बदलना है।" |
 
 ## Hook Adoption (Did We Use the Learnings?)
-- 9 / 20 recent posts used trending power-words (45%) ⚠️
-  - ✅ "66 days of consistent effort can rewire your mindset for growth over c..." (words: mind)
-  - ✅ "comfort is not the enemy of growth, but rather a signal that we're afr..." (words: life)
-  - ⚠️ "there is a moment every day when we choose comfort over growth, and it..."
+- 14 / 20 recent posts used trending power-words (70%) ✅
+  - ✅ "66 days of consistent effort can rewire your mindset for growth over c..." (words: day)
+  - ✅ "there is a moment every day when we choose comfort over growth, and it..." (words: day)
   - ⚠️ "is comfort your excuse?"
+  - ⚠️ "grown not comforted."
 
 ## What the LLM Saw Last Run (Prompt Hints)
 _(not yet generated — will appear after first pipeline run)_
@@ -70,11 +69,11 @@ _(not yet generated — will appear after first pipeline run)_
 | Posts scored     | 271     | —          |
 | Avg score        | 1.2   | —          |
 | High performers  | 0       | —          |
-| Avg engagement   | 1   | 28,178      | -100% |
+| Avg engagement   | 1   | 28,542      | -100% |
 
 ## Next Actions (Auto-applied)
-- Quote generator biased toward: **contrast, statement** structures
-- Carousel ratio set to 10%
+- Quote generator biased toward: **statement, contrast** structures
+- Carousel ratio set to 13%
 - 5 trending hooks injected into next LLM prompts
 
 ## Content Intelligence — Pillar Performance
@@ -100,7 +99,7 @@ Not enough measured data yet. Need at least 10 measured posts (have 0).
 - Replies sent today: **0**
 - @mention replies (all time): 0
 - Posts with reply activity: 1
-- Last cycle ran: 2026-10-28T20:37
+- Last cycle ran: 2026-10-29T20:39
 
 ---
 *Auto-generated by DisciplineFuel self-improvement loop*
