@@ -16,56 +16,16 @@
 Scanning YouTube kids hashtags...
   [#kidslearning] 5 titles
   [#nurseryrhymes] 1 titles
-  [#animalsforchildren] 13 titles
+  [#animalsforchildren] 15 titles
 Checking Google Trends...
 
-[OK] Best kids topic: Animal Sounds for toddler| forest animals song for Children and Kids | KLVWild Nursery Rhymes
+[OK] Best kids topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs
   [OK] 10 topics fetched
 
 [AUTH] Authenticating YouTube...
   [OK] YouTube ready
 
-
-───────────────────────────────────────────────────────
-  Topic: Animal Sounds for toddler| forest animals song for Children and Kids | KLVWild Nursery Rhymes
-  Series: standalone | Category: animals
-───────────────────────────────────────────────────────
-
-[2] Generating script...
-  [TOPIC] Cleaned: 'forest animals song for Children and Kids'
-  [hook] Style: countdown
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'forest animals song for Children and Kids'
-  [hook] Style: countdown
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
-
-  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
-
   [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs
-
-───────────────────────────────────────────────────────
-  Topic: Kids Learning Animals | Elephant for Preschool Kids #kidslearning  #animation #animalsforchildren
-  Series: standalone | Category: animals
-───────────────────────────────────────────────────────
-
-[2] Generating script...
-  [TOPIC] Cleaned: 'Elephant for Preschool Kids'
-  [hook] Style: story
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'Elephant for Preschool Kids'
-  [hook] Style: story
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
-
-  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
-
 
 ───────────────────────────────────────────────────────
   Topic: ABC Song  Alphabet Practice | AZ Uppercase & Lowercase | Easy ABC Learning for Kids
@@ -86,26 +46,7 @@ Checking Google Trends...
 
   [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
 
-
-───────────────────────────────────────────────────────
-  Topic: Good manner | Nursery Rhymes & Toddlers Songs | NuNu Tv #childrensongs #toddlersongs #singalong
-  Series: standalone | Category: stories
-───────────────────────────────────────────────────────
-
-[2] Generating script...
-  [TOPIC] Cleaned: 'Nursery Rhymes Toddlers Songs'
-  [hook] Style: countdown
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'Nursery Rhymes Toddlers Songs'
-  [hook] Style: countdown
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
-
-  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
-
+  [SKIP] Duplicate topic: Head Shoulder Knees and Toes | Nursery Rhymes & Children Songs | NuNu Tv #kidssongs  #songsforbabies
 
 ───────────────────────────────────────────────────────
   Topic: Wild Animals For Kids #beepbeep #nurseryrhymes #shorts #wildanimals #animalsforchildren
@@ -120,6 +61,26 @@ Checking Google Trends...
   [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
   [TOPIC] Cleaned: 'Wild Animals For Kids'
   [hook] Style: countdown
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
+
+  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
+
+
+───────────────────────────────────────────────────────
+  Topic: Farm Fun for Kids! Happy Farm Animals! #Shorts #KidsFarmAdventure #TinyTales #Singalong
+  Series: standalone | Category: animals
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Farm Fun for Kids Happy Farm Animals'
+  [hook] Style: story
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
+  [TOPIC] Cleaned: 'Farm Fun for Kids Happy Farm Animals'
+  [hook] Style: story
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [FAIL] Script generation: Script generation failed on all providers: Error code: 410
@@ -148,6 +109,46 @@ Checking Google Trends...
 
 
 ───────────────────────────────────────────────────────
+  Topic: Learn Animals Name for kids &  toddlers #animals #kidslearning #toddlerlearning #shorts
+  Series: standalone | Category: animals
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Learn Animals Name for kids toddlers'
+  [hook] Style: countdown
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
+  [TOPIC] Cleaned: 'Learn Animals Name for kids toddlers'
+  [hook] Style: countdown
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
+
+  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
+
+
+───────────────────────────────────────────────────────
+  Topic: "Farm Animals list to learn for kids Part 01"  | All Sketch Art #shorts
+  Series: standalone | Category: animals
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Farm Animals list to learn for kids Part 01'
+  [hook] Style: story
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
+  [TOPIC] Cleaned: 'Farm Animals list to learn for kids Part 01'
+  [hook] Style: story
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
+
+  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
+
+
+───────────────────────────────────────────────────────
   Topic: Learn Ocean Words for Kids!  #KidsLearning #LearnWords #KidsShorts
   Series: standalone | Category: animals
 ───────────────────────────────────────────────────────
@@ -160,26 +161,6 @@ Checking Google Trends...
   [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
   [TOPIC] Cleaned: 'Learn Ocean Words for Kids'
   [hook] Style: adventure
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
-
-  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
-
-
-───────────────────────────────────────────────────────
-  Topic: Elephant Family  | Animal Vocabulary | Toddler and Kids Educational Video
-  Series: standalone | Category: animals
-───────────────────────────────────────────────────────
-
-[2] Generating script...
-  [TOPIC] Cleaned: 'Toddler and Kids Educational Video'
-  [hook] Style: question
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'Toddler and Kids Educational Video'
-  [hook] Style: question
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [FAIL] Script generation: Script generation failed on all providers: Error code: 410
