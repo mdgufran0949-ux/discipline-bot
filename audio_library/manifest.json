@@ -1,29 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-10-25T07:56:21.097070",
+  "last_updated": "2026-11-01T09:54:47.609294",
   "tracks": [
-    {
-      "track_id": "reframe_1885653",
-      "jamendo_id": "1885653",
-      "pillar": "reframe",
-      "title": "See the Sun Explode",
-      "artist_name": "Fresh Body Shop",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 187,
-      "downloaded_at": "2026-09-27T08:43:27.361307",
-      "file_path": "audio_library/reframe/1885653.mp3"
-    },
-    {
-      "track_id": "reframe_2280561",
-      "jamendo_id": "2280561",
-      "pillar": "reframe",
-      "title": "Fiat Lux (No Shadows Mix)",
-      "artist_name": "Bemused",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 521,
-      "downloaded_at": "2026-09-27T08:43:35.467746",
-      "file_path": "audio_library/reframe/2280561.mp3"
-    },
     {
       "track_id": "tactical_1433574",
       "jamendo_id": "1433574",
@@ -80,28 +58,6 @@
       "file_path": "audio_library/tactical/1470233.mp3"
     },
     {
-      "track_id": "reframe_1121396",
-      "jamendo_id": "1121396",
-      "pillar": "reframe",
-      "title": "Give Me a Change",
-      "artist_name": "Marco Margna",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 202,
-      "downloaded_at": "2026-10-04T08:59:46.966717",
-      "file_path": "audio_library/reframe/1121396.mp3"
-    },
-    {
-      "track_id": "reframe_1234660",
-      "jamendo_id": "1234660",
-      "pillar": "reframe",
-      "title": "Yes or No",
-      "artist_name": "studyBreak",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "duration": 220,
-      "downloaded_at": "2026-10-04T08:59:50.721601",
-      "file_path": "audio_library/reframe/1234660.mp3"
-    },
-    {
       "track_id": "reframe_1250829",
       "jamendo_id": "1250829",
       "pillar": "reframe",
@@ -122,61 +78,6 @@
       "duration": 243,
       "downloaded_at": "2026-10-04T09:00:02.886220",
       "file_path": "audio_library/reframe/1417932.mp3"
-    },
-    {
-      "track_id": "story_proof_2214037",
-      "jamendo_id": "2214037",
-      "pillar": "story_proof",
-      "title": "Where's the Love",
-      "artist_name": "Samie Bower",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 189,
-      "downloaded_at": "2026-10-04T09:00:06.619820",
-      "file_path": "audio_library/story_proof/2214037.mp3"
-    },
-    {
-      "track_id": "story_proof_2162424",
-      "jamendo_id": "2162424",
-      "pillar": "story_proof",
-      "title": "XENEZE - Starlight",
-      "artist_name": "XENEZE",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 158,
-      "downloaded_at": "2026-10-04T09:00:09.582077",
-      "file_path": "audio_library/story_proof/2162424.mp3"
-    },
-    {
-      "track_id": "story_proof_1933339",
-      "jamendo_id": "1933339",
-      "pillar": "story_proof",
-      "title": "The River",
-      "artist_name": "Stingray SZN",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 289,
-      "downloaded_at": "2026-10-04T09:00:14.265280",
-      "file_path": "audio_library/story_proof/1933339.mp3"
-    },
-    {
-      "track_id": "story_proof_1974740",
-      "jamendo_id": "1974740",
-      "pillar": "story_proof",
-      "title": "One Day We'll Be A Song",
-      "artist_name": "Explosive Ear Candy",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 255,
-      "downloaded_at": "2026-10-04T09:00:18.490574",
-      "file_path": "audio_library/story_proof/1974740.mp3"
-    },
-    {
-      "track_id": "story_proof_2329989",
-      "jamendo_id": "2329989",
-      "pillar": "story_proof",
-      "title": "Time Forward",
-      "artist_name": "Energy Music",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 154,
-      "downloaded_at": "2026-10-04T09:00:21.304055",
-      "file_path": "audio_library/story_proof/2329989.mp3"
     },
     {
       "track_id": "hard_truth_2040935",
@@ -650,6 +551,105 @@
       "duration": 292,
       "downloaded_at": "2026-10-25T07:56:18.456328",
       "file_path": "audio_library/reframe/2258683.mp3"
+    },
+    {
+      "track_id": "reframe_2230315",
+      "jamendo_id": "2230315",
+      "pillar": "reframe",
+      "title": "Wanting and Waiting",
+      "artist_name": "Occasionally Humans",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 240,
+      "downloaded_at": "2026-11-01T09:54:06.061176",
+      "file_path": "audio_library/reframe/2230315.mp3"
+    },
+    {
+      "track_id": "reframe_1833805",
+      "jamendo_id": "1833805",
+      "pillar": "reframe",
+      "title": "Beautiful Lounge",
+      "artist_name": "Sergey Gulevich",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 144,
+      "downloaded_at": "2026-11-01T09:54:09.371939",
+      "file_path": "audio_library/reframe/1833805.mp3"
+    },
+    {
+      "track_id": "reframe_2068038",
+      "jamendo_id": "2068038",
+      "pillar": "reframe",
+      "title": "Tana Mao (feat Katya Zlobina)",
+      "artist_name": "So Far As I Know",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 254,
+      "downloaded_at": "2026-11-01T09:54:15.080454",
+      "file_path": "audio_library/reframe/2068038.mp3"
+    },
+    {
+      "track_id": "reframe_1830957",
+      "jamendo_id": "1830957",
+      "pillar": "reframe",
+      "title": "Polaris (feat. Daria Shakhova)",
+      "artist_name": "So Far As I Know",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 263,
+      "downloaded_at": "2026-11-01T09:54:20.603802",
+      "file_path": "audio_library/reframe/1830957.mp3"
+    },
+    {
+      "track_id": "story_proof_1826189",
+      "jamendo_id": "1826189",
+      "pillar": "story_proof",
+      "title": "Not the One to Say (I Told You So) (24-bit Master)",
+      "artist_name": "Cole Powell",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 235,
+      "downloaded_at": "2026-11-01T09:54:26.487106",
+      "file_path": "audio_library/story_proof/1826189.mp3"
+    },
+    {
+      "track_id": "story_proof_2203626",
+      "jamendo_id": "2203626",
+      "pillar": "story_proof",
+      "title": "Alive",
+      "artist_name": "Songwriterz",
+      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
+      "duration": 234,
+      "downloaded_at": "2026-11-01T09:54:31.500161",
+      "file_path": "audio_library/story_proof/2203626.mp3"
+    },
+    {
+      "track_id": "story_proof_1840623",
+      "jamendo_id": "1840623",
+      "pillar": "story_proof",
+      "title": "My Heart Blows Up (Explosions)",
+      "artist_name": "Anton Leuba",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 219,
+      "downloaded_at": "2026-11-01T09:54:36.616960",
+      "file_path": "audio_library/story_proof/1840623.mp3"
+    },
+    {
+      "track_id": "story_proof_2266835",
+      "jamendo_id": "2266835",
+      "pillar": "story_proof",
+      "title": "Pop &amp; Deep House",
+      "artist_name": "TNDR Productions",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 275,
+      "downloaded_at": "2026-11-01T09:54:43.493427",
+      "file_path": "audio_library/story_proof/2266835.mp3"
+    },
+    {
+      "track_id": "story_proof_1879649",
+      "jamendo_id": "1879649",
+      "pillar": "story_proof",
+      "title": "Un Ratito Nama (Prod: Duran The Coach)",
+      "artist_name": "Lessky",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 180,
+      "downloaded_at": "2026-11-01T09:54:47.605372",
+      "file_path": "audio_library/story_proof/1879649.mp3"
     }
   ]
 }
