@@ -15,35 +15,15 @@
 [1] Fetching trending kids topics...
 Scanning YouTube kids hashtags...
   [#kidslearning] 5 titles
-  [#nurseryrhymes] 1 titles
-  [#animalsforchildren] 12 titles
+  [#nurseryrhymes] 0 titles
+  [#animalsforchildren] 8 titles
 Checking Google Trends...
 
-[OK] Best kids topic: Animal Sounds for toddler| forest animals song for Children and Kids | KLVWild Nursery Rhymes
+[OK] Best kids topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs
   [OK] 10 topics fetched
 
 [AUTH] Authenticating YouTube...
   [OK] YouTube ready
-
-
-───────────────────────────────────────────────────────
-  Topic: Animal Sounds for toddler| forest animals song for Children and Kids | KLVWild Nursery Rhymes
-  Series: standalone | Category: animals
-───────────────────────────────────────────────────────
-
-[2] Generating script...
-  [TOPIC] Cleaned: 'forest animals song for Children and Kids'
-  [hook] Style: countdown
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'forest animals song for Children and Kids'
-  [hook] Style: countdown
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
-
-  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
 
   [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs
 
@@ -68,26 +48,6 @@ Checking Google Trends...
 
 
 ───────────────────────────────────────────────────────
-  Topic: Colorful Finger Family Song | Learn Every Color | Kids Songs and Nursery Rhymes | Lights Kids 3D
-  Series: standalone | Category: stories
-───────────────────────────────────────────────────────
-
-[2] Generating script...
-  [TOPIC] Cleaned: 'Kids Songs and Nursery Rhymes'
-  [hook] Style: wow_fact
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'Kids Songs and Nursery Rhymes'
-  [hook] Style: wow_fact
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
-
-  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
-
-
-───────────────────────────────────────────────────────
   Topic: Wild Animals For Kids #beepbeep #nurseryrhymes #shorts #wildanimals #animalsforchildren
   Series: standalone | Category: animals
 ───────────────────────────────────────────────────────
@@ -100,26 +60,6 @@ Checking Google Trends...
   [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
   [TOPIC] Cleaned: 'Wild Animals For Kids'
   [hook] Style: countdown
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
-
-  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
-
-
-───────────────────────────────────────────────────────
-  Topic: The Lion Family | Learn Animal Family Names | Preschool Learning | Kids Educational Video
-  Series: standalone | Category: animals
-───────────────────────────────────────────────────────
-
-[2] Generating script...
-  [TOPIC] Cleaned: 'Learn Animal Family Names'
-  [hook] Style: question
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'Learn Animal Family Names'
-  [hook] Style: question
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [FAIL] Script generation: Script generation failed on all providers: Error code: 410
@@ -188,18 +128,78 @@ Checking Google Trends...
 
 
 ───────────────────────────────────────────────────────
-  Topic: Elephant Family  | Animal Vocabulary | Toddler and Kids Educational Video
+  Topic: wild animals names for kids /   Learn forest animals names in english/Yo-yo kids Educational video
   Series: standalone | Category: animals
 ───────────────────────────────────────────────────────
 
 [2] Generating script...
-  [TOPIC] Cleaned: 'Toddler and Kids Educational Video'
+  [TOPIC] Cleaned: 'wild animals names for kids Learn forest animals names in english Yo-yo kids Educational video'
+  [hook] Style: story
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
+  [TOPIC] Cleaned: 'wild animals names for kids Learn forest animals names in english Yo-yo kids Educational video'
+  [hook] Style: story
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
+
+  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
+
+
+───────────────────────────────────────────────────────
+  Topic: Almzikatlyesi |  Lets Learn About Animals V5 | Educational Learning for Kids
+  Series: standalone | Category: animals
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Educational Learning for Kids'
+  [hook] Style: adventure
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
+  [TOPIC] Cleaned: 'Educational Learning for Kids'
+  [hook] Style: adventure
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
+
+  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
+
+
+───────────────────────────────────────────────────────
+  Topic: Sharing is Caring!  #cocomelon #kidsvideo #kidslearning
+  Series: standalone | Category: educational
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Sharing is Caring'
   [hook] Style: question
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'Toddler and Kids Educational Video'
+  [TOPIC] Cleaned: 'Sharing is Caring'
   [hook] Style: question
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
+
+  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
+
+
+───────────────────────────────────────────────────────
+  Topic: Kids Learn Taking Turns | Sharing Makes Everyone Happy
+  Series: standalone | Category: educational
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Sharing Makes Everyone Happy'
+  [hook] Style: story
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
+  [TOPIC] Cleaned: 'Sharing Makes Everyone Happy'
+  [hook] Style: story
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [FAIL] Script generation: Script generation failed on all providers: Error code: 410
