@@ -1,62 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-11-01T09:54:47.609294",
+  "last_updated": "2026-11-08T09:43:48.594064",
   "tracks": [
-    {
-      "track_id": "tactical_1433574",
-      "jamendo_id": "1433574",
-      "pillar": "tactical",
-      "title": "atmosphere 017",
-      "artist_name": "Vagiz Ga Lee",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 150,
-      "downloaded_at": "2026-10-04T08:59:24.321742",
-      "file_path": "audio_library/tactical/1433574.mp3"
-    },
-    {
-      "track_id": "tactical_1819481",
-      "jamendo_id": "1819481",
-      "pillar": "tactical",
-      "title": "Deep Groove Élément",
-      "artist_name": "PM music Prod",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 414,
-      "downloaded_at": "2026-10-04T08:59:30.947841",
-      "file_path": "audio_library/tactical/1819481.mp3"
-    },
-    {
-      "track_id": "tactical_1439411",
-      "jamendo_id": "1439411",
-      "pillar": "tactical",
-      "title": "Broken Clock",
-      "artist_name": "Amoebacrew",
-      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
-      "duration": 155,
-      "downloaded_at": "2026-10-04T08:59:33.731293",
-      "file_path": "audio_library/tactical/1439411.mp3"
-    },
-    {
-      "track_id": "tactical_1463289",
-      "jamendo_id": "1463289",
-      "pillar": "tactical",
-      "title": "Background Media (Middle Version)",
-      "artist_name": "makesound",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 108,
-      "downloaded_at": "2026-10-04T08:59:36.029651",
-      "file_path": "audio_library/tactical/1463289.mp3"
-    },
-    {
-      "track_id": "tactical_1470233",
-      "jamendo_id": "1470233",
-      "pillar": "tactical",
-      "title": "Choir Organ Majestic (Loop)",
-      "artist_name": "Mitch Europa",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 483,
-      "downloaded_at": "2026-10-04T08:59:42.622124",
-      "file_path": "audio_library/tactical/1470233.mp3"
-    },
     {
       "track_id": "reframe_1250829",
       "jamendo_id": "1250829",
@@ -78,61 +23,6 @@
       "duration": 243,
       "downloaded_at": "2026-10-04T09:00:02.886220",
       "file_path": "audio_library/reframe/1417932.mp3"
-    },
-    {
-      "track_id": "hard_truth_2040935",
-      "jamendo_id": "2040935",
-      "pillar": "hard_truth",
-      "title": "Like I Do",
-      "artist_name": "I. D. F. X.",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 191,
-      "downloaded_at": "2026-10-11T09:29:55.178758",
-      "file_path": "audio_library/hard_truth/2040935.mp3"
-    },
-    {
-      "track_id": "hard_truth_2043011",
-      "jamendo_id": "2043011",
-      "pillar": "hard_truth",
-      "title": "Into The Sky",
-      "artist_name": "Lesya NZ",
-      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "duration": 186,
-      "downloaded_at": "2026-10-11T09:30:00.767112",
-      "file_path": "audio_library/hard_truth/2043011.mp3"
-    },
-    {
-      "track_id": "hard_truth_2180016",
-      "jamendo_id": "2180016",
-      "pillar": "hard_truth",
-      "title": "Love You Anymore (feat. Seven)",
-      "artist_name": "Tom Orlando",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "duration": 156,
-      "downloaded_at": "2026-10-11T09:30:13.637302",
-      "file_path": "audio_library/hard_truth/2180016.mp3"
-    },
-    {
-      "track_id": "hard_truth_1904435",
-      "jamendo_id": "1904435",
-      "pillar": "hard_truth",
-      "title": "Reflections (feat. Mathias Hagen)",
-      "artist_name": "Kevin S.",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
-      "duration": 258,
-      "downloaded_at": "2026-10-11T09:30:21.079911",
-      "file_path": "audio_library/hard_truth/1904435.mp3"
-    },
-    {
-      "track_id": "hard_truth_1179546",
-      "jamendo_id": "1179546",
-      "pillar": "hard_truth",
-      "title": "Born Free",
-      "artist_name": "Pokki DJ",
-      "license_url": "http://creativecommons.org/licenses/by/3.0/",
-      "duration": 212,
-      "downloaded_at": "2026-10-11T09:30:27.732941",
-      "file_path": "audio_library/hard_truth/1179546.mp3"
     },
     {
       "track_id": "tactical_1059093",
@@ -650,6 +540,116 @@
       "duration": 180,
       "downloaded_at": "2026-11-01T09:54:47.605372",
       "file_path": "audio_library/story_proof/1879649.mp3"
+    },
+    {
+      "track_id": "hard_truth_2189053",
+      "jamendo_id": "2189053",
+      "pillar": "hard_truth",
+      "title": "Noise | UK Drill Music",
+      "artist_name": "Kontraa",
+      "license_url": "http://creativecommons.org/licenses/by-nd/3.0/",
+      "duration": 170,
+      "downloaded_at": "2026-11-08T09:42:52.006615",
+      "file_path": "audio_library/hard_truth/2189053.mp3"
+    },
+    {
+      "track_id": "hard_truth_1955927",
+      "jamendo_id": "1955927",
+      "pillar": "hard_truth",
+      "title": "A Hero Is Born",
+      "artist_name": "Energy Music",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 148,
+      "downloaded_at": "2026-11-08T09:42:56.088045",
+      "file_path": "audio_library/hard_truth/1955927.mp3"
+    },
+    {
+      "track_id": "hard_truth_1834794",
+      "jamendo_id": "1834794",
+      "pillar": "hard_truth",
+      "title": "How Weird It Is... (Original Mix)",
+      "artist_name": "Sun Spot",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 324,
+      "downloaded_at": "2026-11-08T09:43:04.494287",
+      "file_path": "audio_library/hard_truth/1834794.mp3"
+    },
+    {
+      "track_id": "hard_truth_1841610",
+      "jamendo_id": "1841610",
+      "pillar": "hard_truth",
+      "title": "Guardian of Power",
+      "artist_name": "Grégoire Lourme",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 218,
+      "downloaded_at": "2026-11-08T09:43:10.122380",
+      "file_path": "audio_library/hard_truth/1841610.mp3"
+    },
+    {
+      "track_id": "hard_truth_1642847",
+      "jamendo_id": "1642847",
+      "pillar": "hard_truth",
+      "title": "The Reason",
+      "artist_name": "Hakim El Kassimi",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "duration": 297,
+      "downloaded_at": "2026-11-08T09:43:16.217126",
+      "file_path": "audio_library/hard_truth/1642847.mp3"
+    },
+    {
+      "track_id": "tactical_1490284",
+      "jamendo_id": "1490284",
+      "pillar": "tactical",
+      "title": "Sour Theme",
+      "artist_name": "SRB",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 216,
+      "downloaded_at": "2026-11-08T09:43:22.355614",
+      "file_path": "audio_library/tactical/1490284.mp3"
+    },
+    {
+      "track_id": "tactical_1535253",
+      "jamendo_id": "1535253",
+      "pillar": "tactical",
+      "title": "Subatomic",
+      "artist_name": "iNDEX",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "duration": 309,
+      "downloaded_at": "2026-11-08T09:43:31.818323",
+      "file_path": "audio_library/tactical/1535253.mp3"
+    },
+    {
+      "track_id": "tactical_1656176",
+      "jamendo_id": "1656176",
+      "pillar": "tactical",
+      "title": "Background Ambiemt Glitch Loop 2",
+      "artist_name": "DHDMusic",
+      "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+      "duration": 19,
+      "downloaded_at": "2026-11-08T09:43:33.122863",
+      "file_path": "audio_library/tactical/1656176.mp3"
+    },
+    {
+      "track_id": "tactical_1411145",
+      "jamendo_id": "1411145",
+      "pillar": "tactical",
+      "title": "Raga 2",
+      "artist_name": "XOs",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 168,
+      "downloaded_at": "2026-11-08T09:43:37.473492",
+      "file_path": "audio_library/tactical/1411145.mp3"
+    },
+    {
+      "track_id": "tactical_1487951",
+      "jamendo_id": "1487951",
+      "pillar": "tactical",
+      "title": "Ambient",
+      "artist_name": "Yuriy Shishlov",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "duration": 102,
+      "downloaded_at": "2026-11-08T09:43:40.632398",
+      "file_path": "audio_library/tactical/1487951.mp3"
     }
   ]
 }
