@@ -16,7 +16,7 @@
 Scanning YouTube kids hashtags...
   [#kidslearning] 5 titles
   [#nurseryrhymes] 1 titles
-  [#animalsforchildren] 12 titles
+  [#animalsforchildren] 14 titles
 Checking Google Trends...
 
 [OK] Best kids topic: Animal Sounds for toddler| forest animals song for Children and Kids | KLVWild Nursery Rhymes
@@ -108,18 +108,18 @@ Checking Google Trends...
 
 
 ───────────────────────────────────────────────────────
-  Topic: Ten Wild Animals Song for Kids  | Learn Animal Names with 3D Cartoon Animals | BOO BOO
-  Series: standalone | Category: animals
+  Topic: Learn Colors (Colours) with Stacking Blocks  | Fun Baby & Toddler Learning with Lucas #shorts
+  Series: standalone | Category: colors
 ───────────────────────────────────────────────────────
 
 [2] Generating script...
-  [TOPIC] Cleaned: 'Learn Animal Names with 3D Cartoon Animals'
-  [hook] Style: wow_fact
+  [TOPIC] Cleaned: 'Learn Colors Colours with Stacking Blocks'
+  [hook] Style: adventure
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'Learn Animal Names with 3D Cartoon Animals'
-  [hook] Style: wow_fact
+  [TOPIC] Cleaned: 'Learn Colors Colours with Stacking Blocks'
+  [hook] Style: adventure
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [FAIL] Script generation: Script generation failed on all providers: Error code: 410
@@ -148,6 +148,26 @@ Checking Google Trends...
 
 
 ───────────────────────────────────────────────────────
+  Topic: Ten Wild Animals Song for Kids  | Learn Animal Names with 3D Cartoon Animals | BOO BOO
+  Series: standalone | Category: animals
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Learn Animal Names with 3D Cartoon Animals'
+  [hook] Style: wow_fact
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
+  [TOPIC] Cleaned: 'Learn Animal Names with 3D Cartoon Animals'
+  [hook] Style: wow_fact
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
+
+  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
+
+
+───────────────────────────────────────────────────────
   Topic: Learn Animals Name for kids &  toddlers #animals #kidslearning #toddlerlearning #shorts
   Series: standalone | Category: animals
 ───────────────────────────────────────────────────────
@@ -168,38 +188,18 @@ Checking Google Trends...
 
 
 ───────────────────────────────────────────────────────
-  Topic: Learn Ocean Words for Kids!  #KidsLearning #LearnWords #KidsShorts
+  Topic: Elephant Family  | Animal Vocabulary | Toddler and Kids Educational Video
   Series: standalone | Category: animals
 ───────────────────────────────────────────────────────
 
 [2] Generating script...
-  [TOPIC] Cleaned: 'Learn Ocean Words for Kids'
-  [hook] Style: adventure
+  [TOPIC] Cleaned: 'Toddler and Kids Educational Video'
+  [hook] Style: question
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'Learn Ocean Words for Kids'
-  [hook] Style: adventure
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
-
-  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
-
-
-───────────────────────────────────────────────────────
-  Topic: wild animals names for kids /   Learn forest animals names in english/Yo-yo kids Educational video
-  Series: standalone | Category: animals
-───────────────────────────────────────────────────────
-
-[2] Generating script...
-  [TOPIC] Cleaned: 'wild animals names for kids Learn forest animals names in english Yo-yo kids Educational video'
-  [hook] Style: story
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'wild animals names for kids Learn forest animals names in english Yo-yo kids Educational video'
-  [hook] Style: story
+  [TOPIC] Cleaned: 'Toddler and Kids Educational Video'
+  [hook] Style: question
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [FAIL] Script generation: Script generation failed on all providers: Error code: 410
