@@ -14,9 +14,9 @@
 [biscuit_zara] Review complete.
 [1] Fetching trending kids topics...
 Scanning YouTube kids hashtags...
-  [#kidslearning] 5 titles
+  [#kidslearning] 4 titles
   [#nurseryrhymes] 1 titles
-  [#animalsforchildren] 14 titles
+  [#animalsforchildren] 13 titles
 Checking Google Trends...
 
 [OK] Best kids topic: Animal Sounds for toddler| forest animals song for Children and Kids | KLVWild Nursery Rhymes
@@ -46,6 +46,7 @@ Checking Google Trends...
   [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
 
   [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs
+  [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs
 
 ───────────────────────────────────────────────────────
   Topic: ABC Song  Alphabet Practice | AZ Uppercase & Lowercase | Easy ABC Learning for Kids
@@ -100,26 +101,6 @@ Checking Google Trends...
   [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
   [TOPIC] Cleaned: 'Wild Animals For Kids'
   [hook] Style: countdown
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
-
-  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
-
-
-───────────────────────────────────────────────────────
-  Topic: Learn Colors (Colours) with Stacking Blocks  | Fun Baby & Toddler Learning with Lucas #shorts
-  Series: standalone | Category: colors
-───────────────────────────────────────────────────────
-
-[2] Generating script...
-  [TOPIC] Cleaned: 'Learn Colors Colours with Stacking Blocks'
-  [hook] Style: adventure
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'Learn Colors Colours with Stacking Blocks'
-  [hook] Style: adventure
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [FAIL] Script generation: Script generation failed on all providers: Error code: 410
