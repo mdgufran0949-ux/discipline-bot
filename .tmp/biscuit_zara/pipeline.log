@@ -14,38 +14,39 @@
 [biscuit_zara] Review complete.
 [1] Fetching trending kids topics...
 Scanning YouTube kids hashtags...
-  [#kidslearning] 5 titles
+  [#kidslearning] 6 titles
   [#nurseryrhymes] 1 titles
-  [#animalsforchildren] 11 titles
+  [#animalsforchildren] 13 titles
 Checking Google Trends...
 
-[OK] Best kids topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs
+[OK] Best kids topic: Animal Sounds for toddler| forest animals song for Children and Kids | KLVWild Nursery Rhymes
   [OK] 10 topics fetched
 
 [AUTH] Authenticating YouTube...
   [OK] YouTube ready
 
-  [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs
 
 ───────────────────────────────────────────────────────
-  Topic: Kids Learning Animals | Elephant for Preschool Kids #kidslearning  #animation #animalsforchildren
+  Topic: Animal Sounds for toddler| forest animals song for Children and Kids | KLVWild Nursery Rhymes
   Series: standalone | Category: animals
 ───────────────────────────────────────────────────────
 
 [2] Generating script...
-  [TOPIC] Cleaned: 'Elephant for Preschool Kids'
-  [hook] Style: story
+  [TOPIC] Cleaned: 'forest animals song for Children and Kids'
+  [hook] Style: countdown
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'Elephant for Preschool Kids'
-  [hook] Style: story
+  [TOPIC] Cleaned: 'forest animals song for Children and Kids'
+  [hook] Style: countdown
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [FAIL] Script generation: Script generation failed on all providers: Error code: 410
 
   [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
 
+  [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | NuNu Tv #kidslearning #childrensongs
+  [SKIP] Duplicate topic: Lets Go | Learn To Count | Nursery Rhymes & Kids Songs | #shorts #kidslearning #childrensongs
 
 ───────────────────────────────────────────────────────
   Topic: ABC Song  Alphabet Practice | AZ Uppercase & Lowercase | Easy ABC Learning for Kids
@@ -106,7 +107,6 @@ Checking Google Trends...
 
   [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
 
-  [SKIP] Duplicate topic: Animal Learning Game for Toddlers | Animals for Kids #shorts #farmanimals #kktv
 
 ───────────────────────────────────────────────────────
   Topic: Learn Animals Name for kids &  toddlers #animals #kidslearning #toddlerlearning #shorts
@@ -149,6 +149,26 @@ Checking Google Trends...
 
 
 ───────────────────────────────────────────────────────
+  Topic: Ten Wild Animals Song for Kids  | Learn Animal Names with 3D Cartoon Animals | BOO BOO
+  Series: standalone | Category: animals
+───────────────────────────────────────────────────────
+
+[2] Generating script...
+  [TOPIC] Cleaned: 'Learn Animal Names with 3D Cartoon Animals'
+  [hook] Style: wow_fact
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
+  [TOPIC] Cleaned: 'Learn Animal Names with 3D Cartoon Animals'
+  [hook] Style: wow_fact
+  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
+  [RETRY] Attempt 1 failed (Error code: 410), retrying...
+  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
+
+  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
+
+
+───────────────────────────────────────────────────────
   Topic: Learn to Read VOWEL SONG for KIDS #kidslearning #kidsongs
   Series: standalone | Category: songs
 ───────────────────────────────────────────────────────
@@ -161,26 +181,6 @@ Checking Google Trends...
   [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
   [TOPIC] Cleaned: 'Learn to Read VOWEL SONG for KIDS'
   [hook] Style: adventure
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [FAIL] Script generation: Script generation failed on all providers: Error code: 410
-
-  [ERROR] Topic failed: Script generation failed on all providers: Error code: 410
-
-
-───────────────────────────────────────────────────────
-  Topic: Animals Dream of being Party Animals | Song for kids | #youtubeshorts #shorts
-  Series: standalone | Category: animals
-───────────────────────────────────────────────────────
-
-[2] Generating script...
-  [TOPIC] Cleaned: 'Animals Dream of being Party Animals'
-  [hook] Style: challenge
-  [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
-  [RETRY] Attempt 1 failed (Error code: 410), retrying...
-  [RETRY] Script generation failed (Script generation failed on all providers: Error code: 410), retrying in 5s...
-  [TOPIC] Cleaned: 'Animals Dream of being Party Animals'
-  [hook] Style: challenge
   [RETRY] Attempt 1 failed (Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.), retrying...
   [RETRY] Attempt 1 failed (Error code: 410), retrying...
   [FAIL] Script generation: Script generation failed on all providers: Error code: 410
